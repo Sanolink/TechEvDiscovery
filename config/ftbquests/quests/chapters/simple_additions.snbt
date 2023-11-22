@@ -1,0 +1,2807 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simple_additions"
+	group: "12B18F44A38CD6E7"
+	icon: "upgradednetherite_items:echo_upgraded_netherite_totem"
+	id: "5F6CD42A8F615A8D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "techev:textures/misc/questsicons/netherite.png"
+		rotation: 0.0d
+		width: 17.15d
+		x: -12.5d
+		y: -9.952380952380942d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			id: "5A2ACA0D169AE3C4"
+			shape: "pentagon"
+			tasks: [{
+				id: "75D4DAB83E06C30F"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5A2ACA0D169AE3C4"]
+			id: "3EB633315D4766BD"
+			tasks: [{
+				id: "412A6459ACCE2F2C"
+				item: "glassential:glass_ethereal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3EB633315D4766BD"]
+			id: "1100091E5DC01CB7"
+			tasks: [{
+				id: "5DB4928079714FAF"
+				item: "glassential:glass_dark_ethereal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A2ACA0D169AE3C4"]
+			id: "7A356C0A524376B0"
+			tasks: [{
+				id: "3E5C65DDB554021D"
+				item: "glassential:glass_ghostly"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A2ACA0D169AE3C4"]
+			id: "317CDCEB5B557FE2"
+			tasks: [{
+				id: "0A3704AE29AD270E"
+				item: "glassential:glass_light"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A2ACA0D169AE3C4"]
+			id: "1C6C19D5F3005DD1"
+			tasks: [{
+				id: "18E29EA0CE27F1D1"
+				item: "glassential:glass_redstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A2ACA0D169AE3C4"]
+			id: "6399FED81A342EC3"
+			tasks: [{
+				id: "64DE2FC0CB8712E7"
+				item: "mob_grinding_utils:tinted_glass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			id: "6F7B8D624A817A68"
+			shape: "pentagon"
+			tasks: [{
+				id: "01D46F9548F65B39"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			id: "1985C2E4E2587096"
+			shape: "pentagon"
+			tasks: [{
+				id: "2140757E4A172081"
+				item: "trashcans:liquid_trash_can"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			id: "019AE2C046260318"
+			shape: "pentagon"
+			tasks: [{
+				id: "3472FF881BBEC2D3"
+				item: "trashcans:energy_trash_can"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6F7B8D624A817A68"
+				"019AE2C046260318"
+				"1985C2E4E2587096"
+			]
+			id: "5790AFE69FA202B7"
+			tasks: [{
+				id: "67B63FF1388201D6"
+				item: "trashcans:ultimate_trash_can"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1CA17CD83DB274E5"]
+			id: "046C17F4A90F07FC"
+			tasks: [{
+				id: "38AE5AA4E5ACEC7A"
+				item: "itemcollectors:basic_collector"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["046C17F4A90F07FC"]
+			id: "27447CFB5671DFFF"
+			tasks: [{
+				id: "70635675C0489A9D"
+				item: "itemcollectors:advanced_collector"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "687304B60190BD7F"
+			shape: "square"
+			tasks: [{
+				id: "3CD2DE30F89FBDBD"
+				item: "upgradednetherite:gold_essence"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "6F9EBC18E3AE298E"
+			shape: "square"
+			tasks: [{
+				id: "3BB7B9903521AB95"
+				item: "upgradednetherite:fire_essence"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "394E5DC3099D6112"
+			shape: "square"
+			tasks: [{
+				id: "7413263FA803B417"
+				item: "upgradednetherite:ender_essence"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "11B11884F7497301"
+			shape: "square"
+			tasks: [{
+				id: "5A034BE8F5D1FE8B"
+				item: "upgradednetherite:water_essence"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "384EBA2004D38DCA"
+			shape: "square"
+			tasks: [{
+				id: "220F425B8A31393F"
+				item: "upgradednetherite:wither_essence"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "6BB6BDADF7BBCFEA"
+			shape: "square"
+			tasks: [{
+				id: "79883A20FBBCB0CE"
+				item: "upgradednetherite:poison_essence"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "22F62213665230B0"
+			shape: "square"
+			tasks: [{
+				id: "329B5EEEFFD5DBFC"
+				item: "upgradednetherite:phantom_essence"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "55CA54E42A822E40"
+			shape: "square"
+			tasks: [{
+				id: "0B51B89F1242EBDC"
+				item: "upgradednetherite:feather_essence"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "76AC8C582812ACC1"
+			shape: "square"
+			tasks: [{
+				id: "6728FDC928845EAE"
+				item: "upgradednetherite:corrupt_essence"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "1EA2B27CC55BB8A6"
+			shape: "square"
+			tasks: [{
+				id: "0B022B200E9673F8"
+				item: "upgradednetherite:echo_essence"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["687304B60190BD7F"]
+			id: "39B5D72CB641B5E8"
+			size: 1.5d
+			tasks: [{
+				id: "35EEBEA07AC815C6"
+				item: "upgradednetherite:gold_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F9EBC18E3AE298E"]
+			id: "1A40E299776BF7A2"
+			size: 1.5d
+			tasks: [{
+				id: "762D63F22F4DB49B"
+				item: "upgradednetherite:fire_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EA2B27CC55BB8A6"]
+			id: "1155BC49EF4EC56F"
+			size: 1.5d
+			tasks: [{
+				id: "41EF4875712A69B6"
+				item: "upgradednetherite:echo_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["394E5DC3099D6112"]
+			id: "0B463C933DADE644"
+			size: 1.5d
+			tasks: [{
+				id: "0ECDDD53090551CB"
+				item: "upgradednetherite:ender_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76AC8C582812ACC1"]
+			id: "278AEC65AC6DE0EE"
+			size: 1.5d
+			tasks: [{
+				id: "65B4A2794BCD4BAE"
+				item: "upgradednetherite:corrupt_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6BB6BDADF7BBCFEA"]
+			id: "15636AEA81957CB3"
+			size: 1.5d
+			tasks: [{
+				id: "46F9942134E29C63"
+				item: "upgradednetherite:poison_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["384EBA2004D38DCA"]
+			id: "3086570C7DE4F849"
+			size: 1.5d
+			tasks: [{
+				id: "49E2FCF1DBEFD18D"
+				item: "upgradednetherite:wither_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["11B11884F7497301"]
+			id: "2F30FF328D3958CC"
+			size: 1.5d
+			tasks: [{
+				id: "701D4DD8EB2354F8"
+				item: "upgradednetherite:water_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55CA54E42A822E40"]
+			id: "794222234CD5D9C1"
+			size: 1.5d
+			tasks: [{
+				id: "5DD9C2133A4C7BBD"
+				item: "upgradednetherite:feather_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["22F62213665230B0"]
+			id: "3277AF15AE86F95C"
+			size: 1.5d
+			tasks: [{
+				id: "4A3A3BA7B591EA18"
+				item: "upgradednetherite:phantom_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "6E191E4A60A365E5"
+			tasks: [{
+				id: "6951AE703C1EA4CA"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "434B605D47B1FB04"
+			tasks: [{
+				id: "1D59F7AC54E468F4"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "796791D10199E2CB"
+			tasks: [{
+				id: "5ADB0F0AAC568E9D"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "6497ECB0126356CE"
+			tasks: [{
+				id: "432DD20CB3792637"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "7F94363133BA8BA0"
+			tasks: [{
+				id: "178BC2A493F6AED2"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "4E05C5EC3F281644"
+			tasks: [{
+				id: "4DB67D20620DABE3"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "7B5617406258DC2E"
+			tasks: [{
+				id: "50089FEF1AC72497"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "69938DDC42B71993"
+			tasks: [{
+				id: "5F4465F145DD22EC"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "78352FB646C6DA9A"
+			tasks: [{
+				id: "1A3F6CEAF8F4805A"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "523085FF527D7F83"
+			tasks: [{
+				id: "6029683D206BDCE8"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "6FAAE7B3BAF7E26A"
+			tasks: [{
+				id: "630F58F2BD928259"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "0433BC460F694C8E"
+			tasks: [{
+				id: "7AD48C159F4804B3"
+				item: "upgradednetherite_items:gold_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39B5D72CB641B5E8"]
+			id: "0E4DCBB4189AACAE"
+			tasks: [{
+				id: "1CBDBE774D05F311"
+				item: "upgradednetherite:gold_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "686F722E3B8B56E5"
+			tasks: [{
+				id: "3070204F33298020"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "3EF9929B9F331799"
+			tasks: [{
+				id: "5765823570FB18F6"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "5E28D4740F06F92E"
+			tasks: [{
+				id: "2EF0AE359A811C53"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "43F9374F01CF94A9"
+			tasks: [{
+				id: "61CCD5201513431F"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "62891D6DB523ECE1"
+			tasks: [{
+				id: "4418B476D95AED58"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "00B0C016CBBA0FB6"
+			tasks: [{
+				id: "01DA03982A86F26C"
+				item: "upgradednetherite_items:fire_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "2994FE3BF61A3FFC"
+			tasks: [{
+				id: "0697F0DF2A845D36"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "339E6B0C94542B31"
+			tasks: [{
+				id: "7D5A26904508CEB6"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "3AE1891C0B6FC3EC"
+			tasks: [{
+				id: "443CC0289E78E65C"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "6D6AF0E419E63088"
+			tasks: [{
+				id: "331A771C93698728"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "6D1FFACA710D85BC"
+			tasks: [{
+				id: "111447E8040F0A54"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "1A3C417B87A753EF"
+			tasks: [{
+				id: "2FE95105DAF6173E"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:fire_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A40E299776BF7A2"]
+			id: "460D369B122EE971"
+			tasks: [{
+				id: "176F8D98E70E080B"
+				item: "upgradednetherite:fire_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "1487331754237E97"
+			tasks: [{
+				id: "6AE2F9057A0944D7"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "6F983747939C15F0"
+			tasks: [{
+				id: "2DE4A823DD883192"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "0E3E63281FB568D9"
+			tasks: [{
+				id: "1B3371C03B6A278F"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "7F590B12394F8C5F"
+			tasks: [{
+				id: "6DDF553643A9E080"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "34AF3C3213B16989"
+			tasks: [{
+				id: "425CC82F5A58A19A"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "3F2CABD98BD36A2D"
+			tasks: [{
+				id: "012A4B717653BC2A"
+				item: "upgradednetherite_items:echo_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "1091A0679A89E7A2"
+			tasks: [{
+				id: "49E2F37DBA8CB155"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "0AD6C0D4145023CD"
+			tasks: [{
+				id: "52ED4DB1CCFFBF19"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "606F83066E48BF76"
+			tasks: [{
+				id: "52787BBEDC6463FE"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "7C85FA8DAE71E1DC"
+			tasks: [{
+				id: "465859D002856888"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "1713FC7714F5E65A"
+			tasks: [{
+				id: "7996C721624B1EE2"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "335555044A29E3E2"
+			tasks: [{
+				id: "6B164402FAA67B8D"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:echo_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1155BC49EF4EC56F"]
+			id: "583A4793AA233D3E"
+			tasks: [{
+				id: "681A1EA864DBD4E8"
+				item: "upgradednetherite:echo_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "0F965E21E3723C84"
+			tasks: [{
+				id: "569F79BDF600F162"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "02F66E2BA1432A2D"
+			tasks: [{
+				id: "1AC930BE733B6B25"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "4D336DF260CDE80A"
+			tasks: [{
+				id: "7CA7F473E82C54A2"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "2B22086DB7677C97"
+			tasks: [{
+				id: "6E000757053B4E7D"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "1A41716F860C7EF7"
+			tasks: [{
+				id: "348DDA99885DCDDE"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "40812D5103A6EF84"
+			tasks: [{
+				id: "04AB6C2AED38A4C0"
+				item: "upgradednetherite_items:ender_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "2CB5A106C6AA1FEB"
+			tasks: [{
+				id: "2F63371BE6A19578"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "5F218231BE010DFC"
+			tasks: [{
+				id: "52C8960EA81E2059"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "3CE54E96FCF4686C"
+			tasks: [{
+				id: "68D0726A9A3E98A6"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "0479A3A70FB3C89E"
+			tasks: [{
+				id: "2D719980CB7D7D78"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "4F54CF0DF2D336DD"
+			tasks: [{
+				id: "4733892885A22551"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "1BED6A8EC4297489"
+			tasks: [{
+				id: "7862193E5046DD20"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:ender_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "64544EEEE8322CEE"
+			tasks: [{
+				id: "12FCC98009E274CA"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "66FA18DA9612DC4D"
+			tasks: [{
+				id: "1B38FDE45DA3EAB7"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "6A1C952F2EAF5D8C"
+			tasks: [{
+				id: "5166DC4BDD816EE8"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "6C3098585429EA41"
+			tasks: [{
+				id: "139C420EE8811901"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "7215CF8DAF3F1947"
+			tasks: [{
+				id: "1DA1ED9419E5C7B5"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "3283162DFE1845FB"
+			tasks: [{
+				id: "0B0BDA4D135CF511"
+				item: "upgradednetherite_items:corrupt_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "1DCA2B5986766787"
+			tasks: [{
+				id: "25470534B279FB3B"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "1D3B888E8304F607"
+			tasks: [{
+				id: "7413FDA2D7F3ED1D"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "79515EB38982BCFC"
+			tasks: [{
+				id: "459EF7FED9025BE3"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "7FB8422C8B679AFF"
+			tasks: [{
+				id: "41A28CF4266D80AC"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "7FDE640FFBD895D7"
+			tasks: [{
+				id: "04E0D7626B933DA9"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "0930E45C1769A776"
+			tasks: [{
+				id: "473C32F94928CE07"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:corrupt_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "2EE578BF21FB386E"
+			tasks: [{
+				id: "4E6810B664D154C6"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:poison_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "2F7B641A3431DAC6"
+			tasks: [{
+				id: "0B67F230DA2F6428"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:poison_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "4A4FAC1CB44BBDB0"
+			tasks: [{
+				id: "51AC271F4D282648"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:poison_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "1DDBECA614262AEA"
+			tasks: [{
+				id: "3764792FF17484EE"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:poison_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "2B035E3F5083B091"
+			tasks: [{
+				id: "2161269DC033A4CE"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:poison_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "7D195AD15FD0376E"
+			tasks: [{
+				id: "54ECD39A1114972E"
+				item: "upgradednetherite_items:poison_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "19293FAAED7AF4B0"
+			tasks: [{
+				id: "737AB7D5F78EE7D3"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:poison_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "5B05EA140528797C"
+			tasks: [{
+				id: "69374BA73E922E51"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:poison_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "47101DE1F9F93B38"
+			tasks: [{
+				id: "1CD0FD73E5999FA5"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:poison_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "43C4EEE5321582EA"
+			tasks: [{
+				id: "735CB832DF934536"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:poison_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["15636AEA81957CB3"]
+			id: "0068415ED9258F01"
+			tasks: [{
+				id: "1D296E9071B0F59F"
+				item: "upgradednetherite:poison_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["278AEC65AC6DE0EE"]
+			id: "2EF862F2B1F4F6F8"
+			tasks: [{
+				id: "18658E4215AE3369"
+				item: "upgradednetherite:corrupt_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "7B0AB7801BFDF0EE"
+			shape: "hexagon"
+			tasks: [{
+				id: "2CCC2DE65D355EDE"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:wither_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "6F427AF5161FD393"
+			shape: "hexagon"
+			tasks: [{
+				id: "50F68386A12892DE"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:wither_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "21C2A54A202FB3B2"
+			shape: "hexagon"
+			tasks: [{
+				id: "5CF3291D96513F7E"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:wither_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "2696ADB6F52D7C2A"
+			shape: "hexagon"
+			tasks: [{
+				id: "37787712617E1576"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:wither_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "4A1DCEAE9FE722FD"
+			tasks: [{
+				id: "02B7A9BB47555A94"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:wither_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "2DE163574E957F91"
+			tasks: [{
+				id: "1E2625A67AAF1E5E"
+				item: "upgradednetherite_items:wither_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "5242EBD28CD952E2"
+			tasks: [{
+				id: "065A354FC2A6E093"
+				item: "upgradednetherite:wither_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "1330E405D9A6ADC5"
+			tasks: [{
+				id: "57EC576436D5D343"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:wither_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "17D01AC764FD0B71"
+			tasks: [{
+				id: "62E6DD5DF1C216FB"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:wither_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "0E4DCDBADCC368D7"
+			tasks: [{
+				id: "635CBD361DBF0104"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:wither_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3086570C7DE4F849"]
+			id: "65489FEABD33F329"
+			tasks: [{
+				id: "4C240D4A843DFD3F"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:wither_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "37875083980D68A8"
+			tasks: [{
+				id: "08AC83CE0804F4F1"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "15CF2921E5F982EB"
+			tasks: [{
+				id: "1BD459A0DF6CCF31"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "2C2F8DC8673C3A1F"
+			tasks: [{
+				id: "6B59555143A6A92C"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "284B5DF701C46E4D"
+			tasks: [{
+				id: "79273D663A12F154"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "378867A63DB4945A"
+			tasks: [{
+				id: "7C3B5345B448D351"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "2FFFCE34AEDF6C8C"
+			tasks: [{
+				id: "3B3E688EB2A4EE0D"
+				item: "upgradednetherite_items:water_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "75DCC2172AE05D83"
+			tasks: [{
+				id: "31ECD2A48E356BE0"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "2D3BB8AB947DA639"
+			tasks: [{
+				id: "7157F80FD6B9DBB5"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "79DDEB9CB3FA7EDE"
+			tasks: [{
+				id: "0722FDFCE9AB42B4"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "1E2C41D9071D9D28"
+			tasks: [{
+				id: "566C1DFE8D150DF3"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "719E2FB06A2400FD"
+			tasks: [{
+				id: "7EFBE0C6F23F69CB"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "7E405E82904ACD99"
+			tasks: [{
+				id: "38A7C7E624BAE001"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:water_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F30FF328D3958CC"]
+			id: "1BC305B7F16BD6C2"
+			tasks: [{
+				id: "12333D466193DD8E"
+				item: "upgradednetherite:water_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "6AC91DB9DA3357B2"
+			tasks: [{
+				id: "00E866FF9F9398FD"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "4F5C14A71D6138B7"
+			tasks: [{
+				id: "5DC444CD094DC91F"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "558B764F493AE829"
+			tasks: [{
+				id: "1FD938A997E86072"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "5B7D25B069D94D6C"
+			tasks: [{
+				id: "69198491B0F56404"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "2738B7BF28FA8661"
+			tasks: [{
+				id: "3EC39A23DE87B0E8"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "7A78C998C3D277E1"
+			tasks: [{
+				id: "654ED200A8B7652C"
+				item: "upgradednetherite_items:feather_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "3F22702ECEB5691E"
+			tasks: [{
+				id: "16E7ED54A24E5F55"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "41E835E5C0E6C943"
+			tasks: [{
+				id: "4D41C658AF07AA25"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "304D4DEF215FF557"
+			tasks: [{
+				id: "2D7B2BC5AFF79F4E"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "03CE31495B0250FF"
+			tasks: [{
+				id: "3EC5C049A0EAF7D8"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "3B864C4D999DF9A7"
+			tasks: [{
+				id: "632130085C45ECF1"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "3A6390325AF281AD"
+			tasks: [{
+				id: "07E04F7B1BB4A280"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:feather_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["794222234CD5D9C1"]
+			id: "382F8B1A14500D3F"
+			tasks: [{
+				id: "6297F7AB77569369"
+				item: "upgradednetherite:feather_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "62599EBB54FA8DA4"
+			tasks: [{
+				id: "53A1010DF5855D21"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "14C1D1B284A84534"
+			tasks: [{
+				id: "46068C613C4288C1"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "5D2CB6AD6A1B514F"
+			tasks: [{
+				id: "1112C090CFFF6560"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "34A7D27D2769B1E7"
+			tasks: [{
+				id: "34BFF03ACAE3DDEB"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "0497ED6A1F296984"
+			tasks: [{
+				id: "4514936A1C0BEC63"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "5AF76C996C1DC3E7"
+			tasks: [{
+				id: "6E4D0A8C10C19E5B"
+				item: "upgradednetherite_items:phantom_upgraded_netherite_totem"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "5FC61C50274FF9F2"
+			tasks: [{
+				id: "7333B11C63AA8DD8"
+				item: "upgradednetherite:phantom_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "5B867FCC308D8B96"
+			tasks: [{
+				id: "050345E5725BD819"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "75EB11B31F9882E4"
+			tasks: [{
+				id: "35748E692D82EB7C"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "164C7DC591987234"
+			tasks: [{
+				id: "021A3A80FB14BC5D"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "33D899D4EE12B10F"
+			tasks: [{
+				id: "360169A6B70E5E45"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "4D7BF65640205EA9"
+			tasks: [{
+				id: "2B2B22D82F9FB1F4"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3277AF15AE86F95C"]
+			id: "52673B54F8EE6858"
+			tasks: [{
+				id: "6F564C11EC5EF2C7"
+				item: {
+					Count: 1b
+					id: "upgradednetherite:phantom_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0B463C933DADE644"]
+			id: "262341884DFF8F6E"
+			tasks: [{
+				id: "2328FC96080DA64C"
+				item: "upgradednetherite:ender_upgraded_netherite_horse_armor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			id: "37C3E19215AADF71"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "75A3D678C637CEBB"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06FADD0F24B42C88"]
+			id: "115CC491637E4C9D"
+			tasks: [{
+				id: "20122295267DF7C8"
+				item: "mob_grinding_utils:fan_upgrade_width"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06FADD0F24B42C88"]
+			id: "3F36D493E724A5E3"
+			tasks: [{
+				id: "62F023C5E4588FF8"
+				item: "mob_grinding_utils:fan_upgrade_height"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06FADD0F24B42C88"]
+			id: "117865CDAA0576B2"
+			tasks: [{
+				id: "797CA3855968160F"
+				item: "mob_grinding_utils:fan_upgrade_speed"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A6E7730E2D828D9"]
+			id: "76C57480C43190B6"
+			tasks: [{
+				id: "7F57002E26E18A98"
+				item: "mob_grinding_utils:absorption_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1CA17CD83DB274E5"]
+			id: "3A6E7730E2D828D9"
+			tasks: [{
+				id: "3B707E69B0A0379F"
+				item: "mob_grinding_utils:absorption_hopper"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0806ADC61C8653A7"]
+			id: "06FADD0F24B42C88"
+			tasks: [{
+				id: "2C9F1F6F1D163712"
+				item: "mob_grinding_utils:fan"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0806ADC61C8653A7"]
+			id: "1CA17CD83DB274E5"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "1CCD768FFEA321A2"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1CA17CD83DB274E5"]
+			id: "6CE2DC83721871C1"
+			tasks: [{
+				id: "13BD4B6534D96445"
+				item: "mob_grinding_utils:saw_upgrade_arthropod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1CA17CD83DB274E5"]
+			id: "1E54FFFBA654DA2B"
+			tasks: [{
+				id: "0655221EE60249C1"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1CA17CD83DB274E5"]
+			id: "38F6C81CE7972805"
+			tasks: [{
+				id: "290DDE5101AAB973"
+				item: "mob_grinding_utils:saw_upgrade_fire"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1CA17CD83DB274E5"]
+			id: "08CD90ACF0D52F15"
+			tasks: [{
+				id: "11D0F36BCD297450"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1CA17CD83DB274E5"]
+			id: "33159953B0378BBD"
+			tasks: [{
+				id: "5FA133F6C7C7ECE7"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1CA17CD83DB274E5"]
+			id: "2986EDAF9AC2C1E6"
+			tasks: [{
+				id: "68ED3EA457034A9F"
+				item: "mob_grinding_utils:saw_upgrade_smite"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0806ADC61C8653A7"]
+			id: "7A5F686B6CF06007"
+			tasks: [{
+				id: "13DD2ECBE2051A2A"
+				item: "mob_grinding_utils:entity_spawner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0806ADC61C8653A7"]
+			id: "2D8031EFE3A960D5"
+			tasks: [{
+				id: "3EB337B064DAF751"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["21C7FCCBB6E73C1D"]
+			id: "1E2DD27D0CB51071"
+			tasks: [{
+				id: "4C7F973DB4C15961"
+				item: "mob_grinding_utils:xp_solidifier_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["450835FFDF409FE5"]
+			id: "21C7FCCBB6E73C1D"
+			tasks: [{
+				id: "350DA56567FA8D0D"
+				item: "mob_grinding_utils:xpsolidifier"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A5F686B6CF06007"]
+			id: "7687A195DD32AEC7"
+			tasks: [{
+				id: "7591D7627287504B"
+				item: "mob_grinding_utils:spawner_upgrade_width"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A5F686B6CF06007"]
+			id: "4A0F07A540D719B3"
+			tasks: [{
+				id: "61A2A833EA81378B"
+				item: "mob_grinding_utils:spawner_upgrade_height"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25720A08771EA1F5"]
+			id: "607EDD601E10ACD8"
+			tasks: [{
+				id: "36E4A52DE9EB1E26"
+				item: "mob_grinding_utils:rotten_egg"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["24225AFB8830EB9A"]
+			id: "312FF870F9CD305D"
+			tasks: [{
+				id: "1CD4C81124875B4F"
+				item: "mob_grinding_utils:golden_egg"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0806ADC61C8653A7"]
+			id: "1D3ACAED4368BA9A"
+			tasks: [
+				{
+					id: "05E6BB2A604A20B4"
+					item: "mob_grinding_utils:mob_swab"
+					type: "item"
+				}
+				{
+					id: "0FD7DD7A53B1E867"
+					item: "mob_grinding_utils:mob_swab_used"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D3ACAED4368BA9A"]
+			id: "2F9861058B39FE03"
+			tasks: [{
+				id: "640FFC8B891411B5"
+				item: "mob_grinding_utils:gm_chicken_feed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0806ADC61C8653A7"]
+			id: "25720A08771EA1F5"
+			tasks: [{
+				id: "5DEAB90ABEDD9C8C"
+				item: "mob_grinding_utils:gm_chicken_feed_cursed"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0806ADC61C8653A7"]
+			id: "24225AFB8830EB9A"
+			tasks: [{
+				id: "4E9225E28702C195"
+				item: "mob_grinding_utils:nutritious_chicken_feed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			id: "0806ADC61C8653A7"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "666AD36B5C9E5185"
+				item: "mob_grinding_utils:spikes"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0806ADC61C8653A7"]
+			id: "450835FFDF409FE5"
+			tasks: [{
+				id: "0A0D247353E727B4"
+				item: "mob_grinding_utils:tank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["450835FFDF409FE5"]
+			id: "7C620E71999973C4"
+			tasks: [{
+				id: "612A271C8EAA547F"
+				item: "mob_grinding_utils:tank_sink"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["450835FFDF409FE5"]
+			id: "5D55485D4A137725"
+			tasks: [{
+				id: "2B782B16E33F1569"
+				item: "mob_grinding_utils:xp_tap"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["450835FFDF409FE5"]
+			id: "602FFD869FFB2874"
+			tasks: [{
+				id: "5AD3DD797B3315B2"
+				item: "mob_grinding_utils:jumbo_tank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0806ADC61C8653A7"]
+			id: "13B9F28E26A0078B"
+			tasks: [{
+				id: "20DB0AA6FE2E7615"
+				item: "mob_grinding_utils:entity_conveyor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+	title: "Little Additions"
+}

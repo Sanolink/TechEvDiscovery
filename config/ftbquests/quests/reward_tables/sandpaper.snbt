@@ -1,0 +1,33 @@
+{
+	icon: {
+		Count: 1b
+		id: "create:sand_paper"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5A6E1D488E19A7E1"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "create:sand_paper"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create:red_sand_paper"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Sandpaper"
+}

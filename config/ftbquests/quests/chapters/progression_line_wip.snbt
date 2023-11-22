@@ -1,0 +1,407 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression_line_wip"
+	group: ""
+	icon: "create:brass_hand"
+	id: "203178D0EE4C1037"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "techev:textures/misc/questsicons/progression.png"
+		rotation: 0.0d
+		width: 12.3974359d
+		x: 4.400641024999999d
+		y: -3.8333333333333357d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"650779D3343EAEB0"
+				"7E3D43C44C52D9E9"
+				"7960E8764050AA1E"
+			]
+			dependency_requirement: "all_started"
+			hide: true
+			icon: "create_things_and_misc:magnifying_glass"
+			id: "509461C4B7CFE7C8"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "63382D458695C4A1"
+					ignore_reward_blocking: true
+					stage: "two"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p two"
+					id: "60B975385FDF39F2"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Welcome To Age 2 !"
+			tasks: [{
+				id: "2E49F745454B4DCE"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Shock Therapy"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74C9143F2AE3BB45"
+				"5567056360883434"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "650779D3343EAEB0"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Exploring World\"."
+			tasks: [{
+				id: "5AE68F6AC3DF77B7"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Exploring World"
+			x: 3.75d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"74C9143F2AE3BB45"
+				"62B743A30271DA26"
+			]
+			icon: "farmersdelight:rice_roll_medley_block"
+			id: "7960E8764050AA1E"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Farmer's Life\"."
+			tasks: [{
+				id: "097C581EE8928AA1"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Farmer's Life"
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74C9143F2AE3BB45"
+				"0B6C02F1BC7A7FFF"
+			]
+			icon: "create:mechanical_arm"
+			id: "7E3D43C44C52D9E9"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Create\"."
+			tasks: [{
+				id: "391A0432D39381BC"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Create"
+			x: 3.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F8C4C01C5E75A8B"]
+			hide: true
+			icon: "minecraft:spyglass"
+			id: "74C9143F2AE3BB45"
+			rewards: [
+				{
+					id: "7FFB15AC6D99E5BE"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "395F312E95DC7074"
+					ignore_reward_blocking: true
+					stage: "one"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @p one"
+					id: "38038944795ECAE5"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Welcome To Age 1 !"
+			tasks: [{
+				id: "0E619717F1B9964D"
+				type: "checkmark"
+			}]
+			title: "First Discovery"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74C9143F2AE3BB45"]
+			description: [
+				"-Artifacts"
+				"-Apotheosis"
+				"-Comforts"
+				"-Construction Wand"
+				"-Create"
+				"-Explorer's Compass"
+				"-Farmer's Delight"
+				"-Macaw's Mods"
+				"-MrCrayfish's Furniture"
+				"-Naturalist"
+				"-Nature's Compass"
+				"-Simply Light"
+				"-Tool Belt"
+				"-Joy Of Painting"
+				"-Immersive Paintings"
+				"-Waystones"
+			]
+			icon: "create:schematic_and_quill"
+			id: "46C76F3EE49B01DA"
+			rewards: [{
+				id: "7F2396E40D87399C"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "For Age 1."
+			tasks: [{
+				id: "356E81408BBC09C7"
+				title: "Age 1 Mod-List"
+				type: "checkmark"
+			}]
+			title: "Mods Unlocked List"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"509461C4B7CFE7C8"
+				"05F4963ECFBC8E9A"
+			]
+			icon: {
+				Count: 1b
+				id: "create_sa:flamethrower"
+				tag: { }
+			}
+			id: "0A43A2A87CBE5983"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Create Addons\"."
+			tasks: [{
+				id: "4D79485F9CD731CF"
+				type: "checkmark"
+			}]
+			title: "Create Addons"
+			x: 11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"509461C4B7CFE7C8"
+				"0721C4E5BCE458F9"
+			]
+			icon: "immersiveengineering:diesel_generator"
+			id: "755B4D0F8227F379"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Immersive Engineering\"."
+			tasks: [{
+				id: "003657112C515986"
+				type: "checkmark"
+			}]
+			x: 11.25d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"509461C4B7CFE7C8"
+				"643C692B62A1C6EB"
+			]
+			icon: "storagenetwork:request"
+			id: "277A5C4810D2671E"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Simple Storage\"."
+			tasks: [{
+				id: "699DEC85CD9007C2"
+				type: "checkmark"
+			}]
+			title: "Simple Storage"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"509461C4B7CFE7C8"
+				"30C000FEDAEE3B24"
+			]
+			icon: "create_confectionery:gingerbread_man"
+			id: "1C4850214C2051E7"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Farmer's Life | Part 2\"."
+			tasks: [{
+				id: "3897AC45A61FEE3D"
+				type: "checkmark"
+			}]
+			title: "Farmer's Life | Part 2"
+			x: 11.25d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"509461C4B7CFE7C8"
+				"1C121BF832F74302"
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "0E03A6DF5661AD92"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Twilight Forest\"."
+			tasks: [{
+				id: "55272ECE75F73C61"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"509461C4B7CFE7C8"
+				"1CA17CD83DB274E5"
+			]
+			icon: "mob_grinding_utils:saw"
+			id: "1AA7F8E25CA2ADB7"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Little Additions\"."
+			tasks: [{
+				id: "79AC59726070678D"
+				type: "checkmark"
+			}]
+			title: "Little Additions"
+			x: 12.75d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"509461C4B7CFE7C8"
+				"7D41E3E56871B3B8"
+			]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "4FDD7B306D39E759"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Ars Nouveau\"."
+			tasks: [{
+				id: "78C302D3DE263D61"
+				type: "checkmark"
+			}]
+			title: "Ars Nouveau"
+			x: 12.75d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"277A5C4810D2671E"
+				"4FDD7B306D39E759"
+				"1AA7F8E25CA2ADB7"
+				"1C4850214C2051E7"
+				"0A43A2A87CBE5983"
+				"0E03A6DF5661AD92"
+				"755B4D0F8227F379"
+			]
+			dependency_requirement: "all_started"
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/missing_item.png"
+				}
+			}
+			id: "741609B371A2687A"
+			rewards: [{
+				auto: "invisible"
+				id: "75BF4DB630EC5101"
+				ignore_reward_blocking: true
+				stage: "three"
+				type: "gamestage"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Welcome To Age 3 !"
+			tasks: [{
+				id: "148C416EF36B6CD4"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "(WIP)"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			description: [
+				"-Aquaculture 2"
+				"-Ars Nouveau"
+				"-Botany Pots"
+				"-Create Addons (@create in JEI)"
+				"-Framed Compacting Drawers"
+				"-Glassential"
+				"-Immersive Engineering"
+				"-Iron Chests"
+				"-Iron Furnaces"
+				"-Item Collectors"
+				"-Mob Grinding Utils"
+				"-Simple Storage Network"
+				"-Sophisticated Backpacks"
+				"-Storage Drawers"
+				"-The Twilight Forest"
+				"-Trash Cans"
+				"-Upgraded Netherite"
+				"-Upgraded Netherite : Items"
+			]
+			icon: "create:schematic_and_quill"
+			id: "5A3A89297C92A663"
+			rewards: [{
+				id: "562166E4A7E89211"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "For Age 2."
+			tasks: [{
+				id: "3F7B61B744513D0A"
+				title: "Mods Unlocked List"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.25d
+		}
+	]
+	title: "&l&bProgression Line"
+}

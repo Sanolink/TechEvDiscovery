@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 {
 	"x": -10,
@@ -13,4 +14,21 @@
 	"texture": "packmenu:textures/gui/reload.png",
 	"action": "RELOAD"
 }
+=======
+/*
+{
+	"x": -10,
+	"y": 116,
+	"width": 20,
+	"height": 20,
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 20,
+	"texHeight": 40,
+	"texture": "packmenu:textures/gui/reload.png",
+	"action": "RELOAD"
+}
+>>>>>>> 29a9c4bfceae423157d3d983c95b32c1dfc7b89d
 */

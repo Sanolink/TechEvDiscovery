@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"x": -100,
 	"y": 44,
@@ -6,4 +7,14 @@
 	"langKey": "menu.multiplayer",
 	"action": "OPEN_GUI",
 	"data": "MULTIPLAYER"
+=======
+{
+	"x": -100,
+	"y": 44,
+	"width": 200,
+	"height": 20,
+	"langKey": "menu.multiplayer",
+	"action": "OPEN_GUI",
+	"data": "MULTIPLAYER"
+>>>>>>> 29a9c4bfceae423157d3d983c95b32c1dfc7b89d
 }

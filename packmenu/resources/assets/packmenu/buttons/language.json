@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"x": 104,
 	"y": 68,
@@ -12,4 +13,20 @@
 	"widgets": false,
 	"action": "OPEN_GUI",
 	"data": "LANGUAGE"
+=======
+{
+	"x": 104,
+	"y": 68,
+	"width": 20,
+	"height": 20,
+	"u": 0,
+	"v": 106,
+	"hoverU": 0,
+	"hoverV": 126,
+	"texWidth": 256,
+	"texHeight": 256,
+	"widgets": false,
+	"action": "OPEN_GUI",
+	"data": "LANGUAGE"
+>>>>>>> 29a9c4bfceae423157d3d983c95b32c1dfc7b89d
 }

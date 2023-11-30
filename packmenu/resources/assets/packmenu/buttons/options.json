@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"x": 2,
 	"y": 68,
@@ -6,4 +7,14 @@
 	"langKey": "menu.options",
 	"action": "OPEN_GUI",
 	"data": "OPTIONS"
+=======
+{
+	"x": 2,
+	"y": 68,
+	"width": 98,
+	"height": 20,
+	"langKey": "menu.options",
+	"action": "OPEN_GUI",
+	"data": "OPTIONS"
+>>>>>>> 29a9c4bfceae423157d3d983c95b32c1dfc7b89d
 }

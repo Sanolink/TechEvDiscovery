@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	"x": -100,
 	"y": 68,
@@ -7,14 +6,4 @@
 	"langKey": "fml.menu.mods",
 	"action": "OPEN_GUI",
 	"data": "MODS"
-=======
-{
-	"x": -100,
-	"y": 68,
-	"width": 98,
-	"height": 20,
-	"langKey": "fml.menu.mods",
-	"action": "OPEN_GUI",
-	"data": "MODS"
->>>>>>> 29a9c4bfceae423157d3d983c95b32c1dfc7b89d
 }

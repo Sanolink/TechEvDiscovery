@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	"x": -100,
 	"y": 20,
@@ -7,14 +6,4 @@
 	"langKey": "menu.singleplayer",
 	"action": "OPEN_GUI",
 	"data": "SINGLEPLAYER"
-=======
-{
-	"x": -100,
-	"y": 20,
-	"width": 200,
-	"height": 20,
-	"langKey": "menu.singleplayer",
-	"action": "OPEN_GUI",
-	"data": "SINGLEPLAYER"
->>>>>>> 29a9c4bfceae423157d3d983c95b32c1dfc7b89d
 }

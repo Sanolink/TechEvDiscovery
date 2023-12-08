@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	"x": -50,
 	"y": 92,
@@ -6,13 +5,4 @@
 	"height": 20,
 	"langKey": "menu.quit",
 	"action": "QUIT"
-=======
-{
-	"x": -50,
-	"y": 92,
-	"width": 98,
-	"height": 20,
-	"langKey": "menu.quit",
-	"action": "QUIT"
->>>>>>> 29a9c4bfceae423157d3d983c95b32c1dfc7b89d
 }

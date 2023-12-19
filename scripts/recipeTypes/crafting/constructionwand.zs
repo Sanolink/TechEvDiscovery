@@ -5,25 +5,25 @@ Last Modification : 1.1.0
 
 #Stone Core
 
-mods.recipestages.Recipes.addShaped("one", "core_stone", <item:kubejs:core_stone>, [
+craftingTable.addShaped("core_stone", <item:kubejs:core_stone>, [
     [I.air,<item:minecraft:stone>,<item:minecraft:stone>],
     [<item:minecraft:stone>,<item:minecraft:cobblestone>,<item:minecraft:stone>],
     [<item:minecraft:stone>,<item:minecraft:stone>,I.air]]);
 
 #Iron Core
-mods.recipestages.Recipes.addShaped("one", "core_iron", <item:kubejs:core_iron>, [
+craftingTable.addShaped("core_iron", <item:kubejs:core_iron>, [
     [I.air,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>],
     [<item:minecraft:iron_ingot>,<item:minecraft:iron_nugget>,<item:minecraft:iron_ingot>],
     [<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,I.air]]);
 
 #Diamond Core
-mods.recipestages.Recipes.addShaped("one", "core_diamond", <item:kubejs:core_diamond>, [
+craftingTable.addShaped("core_diamond", <item:kubejs:core_diamond>, [
     [I.air,<item:minecraft:diamond>,<item:minecraft:diamond>],
     [<item:minecraft:diamond>,<item:diamond_nuggets:diamond_nugget>,<item:minecraft:diamond>],
     [<item:minecraft:diamond>,<item:minecraft:diamond>,I.air]]);
 
 #Infinity Core
-mods.recipestages.Recipes.addShaped("one", "core_infinity", <item:kubejs:core_infinity>, [
+craftingTable.addShaped("core_infinity", <item:kubejs:core_infinity>, [
     [I.air,<item:byg:pendorite_ingot>,<item:apotheosis:infused_breath>],
     [<item:byg:pendorite_ingot>,<item:minecraft:nether_star>,<item:byg:pendorite_ingot>],
     [<item:apotheosis:infused_breath>,<item:byg:pendorite_ingot>,I.air]]);

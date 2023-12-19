@@ -4,10 +4,10 @@ Last Modification : 1.1.0
 */
 
 #Remove Dusts, Plates and Wires by Hammer and Cutters
-craftingTable.removeByRegex("recipestages:immersiveengineering_crafting/raw_hammercrushing_.*");
-craftingTable.removeByRegex("recipestages:immersiveengineering_crafting/hammercrushing_.*");
-craftingTable.removeByRegex("recipestages:immersiveengineering_crafting/plate_.*_hammering");
-craftingTable.removeByRegex("recipestages:immersiveengineering_crafting/wire_.*");
-craftingTable.removeByName("recipestages:immersiveengineering_crafting/stick_iron");
-craftingTable.removeByName("recipestages:immersiveengineering_crafting/stick_aluminum");
-craftingTable.removeByName("recipestages:immersiveengineering_crafting/stick_steel");
+craftingTable.removeByRegex("immersiveengineering:crafting/raw_hammercrushing_.*");
+craftingTable.removeByRegex("immersiveengineering:crafting/hammercrushing_.*");
+craftingTable.removeByRegex("immersiveengineering:crafting/plate_.*_hammering");
+craftingTable.removeByRegex("immersiveengineering:crafting/wire_.*");
+craftingTable.removeByName("immersiveengineering:crafting/stick_iron");
+craftingTable.removeByName("immersiveengineering:crafting/stick_aluminum");
+craftingTable.removeByName("immersiveengineering:crafting/stick_steel");

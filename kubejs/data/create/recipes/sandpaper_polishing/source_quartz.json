@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "create:source_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:polished_source_quartz"
+    }
+  ]
+}

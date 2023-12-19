@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:small_blue_quartz_tiles"
+    }
+  ],
+  "result": {
+    "item": "create:blue_quartz_tiles"
+  }
+}

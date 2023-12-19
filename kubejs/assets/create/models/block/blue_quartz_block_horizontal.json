@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "create:block/palettes/blue_quartz_top",
+    "side": "create:block/palettes/blue_quartz_side"
+  }
+}

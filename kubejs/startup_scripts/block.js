@@ -1,7 +1,6 @@
-/* 
-Code By SanoLink For TechEV - Discovery
-Last Modification : 1.1.0 
-*/
+//Code By SanoLink For TechEV - Discovery
+//Last Modification : 1.1.0 
+
 
 Platform.mods.kubejs.name = 'TechEv || Discovery'
 

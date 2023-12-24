@@ -1,0 +1,32 @@
+{
+  "type": "crafting_shaped",
+  "group": "tools",
+  "pattern": [
+    "SGS",
+    "NCA",
+    "SHS"
+  ],
+  "key": {
+    "S": {
+      "tag": "saplings"
+    },
+    "G": {
+      "item": "naturalist:glow_goop"
+    },
+    "N": {
+      "item": "naturalist:snail_shell"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "A": {
+      "item": "naturalist:antler"
+    },
+    "H": {
+      "item": "naturalist:chrysalis"
+    }
+  },
+  "result": {
+    "item": "naturescompass:naturescompass"
+  }
+}

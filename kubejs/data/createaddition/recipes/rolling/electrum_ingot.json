@@ -4,7 +4,7 @@
       	"tag": "forge:ingots/electrum"
 	},
 	"result": {
-		"item": "createaddition:electrum_rod",
+		"item": "alltheores:electrum_rod",
 		"count": 1
 	}
 }

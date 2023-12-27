@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "aeza"
 	group: "6E6EAE103F859B8D"
-	icon: "minecraft:spyglass"
+	icon: "minecraft:ender_eye"
 	id: "65D4062281B5E14D"
 	images: [{
 		click: ""
@@ -21,14 +21,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["74C9143F2AE3BB45"]
+			dependencies: ["35798B290A1A4F7F"]
 			description: ["Like Vanilla, chop your first tree."]
-			hide: true
 			id: "4169F3CB261CE8D0"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7C995E8E8567BB13"
-				table_id: 362777310524975058L
+				id: "727C29B4E0DBEA4A"
+				table_id: 9129144780584384388L
 				type: "choice"
 			}]
 			shape: "pentagon"
@@ -224,7 +223,7 @@
 		}
 		{
 			dependencies: ["32EBA25AC1E569E9"]
-			description: ["Trade with piglins please..."]
+			description: ["Hint -> Piglins"]
 			id: "754676DFD4E02930"
 			rewards: [{
 				count: 4
@@ -1332,7 +1331,7 @@
 		}
 		{
 			dependencies: ["4169F3CB261CE8D0"]
-			description: ["Actually, you don't have enough knowledge of the sea to fish, so go explore the Ocean to discover mysteries !"]
+			description: ["Explore the Ocean to discover mysteries !"]
 			icon: {
 				Count: 1b
 				id: "minecraft:fishing_rod"

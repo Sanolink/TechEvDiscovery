@@ -16,8 +16,8 @@ ServerEvents.recipes(event => {
                 { item: "minecraft:flint", chance: 0.25 },
                 { item: "minecraft:iron_nugget", chance: 0.1 },
                 { item: "minecraft:gold_nugget", chance: 0.1 },
-                { item: "create:copper_nugget", chance: 0.1 },
-                { item: "create:zinc_nugget", chance: 0.1 },
+                { item: "alltheores:copper_nugget", chance: 0.1 },
+                { item: "alltheores:zinc_nugget", chance: 0.1 },
                 { item: "diamond_nuggets:diamond_nugget", chance: 0.0225 }
             ]
         },

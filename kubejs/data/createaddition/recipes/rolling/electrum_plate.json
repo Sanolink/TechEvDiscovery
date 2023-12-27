@@ -4,7 +4,7 @@
       	"tag": "forge:plates/electrum"
 	},
 	"result": {
-		"item": "createaddition:electrum_wire",
+		"item": "immersiveengineering:wire_electrum",
 		"count": 1
 	}
 }

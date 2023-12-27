@@ -6,33 +6,18 @@
 	group: ""
 	icon: "minecraft:recovery_compass"
 	id: "502E3A665C2A3281"
-	images: [
-		{
-			click: ""
-			corner: false
-			dependency: "5605A2567A1A65A3"
-			dev: false
-			height: 6.0d
-			hover: [ ]
-			image: "techev:textures/misc/questsicons/gear.png"
-			rotation: 20.0d
-			width: 6.0d
-			x: 5.0d
-			y: 2.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 8.0d
-			hover: [ ]
-			image: "techev:textures/misc/questsicons/gear.png"
-			rotation: 0.0d
-			width: 8.0d
-			x: 0.0d
-			y: 0.5d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 8.0d
+		hover: [ ]
+		image: "techev:textures/misc/questsicons/gear.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.0d
+		y: 0.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -46,26 +31,11 @@
 				}
 			}
 			id: "213A3F1A58539F79"
-			rewards: [
-				{
-					id: "2C4F8992C6EA6BE9"
-					item: "ftbquests:book"
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					id: "0AD60A2EE68415B7"
-					ignore_reward_blocking: true
-					stage: "zero"
-					type: "gamestage"
-				}
-				{
-					auto: "invisible"
-					command: "/gamestage add @p zero"
-					id: "2DEC88A767926173"
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "2C4F8992C6EA6BE9"
+				item: "ftbquests:book"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "4B79912DA9338FD8"
@@ -145,7 +115,7 @@
 		{
 			dependencies: ["213A3F1A58539F79"]
 			description: [
-				"TechEv || Discovery is a challenging that will introduce you to many mods in depth."
+				"TechEv || Discovery is a challenging modpack that will introduce you to many mods in depth."
 				"You will need to complete the end game of a mod in order to unlock the next age."
 				"You will start with a semi vanilla world with a world with few technologies but the more you advance in the pack, the more you will discover powerful mods, and the more your base will improve, you will have a real feeling of evolution."
 				""
@@ -193,108 +163,6 @@
 			title: "Quests Info"
 			x: 2.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["5605A2567A1A65A3"]
-			description: ["Pentagon-shaped quests indicate the beginning of a series of quests."]
-			disable_toast: true
-			hide: true
-			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbquests:textures/shapes/pentagon/background.png"
-				}
-			}
-			id: "4817395365AFF572"
-			shape: "pentagon"
-			subtitle: "Beginning"
-			tasks: [{
-				id: "52849ED176590D9C"
-				title: "Circle"
-				type: "checkmark"
-			}]
-			title: "Pentagon-Shaped"
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5605A2567A1A65A3"]
-			description: ["Gear-shaped quests are informations to understand certain things from mods."]
-			disable_toast: true
-			hide: true
-			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbquests:textures/shapes/gear/background.png"
-				}
-			}
-			id: "052E4D9F5E7F1C0F"
-			shape: "gear"
-			subtitle: "Information / Optional"
-			tasks: [{
-				id: "23797AF61FD6E5B4"
-				title: "Gear"
-				type: "checkmark"
-			}]
-			title: "Gear-Shaped"
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5605A2567A1A65A3"]
-			description: ["Diamond-shaped quests are challenges to do to unlock the Last Age (EndGame)"]
-			disable_toast: true
-			hide: true
-			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbquests:textures/shapes/diamond/background.png"
-				}
-			}
-			id: "0F3C10826B09AD58"
-			shape: "diamond"
-			subtitle: "Challenge"
-			tasks: [{
-				id: "2AA33071842F9F41"
-				type: "checkmark"
-			}]
-			title: "Diamond-Shaped"
-			x: 4.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["5605A2567A1A65A3"]
-			description: [
-				"Octagon-shaped quests are conclusions of a series of quests."
-				"Finish these quests to unlock the next Age."
-			]
-			disable_toast: true
-			hide: true
-			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbquests:textures/shapes/octagon/background.png"
-				}
-			}
-			id: "4E14A74C63FC50BE"
-			shape: "octagon"
-			subtitle: "Conclusion"
-			tasks: [{
-				id: "61A0D1767554B676"
-				title: "Octogon"
-				type: "checkmark"
-			}]
-			title: "Octagon-Shaped"
-			x: 6.0d
-			y: 3.0d
 		}
 		{
 			dependencies: [

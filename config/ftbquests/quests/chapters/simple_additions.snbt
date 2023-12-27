@@ -17,11 +17,11 @@
 		x: -12.5d
 		y: -9.952380952380942d
 	}]
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["6BAFC3CFF66D616A"]
 			id: "5A2ACA0D169AE3C4"
 			shape: "pentagon"
 			tasks: [{
@@ -99,7 +99,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["6BAFC3CFF66D616A"]
 			id: "6F7B8D624A817A68"
 			shape: "pentagon"
 			tasks: [{
@@ -111,7 +111,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["6BAFC3CFF66D616A"]
 			id: "1985C2E4E2587096"
 			shape: "pentagon"
 			tasks: [{
@@ -123,7 +123,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["6BAFC3CFF66D616A"]
 			id: "019AE2C046260318"
 			shape: "pentagon"
 			tasks: [{
@@ -2438,7 +2438,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["6BAFC3CFF66D616A"]
 			id: "37C3E19215AADF71"
 			shape: "pentagon"
 			size: 2.0d
@@ -2735,7 +2735,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["6BAFC3CFF66D616A"]
 			id: "0806ADC61C8653A7"
 			shape: "pentagon"
 			size: 1.5d
@@ -2801,6 +2801,291 @@
 			}]
 			x: -0.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["6BAFC3CFF66D616A"]
+			id: "51F8911A6EE2F7B6"
+			rewards: [{
+				count: 16
+				id: "017040C34C748743"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Cooktime : 200"
+			tasks: [{
+				id: "2150FDCED7FFD60B"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51F8911A6EE2F7B6"]
+			id: "528CDBB261594E59"
+			rewards: [{
+				count: 4
+				id: "0D5CF8E35E14BE21"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			subtitle: "Cooktime : 180"
+			tasks: [{
+				id: "469D1D394B20FAD5"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"51F8911A6EE2F7B6"
+				"528CDBB261594E59"
+			]
+			dependency_requirement: "one_completed"
+			id: "42BEA1F400F03B4D"
+			rewards: [{
+				count: 4
+				id: "15151F9A98FDE3FD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Cooktime : 160"
+			tasks: [{
+				id: "55A72B0D06CAE39C"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"528CDBB261594E59"
+				"42BEA1F400F03B4D"
+			]
+			dependency_requirement: "one_completed"
+			id: "02AC56E71353A14B"
+			rewards: [{
+				count: 4
+				id: "138783702500D50D"
+				item: "alltheores:silver_ingot"
+				type: "item"
+			}]
+			subtitle: "Cooktime : 140"
+			tasks: [{
+				id: "41E77104CC37BBDE"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"42BEA1F400F03B4D"
+				"02AC56E71353A14B"
+			]
+			dependency_requirement: "one_completed"
+			id: "10CA78E6BF087AC9"
+			rewards: [{
+				count: 6
+				id: "379B747B1E3F7EEF"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Cooktime : 120"
+			tasks: [{
+				id: "2EC9BB8A7CC4106B"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10CA78E6BF087AC9"]
+			id: "6A8F3BAB4062B573"
+			rewards: [{
+				count: 4
+				id: "1682180C1A1BE14D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Cooktime : 80"
+			tasks: [{
+				id: "48E0081A33CF480B"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A8F3BAB4062B573"]
+			id: "7DFF55E1A6722B0B"
+			rewards: [{
+				count: 4
+				id: "2C39D8983224C416"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Cooktime : 40"
+			tasks: [{
+				id: "354D05B58E597A35"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7DFF55E1A6722B0B"
+				"4D7FB8F984C58674"
+			]
+			dependency_requirement: "one_completed"
+			id: "77EEBDF2FC4059A0"
+			rewards: [{
+				count: 4
+				id: "6FB69F1639BCDFBE"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			subtitle: "Cooktime : 20"
+			tasks: [{
+				id: "585BAC0656201EF7"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A8F3BAB4062B573"]
+			id: "4D7FB8F984C58674"
+			rewards: [{
+				count: 4
+				id: "097331639A0463F7"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Cooktime : 40"
+			tasks: [{
+				id: "750B08910F39805F"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77EEBDF2FC4059A0"]
+			id: "63D245D105D6B7DE"
+			rewards: [{
+				id: "71D9058B2677FEDF"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			subtitle: "Cooktime : 5"
+			tasks: [{
+				id: "03B6A0A5E573B562"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6AB50539D8B6CC32"
+				"795A0220BC90BF3F"
+			]
+			id: "4DDBF21542DF7F4B"
+			rewards: [{
+				id: "5AD72B2B537FED07"
+				item: "ironfurnaces:rainbow_core"
+				type: "item"
+			}]
+			subtitle: "64 Items Per 20 Ticks"
+			tasks: [{
+				id: "6ADB99B3A3389061"
+				item: {
+					Count: 1b
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"light_purple\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"i\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"blue\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["63D245D105D6B7DE"]
+			id: "6AB50539D8B6CC32"
+			rewards: [{
+				count: 4
+				id: "390B50A07096DDE6"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D0F96DD49816201"
+				item: "ironfurnaces:rainbow_core"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63D245D105D6B7DE"]
+			id: "795A0220BC90BF3F"
+			rewards: [{
+				count: 2
+				id: "52B0B56A52453160"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "67B9A17216978620"
+				item: "ironfurnaces:rainbow_plating"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DDBF21542DF7F4B"]
+			id: "01DFA05D913888E6"
+			rewards: [{
+				id: "622915E205B35929"
+				item: {
+					Count: 1b
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"yellow\",\"text\":\"R\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"yellow\",\"text\":\"w\"},{\"color\":\"light_purple\",\"text\":\" \"},{\"color\":\"green\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"blue\",\"text\":\"r\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"light_purple\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Infinite Coal"
+			tasks: [{
+				id: "46E8953FA47E8B0F"
+				item: "ironfurnaces:rainbow_coal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
 		}
 	]
 	title: "Little Additions"

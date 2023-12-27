@@ -21,8 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["509461C4B7CFE7C8"]
-			hide: true
+			dependencies: ["656BD5473AA4DEEB"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1413,6 +1412,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1AA180935E416C6F"]
 			id: "281D21980FBA54E3"
 			tasks: [
 				{
@@ -1438,10 +1438,11 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 0.5d
+			x: -1.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["1AA180935E416C6F"]
 			id: "0DCC761A70800994"
 			tasks: [{
 				id: "2BC6A3B66B0FE72C"
@@ -1454,8 +1455,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.5d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2C681991D7AE7B26"]
@@ -1482,6 +1483,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["1AA180935E416C6F"]
 			id: "0F02ECC98232AA64"
 			tasks: [
 				{
@@ -1507,20 +1509,22 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: 1.5d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
+			dependencies: ["1AA180935E416C6F"]
 			id: "12B830BC245AD958"
 			tasks: [{
 				id: "53198D9B188E1B7B"
 				item: "twilightforest:magic_beans"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
+			dependencies: ["1AA180935E416C6F"]
 			id: "66F0A92AFD2D0E1B"
 			tasks: [{
 				id: "32642DE0692CD122"
@@ -1533,10 +1537,11 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.5d
+			x: -1.0d
+			y: -5.5d
 		}
 		{
+			dependencies: ["1AA180935E416C6F"]
 			id: "38424760E233C42F"
 			tasks: [{
 				id: "68C91175E6B9DEDE"
@@ -1549,8 +1554,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.5d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1E397BE564280864"]
@@ -1609,6 +1614,18 @@
 			}]
 			x: 4.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["666641E4270BEBD0"]
+			id: "1AA180935E416C6F"
+			tasks: [{
+				id: "6401915DB9D7D67B"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "TEMPORAIRE"
+			x: -2.0d
+			y: -3.5d
 		}
 	]
 	title: "Twilight Forest"

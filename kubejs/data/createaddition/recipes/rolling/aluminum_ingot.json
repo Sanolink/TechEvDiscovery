@@ -4,7 +4,7 @@
       	"tag": "forge:ingots/aluminum"
 	},
 	"result": {
-		"item": "immersiveengineering:stick_aluminum",
+		"item": "alltheores:aluminum_rod",
 		"count": 1
 	},
 	"conditions": [ {

@@ -79,7 +79,7 @@
 			y: -8.0d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -87,7 +87,14 @@
 			id: "4A93EAFC71780821"
 			tasks: [{
 				id: "1D146EEE2D683DDC"
-				item: "minecraft:coal_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/coal"
+					}
+				}
+				title: "Any #forge:ores/coal"
 				type: "item"
 			}]
 			x: -1.0d
@@ -99,7 +106,14 @@
 			shape: "square"
 			tasks: [{
 				id: "600932A9CDD961D5"
-				item: "minecraft:iron_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/iron"
+					}
+				}
+				title: "Any #forge:ores/iron"
 				type: "item"
 			}]
 			x: 0.5d
@@ -110,7 +124,14 @@
 			id: "33D8CAC627AA3F6A"
 			tasks: [{
 				id: "75F6B70C3EA7A063"
-				item: "minecraft:copper_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/copper"
+					}
+				}
+				title: "Any #forge:ores/copper"
 				type: "item"
 			}]
 			x: 1.0d
@@ -122,7 +143,14 @@
 			shape: "square"
 			tasks: [{
 				id: "11E6BDD02004D706"
-				item: "minecraft:gold_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/gold"
+					}
+				}
+				title: "Any #forge:ores/gold"
 				type: "item"
 			}]
 			x: -0.5d
@@ -133,7 +161,14 @@
 			id: "1D5F47265708FFEA"
 			tasks: [{
 				id: "6DAB7A5B9B468AF0"
-				item: "minecraft:redstone_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/redstone"
+					}
+				}
+				title: "Any #forge:ores/redstone"
 				type: "item"
 			}]
 			x: 1.0d
@@ -144,7 +179,14 @@
 			id: "5A156460DA1317D7"
 			tasks: [{
 				id: "2012BCF17B700630"
-				item: "minecraft:emerald_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/emerald"
+					}
+				}
+				title: "Any #forge:ores/emerald"
 				type: "item"
 			}]
 			x: -1.0d
@@ -155,7 +197,14 @@
 			id: "5DD5FB5A011BDAD7"
 			tasks: [{
 				id: "13BBE2E332A15CED"
-				item: "minecraft:lapis_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/lapis"
+					}
+				}
+				title: "Any #forge:ores/lapis"
 				type: "item"
 			}]
 			x: -1.0d
@@ -167,7 +216,14 @@
 			shape: "square"
 			tasks: [{
 				id: "4F4D288B9C1B163A"
-				item: "minecraft:diamond_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/diamond"
+					}
+				}
+				title: "Any #forge:ores/diamond"
 				type: "item"
 			}]
 			x: -1.5d
@@ -178,7 +234,14 @@
 			id: "30CF5160C5D822CA"
 			tasks: [{
 				id: "329CAD80FE389BC0"
-				item: "minecraft:nether_quartz_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/quartz"
+					}
+				}
+				title: "Any #forge:ores/quartz"
 				type: "item"
 			}]
 			x: -1.0d
@@ -189,7 +252,14 @@
 			id: "5072BDA35B395BD5"
 			tasks: [{
 				id: "00CF7EF35D584C5E"
-				item: "alltheores:sapphire_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/sapphire"
+					}
+				}
+				title: "Any #forge:ores/sapphire"
 				type: "item"
 			}]
 			x: -5.5d
@@ -200,7 +270,14 @@
 			id: "53D5E7BB3EF11CE6"
 			tasks: [{
 				id: "784B78DB326287B1"
-				item: "alltheores:peridot_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/peridot"
+					}
+				}
+				title: "Any #forge:ores/peridot"
 				type: "item"
 			}]
 			x: -4.5d
@@ -211,7 +288,14 @@
 			id: "182CA9EC7398C113"
 			tasks: [{
 				id: "5E387E430641D6CF"
-				item: "alltheores:ruby_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/ruby"
+					}
+				}
+				title: "Any #forge:ores/ruby"
 				type: "item"
 			}]
 			x: -3.5d
@@ -222,7 +306,14 @@
 			id: "2A07607B866E344E"
 			tasks: [{
 				id: "2D09E45700D36004"
-				item: "alltheores:iridium_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/iridium"
+					}
+				}
+				title: "Any #forge:ores/iridium"
 				type: "item"
 			}]
 			x: -4.5d
@@ -233,7 +324,14 @@
 			id: "23253580880E4335"
 			tasks: [{
 				id: "264C92AB04266361"
-				item: "alltheores:uranium_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/uranium"
+					}
+				}
+				title: "Any #forge:ores/uranium"
 				type: "item"
 			}]
 			x: -5.5d
@@ -244,7 +342,14 @@
 			id: "0F25C24B9C728CB6"
 			tasks: [{
 				id: "5E206F17EDFE2B68"
-				item: "alltheores:tin_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/tin"
+					}
+				}
+				title: "Any #forge:ores/tin"
 				type: "item"
 			}]
 			x: -5.5d
@@ -255,7 +360,14 @@
 			id: "2C5A955404D7F3DB"
 			tasks: [{
 				id: "791D3F0EC3159B58"
-				item: "alltheores:silver_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/silver"
+					}
+				}
+				title: "Any #forge:ores/silver"
 				type: "item"
 			}]
 			x: -4.5d
@@ -266,7 +378,14 @@
 			id: "0EDDCF0B2E2BDDFA"
 			tasks: [{
 				id: "718C468E4BF1FD6A"
-				item: "alltheores:platinum_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/platinum"
+					}
+				}
+				title: "Any #forge:ores/platinum"
 				type: "item"
 			}]
 			x: -5.5d
@@ -277,7 +396,14 @@
 			id: "5095B5119A883710"
 			tasks: [{
 				id: "01DCEFFB1D59F173"
-				item: "alltheores:osmium_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/osmium"
+					}
+				}
+				title: "Any #forge:ores/osmium"
 				type: "item"
 			}]
 			x: -4.5d
@@ -288,7 +414,14 @@
 			id: "5E9E957D6CB5F13F"
 			tasks: [{
 				id: "308949D4C797C211"
-				item: "alltheores:nickel_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/nickel"
+					}
+				}
+				title: "Any #forge:ores/nickel"
 				type: "item"
 			}]
 			x: -3.5d
@@ -299,7 +432,14 @@
 			id: "0CA2652F2C8765A1"
 			tasks: [{
 				id: "436FCB6B9535FA35"
-				item: "alltheores:lead_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/lead"
+					}
+				}
+				title: "Any #forge:ores/lead"
 				type: "item"
 			}]
 			x: -3.5d
@@ -310,7 +450,14 @@
 			id: "3D1399D8F26C7742"
 			tasks: [{
 				id: "33301EACF9B14EBE"
-				item: "alltheores:aluminum_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/aluminum"
+					}
+				}
+				title: "Any #forge:ores/aluminum"
 				type: "item"
 			}]
 			x: -3.5d
@@ -321,7 +468,14 @@
 			id: "2B919746EF6B70C1"
 			tasks: [{
 				id: "3767CDF42FD91863"
-				item: "byg:emeraldite_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/emeraldite"
+					}
+				}
+				title: "Any #forge:ores/emeraldite"
 				type: "item"
 			}]
 			x: 5.0d
@@ -332,7 +486,14 @@
 			id: "4EF01342BCBF6BEE"
 			tasks: [{
 				id: "0124F4D4155AB7B5"
-				item: "byg:pendorite_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/pendorite"
+					}
+				}
+				title: "Any #forge:ores/pendorite"
 				type: "item"
 			}]
 			x: 4.0d
@@ -343,7 +504,14 @@
 			id: "4EA48088AD119130"
 			tasks: [{
 				id: "01C6676B169F207B"
-				item: "byg:ametrine_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/ametrine"
+					}
+				}
+				title: "Any #forge:ores/ametrine"
 				type: "item"
 			}]
 			x: 4.5d
@@ -354,7 +522,14 @@
 			id: "37135DB27670F171"
 			tasks: [{
 				id: "59E59D701E865567"
-				item: "create:zinc_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/zinc"
+					}
+				}
+				title: "Any #forge:ores/zinc"
 				type: "item"
 			}]
 			x: 1.0d
@@ -378,22 +553,37 @@
 			id: "27A3EEA221A29B37"
 			tasks: [{
 				id: "7DDCC79A0D5D5A3C"
-				item: "minecraft:ancient_debris"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/netherite_scrap"
+					}
+				}
+				title: "Any #forge:ores/netherite_scrap"
 				type: "item"
 			}]
 			x: 1.5d
 			y: -5.5d
 		}
 		{
+			dependencies: ["201A9DEECD831DD0"]
 			id: "2E5B35E57A7B13A2"
 			tasks: [{
 				id: "53D68B15BD3B765B"
-				item: "byg:anthracite_ore"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/anthracite"
+					}
+				}
+				title: "Any #forge:ores/anthracite"
 				type: "item"
 			}]
 			x: 4.5d
 			y: -4.5d
 		}
 	]
-	title: "AllTheOres"
+	title: "&l&bAllTheOres"
 }

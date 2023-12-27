@@ -4,7 +4,7 @@
       	"tag": "forge:ingots/gold"
 	},
 	"result": {
-		"item": "createaddition:gold_rod",
+		"item": "alltheores:gold_rod",
 		"count": 1
 	}
 }

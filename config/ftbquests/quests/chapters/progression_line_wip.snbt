@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "progression_line_wip"
-	group: ""
+	group: "0EBC8803CE24B703"
 	icon: "create:brass_hand"
 	id: "203178D0EE4C1037"
 	images: [{
@@ -14,37 +14,17 @@
 		image: "techev:textures/misc/questsicons/progression.png"
 		rotation: 0.0d
 		width: 12.3974359d
-		x: 4.400641024999999d
-		y: -3.8333333333333357d
+		x: 4.0d
+		y: -4.5d
 	}]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"650779D3343EAEB0"
-				"7E3D43C44C52D9E9"
-				"7960E8764050AA1E"
-			]
+			dependencies: ["52BBDA297A691EF4"]
 			dependency_requirement: "all_started"
-			hide: true
 			icon: "create_things_and_misc:magnifying_glass"
 			id: "509461C4B7CFE7C8"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "63382D458695C4A1"
-					ignore_reward_blocking: true
-					stage: "two"
-					type: "gamestage"
-				}
-				{
-					auto: "invisible"
-					command: "/gamestage add @p two"
-					id: "60B975385FDF39F2"
-					type: "command"
-				}
-			]
 			shape: "octagon"
 			size: 3.0d
 			subtitle: "Welcome To Age 2 !"
@@ -79,8 +59,8 @@
 				type: "checkmark"
 			}]
 			title: "Exploring World"
-			x: 3.75d
-			y: -1.5d
+			x: 0.0d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -98,7 +78,7 @@
 				type: "checkmark"
 			}]
 			title: "Farmer's Life"
-			x: 3.75d
+			x: 2.25d
 			y: 0.0d
 		}
 		{
@@ -117,34 +97,19 @@
 				type: "checkmark"
 			}]
 			title: "Create"
-			x: 3.75d
-			y: 1.5d
+			x: -2.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0F8C4C01C5E75A8B"]
-			hide: true
+			hide_text_until_complete: true
 			icon: "minecraft:spyglass"
 			id: "74C9143F2AE3BB45"
-			rewards: [
-				{
-					id: "7FFB15AC6D99E5BE"
-					item: "minecraft:cake"
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					id: "395F312E95DC7074"
-					ignore_reward_blocking: true
-					stage: "one"
-					type: "gamestage"
-				}
-				{
-					auto: "invisible"
-					command: "/gamestage add @p one"
-					id: "38038944795ECAE5"
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "7FFB15AC6D99E5BE"
+				item: "minecraft:cake"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 3.0d
 			subtitle: "Welcome To Age 1 !"
@@ -214,8 +179,8 @@
 				type: "checkmark"
 			}]
 			title: "Create Addons"
-			x: 11.25d
-			y: 0.0d
+			x: 7.5d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -231,8 +196,8 @@
 				id: "003657112C515986"
 				type: "checkmark"
 			}]
-			x: 11.25d
-			y: 1.5d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -249,8 +214,8 @@
 				type: "checkmark"
 			}]
 			title: "Simple Storage"
-			x: 12.0d
-			y: 3.0d
+			x: 9.75d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -267,7 +232,7 @@
 				type: "checkmark"
 			}]
 			title: "Farmer's Life | Part 2"
-			x: 11.25d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -284,8 +249,8 @@
 				id: "55272ECE75F73C61"
 				type: "checkmark"
 			}]
-			x: 12.0d
-			y: -3.0d
+			x: 5.25d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -302,8 +267,8 @@
 				type: "checkmark"
 			}]
 			title: "Little Additions"
-			x: 12.75d
-			y: 4.5d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -320,47 +285,8 @@
 				type: "checkmark"
 			}]
 			title: "Ars Nouveau"
-			x: 12.75d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"277A5C4810D2671E"
-				"4FDD7B306D39E759"
-				"1AA7F8E25CA2ADB7"
-				"1C4850214C2051E7"
-				"0A43A2A87CBE5983"
-				"0E03A6DF5661AD92"
-				"755B4D0F8227F379"
-			]
-			dependency_requirement: "all_started"
-			hide: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbquests:textures/item/missing_item.png"
-				}
-			}
-			id: "741609B371A2687A"
-			rewards: [{
-				auto: "invisible"
-				id: "75BF4DB630EC5101"
-				ignore_reward_blocking: true
-				stage: "three"
-				type: "gamestage"
-			}]
-			shape: "octagon"
-			size: 3.0d
-			subtitle: "Welcome To Age 3 !"
-			tasks: [{
-				id: "148C416EF36B6CD4"
-				title: "Checkmark"
-				type: "checkmark"
-			}]
-			title: "(WIP)"
-			x: 15.0d
-			y: 0.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["509461C4B7CFE7C8"]
@@ -402,6 +328,20 @@
 			x: 7.5d
 			y: 2.25d
 		}
+		{
+			dependencies: ["03F1739AF4FA589A"]
+			id: "7BE7AB21FF48B0BB"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Welcome to Age 3 !"
+			tasks: [{
+				id: "569D77D133CDB8AA"
+				title: "WIP : Age 3"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
 	]
-	title: "&l&bProgression Line"
+	title: "&lAchievements"
 }

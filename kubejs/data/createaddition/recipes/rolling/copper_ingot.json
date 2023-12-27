@@ -4,7 +4,7 @@
       	"item": "minecraft:copper_ingot"
 	},
 	"result": {
-		"item": "createaddition:copper_rod",
+		"item": "alltheores:copper_rod",
 		"count": 1
 	}
 }

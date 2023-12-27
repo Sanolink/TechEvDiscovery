@@ -1,0 +1,12 @@
+{
+	id: "539B16976136F4C4"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "ars_nouveau:blue_archwood_sapling" }
+		{ item: "ars_nouveau:purple_archwood_sapling" }
+		{ item: "ars_nouveau:green_archwood_sapling" }
+		{ item: "ars_nouveau:red_archwood_sapling" }
+	]
+	title: "Archwood"
+}

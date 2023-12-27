@@ -5,7 +5,7 @@
 	group: "12B18F44A38CD6E7"
 	icon: "create_confectionery:gingerbread_man"
 	id: "3D2EFC9F42FB7375"
-	order_index: 2
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -1685,7 +1685,7 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["1F5BB69FB3E757E8"]
 			icon: "solcarrot:food_book"
 			id: "30B70DF98127E312"
 			shape: "pentagon"

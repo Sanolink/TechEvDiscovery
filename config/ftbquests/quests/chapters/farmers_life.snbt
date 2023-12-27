@@ -5,13 +5,12 @@
 	group: "6E6EAE103F859B8D"
 	icon: "farmersdelight:honey_glazed_ham_block"
 	id: "746313E2C1A93DAC"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["74C9143F2AE3BB45"]
+			dependencies: ["713AADDE8ADDE4B9"]
 			description: ["Craft a hoe to start your farm industry"]
-			hide: true
 			hide_dependency_lines: true
 			id: "478D1E1CB1AAFA71"
 			rewards: [{
@@ -3283,20 +3282,6 @@
 			x: 11.0d
 			y: -2.5d
 		}
-		{
-			dependencies: ["478D1E1CB1AAFA71"]
-			dependency_requirement: "one_started"
-			hide_dependency_lines: true
-			id: "22F0735C0E6E7BD4"
-			shape: "gear"
-			tasks: [{
-				id: "3B72E833709C9572"
-				type: "checkmark"
-			}]
-			title: "How to find fishes"
-			x: 2.5d
-			y: -10.0d
-		}
 	]
-	title: "Farmer's Life"
+	title: "Farmer's Life | Part 1"
 }

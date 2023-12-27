@@ -2,7 +2,7 @@
 	icon: "minecraft:music_disc_13"
 	id: "303348997F4DF75D"
 	loot_size: 1
-	order_index: 2
+	order_index: 0
 	rewards: [
 		{ item: "minecraft:music_disc_13" }
 		{ item: "minecraft:music_disc_cat" }

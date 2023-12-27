@@ -4,7 +4,7 @@
       	"tag": "forge:plates/copper"
 	},
 	"result": {
-		"item": "createaddition:copper_wire",
+		"item": "immersiveengineering:wire_copper",
 		"count": 1
 	}
 }

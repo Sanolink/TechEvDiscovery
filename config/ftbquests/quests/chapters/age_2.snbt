@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_2"
+	group: "0EBC8803CE24B703"
+	icon: "create_things_and_misc:magnifying_glass"
+	id: "0622BD2DBA9DDEE1"
+	order_index: 2
+	quest_links: [
+		{
+			id: "4DAB70949395A1E1"
+			linked_quest: "509461C4B7CFE7C8"
+			shape: "pentagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "134DEF83D5127FD8"
+			linked_quest: "7BE7AB21FF48B0BB"
+			shape: "octagon"
+			size: 2.0d
+			x: 0.0d
+			y: 7.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "create_sa:steam_engine"
+			id: "390F001A05AA4ED5"
+			shape: "gear"
+			tasks: [{
+				id: "5697B193DE5E66C6"
+				title: "Create Addons"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "upgradednetherite_items:ender_upgraded_netherite_totem"
+			id: "6BAFC3CFF66D616A"
+			shape: "gear"
+			tasks: [{
+				id: "6836ACA2A704722E"
+				title: "Little Additions"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "storagenetwork:request"
+			id: "2AE63B0B6045ECA0"
+			shape: "gear"
+			tasks: [{
+				id: "48A74E8578E94DAF"
+				title: "Simple Storage"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "create_confectionery:gingerbread_man"
+			id: "1F5BB69FB3E757E8"
+			shape: "gear"
+			tasks: [{
+				id: "6EDE3E6127DEF72F"
+				title: "Farmer's Life | Part 2"
+				type: "checkmark"
+			}]
+			title: "Farmer's Life | Part 2"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "ars_nouveau:creative_spell_book"
+			id: "13D91B869676071A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "19A5C7F0F130A129"
+				title: "Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["13D91B869676071A"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "656BD5473AA4DEEB"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6DABC90999796D4B"
+				title: "Twilight Forest"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["656BD5473AA4DEEB"]
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03F1739AF4FA589A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3A08C38FDF29CA78"
+				title: "Immersive Engineering"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.75d
+		}
+	]
+	title: "Chapter 2"
+}

@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "0EBC8803CE24B703", title: "&l&6Progression Line" }
 		{ id: "6E6EAE103F859B8D", title: "&f&lAge 1 : First Discovery" }
 		{ id: "12B18F44A38CD6E7", title: "&f&lAge 2 : Shock Therapy" }
 	]

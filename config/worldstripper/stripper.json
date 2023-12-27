@@ -52,6 +52,9 @@
     "minecraft:soul_sand",
     "byg:scoria_stone",
     "biomesoplenty:flesh",
-    "minecraft:blackstone"
+    "minecraft:blackstone",
+    "quark:limestone",
+    "byg:soapstone",
+    "create:scoria"
   ]
 }

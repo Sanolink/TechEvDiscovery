@@ -891,7 +891,7 @@
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.25d
 			y: 7.5d
 		}
 		{
@@ -924,12 +924,12 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["13D91B869676071A"]
 			id: "3873066120553A4E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "10E525E9AFE000C8"
-				table_id: 3201547571742979490L
+				id: "3B750125A9600F12"
+				table_id: 6024433765965034692L
 				type: "random"
 			}]
 			shape: "pentagon"
@@ -1561,7 +1561,7 @@
 					type: "item"
 				}
 			]
-			x: 20.5d
+			x: 21.5d
 			y: 2.5d
 		}
 		{
@@ -1620,7 +1620,7 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
+			x: 22.5d
 			y: 2.5d
 		}
 		{
@@ -1679,7 +1679,7 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
+			x: 20.5d
 			y: 2.5d
 		}
 		{
@@ -1877,7 +1877,7 @@
 			dependencies: ["1B977731DBDDEC54"]
 			id: "799B30D7A89075DD"
 			shape: "diamond"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "2AE0865025297582"
@@ -1891,7 +1891,7 @@
 				}
 			]
 			x: 16.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B977731DBDDEC54"]
@@ -1922,7 +1922,7 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.5d
 			y: 6.0d
 		}
 		{
@@ -1940,7 +1940,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
+			x: 18.5d
 			y: 5.0d
 		}
 		{
@@ -1958,7 +1958,7 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.5d
 			y: 5.0d
 		}
 		{
@@ -1974,7 +1974,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 18.0d
 			y: 7.0d
 		}
 		{
@@ -1990,7 +1990,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
+			x: 18.5d
 			y: 6.0d
 		}
 		{
@@ -2386,7 +2386,7 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
+			x: 15.0d
 			y: 7.0d
 		}
 		{

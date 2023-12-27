@@ -1,0 +1,15 @@
+{
+	id: "7EB13CCF45D7F784"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 16, item: "minecraft:oak_log" }
+		{ count: 16, item: "minecraft:spruce_log" }
+		{ count: 16, item: "minecraft:birch_log" }
+		{ count: 16, item: "minecraft:jungle_log" }
+		{ count: 16, item: "minecraft:acacia_log" }
+		{ count: 16, item: "minecraft:dark_oak_log" }
+		{ count: 16, item: "minecraft:mangrove_log" }
+	]
+	title: "Logs"
+}

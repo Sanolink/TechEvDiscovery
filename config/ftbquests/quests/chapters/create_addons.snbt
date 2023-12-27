@@ -3,13 +3,13 @@
 	default_quest_shape: ""
 	filename: "create_addons"
 	group: "12B18F44A38CD6E7"
-	icon: "create_things_and_misc:magnifying_glass"
+	icon: "create_sa:steam_engine"
 	id: "14515572428C7392"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["390F001A05AA4ED5"]
 			id: "26F4FB950E84A8A1"
 			shape: "pentagon"
 			size: 1.25d
@@ -22,7 +22,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["390F001A05AA4ED5"]
 			id: "1AF30D6CF9698E69"
 			shape: "pentagon"
 			size: 1.25d
@@ -35,7 +35,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["390F001A05AA4ED5"]
 			id: "76757835951E1310"
 			shape: "pentagon"
 			size: 1.25d
@@ -48,7 +48,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
+			dependencies: ["390F001A05AA4ED5"]
 			id: "72ED97E1F4157B09"
 			shape: "pentagon"
 			size: 1.25d
@@ -535,6 +535,39 @@
 			}]
 			x: -9.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			id: "163DF6B831125191"
+			tasks: [{
+				id: "3D33BBBE8965591B"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			id: "2E49886D37E6BF82"
+			tasks: [{
+				id: "4228A981BD2D2029"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			id: "3DDD0BC850653C0D"
+			tasks: [{
+				id: "4F6F8267149AF405"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
 		}
 	]
 	title: "Create Addons"

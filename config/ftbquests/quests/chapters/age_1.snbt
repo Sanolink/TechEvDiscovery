@@ -38,12 +38,6 @@
 		{
 			id: "47D6D3A6DAA16B6F"
 			linked_quest: "1BEE5DF7C1FD4A66"
-			x: 0.5d
-			y: 4.5d
-		}
-		{
-			id: "1EE654AEDFB13923"
-			linked_quest: "52BBDA297A691EF4"
 			x: 0.0d
 			y: 5.5d
 		}

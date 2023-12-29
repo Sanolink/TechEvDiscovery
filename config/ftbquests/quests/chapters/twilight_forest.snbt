@@ -1352,8 +1352,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["4294713E760E64F3"]
-			hide_dependent_lines: true
+			dependencies: [
+				"4294713E760E64F3"
+				"656BD5473AA4DEEB"
+			]
 			id: "6E7366C9CE801A3B"
 			tasks: [{
 				id: "32D5DD20ADEADEC4"
@@ -1364,8 +1366,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["74C381E9E750EE51"]
-			hide_dependent_lines: true
+			dependencies: [
+				"74C381E9E750EE51"
+				"656BD5473AA4DEEB"
+			]
 			id: "2E4A8FBD1291E5E2"
 			tasks: [{
 				id: "57211548F6BF3E0C"

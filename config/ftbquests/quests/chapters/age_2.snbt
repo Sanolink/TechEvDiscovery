@@ -23,21 +23,50 @@
 			x: 0.0d
 			y: 7.0d
 		}
+		{
+			id: "44709D6F12C34E28"
+			linked_quest: "52BBDA297A691EF4"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "2F65BC680AD45CA8"
+			linked_quest: "799B30D7A89075DD"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "1C91049CFD87D904"
+			linked_quest: "6E7366C9CE801A3B"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "7286256A7A27839A"
+			linked_quest: "2E4A8FBD1291E5E2"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "47DA6BCAB5140E92"
+			linked_quest: "7DC4822B59B7CD59"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "4E3587688023C005"
+			linked_quest: "1B977731DBDDEC54"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "4FE0A94B61C6A76A"
+			linked_quest: "402DD03144304651"
+			x: 0.5d
+			y: 2.5d
+		}
 	]
 	quests: [
-		{
-			dependencies: ["509461C4B7CFE7C8"]
-			icon: "create_sa:steam_engine"
-			id: "390F001A05AA4ED5"
-			shape: "gear"
-			tasks: [{
-				id: "5697B193DE5E66C6"
-				title: "Create Addons"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: -0.5d
-		}
 		{
 			dependencies: ["509461C4B7CFE7C8"]
 			icon: "upgradednetherite_items:ender_upgraded_netherite_totem"
@@ -48,8 +77,8 @@
 				title: "Little Additions"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["509461C4B7CFE7C8"]
@@ -61,8 +90,8 @@
 				title: "Simple Storage"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["509461C4B7CFE7C8"]
@@ -76,7 +105,7 @@
 			}]
 			title: "Farmer's Life | Part 2"
 			x: -1.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["509461C4B7CFE7C8"]
@@ -89,11 +118,11 @@
 				title: "Ars Nouveau"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.25d
+			x: 2.25d
+			y: 0.75d
 		}
 		{
-			dependencies: ["13D91B869676071A"]
+			dependencies: ["799B30D7A89075DD"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "656BD5473AA4DEEB"
 			shape: "gear"
@@ -103,11 +132,14 @@
 				title: "Twilight Forest"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 3.75d
+			x: -2.25d
+			y: 4.5d
 		}
 		{
-			dependencies: ["656BD5473AA4DEEB"]
+			dependencies: [
+				"6E7366C9CE801A3B"
+				"2E4A8FBD1291E5E2"
+			]
 			icon: {
 				Count: 1b
 				id: "immersiveengineering:hammer"
@@ -123,8 +155,45 @@
 				title: "Immersive Engineering"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 3.75d
+			x: 0.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7DC4822B59B7CD59"]
+			id: "17B36047F8DFB1DD"
+			tasks: [{
+				id: "7A649C267C8CF028"
+				item: "alltheores:brass_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52BBDA297A691EF4"]
+			icon: "create_sa:steam_engine"
+			id: "4A4B2D534D4FF6DA"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5E6B03B7351318C7"
+				title: "Twilight Forest"
+				type: "checkmark"
+			}]
+			title: "Create [Addons]"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13D91B869676071A"]
+			id: "0E2ECEBD625F5D5A"
+			tasks: [{
+				id: "6A3F00CC1A1708A8"
+				item: "create:source_tube"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "Chapter 2"

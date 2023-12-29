@@ -21,7 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["52BBDA297A691EF4"]
+			dependencies: ["1BEE5DF7C1FD4A66"]
 			dependency_requirement: "all_started"
 			icon: "create_things_and_misc:magnifying_glass"
 			id: "509461C4B7CFE7C8"
@@ -329,7 +329,7 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["03F1739AF4FA589A"]
+			dependencies: ["4A4B2D534D4FF6DA"]
 			id: "7BE7AB21FF48B0BB"
 			shape: "octagon"
 			size: 3.0d

@@ -951,7 +951,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3873066120553A4E"]
+			dependencies: [
+				"3873066120553A4E"
+				"0E2ECEBD625F5D5A"
+			]
 			id: "402DD03144304651"
 			rewards: [{
 				id: "1A789E6DAFC98C2E"
@@ -1070,7 +1073,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["73F8DCCF586F5549"]
+			dependencies: [
+				"73F8DCCF586F5549"
+				"402DD03144304651"
+			]
 			id: "1B977731DBDDEC54"
 			rewards: [{
 				count: 3
@@ -1878,18 +1884,11 @@
 			id: "799B30D7A89075DD"
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "2AE0865025297582"
-					item: "ars_nouveau:jar_of_light"
-					type: "item"
-				}
-				{
-					id: "272291A11A61E252"
-					item: "ars_nouveau:void_jar"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2AE0865025297582"
+				item: "ars_nouveau:jar_of_light"
+				type: "item"
+			}]
 			x: 16.5d
 			y: 6.5d
 		}

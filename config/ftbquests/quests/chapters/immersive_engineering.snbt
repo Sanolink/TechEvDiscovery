@@ -505,7 +505,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2745BD9BC702099D"]
+			dependencies: [
+				"2745BD9BC702099D"
+				"03F1739AF4FA589A"
+			]
 			id: "7DC4822B59B7CD59"
 			shape: "square"
 			size: 2.0d

@@ -46,6 +46,12 @@
     "mob_spawner": true,
     "redstone": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
   "tombstone": {
     "graves": true
   },
@@ -64,9 +70,29 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
   "apotheosis": {
     "adventure": true,
     "ench": true,
     "spawner": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "lootr": {
+    "info": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   }
 }

@@ -1474,7 +1474,7 @@
 				item: "create_confectionery:bar_of_black_chocolate"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: -8.5d
 		}
 		{
@@ -1500,7 +1500,7 @@
 				item: "create_confectionery:bar_of_ruby_chocolate"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: -7.5d
 		}
 		{
@@ -1513,7 +1513,7 @@
 				item: "create_confectionery:bar_of_caramel"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: -9.0d
 		}
 		{
@@ -2060,7 +2060,7 @@
 				item: "create_factory:dark_chocolate_waffle"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: -11.5d
 		}
 		{
@@ -2088,7 +2088,7 @@
 				item: "create_factory:ruby_chocolate_waffle"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: -10.5d
 		}
 		{
@@ -2102,7 +2102,7 @@
 				item: "create_factory:caramel_waffle"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: -12.0d
 		}
 		{
@@ -2137,7 +2137,7 @@
 				item: "create_factory:dark_chocolate_apple"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: -10.5d
 		}
 		{
@@ -2159,7 +2159,7 @@
 				item: "create_factory:ruby_chocolate_apple"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: -9.5d
 		}
 		{
@@ -2170,7 +2170,7 @@
 				item: "create_factory:caramel_apple"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: -11.0d
 		}
 		{
@@ -2205,7 +2205,7 @@
 				item: "create_factory:dark_chocolate_roll"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: -9.5d
 		}
 		{
@@ -2227,7 +2227,7 @@
 				item: "create_factory:ruby_chocolate_roll"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: -8.5d
 		}
 		{
@@ -2238,7 +2238,7 @@
 				item: "create_factory:caramel_roll"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: -10.0d
 		}
 	]

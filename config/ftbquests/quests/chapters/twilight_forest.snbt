@@ -9,13 +9,13 @@
 		click: ""
 		corner: false
 		dev: false
-		height: 4.5d
+		height: 5.0d
 		hover: [ ]
-		image: "techev:textures/misc/questsicons/portal_craft.png"
+		image: "techev:textures/misc/quests/portal_craft.png"
 		rotation: 0.0d
-		width: 6.855704697986576d
-		x: -3.2619047619047663d
-		y: 1.297619047619044d
+		width: 7.61745516442406d
+		x: -3.5d
+		y: 1.5d
 	}]
 	order_index: 1
 	quest_links: [ ]
@@ -26,31 +26,12 @@
 				Count: 1b
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "techev:textures/misc/questsicons/portal_a.png"
+					Icon: "techev:textures/misc/quests/portal_a.png"
 				}
 			}
 			id: "666641E4270BEBD0"
 			shape: "pentagon"
 			size: 2.0d
-			tasks: [
-				{
-					count: 12L
-					id: "4DFE61AB1CCB609C"
-					item: "farmersdelight:rich_soil"
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "5FFBAADC7C04F4B1"
-					item: "ars_nouveau:source_berry"
-					type: "item"
-				}
-				{
-					id: "39A3131AC9BA1C00"
-					item: "minecraft:water_bucket"
-					type: "item"
-				}
-			]
 			title: "Portal Base"
 			x: -2.0d
 			y: -1.0d
@@ -61,7 +42,7 @@
 				Count: 1b
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "techev:textures/misc/questsicons/portal_b.png"
+					Icon: "techev:textures/misc/quests/portal_b.png"
 				}
 			}
 			id: "371237B43D879846"

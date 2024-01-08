@@ -12,7 +12,7 @@
 		dev: false
 		height: 8.0d
 		hover: [ ]
-		image: "techev:textures/misc/questsicons/gear.png"
+		image: "techev:textures/misc/quests/gear.png"
 		rotation: 0.0d
 		width: 8.0d
 		x: 0.0d

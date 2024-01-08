@@ -5,7 +5,7 @@
 	group: "6E6EAE103F859B8D"
 	icon: "create:wrench"
 	id: "2BC5E8C188AA2F0E"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -13,15 +13,15 @@
 			hide_dependency_lines: true
 			id: "00B4B4A82BFEA5A8"
 			rewards: [{
-				count: 8
+				count: 6
 				id: "38FDE5566AB0F1B5"
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			shape: "pentagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
-				count: 8L
+				count: 2L
 				id: "7E0431864AD17CB9"
 				item: "create:andesite_alloy"
 				type: "item"

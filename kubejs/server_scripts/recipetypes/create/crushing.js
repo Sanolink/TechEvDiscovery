@@ -3,9 +3,11 @@
 
 ServerEvents.recipes(event => {
 
-    // Remove
+    //Remove
     event.remove({ input: 'minecraft:tuff', type: 'create:crushing' })
-
+    event.remove({ input: 'minecraft:diamond', type: 'create:crushing' })
+    event.remove({ input: '#forge:ingots/steel', type: 'create:crushing' })
+    
     //Recipes 
     const recipes = [
         //Crushing Tuff

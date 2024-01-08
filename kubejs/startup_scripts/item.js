@@ -1,7 +1,6 @@
 //Code By SanoLink For TechEV - Discovery
 //Last Modification : 1.1.0 
 
-
 Platform.mods.kubejs.name = 'TechEv || Discovery'
 
 StartupEvents.registry('item', e => {
@@ -16,12 +15,13 @@ StartupEvents.registry('item', e => {
     e.create('constructionwand:core_diamond').displayName("Diamond Wand Core")
     e.create('constructionwand:core_infinity').displayName("Infinity Wand Core")
 
+    e.create('create:raw_andesite_alloy').displayName("Raw Andesite Alloy")
     e.create('create:blue_quartz').displayName("Blue Quartz")
     e.create('create:polished_blue_quartz').displayName("Polished Blue Quartz")
     e.create('create:positron_tube').displayName("Positron Tube")
     e.create('create:source_quartz').displayName("Source Quartz")
     e.create('create:polished_source_quartz').displayName("Polished Source Quartz")
     e.create('create:source_tube').displayName("Source Tube")
+    e.create('create:netherite_sandpaper', 'create:sandpaper').maxDamage(2048).displayName("Netherite Sandpaper")
 
   })
-

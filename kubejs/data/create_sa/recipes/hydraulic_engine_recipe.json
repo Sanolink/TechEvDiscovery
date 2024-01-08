@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "transitionalItem": {
+    "item": "create_sa:incomplete_hydraulic_engine"
+  },
+  "sequence": [
+     {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        },
+        {
+          "fluid": "minecraft:water",
+          "nbt": {},
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_heat_engine"
+        },
+        {
+          "item": "createaddition:connector"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_heat_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_sa:hydraulic_engine"
+    }
+  ],
+  "loops": 3
+}

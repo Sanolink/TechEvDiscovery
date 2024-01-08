@@ -7,6 +7,7 @@
 
 ServerEvents.tags('item', e => {
 
+    /*********************UNIFICATION*********************/
     //Ores
     e.remove('forge:ores/aluminum', 'immersiveengineering:ore_aluminum')
     e.remove('forge:ores/lead', 'eidolon:lead_ore', 'immersiveengineering:ore_lead')
@@ -61,7 +62,6 @@ ServerEvents.tags('item', e => {
     e.remove('forge:plates/brass', 'create:brass_sheet')
     e.remove('forge:plates/zinc', 'zinc_sheet', 'createaddition:zinc_sheet')
     //Gears
-
     //Rods
     e.remove('forge:rods/copper', 'createaddition:copper_rod')
     e.remove('forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron')
@@ -110,4 +110,10 @@ ServerEvents.tags('item', e => {
     //Wires
     e.remove('forge:wires/copper', 'createaddition:copper_wire')
     e.remove('forge:wires/electrum', 'createaddition:electrum_wire')
+
+    /*********************OTHERS**************************/
+
+    e.add('forge:dusts', 'alltheores:netherite_dust')
+    e.add('forge:dusts/netherite', 'alltheores:netherite_dust')
+
 })

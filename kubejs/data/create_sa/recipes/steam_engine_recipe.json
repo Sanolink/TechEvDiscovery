@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "transitionalItem": {
+    "item": "create_sa:incomplete_steam_engine"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_steam_engine"
+        },
+        {
+          "tag": "forge:plates/brass"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_steam_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_steam_engine"
+        },
+        {
+          "item": "create:positron_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_steam_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_steam_engine"
+        },
+        {
+          "item": "create:propeller"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_steam_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_steam_engine"
+        },
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_steam_engine"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_sa:steam_engine"
+    }
+  ],
+  "loops": 3
+}

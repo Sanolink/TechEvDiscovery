@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
             output:["immersiveengineering:hammer"],
             loops: 2,
             sequence: [
-                {type: 'deploying', item:"#forge:plates/iron"},
+                {type: 'deploying', item:"#twilightforest:fiery_vial"},
                 {type: 'filling',  fluid:Fluid.of("create_things_and_misc:slime", 100)},
                 {type: 'pressing'},
                 {type: 'deploying', item:"createdeco:cast_iron_sheet"},

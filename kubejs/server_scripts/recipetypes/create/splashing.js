@@ -7,7 +7,20 @@ ServerEvents.recipes(event => {
     event.remove({type:'create:splashing', input: '#create:crushed_raw_materials'})
 
     //Recipes
-    let recipes = []
+    let recipes = [
+        //Splashing Pewter Blend
+        {
+        id: "pewter_blend",
+        input: "eidolon:pewter_blend",
+        output: [Item.of("#forge:nuggets/pewter", 9), Item.of("#forge:nuggets/pewter", 4).withChance(0.55)]
+        },
+        //Splashing Raw Andesite Alloy
+        {
+            id: "raw_andesite_alloy",
+            input: "create:raw_andesite_alloy",
+            output: ["create:andesite_alloy", Item.of("create:andesite_alloy", 1).withChance(0.5)]
+        }
+    ]
 
     //Crushed Raw List to Splash
     const crushed = [
@@ -29,11 +42,11 @@ ServerEvents.recipes(event => {
         if (material.sec != undefined) {recipes.push({
                     id: "crushed_raw_" + material.mat,
                     input: "create:crushed_raw_" + material.mat,
-                    output: [Item.of("#forge:nuggets/" + material.mat, 9), Item.of(material.sec).withChance(0.5)]
+                    output: [Item.of("#forge:nuggets/" + material.mat, 9), Item.of("#forge:nuggets/" + material.mat, 4).withChance(0.5), Item.of(material.sec).withChance(0.5)]
                 })} else {recipes.push({
                     id: "crushed_raw_" + material.mat,
                     input: "create:crushed_raw_" + material.mat,
-                    output: Item.of("#forge:nuggets/" + material.mat, 9)
+                    output: [Item.of("#forge:nuggets/" + material.mat, 9), Item.of("#forge:nuggets/" + material.mat, 4).withChance(0.5)]
                 })}
     })
 

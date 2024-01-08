@@ -3,9 +3,476 @@
 	default_quest_shape: ""
 	filename: "eidolon"
 	group: "6E6EAE103F859B8D"
+	icon: "eidolon:codex"
 	id: "477FE9F0B5F687AE"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["590886B2E4A442C4"]
+			id: "10467CAFDB1E3EFB"
+			shape: "gear"
+			tasks: [{
+				id: "5A4D3FF48D17D466"
+				item: "eidolon:pewter_blend"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10467CAFDB1E3EFB"]
+			id: "4E500339C5D4FFA7"
+			size: 1.5d
+			tasks: [{
+				id: "712D95F44265A422"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4E500339C5D4FFA7"]
+			id: "5B5DBBE7470FB545"
+			tasks: [{
+				id: "52D25B0713787B27"
+				item: "eidolon:pewter_inlay"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2693B640D8CA38C6"]
+			id: "4C0504713B46DA3F"
+			size: 1.5d
+			tasks: [{
+				id: "6B889897BE9F4CF8"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4C0504713B46DA3F"]
+			id: "35AE66F86BBF5233"
+			tasks: [{
+				id: "388A7F0386FC7DCB"
+				item: "eidolon:gold_inlay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E500339C5D4FFA7"]
+			id: "2693B640D8CA38C6"
+			size: 1.5d
+			tasks: [{
+				id: "47AA2CB227D78853"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4E500339C5D4FFA7"]
+			description: [
+				"You can check the &lRituals Page&r in your &l&eArs Ecclesia&r for details."
+				"{image:techev:textures/misc/quests/eidolon/rituals.png width:200 height:108 align:1 fit:true}"
+			]
+			id: "20FCCDBA9CC95A07"
+			size: 1.5d
+			tasks: [{
+				id: "474B2485CF105ECD"
+				item: "eidolon:brazier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5B5DBBE7470FB545"]
+			id: "7D33872A981FA1C2"
+			size: 1.5d
+			tasks: [{
+				id: "428B47259C3A0041"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["20FCCDBA9CC95A07"]
+			description: [
+				"With the Crystallization ritual, you can transform mobs into &d&lSoul Shards&r."
+				"&lEnchanted Ash&r is a useful item to block mobs."
+				"{image:techev:textures/misc/quests/eidolon/soul_shard_ritual.png width:160 height:90 align:1 fit:true}"
+			]
+			icon: "eidolon:soul_shard"
+			id: "42AD9FF048D3E4B7"
+			shape: "hexagon"
+			subtitle: "Mobs into Shards"
+			tasks: [
+				{
+					id: "0D1346BDC0E94248"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6FF072D2872FFA2E"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "4A90216786C44585"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+			]
+			title: "Crystallization Ritual"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5B5DBBE7470FB545"
+				"0326C4B7791590BE"
+				"3E4A2E01B0C1A119"
+			]
+			description: ["{image:techev:textures/misc/quests/eidolon/touch_of_darkness.png width:200 height:103 align:1 fit:true}"]
+			id: "273F4EE658C5BEFD"
+			size: 1.5d
+			tasks: [{
+				id: "4B6450E1542DFF32"
+				item: "eidolon:unholy_symbol"
+				type: "item"
+			}]
+			title: "&l&4Unholy Sign"
+			x: -0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EACDFAC3FEBFF1D"]
+			description: ["{image:techev:textures/misc/quests/eidolon/wicked_altar.png width:160 height:90 align:1 fit:true}"]
+			id: "690972FC486681FC"
+			tasks: [{
+				id: "1D137122D5588504"
+				item: "eidolon:goblet"
+				type: "item"
+			}]
+			title: "&4Wicked Altar"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0326C4B7791590BE"]
+			id: "590886B2E4A442C4"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "77E7BDC712A3C0D3"
+				item: "eidolon:codex"
+				type: "item"
+			}]
+			title: "&lEidolon"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BA9C673E72FFAAA"]
+			id: "5365C881A174A223"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 6L
+					id: "17FE80446D0D0890"
+					item: "eidolon:stone_altar"
+					type: "item"
+				}
+				{
+					id: "5BF8D0DAB2EA8C88"
+					item: "eidolon:unholy_effigy"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6668DE87317D8908"]
+			id: "22E3EA74863AF8E2"
+			shape: "gear"
+			tasks: [{
+				id: "11A229B5B50CE412"
+				item: "eidolon:raven_cloak"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2693B640D8CA38C6"]
+			id: "6B939378D68F28F3"
+			tasks: [{
+				id: "42FE9A6B18F7A434"
+				item: "eidolon:wooden_brewing_stand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DB784923C796F7B"]
+			description: ["{image:techev:textures/misc/quests/eidolon/sacred_altar.png width:160 height:90 align:1 fit:true}"]
+			id: "0BEF45DA01C1F3FE"
+			tasks: [{
+				id: "53E1CBDF436EDDD5"
+				item: "eidolon:censer"
+				type: "item"
+			}]
+			title: "&6Sacred Altar"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"35AE66F86BBF5233"
+				"196FE3D74245E350"
+			]
+			description: ["{image:techev:textures/misc/quests/eidolon/touch_of_light.png width:200 height:105 align:1 fit:true}"]
+			id: "174335DFD4E91CD6"
+			size: 1.5d
+			tasks: [{
+				id: "2760FB499D7FDB01"
+				item: "eidolon:holy_symbol"
+				type: "item"
+			}]
+			title: "&l&6Holy Sign"
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["590886B2E4A442C4"]
+			description: [
+				"You can check the &lTheurgy Page&r in your &l&eArs Ecclesia&r for details."
+				"{image:techev:textures/misc/quests/eidolon/theurgy.png width:162 height:155 align:1 fit:true}"
+			]
+			id: "0BA9C673E72FFAAA"
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 6L
+					id: "5274EFA06A12C3FB"
+					item: "eidolon:wooden_altar"
+					type: "item"
+				}
+				{
+					id: "1132350D7D5CC56D"
+					item: "eidolon:straw_effigy"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2693B640D8CA38C6"]
+			id: "47B9D89D7DAF9475"
+			size: 1.5d
+			tasks: [{
+				id: "1F2ADD5C2B2F8197"
+				item: "eidolon:research_table"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2DDEA539A003F102"]
+			description: [
+				"merammer root : white flowers"
+				"oanna : lilly pad"
+			]
+			hide_dependency_lines: true
+			id: "5B682EB13838B304"
+			shape: "gear"
+			tasks: [
+				{
+					id: "1770740FA1414C8E"
+					item: {
+						Count: 1b
+						id: "eidolon:athame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FED6722DE913C48"
+					item: "eidolon:merammer_root"
+					type: "item"
+				}
+				{
+					id: "47619EB9E821E3D1"
+					item: "eidolon:oanna_bloom"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5B682EB13838B304"
+				"2DDEA539A003F102"
+			]
+			id: "196FE3D74245E350"
+			tasks: [
+				{
+					id: "573A975A4357C115"
+					item: "eidolon:offering_incense"
+					type: "item"
+				}
+				{
+					advancement: "eidolon:incense"
+					criterion: ""
+					id: "493506BAA4019E7B"
+					type: "advancement"
+				}
+			]
+			title: "&6Offering Incense"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20FCCDBA9CC95A07"]
+			id: "6320A69B28E361E1"
+			tasks: [{
+				id: "3DD4B927AF588361"
+				item: "eidolon:necrotic_focus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42AD9FF048D3E4B7"]
+			id: "26B9A13C6BAB91F2"
+			shape: "gear"
+			tasks: [{
+				id: "38800211F0D83067"
+				item: {
+					Count: 1b
+					id: "eidolon:reaper_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0BA9C673E72FFAAA"]
+			description: [
+				"Give your &l&eArs Ecclesia&r to a &l&4Witch&r to learn the &l&4Wicked Sign"
+				"{image:techev:textures/misc/quests/eidolon/witch.png width:160 height:90 align:1 fit:true}"
+			]
+			icon: "minecraft:witch_spawn_egg"
+			id: "6EACDFAC3FEBFF1D"
+			shape: "gear"
+			subtitle: "Follow The Unholy Road"
+			tasks: [{
+				advancement: "eidolon:wicked_path"
+				criterion: ""
+				id: "544CEB36680F550C"
+				type: "advancement"
+			}]
+			title: "&l&4Wicked Path"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BA9C673E72FFAAA"]
+			description: [
+				"Give your &l&eArs Ecclesia&r to a &l&6Cleric&r to learn the &l&6Sacred Sign"
+				"{image:techev:textures/misc/quests/eidolon/cleric.png width:160 height:90 align:1 fit:true}"
+			]
+			icon: "minecraft:villager_spawn_egg"
+			id: "5DB784923C796F7B"
+			shape: "gear"
+			subtitle: "Follow the Holy Road"
+			tasks: [{
+				advancement: "eidolon:sacred_path"
+				criterion: ""
+				id: "64C9775C11D348CE"
+				type: "advancement"
+			}]
+			title: "&l&6Sacred Path"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2693B640D8CA38C6"]
+			id: "6668DE87317D8908"
+			tasks: [{
+				id: "22D6CD95AF355FFC"
+				item: "eidolon:wicked_weave"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["690972FC486681FC"]
+			description: ["{image:techev:textures/misc/quests/eidolon/dark_prayer.png width:108 height:104 align:1 fit:true}"]
+			icon: "eidolon:shadow_gem"
+			id: "1F85F2F1661F2565"
+			tasks: [{
+				id: "2D65121FFA9C6A7D"
+				type: "checkmark"
+			}]
+			title: "&4Dark Prayer"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F85F2F1661F2565"]
+			description: ["{image:techev:textures/misc/quests/eidolon/sacrifice_animal.png width:108 height:127 align:1 fit:true}"]
+			icon: "minecraft:porkchop"
+			id: "3E4A2E01B0C1A119"
+			tasks: [{
+				advancement: "eidolon:sacrifice"
+				criterion: ""
+				id: "0C56F3A72AE7EE6D"
+				type: "advancement"
+			}]
+			title: "&4Sacrifice Animal"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BEF45DA01C1F3FE"]
+			description: ["{image:techev:textures/misc/quests/eidolon/light_prayer.png width:109 height:100 align:1 fit:true}"]
+			icon: "eidolon:enchanted_ash"
+			id: "2DDEA539A003F102"
+			tasks: [{
+				id: "75F8534835026743"
+				type: "checkmark"
+			}]
+			title: "&6Light Prayer"
+			x: 4.0d
+			y: -2.0d
+		}
+	]
 	title: "Eidolon"
 }

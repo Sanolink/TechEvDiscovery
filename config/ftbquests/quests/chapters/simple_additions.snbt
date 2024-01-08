@@ -11,7 +11,7 @@
 		dev: false
 		height: 3.0d
 		hover: [ ]
-		image: "techev:textures/misc/questsicons/netherite.png"
+		image: "techev:textures/misc/quests/netherite.png"
 		rotation: 0.0d
 		width: 17.15d
 		x: -12.5d
@@ -29,8 +29,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.0d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5A2ACA0D169AE3C4"]
@@ -40,8 +40,8 @@
 				item: "glassential:glass_ethereal"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3EB633315D4766BD"]
@@ -51,8 +51,8 @@
 				item: "glassential:glass_dark_ethereal"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.5d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A2ACA0D169AE3C4"]
@@ -62,8 +62,8 @@
 				item: "glassential:glass_ghostly"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A2ACA0D169AE3C4"]
@@ -73,8 +73,8 @@
 				item: "glassential:glass_light"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5A2ACA0D169AE3C4"]
@@ -84,8 +84,8 @@
 				item: "glassential:glass_redstone"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5A2ACA0D169AE3C4"]
@@ -95,8 +95,8 @@
 				item: "mob_grinding_utils:tinted_glass"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6BAFC3CFF66D616A"]
@@ -107,7 +107,7 @@
 				item: "trashcans:item_trash_can"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -119,7 +119,7 @@
 				item: "trashcans:liquid_trash_can"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -131,7 +131,7 @@
 				item: "trashcans:energy_trash_can"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 3.5d
 		}
 		{
@@ -146,7 +146,7 @@
 				item: "trashcans:ultimate_trash_can"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -157,7 +157,7 @@
 				item: "itemcollectors:basic_collector"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -5.5d
 		}
 		{
@@ -168,7 +168,7 @@
 				item: "itemcollectors:advanced_collector"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -6.5d
 		}
 		{
@@ -228,8 +228,8 @@
 				item: "upgradednetherite:wither_essence"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -15.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["37C3E19215AADF71"]
@@ -252,8 +252,8 @@
 				item: "upgradednetherite:phantom_essence"
 				type: "item"
 			}]
-			x: -15.5d
-			y: -2.0d
+			x: -12.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["37C3E19215AADF71"]
@@ -276,8 +276,8 @@
 				item: "upgradednetherite:corrupt_essence"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -2.5d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["37C3E19215AADF71"]
@@ -348,8 +348,8 @@
 				item: "upgradednetherite:corrupt_upgraded_netherite_ingot"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -5.5d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6BB6BDADF7BBCFEA"]
@@ -372,8 +372,8 @@
 				item: "upgradednetherite:wither_upgraded_netherite_ingot"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.5d
+			x: -15.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["11B11884F7497301"]
@@ -408,12 +408,13 @@
 				item: "upgradednetherite:phantom_upgraded_netherite_ingot"
 				type: "item"
 			}]
-			x: -15.5d
-			y: -5.0d
+			x: -12.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "6E191E4A60A365E5"
+			shape: "rsquare"
 			tasks: [{
 				id: "6951AE703C1EA4CA"
 				item: {
@@ -431,6 +432,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "434B605D47B1FB04"
+			shape: "rsquare"
 			tasks: [{
 				id: "1D59F7AC54E468F4"
 				item: {
@@ -448,6 +450,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "796791D10199E2CB"
+			shape: "rsquare"
 			tasks: [{
 				id: "5ADB0F0AAC568E9D"
 				item: {
@@ -465,6 +468,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "6497ECB0126356CE"
+			shape: "rsquare"
 			tasks: [{
 				id: "432DD20CB3792637"
 				item: {
@@ -482,6 +486,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "7F94363133BA8BA0"
+			shape: "rsquare"
 			tasks: [{
 				id: "178BC2A493F6AED2"
 				item: {
@@ -499,6 +504,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "4E05C5EC3F281644"
+			shape: "rsquare"
 			tasks: [{
 				id: "4DB67D20620DABE3"
 				item: {
@@ -516,6 +522,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "7B5617406258DC2E"
+			shape: "rsquare"
 			tasks: [{
 				id: "50089FEF1AC72497"
 				item: {
@@ -533,6 +540,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "69938DDC42B71993"
+			shape: "rsquare"
 			tasks: [{
 				id: "5F4465F145DD22EC"
 				item: {
@@ -550,6 +558,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "78352FB646C6DA9A"
+			shape: "rsquare"
 			tasks: [{
 				id: "1A3F6CEAF8F4805A"
 				item: {
@@ -567,6 +576,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "523085FF527D7F83"
+			shape: "rsquare"
 			tasks: [{
 				id: "6029683D206BDCE8"
 				item: {
@@ -584,6 +594,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "6FAAE7B3BAF7E26A"
+			shape: "rsquare"
 			tasks: [{
 				id: "630F58F2BD928259"
 				item: {
@@ -601,6 +612,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "0433BC460F694C8E"
+			shape: "rsquare"
 			tasks: [{
 				id: "7AD48C159F4804B3"
 				item: "upgradednetherite_items:gold_upgraded_netherite_totem"
@@ -612,6 +624,7 @@
 		{
 			dependencies: ["39B5D72CB641B5E8"]
 			id: "0E4DCBB4189AACAE"
+			shape: "rsquare"
 			tasks: [{
 				id: "1CBDBE774D05F311"
 				item: "upgradednetherite:gold_upgraded_netherite_horse_armor"
@@ -623,6 +636,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "686F722E3B8B56E5"
+			shape: "rsquare"
 			tasks: [{
 				id: "3070204F33298020"
 				item: {
@@ -640,6 +654,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "3EF9929B9F331799"
+			shape: "rsquare"
 			tasks: [{
 				id: "5765823570FB18F6"
 				item: {
@@ -657,6 +672,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "5E28D4740F06F92E"
+			shape: "rsquare"
 			tasks: [{
 				id: "2EF0AE359A811C53"
 				item: {
@@ -674,6 +690,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "43F9374F01CF94A9"
+			shape: "rsquare"
 			tasks: [{
 				id: "61CCD5201513431F"
 				item: {
@@ -691,6 +708,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "62891D6DB523ECE1"
+			shape: "rsquare"
 			tasks: [{
 				id: "4418B476D95AED58"
 				item: {
@@ -708,6 +726,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "00B0C016CBBA0FB6"
+			shape: "rsquare"
 			tasks: [{
 				id: "01DA03982A86F26C"
 				item: "upgradednetherite_items:fire_upgraded_netherite_totem"
@@ -719,6 +738,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "2994FE3BF61A3FFC"
+			shape: "rsquare"
 			tasks: [{
 				id: "0697F0DF2A845D36"
 				item: {
@@ -736,6 +756,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "339E6B0C94542B31"
+			shape: "rsquare"
 			tasks: [{
 				id: "7D5A26904508CEB6"
 				item: {
@@ -753,6 +774,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "3AE1891C0B6FC3EC"
+			shape: "rsquare"
 			tasks: [{
 				id: "443CC0289E78E65C"
 				item: {
@@ -770,6 +792,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "6D6AF0E419E63088"
+			shape: "rsquare"
 			tasks: [{
 				id: "331A771C93698728"
 				item: {
@@ -787,6 +810,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "6D1FFACA710D85BC"
+			shape: "rsquare"
 			tasks: [{
 				id: "111447E8040F0A54"
 				item: {
@@ -804,6 +828,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "1A3C417B87A753EF"
+			shape: "rsquare"
 			tasks: [{
 				id: "2FE95105DAF6173E"
 				item: {
@@ -821,6 +846,7 @@
 		{
 			dependencies: ["1A40E299776BF7A2"]
 			id: "460D369B122EE971"
+			shape: "rsquare"
 			tasks: [{
 				id: "176F8D98E70E080B"
 				item: "upgradednetherite:fire_upgraded_netherite_horse_armor"
@@ -832,6 +858,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "1487331754237E97"
+			shape: "rsquare"
 			tasks: [{
 				id: "6AE2F9057A0944D7"
 				item: {
@@ -849,6 +876,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "6F983747939C15F0"
+			shape: "rsquare"
 			tasks: [{
 				id: "2DE4A823DD883192"
 				item: {
@@ -866,6 +894,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "0E3E63281FB568D9"
+			shape: "rsquare"
 			tasks: [{
 				id: "1B3371C03B6A278F"
 				item: {
@@ -883,6 +912,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "7F590B12394F8C5F"
+			shape: "rsquare"
 			tasks: [{
 				id: "6DDF553643A9E080"
 				item: {
@@ -900,6 +930,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "34AF3C3213B16989"
+			shape: "rsquare"
 			tasks: [{
 				id: "425CC82F5A58A19A"
 				item: {
@@ -917,6 +948,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "3F2CABD98BD36A2D"
+			shape: "rsquare"
 			tasks: [{
 				id: "012A4B717653BC2A"
 				item: "upgradednetherite_items:echo_upgraded_netherite_totem"
@@ -928,6 +960,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "1091A0679A89E7A2"
+			shape: "rsquare"
 			tasks: [{
 				id: "49E2F37DBA8CB155"
 				item: {
@@ -945,6 +978,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "0AD6C0D4145023CD"
+			shape: "rsquare"
 			tasks: [{
 				id: "52ED4DB1CCFFBF19"
 				item: {
@@ -962,6 +996,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "606F83066E48BF76"
+			shape: "rsquare"
 			tasks: [{
 				id: "52787BBEDC6463FE"
 				item: {
@@ -979,6 +1014,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "7C85FA8DAE71E1DC"
+			shape: "rsquare"
 			tasks: [{
 				id: "465859D002856888"
 				item: {
@@ -996,6 +1032,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "1713FC7714F5E65A"
+			shape: "rsquare"
 			tasks: [{
 				id: "7996C721624B1EE2"
 				item: {
@@ -1013,6 +1050,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "335555044A29E3E2"
+			shape: "rsquare"
 			tasks: [{
 				id: "6B164402FAA67B8D"
 				item: {
@@ -1030,6 +1068,7 @@
 		{
 			dependencies: ["1155BC49EF4EC56F"]
 			id: "583A4793AA233D3E"
+			shape: "rsquare"
 			tasks: [{
 				id: "681A1EA864DBD4E8"
 				item: "upgradednetherite:echo_upgraded_netherite_horse_armor"
@@ -1041,6 +1080,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "0F965E21E3723C84"
+			shape: "rsquare"
 			tasks: [{
 				id: "569F79BDF600F162"
 				item: {
@@ -1058,6 +1098,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "02F66E2BA1432A2D"
+			shape: "rsquare"
 			tasks: [{
 				id: "1AC930BE733B6B25"
 				item: {
@@ -1075,6 +1116,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "4D336DF260CDE80A"
+			shape: "rsquare"
 			tasks: [{
 				id: "7CA7F473E82C54A2"
 				item: {
@@ -1092,6 +1134,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "2B22086DB7677C97"
+			shape: "rsquare"
 			tasks: [{
 				id: "6E000757053B4E7D"
 				item: {
@@ -1109,6 +1152,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "1A41716F860C7EF7"
+			shape: "rsquare"
 			tasks: [{
 				id: "348DDA99885DCDDE"
 				item: {
@@ -1126,6 +1170,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "40812D5103A6EF84"
+			shape: "rsquare"
 			tasks: [{
 				id: "04AB6C2AED38A4C0"
 				item: "upgradednetherite_items:ender_upgraded_netherite_totem"
@@ -1137,6 +1182,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "2CB5A106C6AA1FEB"
+			shape: "rsquare"
 			tasks: [{
 				id: "2F63371BE6A19578"
 				item: {
@@ -1154,6 +1200,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "5F218231BE010DFC"
+			shape: "rsquare"
 			tasks: [{
 				id: "52C8960EA81E2059"
 				item: {
@@ -1171,6 +1218,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "3CE54E96FCF4686C"
+			shape: "rsquare"
 			tasks: [{
 				id: "68D0726A9A3E98A6"
 				item: {
@@ -1188,6 +1236,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "0479A3A70FB3C89E"
+			shape: "rsquare"
 			tasks: [{
 				id: "2D719980CB7D7D78"
 				item: {
@@ -1205,6 +1254,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "4F54CF0DF2D336DD"
+			shape: "rsquare"
 			tasks: [{
 				id: "4733892885A22551"
 				item: {
@@ -1222,6 +1272,7 @@
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "1BED6A8EC4297489"
+			shape: "rsquare"
 			tasks: [{
 				id: "7862193E5046DD20"
 				item: {
@@ -1239,6 +1290,7 @@
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "64544EEEE8322CEE"
+			shape: "rsquare"
 			tasks: [{
 				id: "12FCC98009E274CA"
 				item: {
@@ -1250,12 +1302,13 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: -3.0d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "66FA18DA9612DC4D"
+			shape: "rsquare"
 			tasks: [{
 				id: "1B38FDE45DA3EAB7"
 				item: {
@@ -1267,12 +1320,13 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: -4.0d
+			x: -7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "6A1C952F2EAF5D8C"
+			shape: "rsquare"
 			tasks: [{
 				id: "5166DC4BDD816EE8"
 				item: {
@@ -1284,12 +1338,13 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: -5.0d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "6C3098585429EA41"
+			shape: "rsquare"
 			tasks: [{
 				id: "139C420EE8811901"
 				item: {
@@ -1301,12 +1356,13 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: -6.0d
+			x: -7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "7215CF8DAF3F1947"
+			shape: "rsquare"
 			tasks: [{
 				id: "1DA1ED9419E5C7B5"
 				item: {
@@ -1318,23 +1374,25 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: -7.0d
+			x: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "3283162DFE1845FB"
+			shape: "rsquare"
 			tasks: [{
 				id: "0B0BDA4D135CF511"
 				item: "upgradednetherite_items:corrupt_upgraded_netherite_totem"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -8.0d
+			x: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "1DCA2B5986766787"
+			shape: "rsquare"
 			tasks: [{
 				id: "25470534B279FB3B"
 				item: {
@@ -1346,12 +1404,13 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -3.0d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "1D3B888E8304F607"
+			shape: "rsquare"
 			tasks: [{
 				id: "7413FDA2D7F3ED1D"
 				item: {
@@ -1363,12 +1422,13 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -4.0d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "79515EB38982BCFC"
+			shape: "rsquare"
 			tasks: [{
 				id: "459EF7FED9025BE3"
 				item: {
@@ -1380,12 +1440,13 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -5.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "7FB8422C8B679AFF"
+			shape: "rsquare"
 			tasks: [{
 				id: "41A28CF4266D80AC"
 				item: {
@@ -1397,12 +1458,13 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -6.0d
+			x: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "7FDE640FFBD895D7"
+			shape: "rsquare"
 			tasks: [{
 				id: "04E0D7626B933DA9"
 				item: {
@@ -1414,12 +1476,13 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -7.0d
+			x: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "0930E45C1769A776"
+			shape: "rsquare"
 			tasks: [{
 				id: "473C32F94928CE07"
 				item: {
@@ -1431,12 +1494,13 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -8.0d
+			x: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "2EE578BF21FB386E"
+			shape: "rsquare"
 			tasks: [{
 				id: "4E6810B664D154C6"
 				item: {
@@ -1454,6 +1518,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "2F7B641A3431DAC6"
+			shape: "rsquare"
 			tasks: [{
 				id: "0B67F230DA2F6428"
 				item: {
@@ -1471,6 +1536,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "4A4FAC1CB44BBDB0"
+			shape: "rsquare"
 			tasks: [{
 				id: "51AC271F4D282648"
 				item: {
@@ -1488,6 +1554,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "1DDBECA614262AEA"
+			shape: "rsquare"
 			tasks: [{
 				id: "3764792FF17484EE"
 				item: {
@@ -1505,6 +1572,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "2B035E3F5083B091"
+			shape: "rsquare"
 			tasks: [{
 				id: "2161269DC033A4CE"
 				item: {
@@ -1522,6 +1590,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "7D195AD15FD0376E"
+			shape: "rsquare"
 			tasks: [{
 				id: "54ECD39A1114972E"
 				item: "upgradednetherite_items:poison_upgraded_netherite_totem"
@@ -1533,6 +1602,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "19293FAAED7AF4B0"
+			shape: "rsquare"
 			tasks: [{
 				id: "737AB7D5F78EE7D3"
 				item: {
@@ -1550,6 +1620,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "5B05EA140528797C"
+			shape: "rsquare"
 			tasks: [{
 				id: "69374BA73E922E51"
 				item: {
@@ -1567,6 +1638,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "47101DE1F9F93B38"
+			shape: "rsquare"
 			tasks: [{
 				id: "1CD0FD73E5999FA5"
 				item: {
@@ -1584,6 +1656,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "43C4EEE5321582EA"
+			shape: "rsquare"
 			tasks: [{
 				id: "735CB832DF934536"
 				item: {
@@ -1601,6 +1674,7 @@
 		{
 			dependencies: ["15636AEA81957CB3"]
 			id: "0068415ED9258F01"
+			shape: "rsquare"
 			tasks: [{
 				id: "1D296E9071B0F59F"
 				item: "upgradednetherite:poison_upgraded_netherite_horse_armor"
@@ -1612,18 +1686,19 @@
 		{
 			dependencies: ["278AEC65AC6DE0EE"]
 			id: "2EF862F2B1F4F6F8"
+			shape: "rsquare"
 			tasks: [{
 				id: "18658E4215AE3369"
 				item: "upgradednetherite:corrupt_upgraded_netherite_horse_armor"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -7.5d
+			x: -6.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "7B0AB7801BFDF0EE"
-			shape: "hexagon"
+			shape: "rsquare"
 			tasks: [{
 				id: "2CCC2DE65D355EDE"
 				item: {
@@ -1635,13 +1710,13 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -2.0d
+			x: -16.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "6F427AF5161FD393"
-			shape: "hexagon"
+			shape: "rsquare"
 			tasks: [{
 				id: "50F68386A12892DE"
 				item: {
@@ -1653,13 +1728,13 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.0d
+			x: -16.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "21C2A54A202FB3B2"
-			shape: "hexagon"
+			shape: "rsquare"
 			tasks: [{
 				id: "5CF3291D96513F7E"
 				item: {
@@ -1671,13 +1746,13 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -4.0d
+			x: -16.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "2696ADB6F52D7C2A"
-			shape: "hexagon"
+			shape: "rsquare"
 			tasks: [{
 				id: "37787712617E1576"
 				item: {
@@ -1689,12 +1764,13 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -5.0d
+			x: -16.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "4A1DCEAE9FE722FD"
+			shape: "rsquare"
 			tasks: [{
 				id: "02B7A9BB47555A94"
 				item: {
@@ -1706,34 +1782,37 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -6.0d
+			x: -16.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "2DE163574E957F91"
+			shape: "rsquare"
 			tasks: [{
 				id: "1E2625A67AAF1E5E"
 				item: "upgradednetherite_items:wither_upgraded_netherite_totem"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -7.0d
+			x: -16.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "5242EBD28CD952E2"
+			shape: "rsquare"
 			tasks: [{
 				id: "065A354FC2A6E093"
 				item: "upgradednetherite:wither_upgraded_netherite_horse_armor"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -6.5d
+			x: -15.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "1330E405D9A6ADC5"
+			shape: "rsquare"
 			tasks: [{
 				id: "57EC576436D5D343"
 				item: {
@@ -1745,12 +1824,13 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -7.0d
+			x: -14.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "17D01AC764FD0B71"
+			shape: "rsquare"
 			tasks: [{
 				id: "62E6DD5DF1C216FB"
 				item: {
@@ -1762,12 +1842,13 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -6.0d
+			x: -14.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "0E4DCDBADCC368D7"
+			shape: "rsquare"
 			tasks: [{
 				id: "635CBD361DBF0104"
 				item: {
@@ -1779,12 +1860,13 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.0d
+			x: -14.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3086570C7DE4F849"]
 			id: "65489FEABD33F329"
+			shape: "rsquare"
 			tasks: [{
 				id: "4C240D4A843DFD3F"
 				item: {
@@ -1796,12 +1878,13 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.0d
+			x: -14.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "37875083980D68A8"
+			shape: "rsquare"
 			tasks: [{
 				id: "08AC83CE0804F4F1"
 				item: {
@@ -1819,6 +1902,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "15CF2921E5F982EB"
+			shape: "rsquare"
 			tasks: [{
 				id: "1BD459A0DF6CCF31"
 				item: {
@@ -1836,6 +1920,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "2C2F8DC8673C3A1F"
+			shape: "rsquare"
 			tasks: [{
 				id: "6B59555143A6A92C"
 				item: {
@@ -1853,6 +1938,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "284B5DF701C46E4D"
+			shape: "rsquare"
 			tasks: [{
 				id: "79273D663A12F154"
 				item: {
@@ -1870,6 +1956,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "378867A63DB4945A"
+			shape: "rsquare"
 			tasks: [{
 				id: "7C3B5345B448D351"
 				item: {
@@ -1887,6 +1974,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "2FFFCE34AEDF6C8C"
+			shape: "rsquare"
 			tasks: [{
 				id: "3B3E688EB2A4EE0D"
 				item: "upgradednetherite_items:water_upgraded_netherite_totem"
@@ -1898,6 +1986,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "75DCC2172AE05D83"
+			shape: "rsquare"
 			tasks: [{
 				id: "31ECD2A48E356BE0"
 				item: {
@@ -1915,6 +2004,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "2D3BB8AB947DA639"
+			shape: "rsquare"
 			tasks: [{
 				id: "7157F80FD6B9DBB5"
 				item: {
@@ -1932,6 +2022,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "79DDEB9CB3FA7EDE"
+			shape: "rsquare"
 			tasks: [{
 				id: "0722FDFCE9AB42B4"
 				item: {
@@ -1949,6 +2040,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "1E2C41D9071D9D28"
+			shape: "rsquare"
 			tasks: [{
 				id: "566C1DFE8D150DF3"
 				item: {
@@ -1966,6 +2058,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "719E2FB06A2400FD"
+			shape: "rsquare"
 			tasks: [{
 				id: "7EFBE0C6F23F69CB"
 				item: {
@@ -1983,6 +2076,7 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "7E405E82904ACD99"
+			shape: "rsquare"
 			tasks: [{
 				id: "38A7C7E624BAE001"
 				item: {
@@ -2000,17 +2094,19 @@
 		{
 			dependencies: ["2F30FF328D3958CC"]
 			id: "1BC305B7F16BD6C2"
+			shape: "rsquare"
 			tasks: [{
 				id: "12333D466193DD8E"
 				item: "upgradednetherite:water_upgraded_netherite_horse_armor"
 				type: "item"
 			}]
 			x: -6.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "6AC91DB9DA3357B2"
+			shape: "rsquare"
 			tasks: [{
 				id: "00E866FF9F9398FD"
 				item: {
@@ -2028,6 +2124,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "4F5C14A71D6138B7"
+			shape: "rsquare"
 			tasks: [{
 				id: "5DC444CD094DC91F"
 				item: {
@@ -2045,6 +2142,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "558B764F493AE829"
+			shape: "rsquare"
 			tasks: [{
 				id: "1FD938A997E86072"
 				item: {
@@ -2062,6 +2160,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "5B7D25B069D94D6C"
+			shape: "rsquare"
 			tasks: [{
 				id: "69198491B0F56404"
 				item: {
@@ -2079,6 +2178,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "2738B7BF28FA8661"
+			shape: "rsquare"
 			tasks: [{
 				id: "3EC39A23DE87B0E8"
 				item: {
@@ -2096,6 +2196,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "7A78C998C3D277E1"
+			shape: "rsquare"
 			tasks: [{
 				id: "654ED200A8B7652C"
 				item: "upgradednetherite_items:feather_upgraded_netherite_totem"
@@ -2107,6 +2208,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "3F22702ECEB5691E"
+			shape: "rsquare"
 			tasks: [{
 				id: "16E7ED54A24E5F55"
 				item: {
@@ -2124,6 +2226,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "41E835E5C0E6C943"
+			shape: "rsquare"
 			tasks: [{
 				id: "4D41C658AF07AA25"
 				item: {
@@ -2141,6 +2244,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "304D4DEF215FF557"
+			shape: "rsquare"
 			tasks: [{
 				id: "2D7B2BC5AFF79F4E"
 				item: {
@@ -2158,6 +2262,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "03CE31495B0250FF"
+			shape: "rsquare"
 			tasks: [{
 				id: "3EC5C049A0EAF7D8"
 				item: {
@@ -2175,6 +2280,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "3B864C4D999DF9A7"
+			shape: "rsquare"
 			tasks: [{
 				id: "632130085C45ECF1"
 				item: {
@@ -2192,6 +2298,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "3A6390325AF281AD"
+			shape: "rsquare"
 			tasks: [{
 				id: "07E04F7B1BB4A280"
 				item: {
@@ -2209,6 +2316,7 @@
 		{
 			dependencies: ["794222234CD5D9C1"]
 			id: "382F8B1A14500D3F"
+			shape: "rsquare"
 			tasks: [{
 				id: "6297F7AB77569369"
 				item: "upgradednetherite:feather_upgraded_netherite_horse_armor"
@@ -2220,6 +2328,7 @@
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "62599EBB54FA8DA4"
+			shape: "rsquare"
 			tasks: [{
 				id: "53A1010DF5855D21"
 				item: {
@@ -2231,12 +2340,13 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -2.5d
+			x: -13.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "14C1D1B284A84534"
+			shape: "rsquare"
 			tasks: [{
 				id: "46068C613C4288C1"
 				item: {
@@ -2248,12 +2358,13 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -3.5d
+			x: -13.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "5D2CB6AD6A1B514F"
+			shape: "rsquare"
 			tasks: [{
 				id: "1112C090CFFF6560"
 				item: {
@@ -2265,12 +2376,13 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -4.5d
+			x: -13.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "34A7D27D2769B1E7"
+			shape: "rsquare"
 			tasks: [{
 				id: "34BFF03ACAE3DDEB"
 				item: {
@@ -2282,12 +2394,13 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -5.5d
+			x: -13.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "0497ED6A1F296984"
+			shape: "rsquare"
 			tasks: [{
 				id: "4514936A1C0BEC63"
 				item: {
@@ -2299,34 +2412,37 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -6.5d
+			x: -13.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "5AF76C996C1DC3E7"
+			shape: "rsquare"
 			tasks: [{
 				id: "6E4D0A8C10C19E5B"
 				item: "upgradednetherite_items:phantom_upgraded_netherite_totem"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -7.5d
+			x: -13.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "5FC61C50274FF9F2"
+			shape: "rsquare"
 			tasks: [{
 				id: "7333B11C63AA8DD8"
 				item: "upgradednetherite:phantom_upgraded_netherite_horse_armor"
 				type: "item"
 			}]
-			x: -15.5d
-			y: -7.0d
+			x: -12.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "5B867FCC308D8B96"
+			shape: "rsquare"
 			tasks: [{
 				id: "050345E5725BD819"
 				item: {
@@ -2338,12 +2454,13 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -2.5d
+			x: -11.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "75EB11B31F9882E4"
+			shape: "rsquare"
 			tasks: [{
 				id: "35748E692D82EB7C"
 				item: {
@@ -2355,12 +2472,13 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -4.5d
+			x: -11.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "164C7DC591987234"
+			shape: "rsquare"
 			tasks: [{
 				id: "021A3A80FB14BC5D"
 				item: {
@@ -2372,12 +2490,13 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -3.5d
+			x: -11.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "33D899D4EE12B10F"
+			shape: "rsquare"
 			tasks: [{
 				id: "360169A6B70E5E45"
 				item: {
@@ -2389,12 +2508,13 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -5.5d
+			x: -11.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "4D7BF65640205EA9"
+			shape: "rsquare"
 			tasks: [{
 				id: "2B2B22D82F9FB1F4"
 				item: {
@@ -2406,12 +2526,13 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -6.5d
+			x: -11.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3277AF15AE86F95C"]
 			id: "52673B54F8EE6858"
+			shape: "rsquare"
 			tasks: [{
 				id: "6F564C11EC5EF2C7"
 				item: {
@@ -2423,12 +2544,13 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -7.5d
+			x: -11.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0B463C933DADE644"]
 			id: "262341884DFF8F6E"
+			shape: "rsquare"
 			tasks: [{
 				id: "2328FC96080DA64C"
 				item: "upgradednetherite:ender_upgraded_netherite_horse_armor"
@@ -2458,7 +2580,7 @@
 				item: "mob_grinding_utils:fan_upgrade_width"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -2469,7 +2591,7 @@
 				item: "mob_grinding_utils:fan_upgrade_height"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -2480,7 +2602,7 @@
 				item: "mob_grinding_utils:fan_upgrade_speed"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -2491,7 +2613,7 @@
 				item: "mob_grinding_utils:absorption_upgrade"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -6.5d
 		}
 		{
@@ -2502,7 +2624,7 @@
 				item: "mob_grinding_utils:absorption_hopper"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -5.5d
 		}
 		{
@@ -2513,7 +2635,7 @@
 				item: "mob_grinding_utils:fan"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -2526,7 +2648,7 @@
 				item: "mob_grinding_utils:saw"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -3.5d
 		}
 		{
@@ -2537,7 +2659,7 @@
 				item: "mob_grinding_utils:saw_upgrade_arthropod"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -3.5d
 		}
 		{
@@ -2548,7 +2670,7 @@
 				item: "mob_grinding_utils:saw_upgrade_beheading"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
@@ -2559,7 +2681,7 @@
 				item: "mob_grinding_utils:saw_upgrade_fire"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -4.5d
 		}
 		{
@@ -2570,7 +2692,7 @@
 				item: "mob_grinding_utils:saw_upgrade_looting"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -4.5d
 		}
 		{
@@ -2581,7 +2703,7 @@
 				item: "mob_grinding_utils:saw_upgrade_sharpness"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -2592,7 +2714,7 @@
 				item: "mob_grinding_utils:saw_upgrade_smite"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -2603,7 +2725,7 @@
 				item: "mob_grinding_utils:entity_spawner"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 0.5d
 		}
 		{
@@ -2614,7 +2736,7 @@
 				item: "minecraft:spawner"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -2625,7 +2747,7 @@
 				item: "mob_grinding_utils:xp_solidifier_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -2636,7 +2758,7 @@
 				item: "mob_grinding_utils:xpsolidifier"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -0.5d
 		}
 		{
@@ -2647,7 +2769,7 @@
 				item: "mob_grinding_utils:spawner_upgrade_width"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -2658,7 +2780,7 @@
 				item: "mob_grinding_utils:spawner_upgrade_height"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 1.5d
 		}
 		{
@@ -2669,7 +2791,7 @@
 				item: "mob_grinding_utils:rotten_egg"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -2680,7 +2802,7 @@
 				item: "mob_grinding_utils:golden_egg"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -2698,7 +2820,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -2709,7 +2831,7 @@
 				item: "mob_grinding_utils:gm_chicken_feed"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -2720,7 +2842,7 @@
 				item: "mob_grinding_utils:gm_chicken_feed_cursed"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 2.5d
 		}
 		{
@@ -2731,7 +2853,7 @@
 				item: "mob_grinding_utils:nutritious_chicken_feed"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
@@ -2744,7 +2866,7 @@
 				item: "mob_grinding_utils:spikes"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -2755,7 +2877,7 @@
 				item: "mob_grinding_utils:tank"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -2766,7 +2888,7 @@
 				item: "mob_grinding_utils:tank_sink"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -2777,7 +2899,7 @@
 				item: "mob_grinding_utils:xp_tap"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -2788,7 +2910,7 @@
 				item: "mob_grinding_utils:jumbo_tank"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -2799,7 +2921,7 @@
 				item: "mob_grinding_utils:entity_conveyor"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -2818,7 +2940,7 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -2836,7 +2958,7 @@
 				item: "ironfurnaces:copper_furnace"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
@@ -2858,7 +2980,7 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -2880,7 +3002,7 @@
 				item: "ironfurnaces:silver_furnace"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -2902,7 +3024,7 @@
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -2920,7 +3042,7 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -2938,7 +3060,7 @@
 				item: "ironfurnaces:emerald_furnace"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -2960,7 +3082,7 @@
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -2978,7 +3100,7 @@
 				item: "ironfurnaces:crystal_furnace"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -2995,7 +3117,7 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -3023,7 +3145,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -5.0d
 		}
 		{
@@ -3040,7 +3162,7 @@
 				item: "ironfurnaces:rainbow_core"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -3058,7 +3180,7 @@
 				item: "ironfurnaces:rainbow_plating"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -4.0d
 		}
 		{
@@ -3078,14 +3200,270 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Infinite Coal"
+			subtitle: "Very Durable Coal"
 			tasks: [{
 				id: "46E8953FA47E8B0F"
 				item: "ironfurnaces:rainbow_coal"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "0344E5A1712849EE"
+			shape: "diamond"
+			tasks: [{
+				id: "5D098FF88DBFDFD0"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "4D691FCAF3C7ED77"
+			shape: "diamond"
+			tasks: [{
+				id: "54AD6C9D7181D09C"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "704B2052E74B1821"
+			shape: "diamond"
+			tasks: [{
+				id: "24C70BAD80E149BC"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "32E57EFB524C9CCF"
+			shape: "diamond"
+			tasks: [{
+				id: "422FB30F65E9C358"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "3EA8D7DBD1FE3331"
+			shape: "diamond"
+			tasks: [{
+				id: "46FF97675E0CF2D9"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_items:ultimate_upgraded_netherite_totem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "6B003388D0B5444D"
+			shape: "diamond"
+			tasks: [{
+				id: "79C5A03A62DA54F8"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "7D00D60A9EEB7CA4"
+			shape: "diamond"
+			tasks: [{
+				id: "7AAABEA16480CA1B"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_horse_armor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "25B36AC52C328BC6"
+			shape: "diamond"
+			tasks: [{
+				id: "14F98A05F14C593A"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "30A112DEB8ACF06D"
+			shape: "diamond"
+			tasks: [{
+				id: "44B59090B1801CF4"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "7DE958F9C8BE7C5B"
+			shape: "diamond"
+			tasks: [{
+				id: "5DE2EF0398AD3C54"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "3B95CC3E7CE810B4"
+			shape: "diamond"
+			tasks: [{
+				id: "01BD4975C8A4FE9D"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "723F9CEDE1B2DDFB"
+			shape: "diamond"
+			tasks: [{
+				id: "2A4250CA0AC74E31"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3283936534BDC4DD"]
+			id: "24D2D62D2AF6FFEA"
+			shape: "diamond"
+			tasks: [{
+				id: "1708DDBFBBDFBF93"
+				item: {
+					Count: 1b
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A46CE71B67D63DD"]
+			id: "3283936534BDC4DD"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "3DFAA0C355756F82"
+				item: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37C3E19215AADF71"]
+			id: "7A46CE71B67D63DD"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "635BEC3D3A4F1998"
+				item: "upgradednetherite_ultimate:ultimate_essence"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -1.0d
 		}
 	]
 	title: "Little Additions"

@@ -13,13 +13,13 @@
 		#EG: "modname:modsound.boing"
 		#
 		#If you want to use external sounds, consider looking into the mod Additional Resources
-		name = "entity.experience_orb.pickup"
+		name = "immersiveengineering:tesla"
 		#Volume of the sound (when Minecraft loads)
 		#Range: 0.0 ~ 10.0
-		volume = 0.25
+		volume = 0.5
 		#Pitch of the sound (when Minecraft loads)
 		#Range: 0.0 ~ 10.0
-		pitch = 1.0
+		pitch = 2.0
 		#Sound category for the sound played when Minecraft finishes loading. EG: "ambient" or "music". Defaults to "master" if Ding cannot find your category.
 		category = "master"
 
@@ -47,13 +47,13 @@
 		#Resource Location based name of the sound file to play when resources complete reloading.
 		#
 		#Look at the "name" config for more details.
-		nameResourcesReload = "entity.experience_orb.pickup"
+		nameResourcesReload = "immersiveengineering:tesla"
 		#Volume of the sound (when resources complete reloading)
 		#Range: 0.0 ~ 10.0
-		volumeResourcesReload = 0.25
+		volumeResourcesReload = 0.5
 		#Pitch of the sound (when resources complete reloading)
 		#Range: 0.0 ~ 10.0
-		pitchResourcesReload = 1.0
+		pitchResourcesReload = 2.0
 		#Sound category for the sound played when resources complete reloading. EG: "ambient" or "music". Defaults to "master" if Ding cannot find your category.
 		categoryResourcesReload = "master"
 

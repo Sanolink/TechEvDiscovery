@@ -11,7 +11,7 @@
 		dev: false
 		height: 2.0d
 		hover: [ ]
-		image: "techev:textures/misc/questsicons/progression.png"
+		image: "techev:textures/misc/quests/progression.png"
 		rotation: 0.0d
 		width: 12.3974359d
 		x: 4.0d
@@ -59,8 +59,8 @@
 				type: "checkmark"
 			}]
 			title: "Exploring World"
-			x: 0.0d
-			y: -2.25d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -78,8 +78,8 @@
 				type: "checkmark"
 			}]
 			title: "Farmer's Life"
-			x: 2.25d
-			y: 0.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -97,8 +97,8 @@
 				type: "checkmark"
 			}]
 			title: "Create"
-			x: -2.25d
-			y: 0.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0F8C4C01C5E75A8B"]
@@ -196,6 +196,7 @@
 				id: "003657112C515986"
 				type: "checkmark"
 			}]
+			title: "Immersive Engineering"
 			x: 9.0d
 			y: -1.5d
 		}
@@ -249,8 +250,9 @@
 				id: "55272ECE75F73C61"
 				type: "checkmark"
 			}]
-			x: 5.25d
-			y: 0.0d
+			title: "Twilight Forest"
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -267,8 +269,8 @@
 				type: "checkmark"
 			}]
 			title: "Little Additions"
-			x: 9.0d
-			y: 1.5d
+			x: 5.25d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -341,6 +343,25 @@
 			}]
 			x: 15.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74C9143F2AE3BB45"
+				"5365C881A174A223"
+			]
+			icon: "eidolon:unholy_effigy"
+			id: "75E9D92DA2303E2F"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the last Quest of \"Eidolon\"."
+			tasks: [{
+				id: "71B1FE463A561F16"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Eidolon"
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "&lAchievements"

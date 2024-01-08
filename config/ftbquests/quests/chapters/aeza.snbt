@@ -11,7 +11,7 @@
 		dev: false
 		height: 9.0d
 		hover: [ ]
-		image: "techev:textures/misc/questsicons/music_notes.png"
+		image: "techev:textures/misc/quests/music_notes.png"
 		rotation: 0.0d
 		width: 14.6341463d
 		x: -4.642857142857146d
@@ -130,8 +130,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.326190476190469d
-			y: -3.2476190476190325d
+			x: 9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5A34D51CA1286F47"]
@@ -730,7 +730,7 @@
 				item: "minecraft:lever"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "rsquare"
 			subtitle: "Boo."
 			tasks: [{
 				id: "6AE5C15001F0808D"
@@ -894,7 +894,7 @@
 					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			subtitle: "Becoming Lara Craft"
 			tasks: [
 				{
@@ -975,7 +975,7 @@
 					xp_levels: 10
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			subtitle: "The Most Powerful Laser"
 			tasks: [{
 				advancement: "minecraft:nether/create_full_beacon"
@@ -1076,7 +1076,7 @@
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "rsquare"
 			subtitle: "Dragon's Legacy"
 			tasks: [{
 				id: "13AC84288B25008C"
@@ -1155,7 +1155,7 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "rsquare"
 			subtitle: "Strong like a Wall"
 			tasks: [
 				{
@@ -1215,7 +1215,7 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "rsquare"
 			subtitle: "Powerful like a Swiss Knife"
 			tasks: [
 				{
@@ -1319,7 +1319,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			subtitle: "Chemistry Class"
 			tasks: [{
 				id: "05295688AAD3308D"
@@ -1362,7 +1362,7 @@
 				item: "minecraft:ender_chest"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "rsquare"
 			subtitle: "Multiverse Paradox"
 			tasks: [{
 				id: "64692A05042C6E9C"
@@ -1380,6 +1380,7 @@
 				item: "minecraft:shulker_shell"
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "Backpack's Ingredient"
 			tasks: [{
 				id: "570B261214C754D3"
@@ -1878,6 +1879,7 @@
 		{
 			dependencies: ["71310706657288F9"]
 			id: "7395E98C0F2B3E31"
+			shape: "rsquare"
 			tasks: [{
 				id: "365E876832AEB611"
 				item: "apotheosis:reforging_table"
@@ -1966,6 +1968,7 @@
 		}
 		{
 			dependencies: ["3203B6E662B8D430"]
+			hide_dependency_lines: true
 			id: "3B17D6FE1CC32CE3"
 			shape: "square"
 			tasks: [{
@@ -1982,6 +1985,7 @@
 		}
 		{
 			dependencies: ["3203B6E662B8D430"]
+			hide_dependency_lines: true
 			id: "7566B09CE9941CBB"
 			shape: "square"
 			tasks: [{
@@ -1998,6 +2002,7 @@
 		}
 		{
 			dependencies: ["3203B6E662B8D430"]
+			hide_dependency_lines: true
 			id: "3E2DD05E0A5E7165"
 			shape: "square"
 			tasks: [{
@@ -2014,6 +2019,7 @@
 		}
 		{
 			dependencies: ["3203B6E662B8D430"]
+			hide_dependency_lines: true
 			id: "6DA47C55B9A9A003"
 			shape: "square"
 			tasks: [{
@@ -2030,6 +2036,7 @@
 		}
 		{
 			dependencies: ["3203B6E662B8D430"]
+			hide_dependency_lines: true
 			id: "4287535A0B3EE188"
 			shape: "square"
 			tasks: [{
@@ -2046,6 +2053,7 @@
 		}
 		{
 			dependencies: ["3203B6E662B8D430"]
+			hide_dependency_lines: true
 			id: "09750AEE3AD2ACC4"
 			shape: "square"
 			tasks: [{
@@ -2062,6 +2070,7 @@
 		}
 		{
 			dependencies: ["3203B6E662B8D430"]
+			hide_dependency_lines: true
 			id: "315E28701A3A658E"
 			shape: "square"
 			tasks: [{

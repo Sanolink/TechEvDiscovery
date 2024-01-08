@@ -9,6 +9,7 @@
 /debug
 /downloads
 /ESM
+/hotbar.nbt
 /hs_err_pid13392.log
 /hs_err_pid18540.log
 /hs_err_pid19628.log
@@ -23,6 +24,7 @@
 /logs
 /minecraftinstance.json
 /modernfix
+/mods/morediscs-1.19.2-31-forge.jar
 /music_sheets
 /options.txt
 /patchouli_books
@@ -33,6 +35,7 @@
 /saves
 /schematics
 /screenshots
+/servers.dat
 /shaderpacks
 /TrashSlotSaveState.json
 /usercache.json

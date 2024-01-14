@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:crafting/stick_iron'})
     event.remove({ id: 'immersiveengineering:crafting/stick_aluminum'})
     event.remove({ id: 'immersiveengineering:crafting/stick_steel'})
+    event.remove({ id: 'immersiveengineering:crafting/treated_wood_horizontal'})
     //Recipes
 
 })

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "item": "ars_nouveau:archwood_planks"
+    },
+    "y": {
+      "tag": "forge:ingots/gold"
+    },
+    "z": {
+      "tag": "forge:plates/brass"
+    }
+  },
+  "pattern": [
+    "xyx",
+    "z z",
+    "xyx"
+  ],
+  "result": {
+    "item": "ars_nouveau:imbuement_chamber"
+  }
+}

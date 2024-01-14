@@ -16,7 +16,7 @@ ServerEvents.recipes(e => {
     //Ores
     ['immersiveengineering:ore_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_ore')});
     ['eidolon:lead_ore', 'immersiveengineering:ore_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_ore')});
-    ['eidolon:silver_ore', 'immersiveengineering:ore_silver'].forEach(I => {replaceIO(I, 'alltheores:silver_ore')});
+    ['eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore'].forEach(I => {replaceIO(I, 'alltheores:silver_ore')});
     ['immersiveengineering:ore_nickel'].forEach(I => {replaceIO(I, 'alltheores:nickel_ore')});
     ['immersiveengineering:ore_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_ore')});
     ['create:zinc_ore'].forEach(I => {replaceIO(I, 'alltheores:zinc_ore')});
@@ -31,21 +31,21 @@ ServerEvents.recipes(e => {
     ['#forge:raw_materials/zinc', 'create:raw_zinc'].forEach(I => {replaceIO(I, 'alltheores:raw_zinc')});
     ['#forge:raw_materials/aluminum', 'immersiveengineering:raw_aluminum'].forEach(I => {replaceIO(I, 'alltheores:raw_aluminum')});
     ['#forge:raw_materials/lead', 'eidolon:raw_lead', 'immersiveengineering:raw_lead'].forEach(I => {replaceIO(I, 'alltheores:raw_lead')});
-    ['#forge:raw_materials/silver', 'eidolon:raw_silver', 'immersiveengineering:raw_silver'].forEach(I => {replaceIO(I, 'alltheores:raw_silver')});
+    ['#forge:raw_materials/silver', 'eidolon:raw_silver', 'immersiveengineering:raw_silver', 'darkerdepths:raw_silver'].forEach(I => {replaceIO(I, 'alltheores:raw_silver')});
     ['#forge:raw_materials/nickel', 'immersiveengineering:raw_nickel', 'alltheores:raw_nickel'].forEach(I => {replaceIO(I, 'alltheores:raw_nickel')});
     ['#forge:raw_materials/uranium', 'immersiveengineering:raw_uranium'].forEach(I => {replaceIO(I, 'alltheores:raw_uranium')});
     //Raw Storage Blocks
     ['#forge:storage_blocks/raw_zinc', 'create:raw_zinc_block'].forEach(I => {replaceIO(I, 'alltheores:raw_zinc_block')});
     ['#forge:storage_blocks/raw_aluminum', 'immersiveengineering:raw_block_aluminum'].forEach(I => {replaceIO(I, 'alltheores:raw_aluminum_block')});
     ['#forge:storage_blocks/raw_lead', 'eidolon:raw_lead_block', 'immersiveengineering:raw_block_lead'].forEach(I => {replaceIO(I, 'alltheores:raw_lead_block')});
-    ['#forge:storage_blocks/raw_silver', 'eidolon:raw_silver_block', 'immersiveengineering:raw_block_silver'].forEach(I => {replaceIO(I, 'alltheores:raw_silver_block')});
+    ['#forge:storage_blocks/raw_silver', 'eidolon:raw_silver_block', 'immersiveengineering:raw_block_silver', 'darkerdepths:raw_silver_block'].forEach(I => {replaceIO(I, 'alltheores:raw_silver_block')});
     ['#forge:storage_blocks/raw_nickel', 'immersiveengineering:raw_block_nickel'].forEach(I => {replaceIO(I, 'alltheores:raw_nickel_block')});
     ['#forge:storage_blocks/raw_uranium', 'immersiveengineering:raw_block_uranium'].forEach(I => {replaceIO(I, 'alltheores:raw_uranium_block')});
     //Ingots
     ['#forge:ingots/zinc', 'create:zinc_ingot'].forEach(I => {replaceIO(I, 'alltheores:zinc_ingot')});
     ['#forge:ingots/brass', 'create:brass_ingot'].forEach(I => {replaceIO(I, 'alltheores:brass_ingot')});
     ['#forge:ingots/lead', 'eidolon:lead_ingot', 'immersiveengineering:ingot_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_ingot')});
-    ['#forge:ingots/silver', 'eidolon:silver_ingot', 'immersiveengineering:ingot_silver'].forEach(I => {replaceIO(I, 'alltheores:silver_ingot')});
+    ['#forge:ingots/silver', 'eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot'].forEach(I => {replaceIO(I, 'alltheores:silver_ingot')});
     ['#forge:ingots/nickel', 'immersiveengineering:ingot_nickel'].forEach(I => {replaceIO(I, 'alltheores:nickel_ingot')});
     ['#forge:ingots/uranium', 'immersiveengineering:ingot_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_ingot')});
     ['#forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_ingot')});
@@ -112,7 +112,7 @@ ServerEvents.recipes(e => {
     ['#forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum'].forEach(I => {replaceIO(I, 'alltheores:electrum_block')});
     ['#forge:storage_blocks/steel', 'immersiveengineering:storage_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_block')});
     ['#forge:storage_blocks/lead', 'immersiveengineering:storage_lead', 'eidolon:lead_block'].forEach(I => {replaceIO(I, 'alltheores:lead_block')});
-    ['#forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block'].forEach(I => {replaceIO(I, 'alltheores:silver_block')});
+    ['#forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block'].forEach(I => {replaceIO(I, 'alltheores:silver_block')});
     //Wires
     ['#forge:wires/copper', 'createaddition:copper_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_copper')});
     ['#forge:wires/electrum', 'createaddition:electrum_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_electrum')});
@@ -155,6 +155,13 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'eidolon:raw_silver_block'})
     e.remove({ id: 'eidolon:lead_ingot'})
     e.remove({ id: 'eidolon:silver_ingot'})
+    e.remove({ id: 'darkerdepths:raw_silver'})
+    e.remove({ id: 'darkerdepths:silver_ingot'})
+    e.remove({ id: 'darkerdepths:silver_block'})
+    e.remove({ id: 'darkerdepths:silver_ingot_from_smelting_aridrock_silver_ore'})
+    e.remove({ id: 'darkerdepths:silver_ingot_from_smelting_limestone_silver_ore'})
+    e.remove({ id: 'darkerdepths:silver_ingot_from_blasting_aridrock_silver_ore'})
+    e.remove({ id: 'darkerdepths:silver_ingot_from_blasting_limestone_silver_ore'})
     //Remove SMELTING Repetitive Recipes
     const SMELT_ITEMS = ["lead", "silver", "nickel", "uranium", "aluminum", "iron", "constantan", "steel", "electrum", "platinum", "tin", "osmium", "iridium", "brass", "zinc", "copper", "gold", "iron"] 
     SMELT_ITEMS.forEach(I => {e.remove({ id: 'immersiveengineering:smelting/'+I+'_ingot_from_dust'})})

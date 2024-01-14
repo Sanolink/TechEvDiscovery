@@ -3,11 +3,18 @@
 
 ServerEvents.recipes(event => {
 
+
     //Remove
     event.remove({ id: 'ars_nouveau:novice_spell_book'})
     event.remove({ id: 'ars_nouveau:apprentice_spell_book_upgrade'})
     event.remove({ id: 'ars_nouveau:archmage_spell_book_upgrade'})
     
+    //Replace 
+    event.replaceInput({ id: 'ars_nouveau:arcane_core'}, 'ars_nouveau:source_gem', 'create:source_tube')
+    event.replaceInput({ id: 'ars_nouveau:sourcestone'}, 'ars_nouveau:source_gem', 'create:polished_source_quartz')
+    event.replaceInput({ id: 'ars_nouveau:jar_of_light'}, 'minecraft:glass_bottle', 'ars_nouveau:mob_jar')
+    event.replaceInput({ id: 'ars_nouveau:void_jar'}, 'minecraft:glass_bottle', 'ars_nouveau:mob_jar')
+
     //Recipes
     const recipes = [
         //Novice Spell Book
@@ -15,7 +22,7 @@ ServerEvents.recipes(event => {
             output: "ars_nouveau:novice_spell_book",
             pattern: ["GSG", "HBP", "GAG"],
             key: {
-                G: "ars_nouveau:source_gem",
+                G: "create:polished_source_quartz",
                 S: "minecraft:diamond_sword",
                 H: "minecraft:diamond_shovel",
                 B: "minecraft:book",

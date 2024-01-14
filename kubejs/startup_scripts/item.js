@@ -24,4 +24,9 @@ StartupEvents.registry('item', e => {
     e.create('create:source_tube').displayName("Source Tube")
     e.create('create:netherite_sandpaper', 'create:sandpaper').maxDamage(2048).displayName("Netherite Sandpaper")
 
+    e.create('kubejs:techevium').displayName("Techevium")
+    e.create('kubejs:raw_cuperzinate').displayName("Raw Cuperzinate")
+    e.create('kubejs:raw_auricargentum').displayName("Raw Auricargentum")
+    e.create('kubejs:raw_uratinumal').displayName("Raw Uratinumal")
+    e.create('kubejs:raw_leadosnite').displayName("Raw Leadosnite")
   })

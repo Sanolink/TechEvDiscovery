@@ -5,6 +5,44 @@
 	group: "6E6EAE103F859B8D"
 	icon: "eidolon:codex"
 	id: "477FE9F0B5F687AE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "eidolon:item/soul_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "eidolon:item/unholy_symbol"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "eidolon:item/holy_symbol"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 1.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -17,8 +55,8 @@
 				item: "eidolon:pewter_blend"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["10467CAFDB1E3EFB"]
@@ -29,8 +67,8 @@
 				item: "eidolon:pewter_ingot"
 				type: "item"
 			}]
-			x: 0.75d
-			y: 2.25d
+			x: -0.75d
+			y: 2.75d
 		}
 		{
 			dependencies: ["4E500339C5D4FFA7"]
@@ -40,8 +78,8 @@
 				item: "eidolon:pewter_inlay"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2693B640D8CA38C6"]
@@ -52,8 +90,8 @@
 				item: "eidolon:arcane_gold_ingot"
 				type: "item"
 			}]
-			x: 2.25d
-			y: 2.25d
+			x: 0.75d
+			y: 2.75d
 		}
 		{
 			dependencies: ["4C0504713B46DA3F"]
@@ -63,8 +101,8 @@
 				item: "eidolon:gold_inlay"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4E500339C5D4FFA7"]
@@ -75,8 +113,8 @@
 				item: "eidolon:crucible"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.75d
+			x: 1.5d
+			y: 4.25d
 		}
 		{
 			dependencies: ["4E500339C5D4FFA7"]
@@ -91,8 +129,8 @@
 				item: "eidolon:brazier"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.75d
+			x: -1.5d
+			y: 4.25d
 		}
 		{
 			dependencies: ["5B5DBBE7470FB545"]
@@ -103,8 +141,8 @@
 				item: "eidolon:worktable"
 				type: "item"
 			}]
-			x: -0.75d
-			y: 2.25d
+			x: -2.25d
+			y: 2.75d
 		}
 		{
 			dependencies: ["20FCCDBA9CC95A07"]
@@ -136,8 +174,8 @@
 				}
 			]
 			title: "Crystallization Ritual"
-			x: -1.5d
-			y: 3.5d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -154,8 +192,8 @@
 				type: "item"
 			}]
 			title: "&l&4Unholy Sign"
-			x: -0.75d
-			y: 0.0d
+			x: -2.25d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6EACDFAC3FEBFF1D"]
@@ -167,8 +205,8 @@
 				type: "item"
 			}]
 			title: "&4Wicked Altar"
-			x: 0.0d
-			y: -2.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0326C4B7791590BE"]
@@ -181,8 +219,8 @@
 				type: "item"
 			}]
 			title: "&lEidolon"
-			x: 1.5d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0BA9C673E72FFAAA"]
@@ -202,8 +240,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -3.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6668DE87317D8908"]
@@ -214,8 +252,8 @@
 				item: "eidolon:raven_cloak"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2693B640D8CA38C6"]
@@ -225,8 +263,8 @@
 				item: "eidolon:wooden_brewing_stand"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5DB784923C796F7B"]
@@ -238,13 +276,14 @@
 				type: "item"
 			}]
 			title: "&6Sacred Altar"
-			x: 3.0d
-			y: -2.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"35AE66F86BBF5233"
 				"196FE3D74245E350"
+				"0326C4B7791590BE"
 			]
 			description: ["{image:techev:textures/misc/quests/eidolon/touch_of_light.png width:200 height:105 align:1 fit:true}"]
 			id: "174335DFD4E91CD6"
@@ -255,8 +294,8 @@
 				type: "item"
 			}]
 			title: "&l&6Holy Sign"
-			x: 3.75d
-			y: 0.0d
+			x: 2.25d
+			y: 0.5d
 		}
 		{
 			dependencies: ["590886B2E4A442C4"]
@@ -279,8 +318,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -2.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2693B640D8CA38C6"]
@@ -291,8 +330,8 @@
 				item: "eidolon:research_table"
 				type: "item"
 			}]
-			x: 3.75d
-			y: 2.25d
+			x: 2.25d
+			y: 2.75d
 		}
 		{
 			dependencies: ["2DDEA539A003F102"]
@@ -326,8 +365,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -1.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -349,8 +388,8 @@
 				}
 			]
 			title: "&6Offering Incense"
-			x: 4.5d
-			y: -1.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["20FCCDBA9CC95A07"]
@@ -360,8 +399,8 @@
 				item: "eidolon:necrotic_focus"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["42AD9FF048D3E4B7"]
@@ -378,8 +417,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0BA9C673E72FFAAA"]
@@ -398,8 +437,8 @@
 				type: "advancement"
 			}]
 			title: "&l&4Wicked Path"
-			x: 0.5d
-			y: -1.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0BA9C673E72FFAAA"]
@@ -418,8 +457,8 @@
 				type: "advancement"
 			}]
 			title: "&l&6Sacred Path"
-			x: 2.5d
-			y: -1.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2693B640D8CA38C6"]
@@ -429,8 +468,8 @@
 				item: "eidolon:wicked_weave"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["690972FC486681FC"]
@@ -442,8 +481,8 @@
 				type: "checkmark"
 			}]
 			title: "&4Dark Prayer"
-			x: -1.0d
-			y: -2.0d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1F85F2F1661F2565"]
@@ -457,8 +496,8 @@
 				type: "advancement"
 			}]
 			title: "&4Sacrifice Animal"
-			x: -1.5d
-			y: -1.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0BEF45DA01C1F3FE"]
@@ -470,8 +509,49 @@
 				type: "checkmark"
 			}]
 			title: "&6Light Prayer"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6668DE87317D8908"]
+			id: "4ADF5587F4CCC9E1"
+			tasks: [
+				{
+					id: "68567F369338612A"
+					item: {
+						Count: 1b
+						id: "eidolon:warlock_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "354DC9119FBC7734"
+					item: {
+						Count: 1b
+						id: "eidolon:warlock_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F174136A8BBC550"
+					item: {
+						Count: 1b
+						id: "eidolon:warlock_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 4.0d
-			y: -2.0d
+			y: 4.0d
 		}
 	]
 	title: "Eidolon"

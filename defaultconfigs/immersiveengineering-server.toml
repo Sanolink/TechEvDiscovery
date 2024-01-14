@@ -328,7 +328,7 @@
 		chance = 0.9
 		#The maximum amount of yield one can get out of a chunk with the excavator. Set a number smaller than zero to make it infinite
 		#Range: > -1
-		yield = 38400
+		yield = -1
 		#The maximum depletion a vein can start with, as a decimal value. When a vein generates, a random percentage up to this value is depleted from it
 		#Range: 0.0 ~ 1.0
 		initial_depletion = 0.2
@@ -355,13 +355,13 @@
 		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = 32
+		min_y = 0
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 112
+		max_y = 0
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		attempts_per_chunk = 16
+		attempts_per_chunk = 0
 		#Set this to true to allow retro-generation of bauxite Ore.
 		retrogen_enable = false
 
@@ -378,13 +378,13 @@
 		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = -32
+		min_y = 0
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 80
+		max_y = 0
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		attempts_per_chunk = 12
+		attempts_per_chunk = 0
 		#Set this to true to allow retro-generation of lead Ore.
 		retrogen_enable = false
 
@@ -395,19 +395,19 @@
 		distribution = "TRAPEZOID"
 		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
 		#Range: 0.0 ~ 1.0
-		air_exposure = 0.25
+		air_exposure = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = -48
+		min_y = 0
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 32
+		max_y = 0
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		attempts_per_chunk = 10
+		attempts_per_chunk = 0
 		#Set this to true to allow retro-generation of silver Ore.
 		retrogen_enable = false
 
@@ -424,13 +424,13 @@
 		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = -64
+		min_y = 0
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 24
+		max_y = 0
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		attempts_per_chunk = 7
+		attempts_per_chunk = 0
 		#Set this to true to allow retro-generation of nickel Ore.
 		retrogen_enable = false
 
@@ -447,13 +447,13 @@
 		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = -120
+		min_y = 0
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = -8
+		max_y = 0
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		attempts_per_chunk = 11
+		attempts_per_chunk = 0
 		#Set this to true to allow retro-generation of deep_nickel Ore.
 		retrogen_enable = false
 
@@ -464,19 +464,19 @@
 		distribution = "TRAPEZOID"
 		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
 		#Range: 0.0 ~ 1.0
-		air_exposure = 0.5
+		air_exposure = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = -64
+		min_y = 0
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = -16
+		max_y = 0
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		attempts_per_chunk = 9
+		attempts_per_chunk = 0
 		#Set this to true to allow retro-generation of uranium Ore.
 		retrogen_enable = false
 

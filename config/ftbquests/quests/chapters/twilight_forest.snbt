@@ -32,6 +32,25 @@
 			id: "666641E4270BEBD0"
 			shape: "pentagon"
 			size: 2.0d
+			tasks: [
+				{
+					count: 8L
+					id: "247F9A1B52468B40"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "642AAD36C1D68BC5"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+				{
+					id: "1AF76E83F224ECA8"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
 			title: "Portal Base"
 			x: -2.0d
 			y: -1.0d

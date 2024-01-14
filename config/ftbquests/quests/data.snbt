@@ -13,7 +13,7 @@
 		Count: 1b
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "techev:textures/logo/techevnoback.png"
+			Icon: "kubejs:item/techevium"
 		}
 	}
 	lock_message: ""

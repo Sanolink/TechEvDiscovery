@@ -11,60 +11,11 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "minecraft:block/diamond_ore"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
-			y: -7.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/gold_ore"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: -7.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:item/raw_gold"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: -8.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
 			image: "minecraft:item/raw_iron"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.5d
 			y: -8.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/iron_ore"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: -7.5d
 		}
 		{
 			click: ""
@@ -97,8 +48,8 @@
 				title: "Any #forge:ores/coal"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]
@@ -122,6 +73,7 @@
 		{
 			dependencies: ["201A9DEECD831DD0"]
 			id: "33D8CAC627AA3F6A"
+			shape: "square"
 			tasks: [{
 				id: "75F6B70C3EA7A063"
 				item: {
@@ -134,8 +86,8 @@
 				title: "Any #forge:ores/copper"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]
@@ -171,8 +123,8 @@
 				title: "Any #forge:ores/redstone"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]
@@ -189,8 +141,8 @@
 				title: "Any #forge:ores/emerald"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]
@@ -207,8 +159,8 @@
 				title: "Any #forge:ores/lapis"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]
@@ -244,8 +196,8 @@
 				title: "Any #forge:ores/quartz"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.5d
+			x: 2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]
@@ -316,8 +268,8 @@
 				title: "Any #forge:ores/iridium"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.5d
+			x: -6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]
@@ -532,8 +484,8 @@
 				title: "Any #forge:ores/zinc"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0F8C4C01C5E75A8B"]
@@ -545,8 +497,8 @@
 				title: "Check"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]
@@ -563,8 +515,8 @@
 				title: "Any #forge:ores/netherite_scrap"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.5d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]

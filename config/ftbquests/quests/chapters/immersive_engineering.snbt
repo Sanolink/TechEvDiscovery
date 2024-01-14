@@ -850,6 +850,54 @@
 			x: 1.5d
 			y: -8.0d
 		}
+		{
+			dependencies: ["022B820C57F678A1"]
+			id: "5187576738BC3010"
+			shape: "square"
+			tasks: [{
+				id: "2ACE77004445AFBF"
+				item: "kubejs:raw_cuperzinate"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["022B820C57F678A1"]
+			id: "57B044B6F5B77FB4"
+			shape: "square"
+			tasks: [{
+				id: "499608ABEF7F7821"
+				item: "kubejs:raw_auricargentum"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["022B820C57F678A1"]
+			id: "5FF28F6B5A212020"
+			shape: "square"
+			tasks: [{
+				id: "4B146F2D521537AE"
+				item: "kubejs:raw_uratinumal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["022B820C57F678A1"]
+			id: "3F6983D6108D3706"
+			shape: "square"
+			tasks: [{
+				id: "6A4D88BA54CAF0E7"
+				item: "kubejs:raw_leadosnite"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
 	]
 	title: "Immersive Engineering"
 }

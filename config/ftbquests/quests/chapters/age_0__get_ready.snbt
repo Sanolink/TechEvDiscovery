@@ -27,7 +27,7 @@
 				Count: 1b
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "jei:textures/gui/icons/info.png"
+					Icon: "techev:textures/logo/techevnoback.png"
 				}
 			}
 			id: "213A3F1A58539F79"
@@ -36,7 +36,7 @@
 				item: "ftbquests:book"
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "gear"
 			tasks: [{
 				id: "4B79912DA9338FD8"
 				title: "Welcome to TechEv !"

@@ -953,14 +953,9 @@
 		{
 			dependencies: [
 				"3873066120553A4E"
-				"0E2ECEBD625F5D5A"
+				"13D91B869676071A"
 			]
 			id: "402DD03144304651"
-			rewards: [{
-				id: "1A789E6DAFC98C2E"
-				item: "ars_nouveau:arcane_pedestal"
-				type: "item"
-			}]
 			size: 1.5d
 			tasks: [{
 				id: "7CD87AB5F373FDAC"
@@ -995,87 +990,93 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["402DD03144304651"]
+			dependencies: ["7B64A680BF31ECD7"]
 			id: "55B078D1AE465393"
+			shape: "diamond"
 			tasks: [{
 				id: "6619D4619020EB43"
 				item: "ars_nouveau:abjuration_essence"
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["402DD03144304651"]
+			dependencies: ["7B64A680BF31ECD7"]
 			id: "64257DA9502C7F27"
+			shape: "diamond"
 			tasks: [{
 				id: "35EDB4EE92D441BB"
 				item: "ars_nouveau:conjuration_essence"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.0d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["402DD03144304651"]
+			dependencies: ["7B64A680BF31ECD7"]
 			id: "7201D0FBBE7D542B"
+			shape: "diamond"
 			tasks: [{
 				id: "0606A88DD52F65D4"
 				item: "ars_nouveau:air_essence"
 				type: "item"
 			}]
 			x: 5.5d
-			y: 7.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["402DD03144304651"]
+			dependencies: ["7B64A680BF31ECD7"]
 			id: "0E00882505957532"
-			shape: "hexagon"
+			shape: "diamond"
 			tasks: [{
 				id: "4A5B14DDE279C406"
 				item: "ars_nouveau:earth_essence"
 				type: "item"
 			}]
 			x: 4.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["402DD03144304651"]
+			dependencies: ["7B64A680BF31ECD7"]
 			id: "5F1B81208E01B963"
+			shape: "diamond"
 			tasks: [{
 				id: "5879C9C963B9974E"
 				item: "ars_nouveau:fire_essence"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["402DD03144304651"]
+			dependencies: ["7B64A680BF31ECD7"]
 			id: "136D3F7255BF98ED"
+			shape: "diamond"
 			tasks: [{
 				id: "593687F5834D99DE"
 				item: "ars_nouveau:manipulation_essence"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.0d
+			x: 6.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["402DD03144304651"]
+			dependencies: ["7B64A680BF31ECD7"]
 			id: "3BE32E030A07CD76"
+			shape: "diamond"
 			tasks: [{
 				id: "1E87C1BDF333C2F9"
 				item: "ars_nouveau:water_essence"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"73F8DCCF586F5549"
-				"402DD03144304651"
+				"0E2ECEBD625F5D5A"
 			]
 			id: "1B977731DBDDEC54"
 			rewards: [{
@@ -1489,38 +1490,14 @@
 		}
 		{
 			dependencies: ["1B977731DBDDEC54"]
-			id: "7268E5B48AD5BB48"
-			shape: "square"
-			tasks: [{
-				id: "6D1C1C4D8B427F7B"
-				item: "ars_nouveau:magebloom_crop"
-				type: "item"
-			}]
-			x: 18.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["7268E5B48AD5BB48"]
-			id: "6D3B4C655925C25E"
-			shape: "square"
-			tasks: [{
-				id: "7E0D935788B4A8AC"
-				item: "ars_nouveau:magebloom_fiber"
-				type: "item"
-			}]
-			x: 19.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["6D3B4C655925C25E"]
 			id: "69E5A46DA03F9D7E"
 			rewards: [{
-				count: 10
+				count: 8
 				id: "2A1217974E9F8F41"
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "0171DD06F59F2B8F"
@@ -1567,19 +1544,19 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
-			y: 2.5d
+			x: 17.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6D3B4C655925C25E"]
+			dependencies: ["1B977731DBDDEC54"]
 			id: "6E66DCB2D52C7AD6"
 			rewards: [{
-				count: 10
+				count: 8
 				id: "51E8B6DF0439FDBC"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "013ADC5E0E8ED5D4"
@@ -1626,19 +1603,19 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
-			y: 2.5d
+			x: 16.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["6D3B4C655925C25E"]
+			dependencies: ["1B977731DBDDEC54"]
 			id: "43213AFBB53372BE"
 			rewards: [{
-				count: 10
+				count: 8
 				id: "6463BFC1291283A0"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "6937C2EF523DFA9C"
@@ -1685,11 +1662,14 @@
 					type: "item"
 				}
 			]
-			x: 20.5d
-			y: 2.5d
+			x: 16.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["60377578A8DFA217"]
+			dependencies: [
+				"60377578A8DFA217"
+				"5BB938BDBFB5482A"
+			]
 			id: "361DB3497126143A"
 			size: 1.5d
 			tasks: [{
@@ -1813,7 +1793,8 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["361DB3497126143A"]
+			dependencies: ["3873066120553A4E"]
+			hide_dependency_lines: true
 			id: "5BB938BDBFB5482A"
 			size: 1.5d
 			tasks: [{
@@ -1905,7 +1886,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
+			x: 19.5d
 			y: 4.0d
 		}
 		{
@@ -1939,7 +1920,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
+			x: 19.0d
 			y: 5.0d
 		}
 		{
@@ -2172,8 +2153,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.0d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3EDA31689E28C8B5"]
@@ -2185,7 +2166,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3EDA31689E28C8B5"]
@@ -2197,7 +2178,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["16B9B90656399187"]
@@ -2213,7 +2194,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["147F8B7E27F57A28"]
@@ -2228,8 +2209,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: 11.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["60377578A8DFA217"]
@@ -2252,7 +2233,7 @@
 		{
 			dependencies: ["357D76B6A33303DA"]
 			id: "093E2A1B42A7C88A"
-			shape: "circle"
+			shape: "rsquare"
 			tasks: [{
 				id: "43491B0556672AE7"
 				item: {
@@ -2262,56 +2243,56 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
+			x: 21.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["357D76B6A33303DA"]
 			id: "3A48905DC5AFE9A0"
-			shape: "circle"
+			shape: "rsquare"
 			tasks: [{
 				id: "763B00095043847C"
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: 21.5d
+			x: 22.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["357D76B6A33303DA"]
 			id: "770FC19609C53C75"
-			shape: "circle"
+			shape: "rsquare"
 			tasks: [{
 				id: "1C55381B1B073798"
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 21.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["357D76B6A33303DA"]
 			id: "3A28F0513D1F1981"
-			shape: "circle"
+			shape: "rsquare"
 			tasks: [{
 				id: "31B48096673E5BD6"
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 4.5d
+			x: 20.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["357D76B6A33303DA"]
 			id: "346E507FA49FDA5D"
-			shape: "circle"
+			shape: "rsquare"
 			tasks: [{
 				id: "3A911EB5FCDBD49D"
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 3.5d
+			x: 20.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5AF334C317CA6DA1"]
@@ -2333,8 +2314,8 @@
 				item: "ars_nouveau:summon_focus"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 2.5d
+			x: 18.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B977731DBDDEC54"]
@@ -2345,8 +2326,8 @@
 				item: "ars_nouveau:shapers_focus"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 2.5d
+			x: 19.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6A3019BD8AF4ECF8"]
@@ -2443,6 +2424,18 @@
 			}]
 			x: 1.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["402DD03144304651"]
+			id: "7B64A680BF31ECD7"
+			shape: "diamond"
+			tasks: [{
+				id: "5B955CA0C338C498"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
 		}
 	]
 	title: "Ars Nouveau"

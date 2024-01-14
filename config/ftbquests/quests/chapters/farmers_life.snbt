@@ -3282,6 +3282,17 @@
 			x: 11.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["40217CED6EEBF092"]
+			id: "59D75563E0F3BA36"
+			tasks: [{
+				id: "067991E7F50E8A30"
+				item: "aquaculture:neptunium_fillet_knife"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
 	]
 	title: "Farmer's Life | Part 1"
 }

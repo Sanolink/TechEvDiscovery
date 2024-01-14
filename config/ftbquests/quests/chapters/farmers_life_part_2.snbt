@@ -1111,6 +1111,7 @@
 		{
 			dependencies: ["5FECA4944618229C"]
 			id: "4C62A69C7ADB3B23"
+			shape: "rsquare"
 			tasks: [{
 				id: "1E5119367321F22F"
 				item: "create_confectionery:marshmallow_on_a_stick"
@@ -1122,6 +1123,7 @@
 		{
 			dependencies: ["4C62A69C7ADB3B23"]
 			id: "7F0F060C6D0C26F0"
+			shape: "rsquare"
 			tasks: [{
 				id: "0729945DE78FDD52"
 				item: "create_confectionery:caramelized_marshmellow_on_a_stick"
@@ -1186,6 +1188,7 @@
 				"5FECA4944618229C"
 			]
 			id: "5C61F2B7CDBD2BE0"
+			shape: "rsquare"
 			tasks: [{
 				id: "1F4AEB4B0D08F826"
 				item: "create_confectionery:soothing_hot_chocolate"
@@ -1784,6 +1787,7 @@
 			id: "301C513D7EC0CD53"
 			shape: "square"
 			tasks: [{
+				icon: "botanypots:terracotta_botany_pot"
 				id: "04ADA2B41ACB2E02"
 				item: {
 					Count: 1b
@@ -1807,15 +1811,11 @@
 			dependency_requirement: "one_completed"
 			hide: true
 			id: "38E10806192CDF7E"
+			shape: "rsquare"
 			tasks: [{
+				icon: "botanypots:terracotta_hopper_botany_pot"
 				id: "2CD481C9F3C200A0"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "botanypots:hopper_botany_pots"
-					}
-				}
+				item: "botanypots:terracotta_hopper_botany_pot"
 				title: "Any #botanypots:hopper_botany_pots"
 				type: "item"
 			}]
@@ -2041,6 +2041,7 @@
 		{
 			dependencies: ["1303A0FBAC397651"]
 			id: "6D49CC4C8A50765D"
+			shape: "rsquare"
 			tasks: [{
 				id: "2675523159F387A2"
 				item: "create_factory:honey_waffle"

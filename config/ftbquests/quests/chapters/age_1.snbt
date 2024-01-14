@@ -32,20 +32,26 @@
 		{
 			id: "71A199D43F52D39C"
 			linked_quest: "437330C57BA2C14D"
-			x: -0.5d
+			x: -1.0d
 			y: 5.0d
-		}
-		{
-			id: "47D6D3A6DAA16B6F"
-			linked_quest: "1BEE5DF7C1FD4A66"
-			x: 1.0d
-			y: 5.5d
 		}
 		{
 			id: "2685FB594BACC59C"
 			linked_quest: "273F4EE658C5BEFD"
-			x: 1.5d
-			y: 2.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "128B902F1062A7AA"
+			linked_quest: "174335DFD4E91CD6"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "3087BFF9E674ADA5"
+			linked_quest: "6036A88041F3C3E2"
+			x: 0.5d
+			y: 5.5d
 		}
 	]
 	quests: [
@@ -104,19 +110,23 @@
 				type: "checkmark"
 			}]
 			title: "Eidolon"
-			x: 0.0d
-			y: 2.25d
+			x: -0.75d
+			y: 1.5d
 		}
 		{
-			dependencies: ["273F4EE658C5BEFD"]
+			dependencies: [
+				"273F4EE658C5BEFD"
+				"174335DFD4E91CD6"
+			]
+			dependency_requirement: "one_completed"
 			id: "124F9088D80253D2"
 			tasks: [{
 				id: "1284A12782023D14"
 				item: "create:raw_andesite_alloy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.5d
 		}
 	]
 	title: "Chapter 1"

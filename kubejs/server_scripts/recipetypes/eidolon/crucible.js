@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
                 },
                 {
                   "stirs": 1,
-                  "items": [{"item": "eidolon:unholy_symbol"}]
+                  "items": [{"tag": "eidolon:patron_symbol"}]
                 },
             ],
             result: {"item": "create:raw_andesite_alloy", "count": 6}

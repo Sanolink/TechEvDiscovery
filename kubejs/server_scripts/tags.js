@@ -11,14 +11,15 @@ ServerEvents.tags('item', e => {
     //Ores
     e.remove('forge:ores/aluminum', 'immersiveengineering:ore_aluminum')
     e.remove('forge:ores/lead', 'eidolon:lead_ore', 'immersiveengineering:ore_lead')
-    e.remove('forge:ores/silver', 'eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore')
+    e.remove('forge:ores/silver', 'eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore')
     e.remove('forge:ores/nickel', 'immersiveengineering:ore_nickel')
     e.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium')
     e.remove('forge:ores/zinc', 'create:zinc_ore')
+    e.remove('forge:ores/sapphire', 'iceandfire:sapphire_ore')
     //Deepslate Ores
     e.remove('forge:ores/aluminum', 'immersiveengineering:deepslate_ore_aluminum')
     e.remove('forge:ores/lead', 'eidolon:deep_lead_ore', 'immersiveengineering:deepslate_ore_lead')
-    e.remove('forge:ores/silver', 'eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver')
+    e.remove('forge:ores/silver', 'eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore')
     e.remove('forge:ores/nickel', 'immersiveengineering:deepslate_ore_nickel')
     e.remove('forge:ores/uranium', 'immersiveengineering:deepslate_ore_uranium')
     e.remove('forge:ores/zinc', 'create:deepslate_zinc_ore')
@@ -40,7 +41,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:ingots/zinc', 'create:zinc_ingot')
     e.remove('forge:ingots/brass', 'create:brass_ingot')
     e.remove('forge:ingots/lead', ['eidolon:lead_ingot', 'immersiveengineering:ingot_lead'])
-    e.remove('forge:ingots/silver', ['eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot'])
+    e.remove('forge:ingots/silver', ['eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot', 'iceandfire:silver_ingot'])
     e.remove('forge:ingots/nickel', 'immersiveengineering:ingot_nickel')
     e.remove('forge:ingots/uranium', 'immersiveengineering:ingot_uranium')
     e.remove('forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum')
@@ -73,10 +74,10 @@ ServerEvents.tags('item', e => {
     //Nuggets
     e.remove('forge:nuggets/brass', 'create:brass_nugget')
     e.remove('forge:nuggets/zinc', 'create:zinc_nugget')
-    e.remove('forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper')
+    e.remove('forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget')
     e.remove('forge:nuggets/electrum', 'createaddition:electrum_nugget', 'immersiveengineering:nugget_electrum')
     e.remove('forge:nuggets/lead', 'eidolon:lead_nugget', 'immersiveengineering:nugget_lead')
-    e.remove('forge:nuggets/silver', 'eidolon:silver_nugget', 'immersiveengineering:nugget_silver')
+    e.remove('forge:nuggets/silver', 'eidolon:silver_nugget', 'immersiveengineering:nugget_silver', 'iceandfire:silver_nugget')
     e.remove('forge:nuggets/aluminum', 'immersiveengineering:nugget_aluminum')
     e.remove('forge:nuggets/steel', 'immersiveengineering:nugget_steel')
     e.remove('forge:nuggets/nickel', 'immersiveengineering:nugget_nickel')
@@ -106,13 +107,26 @@ ServerEvents.tags('item', e => {
     e.remove('forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum')
     e.remove('forge:storage_blocks/steel', 'immersiveengineering:storage_steel')
     e.remove('forge:storage_blocks/lead', 'immersiveengineering:storage_lead', 'eidolon:lead_block')
-    e.remove('forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block')
+    e.remove('forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block', 'iceandfire:silver_block')
+    e.remove('forge:storage_blocks/sapphire', 'iceandfire:sapphire_block')
     //Wires
     e.remove('forge:wires/copper', 'createaddition:copper_wire')
     e.remove('forge:wires/electrum', 'createaddition:electrum_wire')
+    //Gems
+    e.remove('forge:gems/sapphire', 'iceandfire:sapphire_gem')
+    //Others
+    e.remove('forge:crops/rice', 'sushigocrafting:rice')
 
     /*********************OTHERS**************************/
 
+
+    /********************DISABLE**************************/
+    const DISABLED_ITEMS = [
+        'sushigocrafting:rice',
+        'sushigocrafting:rice_seeds'
+    ].forEach(item => {e.removeAllTagsFrom(item)})
+
+    /**********************ADD****************************/
     e.add('forge:dusts', 'alltheores:netherite_dust')
     e.add('forge:dusts/netherite', 'alltheores:netherite_dust')
 

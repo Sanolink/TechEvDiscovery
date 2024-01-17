@@ -25,7 +25,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -46,7 +46,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -67,7 +67,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -88,7 +88,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -109,7 +109,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -130,7 +130,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -151,7 +151,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -172,7 +172,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -191,7 +191,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -224,7 +224,7 @@
 		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 		#The text that gets displayed when the large image is hovered
-		largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
 		#The text that gets displayed when the small image is hovered
@@ -244,7 +244,7 @@
 		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 		#The text that gets displayed when the large image is hovered
-		largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
 		#The text that gets displayed when the small image is hovered
@@ -264,7 +264,7 @@
 		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 		#The text that gets displayed when the large image is hovered
-		largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
 		#The text that gets displayed when the small image is hovered
@@ -284,7 +284,7 @@
 		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 		#The text that gets displayed when the large image is hovered
-		largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
 		#The text that gets displayed when the small image is hovered
@@ -304,7 +304,7 @@
 		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 		#The text that gets displayed when the large image is hovered
-		largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
 		#The text that gets displayed when the small image is hovered
@@ -324,7 +324,7 @@
 		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
 		#The text that gets displayed when the large image is hovered
-		largeImageText = "TechEv || Discovery DEVMODE %mcver%"
+		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["mclogo"]
 		#The text that gets displayed when the small image is hovered

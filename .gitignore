@@ -30,12 +30,14 @@
 /patchouli_books
 /patchouli_data.json
 /profileImage
+/quests_structures
 /realms_persistence.json
 /rhino.local.properties
 /saves
 /schematics
 /screenshots
 /servers.dat
+/servers.dat_old
 /shaderpacks
 /TrashSlotSaveState.json
 /usercache.json

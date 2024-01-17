@@ -14,8 +14,8 @@
 		image: "techev:textures/misc/quests/progression.png"
 		rotation: 0.0d
 		width: 12.3974359d
-		x: 4.0d
-		y: -4.5d
+		x: 7.5d
+		y: -5.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -25,6 +25,11 @@
 			dependency_requirement: "all_started"
 			icon: "create_things_and_misc:magnifying_glass"
 			id: "509461C4B7CFE7C8"
+			rewards: [{
+				id: "12781662009DE21A"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 3.0d
 			subtitle: "Welcome To Age 2 !"
@@ -33,7 +38,7 @@
 				title: "Checkmark"
 				type: "checkmark"
 			}]
-			title: "Shock Therapy"
+			title: "&lShock Therapy"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -50,16 +55,21 @@
 				}
 			}
 			id: "650779D3343EAEB0"
+			rewards: [{
+				id: "1C786CA1A2A2B6B5"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Exploring World\"."
+			subtitle: "Finish the Main Quest of \"Exploring World\"."
 			tasks: [{
 				id: "5AE68F6AC3DF77B7"
 				title: "Checkmark"
 				type: "checkmark"
 			}]
 			title: "Exploring World"
-			x: 1.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -69,16 +79,21 @@
 			]
 			icon: "farmersdelight:rice_roll_medley_block"
 			id: "7960E8764050AA1E"
+			rewards: [{
+				id: "435A608F4962BC56"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Farmer's Life\"."
+			subtitle: "Finish the Main Quest of \"Farmer's Life\"."
 			tasks: [{
 				id: "097C581EE8928AA1"
 				title: "Checkmark"
 				type: "checkmark"
 			}]
 			title: "Farmer's Life"
-			x: -1.5d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -88,16 +103,21 @@
 			]
 			icon: "create:mechanical_arm"
 			id: "7E3D43C44C52D9E9"
+			rewards: [{
+				id: "5A362997B215D44D"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Create\"."
+			subtitle: "Finish the Main Quest of \"Create\"."
 			tasks: [{
 				id: "391A0432D39381BC"
 				title: "Checkmark"
 				type: "checkmark"
 			}]
 			title: "Create"
-			x: 1.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -117,48 +137,9 @@
 				id: "0E619717F1B9964D"
 				type: "checkmark"
 			}]
-			title: "First Discovery"
-			x: 0.0d
+			title: "&lFirst Discovery"
+			x: 1.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["74C9143F2AE3BB45"]
-			description: [
-				"-Artifacts"
-				"-Apotheosis"
-				"-Comforts"
-				"-Construction Wand"
-				"-Create"
-				"-Explorer's Compass"
-				"-Farmer's Delight"
-				"-Macaw's Mods"
-				"-MrCrayfish's Furniture"
-				"-Naturalist"
-				"-Nature's Compass"
-				"-Simply Light"
-				"-Tool Belt"
-				"-Joy Of Painting"
-				"-Immersive Paintings"
-				"-Waystones"
-			]
-			icon: "create:schematic_and_quill"
-			id: "46C76F3EE49B01DA"
-			rewards: [{
-				id: "7F2396E40D87399C"
-				item: "minecraft:cookie"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "For Age 1."
-			tasks: [{
-				id: "356E81408BBC09C7"
-				title: "Age 1 Mod-List"
-				type: "checkmark"
-			}]
-			title: "Mods Unlocked List"
-			x: 0.0d
-			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -171,9 +152,14 @@
 				tag: { }
 			}
 			id: "0A43A2A87CBE5983"
+			rewards: [{
+				id: "2EC7EBE9D9C654FC"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Create Addons\"."
+			subtitle: "Finish the Main Quest of \"Create Addons\"."
 			tasks: [{
 				id: "4D79485F9CD731CF"
 				type: "checkmark"
@@ -189,9 +175,14 @@
 			]
 			icon: "immersiveengineering:diesel_generator"
 			id: "755B4D0F8227F379"
+			rewards: [{
+				id: "11F27574357DD855"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Immersive Engineering\"."
+			subtitle: "Finish the Main Quest of \"Immersive Engineering\"."
 			tasks: [{
 				id: "003657112C515986"
 				type: "checkmark"
@@ -207,9 +198,14 @@
 			]
 			icon: "storagenetwork:request"
 			id: "277A5C4810D2671E"
+			rewards: [{
+				id: "46B98CEAA1600D4E"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Simple Storage\"."
+			subtitle: "Finish the Main Quest of \"Simple Storage\"."
 			tasks: [{
 				id: "699DEC85CD9007C2"
 				type: "checkmark"
@@ -225,9 +221,14 @@
 			]
 			icon: "create_confectionery:gingerbread_man"
 			id: "1C4850214C2051E7"
+			rewards: [{
+				id: "55C49CFC365B4A1F"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Farmer's Life | Part 2\"."
+			subtitle: "Finish the Main Quest of \"Farmer's Life | Part 2\"."
 			tasks: [{
 				id: "3897AC45A61FEE3D"
 				type: "checkmark"
@@ -243,9 +244,14 @@
 			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "0E03A6DF5661AD92"
+			rewards: [{
+				id: "33A4C58081489A55"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Twilight Forest\"."
+			subtitle: "Finish the Main Quest of \"Twilight Forest\"."
 			tasks: [{
 				id: "55272ECE75F73C61"
 				type: "checkmark"
@@ -261,9 +267,14 @@
 			]
 			icon: "mob_grinding_utils:saw"
 			id: "1AA7F8E25CA2ADB7"
+			rewards: [{
+				id: "53EE9835CA5E5E3F"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Little Additions\"."
+			subtitle: "Finish the Main Quest of \"Little Additions\"."
 			tasks: [{
 				id: "79AC59726070678D"
 				type: "checkmark"
@@ -279,9 +290,14 @@
 			]
 			icon: "ars_nouveau:archmage_spell_book"
 			id: "4FDD7B306D39E759"
+			rewards: [{
+				id: "37043B6B07998691"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Ars Nouveau\"."
+			subtitle: "Finish the Main Quest of \"Ars Nouveau\"."
 			tasks: [{
 				id: "78C302D3DE263D61"
 				type: "checkmark"
@@ -291,62 +307,27 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["509461C4B7CFE7C8"]
-			description: [
-				"-Aquaculture 2"
-				"-Ars Nouveau"
-				"-Botany Pots"
-				"-Create Addons (@create in JEI)"
-				"-Framed Compacting Drawers"
-				"-Glassential"
-				"-Immersive Engineering"
-				"-Iron Chests"
-				"-Iron Furnaces"
-				"-Item Collectors"
-				"-Mob Grinding Utils"
-				"-Simple Storage Network"
-				"-Sophisticated Backpacks"
-				"-Storage Drawers"
-				"-The Twilight Forest"
-				"-Trash Cans"
-				"-Upgraded Netherite"
-				"-Upgraded Netherite : Items"
-			]
-			icon: "create:schematic_and_quill"
-			id: "5A3A89297C92A663"
-			rewards: [{
-				id: "562166E4A7E89211"
-				item: "farmersdelight:sweet_berry_cookie"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "For Age 2."
-			tasks: [{
-				id: "3F7B61B744513D0A"
-				title: "Mods Unlocked List"
-				type: "checkmark"
-			}]
-			x: 7.5d
-			y: 2.25d
-		}
-		{
 			dependencies: [
 				"74C9143F2AE3BB45"
 				"5365C881A174A223"
 			]
 			icon: "eidolon:unholy_effigy"
 			id: "75E9D92DA2303E2F"
+			rewards: [{
+				id: "38095EE6E2272929"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the last Quest of \"Eidolon\"."
+			subtitle: "Finish the Main Quest of \"Eidolon\"."
 			tasks: [{
 				id: "71B1FE463A561F16"
 				title: "Checkmark"
 				type: "checkmark"
 			}]
 			title: "Eidolon"
-			x: -1.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -361,7 +342,7 @@
 				title: "WIP : Age 3"
 				type: "checkmark"
 			}]
-			x: 15.0d
+			x: 13.5d
 			y: 0.0d
 		}
 	]

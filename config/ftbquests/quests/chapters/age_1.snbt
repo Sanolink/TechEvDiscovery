@@ -65,7 +65,7 @@
 				title: "Farmer's Life"
 				type: "checkmark"
 			}]
-			title: "Farmer's Life | Part 1"
+			title: "&lFarmer's Life | Part 1"
 			x: 1.5d
 			y: 0.5d
 		}
@@ -81,6 +81,7 @@
 				title: "Create"
 				type: "checkmark"
 			}]
+			title: "&lCreate"
 			x: 0.75d
 			y: 3.75d
 		}
@@ -94,6 +95,7 @@
 				title: "Exploring World"
 				type: "checkmark"
 			}]
+			title: "&lExploring World"
 			x: -1.5d
 			y: 0.5d
 		}
@@ -109,7 +111,7 @@
 				title: "Create"
 				type: "checkmark"
 			}]
-			title: "Eidolon"
+			title: "&lEidolon"
 			x: -0.75d
 			y: 1.5d
 		}
@@ -120,11 +122,20 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "124F9088D80253D2"
+			rewards: [{
+				count: 4
+				id: "52FD156F56C3AECD"
+				item: "create:raw_andesite_alloy"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
+				count: 6L
 				id: "1284A12782023D14"
 				item: "create:raw_andesite_alloy"
 				type: "item"
 			}]
+			title: "&lRaw Andesite Alloy"
 			x: 1.5d
 			y: 2.5d
 		}

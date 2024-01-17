@@ -77,6 +77,7 @@
 				title: "Little Additions"
 				type: "checkmark"
 			}]
+			title: "&lLittle Additions"
 			x: 0.5d
 			y: 1.5d
 		}
@@ -90,6 +91,7 @@
 				title: "Simple Storage"
 				type: "checkmark"
 			}]
+			title: "&lSimple Storage"
 			x: -0.5d
 			y: 1.5d
 		}
@@ -103,7 +105,7 @@
 				title: "Farmer's Life | Part 2"
 				type: "checkmark"
 			}]
-			title: "Farmer's Life | Part 2"
+			title: "&lFarmer's Life | Part 2"
 			x: -1.5d
 			y: 0.5d
 		}
@@ -118,6 +120,7 @@
 				title: "Ars Nouveau"
 				type: "checkmark"
 			}]
+			title: "&lArs Nouveau"
 			x: 2.25d
 			y: 0.75d
 		}
@@ -132,6 +135,7 @@
 				title: "Twilight Forest"
 				type: "checkmark"
 			}]
+			title: "&lTwilight Forest"
 			x: -3.0d
 			y: 4.5d
 		}
@@ -156,17 +160,25 @@
 				title: "Immersive Engineering"
 				type: "checkmark"
 			}]
+			title: "&lImmersive Engineering"
 			x: 0.75d
 			y: 5.25d
 		}
 		{
 			dependencies: ["7DC4822B59B7CD59"]
 			id: "17B36047F8DFB1DD"
+			rewards: [{
+				id: "0FCDA76DE34C1D40"
+				item: "alltheores:brass_dust"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A649C267C8CF028"
 				item: "alltheores:brass_dust"
 				type: "item"
 			}]
+			title: "&lBrass Dust"
 			x: 3.0d
 			y: 3.5d
 		}
@@ -181,18 +193,25 @@
 				title: "Twilight Forest"
 				type: "checkmark"
 			}]
-			title: "Create [Addons]"
+			title: "&lCreate [Addons]"
 			x: 2.25d
 			y: 6.0d
 		}
 		{
 			dependencies: ["402DD03144304651"]
 			id: "0E2ECEBD625F5D5A"
+			rewards: [{
+				id: "3A82583ACFA0014F"
+				item: "create:source_tube"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A3F00CC1A1708A8"
 				item: "create:source_tube"
 				type: "item"
 			}]
+			title: "&lSource Tube"
 			x: 0.0d
 			y: 2.5d
 		}

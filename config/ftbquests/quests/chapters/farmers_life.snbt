@@ -14,9 +14,10 @@
 			hide_dependency_lines: true
 			id: "478D1E1CB1AAFA71"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "04322E2B4A055648"
 				item: "minecraft:bone_meal"
+				random_bonus: 12
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -35,8 +36,8 @@
 				type: "item"
 			}]
 			title: "Hoe Hoe Hoe"
-			x: 0.0d
-			y: 0.0d
+			x: 13.5d
+			y: -0.017857142857174324d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -45,6 +46,7 @@
 			rewards: [{
 				id: "066E8262706FA120"
 				item: "minecraft:wheat_seeds"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -53,8 +55,8 @@
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.5d
+			x: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -63,6 +65,7 @@
 			rewards: [{
 				id: "0891BE570E06B95F"
 				item: "minecraft:pumpkin_seeds"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -71,8 +74,8 @@
 				item: "minecraft:pumpkin_seeds"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -8.5d
+			x: -3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -81,6 +84,7 @@
 			rewards: [{
 				id: "0EABEF8F4E2820EB"
 				item: "minecraft:melon_seeds"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -89,8 +93,8 @@
 				item: "minecraft:melon_seeds"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -8.5d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -99,6 +103,7 @@
 			rewards: [{
 				id: "6010CDAFB4B25F4B"
 				item: "minecraft:beetroot_seeds"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -107,8 +112,8 @@
 				item: "minecraft:beetroot_seeds"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -117,6 +122,7 @@
 			rewards: [{
 				id: "2CB5E88715FEB450"
 				item: "farmersdelight:cabbage_seeds"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -125,8 +131,8 @@
 				item: "farmersdelight:cabbage_seeds"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -8.5d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -135,6 +141,7 @@
 			rewards: [{
 				id: "47B5A98CD72BD5AB"
 				item: "farmersdelight:tomato_seeds"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -143,8 +150,8 @@
 				item: "farmersdelight:tomato_seeds"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -8.5d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -153,6 +160,7 @@
 			rewards: [{
 				id: "2FDD6300E3B5CBB1"
 				item: "farmersdelight:rice_bag"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -161,8 +169,8 @@
 				item: "farmersdelight:rice"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -8.5d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7FA16A3CEFBC1148"]
@@ -170,6 +178,7 @@
 			rewards: [{
 				id: "426E9E8ED4332FC0"
 				item: "farmersdelight:tomato_crate"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -177,8 +186,8 @@
 				item: "farmersdelight:tomato"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -7.0d
+			x: 1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4B3DBFD03388895A"]
@@ -186,6 +195,7 @@
 			rewards: [{
 				id: "325BB167F66113DE"
 				item: "farmersdelight:cabbage_crate"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -193,8 +203,8 @@
 				item: "farmersdelight:cabbage"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -7.0d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -203,6 +213,7 @@
 			rewards: [{
 				id: "375544AE49FFB57E"
 				item: "farmersdelight:onion_crate"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -211,8 +222,8 @@
 				item: "farmersdelight:onion"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -8.5d
+			x: 3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -221,6 +232,7 @@
 			rewards: [{
 				id: "5C698A838BF94596"
 				item: "farmersdelight:potato_crate"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -229,8 +241,8 @@
 				item: "minecraft:potato"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -8.5d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -239,6 +251,7 @@
 			rewards: [{
 				id: "4995AA3BF8F21693"
 				item: "farmersdelight:carrot_crate"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -247,8 +260,8 @@
 				item: "minecraft:carrot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.5d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["42C6D00344063138"]
@@ -256,6 +269,7 @@
 			rewards: [{
 				id: "1E8F5D5502F57AB9"
 				item: "farmersdelight:beetroot_crate"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -263,8 +277,8 @@
 				item: "minecraft:beetroot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.0d
+			x: -1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2453187F2FFA712D"]
@@ -272,6 +286,7 @@
 			rewards: [{
 				id: "63967C6953914F9E"
 				item: "minecraft:melon"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -279,8 +294,8 @@
 				item: "minecraft:melon"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.0d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5E4E3401AC67D431"]
@@ -288,6 +303,7 @@
 			rewards: [{
 				id: "5915C11A4E3D99B2"
 				item: "minecraft:pumpkin"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -295,8 +311,8 @@
 				item: "minecraft:pumpkin"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.0d
+			x: -3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["180991AFE3AB82AB"]
@@ -304,6 +320,7 @@
 			rewards: [{
 				id: "4182E7E447465D87"
 				item: "minecraft:hay_block"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -311,8 +328,8 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.0d
+			x: -4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6BDBFFD5107D6140"]
@@ -320,6 +337,7 @@
 			rewards: [{
 				id: "22EDFDDF60541EE5"
 				item: "farmersdelight:rice_bale"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -327,8 +345,8 @@
 				item: "farmersdelight:rice_panicle"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -7.0d
+			x: 2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -337,6 +355,7 @@
 			rewards: [{
 				id: "08E1C9C4378331F7"
 				item: "minecraft:sweet_berries"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -345,8 +364,8 @@
 				item: "minecraft:sweet_berries"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -8.5d
+			x: 6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -355,6 +374,7 @@
 			rewards: [{
 				id: "61E8D0B08D2985BE"
 				item: "minecraft:beef"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -373,8 +393,10 @@
 			rewards: [{
 				id: "678CCC1E6018B7F5"
 				item: "farmersdelight:fried_egg"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "28FB96330FF98E17"
 				item: "farmersdelight:fried_egg"
@@ -390,8 +412,10 @@
 			rewards: [{
 				id: "1F28114B3AD18A46"
 				item: "farmersdelight:milk_bottle"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "4724A65EAC183356"
 				item: "farmersdelight:milk_bottle"
@@ -406,6 +430,7 @@
 			rewards: [{
 				id: "798715C5F6DAE91F"
 				item: "farmersdelight:hot_cocoa"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -413,8 +438,8 @@
 				item: "farmersdelight:hot_cocoa"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -10.0d
+			x: 6.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["04665AC96F443233"]
@@ -422,6 +447,7 @@
 			rewards: [{
 				id: "6D4B1CA5E2E297B2"
 				item: "farmersdelight:apple_cider"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -429,8 +455,8 @@
 				item: "farmersdelight:apple_cider"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -11.0d
+			x: -5.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["747EA72719721F09"]
@@ -438,6 +464,7 @@
 			rewards: [{
 				id: "7F44ECA439B337AB"
 				item: "farmersdelight:melon_juice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -445,8 +472,8 @@
 				item: "farmersdelight:melon_juice"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.0d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7A6611FA00FFBD7B"]
@@ -454,6 +481,7 @@
 			rewards: [{
 				id: "137A9BEEB15295B1"
 				item: "farmersdelight:tomato_sauce"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -461,8 +489,8 @@
 				item: "farmersdelight:tomato_sauce"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1A503B86809F86FE"]
@@ -470,6 +498,7 @@
 			rewards: [{
 				id: "70B61912F83275DA"
 				item: "farmersdelight:wheat_dough"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -477,8 +506,8 @@
 				item: "farmersdelight:wheat_dough"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -7.0d
+			x: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["73EBF77FAED74F8B"]
@@ -486,6 +515,7 @@
 			rewards: [{
 				id: "6FB8D4EA6576CBDD"
 				item: "farmersdelight:raw_pasta"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -493,8 +523,8 @@
 				item: "farmersdelight:raw_pasta"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -7.0d
+			x: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6B8D2F84EDDD82EE"]
@@ -509,8 +539,8 @@
 				item: "farmersdelight:pumpkin_slice"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -6.0d
+			x: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["654A3129FB9D5881"]
@@ -518,6 +548,7 @@
 			rewards: [{
 				id: "64DF1DE196C193A5"
 				item: "farmersdelight:cabbage_leaf"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -525,8 +556,8 @@
 				item: "farmersdelight:cabbage_leaf"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: 0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1E4C9365B07DF568"]
@@ -534,6 +565,7 @@
 			rewards: [{
 				id: "2039AF439D7172C3"
 				item: "farmersdelight:minced_beef"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -554,6 +586,7 @@
 			rewards: [{
 				id: "681CDE66FD710BF9"
 				item: "farmersdelight:beef_patty"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -570,6 +603,7 @@
 			rewards: [{
 				id: "4546A49481956120"
 				item: "farmersdelight:chicken_cuts"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -590,6 +624,7 @@
 			rewards: [{
 				id: "3EF02F3D18B2DC4C"
 				item: "farmersdelight:cooked_chicken_cuts"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -606,6 +641,7 @@
 			rewards: [{
 				id: "391F80EAD1AA0AB5"
 				item: "farmersdelight:bacon"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -626,6 +662,7 @@
 			rewards: [{
 				id: "7B9F328F28C1B260"
 				item: "farmersdelight:cooked_bacon"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -642,6 +679,7 @@
 			rewards: [{
 				id: "64E79A7F067C41E1"
 				item: "farmersdelight:mutton_chops"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -662,6 +700,7 @@
 			rewards: [{
 				id: "6968D535818F9843"
 				item: "farmersdelight:cooked_mutton_chops"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -679,6 +718,7 @@
 			rewards: [{
 				id: "6D6565F4F16D2AB4"
 				item: "farmersdelight:ham"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -687,8 +727,8 @@
 				item: "farmersdelight:ham"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 13.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["43900E4D6A9E71C6"]
@@ -696,16 +736,17 @@
 			rewards: [{
 				id: "527F1765B60E8258"
 				item: "farmersdelight:smoked_ham"
+				random_bonus: 3
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "rsquare"
 			tasks: [{
 				id: "10CC84CDD30FE899"
 				item: "farmersdelight:smoked_ham"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 13.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -714,6 +755,7 @@
 			rewards: [{
 				id: "2B4C217A6DA16258"
 				item: "farmersdelight:pie_crust"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -723,7 +765,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["279900BCB7BA7C17"]
@@ -731,6 +773,7 @@
 			rewards: [{
 				id: "40AC83D5CA8410A7"
 				item: "farmersdelight:apple_pie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -739,7 +782,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["279900BCB7BA7C17"]
@@ -747,6 +790,7 @@
 			rewards: [{
 				id: "71CB7D269AC140ED"
 				item: "farmersdelight:sweet_berry_cheesecake"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -755,7 +799,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["279900BCB7BA7C17"]
@@ -763,6 +807,7 @@
 			rewards: [{
 				id: "34C617E5C98A2ABC"
 				item: "farmersdelight:chocolate_pie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -771,7 +816,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["35DB6BB6EBF77EF8"]
@@ -779,6 +824,7 @@
 			rewards: [{
 				id: "67793CCCFAD05FF8"
 				item: "farmersdelight:cake_slice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -786,8 +832,8 @@
 				item: "farmersdelight:cake_slice"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.0d
+			x: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["218A4FE9B0AB7799"]
@@ -795,6 +841,7 @@
 			rewards: [{
 				id: "306415B5F93F9317"
 				item: "farmersdelight:apple_pie_slice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -803,7 +850,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6BB8E8EF0C503DA0"]
@@ -811,6 +858,7 @@
 			rewards: [{
 				id: "170D48DEF9514CDD"
 				item: "farmersdelight:chocolate_pie_slice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -819,7 +867,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0581A35335F8D117"]
@@ -827,6 +875,7 @@
 			rewards: [{
 				id: "3FD7DEF609A437AF"
 				item: "farmersdelight:sweet_berry_cheesecake_slice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -835,7 +884,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -844,6 +893,7 @@
 			rewards: [{
 				id: "32650B0C386EF642"
 				item: "farmersdelight:sweet_berry_cookie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -851,8 +901,8 @@
 				item: "farmersdelight:sweet_berry_cookie"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -7.0d
+			x: 9.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -861,6 +911,7 @@
 			rewards: [{
 				id: "5EF765E0B2A9540C"
 				item: "farmersdelight:honey_cookie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -868,8 +919,8 @@
 				item: "farmersdelight:honey_cookie"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -7.0d
+			x: 8.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["747EA72719721F09"]
@@ -877,6 +928,7 @@
 			rewards: [{
 				id: "4CA990192AAE4433"
 				item: "farmersdelight:melon_popsicle"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -884,8 +936,8 @@
 				item: "farmersdelight:melon_popsicle"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.0d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["28F145BA0F724A43"]
@@ -893,6 +945,7 @@
 			rewards: [{
 				id: "4D9A86DF00B2932B"
 				item: "farmersdelight:glow_berry_custard"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -900,8 +953,8 @@
 				item: "farmersdelight:glow_berry_custard"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -11.0d
+			x: 5.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -909,6 +962,7 @@
 			rewards: [{
 				id: "660D17D09F677A44"
 				item: "farmersdelight:fruit_salad"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -916,8 +970,8 @@
 				item: "farmersdelight:fruit_salad"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -0.5d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -925,6 +979,7 @@
 			rewards: [{
 				id: "6E0BE4B239CED491"
 				item: "farmersdelight:mixed_salad"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -932,8 +987,8 @@
 				item: "farmersdelight:mixed_salad"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 0.5d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B9F375401B962F9"]
@@ -941,6 +996,7 @@
 			rewards: [{
 				id: "3B2F5BD01E7DCB37"
 				item: "farmersdelight:nether_salad"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -948,8 +1004,8 @@
 				item: "farmersdelight:nether_salad"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -7.0d
+			x: 15.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -958,6 +1014,7 @@
 			rewards: [{
 				id: "5ED43D4D7AC12B83"
 				item: "farmersdelight:barbecue_stick"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -966,7 +1023,7 @@
 				item: "farmersdelight:barbecue_stick"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
@@ -975,6 +1032,7 @@
 			rewards: [{
 				id: "43505C6A672AE01F"
 				item: "farmersdelight:egg_sandwich"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -982,8 +1040,8 @@
 				item: "farmersdelight:egg_sandwich"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.0d
+			x: -6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7FCF8A5C7478A4EC"]
@@ -991,6 +1049,7 @@
 			rewards: [{
 				id: "775C0F7F3714BDF4"
 				item: "farmersdelight:chicken_sandwich"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -998,8 +1057,8 @@
 				item: "farmersdelight:chicken_sandwich"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.0d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7FCF8A5C7478A4EC"]
@@ -1007,6 +1066,7 @@
 			rewards: [{
 				id: "56866A1FF4DE75B5"
 				item: "farmersdelight:hamburger"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1014,8 +1074,8 @@
 				item: "farmersdelight:hamburger"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -5.0d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7FCF8A5C7478A4EC"]
@@ -1023,6 +1083,7 @@
 			rewards: [{
 				id: "7F3A6D4DEC8E8888"
 				item: "farmersdelight:bacon_sandwich"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1030,8 +1091,8 @@
 				item: "farmersdelight:bacon_sandwich"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -5.0d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -1040,8 +1101,10 @@
 			rewards: [{
 				id: "709F9638A3311F7E"
 				item: "farmersdelight:mutton_wrap"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "3A5A2F29FE9CD0BB"
 				item: "farmersdelight:mutton_wrap"
@@ -1056,6 +1119,7 @@
 			rewards: [{
 				id: "0018DBA32F1B5897"
 				item: "farmersdelight:dumplings"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1063,8 +1127,8 @@
 				item: "farmersdelight:dumplings"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.0d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1B8C55DE58F597E0"]
@@ -1072,6 +1136,7 @@
 			rewards: [{
 				id: "0F821695DB2150BA"
 				item: "farmersdelight:stuffed_potato"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1079,8 +1144,8 @@
 				item: "farmersdelight:stuffed_potato"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
+			x: 4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1B6D2CF2E0EE9FEC"]
@@ -1088,6 +1153,7 @@
 			rewards: [{
 				id: "408C3ACDD6FFD231"
 				item: "farmersdelight:cabbage_rolls"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1095,8 +1161,8 @@
 				item: "farmersdelight:cabbage_rolls"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2B5180550F15347F"]
@@ -1104,6 +1170,7 @@
 			rewards: [{
 				id: "15BBAFA629AAB3EE"
 				item: "farmersdelight:salmon_roll"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1111,8 +1178,8 @@
 				item: "farmersdelight:salmon_roll"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -11.0d
+			x: 2.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["2B5180550F15347F"]
@@ -1120,6 +1187,7 @@
 			rewards: [{
 				id: "1ECF44BCA5CC7D26"
 				item: "farmersdelight:cod_roll"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1127,8 +1195,8 @@
 				item: "farmersdelight:cod_roll"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -11.0d
+			x: 3.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -1139,6 +1207,7 @@
 			rewards: [{
 				id: "199625A0D10A2A80"
 				item: "farmersdelight:kelp_roll"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1146,8 +1215,8 @@
 				item: "farmersdelight:kelp_roll"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -11.0d
+			x: 1.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4EF34E0B2F9161F5"]
@@ -1155,6 +1224,7 @@
 			rewards: [{
 				id: "3019828252F93591"
 				item: "farmersdelight:kelp_roll_slice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1162,8 +1232,8 @@
 				item: "farmersdelight:kelp_roll_slice"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -12.0d
+			x: 1.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["6BDBFFD5107D6140"]
@@ -1171,15 +1241,16 @@
 			rewards: [{
 				id: "3CB8A0920EC90D02"
 				item: "farmersdelight:cooked_rice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
-				id: "501AA6CD526E383F"
+				id: "26BFA4B9514536B1"
 				item: "farmersdelight:cooked_rice"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -10.0d
+			x: 2.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1187,6 +1258,7 @@
 			rewards: [{
 				id: "1E12810A8FDE181B"
 				item: "farmersdelight:bone_broth"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1194,7 +1266,7 @@
 				item: "farmersdelight:bone_broth"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -1203,6 +1275,7 @@
 			rewards: [{
 				id: "544F443C552D85CD"
 				item: "farmersdelight:beef_stew"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1210,8 +1283,8 @@
 				item: "farmersdelight:beef_stew"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1219,6 +1292,7 @@
 			rewards: [{
 				id: "0905E05BE5BCB26E"
 				item: "farmersdelight:chicken_soup"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1226,8 +1300,8 @@
 				item: "farmersdelight:chicken_soup"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.5d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1235,6 +1309,7 @@
 			rewards: [{
 				id: "289C9413C19C672C"
 				item: "farmersdelight:vegetable_soup"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1242,8 +1317,8 @@
 				item: "farmersdelight:vegetable_soup"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1251,6 +1326,7 @@
 			rewards: [{
 				id: "15CA895F029EC653"
 				item: "farmersdelight:fish_stew"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1258,8 +1334,8 @@
 				item: "farmersdelight:fish_stew"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1267,6 +1343,7 @@
 			rewards: [{
 				id: "6B2F723D1F63E3D0"
 				item: "farmersdelight:fried_rice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1274,8 +1351,8 @@
 				item: "farmersdelight:fried_rice"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1283,6 +1360,7 @@
 			rewards: [{
 				id: "4B155782C611073C"
 				item: "farmersdelight:pumpkin_soup"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1290,8 +1368,8 @@
 				item: "farmersdelight:pumpkin_soup"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1299,6 +1377,7 @@
 			rewards: [{
 				id: "591DC89CB9908E21"
 				item: "farmersdelight:baked_cod_stew"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1306,8 +1385,8 @@
 				item: "farmersdelight:baked_cod_stew"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.5d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1315,6 +1394,7 @@
 			rewards: [{
 				id: "5EC8334F7ABE4955"
 				item: "farmersdelight:noodle_soup"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1322,8 +1402,8 @@
 				item: "farmersdelight:noodle_soup"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1331,6 +1411,7 @@
 			rewards: [{
 				id: "1EB825794CE12A4D"
 				item: "farmersdelight:bacon_and_eggs"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1338,8 +1419,8 @@
 				item: "farmersdelight:bacon_and_eggs"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -1.5d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1347,6 +1428,7 @@
 			rewards: [{
 				id: "4480356E35E46E3A"
 				item: "farmersdelight:pasta_with_meatballs"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1354,8 +1436,8 @@
 				item: "farmersdelight:pasta_with_meatballs"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -2.5d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1363,6 +1445,7 @@
 			rewards: [{
 				id: "11A453D05FD557D7"
 				item: "farmersdelight:pasta_with_mutton_chop"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1370,8 +1453,8 @@
 				item: "farmersdelight:pasta_with_mutton_chop"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.0d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1379,6 +1462,7 @@
 			rewards: [{
 				id: "3E1CD48236774CCF"
 				item: "farmersdelight:mushroom_rice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1386,8 +1470,8 @@
 				item: "farmersdelight:mushroom_rice"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1395,6 +1479,7 @@
 			rewards: [{
 				id: "39584FED081EA276"
 				item: "farmersdelight:roasted_mutton_chops"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1402,8 +1487,8 @@
 				item: "farmersdelight:roasted_mutton_chops"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1411,6 +1496,7 @@
 			rewards: [{
 				id: "5C46A2977D063451"
 				item: "farmersdelight:vegetable_noodles"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1418,8 +1504,8 @@
 				item: "farmersdelight:vegetable_noodles"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 0.0d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1427,6 +1513,7 @@
 			rewards: [{
 				id: "74F46A5D0834020D"
 				item: "farmersdelight:steak_and_potatoes"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1434,8 +1521,8 @@
 				item: "farmersdelight:steak_and_potatoes"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1443,6 +1530,7 @@
 			rewards: [{
 				id: "265F1A4550BBDCCD"
 				item: "farmersdelight:ratatouille"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1450,8 +1538,8 @@
 				item: "farmersdelight:ratatouille"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 1.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1459,6 +1547,7 @@
 			rewards: [{
 				id: "0F82ED354858987A"
 				item: "farmersdelight:squid_ink_pasta"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1466,8 +1555,8 @@
 				item: "farmersdelight:squid_ink_pasta"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5ADA72AB34A49A1D"]
@@ -1475,6 +1564,7 @@
 			rewards: [{
 				id: "0DD720914F812615"
 				item: "farmersdelight:grilled_salmon"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1482,8 +1572,8 @@
 				item: "farmersdelight:grilled_salmon"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -1492,6 +1582,7 @@
 			rewards: [{
 				id: "33AA9A39E93F4E91"
 				item: "farmersdelight:roast_chicken_block"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -1500,8 +1591,8 @@
 				item: "farmersdelight:roast_chicken_block"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -3.5d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["71DC53052D46F71B"]
@@ -1509,15 +1600,17 @@
 			rewards: [{
 				id: "7D4921F8F97226DE"
 				item: "farmersdelight:roast_chicken"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "7104D41645BEDFE6"
 				item: "farmersdelight:roast_chicken"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -1526,6 +1619,7 @@
 			rewards: [{
 				id: "1AC7D0DBACDCDE50"
 				item: "farmersdelight:stuffed_pumpkin_block"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -1534,8 +1628,8 @@
 				item: "farmersdelight:stuffed_pumpkin_block"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3AD4811E15D37C8D"]
@@ -1543,15 +1637,17 @@
 			rewards: [{
 				id: "5ADCBEF35C1E9BF6"
 				item: "farmersdelight:stuffed_pumpkin"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "2E4CFD8D896F132A"
 				item: "farmersdelight:stuffed_pumpkin"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -1560,6 +1656,7 @@
 			rewards: [{
 				id: "311226EB21DA47DA"
 				item: "farmersdelight:honey_glazed_ham_block"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -1568,8 +1665,8 @@
 				item: "farmersdelight:honey_glazed_ham_block"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["729912F8764AAAE0"]
@@ -1577,15 +1674,17 @@
 			rewards: [{
 				id: "758B8115ECB80571"
 				item: "farmersdelight:honey_glazed_ham"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "39BD1346F1FB104C"
 				item: "farmersdelight:honey_glazed_ham"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -1594,6 +1693,7 @@
 			rewards: [{
 				id: "3564BF8FAC5A00FA"
 				item: "farmersdelight:shepherds_pie_block"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -1602,8 +1702,8 @@
 				item: "farmersdelight:shepherds_pie_block"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.5d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5780C2E93AF620ED"]
@@ -1611,16 +1711,17 @@
 			rewards: [{
 				id: "7FF1B76F7BED85F3"
 				item: "farmersdelight:shepherds_pie"
+				random_bonus: 3
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "rsquare"
 			tasks: [{
 				id: "08D7FB23218EBDCD"
 				item: "farmersdelight:shepherds_pie"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1632,6 +1733,7 @@
 			rewards: [{
 				id: "6568F49309615841"
 				item: "farmersdelight:rice_roll_medley_block"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1642,8 +1744,9 @@
 				item: "farmersdelight:rice_roll_medley_block"
 				type: "item"
 			}]
-			x: 2.24047619047618d
-			y: -12.328571428571422d
+			title: "&l&6Rice Roll Medley"
+			x: 3.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -1652,6 +1755,7 @@
 			rewards: [{
 				id: "028F4AACC4C7DA5A"
 				item: "farmersdelight:dog_food"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -1660,7 +1764,7 @@
 				item: "farmersdelight:dog_food"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -1670,6 +1774,7 @@
 			rewards: [{
 				id: "1827F2F6557C129D"
 				item: "farmersdelight:horse_feed"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -1678,8 +1783,8 @@
 				item: "farmersdelight:horse_feed"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -1.0d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -1690,6 +1795,7 @@
 				count: 4
 				id: "563570D77E59BE48"
 				item: "minecraft:charcoal"
+				random_bonus: 12
 				type: "item"
 			}]
 			shape: "square"
@@ -1699,7 +1805,7 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -1711,6 +1817,7 @@
 				count: 4
 				id: "214D90DAB022DE5D"
 				item: "minecraft:bowl"
+				random_bonus: 12
 				type: "item"
 			}]
 			shape: "square"
@@ -1720,7 +1827,7 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -1729,8 +1836,10 @@
 			hide_dependency_lines: true
 			id: "25498FAA87258E55"
 			rewards: [{
+				count: 4
 				id: "23C959C13D170457"
 				item: "minecraft:egg"
+				random_bonus: 12
 				type: "item"
 			}]
 			shape: "square"
@@ -1746,7 +1855,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -1757,6 +1866,7 @@
 				count: 4
 				id: "356DE10916160FD2"
 				item: "minecraft:stick"
+				random_bonus: 12
 				type: "item"
 			}]
 			shape: "square"
@@ -1765,16 +1875,17 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: -3.5d
+			x: 16.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4FBA522CC4B248C8"]
 			id: "51A9C4DB2407A027"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "2674E3C2679546EB"
 				item: "minecraft:oak_planks"
+				random_bonus: 6
 				type: "item"
 			}]
 			tasks: [{
@@ -1788,16 +1899,16 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["51A9C4DB2407A027"]
 			id: "0FA39DA82D263667"
 			rewards: [{
-				count: 2
 				id: "104ED2D6049395D6"
 				item: "minecraft:flint"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1811,16 +1922,16 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 14.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0FA39DA82D263667"]
 			id: "623895D5455F28DA"
 			rewards: [{
-				count: 2
 				id: "35AEE0627AF4D2B7"
 				item: "minecraft:iron_ingot"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1834,16 +1945,16 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: 13.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["623895D5455F28DA"]
 			id: "2339DAF4AC9F2079"
 			rewards: [{
-				count: 2
 				id: "7964816FCD54FC90"
 				item: "minecraft:gold_ingot"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1857,16 +1968,16 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 12.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2339DAF4AC9F2079"]
 			id: "40217CED6EEBF092"
 			rewards: [{
-				count: 2
 				id: "0B9CBCD7FDE65AE1"
 				item: "minecraft:diamond"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1880,7 +1991,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
@@ -1890,6 +2001,7 @@
 			rewards: [{
 				id: "5C5F23D631EBA707"
 				item: "minecraft:chicken"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -1907,6 +2019,7 @@
 			rewards: [{
 				id: "4D0C8B4E3645E481"
 				item: "minecraft:cooked_chicken"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1923,6 +2036,7 @@
 			rewards: [{
 				id: "3CE6EF0657BEF212"
 				item: "minecraft:cooked_beef"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1940,6 +2054,7 @@
 			rewards: [{
 				id: "48F91D1A96E48F07"
 				item: "minecraft:porkchop"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -1957,6 +2072,7 @@
 			rewards: [{
 				id: "32CF0109B213DFB2"
 				item: "minecraft:cooked_porkchop"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1973,6 +2089,7 @@
 			rewards: [{
 				id: "2763DD21947B6772"
 				item: "minecraft:golden_apple"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1980,8 +2097,8 @@
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -10.0d
+			x: -3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["4AA33D15930722BC"]
@@ -1989,6 +2106,7 @@
 			rewards: [{
 				id: "2E4801A8D3C30395"
 				item: "minecraft:enchanted_golden_apple"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -1996,8 +2114,8 @@
 				item: "minecraft:enchanted_golden_apple"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -10.0d
+			x: -2.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2006,6 +2124,7 @@
 			rewards: [{
 				id: "33EEC8A4C72899AF"
 				item: "minecraft:rabbit"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2014,8 +2133,8 @@
 				item: "minecraft:rabbit"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 14.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0D36A8E2A306B348"]
@@ -2023,6 +2142,7 @@
 			rewards: [{
 				id: "2656BE9D154035B0"
 				item: "minecraft:cooked_rabbit"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2030,8 +2150,8 @@
 				item: "minecraft:cooked_rabbit"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 13.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2040,6 +2160,7 @@
 			rewards: [{
 				id: "37192EAC9F88786C"
 				item: "minecraft:mutton"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2057,6 +2178,7 @@
 			rewards: [{
 				id: "524EA60BA0DC61ED"
 				item: "minecraft:cooked_mutton"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2074,6 +2196,7 @@
 			rewards: [{
 				id: "64AD12F3237A58FE"
 				item: "minecraft:honey_block"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2081,8 +2204,8 @@
 				item: "minecraft:honey_bottle"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -11.0d
+			x: 8.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["44EC15E1DA9ADC1F"]
@@ -2090,6 +2213,7 @@
 			rewards: [{
 				id: "14F0E2DB68714BC2"
 				item: "minecraft:glow_berries"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2097,8 +2221,8 @@
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -10.0d
+			x: 5.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["07B1E9FD3F0DD748"]
@@ -2106,6 +2230,7 @@
 			rewards: [{
 				id: "640D2C729B1A91BA"
 				item: "minecraft:beetroot_soup"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2113,8 +2238,8 @@
 				item: "minecraft:beetroot_soup"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -6.0d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["052E91FC16B0B90A"]
@@ -2122,6 +2247,7 @@
 			rewards: [{
 				id: "1FF54F8BFFDEA28F"
 				item: "minecraft:baked_potato"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2129,8 +2255,8 @@
 				item: "minecraft:baked_potato"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -7.0d
+			x: 5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["052E91FC16B0B90A"]
@@ -2138,6 +2264,7 @@
 			rewards: [{
 				id: "3DBAB81A3304CD93"
 				item: "minecraft:poisonous_potato"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2145,8 +2272,8 @@
 				item: "minecraft:poisonous_potato"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -10.0d
+			x: 4.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["659FCD84C307CF18"]
@@ -2154,6 +2281,7 @@
 			rewards: [{
 				id: "686A089D690F8F0F"
 				item: "minecraft:golden_carrot"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2161,8 +2289,8 @@
 				item: "minecraft:golden_carrot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -7.0d
+			x: 4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2171,6 +2299,7 @@
 			rewards: [{
 				id: "0BE277EEDA7C1E9A"
 				item: "minecraft:spider_eye"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2179,8 +2308,8 @@
 				item: "minecraft:spider_eye"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["163110273D5AEA9B"]
@@ -2188,6 +2317,7 @@
 			rewards: [{
 				id: "2085C15CC1D381BB"
 				item: "minecraft:rabbit_stew"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2195,8 +2325,8 @@
 				item: "minecraft:rabbit_stew"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 14.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6B8D2F84EDDD82EE"]
@@ -2204,6 +2334,7 @@
 			rewards: [{
 				id: "21989C3E819E52A9"
 				item: "minecraft:pumpkin_pie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2211,8 +2342,8 @@
 				item: "minecraft:pumpkin_pie"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2221,6 +2352,7 @@
 			rewards: [{
 				id: "77F8CED922D499FF"
 				item: "minecraft:rotten_flesh"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2229,8 +2361,8 @@
 				item: "minecraft:rotten_flesh"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 1.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4145A4442DE174FA"]
@@ -2238,6 +2370,7 @@
 			rewards: [{
 				id: "3E1430A2A33C1B0A"
 				item: "minecraft:dried_kelp_block"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2245,8 +2378,8 @@
 				item: "minecraft:dried_kelp"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -10.0d
+			x: 1.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["73EBF77FAED74F8B"]
@@ -2254,6 +2387,7 @@
 			rewards: [{
 				id: "7998CB95E2412CB7"
 				item: "minecraft:cake"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -2261,8 +2395,8 @@
 				item: "minecraft:cake"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.0d
+			x: -5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3E1027705BFDD7EE"]
@@ -2270,6 +2404,7 @@
 			rewards: [{
 				id: "4B7455BA5A8842F5"
 				item: "minecraft:melon_slice"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2277,8 +2412,8 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3FF22C76E4A804F2"]
@@ -2286,6 +2421,7 @@
 			rewards: [{
 				id: "665D7F54B29BC781"
 				item: "minecraft:cookie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2293,8 +2429,8 @@
 				item: "minecraft:cookie"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -7.0d
+			x: 7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1A503B86809F86FE"]
@@ -2302,6 +2438,7 @@
 			rewards: [{
 				id: "781F9894AEFC62B6"
 				item: "minecraft:bread"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2309,8 +2446,8 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -6.0d
+			x: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1D0BC8838B81C3EB"]
@@ -2318,6 +2455,7 @@
 			rewards: [{
 				id: "4F737AAB6E240DD1"
 				item: "minecraft:mushroom_stew"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2325,8 +2463,8 @@
 				item: "minecraft:mushroom_stew"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.0d
+			x: 14.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2335,6 +2473,7 @@
 			rewards: [{
 				id: "2A2ACEF41FC5BD99"
 				item: "minecraft:apple"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2343,24 +2482,8 @@
 				item: "minecraft:apple"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["04665AC96F443233"]
-			id: "0A5FDA88AF4074E5"
-			rewards: [{
-				id: "1BF51F988EF98A26"
-				item: "create:honeyed_apple"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5FC541903A24CCA4"
-				item: "create:honeyed_apple"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -10.0d
+			x: -4.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["7FCF8A5C7478A4EC"]
@@ -2375,8 +2498,8 @@
 				item: "create:sweet_roll"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.0d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -2387,6 +2510,7 @@
 			rewards: [{
 				id: "1931B6D2607165E9"
 				item: "create:bar_of_chocolate"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2394,8 +2518,8 @@
 				item: "create:bar_of_chocolate"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -10.0d
+			x: 7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["44EC15E1DA9ADC1F"]
@@ -2403,6 +2527,7 @@
 			rewards: [{
 				id: "47472E541A95D806"
 				item: "create:chocolate_glazed_berries"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2410,8 +2535,8 @@
 				item: "create:chocolate_glazed_berries"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: 6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0BD31E40E97B3B35"]
@@ -2420,16 +2545,18 @@
 			rewards: [{
 				id: "2FB916608FFD81B8"
 				item: "farmersdelight:rich_soil"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "...SPEED"
 			tasks: [{
 				id: "1EE45DA1B257B5D5"
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 17.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2439,16 +2566,18 @@
 			rewards: [{
 				id: "18E6B4AE2B102218"
 				item: "farmersdelight:organic_compost"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "It smells..."
 			tasks: [{
 				id: "7988A583917C0D39"
 				item: "farmersdelight:organic_compost"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 17.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2457,6 +2586,7 @@
 			rewards: [{
 				id: "497D0965DA89183B"
 				item: "minecraft:cocoa_beans"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2465,8 +2595,8 @@
 				item: "minecraft:cocoa_beans"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -8.5d
+			x: 7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2475,6 +2605,7 @@
 			rewards: [{
 				id: "6B2E91CF3752B922"
 				item: "minecraft:sugar_cane"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2483,8 +2614,8 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.5d
+			x: 8.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2493,6 +2624,7 @@
 			rewards: [{
 				id: "6CB56BC39016C019"
 				item: "minecraft:cactus"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2501,8 +2633,8 @@
 				item: "minecraft:cactus"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -8.5d
+			x: 9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -2514,6 +2646,7 @@
 			rewards: [{
 				id: "180ED5763BAFA124"
 				item: "minecraft:sugar"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2521,8 +2654,8 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -10.0d
+			x: 8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2531,6 +2664,7 @@
 			rewards: [{
 				id: "5EB109EB74AF196A"
 				item: "minecraft:chorus_fruit"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2539,8 +2673,8 @@
 				item: "minecraft:chorus_fruit"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -8.5d
+			x: -5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2551,11 +2685,13 @@
 				{
 					id: "0ADC4189A2F6427E"
 					item: "minecraft:brown_mushroom"
+					random_bonus: 3
 					type: "item"
 				}
 				{
 					id: "484F71DC9750B759"
 					item: "minecraft:red_mushroom"
+					random_bonus: 3
 					type: "item"
 				}
 			]
@@ -2572,8 +2708,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -8.5d
+			x: 14.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2582,6 +2718,7 @@
 			rewards: [{
 				id: "0258946A64C19A5D"
 				item: "minecraft:kelp"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2590,21 +2727,24 @@
 				item: "minecraft:kelp"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -10.0d
+			x: 0.0d
+			y: -9.5d
 		}
 		{
-			dependencies: ["1D0BC8838B81C3EB"]
+			dependencies: ["478D1E1CB1AAFA71"]
+			hide_dependency_lines: true
 			id: "1B9F375401B962F9"
 			rewards: [
 				{
 					id: "35B1FE9EDD649972"
 					item: "minecraft:warped_fungus"
+					random_bonus: 3
 					type: "item"
 				}
 				{
 					id: "3394C906D1208647"
 					item: "minecraft:crimson_fungus"
+					random_bonus: 3
 					type: "item"
 				}
 			]
@@ -2621,28 +2761,30 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: -8.5d
+			x: 15.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
 			hide_dependency_lines: true
 			id: "5ADA72AB34A49A1D"
 			rewards: [{
-				count: 12
+				count: 4
 				id: "76182EB246A42242"
 				item: "minecraft:bowl"
+				random_bonus: 12
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				count: 4L
 				id: "4D9B85F727F3ADF0"
 				item: "minecraft:bowl"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2D4720A9D5772CB9"]
@@ -2650,15 +2792,17 @@
 			rewards: [{
 				id: "7FC7DFD76274CBCF"
 				item: "naturalist:cooked_venison"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "33F1FCA5D7A831B7"
 				item: "naturalist:cooked_venison"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2667,6 +2811,7 @@
 			rewards: [{
 				id: "1CE24EDBA908F593"
 				item: "naturalist:venison"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2675,8 +2820,8 @@
 				item: "naturalist:venison"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -2801,7 +2946,6 @@
 				"747EA72719721F09"
 				"7FCF8A5C7478A4EC"
 				"04665AC96F443233"
-				"0A5FDA88AF4074E5"
 				"7681C3E4A61F3696"
 				"604454AE51343AA3"
 				"4145A4442DE174FA"
@@ -2846,6 +2990,21 @@
 				"610229ECE22DE165"
 				"14B88A4AF24412F1"
 				"0AF37EEDE0D71613"
+				"55886FCBB5983EDD"
+				"6EC32145437708FE"
+				"4486B9D7F7228C55"
+				"21BF7C2F5F760CC8"
+				"23F1153CD8C3EB37"
+				"42246E0649B0ADD2"
+				"2825F8D984CF8C74"
+				"306971E7D22193DB"
+				"481355214F26468E"
+				"48CE3409E660311C"
+				"47B45A33923593AD"
+				"4D2FBF31C1FB0CE2"
+				"6D031B2551A9D9B1"
+				"023693F6D371D7E9"
+				"5F572358B600D8CC"
 			]
 			description: ["Try to craft all foods to unlock the final Age, remember, more you eat, more you get hearts ;)"]
 			hide_dependency_lines: true
@@ -2854,6 +3013,7 @@
 				count: 16
 				id: "68E9D36D8A6F7415"
 				item: "minecraft:enchanted_golden_apple"
+				random_bonus: 16
 				type: "item"
 			}]
 			shape: "diamond"
@@ -2863,15 +3023,15 @@
 				id: "764A5A09DE6BDA9F"
 				type: "checkmark"
 			}]
-			title: "Food's Lover"
-			x: 1.1214285714285737d
-			y: -1.4821428571428257d
+			title: "&lFood's Lover"
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
 			description: [
 				"This page is only for Age 1 foods, try to eat them all to upgrade your max health."
-				"With the mod \"Spice of Life\", you can get more than 10 permanent hearts just with this page !"
+				"With the mod \"Spice of Life\", you can get more than 15 permanent hearts just with this page !"
 			]
 			icon: {
 				Count: 1b
@@ -2892,8 +3052,8 @@
 				id: "6E0724B2596E19FA"
 				type: "checkmark"
 			}]
-			title: "Spice Of Life"
-			x: -1.0d
+			title: "&lSpice Of Life"
+			x: 12.5d
 			y: -1.0d
 		}
 		{
@@ -2902,6 +3062,7 @@
 			rewards: [{
 				id: "5A9A5A3978D35C6A"
 				item: "byg:nightshade_berry_pie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2909,8 +3070,8 @@
 				item: "byg:nightshade_berry_pie"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -7.0d
+			x: 10.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2919,6 +3080,7 @@
 			rewards: [{
 				id: "6FBDB0430B4B8642"
 				item: "byg:nightshade_berries"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2927,8 +3089,8 @@
 				item: "byg:nightshade_berries"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -8.5d
+			x: 10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2937,6 +3099,7 @@
 			rewards: [{
 				id: "152F3A48DC1928A1"
 				item: "byg:crimson_berries"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2945,8 +3108,8 @@
 				item: "byg:crimson_berries"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -8.5d
+			x: 11.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2955,6 +3118,7 @@
 			rewards: [{
 				id: "2EFD5FB47E314DE0"
 				item: "byg:blueberries"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -2963,8 +3127,8 @@
 				item: "byg:blueberries"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -8.5d
+			x: 12.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["56489E5B57A6A22E"]
@@ -2972,6 +3136,7 @@
 			rewards: [{
 				id: "51D609256EE47C95"
 				item: "byg:crimson_berry_pie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2979,8 +3144,8 @@
 				item: "byg:crimson_berry_pie"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -7.0d
+			x: 11.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["12CCEC5E34A89DC5"]
@@ -2988,6 +3153,7 @@
 			rewards: [{
 				id: "14DBC4833BDBA1C9"
 				item: "byg:blueberry_pie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -2995,8 +3161,8 @@
 				item: "byg:blueberry_pie"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -7.0d
+			x: 12.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -3005,6 +3171,7 @@
 			rewards: [{
 				id: "45DCEB9895F1B360"
 				item: "quark:crab_leg"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -3013,8 +3180,8 @@
 				item: "quark:crab_leg"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4153F468ED146BC8"]
@@ -3022,15 +3189,17 @@
 			rewards: [{
 				id: "170160B3835046C2"
 				item: "quark:cooked_crab_leg"
+				random_bonus: 3
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "1C437025C5547CFB"
 				item: "quark:cooked_crab_leg"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -3039,6 +3208,7 @@
 			rewards: [{
 				id: "60BC72675D34AD53"
 				item: "byg:ether_bulbs"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -3047,8 +3217,8 @@
 				item: "byg:ether_bulbs"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -11.0d
+			x: 10.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -3057,6 +3227,7 @@
 			rewards: [{
 				id: "69555969BBEAF252"
 				item: "byg:baobab_fruit"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -3065,8 +3236,8 @@
 				item: "byg:baobab_fruit"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -10.0d
+			x: 10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -3075,6 +3246,7 @@
 			rewards: [{
 				id: "26AC378A1D268626"
 				item: "byg:green_apple"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -3083,8 +3255,8 @@
 				item: "byg:green_apple"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -8.5d
+			x: 13.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4C50AAA90C2770CB"]
@@ -3092,6 +3264,7 @@
 			rewards: [{
 				id: "2F1EC08978E8D78D"
 				item: "byg:green_apple_pie"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -3099,8 +3272,8 @@
 				item: "byg:green_apple_pie"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -7.0d
+			x: 13.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["36D0A02E9AB28100"]
@@ -3108,6 +3281,7 @@
 			rewards: [{
 				id: "5C712D6C7CC61BDD"
 				item: "byg:cooked_joshua_fruit"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -3115,8 +3289,8 @@
 				item: "byg:cooked_joshua_fruit"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -10.0d
+			x: 13.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -3125,6 +3299,7 @@
 			rewards: [{
 				id: "588AD1DA1BB93DBC"
 				item: "byg:joshua_fruit"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -3133,8 +3308,8 @@
 				item: "byg:joshua_fruit"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -10.0d
+			x: 12.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -3143,6 +3318,7 @@
 			rewards: [{
 				id: "370C388E99D6615D"
 				item: "byg:white_puffball_cap"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -3151,8 +3327,8 @@
 				item: "byg:white_puffball_cap"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -11.0d
+			x: 12.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["0461C6D89D972438"]
@@ -3160,6 +3336,7 @@
 			rewards: [{
 				id: "3C86484231B5EBD5"
 				item: "byg:cooked_white_puffball_cap"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -3167,8 +3344,8 @@
 				item: "byg:cooked_white_puffball_cap"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -11.0d
+			x: 13.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["7634DB975D4348A7"]
@@ -3176,6 +3353,7 @@
 			rewards: [{
 				id: "6A8BA300996A48D2"
 				item: "byg:white_puffball_stew"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -3183,8 +3361,8 @@
 				item: "byg:white_puffball_stew"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -11.0d
+			x: 14.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -3193,6 +3371,7 @@
 			rewards: [{
 				id: "6CF020C1648960AC"
 				item: "quark:ancient_fruit"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -3201,8 +3380,8 @@
 				item: "quark:ancient_fruit"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -10.0d
+			x: 11.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -3211,6 +3390,7 @@
 			rewards: [{
 				id: "1CEC174874720CE8"
 				item: "byg:aloe_vera_juice"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "square"
@@ -3219,13 +3399,19 @@
 				item: "byg:aloe_vera_juice"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -10.0d
+			x: 14.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
 			hide_dependency_lines: true
 			id: "14B88A4AF24412F1"
+			rewards: [{
+				id: "18B06219AA55BB70"
+				item: "naturalist:duck"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "761C24B82984ADE2"
@@ -3238,6 +3424,13 @@
 		{
 			dependencies: ["14B88A4AF24412F1"]
 			id: "610229ECE22DE165"
+			rewards: [{
+				id: "1F8D97E083C25BC6"
+				item: "naturalist:cooked_duck"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "21DFD44CE86F39C5"
 				item: "naturalist:cooked_duck"
@@ -3250,6 +3443,13 @@
 			dependencies: ["478D1E1CB1AAFA71"]
 			hide_dependency_lines: true
 			id: "0AF37EEDE0D71613"
+			rewards: [{
+				id: "0900CE9555AC25EF"
+				item: "naturalist:cooked_egg"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [{
 				id: "52FD84C1375F4A19"
 				item: "naturalist:cooked_egg"
@@ -3262,6 +3462,12 @@
 			dependencies: ["478D1E1CB1AAFA71"]
 			hide_dependency_lines: true
 			id: "619D6E3995BEFBF1"
+			rewards: [{
+				id: "7826BB1AA208DCCF"
+				item: "naturalist:lizard_tail"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4BE036B2A68F707C"
@@ -3274,6 +3480,13 @@
 		{
 			dependencies: ["619D6E3995BEFBF1"]
 			id: "3926E8AA4C10A0BE"
+			rewards: [{
+				id: "3FD9682BB97949B5"
+				item: "naturalist:cooked_lizard_tail"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "56B5998C8FD62848"
 				item: "naturalist:cooked_lizard_tail"
@@ -3285,13 +3498,325 @@
 		{
 			dependencies: ["40217CED6EEBF092"]
 			id: "59D75563E0F3BA36"
+			rewards: [{
+				count: 4
+				id: "44A0C941AF6C5841"
+				item: "aquaculture:neptunium_nugget"
+				random_bonus: 8
+				type: "item"
+			}]
 			tasks: [{
 				id: "067991E7F50E8A30"
 				item: "aquaculture:neptunium_fillet_knife"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 10.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["478D1E1CB1AAFA71"]
+			hide_dependency_lines: true
+			id: "6EC32145437708FE"
+			rewards: [{
+				id: "32302E504A7D574D"
+				item: "nethersdelight:hoglin_loin"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "78C14395581D440A"
+				item: "nethersdelight:hoglin_loin"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6EC32145437708FE"]
+			id: "42246E0649B0ADD2"
+			rewards: [{
+				id: "0545FF68B2183B9B"
+				item: "nethersdelight:hoglin_sirloin"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "614F94766495E731"
+				item: "nethersdelight:hoglin_sirloin"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["478D1E1CB1AAFA71"]
+			hide_dependency_lines: true
+			id: "481355214F26468E"
+			rewards: [{
+				id: "4E62C9A101550D29"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0CB1FD257BEC4A29"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "nethersdelight:tools/machetes"
+					}
+				}
+				title: "Any #nethersdelight:tools/machetes"
+				type: "item"
+			}]
+			title: "Machetes"
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["481355214F26468E"]
+			id: "23F1153CD8C3EB37"
+			rewards: [{
+				id: "0B7F1B6E9FE73838"
+				item: "nethersdelight:hoglin_hide"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68C88BF8CD6D4FD3"
+				item: "nethersdelight:hoglin_hide"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23F1153CD8C3EB37"]
+			id: "21BF7C2F5F760CC8"
+			rewards: [{
+				id: "26AD159669D70DB7"
+				item: "nethersdelight:raw_stuffed_hoglin"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7368034249249D3E"
+				item: "nethersdelight:raw_stuffed_hoglin"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"21BF7C2F5F760CC8"
+				"63FCE622966C0A1B"
+			]
+			id: "306971E7D22193DB"
+			rewards: [{
+				id: "32821D01263370E2"
+				item: "nethersdelight:stuffed_hoglin"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AB2D219077DB92B"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["306971E7D22193DB"]
+			id: "55886FCBB5983EDD"
+			rewards: [{
+				id: "45E5D6C38F2FA186"
+				item: "nethersdelight:hoglin_ear"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D64B91058F72667"
+				item: "nethersdelight:hoglin_ear"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["478D1E1CB1AAFA71"]
+			hide_dependency_lines: true
+			id: "2825F8D984CF8C74"
+			rewards: [{
+				id: "2E4FB3537EAC2FB3"
+				item: "nethersdelight:propelpearl"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4B1F999C75D6887E"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"47B45A33923593AD"
+				"2825F8D984CF8C74"
+			]
+			id: "023693F6D371D7E9"
+			rewards: [{
+				id: "41EC2F927E3BFC34"
+				item: "nethersdelight:nether_skewer"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "626E95FAF205E737"
+				item: "nethersdelight:nether_skewer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2825F8D984CF8C74"]
+			id: "48CE3409E660311C"
+			rewards: [{
+				id: "7A75BF0B4C702CBC"
+				item: "nethersdelight:magma_gelatin"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "182E8A73D02F439A"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["306971E7D22193DB"]
+			id: "4486B9D7F7228C55"
+			rewards: [
+				{
+					id: "795363562A31824A"
+					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3A330AFFB48E586B"
+					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "103F64E347F0BCF8"
+					item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "67BC49B82487CA86"
+					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					type: "item"
+				}
+				{
+					id: "4D7C7032F0656D81"
+					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+					type: "item"
+				}
+				{
+					id: "480606C49FB80D8B"
+					item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["478D1E1CB1AAFA71"]
+			hide_dependency_lines: true
+			id: "47B45A33923593AD"
+			rewards: [{
+				id: "7EFFD7BF1F024873"
+				item: "nethersdelight:strider_slice"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3CC3AC47D4AB384A"
+				item: "nethersdelight:strider_slice"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["47B45A33923593AD"]
+			id: "6D031B2551A9D9B1"
+			rewards: [{
+				id: "50B828FB61EE4F3E"
+				item: "nethersdelight:ground_strider"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AAEF1BA7A5082D3"
+				item: "nethersdelight:ground_strider"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D031B2551A9D9B1"]
+			id: "4D2FBF31C1FB0CE2"
+			rewards: [{
+				id: "32E10B8D226B6EAE"
+				item: "nethersdelight:grilled_strider"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CBB351782B0B2AF"
+				item: "nethersdelight:grilled_strider"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D031B2551A9D9B1"]
+			id: "5F572358B600D8CC"
+			rewards: [{
+				id: "0BBC882F7C8B408F"
+				item: "nethersdelight:strider_moss_stew"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A0DCD6FC1B62E1"
+				item: "nethersdelight:strider_moss_stew"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
 		}
 	]
 	title: "Farmer's Life | Part 1"

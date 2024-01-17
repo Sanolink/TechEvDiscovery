@@ -49,6 +49,12 @@
 		{
 			dependencies: ["590886B2E4A442C4"]
 			id: "10467CAFDB1E3EFB"
+			rewards: [{
+				id: "58F98092AD60965E"
+				item: "eidolon:pewter_blend"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "5A4D3FF48D17D466"
@@ -61,18 +67,32 @@
 		{
 			dependencies: ["10467CAFDB1E3EFB"]
 			id: "4E500339C5D4FFA7"
+			rewards: [{
+				count: 2
+				id: "62807BB4AF3672D8"
+				item: "eidolon:pewter_ingot"
+				random_bonus: 6
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "712D95F44265A422"
 				item: "eidolon:pewter_ingot"
 				type: "item"
 			}]
+			title: "&lPewter Ingot"
 			x: -0.75d
 			y: 2.75d
 		}
 		{
 			dependencies: ["4E500339C5D4FFA7"]
 			id: "5B5DBBE7470FB545"
+			rewards: [{
+				id: "29332710BBC35917"
+				item: "eidolon:pewter_inlay"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "52D25B0713787B27"
 				item: "eidolon:pewter_inlay"
@@ -84,18 +104,32 @@
 		{
 			dependencies: ["2693B640D8CA38C6"]
 			id: "4C0504713B46DA3F"
+			rewards: [{
+				count: 2
+				id: "6ADAFBD6D3DBCE4A"
+				item: "eidolon:arcane_gold_ingot"
+				random_bonus: 6
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "6B889897BE9F4CF8"
 				item: "eidolon:arcane_gold_ingot"
 				type: "item"
 			}]
+			title: "&6&lArcane Gold Ingot"
 			x: 0.75d
 			y: 2.75d
 		}
 		{
 			dependencies: ["4C0504713B46DA3F"]
 			id: "35AE66F86BBF5233"
+			rewards: [{
+				id: "0ABD4A0F0D7FABE3"
+				item: "eidolon:gold_inlay"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "388A7F0386FC7DCB"
 				item: "eidolon:gold_inlay"
@@ -107,12 +141,18 @@
 		{
 			dependencies: ["4E500339C5D4FFA7"]
 			id: "2693B640D8CA38C6"
+			rewards: [{
+				id: "22B81F9754EDB558"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "47AA2CB227D78853"
 				item: "eidolon:crucible"
 				type: "item"
 			}]
+			title: "&lCrucible"
 			x: 1.5d
 			y: 4.25d
 		}
@@ -123,12 +163,18 @@
 				"{image:techev:textures/misc/quests/eidolon/rituals.png width:200 height:108 align:1 fit:true}"
 			]
 			id: "20FCCDBA9CC95A07"
+			rewards: [{
+				id: "42A5FFB9897020D1"
+				item: "eidolon:brazier"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "474B2485CF105ECD"
 				item: "eidolon:brazier"
 				type: "item"
 			}]
+			title: "&lBrazier"
 			x: -1.5d
 			y: 4.25d
 		}
@@ -141,6 +187,7 @@
 				item: "eidolon:worktable"
 				type: "item"
 			}]
+			title: "&lMagic Workbench"
 			x: -2.25d
 			y: 2.75d
 		}
@@ -153,6 +200,12 @@
 			]
 			icon: "eidolon:soul_shard"
 			id: "42AD9FF048D3E4B7"
+			rewards: [{
+				id: "0240C18B37C77FDC"
+				item: "eidolon:soul_shard"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Mobs into Shards"
 			tasks: [
@@ -185,6 +238,12 @@
 			]
 			description: ["{image:techev:textures/misc/quests/eidolon/touch_of_darkness.png width:200 height:103 align:1 fit:true}"]
 			id: "273F4EE658C5BEFD"
+			rewards: [{
+				id: "73D98AF203B25A8D"
+				item: "eidolon:unholy_symbol"
+				random_bonus: 3
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "4B6450E1542DFF32"
@@ -199,6 +258,11 @@
 			dependencies: ["6EACDFAC3FEBFF1D"]
 			description: ["{image:techev:textures/misc/quests/eidolon/wicked_altar.png width:160 height:90 align:1 fit:true}"]
 			id: "690972FC486681FC"
+			rewards: [{
+				id: "2326D7A57B706799"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "1D137122D5588504"
 				item: "eidolon:goblet"
@@ -211,6 +275,13 @@
 		{
 			dependencies: ["0326C4B7791590BE"]
 			id: "590886B2E4A442C4"
+			rewards: [{
+				count: 2
+				id: "04327F69EE07A5E1"
+				item: "minecraft:rotten_flesh"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -224,7 +295,22 @@
 		}
 		{
 			dependencies: ["0BA9C673E72FFAAA"]
+			icon: "eidolon:unholy_effigy"
 			id: "5365C881A174A223"
+			rewards: [
+				{
+					id: "151D9C008C9C65F1"
+					item: "minecraft:wither_skeleton_skull"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "419E198E77CA15BC"
+					item: "eidolon:candlestick"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [
@@ -240,12 +326,20 @@
 					type: "item"
 				}
 			]
+			title: "&6&lStone Altar"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6668DE87317D8908"]
 			id: "22E3EA74863AF8E2"
+			rewards: [{
+				count: 64
+				id: "25646E6536187ACE"
+				item: "minecraft:firework_rocket"
+				random_bonus: 64
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "11A229B5B50CE412"
@@ -257,7 +351,30 @@
 		}
 		{
 			dependencies: ["2693B640D8CA38C6"]
+			description: ["Place over a &lCrucible&r for Unlimited Brewing"]
 			id: "6B939378D68F28F3"
+			rewards: [
+				{
+					count: 3
+					id: "026B8B349C16144B"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "05BF25F81CBE3E45"
+					item: "minecraft:nether_wart"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Upgraded Brewing Stand"
 			tasks: [{
 				id: "42FE9A6B18F7A434"
 				item: "eidolon:wooden_brewing_stand"
@@ -270,6 +387,11 @@
 			dependencies: ["5DB784923C796F7B"]
 			description: ["{image:techev:textures/misc/quests/eidolon/sacred_altar.png width:160 height:90 align:1 fit:true}"]
 			id: "0BEF45DA01C1F3FE"
+			rewards: [{
+				id: "4C0CD2BAB42FFFCB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "53E1CBDF436EDDD5"
 				item: "eidolon:censer"
@@ -287,6 +409,12 @@
 			]
 			description: ["{image:techev:textures/misc/quests/eidolon/touch_of_light.png width:200 height:105 align:1 fit:true}"]
 			id: "174335DFD4E91CD6"
+			rewards: [{
+				id: "1805E1D45F8EF355"
+				item: "eidolon:holy_symbol"
+				random_bonus: 3
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "2760FB499D7FDB01"
@@ -303,7 +431,22 @@
 				"You can check the &lTheurgy Page&r in your &l&eArs Ecclesia&r for details."
 				"{image:techev:textures/misc/quests/eidolon/theurgy.png width:162 height:155 align:1 fit:true}"
 			]
+			icon: "eidolon:straw_effigy"
 			id: "0BA9C673E72FFAAA"
+			rewards: [
+				{
+					id: "4EAE8E4E7D23797C"
+					item: "minecraft:flower_pot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "757D51A19EFD8E78"
+					item: "minecraft:zombie_head"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -318,30 +461,82 @@
 					type: "item"
 				}
 			]
+			title: "&lWooden Altar"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2693B640D8CA38C6"]
+			icon: "eidolon:research_table"
 			id: "47B9D89D7DAF9475"
+			rewards: [
+				{
+					id: "063A9EACDEE5BF62"
+					item: "eidolon:parchment"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "157C3846AF8FD185"
+					item: "eidolon:arcane_seal"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			size: 1.5d
-			tasks: [{
-				id: "1F2ADD5C2B2F8197"
-				item: "eidolon:research_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1F2ADD5C2B2F8197"
+					item: "eidolon:research_table"
+					type: "item"
+				}
+				{
+					id: "6D5FD76BA5560B66"
+					item: "eidolon:parchment"
+					type: "item"
+				}
+				{
+					id: "262880318D66B5A0"
+					item: "eidolon:arcane_seal"
+					type: "item"
+				}
+			]
+			title: "&lResearch Table"
 			x: 2.25d
 			y: 2.75d
 		}
 		{
 			dependencies: ["2DDEA539A003F102"]
 			description: [
-				"merammer root : white flowers"
-				"oanna : lilly pad"
+				"With the &b&lAthame&r, you can get :"
+				"&lMerammer Roots&r with White Flowers"
+				"&lOanna&r with Lilly Pads."
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "eidolon:athame"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5B682EB13838B304"
+			rewards: [
+				{
+					id: "66323951A51AF2BB"
+					item: "eidolon:merammer_root"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3B5B262483656E33"
+					item: "eidolon:oanna_bloom"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			shape: "gear"
+			subtitle: "Right Click to use"
 			tasks: [
 				{
 					id: "1770740FA1414C8E"
@@ -365,6 +560,7 @@
 					type: "item"
 				}
 			]
+			title: "&b&lAthame"
 			x: 4.0d
 			y: -1.0d
 		}
@@ -373,7 +569,13 @@
 				"5B682EB13838B304"
 				"2DDEA539A003F102"
 			]
+			icon: "eidolon:offering_incense"
 			id: "196FE3D74245E350"
+			rewards: [{
+				id: "30581EF53FB068E9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "573A975A4357C115"
@@ -393,18 +595,48 @@
 		}
 		{
 			dependencies: ["20FCCDBA9CC95A07"]
+			icon: "eidolon:stone_hand"
 			id: "6320A69B28E361E1"
-			tasks: [{
-				id: "3DD4B927AF588361"
-				item: "eidolon:necrotic_focus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "078973355B90D603"
+					item: "eidolon:necrotic_focus"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "55E9D10ED4CCF420"
+					item: "eidolon:stone_hand"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3DD4B927AF588361"
+					item: "eidolon:necrotic_focus"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03C02660D52E2957"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+			]
+			title: "Rituals Receptacles"
 			x: -0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["42AD9FF048D3E4B7"]
 			id: "26B9A13C6BAB91F2"
+			rewards: [{
+				id: "12FBDE5B2F528A3B"
+				item: "eidolon:soul_shard"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "38800211F0D83067"
@@ -428,6 +660,11 @@
 			]
 			icon: "minecraft:witch_spawn_egg"
 			id: "6EACDFAC3FEBFF1D"
+			rewards: [{
+				id: "44574BB7493FBB12"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "gear"
 			subtitle: "Follow The Unholy Road"
 			tasks: [{
@@ -448,6 +685,11 @@
 			]
 			icon: "minecraft:villager_spawn_egg"
 			id: "5DB784923C796F7B"
+			rewards: [{
+				id: "4CA73C947E350107"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "gear"
 			subtitle: "Follow the Holy Road"
 			tasks: [{
@@ -463,7 +705,14 @@
 		{
 			dependencies: ["2693B640D8CA38C6"]
 			id: "6668DE87317D8908"
+			rewards: [{
+				id: "7A3AB7EC6E98B9F5"
+				item: "eidolon:wicked_weave"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
+				count: 8L
 				id: "22D6CD95AF355FFC"
 				item: "eidolon:wicked_weave"
 				type: "item"
@@ -476,6 +725,11 @@
 			description: ["{image:techev:textures/misc/quests/eidolon/dark_prayer.png width:108 height:104 align:1 fit:true}"]
 			icon: "eidolon:shadow_gem"
 			id: "1F85F2F1661F2565"
+			rewards: [{
+				id: "0DF4261FF0B9ADA5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "2D65121FFA9C6A7D"
 				type: "checkmark"
@@ -489,6 +743,11 @@
 			description: ["{image:techev:textures/misc/quests/eidolon/sacrifice_animal.png width:108 height:127 align:1 fit:true}"]
 			icon: "minecraft:porkchop"
 			id: "3E4A2E01B0C1A119"
+			rewards: [{
+				id: "15C667AE28F50048"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				advancement: "eidolon:sacrifice"
 				criterion: ""
@@ -504,6 +763,11 @@
 			description: ["{image:techev:textures/misc/quests/eidolon/light_prayer.png width:109 height:100 align:1 fit:true}"]
 			icon: "eidolon:enchanted_ash"
 			id: "2DDEA539A003F102"
+			rewards: [{
+				id: "5D7B89300227D647"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "75F8534835026743"
 				type: "checkmark"
@@ -514,7 +778,25 @@
 		}
 		{
 			dependencies: ["6668DE87317D8908"]
+			icon: {
+				Count: 1b
+				id: "eidolon:warlock_hat"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4ADF5587F4CCC9E1"
+			rewards: [{
+				id: "4FEF99E5709C48FA"
+				item: {
+					Count: 1b
+					id: "eidolon:soulfire_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "68567F369338612A"

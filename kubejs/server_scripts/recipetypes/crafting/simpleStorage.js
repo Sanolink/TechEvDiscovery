@@ -6,19 +6,30 @@ ServerEvents.recipes(event => {
     //Remove
     event.remove({ output: 'storagenetwork:inventory_remote', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'storagenetwork:crafting_remote', type: 'minecraft:crafting_shaped' })
+    event.remove({ output: 'storagenetwork:master', type: 'minecraft:crafting_shaped' })
     
     //Recipes
     const recipes = [
+        //Storage ?etwork Root
+        {
+            output: "storagenetwork:master",
+            pattern: ["PHP", "HSH", "PHP"],
+            key: {
+                P:'alltheores:steel_plate',
+                H:'immersiveengineering:heavy_engineering',
+                S:'create_sa:steam_engine'
+            }
+        },
         //Inventory Remote
         {
             output: "storagenetwork:inventory_remote",
-            pattern: ["SPS", "GMG", "SDS"],
+            pattern: ["SPS", "CMC", "SNS"],
             key: {
                 S: "#forge:slimeballs",
                 P: "upgradednetherite_items:ender_upgraded_netherite_pearl",
-                G: "#forge:ingots/gold",
+                C: 'create:linked_controller',
                 M: "storagenetwork:master",
-                D: "minecraft:diamond"
+                N: 'upgradednetherite_items:ultimate_upgraded_netherite_totem'
             }
         },
         //Crafting Remote

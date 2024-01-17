@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "01233",
+    "453  "
+  ],
+  "key": {
+    "0": {
+      "item": "create_sa:steam_engine"
+    },
+    "1": {
+      "item": "create:blaze_burner"
+    },
+    "2": {
+      "item": "create_sa:heat_engine"
+    },
+    "3": {
+      "tag": "forge:plates/obsidian"
+    },
+    "4": {
+      "item": "create_things_and_misc:vibration_mechanism"
+    },
+    "5": {
+      "item": "create_sa:hydraulic_engine"
+    }
+  },
+  "result": {
+    "item": "create_sa:flamethrower"
+  },
+  "acceptMirrored": false
+}

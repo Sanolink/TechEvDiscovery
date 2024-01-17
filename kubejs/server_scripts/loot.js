@@ -27,14 +27,15 @@ LootJS.modifiers((event) => {
     //Ores
     replaceLT(['immersiveengineering:ore_aluminum'], 'alltheores:aluminum_ore')
     replaceLT(['eidolon:lead_ore', 'immersiveengineering:ore_lead'], 'alltheores:lead_ore')
-    replaceLT(['eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore'], 'alltheores:silver_ore')
+    replaceLT(['eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore'], 'alltheores:silver_ore')
     replaceLT(['immersiveengineering:ore_nickel'], 'alltheores:nickel_ore')
     replaceLT(['immersiveengineering:ore_uranium'], 'alltheores:uranium_ore')
     replaceLT(['create:zinc_ore'], 'alltheores:zinc_ore')
+    replaceLT(['iceandfire:sapphire_ore'], 'alltheores:sapphire_ore')
     //Deepslate Ores
     replaceLT(['immersiveengineering:deepslate_ore_aluminum'], 'alltheores:deepslate_aluminum_ore')
     replaceLT(['eidolon:deep_lead_ore', 'immersiveengineering:deepslate_ore_lead'], 'alltheores:deepslate_lead_ore')
-    replaceLT(['eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver'], 'alltheores:deepslate_silver_ore')
+    replaceLT(['eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore'], 'alltheores:deepslate_silver_ore')
     replaceLT(['immersiveengineering:deepslate_ore_nickel'], 'alltheores:deepslate_nickel_ore')
     replaceLT(['immersiveengineering:deepslate_ore_uranium'], 'alltheores:deepslate_uranium_ore')
     replaceLT(['create:deepslate_zinc_ore'], 'alltheores:deepslate_zinc_ore')
@@ -56,7 +57,7 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:ingots/zinc', 'create:zinc_ingot'], 'alltheores:zinc_ingot')
     replaceLT(['#forge:ingots/brass', 'create:brass_ingot'], 'alltheores:brass_ingot')
     replaceLT(['#forge:ingots/lead', 'eidolon:lead_ingot', 'immersiveengineering:ingot_lead'], 'alltheores:lead_ingot')
-    replaceLT(['#forge:ingots/silver', 'eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot'], 'alltheores:silver_ingot')
+    replaceLT(['#forge:ingots/silver', 'eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot', 'iceandfire:silver_ingot'], 'alltheores:silver_ingot')
     replaceLT(['#forge:ingots/nickel', 'immersiveengineering:ingot_nickel'], 'alltheores:nickel_ingot')
     replaceLT(['#forge:ingots/uranium', 'immersiveengineering:ingot_uranium'], 'alltheores:uranium_ingot')
     replaceLT(['#forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum'], 'alltheores:aluminum_ingot')
@@ -90,10 +91,10 @@ LootJS.modifiers((event) => {
     //Nuggets
     replaceLT(['#forge:nuggets/brass', 'create:brass_nugget'], 'alltheores:brass_nugget')
     replaceLT(['#forge:nuggets/zinc', 'create:zinc_nugget'], 'alltheores:zinc_nugget')
-    replaceLT(['#forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper'], 'alltheores:copper_nugget')
+    replaceLT(['#forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget'], 'alltheores:copper_nugget')
     replaceLT(['#forge:nuggets/electrum', 'createaddition:electrum_nugget', 'immersiveengineering:nugget_electrum'], 'alltheores:electrum_nugget')
     replaceLT(['#forge:nuggets/lead', 'eidolon:lead_nugget', 'immersiveengineering:nugget_lead'], 'alltheores:lead_nugget')
-    replaceLT(['#forge:nuggets/silver', 'eidolon:silver_nugget', 'immersiveengineering:nugget_silver'], 'alltheores:silver_nugget')
+    replaceLT(['#forge:nuggets/silver', 'eidolon:silver_nugget', 'immersiveengineering:nugget_silver', 'iceandfire:silver_nugget'], 'alltheores:silver_nugget')
     replaceLT(['#forge:nuggets/aluminum', 'immersiveengineering:nugget_aluminum'], 'alltheores:aluminum_nugget')
     replaceLT(['#forge:nuggets/steel', 'immersiveengineering:nugget_steel'], 'alltheores:steel_nugget')
     replaceLT(['#forge:nuggets/nickel', 'immersiveengineering:nugget_nickel'], 'alltheores:nickel_nugget')
@@ -123,10 +124,15 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum'], 'alltheores:electrum_block')
     replaceLT(['#forge:storage_blocks/steel', 'immersiveengineering:storage_steel'], 'alltheores:steel_block')
     replaceLT(['#forge:storage_blocks/lead', 'immersiveengineering:storage_lead', 'eidolon:lead_block'], 'alltheores:lead_block')
-    replaceLT(['#forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block'], 'alltheores:silver_block')
+    replaceLT(['#forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block', 'iceandfire:silver_block'], 'alltheores:silver_block')
+    replaceLT(['#forge:storage_blocks/sapphire', 'iceandfire:sapphire_block'], 'alltheores:sapphire_block')
     //Wires
     replaceLT(['#forge:wires/copper', 'createaddition:copper_wire'], 'immersiveengineering:wire_copper')
     replaceLT(['#forge:wires/electrum', 'createaddition:electrum_wire'], 'immersiveengineering:wire_electrum')
+    //Gems
+    replaceLT(['#forge:gems/sapphire', 'iceandfire:sapphire_gem'], 'alltheores:sapphire')
+    //Others
+    replaceLT(['#forge:crops/rice', 'sushigocrafting:rice', 'sushigocrafting:rice_seeds'], 'farmersdelight:rice')
 })
 
 

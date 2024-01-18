@@ -2,7 +2,7 @@
 //Last Modification : 1.1.0 
 
 StartupEvents.postInit(event => {
-    if (Platform.isClientEnvironment) return;
+    if (!Platform.isClientEnvironment()) return;
     const $ItemProperties = Java.loadClass('net.minecraft.client.renderer.item.ItemProperties')
     const Plates = [
         'alltheores:aluminum_plate',

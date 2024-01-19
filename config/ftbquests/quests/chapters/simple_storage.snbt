@@ -6,6 +6,7 @@
 	icon: "storagenetwork:request"
 	id: "1C400937B1BEE2D4"
 	order_index: 5
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -419,6 +420,7 @@
 		{
 			dependencies: ["2AE63B0B6045ECA0"]
 			id: "335B106E2E36AB07"
+			progression_mode: "flexible"
 			rewards: [{
 				count: 2
 				id: "29460097CBA9CEA5"
@@ -440,6 +442,7 @@
 		{
 			dependencies: ["335B106E2E36AB07"]
 			id: "79619514F3EC86BD"
+			progression_mode: "flexible"
 			rewards: [{
 				count: 2
 				id: "67F2928F359D1FB7"
@@ -459,6 +462,7 @@
 		{
 			dependencies: ["79619514F3EC86BD"]
 			id: "0CE72B7FFA24D806"
+			progression_mode: "flexible"
 			rewards: [{
 				count: 2
 				id: "732CF1BC1DA4CAC8"
@@ -478,6 +482,7 @@
 		{
 			dependencies: ["0CE72B7FFA24D806"]
 			id: "1FF7B9AF590F15C7"
+			progression_mode: "flexible"
 			rewards: [{
 				count: 2
 				id: "4942DD550FCE2DDE"
@@ -497,6 +502,7 @@
 		{
 			dependencies: ["1FF7B9AF590F15C7"]
 			id: "20BB244395C053CD"
+			progression_mode: "flexible"
 			rewards: [{
 				count: 8
 				id: "268DE7BCBE881DA2"
@@ -1342,6 +1348,7 @@
 		{
 			dependencies: ["2AE63B0B6045ECA0"]
 			id: "0DBFAA5D1F8FABD0"
+			progression_mode: "flexible"
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -2219,6 +2226,7 @@
 		{
 			dependencies: ["2AE63B0B6045ECA0"]
 			id: "31FC94F3AB72E118"
+			progression_mode: "flexible"
 			rewards: [{
 				id: "74AEB53D9493CF2D"
 				item: {

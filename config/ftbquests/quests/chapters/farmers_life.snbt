@@ -6,6 +6,7 @@
 	icon: "farmersdelight:honey_glazed_ham_block"
 	id: "746313E2C1A93DAC"
 	order_index: 3
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{

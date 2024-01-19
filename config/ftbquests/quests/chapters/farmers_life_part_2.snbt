@@ -6,6 +6,7 @@
 	icon: "create_confectionery:gingerbread_man"
 	id: "3D2EFC9F42FB7375"
 	order_index: 6
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{

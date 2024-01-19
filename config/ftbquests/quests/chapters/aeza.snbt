@@ -1788,6 +1788,7 @@
 					type: "item"
 				}
 			]
+			title: "Hammocks"
 			x: -1.5d
 			y: -4.0d
 		}
@@ -1814,6 +1815,7 @@
 				title: "Any #comforts:sleeping_bags"
 				type: "item"
 			}]
+			title: "Sleeping Bags"
 			x: -2.5d
 			y: -3.5d
 		}
@@ -2065,8 +2067,8 @@
 				}
 			]
 			title: "&lWaystones"
-			x: -1.0d
-			y: 3.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3203B6E662B8D430"]
@@ -2233,21 +2235,8 @@
 				type: "item"
 			}]
 			title: "&lTempad"
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4169F3CB261CE8D0"]
-			id: "6C4D02806B7272BB"
-			shape: "rsquare"
-			tasks: [{
-				id: "02DA6414E54D5FCC"
-				item: "morphtool:tool"
-				type: "item"
-			}]
-			title: "&lMorphing Tool"
-			x: 0.0d
-			y: 3.5d
+			x: 0.5d
+			y: 2.5d
 		}
 	]
 	title: "Exploring World"

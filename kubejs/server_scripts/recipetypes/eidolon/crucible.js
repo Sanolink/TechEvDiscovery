@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+//Last Modification : 1.1.1
 
 ServerEvents.recipes(event => {
 

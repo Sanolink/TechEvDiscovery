@@ -4,7 +4,7 @@
 ServerEvents.recipes(event => {
 
     //Remove
-    event.remove({ output: 'eidolon:pewter_blend', type: 'minecraft:crafting_shapeless' })
+
     //Recipes
     const recipes = [
       //Raw Andesite Alloy

@@ -461,7 +461,6 @@
 				"{@pagebreak}"
 				"{image:techev:textures/misc/quests/twilight/knights_lair.png width:256 height:144 align:1 fit:true}"
 			]
-			hide: true
 			hide_dependency_lines: true
 			icon: "twilightforest:underbrick"
 			id: "3F00273D208AD6A7"

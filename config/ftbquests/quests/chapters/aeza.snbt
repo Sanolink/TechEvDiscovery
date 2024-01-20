@@ -723,7 +723,7 @@
 					type: "item"
 				}
 			]
-			title: "Wither Skeleton Skull"
+			title: "Wither Base"
 			x: 4.0d
 			y: -1.0d
 		}
@@ -1134,7 +1134,7 @@
 			subtitle: "Blazes, Wither Skeletons"
 			tasks: [{
 				id: "15D6B9F15450F067"
-				structure: "minecraft:fortress"
+				structure: "betterfortresses:fortress"
 				type: "structure"
 			}]
 			title: "The Fortress"

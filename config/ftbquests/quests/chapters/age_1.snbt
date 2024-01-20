@@ -8,22 +8,6 @@
 	order_index: 1
 	quest_links: [
 		{
-			id: "28AF0F79BD468AE2"
-			linked_quest: "74C9143F2AE3BB45"
-			shape: "pentagon"
-			size: 2.0d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "6AC436CA69E47CF1"
-			linked_quest: "509461C4B7CFE7C8"
-			shape: "octagon"
-			size: 2.0d
-			x: 0.0d
-			y: 7.0d
-		}
-		{
 			id: "2BAD82E5B83D6897"
 			linked_quest: "51FFFF2CF850F4FF"
 			x: -1.0d
@@ -66,7 +50,7 @@
 				type: "checkmark"
 			}]
 			title: "&lFarmer's Life | Part 1"
-			x: 1.5d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -96,7 +80,7 @@
 				type: "checkmark"
 			}]
 			title: "&lExploring World"
-			x: -1.5d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -138,6 +122,49 @@
 			title: "&lRaw Andesite Alloy"
 			x: 1.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["6036A88041F3C3E2"]
+			dependency_requirement: "all_started"
+			icon: "create_things_and_misc:magnifying_glass"
+			id: "509461C4B7CFE7C8"
+			rewards: [{
+				id: "12781662009DE21A"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Welcome To Age 2 !"
+			tasks: [{
+				id: "2E49F745454B4DCE"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "&lShock Therapy"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F8C4C01C5E75A8B"]
+			hide_text_until_complete: true
+			icon: "minecraft:spyglass"
+			id: "74C9143F2AE3BB45"
+			rewards: [{
+				id: "7FFB15AC6D99E5BE"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Welcome To Age 1 !"
+			tasks: [{
+				id: "0E619717F1B9964D"
+				type: "checkmark"
+			}]
+			title: "&lFirst Discovery"
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Chapter 1"

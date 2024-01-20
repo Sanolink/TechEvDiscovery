@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+//Last Modification : 1.1.2
 
 ServerEvents.recipes(event => {
 
@@ -30,7 +30,20 @@ ServerEvents.recipes(event => {
         }
     ]
 
+    const shapeless = [
+        //Dragon Egg
+        {   
+            output: "minecraft:dragon_egg",
+            count: "",
+            input: ["quark:dragon_scale", "#forge:eggs"]
+        }
+    ]
+
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.output)
+    })
+
+    shapeless.forEach((recipe) => {
+        event.shapeless(recipe.count + recipe.output, recipe.input).id(recipe.output)
     })
 })

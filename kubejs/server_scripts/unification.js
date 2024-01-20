@@ -122,6 +122,7 @@ ServerEvents.recipes(e => {
     ['#forge:gems/sapphire', 'iceandfire:sapphire_gem'].forEach(I => {replaceIO(I, 'alltheores:sapphire')});
     //Others
     ['#forge:crops/rice', 'sushigocrafting:rice'].forEach(I => {replaceIO(I, 'farmersdelight:rice')});
+    ['#forge:bones/wither', 'bhc:wither_bone'].forEach(I => {replaceIO(I, 'iceandfire:witherbone')});
 
 
     //Remove CRAFTING Repetitive Recipes

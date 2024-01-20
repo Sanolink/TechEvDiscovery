@@ -21,7 +21,7 @@ LootJS.modifiers((event) => {
     ]
 
     function replaceLT(input, output) {
-        event.addLootTypeModifier(LT).replaceLoot(input, output);
+        event.addLootTypeModifier(LT).replaceLoot(input, output, true);
     }
 
     //Ores

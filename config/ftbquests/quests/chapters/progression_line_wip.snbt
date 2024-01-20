@@ -18,30 +18,33 @@
 		y: -5.0d
 	}]
 	order_index: 0
-	quest_links: [ ]
-	quests: [
+	quest_links: [
 		{
-			dependencies: ["6036A88041F3C3E2"]
-			dependency_requirement: "all_started"
-			icon: "create_things_and_misc:magnifying_glass"
-			id: "509461C4B7CFE7C8"
-			rewards: [{
-				id: "12781662009DE21A"
-				item: "createaddition:chocolate_cake"
-				type: "item"
-			}]
+			id: "28AF0F79BD468AE2"
+			linked_quest: "74C9143F2AE3BB45"
 			shape: "octagon"
 			size: 3.0d
-			subtitle: "Welcome To Age 2 !"
-			tasks: [{
-				id: "2E49F745454B4DCE"
-				title: "Checkmark"
-				type: "checkmark"
-			}]
-			title: "&lShock Therapy"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "6AC436CA69E47CF1"
+			linked_quest: "509461C4B7CFE7C8"
+			shape: "octagon"
+			size: 3.0d
 			x: 7.5d
 			y: 0.0d
 		}
+		{
+			id: "1667AE50A435100B"
+			linked_quest: "6010F0FDE1BB66D2"
+			shape: "octagon"
+			size: 3.0d
+			x: 13.5d
+			y: 0.0d
+		}
+	]
+	quests: [
 		{
 			dependencies: [
 				"74C9143F2AE3BB45"
@@ -119,27 +122,6 @@
 			title: "Create"
 			x: 3.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["0F8C4C01C5E75A8B"]
-			hide_text_until_complete: true
-			icon: "minecraft:spyglass"
-			id: "74C9143F2AE3BB45"
-			rewards: [{
-				id: "7FFB15AC6D99E5BE"
-				item: "minecraft:cake"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 3.0d
-			subtitle: "Welcome To Age 1 !"
-			tasks: [{
-				id: "0E619717F1B9964D"
-				type: "checkmark"
-			}]
-			title: "&lFirst Discovery"
-			x: 1.5d
-			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -329,21 +311,6 @@
 			title: "Eidolon"
 			x: 0.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["4A4B2D534D4FF6DA"]
-			icon: "kubejs:techevium"
-			id: "6010F0FDE1BB66D2"
-			shape: "octagon"
-			size: 3.0d
-			subtitle: "Welcome to Age 3 !"
-			tasks: [{
-				id: "4606CBFE6E1F36D3"
-				title: "WIP : Age 3"
-				type: "checkmark"
-			}]
-			x: 13.5d
-			y: 0.0d
 		}
 	]
 	title: "&lAchievements"

@@ -119,7 +119,8 @@ JEIEvents.hideItems(event => {
         'iceandfire:sapphire_gem',
         //Others
         'sushigocrafting:rice',
-        'sushigocrafting:rice_seeds'
+        'sushigocrafting:rice_seeds',
+        'bhc:wither_bone'
     ])
 })
 

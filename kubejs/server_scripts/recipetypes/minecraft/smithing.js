@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0 
+//Last Modification : 1.1.2 
 
 ServerEvents.recipes(event => {
 
@@ -41,6 +41,13 @@ ServerEvents.recipes(event => {
             input: "constructionwand:diamond_wand",
             output: "constructionwand:infinity_wand",
             upgrade: "constructionwand:core_infinity"
+        },
+        //Netherite Sandpaper
+        {
+            id: "netherite_sandpaper",
+            input: "createaddition:diamond_grit_sandpaper",
+            output: "create:netherite_sandpaper",
+            upgrade: "minecraft:netherite_ingot"
         }
     ]
 

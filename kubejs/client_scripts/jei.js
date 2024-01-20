@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+//Last Modification : 1.1.2
 
 JEIEvents.hideItems(event => {
 
@@ -129,4 +129,11 @@ JEIEvents.removeCategories(event => {
         'twilightforest:uncrafting'
     ])
     
+})
+
+JEIEvents.addItems(event => {
+
+    event.add([
+        'minecraft:dragon_egg'
+    ])
 })

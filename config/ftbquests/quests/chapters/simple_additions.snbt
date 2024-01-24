@@ -4527,9 +4527,10 @@
 			dependencies: ["4DDBF21542DF7F4B"]
 			id: "01DFA05D913888E6"
 			rewards: [{
+				count: 16
 				id: "622915E205B35929"
-				item: "ironfurnaces:rainbow_coal"
-				random_bonus: 1
+				item: "minecraft:coal_block"
+				random_bonus: 48
 				type: "item"
 			}]
 			shape: "diamond"

@@ -46,21 +46,12 @@
     "mob_spawner": true,
     "redstone": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "tombstone": {
     "graves": true
   },
   "immersiveengineering": {
     "hemp": true,
     "multiblock_icon": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -69,6 +60,32 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "lootr": {
+    "info": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
   },
   "create": {
     "filter": true,
@@ -81,18 +98,7 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
   "waystones": {
     "waystone": true
-  },
-  "lootr": {
-    "info": true
-  },
-  "custommachinery": {
-    "machine_component_provider": true
   }
 }

@@ -9,7 +9,7 @@
   "disableTelemetry": true,
   "showReloadButton": true,
   "whitelistAllServers": false,
-  "verifiedIconEnabled": true,
+  "verifiedIconEnabled": false,
   "showNCRButton": true,
   "enableMod": true,
   "skipRealmsWarning": false,

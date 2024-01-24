@@ -232,7 +232,6 @@
 		}
 		{
 			dependencies: ["32EBA25AC1E569E9"]
-			description: ["Hint -> Piglins"]
 			id: "754676DFD4E02930"
 			rewards: [{
 				count: 4

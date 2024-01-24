@@ -370,7 +370,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1D90232FE9461C96"]
@@ -901,8 +901,8 @@
 				item: "ars_nouveau:glyph_sensitive"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.5d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1D90232FE9461C96"]
@@ -1322,7 +1322,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3E4B4A385E51ABCC"]
@@ -1826,7 +1826,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6A3019BD8AF4ECF8"]
@@ -2384,13 +2384,14 @@
 				random_bonus: 1
 				type: "item"
 			}]
+			size: 1.5d
 			subtitle: "Used to Bind Nearby Entities"
 			tasks: [{
 				id: "31616FDA9AC141DA"
 				item: "ars_nouveau:ritual_binding"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.25d
 			y: 9.0d
 		}
 		{
@@ -2430,8 +2431,8 @@
 				item: "ars_nouveau:ritual_warping"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 7.0d
+			x: 11.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0F1C466FC47A58C4"]
@@ -2453,8 +2454,8 @@
 				item: "ars_nouveau:ritual_disintegration"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 8.0d
+			x: 12.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0F1C466FC47A58C4"]
@@ -2470,7 +2471,7 @@
 				item: "ars_nouveau:ritual_moonfall"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: 8.0d
 		}
 		{
@@ -2487,8 +2488,8 @@
 				item: "ars_nouveau:ritual_sunrise"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0F1C466FC47A58C4"]
@@ -2505,8 +2506,8 @@
 				item: "ars_nouveau:ritual_containment"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 6.0d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0F1C466FC47A58C4"]
@@ -2523,8 +2524,8 @@
 				item: "ars_nouveau:ritual_scrying"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 7.0d
+			x: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0F1C466FC47A58C4"]
@@ -2577,7 +2578,7 @@
 				item: "ars_nouveau:ritual_cloudshaping"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: 8.0d
 		}
 		{
@@ -2595,7 +2596,7 @@
 				item: "ars_nouveau:ritual_flight"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 7.0d
 		}
 		{
@@ -3238,7 +3239,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["361DB3497126143A"]
+			dependencies: ["5BB938BDBFB5482A"]
 			id: "520D21B0B7D2EA82"
 			rewards: [{
 				id: "6E9AAC38119E3CDB"
@@ -3251,11 +3252,11 @@
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["361DB3497126143A"]
+			dependencies: ["5BB938BDBFB5482A"]
 			id: "04AF6D2E606739F2"
 			rewards: [{
 				id: "1D998493FF32292B"
@@ -3268,11 +3269,11 @@
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["361DB3497126143A"]
+			dependencies: ["5BB938BDBFB5482A"]
 			id: "4F2EBF5904BB959B"
 			rewards: [{
 				id: "7EE877C63B20528D"
@@ -3285,11 +3286,11 @@
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.5d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["361DB3497126143A"]
+			dependencies: ["5BB938BDBFB5482A"]
 			id: "50420EFB111C858E"
 			rewards: [{
 				id: "28E9398CB54983E5"
@@ -3303,10 +3304,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["361DB3497126143A"]
+			dependencies: ["5BB938BDBFB5482A"]
 			id: "7D38234B930B5B4B"
 			rewards: [{
 				id: "587A584EE28923DF"
@@ -3320,7 +3321,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3873066120553A4E"]
@@ -3350,13 +3351,14 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "0318601AE0D5B02C"
 				item: "ars_nouveau:familiar_starbuncle"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 9.0d
+			x: 13.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7C79DD2FE19CA540"]
@@ -3366,13 +3368,14 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "48FB9BF51D6D78CF"
 				item: "ars_nouveau:familiar_wixie"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 10.0d
+			x: 14.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7C79DD2FE19CA540"]
@@ -3382,13 +3385,14 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "774D070276B68CF6"
 				item: "ars_nouveau:familiar_whirlisprig"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 10.0d
+			x: 14.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7C79DD2FE19CA540"]
@@ -3398,13 +3402,14 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "664DC1AA794BF3E9"
 				item: "ars_nouveau:familiar_drygmy"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 10.0d
+			x: 14.25d
+			y: 7.25d
 		}
 		{
 			dependencies: ["7C79DD2FE19CA540"]
@@ -3414,13 +3419,14 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "431B6B1F7B067395"
 				item: "ars_nouveau:familiar_bookwyrm"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 9.0d
+			x: 14.75d
+			y: 7.75d
 		}
 		{
 			dependencies: ["1B977731DBDDEC54"]
@@ -3806,6 +3812,7 @@
 				type: "item"
 			}]
 			shape: "gear"
+			subtitle: "Useful To Search Geodes"
 			tasks: [{
 				id: "4F7A5FD84841C934"
 				item: {
@@ -4259,6 +4266,98 @@
 			title: "Enchanter's Equipment"
 			x: 18.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["0F1C466FC47A58C4"]
+			id: "15562F6AF996FA12"
+			subtitle: "Denies Mobs Spawning"
+			tasks: [{
+				id: "1375C0B053443728"
+				item: "ars_nouveau:ritual_sanctuary"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0F1C466FC47A58C4"]
+			id: "7D8EDAF53458889D"
+			subtitle: "Summons Wild Animals"
+			tasks: [{
+				id: "0AF908D0C0FE406A"
+				item: "ars_nouveau:ritual_animal_summon"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0F1C466FC47A58C4"]
+			id: "4E3A7513A40AC939"
+			subtitle: "Increase Gravity"
+			tasks: [{
+				id: "4177D8E4EF57DABD"
+				item: "ars_nouveau:ritual_gravity"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6A3019BD8AF4ECF8"]
+			id: "4C7703A2E43B4272"
+			rewards: [
+				{
+					id: "06E72D058323196C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "098591B237347242"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7E7CA0E0F2C24D06"
+				item: "ars_nouveau:burst"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D90232FE9461C96"]
+			id: "1B3565FEBB699088"
+			rewards: [
+				{
+					id: "3926944BDF8C793A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6029C3A469804444"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4B8EEBE2AC948644"
+				item: "ars_nouveau:glyph_randomize"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
 		}
 	]
 	title: "Ars Nouveau"

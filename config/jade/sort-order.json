@@ -60,6 +60,10 @@
   "jade:mod_name": null,
   "jade:distance": null,
   "jade:block_face": null,
+  "reliquary:mortar": null,
+  "reliquary:altar": null,
+  "reliquary:cauldron": null,
+  "reliquary:pedestal": null,
   "apotheosis:spawner": null,
   "apotheosis:ench": null,
   "apotheosis:adventure": null,
@@ -120,5 +124,9 @@
   "jade:registry_name": null,
   "jade:mod_name": null,
   "jade:distance": null,
-  "jade:block_face": null
+  "jade:block_face": null,
+  "reliquary:mortar": null,
+  "reliquary:altar": null,
+  "reliquary:cauldron": null,
+  "reliquary:pedestal": null
 }

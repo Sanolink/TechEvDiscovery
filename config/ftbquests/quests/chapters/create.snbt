@@ -328,7 +328,6 @@
 			rewards: [{
 				id: "0954F22B098953EC"
 				item: "create:mechanical_arm"
-				random_bonus: 2
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1403,7 +1402,6 @@
 				count: 2
 				id: "7ABB79DA5BFE33A6"
 				item: "create:crushing_wheel"
-				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"

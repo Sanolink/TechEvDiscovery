@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "stalactites": [
+    "twilightforest:gold_ore_stalactite",
+    "twilightforest:redstone_ore_stalactite",
+    "twilightforest:uranium_ore_stalactite"
+  ]
+}

@@ -679,7 +679,7 @@
 				}
 			]
 			title: "Ironwood Armor"
-			x: 1.5d
+			x: 0.5d
 			y: -6.0d
 		}
 		{
@@ -748,7 +748,7 @@
 				}
 			]
 			title: "Fiery Armor"
-			x: 0.5d
+			x: -0.5d
 			y: -5.5d
 		}
 		{
@@ -837,7 +837,7 @@
 				}
 			]
 			title: "Steeleaf Armor"
-			x: -0.5d
+			x: -1.5d
 			y: -5.0d
 		}
 		{
@@ -861,7 +861,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "7BF4F1CE1C721FC7"
@@ -896,7 +896,7 @@
 			]
 			title: "Naga Scale Stuff"
 			x: -0.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3F00273D208AD6A7"]
@@ -915,7 +915,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "14840790185AC09C"
@@ -964,7 +964,7 @@
 			]
 			title: "Knightmetal Armor"
 			x: 8.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3F00273D208AD6A7"]
@@ -991,7 +991,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "786402A97FA33CCF"
@@ -1017,8 +1017,8 @@
 				}
 			]
 			title: "Phantom Stuff"
-			x: 7.5d
-			y: -4.0d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["14CD95F721BC876B"]
@@ -1037,7 +1037,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "215A79E47EFFA153"
@@ -1085,7 +1085,7 @@
 				}
 			]
 			title: "Arctic Stuff"
-			x: 7.5d
+			x: 7.0d
 			y: 2.5d
 		}
 		{
@@ -1109,7 +1109,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "47F98EB98FF55BF3"
@@ -1179,8 +1179,8 @@
 				}
 			]
 			title: "Yeti Stuff"
-			x: 7.0d
-			y: 3.5d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["58E54139457C6DAD"]
@@ -1226,7 +1226,7 @@
 				}
 			]
 			title: "Fiery Tools"
-			x: 0.5d
+			x: -0.5d
 			y: -6.5d
 		}
 		{
@@ -1330,7 +1330,7 @@
 				}
 			]
 			title: "Ironwood Tools"
-			x: 1.5d
+			x: 0.5d
 			y: -7.0d
 		}
 		{
@@ -1434,7 +1434,7 @@
 				}
 			]
 			title: "Steeleaf Tools"
-			x: -0.5d
+			x: -1.5d
 			y: -6.0d
 		}
 		{
@@ -1454,7 +1454,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "3C3E1546AA493656"
@@ -1502,8 +1502,8 @@
 				}
 			]
 			title: "Knightmetal Tools"
-			x: 9.0d
-			y: -2.5d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2C681991D7AE7B26"]
@@ -1554,7 +1554,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["6DB016309D71B0DB"]
+			dependencies: ["55F81AA0BB5E2613"]
 			id: "4D509A54622ACD98"
 			rewards: [{
 				id: "65413EC591799AF9"
@@ -1562,7 +1562,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "7AEE89A3E05CBFAB"
 				item: {
@@ -1574,11 +1574,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 1.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["6DB016309D71B0DB"]
+			dependencies: ["55F81AA0BB5E2613"]
 			id: "19FDADCDA13BD8B0"
 			rewards: [{
 				id: "79EFBDA413A49E18"
@@ -1586,7 +1586,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "48BCA3AF9B252DE2"
 				item: {
@@ -1598,11 +1598,11 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 0.75d
+			y: -3.75d
 		}
 		{
-			dependencies: ["6DB016309D71B0DB"]
+			dependencies: ["55F81AA0BB5E2613"]
 			id: "13ECF2B1BEFA8352"
 			rewards: [
 				{
@@ -1624,7 +1624,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "0271E04FA84D45CB"
 				item: {
@@ -1636,11 +1636,11 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: 2.25d
+			y: -5.25d
 		}
 		{
-			dependencies: ["6DB016309D71B0DB"]
+			dependencies: ["55F81AA0BB5E2613"]
 			id: "2192116D8388F16A"
 			rewards: [{
 				id: "512B0ABEF40B4826"
@@ -1648,7 +1648,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "4D331ED93D474D04"
 				item: {
@@ -1660,8 +1660,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3F00273D208AD6A7"]
@@ -1673,7 +1673,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "265F61B538605710"
 				item: {
@@ -1685,7 +1685,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: -1.5d
 		}
 		{
@@ -1812,7 +1812,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "19728FAD7F0F7834"
 				item: {
@@ -1825,7 +1825,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6DB016309D71B0DB"]
@@ -1843,7 +1843,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "63A75692A40E4FFB"
 				item: {
@@ -1856,7 +1856,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6DB016309D71B0DB"]
@@ -1881,7 +1881,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "426519ADA484945B"
@@ -1907,8 +1907,8 @@
 				}
 			]
 			title: "Ice Stuff"
-			x: 2.5d
-			y: 4.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6DB016309D71B0DB"]
@@ -1926,7 +1926,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "2BC6A3B66B0FE72C"
 				item: {
@@ -1938,8 +1938,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 4.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2C681991D7AE7B26"]
@@ -2006,7 +2006,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -2029,7 +2029,7 @@
 				type: "item"
 			}]
 			title: "&lMagic Beans"
-			x: -3.5d
+			x: -3.0d
 			y: -3.5d
 		}
 		{
@@ -2084,7 +2084,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: -2.0d
 		}
 		{
@@ -2096,7 +2096,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [{
 				id: "430F6FDD6F698FDC"
 				item: "twilightforest:meef_stroganoff"
@@ -2115,7 +2115,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [{
 				id: "10A84689E4FA9D9E"
 				item: "twilightforest:alpha_yeti_fur"
@@ -2133,7 +2133,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [{
 				id: "7A6E25937D8F9249"
 				item: "twilightforest:naga_scale"
@@ -2197,7 +2197,7 @@
 				type: "structure"
 			}]
 			title: "&lThe Secret Road"
-			x: -2.5d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -2219,7 +2219,7 @@
 				type: "structure"
 			}]
 			title: "&lThe End of Twilight"
-			x: -4.5d
+			x: -4.0d
 			y: -1.0d
 		}
 	]

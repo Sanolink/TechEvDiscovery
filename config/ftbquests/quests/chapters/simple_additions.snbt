@@ -3777,7 +3777,7 @@
 			rewards: [{
 				id: "15F7C8C979B70BAE"
 				item: "mob_grinding_utils:fan"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -3794,7 +3794,6 @@
 			rewards: [{
 				id: "1A2654F248B60E12"
 				item: "mob_grinding_utils:saw"
-				random_bonus: 1
 				type: "item"
 			}]
 			shape: "octagon"

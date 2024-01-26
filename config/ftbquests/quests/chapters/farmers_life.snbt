@@ -5,6 +5,104 @@
 	group: "6E6EAE103F859B8D"
 	icon: "farmersdelight:honey_glazed_ham_block"
 	id: "746313E2C1A93DAC"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "nethersdelight:item/plate_of_stuffed_hoglin_snout"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.5d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "farmersdelight:item/apple_pie_slice"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:item/apple"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "farmersdelight:item/bacon_and_eggs"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create_confectionery:blocks/black_chocolate_flow"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create_confectionery:blocks/black_chocolate_flow"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 7.0d
+			y: -11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create:item/bar_of_chocolate"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.774999999999984d
+			y: -10.857142857142861d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "farmersdelight:item/hamburger"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: -3.5d
+		}
+	]
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]

@@ -5,6 +5,44 @@
 	group: "12B18F44A38CD6E7"
 	icon: "create_confectionery:gingerbread_man"
 	id: "3D2EFC9F42FB7375"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "aquaculture:item/catfish"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.000000000000007d
+			y: -18.732142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "createaddition:item/chocolate_cake"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.392857142857139d
+			y: -10.660714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ars_nouveau:items/source_berry"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5738095238095298d
+			y: -20.298809523809517d
+		}
+	]
 	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]

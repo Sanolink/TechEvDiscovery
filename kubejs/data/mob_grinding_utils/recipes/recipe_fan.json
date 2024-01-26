@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "E": {
+      "item": "create:encased_fan"
+    },
+    "S": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "pattern": [
+    "SIS",
+    "IEI",
+    "SIS"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:fan"
+  }
+}

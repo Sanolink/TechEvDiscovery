@@ -2572,7 +2572,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Change the Weather"
+			subtitle: "Changes the Weather"
 			tasks: [{
 				id: "0D1724B032BF0AC2"
 				item: "ars_nouveau:ritual_cloudshaping"
@@ -4294,7 +4294,7 @@
 		{
 			dependencies: ["0F1C466FC47A58C4"]
 			id: "4E3A7513A40AC939"
-			subtitle: "Increase Gravity"
+			subtitle: "Increases Gravity"
 			tasks: [{
 				id: "4177D8E4EF57DABD"
 				item: "ars_nouveau:ritual_gravity"

@@ -1186,6 +1186,13 @@
 		}
 		{
 			dependencies: ["28E8B971E6F22ABA"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6C9C71E74C79F0E0"
 			rewards: [{
 				id: "2F390B6911ECBE79"
@@ -1247,6 +1254,13 @@
 		}
 		{
 			dependencies: ["28E8B971E6F22ABA"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2EB3BA40C98AF378"
 			rewards: [{
 				id: "5723421570BAED11"
@@ -1759,6 +1773,7 @@
 		}
 		{
 			dependencies: ["43CA651EE776DB52"]
+			icon: "comforts:hammock_white"
 			id: "7353109BEB66ED87"
 			rewards: [{
 				count: 4
@@ -1793,6 +1808,7 @@
 		}
 		{
 			dependencies: ["43CA651EE776DB52"]
+			icon: "comforts:sleeping_bag_white"
 			id: "060AD25BA2A9EA74"
 			rewards: [{
 				count: 4
@@ -1820,6 +1836,13 @@
 		}
 		{
 			dependencies: ["4169F3CB261CE8D0"]
+			icon: {
+				Count: 1b
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
 			id: "051503EB4D429742"
 			rewards: [
 				{
@@ -1893,6 +1916,7 @@
 		}
 		{
 			dependencies: ["4169F3CB261CE8D0"]
+			icon: "toolbelt:belt"
 			id: "52FFE1235D870005"
 			rewards: [{
 				id: "7468ED394BB3DE39"
@@ -1952,6 +1976,7 @@
 		}
 		{
 			dependencies: ["71310706657288F9"]
+			icon: "apotheosis:reforging_table"
 			id: "7395E98C0F2B3E31"
 			rewards: [
 				{

@@ -2227,7 +2227,7 @@
 				}
 			]
 			title: "&lStorage Controller"
-			x: -5.5d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -2261,7 +2261,7 @@
 				type: "item"
 			}]
 			title: "&lSophisticated Storage"
-			x: 2.5d
+			x: -5.5d
 			y: -1.0d
 		}
 	]

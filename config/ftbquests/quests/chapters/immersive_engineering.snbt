@@ -43,8 +43,8 @@
 				}
 			]
 			title: "Search Mineral Veins"
-			x: 9.5d
-			y: -8.5d
+			x: 11.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["372B5B671E6E4CD6"]
@@ -85,7 +85,7 @@
 				type: "item"
 			}]
 			title: "&l&7Steel Ingot"
-			x: 5.0d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
@@ -102,7 +102,7 @@
 				item: "immersiveengineering:workbench"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: -3.0d
 		}
 		{
@@ -180,8 +180,8 @@
 				type: "observation"
 			}]
 			title: "&lMetal Press"
-			x: 6.0d
-			y: -6.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["03F1739AF4FA589A"]
@@ -241,16 +241,16 @@
 				}
 			]
 			title: "&lExcavator"
-			x: 10.0d
+			x: 12.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["2745BD9BC702099D"]
 			id: "7B0DFE02F3519A3C"
 			rewards: [{
-				id: "7DF846C5B9DCB831"
-				item: "immersiveengineering:ethanol_bucket"
-				type: "item"
+				id: "4D4472DA26337128"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			shape: "square"
 			size: 2.0d
@@ -264,8 +264,8 @@
 				type: "observation"
 			}]
 			title: "&lIndustrial Fermenter"
-			x: 12.0d
-			y: -2.0d
+			x: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2218F21D45BB225B"]
@@ -289,7 +289,7 @@
 				type: "observation"
 			}]
 			title: "&lFluid Tank"
-			x: -5.0d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -339,16 +339,16 @@
 				type: "observation"
 			}]
 			title: "&lAutomated Workbench"
-			x: -7.0d
+			x: -7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2745BD9BC702099D"]
 			id: "28789FC2F738AB68"
 			rewards: [{
-				id: "743F938FB3C21E75"
-				item: "immersiveengineering:creosote_bucket"
-				type: "item"
+				id: "201E363212D6EED7"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			shape: "square"
 			size: 2.0d
@@ -362,8 +362,8 @@
 				type: "observation"
 			}]
 			title: "&lRefinery"
-			x: 12.0d
-			y: -6.0d
+			x: 7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2745BD9BC702099D"]
@@ -392,8 +392,8 @@
 				type: "observation"
 			}]
 			title: "&lMixer"
-			x: 7.0d
-			y: 0.0d
+			x: 14.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2745BD9BC702099D"]
@@ -422,8 +422,8 @@
 				type: "observation"
 			}]
 			title: "&lBottling Machine"
-			x: 6.0d
-			y: -2.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2745BD9BC702099D"]
@@ -445,16 +445,16 @@
 				type: "observation"
 			}]
 			title: "&lLightning Rod"
-			x: 10.0d
+			x: 12.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2745BD9BC702099D"]
 			id: "4D4075CABD40F9A7"
 			rewards: [{
-				id: "10F410140135ED33"
-				item: "immersiveengineering:plantoil_bucket"
-				type: "item"
+				id: "454AC5E815A07B61"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			shape: "square"
 			size: 2.0d
@@ -468,8 +468,8 @@
 				type: "observation"
 			}]
 			title: "&lIndustrial Squeezer"
-			x: 11.0d
-			y: 0.0d
+			x: 11.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["35E26C73D42C7D21"]
@@ -490,7 +490,7 @@
 				type: "item"
 			}]
 			title: "Steel Antenna"
-			x: 11.5d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
@@ -632,8 +632,8 @@
 				type: "observation"
 			}]
 			title: "&lAssembler"
-			x: 7.0d
-			y: -8.0d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2745BD9BC702099D"]
@@ -656,7 +656,7 @@
 				type: "observation"
 			}]
 			title: "&6&lDiesel Generator"
-			x: 13.5d
+			x: 16.0d
 			y: -4.0d
 		}
 		{
@@ -681,8 +681,8 @@
 				type: "observation"
 			}]
 			title: "&lArc Furnace"
-			x: 11.0d
-			y: -8.0d
+			x: 14.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -707,8 +707,8 @@
 				type: "observation"
 			}]
 			title: "&lCrusher"
-			x: 8.0d
-			y: -10.0d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2745BD9BC702099D"]
@@ -732,7 +732,7 @@
 				type: "observation"
 			}]
 			title: "&lSawmill"
-			x: 8.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -758,7 +758,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -777,7 +777,7 @@
 				type: "item"
 			}]
 			title: "&6&lTreated Wood"
-			x: -5.0d
+			x: -5.5d
 			y: -4.0d
 		}
 		{
@@ -830,6 +830,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				count: 6L
@@ -838,7 +839,7 @@
 				type: "item"
 			}]
 			title: "&l&7Steel Scaffolding"
-			x: 9.0d
+			x: 10.5d
 			y: -4.0d
 		}
 		{
@@ -987,15 +988,15 @@
 				random_bonus: 12
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				id: "2ACE77004445AFBF"
 				item: "kubejs:raw_cuperzinate"
 				type: "item"
 			}]
 			title: "&6&lRaw Cuperzinate"
-			x: 9.5d
-			y: -11.5d
+			x: 14.95d
+			y: -11.45d
 		}
 		{
 			dependencies: ["022B820C57F678A1"]
@@ -1007,15 +1008,15 @@
 				random_bonus: 12
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				id: "499608ABEF7F7821"
 				item: "kubejs:raw_auricargentum"
 				type: "item"
 			}]
 			title: "&e&lRaw Auricargentum"
-			x: 10.5d
-			y: -11.5d
+			x: 14.05d
+			y: -11.45d
 		}
 		{
 			dependencies: ["022B820C57F678A1"]
@@ -1027,15 +1028,15 @@
 				random_bonus: 12
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				id: "4B146F2D521537AE"
 				item: "kubejs:raw_uratinumal"
 				type: "item"
 			}]
 			title: "&2&lRaw Uratinumal"
-			x: 11.5d
-			y: -10.5d
+			x: 14.05d
+			y: -10.55d
 		}
 		{
 			dependencies: ["022B820C57F678A1"]
@@ -1047,15 +1048,15 @@
 				random_bonus: 12
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				id: "6A4D88BA54CAF0E7"
 				item: "kubejs:raw_leadosnite"
 				type: "item"
 			}]
 			title: "&9&lRaw Leadosnite"
-			x: 11.5d
-			y: -9.5d
+			x: 14.95d
+			y: -10.55d
 		}
 		{
 			dependencies: ["7959EABA379113C7"]
@@ -1071,7 +1072,7 @@
 				item: "immersiveengineering:dynamo"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: -4.0d
 		}
 		{
@@ -1091,7 +1092,7 @@
 				item: "immersiveengineering:watermill"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: -6.0d
 		}
 		{
@@ -1118,8 +1119,192 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
+			x: -9.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["2745BD9BC702099D"]
+			description: [
+				"Right click the &b&lSeismic Survey Tool&r with a &eBuckshot Cartridge&r then right click with an empty hand."
+				""
+				"Check &lReservoirs&r on the &a&lSurvey Results Map&r. "
+				""
+				"Repeat this process on &eReservoir Coordinates&r."
+			]
+			icon: "immersivepetroleum:seismic_survey"
+			id: "557DF48F6616B409"
+			rewards: [{
+				count: 8
+				id: "035C30F056D4EEAC"
+				item: "immersiveengineering:buckshot"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					icon: "immersivepetroleum:seismic_survey"
+					id: "75E69A9FB0B37178"
+					observe_type: 0
+					timer: 0L
+					title: "Observe a Seismic Survey Tool"
+					to_observe: "immersivepetroleum:seismic_survey"
+					type: "observation"
+				}
+				{
+					id: "169499DAA36C5A36"
+					item: "immersiveengineering:buckshot"
+					type: "item"
+				}
+			]
+			title: "Search Oil Reservoirs"
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["557DF48F6616B409"]
+			description: ["Build a &b&lDerrick&r on &eReservoir Coordinates&r, fill it with &lLiquid concrete&r and &lWater&r to create the Well"]
+			id: "78A93BB55F53D1FA"
+			rewards: [{
+				id: "5B33437B6EAD75BE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Creates a Well Pipe"
+			tasks: [{
+				icon: "immersivepetroleum:derrick"
+				id: "318E16B2404A1CD6"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Derrick"
+				to_observe: "immersivepetroleum:derrick"
+				type: "observation"
+			}]
+			title: "&lDerrick"
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2745BD9BC702099D"]
+			id: "550D889367E273DD"
+			rewards: [{
+				id: "744C2253DCC79E5F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				icon: "immersivepetroleum:oiltank"
+				id: "70C1F753CAB29E80"
+				observe_type: 0
+				timer: 0L
+				title: "Observe an Oil Tank"
+				to_observe: "immersivepetroleum:oiltank"
+				type: "observation"
+			}]
+			title: "&lOil Tank"
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["78A93BB55F53D1FA"]
+			description: [
+				"You need to connect the pipe created by the &lDerrick&r to the &l&bPumpjack&r. "
+				"{image:techev:textures/misc/quests/immersiveengineering/pumpjack.png width:94 height:108 align:1 fit:true}"
+			]
+			id: "0C7259A93D3F9F0E"
+			rewards: [{
+				id: "6D7972D5AC014368"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Extracts Oil"
+			tasks: [{
+				icon: "immersivepetroleum:pumpjack"
+				id: "67BC50F95C51F35E"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Pumpjack"
+				to_observe: "immersivepetroleum:pumpjack"
+				type: "observation"
+			}]
+			title: "&lPumpjack"
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2745BD9BC702099D"]
+			id: "5870F8DD50E92724"
+			rewards: [{
+				id: "3D43CB70BA95B8A7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				icon: "immersivepetroleum:coker_unit"
+				id: "42E5BEF740961338"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Coker"
+				to_observe: "immersivepetroleum:coker_unit"
+				type: "observation"
+			}]
+			title: "&lCoker"
+			x: 11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2745BD9BC702099D"]
+			id: "4724580EFAC6E6F7"
+			rewards: [{
+				id: "6B631A5B2E8AC6ED"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				icon: "immersivepetroleum:distillation_tower"
+				id: "4EA4741118842223"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Distillation Tower"
+				to_observe: "immersivepetroleum:distillation_tower"
+				type: "observation"
+			}]
+			title: "&lDistillation Tower"
+			x: 9.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2745BD9BC702099D"]
+			id: "64FA0CA78EA38D79"
+			rewards: [{
+				id: "476A699D0D59CFDD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				icon: "immersivepetroleum:hydrotreater"
+				id: "048A3D91069184C7"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a High-Pressure Refinery Unit"
+				to_observe: "immersivepetroleum:hydrotreater"
+				type: "observation"
+			}]
+			title: "&lHigh-Pressure Refinery Unit"
+			x: 13.5d
+			y: -8.0d
 		}
 	]
 	title: "Immersive Engineering"

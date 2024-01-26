@@ -347,7 +347,7 @@
 			rewards: [{
 				id: "2946F3A17EF4F53F"
 				item: "create:mechanical_harvester"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -365,7 +365,7 @@
 			rewards: [{
 				id: "78B68B29C9DB932F"
 				item: "create:mechanical_plough"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -382,7 +382,7 @@
 			rewards: [{
 				id: "010457AA2ED2E1F9"
 				item: "create:mechanical_drill"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -400,7 +400,7 @@
 			rewards: [{
 				id: "2796A6107A4C5D64"
 				item: "create:mechanical_saw"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -589,8 +589,8 @@
 			id: "413CACA1028F158C"
 			rewards: [{
 				id: "7B369F5B3FAF8683"
-				item: "create:brass_hand"
-				random_bonus: 1
+				item: "alltheores:brass_ingot"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -858,7 +858,7 @@
 			rewards: [{
 				id: "691A4BA5111B4524"
 				item: "create:encased_fan"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -913,7 +913,7 @@
 			rewards: [{
 				id: "1116F350F0409138"
 				item: "create:depot"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -931,7 +931,7 @@
 			rewards: [{
 				id: "596EF8F1F6DAF45C"
 				item: "create:weighted_ejector"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -971,7 +971,7 @@
 			rewards: [{
 				id: "2F63CBF2D978B800"
 				item: "create:smart_chute"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -992,7 +992,7 @@
 			rewards: [{
 				id: "21840DCE54E7DE13"
 				item: "create:portable_storage_interface"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1013,7 +1013,7 @@
 			rewards: [{
 				id: "4914902229EE654F"
 				item: "create:portable_fluid_interface"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -1085,10 +1085,10 @@
 			dependencies: ["7CDBC61474CC2C11"]
 			id: "3D41C812AF06AF57"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "44831E86FC27417B"
 				item: "create:track_signal"
-				random_bonus: 4
+				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -1105,10 +1105,9 @@
 			dependencies: ["7CDBC61474CC2C11"]
 			id: "55E499AF4E5E027D"
 			rewards: [{
-				count: 2
 				id: "0923DC0361C337AF"
 				item: "create:track_observer"
-				random_bonus: 2
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -1231,7 +1230,7 @@
 				{
 					id: "5B0E576FF36EB70F"
 					item: "create:mechanical_piston"
-					random_bonus: 3
+					random_bonus: 2
 					type: "item"
 				}
 				{
@@ -1265,7 +1264,7 @@
 			rewards: [{
 				id: "5D9E9034BAF58817"
 				item: "create:sticky_mechanical_piston"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1311,7 +1310,7 @@
 			rewards: [{
 				id: "148B2734F3900F58"
 				item: "create:mechanical_bearing"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1347,7 +1346,7 @@
 			rewards: [{
 				id: "122BCAB96AD5744E"
 				item: "create:millstone"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1822,7 +1821,7 @@
 			rewards: [{
 				id: "789DC71E4F288D17"
 				item: "create:item_drain"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -1873,7 +1872,7 @@
 			rewards: [{
 				id: "1620BB965FA2C0F2"
 				item: "create:steam_engine"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -1890,7 +1889,7 @@
 			rewards: [{
 				id: "4DE4E44810B69CE1"
 				item: "create:steam_whistle"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -1958,7 +1957,7 @@
 			rewards: [{
 				id: "765DF1FAAA704F78"
 				item: "create:nozzle"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2249,7 +2248,7 @@
 			rewards: [{
 				id: "4D73CD576AE9137A"
 				item: "create:sticker"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "hexagon"

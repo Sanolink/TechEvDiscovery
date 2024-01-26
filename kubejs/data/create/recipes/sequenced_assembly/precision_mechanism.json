@@ -3,7 +3,7 @@
   "ingredient": {
     "tag": "forge:plates/gold"
   },
-  "loops": 5,
+  "loops": 3,
   "results": [
     {
       "item": "create:precision_mechanism"

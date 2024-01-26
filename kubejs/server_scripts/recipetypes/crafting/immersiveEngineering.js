@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+//Last Modification : 1.1.4
 
 ServerEvents.recipes(event => {
 
@@ -39,11 +39,11 @@ ServerEvents.recipes(event => {
         {
             output: 'immersiveengineering:radiator',
             count: '4x ',
-            pattern: ["SCS", "CWC", "SCS"],
+            pattern: ["SCS", "CHC", "SCS"],
             key: {
                 S:'immersiveengineering:sheetmetal_steel',
                 C:'immersiveengineering:coil_lv',
-                W:'minecraft:water_bucket'
+                H:'create_sa:heat_engine'
             }
         },
         //Heavy Engineering 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "forge:sheetmetals/steel"
+    },
+    "T": {
+      "item": "mob_grinding_utils:tank"
+    }
+  },
+  "pattern": [
+    "STS",
+    "T T",
+    "STS"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:jumbo_tank"
+  }
+}

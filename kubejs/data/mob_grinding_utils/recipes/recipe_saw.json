@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "I": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "M": {
+      "item": "create_things_and_misc:vibration_mechanism"
+    },
+    "S": {
+      "item": "minecraft:iron_sword"
+    },
+    "V": {
+      "item": "mob_grinding_utils:spikes"
+    }
+  },
+  "pattern": [
+    "SDS",
+    "VMV",
+    "DID"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:saw"
+  }
+}

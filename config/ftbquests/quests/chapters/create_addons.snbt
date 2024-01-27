@@ -5,6 +5,59 @@
 	group: "12B18F44A38CD6E7"
 	icon: "create_sa:steam_engine"
 	id: "14515572428C7392"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "create_sa:textures/title.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.480565371024735d
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create_enchantment_industry:item/experience_rotor"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createaddition:block/tesla_coil/lightning_new"
+			rotation: 45.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create_things_and_misc:items/card"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.5d
+			y: -4.5d
+		}
+	]
 	order_index: 3
 	quest_links: [{
 		id: "2FA46F9A68FF650F"
@@ -19,7 +72,7 @@
 			rewards: [{
 				id: "17EEC2568D4F3954"
 				item: "create_things_and_misc:vibration_mechanism"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -39,7 +92,7 @@
 			rewards: [{
 				id: "311B02E11E1B00D5"
 				item: "create_sa:steam_engine"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -59,7 +112,7 @@
 			rewards: [{
 				id: "689A92D33EB74153"
 				item: "create_sa:heat_engine"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -79,7 +132,7 @@
 			rewards: [{
 				id: "1147A06A7BB4BA48"
 				item: "create_sa:hydraulic_engine"
-				random_bonus: 3
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "pentagon"

@@ -5,6 +5,18 @@
 	group: "12B18F44A38CD6E7"
 	icon: "ars_nouveau:creative_spell_book"
 	id: "77816D12DF95B786"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.75d
+		hover: [ ]
+		image: "twilightforest:block/portal_barrier"
+		rotation: 45.0d
+		width: 1.75d
+		x: 16.5d
+		y: 6.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

@@ -1,0 +1,1782 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: ""
+	id: "104489C24F8D3B7A"
+	images: [
+		{
+			click: ""
+			color: 9709140
+			corner: false
+			dev: false
+			height: 11.0d
+			hover: [ ]
+			image: "relics:textures/gui/tooltip/border/paper.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "relics:items/magic_mirror_0"
+			order: 1
+			rotation: 45.0d
+			width: 2.0d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "relics:items/magic_mirror_1"
+			order: 1
+			rotation: -45.0d
+			width: 2.0d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "relics:items/magic_mirror_2"
+			order: 1
+			rotation: -45.0d
+			width: 2.0d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "relics:items/magic_mirror_3"
+			order: 1
+			rotation: 45.0d
+			width: 2.0d
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:items/aqua_walker_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "relics:items/magma_walker_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F8C4C01C5E75A8B"]
+			id: "5732DA26F5BA65CE"
+			rewards: [{
+				id: "1C4E99B37B81C7D0"
+				table_id: 5638232027785617486L
+				title: "Random Relic"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Find these Relics in Chests"
+			tasks: [{
+				id: "66C4C9A5DC64B93E"
+				item: "relics:researching_table"
+				type: "item"
+			}]
+			title: "&lRelics "
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "27C2F55DF1A4E14F"
+			rewards: [{
+				id: "400668EC43027E68"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "41A8A541B1B36455"
+				item: {
+					Count: 1b
+					id: "relics:spatial_sign"
+					tag: {
+						Damage: 0
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 3.47366d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "452ECFF2887CD6B1"
+			rewards: [{
+				id: "628360CC859BCDBF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "23AF4DFA947789CD"
+				item: {
+					Count: 1b
+					id: "relics:reflection_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 47.01477d
+									damage: 0.4569d
+									stun: 0.12286d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "6D8EB9AB7D75CAD3"
+			rewards: [{
+				id: "1BB994C64C396059"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1C3AF3E4E78E0422"
+				item: {
+					Count: 1b
+					id: "relics:magma_walker"
+					tag: {
+						Damage: 0
+						abilities: {
+							pace: {
+								points: 0
+								stats: {
+									time: 46.32654d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "312E4FC64F5B09DB"
+			rewards: [{
+				id: "37C389BA2489E5E6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2A51ED606C87591A"
+				item: {
+					Count: 1b
+					id: "relics:aqua_walker"
+					tag: {
+						Damage: 0
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 36.12633d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "33746F5F285A3667"
+			rewards: [{
+				id: "380A9379EED94B7D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3DACF4002CD2368C"
+				item: {
+					Count: 1b
+					id: "relics:midnight_robe"
+					tag: {
+						Damage: 0
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.68211d
+									distance: 15.36356d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.22114d
+									speed: 0.19545d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "6503477C657ABC61"
+			rewards: [{
+				id: "3E445E29881D3968"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1A888C92F7C52686"
+				item: {
+					Count: 1b
+					id: "relics:drowned_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 4.16363d
+									slowness: 0.29931d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.31223d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 7.15066d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.22075d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "5F595FDFAF0107A8"
+			rewards: [{
+				id: "7D9A5FE8F3E61383"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2B861A5510EE0BCE"
+				item: {
+					Count: 1b
+					id: "relics:jellyfish_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 1.32153d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 0.97615d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "7032B5CFF82FB12D"
+			rewards: [{
+				id: "2D7A649C651B97B4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "685905C1FD6B3228"
+				item: {
+					Count: 1b
+					id: "relics:hunter_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.75771d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.7582d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "49BAB01DA659EB08"
+			rewards: [{
+				id: "61A96746186B2516"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "385FC97658E01194"
+				item: {
+					Count: 1b
+					id: "relics:rage_glove"
+					tag: {
+						Damage: 0
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00722d
+									heal: 2.4E-4d
+									movement_speed: 0.01386d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.07202d
+									duration: 2.41955d
+									incoming_damage: 0.03753d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 18.00246d
+									damage: 0.12976d
+									distance: 4.59947d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "000B43D5D34F4B9B"
+			rewards: [{
+				id: "163EF8149202BC0A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "68FFA0370E748462"
+				item: {
+					Count: 1b
+					id: "relics:ice_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.10875d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 34.13393d
+									speed: 0.01308d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "74FFC11ED7F13B78"
+			rewards: [{
+				id: "25F5149A246E6A42"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "66233958B93DE2DF"
+				item: {
+					Count: 1b
+					id: "relics:bastion_ring"
+					tag: {
+						Damage: 0
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.99483d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "4EEE942A5006AA27"
+			rewards: [{
+				id: "169738148B829D6C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6BACE69BB0BDAAC7"
+				item: {
+					Count: 1b
+					id: "relics:chorus_inhibitor"
+					tag: {
+						Damage: 0
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 9.05655d
+									distance: 23.76385d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "09A9159F03703463"
+			rewards: [{
+				id: "571C011BD5417DEA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "532528C1444A01A3"
+				item: {
+					Count: 1b
+					id: "relics:arrow_quiver"
+					tag: {
+						Damage: 0
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 12.01113d
+									duration: 4.0396d
+									multiplier: 0.40405d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.75175d
+									duration: 11.56361d
+									radius: 4.05645d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 2.8698d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "6E8449E654285144"
+			rewards: [{
+				id: "76B879C6057976B1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4C4690B8FFD3D769"
+				item: {
+					Count: 1b
+					id: "relics:space_dissector"
+					tag: {
+						Damage: 0
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 24.9562d
+									time: 7.8051d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "13E50B13D5A82B4D"
+			rewards: [{
+				id: "799917E0B28486F1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5C03CA7903819DEB"
+				item: {
+					Count: 1b
+					id: "relics:holy_locket"
+					tag: {
+						Damage: 0
+						abilities: {
+							steal: {
+								points: 0
+								stats: {
+									amount: 0.20218d
+									radius: 3.24863d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "0EC959DA69F45AE7"
+			rewards: [{
+				id: "013BBC800F8B79C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "774E2E04356B74DB"
+				item: {
+					Count: 1b
+					id: "relics:enders_hand"
+					tag: {
+						Damage: 0
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 17.84496d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "5E6F00D4E1A39859"
+			rewards: [{
+				id: "0422C710A1BF4B60"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1F6077C3D6A60285"
+				item: {
+					Count: 1b
+					id: "relics:elytra_booster"
+					tag: {
+						Damage: 0
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 60.51977d
+									speed: 1.25286d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "353EC48C551DAC00"
+			rewards: [{
+				id: "5A9FD3E1D3156FC0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7202AF107069F7DE"
+				item: {
+					Count: 1b
+					id: "relics:magic_mirror"
+					tag: {
+						Damage: 0
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 76.86066d
+									distance: 525.40144d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "26BDA611131FF345"
+			rewards: [{
+				id: "00A4A8744B4D1FC2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7FEDD3E25A58F66E"
+				item: {
+					Count: 1b
+					id: "relics:ice_breaker"
+					tag: {
+						Damage: 0
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 3.21893d
+									size: 4.73319d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.71323d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "16B4184456285EF8"
+			rewards: [{
+				id: "7CCF527B91B40EEA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0694CF7E25B03A00"
+				item: {
+					Count: 1b
+					id: "relics:blazing_flask"
+					tag: {
+						Damage: 0
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 4.94748d
+									speed: 0.02189d
+									step: 1.7794d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "62E82A1F59FAA98C"
+			rewards: [{
+				id: "159FD0D4F1314617"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4ABBEA9D214CD6E0"
+				item: {
+					Count: 1b
+					id: "relics:spore_sack"
+					tag: {
+						Damage: 0
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 4.88778d
+									chance: 0.05227d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.16196d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.0912d
+									chance: 0.11038d
+									size: 0.05313d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 14.82538d
+									damage: 0.45749d
+									duration: 2.37776d
+									size: 0.37772d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "61E7852EE3E13C7A"
+			rewards: [{
+				id: "272AF18CF47327D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0AC3D798495D9351"
+				item: {
+					Count: 1b
+					id: "relics:roller_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 17.01464d
+									speed: 0.00415d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "687A4526F185683A"
+			rewards: [{
+				id: "4F17BFEC15B384B7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "41EC037CF32BA05B"
+				item: {
+					Count: 1b
+					id: "relics:leather_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.59667d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "3C7B861521F0967D"
+			rewards: [{
+				id: "277639D9C9E6C9FF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6906AD2C4F792097"
+				item: {
+					Count: 1b
+					id: "relics:horse_flute"
+					tag: {
+						Damage: 0
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.06149d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "4C32A7C0D512C17B"
+			rewards: [{
+				id: "3A5565DEE57C087C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0043AAC299E9414A"
+				item: {
+					Count: 1b
+					id: "relics:wool_mitten"
+					tag: {
+						Damage: 0
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.16576d
+									freeze: 1.11466d
+									size: 30.34532d
+									stun: 0.02959d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "7E8BDE7C5EA4C04A"
+			rewards: [{
+				id: "5E3919BC2EB12E1F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6A6CC3882050FE1A"
+				item: {
+					Count: 1b
+					id: "relics:amphibian_boot"
+					tag: {
+						Damage: 0
+						abilities: {
+							swimming: {
+								points: 0
+								stats: {
+									duration: 34.35661d
+									speed: 0.0059d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "0B4AD521E9451FCC"
+			rewards: [{
+				id: "368E032776C50DA6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1C5C6F52DA1CAE60"
+				item: {
+					Count: 1b
+					id: "relics:shadow_glaive"
+					tag: {
+						Damage: 0
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 4.05331d
+									damage: 3.88953d
+									radius: 4.97238d
+									recharge: 17.07395d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 1.41848d
+									speed: 15.55271d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5732DA26F5BA65CE"]
+			id: "6F7911EF2DC9D315"
+			rewards: [{
+				id: "094C2C9DFB1D09B0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "31C9CF9155C183B3"
+				item: {
+					Count: 1b
+					id: "relics:infinity_ham"
+					tag: {
+						Damage: 0
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.09153d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 2.33205d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F8C4C01C5E75A8B"]
+			id: "18CE981944C7017B"
+			rewards: [{
+				id: "4E633CB6157EF50B"
+				table_id: 4337151241683039439L
+				title: "Random Artifact"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Kill Mimics, or find these in Chests"
+			tasks: [{
+				id: "04D62F7162B7BAB3"
+				item: "artifacts:mimic_spawn_egg"
+				type: "item"
+			}]
+			title: "&lArtifacts"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "17112A3A5300A2BA"
+			rewards: [{
+				id: "6957B824571C32B1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "165BED4A312AE0AD"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "5A39C016E8628BB5"
+			rewards: [{
+				id: "01501100918DFA61"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0A51D7104B1B0CCE"
+					item: "artifacts:everlasting_beef"
+					type: "item"
+				}
+				{
+					id: "29D1E0122569B93D"
+					item: "artifacts:eternal_steak"
+					type: "item"
+				}
+			]
+			title: "Eternal Steak"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "1014DDAA68101F2F"
+			rewards: [{
+				id: "341392AB0334B3AF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0D664FCEC1E4CCF2"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "53A7F88767226FB8"
+			rewards: [{
+				id: "41910B6C020280EC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "15ABFD5BA607A001"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "66F4573CF4B57BE7"
+			rewards: [{
+				id: "798EE01D1FC2DB32"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4F913BF2113D433B"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "0AC57709B4A73F38"
+			rewards: [{
+				id: "4A77FFE28D515682"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "704A23188B49473A"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "71B461B77E617341"
+			rewards: [{
+				id: "66E6657EB497C6D8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3D7EBE0E753A7FDA"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "4B95EE9772139DAE"
+			rewards: [{
+				id: "3EB21F2AC896D88D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "503AA19ABE6D30FB"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "1F127444CA4A6171"
+			rewards: [{
+				id: "2EAEBE0BB053DB97"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3D0F8074B456FEB9"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "061B8FF091C71CEE"
+			rewards: [{
+				id: "640D06F34C24032E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2E5BF0088C3CE712"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "39676912820E2FF8"
+			rewards: [{
+				id: "52D4FFF6F3125882"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "735B58134FA0F3B2"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "3C048AE02F3E473E"
+			rewards: [{
+				id: "5EB0035D2461C229"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "28FE43A3214A096A"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "2EFA60C6B1623324"
+			rewards: [{
+				id: "05904B67154269E1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "47C7A18B660C4263"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "016FFA12773C5E9A"
+			rewards: [{
+				id: "0F8A961B0859E428"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "56FA8826BECA86A4"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "3E8369FB482EC872"
+			rewards: [{
+				id: "7D691490F5FB6F3B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4F07D6DE024E899F"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "55CC9395B65429F6"
+			rewards: [{
+				id: "65D0645F7B0DC85C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2AEDD525385AD791"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "6123DF150FE24064"
+			rewards: [{
+				id: "1042CBEE80D64FB3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0712614E85895357"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "404BE696CAE070AC"
+			rewards: [{
+				id: "21B71982CF5360DA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "30092A51387C85BA"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "42A4556C54618F01"
+			rewards: [{
+				id: "64E2E7098E2D5E38"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5B6DA9A488C3830C"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "06DAA700513B8625"
+			rewards: [{
+				id: "6A153F8C99757211"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "45EEA34572BE5F61"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "649D109854AAB234"
+			rewards: [{
+				id: "741D756E9C37B059"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2E397780AA5B07E9"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "548208F4CD683F53"
+			rewards: [{
+				id: "0C3BC8F0AB262B01"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "189EC1D83A2BDBD0"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "150CF88797ED7805"
+			rewards: [{
+				id: "60FAFEE0B8D9BEC1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "38EE8F1F32FDD9B9"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "5D490C55F5D41836"
+			rewards: [{
+				id: "25C662FB7A00E798"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "069835F29A3EDA76"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "0122AC8BA6CBBCF9"
+			rewards: [{
+				id: "12560322B9888BCD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "470FF66259738ED6"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "2A5C47BF28D776A6"
+			rewards: [{
+				id: "58C077DD940BFDF9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6417B04CF18259A3"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "717CD166F5104D1C"
+			rewards: [{
+				id: "63F14463904CA204"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6B501D0FF92E8C3D"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "073E468F51E18D55"
+			rewards: [{
+				id: "0B932068D6021C56"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "37F441E28A87C647"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "63C6BB191AA0190F"
+			rewards: [{
+				id: "4E7296F262A773F3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6C7665193E54F512"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "78B23F54931F564B"
+			rewards: [{
+				id: "26DCCEAA77E72D54"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "74A0227F401C86CF"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "207AF6784B96057E"
+			rewards: [{
+				id: "583B76C465D770BA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "32AC0BF241D56EB4"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "7E8C7B9D5D16CC94"
+			rewards: [{
+				id: "29FE66DD82EA31F1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6D2CBBB9FC3A1E34"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "55C6E8182855FF8B"
+			rewards: [{
+				id: "18DE9D155D66DD25"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7ECCFC5A7D36EBC8"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "40FCB33A0D28598D"
+			rewards: [{
+				id: "0C99BEC0E1E0B9E9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7B1F387AB2D6D24A"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "4889F73DDB4684D9"
+			rewards: [{
+				id: "2B68B3CB8944E5F7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "73AFC23AB22AB2F4"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["18CE981944C7017B"]
+			id: "4BC8EFB8FF2456DA"
+			rewards: [{
+				id: "60E29879B1E902CA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5693F940392B94D0"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+	]
+	title: "&l[Relics]"
+}

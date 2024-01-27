@@ -5,18 +5,44 @@
 	group: "12B18F44A38CD6E7"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "29D9E3611ED15A7C"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 5.0d
-		hover: [ ]
-		image: "techev:textures/misc/quests/portal_craft.png"
-		rotation: 0.0d
-		width: 7.61745516442406d
-		x: -3.0d
-		y: 1.5d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/portal_craft.png"
+			rotation: 0.0d
+			width: 7.61745516442406d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ars_nouveau:items/jar_of_light"
+			rotation: 20.0d
+			width: 2.0d
+			x: -6.678571428571431d
+			y: -0.5357142857142847d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 90.0d
+			width: 1.5d
+			x: -5.5d
+			y: 0.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

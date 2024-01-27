@@ -1009,15 +1009,9 @@
 			shape: "rsquare"
 			subtitle: "The Most Powerful Laser"
 			tasks: [{
-				advancement: "minecraft:nether/create_full_beacon"
+				advancement: "better_beacons:true_full_power"
 				criterion: ""
-				icon: {
-					Count: 1b
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "ftbquests:textures/gui/guide.png"
-					}
-				}
+				icon: "minecraft:beacon"
 				id: "290BB319192FAA42"
 				type: "advancement"
 			}]

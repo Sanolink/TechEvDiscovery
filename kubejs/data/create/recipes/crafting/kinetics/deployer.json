@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "P": {
+      "item": "create:mechanical_piston"
+    },
+    "G": {
+      "item": "create:adjustable_chain_gearshift"
+    },
+    "A": {
+      "item": "create:andesite_casing"
+    },
+    "H": {
+      "item": "create:brass_hand"
+    }
+  },
+  "pattern": [
+    "ASA",
+    "GPG",
+    " H "
+  ],
+  "result": {
+    "item": "create:deployer"
+  }
+}

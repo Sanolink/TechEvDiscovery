@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:netherrack"
+    },
+    "C": {
+      "item": "minecraft:cauldron"
+    },
+    "I": {
+      "item": "createdeco:polished_iron_bars"
+    }
+  },
+  "pattern": [
+    "I I",
+    "ICI",
+    "AAA"
+  ],
+  "result": {
+    "item": "create:empty_blaze_burner"
+  }
+}

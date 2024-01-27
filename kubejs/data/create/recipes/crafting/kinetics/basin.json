@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "D": {
+      "item": "create:depot"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "AAA"
+  ],
+  "result": {
+    "item": "create:basin"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "create:copper_casing"
+    },
+    "R": {
+      "item": "create:rope_pulley"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    }
+  },
+  "pattern": [
+    "B",
+    "R",
+    "P"
+  ],
+  "result": {
+    "item": "create:hose_pulley"
+  }
+}

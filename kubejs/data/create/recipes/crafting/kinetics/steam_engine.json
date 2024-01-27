@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create_sa:steam_engine"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "P": {
+      "tag": "forge:plates/gold"
+    }
+  },
+  "pattern": [
+    "P",
+    "A",
+    "C"
+  ],
+  "result": {
+    "count": 3,
+    "item": "create:steam_engine"
+  }
+}

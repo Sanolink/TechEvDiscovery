@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "create:gearshift"
+    },
+    "B": {
+      "item": "create:mechanical_bearing"
+    },
+    "I": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "B",
+    "G",
+    "I"
+  ],
+  "result": {
+    "item": "create:windmill_bearing"
+  }
+}

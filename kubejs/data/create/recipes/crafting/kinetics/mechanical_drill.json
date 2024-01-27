@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "D": {
+      "item": "immersiveengineering:drillhead_steel"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ADA",
+    "CCC"
+  ],
+  "result": {
+    "item": "create:mechanical_drill"
+  }
+}

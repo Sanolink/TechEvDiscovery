@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "create:large_cogwheel"
+    },
+    "S": {
+      "tag": "quark:wooden_vertical_slabs"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "result": {
+    "item": "create:water_wheel"
+  }
+}

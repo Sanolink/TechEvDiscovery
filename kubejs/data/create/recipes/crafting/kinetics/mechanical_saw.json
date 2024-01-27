@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "S": {
+      "item": "immersiveengineering:sawblade"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ASA",
+    "CCC"
+  ],
+  "result": {
+    "item": "create:mechanical_saw"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "H": {
+      "item": "create:chute"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "I": {
+      "tag": "forge:stone"
+    },
+    "S": {
+      "item": "create:andesite_casing"
+    }
+  },
+  "pattern": [
+    " H ",
+    "CSC",
+    "III"
+  ],
+  "result": {
+    "item": "create:millstone"
+  }
+}

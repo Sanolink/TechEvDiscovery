@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "P": {
+      "item": "minecraft:dried_kelp"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    }
+  },
+  "pattern": [
+    "T",
+    "C",
+    "P"
+  ],
+  "result": {
+    "item": "create:spout"
+  }
+}

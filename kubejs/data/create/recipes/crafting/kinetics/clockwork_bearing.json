@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "item": "create:mechanical_bearing"
+    },
+    "G": {
+      "item": "create:sequenced_gearshift"
+    },
+    "S": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "M",
+    "G",
+    "S"
+  ],
+  "result": {
+    "item": "create:clockwork_bearing"
+  }
+}

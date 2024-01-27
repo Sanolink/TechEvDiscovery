@@ -1138,6 +1138,7 @@
 		}
 		{
 			dependencies: ["0F8C4C01C5E75A8B"]
+			icon: "artifacts:mimic_spawn_egg"
 			id: "18CE981944C7017B"
 			rewards: [{
 				id: "4E633CB6157EF50B"
@@ -1149,9 +1150,9 @@
 			size: 3.0d
 			subtitle: "Kill Mimics, or find these in Chests"
 			tasks: [{
-				id: "04D62F7162B7BAB3"
-				item: "artifacts:mimic_spawn_egg"
-				type: "item"
+				id: "6D4C40F11AD38258"
+				title: "&lArtifacts"
+				type: "checkmark"
 			}]
 			title: "&lArtifacts"
 			x: 0.0d

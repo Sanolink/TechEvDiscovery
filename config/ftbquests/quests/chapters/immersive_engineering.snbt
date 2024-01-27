@@ -11,6 +11,165 @@
 		}
 	}
 	id: "0B2DBA77D34257E2"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			order: 1
+			rotation: -45.0d
+			width: 0.5d
+			x: 0.79d
+			y: -7.32d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -45.0d
+			width: 0.5d
+			x: 1.5d
+			y: -6.6d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -20.0d
+			width: 0.5d
+			x: 2.6d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "immersiveengineering:block/conveyor/vertical"
+			rotation: -90.0d
+			width: 0.5d
+			x: 14.5d
+			y: -4.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

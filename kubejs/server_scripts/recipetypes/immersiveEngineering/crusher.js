@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+//Last Modification : 1.1.4
 
 ServerEvents.recipes(event => {
 
@@ -32,6 +32,18 @@ ServerEvents.recipes(event => {
             output: 'create:crushed_raw_lead',
             secondaries: [Item.of('create:crushed_raw_osmium').withChance(0.8), Item.of('create:crushed_raw_nickel').withChance(0.6)]
         },
+        {
+            id : 'netherite_armor_recycling',
+            input: '#forge:armor/netherite',
+            output: Item.of('createdeco:netherite_nugget').withCount(4),
+            secondaries: Item.of('createdeco:netherite_nugget').withChance(0.8)
+        },
+        {
+            id : 'netherite_tool_recycling',
+            input: '#forge:tools/netherite',
+            output: Item.of('createdeco:netherite_nugget').withCount(4),
+            secondaries: Item.of('createdeco:netherite_nugget').withChance(0.8)
+        }
     ]
 
     const ingotsDusts = [

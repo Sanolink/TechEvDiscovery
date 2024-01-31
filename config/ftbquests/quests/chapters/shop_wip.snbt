@@ -3,35 +3,214 @@
 	default_quest_shape: ""
 	filename: "shop_wip"
 	group: ""
-	icon: {
-		Count: 1b
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "relics:textures/hud/abilities/widgets/icons/locked.png"
-		}
-	}
+	icon: "reliquary:fortune_coin"
 	id: "0187EA65A759A646"
-	order_index: 3
-	quest_links: [ ]
-	quests: [{
-		icon: {
-			Count: 1b
-			id: "ftbquests:custom_icon"
-			tag: {
-				Icon: "relics:textures/hud/abilities/widgets/icons/locked.png"
-			}
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 35.0d
+			hover: [ ]
+			image: "simplylight:block/black"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
 		}
-		id: "4628EDDBF7E3E2BE"
-		shape: "octagon"
-		size: 3.0d
-		subtitle: "Soon, in Age 3 (1.2.0)"
-		tasks: [{
-			id: "168A391849A3C6F4"
-			title: "Work In Progress"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
-	title: "&l[SHOP] WIP"
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/shop/market.png"
+			rotation: 0.0d
+			width: 10.736842105263158d
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/shop/casino.png"
+			rotation: 0.0d
+			width: 10.736842105263158d
+			x: 10.0d
+			y: -8.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "reliquary:fortune_coin"
+			id: "4628EDDBF7E3E2BE"
+			rewards: [{
+				id: "2EE50BBFC07B58D8"
+				item: {
+					Count: 1b
+					id: "numismaticoverhaul:silver_coin"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "You can Buy a lot of Things here"
+			tasks: [{
+				id: "168A391849A3C6F4"
+				title: "Work In Progress"
+				type: "checkmark"
+			}]
+			title: "Welcome to the Shop !"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "relics:space_dissector"
+				tag: {
+					Damage: 0
+					abilities: {
+						dissection: {
+							points: 0
+							stats: {
+								distance: 18.26193d
+								time: 8.95379d
+							}
+						}
+					}
+				}
+			}
+			id: "444C6D8F5F843EF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25217D5991CB8552"
+				table_id: 5638232027785617486L
+				team_reward: true
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "09F99A006929DC37"
+				item: {
+					Count: 1b
+					id: "numismaticoverhaul:gold_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Choice Relic"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "relics:space_dissector"
+				tag: {
+					Damage: 0
+					abilities: {
+						dissection: {
+							points: 0
+							stats: {
+								distance: 18.26193d
+								time: 8.95379d
+							}
+						}
+					}
+				}
+			}
+			id: "31DB74C4A408286B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E408660F6903468"
+				table_id: 5638232027785617486L
+				team_reward: true
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "2D433255D52FAB6A"
+				item: {
+					Count: 1b
+					id: "numismaticoverhaul:silver_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Random Relic"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "artifacts:mimic_spawn_egg"
+			id: "22C095AEAFA51B4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D472B5C535B0E47"
+				table_id: 4337151241683039439L
+				team_reward: true
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "2650FAC911EEEF97"
+				item: {
+					Count: 1b
+					id: "numismaticoverhaul:gold_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Choice Artifact"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "artifacts:mimic_spawn_egg"
+			id: "114076847BF5DAC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67045CE0E186C001"
+				table_id: 4337151241683039439L
+				team_reward: true
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "1EA06F51BCB1D90C"
+				item: {
+					Count: 1b
+					id: "numismaticoverhaul:silver_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Random Artifact"
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	title: "&a&l[SHOP]"
 }

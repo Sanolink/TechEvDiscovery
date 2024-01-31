@@ -9,13 +9,13 @@
 		click: ""
 		corner: false
 		dev: false
-		height: 2.0d
+		height: 3.0d
 		hover: [ ]
 		image: "techev:textures/misc/quests/progression.png"
 		rotation: 0.0d
-		width: 12.3974359d
-		x: 7.5d
-		y: -5.0d
+		width: 20.959044368600683d
+		x: 10.5d
+		y: -5.5d
 	}]
 	order_index: 0
 	quest_links: [
@@ -40,7 +40,16 @@
 			linked_quest: "6010F0FDE1BB66D2"
 			shape: "octagon"
 			size: 3.0d
+			title: "&lAtomic Pressure"
 			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "5BA75DBC164C9E09"
+			linked_quest: "17EF25D3C6DDC834"
+			shape: "octagon"
+			size: 3.0d
+			x: 19.5d
 			y: 0.0d
 		}
 	]
@@ -71,7 +80,7 @@
 				title: "Checkmark"
 				type: "checkmark"
 			}]
-			title: "Exploring World"
+			title: "&lExploring World"
 			x: 3.0d
 			y: 1.5d
 		}
@@ -95,7 +104,7 @@
 				title: "Checkmark"
 				type: "checkmark"
 			}]
-			title: "Farmer's Life"
+			title: "&lFarmer's Life"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -119,7 +128,7 @@
 				title: "Checkmark"
 				type: "checkmark"
 			}]
-			title: "Create"
+			title: "&lCreate"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -146,7 +155,7 @@
 				id: "4D79485F9CD731CF"
 				type: "checkmark"
 			}]
-			title: "Create Addons"
+			title: "&lCreate Addons"
 			x: 7.5d
 			y: -2.25d
 		}
@@ -169,7 +178,7 @@
 				id: "003657112C515986"
 				type: "checkmark"
 			}]
-			title: "Immersive Engineering"
+			title: "&lImmersive Engineering"
 			x: 9.0d
 			y: -1.5d
 		}
@@ -192,7 +201,7 @@
 				id: "699DEC85CD9007C2"
 				type: "checkmark"
 			}]
-			title: "Simple Storage"
+			title: "&lSimple Storage"
 			x: 9.75d
 			y: 0.0d
 		}
@@ -215,7 +224,7 @@
 				id: "3897AC45A61FEE3D"
 				type: "checkmark"
 			}]
-			title: "Farmer's Life | Part 2"
+			title: "&lFarmer's Life | Part 2"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -238,7 +247,7 @@
 				id: "55272ECE75F73C61"
 				type: "checkmark"
 			}]
-			title: "Twilight Forest"
+			title: "&lTwilight Forest"
 			x: 9.0d
 			y: 1.5d
 		}
@@ -261,7 +270,7 @@
 				id: "79AC59726070678D"
 				type: "checkmark"
 			}]
-			title: "Little Additions"
+			title: "&lLittle Additions"
 			x: 5.25d
 			y: 0.0d
 		}
@@ -284,7 +293,7 @@
 				id: "78C302D3DE263D61"
 				type: "checkmark"
 			}]
-			title: "Ars Nouveau"
+			title: "&lArs Nouveau"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -308,8 +317,125 @@
 				title: "Checkmark"
 				type: "checkmark"
 			}]
-			title: "Eidolon"
+			title: "&lEidolon"
 			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			id: "5BE12E09C779B5DE"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"PneumaticCraft\"."
+			tasks: [{
+				id: "131DBC2E91A5E0B6"
+				type: "checkmark"
+			}]
+			title: "&lPneumaticCraft"
+			x: 11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			id: "3408F9A7CC95DC52"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Nature's Aura\"."
+			tasks: [{
+				id: "07FCCC8758EC4376"
+				type: "checkmark"
+			}]
+			title: "&lNature's Aura"
+			x: 15.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			id: "2DF9E53AFCE91BF6"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Blue Skies\"."
+			tasks: [{
+				id: "48B327DADB5115ED"
+				type: "checkmark"
+			}]
+			title: "&lBlue Skies"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6010F0FDE1BB66D2"
+				"1B002EF1BA364EA3"
+			]
+			icon: "industrialforegoing:mycelial_reactor"
+			id: "07D58D719A1ABC37"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Industrial Foregoing\"."
+			tasks: [{
+				id: "003252462074C6CE"
+				type: "checkmark"
+			}]
+			title: "&lIndustrial Foregoing"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			id: "6CCA6E2A5E8A8A7D"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Occultism\"."
+			tasks: [{
+				id: "75D5DFD2DC6D679A"
+				type: "checkmark"
+			}]
+			title: "&lOccultism"
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"6010F0FDE1BB66D2"
+				"2F342EBE5B903991"
+			]
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+			id: "7EAC7C10DF276AB9"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Forbidden And Arcanus\"."
+			tasks: [{
+				id: "5AF99B431439460E"
+				type: "checkmark"
+			}]
+			title: "&lForbidden And Arcanus"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "scannable:items/scanner"
+				}
+			}
+			id: "69C5CE8627813144"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Useful Tools\"."
+			tasks: [{
+				id: "19F19EDA78FCCCAF"
+				type: "checkmark"
+			}]
+			title: "&lUseful Tools"
+			x: 15.0d
 			y: 1.5d
 		}
 	]

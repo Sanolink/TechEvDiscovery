@@ -294,7 +294,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -857,5 +857,5 @@
 			y: 3.0d
 		}
 	]
-	title: "&l[AllTheOres]"
+	title: "&l[Main Ores]"
 }

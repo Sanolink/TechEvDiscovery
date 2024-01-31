@@ -3,10 +3,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-    
-    event.remove({ output: '#botanypots:all_botany_pots'})
-
     //Recipes
     const recipes = [
         //Botany Pot

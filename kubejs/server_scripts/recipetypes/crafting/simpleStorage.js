@@ -3,11 +3,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-    event.remove({ output: 'storagenetwork:inventory_remote', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'storagenetwork:crafting_remote', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'storagenetwork:master', type: 'minecraft:crafting_shaped' })
-    
     //Recipes
     const recipes = [
         //Storage ?etwork Root

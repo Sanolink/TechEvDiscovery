@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "2F512FC162451D63"
+	icon: "naturesaura:gold_leaf"
+	id: "0147650AA54DBEFB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5946877842B7C1FB"]
+			id: "1B66E02D35803760"
+			tasks: [{
+				id: "5624AB0D34C4C554"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C14213DE46B34B6"]
+			description: ["{image:techev:textures/misc/quests/naturesaura/offering_to_the_gods.png width:256 height:144 align:1 fit:true}"]
+			id: "755A3B2A7DA0F100"
+			tasks: [{
+				id: "12356B0CC57BAE4A"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["606B333454009F06"]
+			id: "4C14213DE46B34B6"
+			tasks: [{
+				id: "5DA8001D363DE2A8"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B66E02D35803760"]
+			description: ["{image:techev:textures/misc/quests/naturesaura/ritual_of_the_forest.png width:256 height:144 align:1}"]
+			id: "5AF05D57169D2B92"
+			tasks: [{
+				id: "2B0A7501103313ED"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AF05D57169D2B92"]
+			id: "606B333454009F06"
+			tasks: [{
+				id: "5A0C8C76D4CDBC3D"
+				item: "naturesaura:token_joy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+	]
+	title: "Nature's Aura"
+}

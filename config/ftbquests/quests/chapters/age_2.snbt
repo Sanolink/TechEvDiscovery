@@ -19,7 +19,7 @@
 			id: "44709D6F12C34E28"
 			linked_quest: "52BBDA297A691EF4"
 			x: 3.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			id: "2F65BC680AD45CA8"
@@ -42,7 +42,7 @@
 		{
 			id: "47DA6BCAB5140E92"
 			linked_quest: "7DC4822B59B7CD59"
-			x: 1.5d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -54,8 +54,16 @@
 		{
 			id: "4FE0A94B61C6A76A"
 			linked_quest: "402DD03144304651"
-			x: 2.0d
+			x: 1.5d
 			y: 2.0d
+		}
+		{
+			id: "04F87FDC051B886F"
+			linked_quest: "6010F0FDE1BB66D2"
+			shape: "octagon"
+			size: 2.0d
+			x: 0.0d
+			y: 7.0d
 		}
 	]
 	quests: [
@@ -171,8 +179,8 @@
 				type: "item"
 			}]
 			title: "&lBrass Dust"
-			x: 3.0d
-			y: 3.5d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["52BBDA297A691EF4"]
@@ -206,27 +214,6 @@
 			title: "&lSource Tube"
 			x: 0.0d
 			y: 2.5d
-		}
-		{
-			dependencies: ["4A4B2D534D4FF6DA"]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "relics:textures/hud/abilities/widgets/icons/locked.png"
-				}
-			}
-			id: "6010F0FDE1BB66D2"
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "Soon, in 1.2.0 !"
-			tasks: [{
-				id: "4606CBFE6E1F36D3"
-				title: "WIP : Age 3"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 7.0d
 		}
 	]
 	title: "Chapter 2"

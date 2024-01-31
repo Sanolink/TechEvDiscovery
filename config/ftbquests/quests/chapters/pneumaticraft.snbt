@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticraft"
+	group: "2F512FC162451D63"
+	icon: "pneumaticcraft:pressure_gauge"
+	id: "604E5E7B77472E38"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "PneumaticCraft"
+}

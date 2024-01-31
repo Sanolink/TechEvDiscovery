@@ -3,10 +3,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-    event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })
-    
     //Recipes
     const recipes = [
         //Experience Bottle

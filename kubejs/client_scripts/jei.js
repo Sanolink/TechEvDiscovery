@@ -12,7 +12,7 @@ JEIEvents.hideItems(event => {
         'aquaculture:gold_fillet_knife',
         'aquaculture:diamond_fillet_knife',
         //Ores
-        'eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore',
+        'eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore', 'occultism:silver_ore',
         'eidolon:lead_ore', 'immersiveengineering:ore_lead', 
         'immersiveengineering:ore_uranium', 
         'immersiveengineering:ore_nickel', 
@@ -20,14 +20,14 @@ JEIEvents.hideItems(event => {
         'create:zinc_ore', 
         'iceandfire:sapphire_ore',
         //Deepslate Ores
-        'eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore',
+        'eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore', 'occultism:silver_ore_deepslate',
         'eidolon:deep_lead_ore', 'immersiveengineering:deepslate_ore_lead',
         'immersiveengineering:deepslate_ore_uranium', 
         'immersiveengineering:deepslate_ore_nickel', 
         'immersiveengineering:deepslate_ore_aluminum',
         'create:deepslate_zinc_ore', 
         //Raw Materials
-        'eidolon:raw_silver', 'immersiveengineering:raw_silver', 'darkerdepths:raw_silver',
+        'eidolon:raw_silver', 'immersiveengineering:raw_silver', 'darkerdepths:raw_silver', 'occultism:raw_silver',
         'eidolon:raw_lead', 'immersiveengineering:raw_lead', 
         'immersiveengineering:raw_uranium', 
         'immersiveengineering:raw_nickel', 
@@ -42,7 +42,7 @@ JEIEvents.hideItems(event => {
         'create:raw_zinc_block', 
         'iceandfire:sapphire_block',
         //Ingots
-        'eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot', 'iceandfire:silver_ingot',
+        'eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot', 'iceandfire:silver_ingot', 'occultism:silver_ingot',
         'eidolon:lead_ingot', 'immersiveengineering:ingot_lead', 
         'immersiveengineering:ingot_constantan', 
         'immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot', 
@@ -67,6 +67,9 @@ JEIEvents.hideItems(event => {
         'createdeco:zinc_sheet', 'createaddition:zinc_sheet', 
         'create:brass_sheet', 
         //Gears
+        'industrialforegoing:iron_gear',
+        'industrialforegoing:gold_gear',
+        'industrialforegoing:diamond_gear',
         //Rods
         'immersiveengineering:stick_iron', 'createaddition:iron_rod', 
         'immersiveengineering:stick_aluminum', 
@@ -81,14 +84,14 @@ JEIEvents.hideItems(event => {
         'immersiveengineering:nugget_nickel', 
         'immersiveengineering:nugget_steel', 
         'immersiveengineering:nugget_aluminum', 
-        'immersiveengineering:nugget_silver', 'eidolon:silver_nugget', 'iceandfire:silver_nugget',
+        'immersiveengineering:nugget_silver', 'eidolon:silver_nugget', 'iceandfire:silver_nugget', 'occultism:silver_nugget',
         'immersiveengineering:nugget_lead', 'eidolon:lead_nugget', 
         'immersiveengineering:nugget_electrum', 'createaddition:electrum_nugget', 
         'immersiveengineering:nugget_copper', 'create:copper_nugget', 'iceandfire:copper_nugget',
         'create:zinc_nugget', 
         'create:brass_nugget',
         //Dusts
-        'immersiveengineering:dust_silver', 
+        'immersiveengineering:dust_silver', 'occultism:silver_dust',
         'immersiveengineering:dust_nickel', 
         'immersiveengineering:dust_uranium', 
         'immersiveengineering:dust_constantan', 
@@ -108,7 +111,7 @@ JEIEvents.hideItems(event => {
         'immersiveengineering:storage_nickel', 
         'immersiveengineering:storage_aluminum', 
         'immersiveengineering:storage_lead', 'eidolon:lead_block', 
-        'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block', 'iceandfire:silver_block',
+        'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block', 'iceandfire:silver_block', 'occultism:silver_block',
         'immersiveengineering:storage_steel',
         'create:zinc_block', 
         'create:brass_block', 
@@ -120,7 +123,8 @@ JEIEvents.hideItems(event => {
         //Others
         'sushigocrafting:rice',
         'sushigocrafting:rice_seeds',
-        'bhc:wither_bone'
+        'bhc:wither_bone',
+        'industrialforegoing:plastic'
     ])
 })
 

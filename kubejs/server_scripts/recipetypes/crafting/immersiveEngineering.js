@@ -3,23 +3,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-    event.remove({ id: 'immersiveengineering:crafting/stick_iron'})
-    event.remove({ id: 'immersiveengineering:crafting/stick_aluminum'})
-    event.remove({ id: 'immersiveengineering:crafting/stick_steel'})
-    event.remove({ id: 'immersiveengineering:crafting/treated_wood_horizontal'})
-    event.remove({ id: 'immersiveengineering:crafting/component_iron'})
-    event.remove({ id: 'immersiveengineering:crafting/component_steel'})
-    event.remove({ id: 'immersiveengineering:crafting/radiator'})
-    event.remove({ id: 'immersiveengineering:crafting/rs_engineering'})
-    event.remove({ id: 'immersiveengineering:crafting/light_engineering'})
-    event.remove({ id: 'immersiveengineering:crafting/heavy_engineering'})
-    event.remove({ input: 'immersiveengineering:hammer', output: "#forge:plates" })
-    event.remove({ input: 'immersiveengineering:hammer', output: "#forge:dusts" })
-    event.remove({ input: 'immersiveengineering:wirecutter', output: '#forge:wires', type: 'minecraft:crafting_shapeless' })
-    event.remove({ output: 'immersiveengineering:hammer', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'immersiveengineering:wirecutter', type: 'minecraft:crafting_shaped' })
-
     //Recipes
 
     const recipes = [

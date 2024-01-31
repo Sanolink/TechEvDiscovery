@@ -2,11 +2,6 @@
 //Last Modification : 1.1.0
 
 ServerEvents.recipes(event => {
-
-    //Remove
-    event.remove({ output: 'farmersdelight:iron_knife'})
-    event.remove({ output: 'farmersdelight:golden_knife'})
-    event.remove({ output: 'farmersdelight:diamond_knife'})
     
     //Recipes
     const shapeless = [

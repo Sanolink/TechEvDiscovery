@@ -29,4 +29,6 @@ StartupEvents.registry('item', e => {
     e.create('kubejs:raw_auricargentum').displayName("Raw Auricargentum")
     e.create('kubejs:raw_uratinumal').displayName("Raw Uratinumal")
     e.create('kubejs:raw_leadosnite').displayName("Raw Leadosnite")
+    e.create('kubejs:compressed_iron_bottle').displayName("Compressed Bottle")
+    e.create('kubejs:flowing_time').displayName("Flowing Time")
   })

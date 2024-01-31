@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:item_exists",
+              "item": "industrialforegoing:machine_frame_pity"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "S": {
+            "item": "immersiveengineering:component_steel"
+          },
+          "C": {
+            "item": "pneumaticcraft:printed_circuit_board"
+          },
+          "P": {
+            "item": "pneumaticcraft:plastic"
+          },
+          "W": {
+            "tag": "minecraft:logs"
+          }
+        },
+        "pattern": [
+          "WPW",
+          "SCS",
+          "WPW"
+        ],
+        "result": {
+          "item": "industrialforegoing:machine_frame_pity"
+        }
+      }
+    }
+  ]
+}

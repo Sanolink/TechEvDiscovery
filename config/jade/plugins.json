@@ -49,6 +49,14 @@
   "tombstone": {
     "graves": true
   },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
   "immersiveengineering": {
     "hemp": true,
     "multiblock_icon": true
@@ -77,6 +85,9 @@
   },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "pipez": {
+    "pipe": true
   },
   "twilightforest": {
     "quest_ram_wool": true

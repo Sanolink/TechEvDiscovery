@@ -11,12 +11,12 @@
 			id: "2BAD82E5B83D6897"
 			linked_quest: "51FFFF2CF850F4FF"
 			x: -1.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			id: "71A199D43F52D39C"
 			linked_quest: "437330C57BA2C14D"
-			x: -1.0d
+			x: -0.5d
 			y: 5.0d
 		}
 		{
@@ -141,7 +141,7 @@
 				title: "Checkmark"
 				type: "checkmark"
 			}]
-			title: "&lShock Therapy"
+			title: "&a&lShock Therapy"
 			x: 0.0d
 			y: 7.0d
 		}
@@ -162,7 +162,7 @@
 				id: "0E619717F1B9964D"
 				type: "checkmark"
 			}]
-			title: "&lFirst Discovery"
+			title: "&e&lFirst Discovery"
 			x: 0.0d
 			y: 0.0d
 		}

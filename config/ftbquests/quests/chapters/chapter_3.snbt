@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3"
+	group: "0EBC8803CE24B703"
+	icon: "forbidden_arcanus:sanity_meter"
+	id: "11ECDCCB52C384EE"
+	order_index: 3
+	quest_links: [{
+		id: "518493AB015F83F4"
+		linked_quest: "021C8ADC6E826A70"
+		x: 1.0d
+		y: 5.5d
+	}]
+	quests: [
+		{
+			dependencies: ["03F1739AF4FA589A"]
+			icon: "forbidden_arcanus:sanity_meter"
+			id: "6010F0FDE1BB66D2"
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Welcome to Age 3 !"
+			tasks: [{
+				id: "4606CBFE6E1F36D3"
+				type: "checkmark"
+			}]
+			title: "&b&lAtomic Pressure"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A4B2D534D4FF6DA"
+				"124EB53C169A26C8"
+			]
+			icon: "kubejs:techevium"
+			id: "17EF25D3C6DDC834"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Soon, in 1.3.0 !"
+			tasks: [{
+				id: "7004D50CDC3D28DC"
+				title: "WIP : Age 4"
+				type: "checkmark"
+			}]
+			title: "WIP : Age 4"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "scannable:items/scanner"
+				}
+			}
+			id: "734126CF0607FDF9"
+			shape: "gear"
+			tasks: [{
+				id: "6BA0D96A412DA828"
+				type: "checkmark"
+			}]
+			title: "&lUseful Items"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6ECBD65939EE7C31"]
+			icon: "naturesaura:gold_leaf"
+			id: "5946877842B7C1FB"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "470573E14CFEADE1"
+				type: "checkmark"
+			}]
+			title: "&lNature's Aura"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47BB9E023D72E19B"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "blue_skies:item/misc/portal_mix"
+				}
+			}
+			id: "2D931C4CCF31F45F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3A491DCF36FCA12C"
+				type: "checkmark"
+			}]
+			title: "&lBlue Skies"
+			x: -2.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19507A4268E90877"]
+			icon: "pneumaticcraft:pressure_gauge"
+			id: "1781F5D77C9E2B40"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "587E18DBBA919C7D"
+				type: "checkmark"
+			}]
+			title: "&lPneumaticCraft"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21BA37ED6A48D42C"]
+			icon: "industrialforegoing:machine_frame_advanced"
+			id: "52EB483AC345154B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2A64E8B975569BA6"
+				type: "checkmark"
+			}]
+			title: "&lIndustrial Foregoing"
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"05B769CEC761E0A2"
+				"5826966FA272FEB0"
+				"021C8ADC6E826A70"
+			]
+			icon: {
+				Count: 1b
+				id: "occultism:dictionary_of_spirits"
+				tag: {
+					"modonomicon:book_id": "occultism:dictionary_of_spirits"
+				}
+			}
+			id: "124EB53C169A26C8"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "452D6C389C47C5D8"
+				type: "checkmark"
+			}]
+			title: "&lOccultism"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			icon: "forbidden_arcanus:corrupt_soul"
+			id: "72A33654EB1EEF21"
+			shape: "gear"
+			tasks: [{
+				id: "69E3B43BF4A9EEB9"
+				type: "checkmark"
+			}]
+			title: "&lForbidden And Arcanus"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0DA6FDB7B29BE94B"
+				"6010F0FDE1BB66D2"
+			]
+			id: "19507A4268E90877"
+			tasks: [{
+				id: "0FF643CA7D414DF0"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			id: "6ECBD65939EE7C31"
+			tasks: [{
+				id: "1712313F2549EB3F"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1781F5D77C9E2B40"]
+			id: "21BA37ED6A48D42C"
+			tasks: [{
+				id: "69D8201FDFD24E27"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5946877842B7C1FB"]
+			id: "47BB9E023D72E19B"
+			tasks: [{
+				id: "360D72AD12B6CBC7"
+				item: {
+					Count: 1b
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2D931C4CCF31F45F"]
+			id: "05B769CEC761E0A2"
+			tasks: [
+				{
+					id: "6DEF85149A1E3B1B"
+					item: "blue_skies:lunar_stone"
+					type: "item"
+				}
+				{
+					id: "69DB9D5306D8F4E0"
+					item: "blue_skies:bluebright_sapling"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5946877842B7C1FB"]
+			id: "5826966FA272FEB0"
+			tasks: [{
+				id: "0CB0B4FBCD77709F"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "Chapter 3"
+}

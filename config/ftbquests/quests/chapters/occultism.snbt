@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "2F512FC162451D63"
+	icon: {
+		Count: 1b
+		id: "occultism:dictionary_of_spirits"
+		tag: {
+			"modonomicon:book_id": "occultism:dictionary_of_spirits"
+		}
+	}
+	id: "1EB935DAAA7A6D06"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Occultism"
+}

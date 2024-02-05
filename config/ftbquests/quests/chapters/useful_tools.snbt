@@ -15,6 +15,7 @@
 	quest_links: [{
 		id: "553473787BC16A54"
 		linked_quest: "6D9403738042644F"
+		shape: "gear"
 		x: 0.0d
 		y: 1.5d
 	}]
@@ -155,37 +156,29 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["53E03BB14E1E066A"]
+			dependencies: ["734126CF0607FDF9"]
 			id: "3FF87FCED071D5E4"
-			tasks: [{
-				id: "77EE7FEAE50A4A1A"
-				item: "enderstorage:ender_chest"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["53E03BB14E1E066A"]
-			id: "124FAAA7497A0F33"
-			tasks: [{
-				id: "39AAC48DB8F62E18"
-				item: "enderstorage:ender_tank"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["53E03BB14E1E066A"]
-			id: "031317E4B6E67B07"
-			tasks: [{
-				id: "6013A8C8C4CE99B1"
-				item: "enderstorage:ender_pouch"
-				type: "item"
-			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "77EE7FEAE50A4A1A"
+					item: "enderstorage:ender_chest"
+					type: "item"
+				}
+				{
+					id: "2162C4C30F0E5E7C"
+					item: "enderstorage:ender_tank"
+					type: "item"
+				}
+				{
+					id: "50FB3A27028848BE"
+					item: "enderstorage:ender_pouch"
+					type: "item"
+				}
+			]
 			x: 4.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
@@ -303,19 +296,6 @@
 			}]
 			x: -5.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["734126CF0607FDF9"]
-			id: "53E03BB14E1E066A"
-			shape: "pentagon"
-			size: 2.0d
-			tasks: [{
-				id: "1EA0CBA38DB947B7"
-				item: "minecraft:ender_chest"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]

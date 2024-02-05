@@ -69,6 +69,7 @@
 				}
 				type: "item"
 			}]
+			title: "&b&lBlue &c&lSkies"
 			x: -1.0d
 			y: -3.0d
 		}
@@ -115,8 +116,8 @@
 				item: "blue_skies:falsite_ingot"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["30E09173A7D785C1"]

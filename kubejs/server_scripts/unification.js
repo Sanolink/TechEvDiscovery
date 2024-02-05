@@ -96,15 +96,16 @@ ServerEvents.recipes(e => {
     ['#forge:dusts/silver', 'immersiveengineering:dust_silver', 'occultism:silver_dust'].forEach(I => {replaceIO(I, 'alltheores:silver_dust')});
     ['#forge:dusts/lead', 'immersiveengineering:dust_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_dust')});
     ['#forge:dusts/aluminum', 'immersiveengineering:dust_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_dust')});
-    ['#forge:dusts/copper', 'immersiveengineering:dust_copper'].forEach(I => {replaceIO(I, 'alltheores:copper_dust')});
-    ['#forge:dusts/gold', 'immersiveengineering:dust_gold'].forEach(I => {replaceIO(I, 'alltheores:gold_dust')});
-    ['#forge:dusts/iron', 'immersiveengineering:dust_iron'].forEach(I => {replaceIO(I, 'alltheores:iron_dust')});
+    ['#forge:dusts/copper', 'immersiveengineering:dust_copper', 'occultism:copper_dust'].forEach(I => {replaceIO(I, 'alltheores:copper_dust')});
+    ['#forge:dusts/gold', 'immersiveengineering:dust_gold', 'occultism:gold_dust'].forEach(I => {replaceIO(I, 'alltheores:gold_dust')});
+    ['#forge:dusts/iron', 'immersiveengineering:dust_iron', 'occultism:iron_dust'].forEach(I => {replaceIO(I, 'alltheores:iron_dust')});
     ['#forge:dusts/steel', 'immersiveengineering:dust_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_dust')});
     ['#forge:dusts/electrum', 'immersiveengineering:dust_electrum'].forEach(I => {replaceIO(I, 'alltheores:electrum_dust')});
     ['#forge:dusts/constantan', 'immersiveengineering:dust_constantan'].forEach(I => {replaceIO(I, 'alltheores:constantan_dust')});
     ['#forge:dusts/uranium', 'immersiveengineering:dust_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_dust')});
     ['#forge:dusts/sulfur', 'immersiveengineering:dust_sulfur'].forEach(I => {replaceIO(I, 'eidolon:sulfur')});
     ['#forge:dusts/diamond', 'createaddition:diamond_grit'].forEach(I => {replaceIO(I, 'alltheores:diamond_dust')});
+    ['#forge:dusts/obsidian', 'occultism:obsidian_dust'].forEach(I => {replaceIO(I, 'create:powdered_obsidian')});
     //Blocks
     ['#forge:storage_blocks/brass', 'create:brass_block'].forEach(I => {replaceIO(I, 'alltheores:brass_block')});
     ['#forge:storage_blocks/zinc', 'create:zinc_block'].forEach(I => {replaceIO(I, 'alltheores:zinc_block')});
@@ -235,6 +236,13 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'occultism:smelting/silver_ingot'})
     e.remove({ id: 'occultism:blasting/silver_ingot_from_dust'})
     e.remove({ id: 'occultism:smelting/silver_ingot_from_dust'})
+    e.remove({ id: 'occultism:blasting/iron_ingot_from_dust'})
+    e.remove({ id: 'occultism:smelting/iron_ingot_from_dust'})
+    e.remove({ id: 'occultism:blasting/gold_ingot_from_dust'})
+    e.remove({ id: 'occultism:smelting/gold_ingot_from_dust'})
+    e.remove({ id: 'occultism:blasting/copper_ingot_from_dust'})
+    e.remove({ id: 'occultism:smelting/copper_ingot_from_dust'})
+    
     //Add Unified SMELTING Recipes
     const SMELT_ORES = ["gold", "copper", "iron", "platinum", "tin", "aluminum", "uranium", "nickel", "silver", "lead", "osmium", "iridium", "zinc"]
     const SMELT_DUSTS = ["tin", "uranium", "lead", "osmium"]

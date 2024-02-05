@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.2
+//Last Modification : 1.2.0
 
 JEIEvents.hideItems(event => {
 
@@ -97,13 +97,14 @@ JEIEvents.hideItems(event => {
         'immersiveengineering:dust_constantan', 
         'immersiveengineering:dust_electrum', 
         'immersiveengineering:dust_steel', 
-        'immersiveengineering:dust_iron', 
-        'immersiveengineering:dust_gold', 
+        'immersiveengineering:dust_iron', 'occultism:iron_dust',
+        'immersiveengineering:dust_gold', 'occultism:gold_dust',
         'immersiveengineering:dust_sulfur', 
-        'immersiveengineering:dust_copper', 
+        'immersiveengineering:dust_copper', 'occultism:copper_dust',
         'immersiveengineering:dust_aluminum', 
         'immersiveengineering:dust_lead',
         'createaddition:diamond_grit', 
+        'occultism:obsidian_dust',
         //Blocks
         'immersiveengineering:storage_electrum', 
         'immersiveengineering:storage_constantan', 

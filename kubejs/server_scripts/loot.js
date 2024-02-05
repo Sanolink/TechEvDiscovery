@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.2
+//Last Modification : 1.2.0
 
 /*********************************************/
 //THIRD FILE OF UNIFICATION, PLEASE DON'T TOUCH
@@ -107,15 +107,16 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:dusts/silver', 'immersiveengineering:dust_silver', 'occultism:silver_dust'], 'alltheores:silver_dust')
     replaceLT(['#forge:dusts/lead', 'immersiveengineering:dust_lead'], 'alltheores:lead_dust')
     replaceLT(['#forge:dusts/aluminum', 'immersiveengineering:dust_aluminum'], 'alltheores:aluminum_dust')
-    replaceLT(['#forge:dusts/copper', 'immersiveengineering:dust_copper'], 'alltheores:copper_dust')
-    replaceLT(['#forge:dusts/gold', 'immersiveengineering:dust_gold'], 'alltheores:gold_dust')
-    replaceLT(['#forge:dusts/iron', 'immersiveengineering:dust_iron'], 'alltheores:iron_dust')
+    replaceLT(['#forge:dusts/copper', 'immersiveengineering:dust_copper', 'occultism:copper_dust'], 'alltheores:copper_dust')
+    replaceLT(['#forge:dusts/gold', 'immersiveengineering:dust_gold', 'occultism:gold_dust'], 'alltheores:gold_dust')
+    replaceLT(['#forge:dusts/iron', 'immersiveengineering:dust_iron', 'occultism:iron_dust'], 'alltheores:iron_dust')
     replaceLT(['#forge:dusts/steel', 'immersiveengineering:dust_steel'], 'alltheores:steel_dust')
     replaceLT(['#forge:dusts/electrum', 'immersiveengineering:dust_electrum'], 'alltheores:electrum_dust')
     replaceLT(['#forge:dusts/constantan', 'immersiveengineering:dust_constantan'], 'alltheores:constantan_dust')
     replaceLT(['#forge:dusts/uranium', 'immersiveengineering:dust_uranium'], 'alltheores:uranium_dust')
     replaceLT(['#forge:dusts/sulfur', 'immersiveengineering:dust_sulfur'], 'eidolon:sulfur')
     replaceLT(['#forge:dusts/diamond', 'createaddition:diamond_grit'], 'alltheores:diamond_dust')
+    replaceLT(['#forge:dusts/obsidian', 'occultism:obsidian_dust'], 'occultism:obsidian_dust')
     //Blocks
     replaceLT(['#forge:storage_blocks/brass', 'create:brass_block'], 'alltheores:brass_block')
     replaceLT(['#forge:storage_blocks/zinc', 'create:zinc_block'], 'alltheores:zinc_block')

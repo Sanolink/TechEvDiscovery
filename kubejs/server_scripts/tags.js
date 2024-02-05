@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+//Last Modification : 1.2.0
 
 /*********************************************/
 //SECOND FILE OF UNIFICATION, PLEASE DON'T TOUCH
@@ -91,15 +91,16 @@ ServerEvents.tags('item', e => {
     e.remove('forge:dusts/silver', 'immersiveengineering:dust_silver', 'occultism:silver_dust')
     e.remove('forge:dusts/lead', 'immersiveengineering:dust_lead')
     e.remove('forge:dusts/aluminum', 'immersiveengineering:dust_aluminum')
-    e.remove('forge:dusts/copper', 'immersiveengineering:dust_copper')
-    e.remove('forge:dusts/gold', 'immersiveengineering:dust_gold')
-    e.remove('forge:dusts/iron', 'immersiveengineering:dust_iron')
+    e.remove('forge:dusts/copper', 'immersiveengineering:dust_copper', 'occultism:copper_dust')
+    e.remove('forge:dusts/gold', 'immersiveengineering:dust_gold', 'occultism:gold_dust')
+    e.remove('forge:dusts/iron', 'immersiveengineering:dust_iron', 'occultism:iron_dust')
     e.remove('forge:dusts/steel', 'immersiveengineering:dust_steel')
     e.remove('forge:dusts/electrum', 'immersiveengineering:sdustelectrum')
     e.remove('forge:dusts/constantan', 'immersiveengineering:dust_constantan')
     e.remove('forge:dusts/uranium', 'immersiveengineering:dust_uranium')
     e.remove('forge:dusts/sulfur', 'immersiveengineering:dust_sulfur')
     e.remove('forge:dusts/diamond', 'createaddition:diamond_grit')
+    e.remove('forge:dusts/obsidian', 'occultism:obsidian_dust')
     //Blocks
     e.remove('forge:storage_blocks/brass', 'create:brass_block')
     e.remove('forge:storage_blocks/zinc', 'create:zinc_block')
@@ -122,7 +123,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:plastic', 'industrialforegoing:plastic')
 
     /*********************OTHERS**************************/
-
+    e.remove('pneumaticcraft:upgrade_components', 'minecraft:lapis_lazuli')
 
     /********************DISABLE**************************/
     const DISABLED_ITEMS = [

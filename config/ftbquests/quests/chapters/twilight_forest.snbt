@@ -82,7 +82,7 @@
 					type: "item"
 				}
 			]
-			title: "&lPortal Base"
+			title: "&l&aPortal Base"
 			x: -2.0d
 			y: -1.0d
 		}
@@ -115,7 +115,7 @@
 					type: "dimension"
 				}
 			]
-			title: "&lEnter The Twilight Forest"
+			title: "&l&2Enter The Twilight Forest"
 			x: 0.0d
 			y: -1.0d
 		}

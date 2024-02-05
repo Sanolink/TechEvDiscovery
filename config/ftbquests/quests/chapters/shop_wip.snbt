@@ -110,7 +110,7 @@
 				type: "item"
 			}]
 			title: "Choice Relic"
-			x: -7.0d
+			x: -14.0d
 			y: -2.0d
 		}
 		{
@@ -153,7 +153,7 @@
 				type: "item"
 			}]
 			title: "Random Relic"
-			x: 7.0d
+			x: 14.0d
 			y: -2.0d
 		}
 		{
@@ -180,7 +180,7 @@
 				type: "item"
 			}]
 			title: "Choice Artifact"
-			x: -9.0d
+			x: -15.0d
 			y: 0.0d
 		}
 		{
@@ -208,7 +208,7 @@
 				type: "item"
 			}]
 			title: "Random Artifact"
-			x: 9.0d
+			x: 15.0d
 			y: 0.0d
 		}
 	]

@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
                 pressure: recipe.pressure,
                 results: recipe.results
             })
-            .id("pneumaticcraft/pressure_chamber" + recipe.id)
+            .id("pneumaticcraft:pressure_chamber/" + recipe.id)
     });
 
 })

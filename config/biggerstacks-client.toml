@@ -2,7 +2,7 @@
 #Enable number shortening. E.g. 1000000 becomes 1M.
 "Enable number shortening" = true
 #Disables warning for stack size that is potentially wrong due to behaviour changes.
-"STFU Warning" = false
+"STFU Warning" = true
 #The colour of the exact count tooltip shown on items.
 #Available colours (case insensitive):
 #aqua,

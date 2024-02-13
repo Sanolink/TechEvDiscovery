@@ -1,0 +1,27 @@
+{
+	icon: "sushigocrafting:tobiko_salmon_california"
+	id: "697E0F00E0E2D8AB"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 64, item: "sushigocrafting:tobiko_tuna_cucumber_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tuna_cucumber_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tobiko_tuna_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tuna_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tobiko_tuna_cheese_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tuna_cheese_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tobiko_salmon_cucumber_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:salmon_cucumber_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tobiko_salmon_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:salmon_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tobiko_salmon_cheese_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:salmon_cheese_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tobiko_crab_cucumber_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:crab_cucumber_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tobiko_crab_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:crab_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:tobiko_crab_cheese_california", random_bonus: 32 }
+		{ count: 64, item: "sushigocrafting:crab_cheese_california", random_bonus: 32 }
+	]
+	title: "Sushi"
+}

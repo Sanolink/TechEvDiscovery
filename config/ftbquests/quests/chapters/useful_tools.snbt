@@ -11,13 +11,25 @@
 		}
 	}
 	id: "1D2D1EA4F21D239E"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "scannable:items/range_module"
+		rotation: 0.0d
+		width: 3.0d
+		x: -7.5d
+		y: -2.5d
+	}]
 	order_index: 6
 	quest_links: [{
 		id: "553473787BC16A54"
 		linked_quest: "6D9403738042644F"
 		shape: "gear"
-		x: 0.0d
-		y: 1.5d
+		x: -7.5d
+		y: 4.5d
 	}]
 	quests: [
 		{
@@ -33,8 +45,8 @@
 				item: "scannable:scanner"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["573B8F8CC887970D"]
@@ -46,8 +58,8 @@
 				item: "scannable:blank_module"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
@@ -57,8 +69,8 @@
 				item: "scannable:range_module"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: -6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
@@ -68,8 +80,8 @@
 				item: "scannable:entity_module"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
@@ -79,8 +91,8 @@
 				item: "scannable:friendly_entity_module"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
@@ -91,8 +103,8 @@
 				item: "scannable:hostile_entity_module"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
@@ -102,8 +114,8 @@
 				item: "scannable:block_module"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
@@ -113,8 +125,8 @@
 				item: "scannable:common_ores_module"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: -8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
@@ -124,8 +136,8 @@
 				item: "scannable:rare_ores_module"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: -8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
@@ -135,8 +147,8 @@
 				item: "scannable:fluid_module"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["00860396C421A15A"]
@@ -153,7 +165,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
@@ -177,8 +189,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 2.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
@@ -190,8 +202,8 @@
 				item: "pipez:wrench"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["71DBAC81F705ACD6"]
@@ -202,8 +214,8 @@
 				item: "pipez:filter_destination_tool"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["71DBAC81F705ACD6"]
@@ -213,8 +225,8 @@
 				item: "pipez:item_pipe"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["71DBAC81F705ACD6"]
@@ -224,8 +236,8 @@
 				item: "pipez:fluid_pipe"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["71DBAC81F705ACD6"]
@@ -235,8 +247,8 @@
 				item: "pipez:energy_pipe"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -250,8 +262,8 @@
 				item: "pipez:universal_pipe"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["71DBAC81F705ACD6"]
@@ -261,8 +273,8 @@
 				item: "pipez:basic_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5EC867AA5EEB712B"]
@@ -272,8 +284,8 @@
 				item: "pipez:improved_upgrade"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7A21D6C29297A4A3"]
@@ -283,8 +295,8 @@
 				item: "pipez:advanced_upgrade"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.0d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4D2D88EAEB48AF15"]
@@ -294,20 +306,21 @@
 				item: "pipez:ultimate_upgrade"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
 			id: "7EB7CD957C0CE8D8"
 			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "79C2CB349D7C7753"
 				item: "kubejs:compressed_iron_bottle"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7EB7CD957C0CE8D8"]
@@ -319,12 +332,13 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
 			id: "38A41446F0A450F5"
-			shape: "diamond"
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "4D3AD5A3FCEBE64A"
 				item: {
@@ -342,8 +356,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
@@ -366,8 +380,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
@@ -391,7 +405,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
@@ -410,7 +424,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["73915F14C3CFE8CE"]
@@ -421,8 +435,8 @@
 				item: "buildinggadgets:construction_paste_container_t3"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
@@ -433,8 +447,8 @@
 				item: "buildinggadgets:template_manager"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7A9DCB14189A2AC6"]
@@ -456,8 +470,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C56460E3FAC5045"]
@@ -468,8 +482,8 @@
 				item: "buildinggadgets:construction_paste_container_t2"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2E76974D5F572F28"]
@@ -481,7 +495,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -3.0d
+			y: 1.0d
 		}
 	]
 	title: "Useful Tools"

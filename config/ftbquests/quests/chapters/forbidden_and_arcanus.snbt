@@ -498,17 +498,6 @@
 		{
 			dependencies: ["18AE3BA5D87C1F4D"]
 			id: "199E16FB5E618E22"
-			rewards: [{
-				count: 2
-				id: "7ECE9BADC432B3F6"
-				item: {
-					Count: 1b
-					id: "numismaticoverhaul:silver_coin"
-					tag: { }
-				}
-				random_bonus: 6
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [{
 				id: "63277085878F7D20"
@@ -829,17 +818,6 @@
 				}
 			}
 			id: "067D06CF05D543E8"
-			rewards: [{
-				count: 2
-				id: "1BA4D3577D279F63"
-				item: {
-					Count: 1b
-					id: "numismaticoverhaul:silver_coin"
-					tag: { }
-				}
-				random_bonus: 6
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [
 				{

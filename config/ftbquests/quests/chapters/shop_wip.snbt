@@ -14,7 +14,7 @@
 			hover: [ ]
 			image: "simplylight:block/black"
 			rotation: 0.0d
-			width: 1.0d
+			width: 0.5d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -42,25 +42,82 @@
 			x: 10.0d
 			y: -8.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 35.0d
+			hover: [ ]
+			image: "simplylight:block/black"
+			rotation: 0.0d
+			width: 0.5d
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 35.0d
+			hover: [ ]
+			image: "simplylight:block/black"
+			rotation: 0.0d
+			width: 0.5d
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "simplylight:block/black"
+			rotation: 0.0d
+			width: 47.19d
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "simplylight:block/black"
+			rotation: 0.0d
+			width: 47.19d
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -4.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			hide_dependent_lines: true
 			icon: "reliquary:fortune_coin"
 			id: "4628EDDBF7E3E2BE"
 			rewards: [{
-				id: "2EE50BBFC07B58D8"
-				item: {
-					Count: 1b
-					id: "numismaticoverhaul:silver_coin"
-					tag: { }
-				}
-				random_bonus: 3
+				id: "2AF72981FEA8F669"
+				item: "coinsje:gold_coin"
+				random_bonus: 1
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 3.0d
+			shape: "gear"
+			size: 5.0d
 			subtitle: "You can Buy a lot of Things here"
 			tasks: [{
 				id: "168A391849A3C6F4"
@@ -69,10 +126,11 @@
 			}]
 			title: "Welcome to the Shop !"
 			x: 0.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
 			icon: {
 				Count: 1b
 				id: "relics:space_dissector"
@@ -101,20 +159,17 @@
 			size: 2.0d
 			tasks: [{
 				consume_items: true
-				id: "09F99A006929DC37"
-				item: {
-					Count: 1b
-					id: "numismaticoverhaul:gold_coin"
-					tag: { }
-				}
+				id: "139CBDBA237B80CF"
+				item: "coinsje:iron_coin_pile"
 				type: "item"
 			}]
-			title: "Choice Relic"
-			x: -14.0d
-			y: -2.0d
+			title: "&lChoice Relic"
+			x: -11.0d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
 			icon: {
 				Count: 1b
 				id: "relics:space_dissector"
@@ -143,21 +198,18 @@
 			size: 2.0d
 			tasks: [{
 				consume_items: true
-				count: 25L
-				id: "2D433255D52FAB6A"
-				item: {
-					Count: 1b
-					id: "numismaticoverhaul:silver_coin"
-					tag: { }
-				}
+				count: 3L
+				id: "12FD33504E4EFF16"
+				item: "createdeco:iron_coin"
 				type: "item"
 			}]
-			title: "Random Relic"
-			x: 14.0d
-			y: -2.0d
+			title: "&lRandom Relic"
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
 			icon: "artifacts:mimic_spawn_egg"
 			id: "22C095AEAFA51B4F"
 			rewards: [{
@@ -171,20 +223,17 @@
 			size: 2.0d
 			tasks: [{
 				consume_items: true
-				id: "2650FAC911EEEF97"
-				item: {
-					Count: 1b
-					id: "numismaticoverhaul:gold_coin"
-					tag: { }
-				}
+				id: "33ED1F90372D3233"
+				item: "coinsje:iron_coin_pile"
 				type: "item"
 			}]
-			title: "Choice Artifact"
-			x: -15.0d
-			y: 0.0d
+			title: "&lChoice Artifact"
+			x: -9.0d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
 			icon: "artifacts:mimic_spawn_egg"
 			id: "114076847BF5DAC3"
 			rewards: [{
@@ -198,19 +247,104 @@
 			size: 2.0d
 			tasks: [{
 				consume_items: true
-				count: 25L
-				id: "1EA06F51BCB1D90C"
-				item: {
-					Count: 1b
-					id: "numismaticoverhaul:silver_coin"
-					tag: { }
-				}
+				count: 3L
+				id: "3A3CB334EE7F108C"
+				item: "createdeco:iron_coin"
 				type: "item"
 			}]
-			title: "Random Artifact"
-			x: 15.0d
-			y: 0.0d
+			title: "&lRandom Artifact"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4628EDDBF7E3E2BE"]
+			icon: "sushigocrafting:tobiko_salmon_california"
+			id: "6A1298EA9CF793AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6769D806777B3D70"
+				table_id: 7601529717495355563L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "6D72632755B611FD"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&lSushi"
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
+			icon: "cataclysm:meat_shredder"
+			id: "0462EE78811092C7"
+			rewards: [{
+				id: "6EA36F3941EFF176"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.5d
+			tasks: [{
+				consume_items: true
+				id: "2B22793ED534E2D6"
+				item: "coinsje:gold_coin_pile"
+				type: "item"
+			}]
+			title: "&l&6Meat Shredder"
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
+			icon: "cataclysm:the_incinerator"
+			id: "5E4F292FC39A074F"
+			rewards: [{
+				id: "2DAE1ECF62683761"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "2151450C2EB44EE4"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&dThe Incinerator"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
+			icon: "cataclysm:bulwark_of_the_flame"
+			id: "33675D3870ADFA46"
+			rewards: [{
+				id: "6BB63ED7F6D761A2"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "6C8EDC0E19753DF2"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&dBulwark Of the Flame"
+			x: -9.0d
+			y: 3.0d
 		}
 	]
-	title: "&a&l[SHOP]"
+	subtitle: ["&l/ &c[Casino]"]
+	title: "&l&a[SHOP]"
 }

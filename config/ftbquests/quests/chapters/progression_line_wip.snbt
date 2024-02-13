@@ -5,18 +5,32 @@
 	group: "0EBC8803CE24B703"
 	icon: "create:brass_hand"
 	id: "203178D0EE4C1037"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 3.0d
-		hover: [ ]
-		image: "techev:textures/misc/quests/progression.png"
-		rotation: 0.0d
-		width: 20.959044368600683d
-		x: 10.5d
-		y: -5.5d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/progression.png"
+			rotation: 0.0d
+			width: 20.959044368600683d
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.5d
+			y: -2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [
 		{
@@ -45,8 +59,8 @@
 			y: 0.0d
 		}
 		{
-			id: "5BA75DBC164C9E09"
-			linked_quest: "17EF25D3C6DDC834"
+			id: "0BB965361AB25E4D"
+			linked_quest: "63894331FBB6B6DA"
 			shape: "octagon"
 			size: 3.0d
 			x: 19.5d
@@ -322,8 +336,17 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6010F0FDE1BB66D2"]
+			dependencies: [
+				"6010F0FDE1BB66D2"
+				"0C68B66226466480"
+			]
+			icon: "pneumaticcraft:printed_circuit_board"
 			id: "5BE12E09C779B5DE"
+			rewards: [{
+				id: "6C7CF33E94B9F1D8"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"PneumaticCraft\"."
@@ -336,8 +359,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6010F0FDE1BB66D2"]
+			dependencies: [
+				"6010F0FDE1BB66D2"
+				"358EF7485AE5A835"
+			]
+			icon: "naturesaura:eye_improved"
 			id: "3408F9A7CC95DC52"
+			rewards: [{
+				id: "32EE9BAD8AB2C6B2"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Nature's Aura\"."
@@ -350,8 +382,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6010F0FDE1BB66D2"]
+			dependencies: [
+				"6010F0FDE1BB66D2"
+				"1A6D4E9873BEC0EF"
+			]
+			icon: "blue_skies:alchemy_table"
 			id: "2DF9E53AFCE91BF6"
+			rewards: [{
+				id: "4FDD0A417299343D"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Blue Skies\"."
@@ -370,6 +411,11 @@
 			]
 			icon: "industrialforegoing:mycelial_reactor"
 			id: "07D58D719A1ABC37"
+			rewards: [{
+				id: "43BB324B9FA3F4B1"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Industrial Foregoing\"."
@@ -382,8 +428,17 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6010F0FDE1BB66D2"]
+			dependencies: [
+				"6010F0FDE1BB66D2"
+				"7FF1D6610A947394"
+			]
+			icon: "occultism:storage_controller"
 			id: "6CCA6E2A5E8A8A7D"
+			rewards: [{
+				id: "3309523F7792F96F"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Occultism\"."
@@ -406,6 +461,11 @@
 				tag: { }
 			}
 			id: "7EAC7C10DF276AB9"
+			rewards: [{
+				id: "36B1CBF39A0AB7C3"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Forbidden And Arcanus\"."
@@ -418,15 +478,21 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6010F0FDE1BB66D2"]
+			dependencies: [
+				"6010F0FDE1BB66D2"
+				"341467386B7F8EFB"
+			]
 			icon: {
 				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "scannable:items/scanner"
-				}
+				id: "tiab:time_in_a_bottle"
+				tag: { }
 			}
 			id: "69C5CE8627813144"
+			rewards: [{
+				id: "0B3BFE0F388B9F9B"
+				item: "kubejs:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Useful Tools\"."

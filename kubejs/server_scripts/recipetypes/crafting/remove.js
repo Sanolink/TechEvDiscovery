@@ -25,6 +25,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ars_nouveau:apprentice_spell_book_upgrade'})
     event.remove({ id: 'ars_nouveau:archmage_spell_book_upgrade'})
 
+    //Blue Skies
+    event.remove({ id: 'blue_skies:zeal_lighter'})
+
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})
 
@@ -80,5 +83,8 @@ ServerEvents.recipes(event => {
 
     //Time In A Bottle
     event.remove({ id: 'tiab:time_in_a_bottle'})
+
+    //Twilight Forest
+    event.remove({ output: 'twilightforest:uncrafting_table'})
     
 })

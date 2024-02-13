@@ -5,6 +5,9 @@ ServerEvents.recipes(event => {
 
     //Remove
     event.remove([{ type: 'minecraft:blasting', input: '#create:crushed_raw_materials' }])
+    event.remove({ id: 'coinsje:blasting/copper_ingot_to_copper_coin' })
+    event.remove({ id: 'coinsje:blasting/iron_ingot_to_iron_coin' })
+    event.remove({ id: 'coinsje:blasting/gold_ingot_to_gold_coin' })
 
     //Recipes
     const recipes = [

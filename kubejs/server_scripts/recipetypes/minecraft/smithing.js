@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.2 
+//Last Modification : 1.2.0
 
 ServerEvents.recipes(event => {
 
@@ -48,6 +48,13 @@ ServerEvents.recipes(event => {
             input: "createaddition:diamond_grit_sandpaper",
             output: "create:netherite_sandpaper",
             upgrade: "minecraft:netherite_ingot"
+        },
+        //Zeal Lighter
+        {
+            id: "zeal_lighter",
+            input: "blue_skies:moonstone_shard",
+            output: "blue_skies:zeal_lighter",
+            upgrade: "blue_skies:charoite"
         }
     ]
 

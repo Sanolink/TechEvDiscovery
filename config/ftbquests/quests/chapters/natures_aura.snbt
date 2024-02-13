@@ -14,8 +14,8 @@
 		image: "techev:textures/misc/quests/naturesaura/brilliant_fiber_nb.png"
 		rotation: 0.0d
 		width: 5.764705882352941d
-		x: -3.5d
-		y: 0.0d
+		x: -1.5d
+		y: 2.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			title: "&2&lNature's Aura"
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -143,7 +143,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -162,7 +162,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -196,7 +196,7 @@
 				item: "naturesaura:bottle_two_the_rebottling"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -2.75d
 		}
 		{
@@ -215,7 +215,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -3.5d
 		}
 		{
@@ -227,7 +227,7 @@
 				item: "naturesaura:vacuum_bottle"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -357,8 +357,8 @@
 				item: "naturesaura:crushing_catalyst"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4C14213DE46B34B6"]
@@ -369,21 +369,20 @@
 				item: "naturesaura:conversion_catalyst"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4C14213DE46B34B6"]
 			id: "4D97591191E1FD4A"
 			shape: "square"
-			size: 1.5d
 			tasks: [{
 				id: "1314E5A988F41CA5"
 				item: "naturesaura:infused_stone"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4D97591191E1FD4A"]
@@ -395,7 +394,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["79513848321D9EA1"]
@@ -407,10 +406,13 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["4D97591191E1FD4A"]
+			dependencies: [
+				"4D97591191E1FD4A"
+				"06F81E6B3C6B225C"
+			]
 			id: "173939FBF25FC40D"
 			shape: "square"
 			tasks: [{
@@ -419,7 +421,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.5d
+			y: -1.5d
 		}
 	]
 	title: "Nature's Aura"

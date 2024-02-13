@@ -169,6 +169,18 @@
 			x: 14.5d
 			y: -4.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "immersivepetroleum:block/fluid/crudeoil_still"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: -11.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]

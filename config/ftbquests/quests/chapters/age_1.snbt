@@ -167,5 +167,6 @@
 			y: 0.0d
 		}
 	]
+	subtitle: ["&lFirst Discovery"]
 	title: "Chapter 1"
 }

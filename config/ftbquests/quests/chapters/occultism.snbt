@@ -143,7 +143,7 @@
 			image: "occultism:block/chalk_glyph/12"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
+			x: -2.0d
 			y: 15.0d
 		}
 		{
@@ -181,30 +181,6 @@
 			width: 1.0d
 			x: -9.0d
 			y: -1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "occultism:block/chalk_glyph/5"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: 8.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "occultism:block/chalk_glyph/6"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: 9.5d
 		}
 		{
 			click: ""
@@ -285,6 +261,7 @@
 		{
 			dependencies: ["1C94B78C0A6122EB"]
 			id: "7B89D40AD2B157BC"
+			shape: "square"
 			tasks: [{
 				id: "01670AB364DDB114"
 				item: "occultism:spirit_attuned_gem"
@@ -296,6 +273,7 @@
 		{
 			dependencies: ["7B89D40AD2B157BC"]
 			id: "693C2B24EF7E2EBF"
+			shape: "rsquare"
 			tasks: [{
 				id: "1AD7BF581DE88A54"
 				item: {
@@ -311,6 +289,7 @@
 		{
 			dependencies: ["1C94B78C0A6122EB"]
 			id: "6F9B6492C0906089"
+			shape: "square"
 			tasks: [{
 				id: "639D9DF99CBDA9BE"
 				item: "occultism:otherworld_ashes"
@@ -322,6 +301,7 @@
 		{
 			dependencies: ["1C94B78C0A6122EB"]
 			id: "64CCC6002B9B65DF"
+			shape: "square"
 			tasks: [{
 				id: "1D5C512695E7DDF5"
 				item: "occultism:burnt_otherstone"
@@ -333,6 +313,7 @@
 		{
 			dependencies: ["1C94B78C0A6122EB"]
 			id: "4847068E3FD83783"
+			shape: "square"
 			tasks: [{
 				id: "53CC4AA681976756"
 				item: "occultism:purified_ink"
@@ -348,6 +329,7 @@
 			]
 			hide_dependent_lines: true
 			id: "1C0AB7520804DDED"
+			shape: "square"
 			tasks: [{
 				id: "766D77FC60986ACE"
 				item: {
@@ -365,50 +347,55 @@
 		{
 			dependencies: ["4847068E3FD83783"]
 			id: "34FC3AD9DC76B5AF"
+			shape: "rsquare"
 			tasks: [{
 				id: "32F7499AE0A38FC0"
 				item: "occultism:book_of_binding_foliot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4847068E3FD83783"]
 			id: "511E9C642BC59287"
+			shape: "rsquare"
 			tasks: [{
 				id: "6FE39F74F21C4739"
 				item: "occultism:book_of_binding_djinni"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4847068E3FD83783"]
 			id: "4C49992326D3DD8C"
+			shape: "rsquare"
 			tasks: [{
 				id: "04F915D271140E66"
 				item: "occultism:book_of_binding_afrit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4847068E3FD83783"]
 			id: "133820BAD9B86802"
+			shape: "rsquare"
 			tasks: [{
 				id: "6558A5C60CCC41BA"
 				item: "occultism:book_of_binding_marid"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7B89D40AD2B157BC"]
 			id: "64D452BC38F764AE"
+			shape: "rsquare"
 			tasks: [{
 				id: "3FBBECC69A412B1F"
 				item: {
@@ -426,6 +413,7 @@
 		{
 			dependencies: ["7B89D40AD2B157BC"]
 			id: "00E7AFD37EA131E2"
+			shape: "rsquare"
 			tasks: [{
 				id: "277A418D7E3C4DCB"
 				item: {
@@ -448,6 +436,7 @@
 				"693C2B24EF7E2EBF"
 			]
 			id: "0475D6A25DB7A96A"
+			shape: "square"
 			tasks: [{
 				id: "1BE58922BD1EF9C7"
 				item: "occultism:iesnium_ingot"
@@ -676,7 +665,7 @@
 				type: "item"
 			}]
 			title: "&lAviar's Circle"
-			x: -9.5d
+			x: -0.5d
 			y: 6.0d
 		}
 		{
@@ -803,13 +792,14 @@
 				type: "item"
 			}]
 			title: "&lOsorin's Unbound Calling"
-			x: -0.5d
+			x: -9.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1C0AB7520804DDED"]
 			hide_dependent_lines: true
 			id: "4CF07ED6D3996AFE"
+			shape: "square"
 			tasks: [{
 				id: "27D4D5D60151CFDC"
 				item: {
@@ -821,13 +811,17 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["1C0AB7520804DDED"]
+			dependencies: [
+				"1C0AB7520804DDED"
+				"08B5C84E8EAF610A"
+			]
 			hide_dependent_lines: true
 			id: "0D16774F6E1A263C"
+			shape: "square"
 			tasks: [{
 				id: "78D5EDC2D0735276"
 				item: {
@@ -843,9 +837,13 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1C0AB7520804DDED"]
+			dependencies: [
+				"1C0AB7520804DDED"
+				"47A2908D4E7CDE38"
+			]
 			hide_dependent_lines: true
 			id: "5843CB3BF4206593"
+			shape: "square"
 			tasks: [{
 				id: "3051F46C7E18353A"
 				item: {
@@ -857,8 +855,164 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FF1D6610A947394"]
+			id: "59DD6AAEC80A1B07"
+			shape: "diamond"
+			tasks: [{
+				id: "5D8405A294F9C36D"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["59DD6AAEC80A1B07"]
+			id: "66217067802E12F5"
+			shape: "diamond"
+			tasks: [{
+				id: "54D63519977A033D"
+				item: "occultism:storage_stabilizer_tier2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["66217067802E12F5"]
+			id: "03014F65818D74DB"
+			shape: "diamond"
+			tasks: [{
+				id: "1C2AB3FF192CE4C1"
+				item: "occultism:storage_stabilizer_tier3"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["03014F65818D74DB"]
+			id: "3C032A87F6719E23"
+			shape: "diamond"
+			tasks: [{
+				id: "171D74B423CB5BA8"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1C0AB7520804DDED"]
+			icon: {
+				Count: 1b
+				id: "occultism:miner_marid_master"
+				tag: {
+					Damage: 0
+					maxMiningTime: 100
+					rollsPerOperation: 1
+					spiritName: "Rakfellvine"
+				}
+			}
+			id: "6FE866EC6BC38C01"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7CA8F7C0A748B436"
+					item: "occultism:dimensional_mineshaft"
+					type: "item"
+				}
+				{
+					id: "118141B0C60CA78C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "occultism:miners/ores"
+						}
+					}
+					title: "Occultism Miner"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1C0AB7520804DDED"]
+			id: "7FF1D6610A947394"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "72B3850D88BD235C"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3701C7F568A69720"]
+			id: "47A2908D4E7CDE38"
+			shape: "gear"
+			tasks: [{
+				id: "53FB2D4004482242"
+				item: "occultism:afrit_essence"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FF1D6610A947394"]
+			id: "290A90B172BAAE23"
+			shape: "gear"
+			tasks: [{
+				id: "6625B8E785FCF9F7"
+				item: {
+					Count: 1b
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7FF1D6610A947394"]
+			id: "372B1CEBC7776EDC"
+			shape: "gear"
+			tasks: [{
+				id: "09BE7C8938177F10"
+				item: {
+					Count: 1b
+					id: "occultism:book_of_calling_djinni_manage_machine"
+					tag: {
+						spiritName: "Holsires"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2655CC9B7F4E691F"]
+			id: "08B5C84E8EAF610A"
+			shape: "gear"
+			tasks: [{
+				id: "5C7C8FBFCA629765"
+				item: "occultism:crushed_end_stone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
 		}
 	]
 	title: "Occultism"

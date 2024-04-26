@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
         }
     ]
 
+    //General Assembly Function
     recipes.forEach((recipe) => {
         event
             .custom({

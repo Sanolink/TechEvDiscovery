@@ -21,7 +21,7 @@
 		rotation: 0.0d
 		width: 3.0d
 		x: -7.5d
-		y: -2.5d
+		y: -3.5d
 	}]
 	order_index: 6
 	quest_links: [{
@@ -29,7 +29,7 @@
 		linked_quest: "6D9403738042644F"
 		shape: "gear"
 		x: -7.5d
-		y: 4.5d
+		y: 3.5d
 	}]
 	quests: [
 		{
@@ -38,6 +38,13 @@
 				"734126CF0607FDF9"
 			]
 			id: "573B8F8CC887970D"
+			rewards: [{
+				count: 2
+				id: "5EEA984CFD96B8B4"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -46,11 +53,17 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["573B8F8CC887970D"]
 			id: "2085A7854DF7BE03"
+			rewards: [{
+				id: "5DA6B66AE41BFAE8"
+				item: "scannable:blank_module"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -59,44 +72,68 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
 			id: "01EFA5FD136B7AFC"
+			rewards: [{
+				id: "444219EEAD7565BA"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "585024D3E7BD98E0"
 				item: "scannable:range_module"
 				type: "item"
 			}]
 			x: -6.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
 			id: "7660EADA383EEDAF"
+			rewards: [{
+				id: "278DB7CF635B1413"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "3310BE8A37F5A815"
 				item: "scannable:entity_module"
 				type: "item"
 			}]
 			x: -7.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
 			id: "4DD98503CD94C4C2"
+			rewards: [{
+				id: "1A10BA10F9A0D3B1"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E42C42E98C25812"
 				item: "scannable:friendly_entity_module"
 				type: "item"
 			}]
 			x: -8.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
 			id: "4FD60EBD8C8B80C4"
+			rewards: [{
+				id: "1522855A17A8B6D8"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "4A06DECE42392142"
@@ -104,57 +141,88 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
 			id: "5CA64156CA5646E3"
+			rewards: [{
+				id: "55627DD067AEBF0E"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FF2EF7DA1D51D89"
 				item: "scannable:block_module"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
 			id: "0A4A63E2DB98887B"
+			rewards: [{
+				id: "0C39B3548369BE0D"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DECF59B5B242653"
 				item: "scannable:common_ores_module"
 				type: "item"
 			}]
 			x: -8.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
 			id: "7632A4B5737EC7B5"
+			rewards: [{
+				id: "054015750F362CFF"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D96FD72EB5A8E28"
 				item: "scannable:rare_ores_module"
 				type: "item"
 			}]
 			x: -8.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2085A7854DF7BE03"]
 			id: "553580BF9BCA2DA0"
+			rewards: [{
+				id: "21B36E0B773ACF9D"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AFEC1A864EBD706"
 				item: "scannable:fluid_module"
 				type: "item"
 			}]
 			x: -9.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["00860396C421A15A"]
 			id: "341467386B7F8EFB"
+			rewards: [{
+				id: "05BC4C00489DBD79"
+				item: "coinsje:gold_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 3.0d
+			subtitle: "Exploit the Time"
 			tasks: [{
 				id: "0B181CB562A4B371"
 				item: {
@@ -164,14 +232,35 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lTime in a Bottle"
 			x: 0.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
+			description: [
+				"You can &d&lDye&r these storages to &d&lLink&r them."
+				""
+				"If you're on a server, use a &b&lDiamond&r to make it &l&ePersonnal&r."
+			]
 			id: "3FF87FCED071D5E4"
+			rewards: [
+				{
+					id: "6F45CDA622E461D4"
+					item: "enderstorage:ender_chest"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "368FDDCE13A91C9B"
+					item: "enderstorage:ender_tank"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
+			subtitle: "Linkable Devices"
 			tasks: [
 				{
 					id: "77EE7FEAE50A4A1A"
@@ -189,12 +278,19 @@
 					type: "item"
 				}
 			]
+			title: "&f&lEnder Storage"
 			x: 7.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
 			id: "71DBAC81F705ACD6"
+			rewards: [{
+				id: "2493C1F8021C9B22"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -202,12 +298,19 @@
 				item: "pipez:wrench"
 				type: "item"
 			}]
+			title: "&f&lPipez"
 			x: -3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["71DBAC81F705ACD6"]
 			id: "447AE15A61638D9D"
+			rewards: [{
+				id: "15FD79ACA4DE3554"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "1E2781154B80437F"
@@ -220,7 +323,15 @@
 		{
 			dependencies: ["71DBAC81F705ACD6"]
 			id: "7DA68EB483740B81"
+			rewards: [{
+				count: 16
+				id: "270ED72205F87DBA"
+				item: "pipez:item_pipe"
+				random_bonus: 16
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "42E2E46F2F95F902"
 				item: "pipez:item_pipe"
 				type: "item"
@@ -231,7 +342,15 @@
 		{
 			dependencies: ["71DBAC81F705ACD6"]
 			id: "204B175A32A8ECE2"
+			rewards: [{
+				count: 16
+				id: "3792BC28A8EB4707"
+				item: "pipez:fluid_pipe"
+				random_bonus: 16
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "6BD756668C7FC55E"
 				item: "pipez:fluid_pipe"
 				type: "item"
@@ -242,7 +361,15 @@
 		{
 			dependencies: ["71DBAC81F705ACD6"]
 			id: "2DA57C9E8EC8F0C2"
+			rewards: [{
+				count: 16
+				id: "12BB79B6AB912C5A"
+				item: "pipez:energy_pipe"
+				random_bonus: 16
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "1102121795A05BA9"
 				item: "pipez:energy_pipe"
 				type: "item"
@@ -257,7 +384,15 @@
 				"204B175A32A8ECE2"
 			]
 			id: "4F022109ED29FF42"
+			rewards: [{
+				count: 6
+				id: "3367EDD22A185456"
+				item: "pipez:universal_pipe"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [{
+				count: 6L
 				id: "621432EB3E72BF6C"
 				item: "pipez:universal_pipe"
 				type: "item"
@@ -268,6 +403,13 @@
 		{
 			dependencies: ["71DBAC81F705ACD6"]
 			id: "5EC867AA5EEB712B"
+			rewards: [{
+				id: "4B6F1146061C20D0"
+				item: "pipez:basic_upgrade"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "105495D189D4034D"
 				item: "pipez:basic_upgrade"
@@ -279,6 +421,13 @@
 		{
 			dependencies: ["5EC867AA5EEB712B"]
 			id: "7A21D6C29297A4A3"
+			rewards: [{
+				id: "28C5D87C5A9D7E7F"
+				item: "pipez:improved_upgrade"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "12523F5C5FD5ECB2"
 				item: "pipez:improved_upgrade"
@@ -290,6 +439,13 @@
 		{
 			dependencies: ["7A21D6C29297A4A3"]
 			id: "4D2D88EAEB48AF15"
+			rewards: [{
+				id: "1133EF667CCB8A1A"
+				item: "pipez:advanced_upgrade"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7A4096AC9B0B62E9"
 				item: "pipez:advanced_upgrade"
@@ -301,6 +457,13 @@
 		{
 			dependencies: ["4D2D88EAEB48AF15"]
 			id: "67EBB30F4A2A1D51"
+			rewards: [{
+				id: "33A64EAB2149CF1F"
+				item: "pipez:ultimate_upgrade"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "1BE5E7BE404B6EA1"
 				item: "pipez:ultimate_upgrade"
@@ -312,31 +475,55 @@
 		{
 			dependencies: ["734126CF0607FDF9"]
 			id: "7EB7CD957C0CE8D8"
+			rewards: [{
+				id: "7DCEDD4756897BEE"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
+			subtitle: "Make a resistant Container"
 			tasks: [{
 				id: "79C2CB349D7C7753"
 				item: "kubejs:compressed_iron_bottle"
 				type: "item"
 			}]
+			title: "&f&lCompressed Bottle"
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7EB7CD957C0CE8D8"]
 			id: "00860396C421A15A"
+			rewards: [{
+				count: 2
+				id: "79FA4DB427BB13F8"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			size: 1.5d
+			subtitle: "Compress the Time"
 			tasks: [{
 				id: "7F248D7FD7B5A989"
 				item: "kubejs:flowing_time"
 				type: "item"
 			}]
+			title: "&e&lFlowing Time"
 			x: 0.0d
-			y: 0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
 			id: "38A41446F0A450F5"
+			rewards: [{
+				count: 2
+				id: "6B1902A28812E92E"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -362,6 +549,12 @@
 		{
 			dependencies: ["38A41446F0A450F5"]
 			id: "4448050DFBE8EAB9"
+			rewards: [{
+				id: "57D0DF8B70C22D1D"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "41745B0EF3E0E744"
@@ -381,11 +574,17 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
 			id: "2E76974D5F572F28"
+			rewards: [{
+				id: "03BF323E3551AA57"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3A764FD05AC0BA4B"
@@ -405,11 +604,17 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
 			id: "2BD7094F4AD39C35"
+			rewards: [{
+				id: "7B0B3E1ECE363F94"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1BE94FCE24C858B5"
@@ -423,12 +628,19 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["73915F14C3CFE8CE"]
 			id: "480F8B3D02B6150B"
+			rewards: [{
+				count: 256
+				id: "01CDC1F9D17A0498"
+				item: "buildinggadgets:construction_paste"
+				random_bonus: 256
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1A20ABE7E2238315"
@@ -436,46 +648,64 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
 			id: "7A9DCB14189A2AC6"
-			shape: "diamond"
-			tasks: [{
-				id: "0E9973AF303C2DAF"
-				item: "buildinggadgets:template_manager"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7A9DCB14189A2AC6"]
-			id: "4CC84479AF031CC5"
-			shape: "diamond"
-			tasks: [{
-				id: "26153AFD75D4A7B3"
+			rewards: [{
+				id: "172CE60243B0CEC5"
 				item: {
 					Count: 1b
 					id: "buildinggadgets:template"
 					tag: {
 						template_id: [I;
-							892994442
-							876560717
-							-1310973528
-							1230977875
+							-1358232204
+							705708419
+							-1988347050
+							474353789
 						]
 					}
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0E9973AF303C2DAF"
+					item: "buildinggadgets:template_manager"
+					type: "item"
+				}
+				{
+					id: "62DEBD03381F2544"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:template"
+						tag: {
+							template_id: [I;
+								-1358232204
+								705708419
+								-1988347050
+								474353789
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1C56460E3FAC5045"]
 			id: "73915F14C3CFE8CE"
+			rewards: [{
+				count: 128
+				id: "0EAF066469A4AF71"
+				item: "buildinggadgets:construction_paste"
+				random_bonus: 128
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1724D39133434E93"
@@ -488,6 +718,13 @@
 		{
 			dependencies: ["2E76974D5F572F28"]
 			id: "1C56460E3FAC5045"
+			rewards: [{
+				count: 64
+				id: "7513468398DA1025"
+				item: "buildinggadgets:construction_paste"
+				random_bonus: 64
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "654CB3244E8A29E4"
@@ -495,7 +732,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 0.5d
 		}
 	]
 	title: "Useful Tools"

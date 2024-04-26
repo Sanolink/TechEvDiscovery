@@ -698,7 +698,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
-			y: -17.0d
+			y: -17.5d
 		}
 		{
 			click: ""
@@ -722,7 +722,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.0d
-			y: -17.0d
+			y: -17.5d
 		}
 		{
 			click: ""
@@ -746,7 +746,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 7.0d
-			y: -17.0d
+			y: -17.5d
 		}
 		{
 			click: ""
@@ -770,7 +770,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 9.0d
-			y: -17.0d
+			y: -17.5d
 		}
 	]
 	order_index: 3
@@ -781,9 +781,16 @@
 				"29BD850AC808904F"
 				"48DDEA7C60B82068"
 			]
+			description: ["{image:techev:textures/misc/quests/industrialforegoing/wither_laser.png width:122 height:186 align:1}"]
 			id: "065EAE2E075192A4"
+			rewards: [{
+				id: "6EB0EB9CD381D505"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
+			subtitle: "Wither Gas"
 			tasks: [{
 				id: "63C7D0BA9B1DD7C1"
 				item: "industrialforegoing:ether_gas_bucket"
@@ -797,6 +804,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "7D0F01B27AA70B5C"
+			rewards: [{
+				id: "484B7C1AB94E9C43"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6EA6C392EAE8CF13"
@@ -810,7 +822,14 @@
 		{
 			dependencies: ["48DDEA7C60B82068"]
 			id: "29BD850AC808904F"
+			rewards: [{
+				id: "3825BF0AEA274F76"
+				item: "industrialforegoing:laser_drill"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Void Fluid Miner"
 			tasks: [
 				{
 					id: "7E2338B5BD29FA39"
@@ -833,6 +852,12 @@
 				"3FDC63CC5E7C9F25"
 			]
 			id: "48DDEA7C60B82068"
+			rewards: [{
+				id: "448A980CFF5A63B4"
+				item: "industrialforegoing:machine_frame_advanced"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -850,6 +875,12 @@
 				"2843923499308998"
 			]
 			id: "73D13D05B1F418E5"
+			rewards: [{
+				id: "53D53694067191BC"
+				item: "industrialforegoing:machine_frame_simple"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -867,6 +898,12 @@
 				"0FACD601DD841669"
 			]
 			id: "509CEF49F4864BD0"
+			rewards: [{
+				id: "43E12E8D9AD9788F"
+				item: "industrialforegoing:machine_frame_pity"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -884,6 +921,12 @@
 				"065EAE2E075192A4"
 			]
 			id: "6EFCBAC07D689C17"
+			rewards: [{
+				id: "27E1A667E2652266"
+				item: "industrialforegoing:machine_frame_supreme"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -898,8 +941,14 @@
 		{
 			dependencies: ["509CEF49F4864BD0"]
 			id: "78251B4F2585ECE6"
+			rewards: [{
+				id: "79305EFA1B373FED"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
 			shape: "square"
 			size: 3.0d
+			subtitle: "Main Machine of Industrial Foregoing"
 			tasks: [{
 				id: "7BEB44595FE705D5"
 				item: "industrialforegoing:dissolution_chamber"
@@ -912,6 +961,11 @@
 		{
 			dependencies: ["1A87DF5F12BC98FE"]
 			id: "3FDC63CC5E7C9F25"
+			rewards: [{
+				id: "2BC2ADBF41C10E0F"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -926,7 +980,13 @@
 		{
 			dependencies: ["73D13D05B1F418E5"]
 			id: "1A87DF5F12BC98FE"
+			rewards: [{
+				id: "6BB41F206670DD89"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Extracts Meat and Pink Slime from Entities"
 			tasks: [{
 				id: "3651FAAC1B165764"
 				item: "industrialforegoing:mob_slaughter_factory"
@@ -942,6 +1002,11 @@
 				"63461003BC21A69D"
 			]
 			id: "2843923499308998"
+			rewards: [{
+				id: "7D65CE7FE7F56B01"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -956,7 +1021,13 @@
 		{
 			dependencies: ["509CEF49F4864BD0"]
 			id: "63461003BC21A69D"
+			rewards: [{
+				id: "7244C35251BFE021"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Extracts Latex from Logs"
 			tasks: [{
 				id: "0C20679978E5D701"
 				item: "industrialforegoing:fluid_extractor"
@@ -969,6 +1040,11 @@
 		{
 			dependencies: ["6EFCBAC07D689C17"]
 			id: "2207FBB51BA636CF"
+			rewards: [{
+				id: "2DEA795C84DA298F"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "51060FCADF6FF2FC"
@@ -983,6 +1059,11 @@
 			dependencies: ["6EFCBAC07D689C17"]
 			hide_dependency_lines: true
 			id: "5A3A8521FAEA19E1"
+			rewards: [{
+				id: "6BE3C301C8A1E153"
+				item: "industrialforegoing:mycelial_meatallurgic"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6CF3D289A1557BE8"
@@ -997,6 +1078,11 @@
 			dependencies: ["6EFCBAC07D689C17"]
 			hide_dependency_lines: true
 			id: "4F9CACA116AB5555"
+			rewards: [{
+				id: "35693AA97086EAB0"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "65E56F821EBEA927"
@@ -1011,6 +1097,11 @@
 			dependencies: ["6EFCBAC07D689C17"]
 			hide_dependency_lines: true
 			id: "57F9AB6D3B0A636E"
+			rewards: [{
+				id: "3FB56B0936597D69"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "245AA8C41614BC17"
@@ -1042,6 +1133,11 @@
 			]
 			hide_dependency_lines: true
 			id: "1B002EF1BA364EA3"
+			rewards: [{
+				id: "4EFED062B3B2CD39"
+				item: "industrialforegoing:mycelial_reactor"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -1057,6 +1153,12 @@
 			dependencies: ["0FACD601DD841669"]
 			hide_dependency_lines: true
 			id: "6F55490A58004807"
+			rewards: [{
+				id: "159DB4442571A7B3"
+				item: "pneumaticcraft:plastic"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2DEF50D28F5308EB"
@@ -1069,6 +1171,12 @@
 		{
 			dependencies: ["6F55490A58004807"]
 			id: "77419BB6F4082EEA"
+			rewards: [{
+				id: "1780D1D360A6A134"
+				item: "industrialforegoing:machine_frame_pity"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "52859AC9821E16F7"
@@ -1082,6 +1190,12 @@
 		{
 			dependencies: ["77419BB6F4082EEA"]
 			id: "57E4BF5DCD373B26"
+			rewards: [{
+				id: "0E37DEE637136009"
+				item: "industrialforegoing:machine_frame_simple"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5FCACF22A0B64EC1"
@@ -1095,6 +1209,12 @@
 		{
 			dependencies: ["57E4BF5DCD373B26"]
 			id: "136250FAEFAE161C"
+			rewards: [{
+				id: "02B0138A6CF2512E"
+				item: "industrialforegoing:machine_frame_advanced"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "39BE99032EBCD72E"
@@ -1108,6 +1228,12 @@
 		{
 			dependencies: ["136250FAEFAE161C"]
 			id: "262865EAD0F0F81E"
+			rewards: [{
+				id: "5D05C0A3C6AC4BAD"
+				item: "industrialforegoing:machine_frame_supreme"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4C0E4F3E947579F2"
@@ -1122,6 +1248,12 @@
 			dependencies: ["0FACD601DD841669"]
 			hide_dependency_lines: true
 			id: "02F158463E35B699"
+			rewards: [{
+				id: "59F99FF2491ECF97"
+				item: "pneumaticcraft:plastic"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "72A23E662445C187"
@@ -1134,6 +1266,12 @@
 		{
 			dependencies: ["02F158463E35B699"]
 			id: "36429493327D809E"
+			rewards: [{
+				id: "05B5BF2E6D4BD2DC"
+				item: "industrialforegoing:machine_frame_pity"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5EEB3140611B4E55"
@@ -1147,6 +1285,12 @@
 		{
 			dependencies: ["36429493327D809E"]
 			id: "1AC4148C4A73CD75"
+			rewards: [{
+				id: "787C62AF363A5195"
+				item: "industrialforegoing:machine_frame_simple"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "21CE389A99F43A26"
@@ -1160,6 +1304,12 @@
 		{
 			dependencies: ["1AC4148C4A73CD75"]
 			id: "41EBBED817B8FE8A"
+			rewards: [{
+				id: "113A93BFE45975CF"
+				item: "industrialforegoing:machine_frame_advanced"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "73D95485EF1150B4"
@@ -1173,6 +1323,12 @@
 		{
 			dependencies: ["41EBBED817B8FE8A"]
 			id: "18311F5E35218035"
+			rewards: [{
+				id: "577CA44E37AAF1A0"
+				item: "industrialforegoing:machine_frame_supreme"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7D49ECDC2BFCC6D2"
@@ -1187,6 +1343,11 @@
 			dependencies: ["0FACD601DD841669"]
 			hide_dependency_lines: true
 			id: "0CE3B6835EAAE9B2"
+			rewards: [{
+				id: "0D606E27C880FC86"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -1201,12 +1362,18 @@
 		{
 			dependencies: ["1A87DF5F12BC98FE"]
 			id: "4551FF9A661F81BB"
+			rewards: [{
+				id: "54B6B63037F35168"
+				item: "industrialforegoing:meat_bucket"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "53600112B0AFDC7B"
 				item: "industrialforegoing:meat_bucket"
 				type: "item"
 			}]
+			title: "Liquid Meat"
 			x: 6.0d
 			y: -7.0d
 		}
@@ -1214,6 +1381,11 @@
 			dependencies: ["73D13D05B1F418E5"]
 			hide_dependency_lines: true
 			id: "4D823F2C81185547"
+			rewards: [{
+				id: "5474C210E4677F6F"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "475BA61A21FCD344"
@@ -1228,6 +1400,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "0B9C54EDDD11D281"
+			rewards: [{
+				id: "43FAB5E42BA44CD2"
+				item: "industrialforegoing:mycelial_slimey"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7DD1E26E8FAFAB11"
@@ -1242,6 +1419,11 @@
 			dependencies: ["73D13D05B1F418E5"]
 			hide_dependency_lines: true
 			id: "6A43790C7D308656"
+			rewards: [{
+				id: "2E7CA7C2C6403DF7"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "508B2629B29D03B9"
@@ -1256,6 +1438,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "40C46758682564AF"
+			rewards: [{
+				id: "4AA0731074E8015A"
+				item: "industrialforegoing:mycelial_potion"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "030E20EE74DA7510"
@@ -1270,6 +1457,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "1F59E4E3071CFEAA"
+			rewards: [{
+				id: "7AEE96B50D8492D4"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4A8DD375FAB938E5"
@@ -1284,6 +1476,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "77BB36A408C82B02"
+			rewards: [{
+				id: "436E78B1FFE0092F"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "609B52433C232CDE"
@@ -1298,6 +1495,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "1365E5CED1FF493C"
+			rewards: [{
+				id: "29876D1C3A61155D"
+				item: "industrialforegoing:mycelial_explosive"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1EFD9B034D2CC344"
@@ -1312,6 +1514,11 @@
 			dependencies: ["73D13D05B1F418E5"]
 			hide_dependency_lines: true
 			id: "2DCE121171E8F469"
+			rewards: [{
+				id: "1292EE79E27C6B43"
+				item: "industrialforegoing:mycelial_frosty"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "17C73B9CA04564B4"
@@ -1326,6 +1533,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "401530C9240073B1"
+			rewards: [{
+				id: "0A6E93039FE388CB"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "33578BA588340BF9"
@@ -1340,6 +1552,11 @@
 			dependencies: ["73D13D05B1F418E5"]
 			hide_dependency_lines: true
 			id: "3CECCBF0BDBC6DF9"
+			rewards: [{
+				id: "74F3A4180F00A9C7"
+				item: "industrialforegoing:mycelial_pink"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "42093AD9846B03F0"
@@ -1354,6 +1571,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "1270AC27984637D8"
+			rewards: [{
+				id: "34B94DD42AA5EBA1"
+				item: "industrialforegoing:mycelial_death"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "14E71B6AC83B00D3"
@@ -1368,6 +1590,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "64DF7A7BD19E7C9E"
+			rewards: [{
+				id: "205D3F461FC7FB7A"
+				item: "industrialforegoing:mycelial_rocket"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "70B0DD85B305FD42"
@@ -1382,6 +1609,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "3FC940E21C2C2AD2"
+			rewards: [{
+				id: "01557C161F211CB0"
+				item: "industrialforegoing:mycelial_crimed"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3AFAA57EEC23FEF3"
@@ -1396,10 +1628,10 @@
 			dependencies: ["52EB483AC345154B"]
 			description: [
 				"&lQuests Labels : "
-				"&aNeeds a Pity Machine Frame"
-				"&bNeeds a Simple Machine Frame"
-				"&dNeeds an Advanced Machine Frame"
-				"&6Needs a Supreme Machine Frame"
+				"&aNeeds a &lPity Machine Frame&r"
+				"&bNeeds a &lSimple Machine Frame&r"
+				"&dNeeds an &lAdvanced Machine Frame&r"
+				"&6Needs a &lSupreme Machine Frame"
 			]
 			id: "0FACD601DD841669"
 			rewards: [{
@@ -1428,6 +1660,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "0A11634099819CC8"
+			rewards: [{
+				id: "1E1FE4124DED20DA"
+				item: "industrialforegoing:enchantment_sorter"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "03B76C5FD9E4C0FF"
@@ -1442,6 +1679,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "3425B0D0FBB6C4B2"
+			rewards: [{
+				id: "09A4964968B711E3"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2D3313B08A67F014"
@@ -1456,6 +1698,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "0992D46CDA5564E4"
+			rewards: [{
+				id: "64903D9E091438D5"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6B3C3CE0EA300B22"
@@ -1470,6 +1717,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "620B37668399DA77"
+			rewards: [{
+				id: "09FB17E1EF9AA80B"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "706CF07544F541BA"
@@ -1484,6 +1736,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "6BDD9AD62DAA092A"
+			rewards: [{
+				id: "5E11B60D0ADE812C"
+				item: "industrialforegoing:washing_factory"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "19E222917F592205"
@@ -1498,6 +1755,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "0DF386C1CB6CC3F7"
+			rewards: [{
+				id: "2F7EFA8196EE2A2B"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7B1CCE9A7E82C9FA"
@@ -1511,7 +1773,14 @@
 		{
 			dependencies: ["48DDEA7C60B82068"]
 			id: "2774F0F901C911BF"
+			rewards: [{
+				id: "390616BD56FE42A1"
+				item: "industrialforegoing:laser_drill"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Void Ore Miner"
 			tasks: [
 				{
 					id: "6A30AAB40912DEBB"
@@ -1532,6 +1801,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "6318A2F9FBCA40E3"
+			rewards: [{
+				id: "04FF78BA859E0882"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0AC2DF65A7D8BA08"
@@ -1546,6 +1820,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "10F02E975F89B549"
+			rewards: [{
+				id: "573C0F1D242D0F0D"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "14CCD6B781806811"
@@ -1560,6 +1839,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "19C39C69570176B4"
+			rewards: [{
+				id: "49C3B19DBA60D2DF"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "50EDBA4A232C8F05"
@@ -1574,6 +1858,11 @@
 			dependencies: ["48DDEA7C60B82068"]
 			hide_dependency_lines: true
 			id: "2F9C5B7C2703272B"
+			rewards: [{
+				id: "07165D9F6BA66FFF"
+				item: "industrialforegoing:infinity_charger"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0E56722545F2B807"
@@ -1587,6 +1876,11 @@
 		{
 			dependencies: ["614DC5C0762C03BC"]
 			id: "581C586FB8E66F63"
+			rewards: [{
+				id: "6E51F6D73508BD18"
+				item: "industrialforegoing:fluid_sieving_machine"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7CE4205D8C4E741D"
@@ -1600,7 +1894,13 @@
 		{
 			dependencies: ["057D3D94C383F86B"]
 			id: "5C39B81ED894BC97"
+			rewards: [{
+				id: "26B9888D70F41340"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Overpowered Botany Pot"
 			tasks: [{
 				id: "2862AFACBEC55C14"
 				item: "industrialforegoing:hydroponic_bed"
@@ -1614,6 +1914,11 @@
 			dependencies: ["73D13D05B1F418E5"]
 			hide_dependency_lines: true
 			id: "55BF155F83B64C61"
+			rewards: [{
+				id: "72579C74AAEAF223"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0430572A9D67A992"
@@ -1627,7 +1932,13 @@
 		{
 			dependencies: ["6BDD9AD62DAA092A"]
 			id: "614DC5C0762C03BC"
+			rewards: [{
+				id: "06D228771AEC5139"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "15x Ores with Addons"
 			tasks: [{
 				id: "0AF81B1742A9DA45"
 				item: "industrialforegoing:fermentation_station"
@@ -1641,6 +1952,11 @@
 			dependencies: ["73D13D05B1F418E5"]
 			hide_dependency_lines: true
 			id: "1DC1FC84022FDF45"
+			rewards: [{
+				id: "3C01CC19E475B544"
+				item: "industrialforegoing:mob_detector"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "15CF7425F9FD0C4B"
@@ -1655,6 +1971,11 @@
 			dependencies: ["73D13D05B1F418E5"]
 			hide_dependency_lines: true
 			id: "2C2E91C1F115A1E8"
+			rewards: [{
+				id: "2702D5CF058B64FA"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6F541AFC0BD707DC"
@@ -1669,8 +1990,15 @@
 			dependencies: ["0FACD601DD841669"]
 			hide_dependency_lines: true
 			id: "2B60916703ED775C"
+			rewards: [{
+				count: 2
+				id: "050CEACC6AA8A1DF"
+				item: "industrialforegoing:item_transporter_type"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 2L
 				id: "6EC5FC3FEC35BEA9"
 				item: "industrialforegoing:item_transporter_type"
 				type: "item"
@@ -1682,8 +2010,15 @@
 			dependencies: ["0FACD601DD841669"]
 			hide_dependency_lines: true
 			id: "196C9B815425C8D8"
+			rewards: [{
+				count: 2
+				id: "7EC8E1A0F91F2E93"
+				item: "industrialforegoing:fluid_transporter_type"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 2L
 				id: "34CE36E7D261C3DC"
 				item: "industrialforegoing:fluid_transporter_type"
 				type: "item"
@@ -1695,8 +2030,15 @@
 			dependencies: ["0FACD601DD841669"]
 			hide_dependency_lines: true
 			id: "667D10A6AF1122F6"
+			rewards: [{
+				count: 2
+				id: "26B33A56E8DC0D4D"
+				item: "industrialforegoing:world_transporter_type"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
+				count: 2L
 				id: "5D54E3ED9B2AD0C0"
 				item: "industrialforegoing:world_transporter_type"
 				type: "item"
@@ -1708,6 +2050,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "1EF199FFA53CF8C6"
+			rewards: [{
+				id: "5AC8C2647A0E1FD4"
+				item: "industrialforegoing:block_breaker"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2A34BEB584A483C6"
@@ -1722,6 +2069,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "2BB4B9C10C0AB511"
+			rewards: [{
+				id: "5B4E1722A76F2B41"
+				item: "industrialforegoing:animal_baby_separator"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "576F0CF46B241C07"
@@ -1736,6 +2088,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "32C20BCC21B43E19"
+			rewards: [{
+				id: "1DB4BFEA6A8DB06E"
+				item: "industrialforegoing:fluid_collector"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "698E71A434D0F974"
@@ -1749,7 +2106,13 @@
 		{
 			dependencies: ["63461003BC21A69D"]
 			id: "2776627B79F4001B"
+			rewards: [{
+				id: "35DE00B457C2A17F"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Advanced Plastic Refiner"
 			tasks: [{
 				id: "4BA2C444972287DB"
 				item: "industrialforegoing:latex_processing_unit"
@@ -1763,6 +2126,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "74470E2EF3B4178D"
+			rewards: [{
+				id: "252449FBD195A144"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3DA25BEF84FB7B62"
@@ -1777,6 +2145,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "6FCF9DDEB94C1D4E"
+			rewards: [{
+				id: "5D07875FF57849B6"
+				item: "industrialforegoing:dye_mixer"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0417086C8996B653"
@@ -1791,6 +2164,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "1A9E5F1432CF9D58"
+			rewards: [{
+				id: "6A0EE7330FB9BB4D"
+				item: "industrialforegoing:fluid_placer"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5190F935EABA10D3"
@@ -1804,6 +2182,11 @@
 		{
 			dependencies: ["0FACD601DD841669"]
 			id: "055C662825D08FB4"
+			rewards: [{
+				id: "078BC8CE72428EAD"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "549DC5694CA475AC"
@@ -1817,6 +2200,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "10ED6CA15F36D0B8"
+			rewards: [{
+				id: "30125FF3FD50B32A"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "05B7C2757E090B0E"
@@ -1831,6 +2219,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "7878F19730174984"
+			rewards: [{
+				id: "17402F815D4543D1"
+				item: "industrialforegoing:block_placer"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3E1BAF26E8AFC611"
@@ -1845,6 +2238,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "4557EDEB3E46BCFD"
+			rewards: [{
+				id: "4B18490CFA2FDF74"
+				item: "industrialforegoing:animal_rancher"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "07A019A62279AC78"
@@ -1859,6 +2257,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "3361221283C76A27"
+			rewards: [{
+				id: "5E3403C59E4D4936"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "12C10AEAB7086A19"
@@ -1873,6 +2276,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "009726B4F6F26E6A"
+			rewards: [{
+				id: "7DAF466F44D67912"
+				item: "industrialforegoing:resourceful_furnace"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "15B80DFD9D87E16F"
@@ -1886,6 +2294,12 @@
 		{
 			dependencies: ["0FACD601DD841669"]
 			id: "1C740E24A77E9DEF"
+			rewards: [{
+				id: "160117218071BD11"
+				item: "industrialforegoing:mob_imprisonment_tool"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "45D32F527FC99080"
@@ -1899,6 +2313,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "20F16B60F121DA58"
+			rewards: [{
+				id: "72A6550FE7EA2BF1"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "16EFD35E3A4CEF5E"
@@ -1912,6 +2331,11 @@
 		{
 			dependencies: ["021C8ADC6E826A70"]
 			id: "5DE750B4360D6660"
+			rewards: [{
+				id: "735F3F794EE67BF5"
+				item: "industrialforegoing:sludge_refiner"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "354CE7B1D3C2CBAF"
@@ -1926,6 +2350,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "6FAC104BF242731F"
+			rewards: [{
+				id: "5BD35C4DDF3A7D39"
+				item: "industrialforegoing:water_condensator"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7CB3B73DF5AEAA74"
@@ -1939,6 +2368,11 @@
 		{
 			dependencies: ["33805E3DB7B63F3A"]
 			id: "7EDD1BA32F73FD63"
+			rewards: [{
+				id: "54958E7324E2940D"
+				item: "industrialforegoing:biofuel_generator"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0301F572957B951C"
@@ -1953,6 +2387,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "52FD0E182222DDF5"
+			rewards: [{
+				id: "7E746A6826E9EB80"
+				item: "industrialforegoing:spores_recreator"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "31052797CC4E42A4"
@@ -1966,6 +2405,11 @@
 		{
 			dependencies: ["4EF906007DC11E70"]
 			id: "2A2451DDC316A640"
+			rewards: [{
+				id: "345EC9920FF669FC"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "540485569F57C693"
@@ -1980,6 +2424,11 @@
 			dependencies: ["509CEF49F4864BD0"]
 			hide_dependency_lines: true
 			id: "55AB07E4CD05E828"
+			rewards: [{
+				id: "1869B1FF21BF8D47"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "773D1766D61F4211"
@@ -1994,6 +2443,20 @@
 			dependencies: ["0FACD601DD841669"]
 			hide_dependency_lines: true
 			id: "197D16914AF7BA99"
+			rewards: [{
+				id: "46A27A753C1C69DC"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:speed_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2031,6 +2494,20 @@
 			dependencies: ["0FACD601DD841669"]
 			hide_dependency_lines: true
 			id: "7718E05D727B61A3"
+			rewards: [{
+				id: "05AD2E55E83118F7"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:efficiency_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2068,6 +2545,20 @@
 			dependencies: ["0FACD601DD841669"]
 			hide_dependency_lines: true
 			id: "1495E832B1651B0D"
+			rewards: [{
+				id: "14DB4E4C9B5B34C6"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:processing_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2107,42 +2598,65 @@
 				"52EB483AC345154B"
 			]
 			id: "021C8ADC6E826A70"
+			rewards: [{
+				id: "1D794255A1769F8D"
+				item: "industrialforegoing:sludge_bucket"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4C47D1A715670201"
 				item: "industrialforegoing:sludge_bucket"
 				type: "item"
 			}]
+			title: "&lSludge"
 			x: 9.5d
 			y: -13.5d
 		}
 		{
 			dependencies: ["20F16B60F121DA58"]
 			id: "33805E3DB7B63F3A"
+			rewards: [{
+				id: "39070281F85869E1"
+				item: "industrialforegoing:biofuel_bucket"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "26F9FA268519F2CC"
 				item: "industrialforegoing:biofuel_bucket"
 				type: "item"
 			}]
+			title: "Biofuel"
 			x: 9.5d
 			y: -15.5d
 		}
 		{
 			dependencies: ["10ED6CA15F36D0B8"]
 			id: "4EF906007DC11E70"
+			rewards: [{
+				id: "5F45205E4961DAC3"
+				item: "industrialforegoing:sewage_bucket"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0B34B168C2679E5D"
 				item: "industrialforegoing:sewage_bucket"
 				type: "item"
 			}]
+			title: "Sewage"
 			x: 8.5d
 			y: -14.5d
 		}
 		{
 			dependencies: ["2A2451DDC316A640"]
 			id: "057D3D94C383F86B"
+			rewards: [{
+				id: "32E4F6FA816B16E3"
+				item: "industrialforegoing:fertilizer"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "254ADF002A09A8DC"

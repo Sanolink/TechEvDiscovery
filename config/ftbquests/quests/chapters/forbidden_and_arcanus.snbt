@@ -15,8 +15,8 @@
 			image: "forbidden_arcanus:item/enchanted_soul"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: -1.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			click: ""
@@ -342,6 +342,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Extracts Souls from Soul Sand"
 			tasks: [
 				{
 					id: "6054F3ED0890990E"
@@ -399,7 +400,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["65DB8F1D156DB3F3"]
@@ -417,7 +418,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1418D01A2752AA5B"]
@@ -429,13 +430,14 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Arcane Bone Meal + Farmland"
 			tasks: [{
 				id: "6054D24794D1ED2B"
 				item: "forbidden_arcanus:magical_farmland"
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["64A96D206C829191"]
@@ -458,6 +460,7 @@
 			]
 			shape: "square"
 			size: 1.5d
+			subtitle: "Can be found in Dark Forests"
 			tasks: [
 				{
 					id: "02F712F0414FD4CF"
@@ -487,17 +490,24 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Deorum Farmable"
 			tasks: [{
 				id: "5D506210ADA88111"
 				item: "forbidden_arcanus:golden_orchid_seeds"
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["18AE3BA5D87C1F4D"]
 			id: "199E16FB5E618E22"
+			rewards: [{
+				id: "1586A547A72AB555"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "63277085878F7D20"
@@ -522,6 +532,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Lightning Summoner"
 			tasks: [{
 				id: "770CD75428FB3375"
 				item: "forbidden_arcanus:draco_arcanus_scepter"
@@ -630,8 +641,9 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["64A96D206C829191"]
+			dependencies: ["54B1E6F258813156"]
 			hide_dependency_lines: true
+			icon: "forbidden_arcanus:obsidian_ingot"
 			id: "77640BC2D85E5815"
 			rewards: [{
 				id: "4FD123466FE7E361"
@@ -642,7 +654,7 @@
 			shape: "square"
 			size: 1.5d
 			tasks: [{
-				id: "66AB28C0866E8FEA"
+				id: "191ED8A88B2EA4F9"
 				item: "forbidden_arcanus:obsidian_ingot"
 				type: "item"
 			}]
@@ -736,6 +748,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Fire Resistant"
 			tasks: [{
 				id: "14B15337F9213CED"
 				item: {
@@ -818,6 +831,13 @@
 				}
 			}
 			id: "067D06CF05D543E8"
+			rewards: [{
+				count: 2
+				id: "1BDB2CEA7E55C835"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -886,6 +906,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Silk Touch"
 			tasks: [{
 				id: "66DDE81D63614739"
 				item: {
@@ -970,7 +991,7 @@
 			]
 			title: "Deorum Armor"
 			x: 2.5d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["65DB8F1D156DB3F3"]
@@ -1002,6 +1023,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Mob Catcher"
 			tasks: [{
 				id: "392B7A37DF355A0D"
 				item: "forbidden_arcanus:quantum_catcher"
@@ -1012,6 +1034,7 @@
 		}
 		{
 			dependencies: ["199E16FB5E618E22"]
+			description: ["Kill some mobs with the &6&lMystical Dagger&r to get their &4&lBlood&r."]
 			id: "1335C123F16C3670"
 			rewards: [{
 				count: 2
@@ -1067,6 +1090,58 @@
 			]
 			title: "Arcane Crystal Obelisk"
 			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CEB827BD9707450"]
+			description: [
+				"Right click the Clibano Core with a &4&lMundabitur Dust&r to create the &l&6Clibano Forge&r."
+				""
+				"Here's the pattern for making this Multiblock :"
+				""
+				"Polished Darkstone : &eP&r"
+				"Polished Darkstone Bricks : &bB&r"
+				"Clibano Core : &aC&r"
+				"Air : &7-&r"
+				""
+				"Layer 1 Layer 2 Layer 3"
+				""
+				" [&eP&bB&eP&r]     [&bB&bB&bB&r]     [&eP&bB&eP&r]"
+				" [&bB&bB&bB&r]     [&bB&7-&bB&r]     [&bB&bB&bB&r]"
+				" [&eP&bB&eP&r]     [&bB&aC&bB&r]     [&eP&bB&eP&r]"
+				""
+				" "
+			]
+			icon: "forbidden_arcanus:clibano_core"
+			id: "54B1E6F258813156"
+			rewards: [{
+				id: "13281B52E95F6356"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "3x3x3 Multiblock"
+			tasks: [
+				{
+					id: "6E841C8B362F184F"
+					item: "forbidden_arcanus:clibano_core"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1E5B6274FCEFB972"
+					item: "forbidden_arcanus:polished_darkstone_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "361BBAFF0333B2E9"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+			]
+			title: "&lClibano Forge"
+			x: 1.5d
 			y: -4.5d
 		}
 	]

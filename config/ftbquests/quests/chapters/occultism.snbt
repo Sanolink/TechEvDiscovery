@@ -180,7 +180,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -9.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			click: ""
@@ -261,6 +261,12 @@
 		{
 			dependencies: ["1C94B78C0A6122EB"]
 			id: "7B89D40AD2B157BC"
+			rewards: [{
+				id: "037797C9656B4C99"
+				item: "occultism:spirit_attuned_gem"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "01670AB364DDB114"
@@ -273,6 +279,12 @@
 		{
 			dependencies: ["7B89D40AD2B157BC"]
 			id: "693C2B24EF7E2EBF"
+			rewards: [{
+				id: "415CA743574EAE94"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "1AD7BF581DE88A54"
@@ -289,6 +301,12 @@
 		{
 			dependencies: ["1C94B78C0A6122EB"]
 			id: "6F9B6492C0906089"
+			rewards: [{
+				id: "44EE0B4DF3191EDA"
+				item: "occultism:otherworld_ashes"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "639D9DF99CBDA9BE"
@@ -301,6 +319,12 @@
 		{
 			dependencies: ["1C94B78C0A6122EB"]
 			id: "64CCC6002B9B65DF"
+			rewards: [{
+				id: "152A64237DA238A1"
+				item: "occultism:burnt_otherstone"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1D5C512695E7DDF5"
@@ -313,6 +337,12 @@
 		{
 			dependencies: ["1C94B78C0A6122EB"]
 			id: "4847068E3FD83783"
+			rewards: [{
+				id: "4D57A073D6806C6E"
+				item: "occultism:purified_ink"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "53CC4AA681976756"
@@ -329,6 +359,11 @@
 			]
 			hide_dependent_lines: true
 			id: "1C0AB7520804DDED"
+			rewards: [{
+				id: "5A9A4EBE9091CF66"
+				item: "occultism:brush"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "766D77FC60986ACE"
@@ -347,6 +382,12 @@
 		{
 			dependencies: ["4847068E3FD83783"]
 			id: "34FC3AD9DC76B5AF"
+			rewards: [{
+				id: "587AA68EF2723A7B"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "32F7499AE0A38FC0"
@@ -359,6 +400,12 @@
 		{
 			dependencies: ["4847068E3FD83783"]
 			id: "511E9C642BC59287"
+			rewards: [{
+				id: "304E400A09C3AD16"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6FE39F74F21C4739"
@@ -371,6 +418,12 @@
 		{
 			dependencies: ["4847068E3FD83783"]
 			id: "4C49992326D3DD8C"
+			rewards: [{
+				id: "44F972D1A0A341B8"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "04F915D271140E66"
@@ -383,6 +436,12 @@
 		{
 			dependencies: ["4847068E3FD83783"]
 			id: "133820BAD9B86802"
+			rewards: [{
+				id: "676269B25E5C880A"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6558A5C60CCC41BA"
@@ -395,6 +454,12 @@
 		{
 			dependencies: ["7B89D40AD2B157BC"]
 			id: "64D452BC38F764AE"
+			rewards: [{
+				id: "70FCC2226C45F8D0"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "3FBBECC69A412B1F"
@@ -408,11 +473,17 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7B89D40AD2B157BC"]
 			id: "00E7AFD37EA131E2"
+			rewards: [{
+				id: "6F6BFAB923411750"
+				item: "occultism:spirit_attuned_gem"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "277A418D7E3C4DCB"
@@ -427,7 +498,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -436,6 +507,12 @@
 				"693C2B24EF7E2EBF"
 			]
 			id: "0475D6A25DB7A96A"
+			rewards: [{
+				id: "0373866E335E0A27"
+				item: "occultism:iesnium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1BE58922BD1EF9C7"
@@ -448,6 +525,12 @@
 		{
 			dependencies: ["0475D6A25DB7A96A"]
 			id: "79B7536444AE11F7"
+			rewards: [{
+				id: "1A0AC038BB03C66B"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "6483D24BB5D5CF00"
@@ -481,9 +564,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "4003D1ECEABE3F08"
-				item: "minecraft:stone"
-				type: "item"
+				id: "7BD1641FDEAE76B7"
+				type: "checkmark"
 			}]
 			title: "&lEziveus' Spectral Convulsion"
 			x: -6.5d
@@ -507,9 +589,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "6FE6DEFF1ECEA1B3"
-				item: "minecraft:stone"
-				type: "item"
+				id: "055026EC9EDA99D0"
+				type: "checkmark"
 			}]
 			title: "&lStrigeors' Higher Binding"
 			x: -3.5d
@@ -533,9 +614,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "0BF4FF9D6EE72D35"
-				item: "minecraft:stone"
-				type: "item"
+				id: "53B4075E9CA57660"
+				type: "checkmark"
 			}]
 			title: "&lSevira's Permanent Confinement"
 			x: -0.5d
@@ -560,9 +640,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "53096485780EEFC7"
-				item: "minecraft:stone"
-				type: "item"
+				id: "68039EA14D56D940"
+				type: "checkmark"
 			}]
 			title: "&lUphyxes Inverted Tower"
 			x: 2.5d
@@ -585,9 +664,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "6104DFF41CEA433F"
-				item: "minecraft:stone"
-				type: "item"
+				id: "6EDC7B99245AAE78"
+				type: "checkmark"
 			}]
 			title: "&lHedyrin's Lure"
 			x: -8.0d
@@ -611,9 +689,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "47C8886D275A3B7B"
-				item: "minecraft:stone"
-				type: "item"
+				id: "5BA82D1DE45A864E"
+				type: "checkmark"
 			}]
 			title: "&lIhagan's Enthrallment"
 			x: -2.0d
@@ -638,9 +715,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "32FBB5254C8F48F0"
-				item: "minecraft:stone"
-				type: "item"
+				id: "5EDEBF9D05B8DC07"
+				type: "checkmark"
 			}]
 			title: "&lAbras' Commanding Conjure"
 			x: 4.0d
@@ -660,9 +736,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "1344F778DF376783"
-				item: "minecraft:stone"
-				type: "item"
+				id: "716511A2D0CEEB3B"
+				type: "checkmark"
 			}]
 			title: "&lAviar's Circle"
 			x: -0.5d
@@ -685,9 +760,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "6381C71562B88557"
-				item: "minecraft:stone"
-				type: "item"
+				id: "78596A00E0C78DFB"
+				type: "checkmark"
 			}]
 			title: "&lOphyx' Calling"
 			x: -6.5d
@@ -710,9 +784,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "07F64A3DDC7DC3C8"
-				item: "minecraft:stone"
-				type: "item"
+				id: "5C8CE517B0F4A902"
+				type: "checkmark"
 			}]
 			title: "&lAbras' Open Conjure"
 			x: -3.5d
@@ -736,9 +809,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "18EEC2EBDD4CD5F7"
-				item: "minecraft:stone"
-				type: "item"
+				id: "740DC84B4467BA03"
+				type: "checkmark"
 			}]
 			title: "&lAbras' Conjure"
 			x: 5.5d
@@ -762,9 +834,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "0F9B85D6C1E56619"
-				item: "minecraft:stone"
-				type: "item"
+				id: "6579F86E44529080"
+				type: "checkmark"
 			}]
 			title: "&lFatma's Incentivized Attraction"
 			x: 2.5d
@@ -787,9 +858,8 @@
 			shape: "rsquare"
 			size: 3.0d
 			tasks: [{
-				id: "3EDB80AD1A04AE86"
-				item: "minecraft:stone"
-				type: "item"
+				id: "710765F1A250B758"
+				type: "checkmark"
 			}]
 			title: "&lOsorin's Unbound Calling"
 			x: -9.5d
@@ -799,6 +869,12 @@
 			dependencies: ["1C0AB7520804DDED"]
 			hide_dependent_lines: true
 			id: "4CF07ED6D3996AFE"
+			rewards: [{
+				id: "6318F1E202355734"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "27D4D5D60151CFDC"
@@ -821,6 +897,12 @@
 			]
 			hide_dependent_lines: true
 			id: "0D16774F6E1A263C"
+			rewards: [{
+				id: "35B6C6C48388D9B3"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "78D5EDC2D0735276"
@@ -843,6 +925,12 @@
 			]
 			hide_dependent_lines: true
 			id: "5843CB3BF4206593"
+			rewards: [{
+				id: "21043842F5B05063"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3051F46C7E18353A"
@@ -861,7 +949,14 @@
 		{
 			dependencies: ["7FF1D6610A947394"]
 			id: "59DD6AAEC80A1B07"
+			rewards: [{
+				id: "4CBFD442D8A04B92"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "+256 Slots"
 			tasks: [{
 				id: "5D8405A294F9C36D"
 				item: "occultism:storage_stabilizer_tier1"
@@ -873,7 +968,14 @@
 		{
 			dependencies: ["59DD6AAEC80A1B07"]
 			id: "66217067802E12F5"
+			rewards: [{
+				id: "792B66FF2CB08F8A"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "+512 Slots"
 			tasks: [{
 				id: "54D63519977A033D"
 				item: "occultism:storage_stabilizer_tier2"
@@ -885,7 +987,14 @@
 		{
 			dependencies: ["66217067802E12F5"]
 			id: "03014F65818D74DB"
+			rewards: [{
+				id: "5E2BC34214441EFD"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "+1024 Slots"
 			tasks: [{
 				id: "1C2AB3FF192CE4C1"
 				item: "occultism:storage_stabilizer_tier3"
@@ -897,7 +1006,14 @@
 		{
 			dependencies: ["03014F65818D74DB"]
 			id: "3C032A87F6719E23"
+			rewards: [{
+				id: "15ACD92131D219A0"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "+2048 Slots"
 			tasks: [{
 				id: "171D74B423CB5BA8"
 				item: "occultism:storage_stabilizer_tier4"
@@ -919,8 +1035,15 @@
 				}
 			}
 			id: "6FE866EC6BC38C01"
+			rewards: [{
+				id: "075FECB3F47EB1C8"
+				item: "coinsje:gold_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Digital Mining"
 			tasks: [
 				{
 					id: "7CA8F7C0A748B436"
@@ -945,9 +1068,24 @@
 		}
 		{
 			dependencies: ["1C0AB7520804DDED"]
+			description: [
+				"&lOptimal Storage Setup : "
+				""
+				"-&l&eStorage Actuator "
+				"-&l&3Stabilizers : 6x 2048 Slots"
+				""
+				"{image:techev:textures/misc/quests/occultism/storage.png width:100 height:100 align:1}"
+			]
 			id: "7FF1D6610A947394"
+			rewards: [{
+				id: "630030BBA4BD9E16"
+				item: "coinsje:gold_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Digital Storage"
 			tasks: [{
 				id: "72B3850D88BD235C"
 				item: "occultism:storage_controller"
@@ -959,6 +1097,12 @@
 		{
 			dependencies: ["3701C7F568A69720"]
 			id: "47A2908D4E7CDE38"
+			rewards: [{
+				id: "1966E988D0F3AEA7"
+				item: "occultism:afrit_essence"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "53FB2D4004482242"
@@ -971,6 +1115,12 @@
 		{
 			dependencies: ["7FF1D6610A947394"]
 			id: "290A90B172BAAE23"
+			rewards: [{
+				id: "1C315EEC4E002C3C"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "6625B8E785FCF9F7"
@@ -987,6 +1137,12 @@
 		{
 			dependencies: ["7FF1D6610A947394"]
 			id: "372B1CEBC7776EDC"
+			rewards: [{
+				id: "493F2B15C19B8F8E"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "09BE7C8938177F10"
@@ -1005,12 +1161,21 @@
 		{
 			dependencies: ["2655CC9B7F4E691F"]
 			id: "08B5C84E8EAF610A"
+			rewards: [{
+				count: 2
+				id: "57CA85137EEA88DD"
+				item: "occultism:crushed_end_stone"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
+				count: 2L
 				id: "5C7C8FBFCA629765"
 				item: "occultism:crushed_end_stone"
 				type: "item"
 			}]
+			title: "Crushed End Stone"
 			x: -0.5d
 			y: 4.0d
 		}

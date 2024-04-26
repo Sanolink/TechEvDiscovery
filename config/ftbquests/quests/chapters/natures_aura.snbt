@@ -22,10 +22,25 @@
 	quests: [
 		{
 			dependencies: ["5946877842B7C1FB"]
-			description: ["{image:techev:textures/misc/quests/naturesaura/brilliant_fiber_nb.png width:82 height:100 align:1}"]
+			description: [
+				"Put some &6&lBrilliant Fibers&r on a tree and wait it to turn into &e&lGolden Leaves&r."
+				"{image:techev:textures/misc/quests/naturesaura/brilliant_fiber_nb.png width:82 height:100 align:1}"
+			]
 			id: "1B66E02D35803760"
+			rewards: [{
+				id: "78C73425EA838051"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "Brilliant Fibers > Gold Leaf"
 			tasks: [{
 				id: "5624AB0D34C4C554"
 				item: "naturesaura:gold_leaf"
@@ -40,9 +55,19 @@
 				"5FD7116F33A53C34"
 				"62A7F6ECC147C4B6"
 			]
-			description: ["{image:techev:textures/misc/quests/naturesaura/offering_to_the_gods.png width:256 height:144 align:1 fit:true}"]
+			description: [
+				"Put ingredients on the Offering Table then drop the Spirit of Calling on top of the Table. "
+				""
+				"{image:techev:textures/misc/quests/naturesaura/offering_to_the_gods.png width:256 height:144 align:1 fit:true}"
+			]
 			icon: "naturesaura:offering_table"
 			id: "755A3B2A7DA0F100"
+			rewards: [{
+				id: "2F6B7836DDAB9354"
+				item: "naturesaura:calling_spirit"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -57,19 +82,60 @@
 					type: "item"
 				}
 			]
+			title: "&lOffering to the Gods"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7D068DF3DA42C059"]
+			description: [
+				"You can put &6&lCatalysts&r on top of the bottom layer &eGolden Stone Bricks&r to make certain crafts."
+				""
+				"{image:techev:textures/misc/quests/naturesaura/natural_altar.png width:256 height:144 align:1 fit:true}"
+			]
+			icon: "naturesaura:nature_altar"
 			id: "4C14213DE46B34B6"
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "5DA8001D363DE2A8"
-				item: "naturesaura:nature_altar"
+			rewards: [{
+				count: 2
+				id: "7E1B9ED8B542732E"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
 				type: "item"
 			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5DA8001D363DE2A8"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "4DAEBB53D8E3D37E"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1E033387E138C3CF"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3DA12DF9D70183AA"
+					item: "naturesaura:gold_brick"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "09CE51397081DD9E"
+					item: "minecraft:chiseled_stone_bricks"
+					type: "item"
+				}
+			]
+			title: "&lNatural Altar Infusion "
 			x: 6.0d
 			y: 0.0d
 		}
@@ -78,8 +144,16 @@
 			description: ["{image:techev:textures/misc/quests/naturesaura/ritual_of_the_forest.png width:256 height:144 align:1}"]
 			icon: "naturesaura:wood_stand"
 			id: "5AF05D57169D2B92"
+			rewards: [{
+				count: 16
+				id: "11BC26AFCBC38020"
+				item: "naturesaura:gold_powder"
+				random_bonus: 16
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
+			subtitle: "Wait for the Sapling to grow to Craft"
 			tasks: [
 				{
 					count: 8L
@@ -99,14 +173,23 @@
 					type: "item"
 				}
 			]
+			title: "&lRitual of the Forest"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["06F81E6B3C6B225C"]
 			id: "358EF7485AE5A835"
+			rewards: [{
+				count: 2
+				id: "341386B76D194C92"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
+			subtitle: "Aura Imbalance Viewer"
 			tasks: [{
 				id: "0942190F089CA986"
 				item: "naturesaura:eye_improved"
@@ -118,7 +201,14 @@
 		{
 			dependencies: ["5AF05D57169D2B92"]
 			id: "06F81E6B3C6B225C"
+			rewards: [{
+				id: "1FF5980BE7360F50"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Aura Viewer"
 			tasks: [{
 				id: "6E8B045AD41E2B61"
 				item: "naturesaura:eye"
@@ -130,7 +220,20 @@
 		{
 			dependencies: ["5D87C9F50E83C1D8"]
 			id: "312980C410109C0B"
+			rewards: [{
+				id: "01020B0411B71861"
+				item: {
+					Count: 1b
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Obtained in the Nether"
 			tasks: [{
 				id: "5ADD3BF4BF74D409"
 				item: {
@@ -149,7 +252,20 @@
 		{
 			dependencies: ["5D87C9F50E83C1D8"]
 			id: "415E8F985F75A056"
+			rewards: [{
+				id: "4E651118268B8201"
+				item: {
+					Count: 1b
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Obtained in an Area with Aura"
 			tasks: [{
 				id: "040D6D75918BA32B"
 				item: {
@@ -167,10 +283,24 @@
 		}
 		{
 			dependencies: ["755A3B2A7DA0F100"]
+			description: [
+				"You can get &e&lSpirit of Birthing&r by breeding animals in an Area with a lot of Aura."
+				""
+				"Just drop Ingredients on top of the Altar to summon mobs."
+				""
+				"{image:techev:textures/misc/quests/naturesaura/altar_of_birthing.png width:256 height:144 align:1 fit:true}"
+			]
 			icon: "naturesaura:animal_spawner"
 			id: "0CC8DFE35F556F68"
+			rewards: [{
+				count: 2
+				id: "26B8A88DC63A161F"
+				item: "naturesaura:birth_spirit"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "square"
-			size: 1.5d
+			subtitle: "Mobs Summoner"
 			tasks: [
 				{
 					id: "2D0507B4ECAFCAE0"
@@ -182,15 +312,40 @@
 					item: "naturesaura:birth_spirit"
 					type: "item"
 				}
+				{
+					count: 16L
+					id: "1EB03CB6A568DD77"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4EF75C232E9A3A8F"
+					item: "naturesaura:infused_brick"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "746527443E68A44D"
+					item: "naturesaura:ancient_planks"
+					type: "item"
+				}
 			]
-			x: 9.0d
-			y: 1.5d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1B66E02D35803760"]
 			id: "5D87C9F50E83C1D8"
+			rewards: [{
+				id: "0379D0A2CD38B7E1"
+				item: "naturesaura:bottle_two_the_rebottling"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "Right Click to Use"
 			tasks: [{
 				id: "055FE33FAEFA545E"
 				item: "naturesaura:bottle_two_the_rebottling"
@@ -202,7 +357,20 @@
 		{
 			dependencies: ["5D87C9F50E83C1D8"]
 			id: "2815C7EB1B03CD09"
+			rewards: [{
+				id: "2C3FE3682F6D4FF6"
+				item: {
+					Count: 1b
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Obtained in the End"
 			tasks: [{
 				id: "5DB4AFBCFE2D002B"
 				item: {
@@ -221,7 +389,14 @@
 		{
 			dependencies: ["5D87C9F50E83C1D8"]
 			id: "72D87903778A5B68"
+			rewards: [{
+				id: "099931C564665C01"
+				item: "naturesaura:vacuum_bottle"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "Obtained in an Area without Aura"
 			tasks: [{
 				id: "0AA6E11D829D17AA"
 				item: "naturesaura:vacuum_bottle"
@@ -233,7 +408,14 @@
 		{
 			dependencies: ["755A3B2A7DA0F100"]
 			id: "34B69DDF425662AC"
+			rewards: [{
+				id: "24B9D56AC374E816"
+				item: "naturesaura:sky_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Base Material"
 			tasks: [{
 				id: "1569EF0C119CE76F"
 				item: "naturesaura:sky_ingot"
@@ -245,7 +427,14 @@
 		{
 			dependencies: ["34B69DDF425662AC"]
 			id: "5AF2EAA49C27BA52"
+			rewards: [{
+				id: "106B24216CC0D9B2"
+				item: "naturesaura:depth_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Base Material"
 			tasks: [{
 				id: "72AE85323C56101D"
 				item: "naturesaura:depth_ingot"
@@ -256,8 +445,21 @@
 		}
 		{
 			dependencies: ["755A3B2A7DA0F100"]
+			description: [
+				"You need to put an &dItem Frame&r with the &eHand of Time&r on top of the &6&lShifting Sundial&r."
+				""
+				"Turn the Hand of Time to set the Time and drop a clock on top of it."
+			]
 			id: "2DCD8C544ED07C4A"
+			rewards: [{
+				count: 2
+				id: "428D91A46C3E0EEE"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Time Controller"
 			tasks: [
 				{
 					id: "3F470259496C1C06"
@@ -270,13 +472,20 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4C14213DE46B34B6"]
 			id: "5FD7116F33A53C34"
+			rewards: [{
+				id: "757282FD3E824269"
+				item: "naturesaura:infused_iron"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Base Material"
 			tasks: [{
 				id: "027422CED164DC1B"
 				item: "naturesaura:infused_iron"
@@ -288,7 +497,14 @@
 		{
 			dependencies: ["4C14213DE46B34B6"]
 			id: "62A7F6ECC147C4B6"
+			rewards: [{
+				id: "2275DBAC8279ADBF"
+				item: "naturesaura:tainted_gold"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Base Material"
 			tasks: [{
 				id: "575D9AF17FE78BE7"
 				item: "naturesaura:tainted_gold"
@@ -303,29 +519,42 @@
 				"34B69DDF425662AC"
 			]
 			id: "7254F6E1A157280B"
+			rewards: [{
+				id: "6688260D19DF576B"
+				item: "coinsje:gold_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
-				{
-					id: "3C3315CAD4B69BD1"
-					item: "blue_skies:charoite"
-					type: "item"
-				}
 				{
 					id: "566245B9932C6070"
 					item: "blue_skies:moonstone_shard"
 					type: "item"
 				}
+				{
+					id: "7DCEB20FAA3152EA"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
 			]
+			title: "&b&lMoonstone &r/ &c&lCharoite"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"5946877842B7C1FB"
-				"5AF05D57169D2B92"
+				"7D4FF575A37FEF21"
 			]
 			id: "4DDE740068E47B7E"
+			rewards: [{
+				id: "28C62FF6A5405C1A"
+				item: "occultism:datura_seeds"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -333,25 +562,42 @@
 				item: "occultism:datura_seeds"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			title: "&5&lDemon's Dream Seeds"
+			x: 6.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["5AF05D57169D2B92"]
 			id: "7D068DF3DA42C059"
+			rewards: [{
+				id: "446287347D6C34BF"
+				item: "naturesaura:token_joy"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Base Material"
 			tasks: [{
+				count: 2L
 				id: "7BC9867F5ABAFA3A"
 				item: "naturesaura:token_joy"
 				type: "item"
 			}]
+			title: "Token of Joy"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4C14213DE46B34B6"]
 			id: "2683A36D6F417AEE"
+			rewards: [{
+				id: "52951CC617EC6C18"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Crushing Catalyst"
 			tasks: [{
 				id: "4A9B25D190FD74AC"
 				item: "naturesaura:crushing_catalyst"
@@ -363,7 +609,14 @@
 		{
 			dependencies: ["4C14213DE46B34B6"]
 			id: "40E028AD49B1D049"
+			rewards: [{
+				id: "5311500A7A49772A"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Conversion Catalyst"
 			tasks: [{
 				id: "3B79E5B6B9093133"
 				item: "naturesaura:conversion_catalyst"
@@ -375,7 +628,14 @@
 		{
 			dependencies: ["4C14213DE46B34B6"]
 			id: "4D97591191E1FD4A"
+			rewards: [{
+				id: "60E046D29D9C86C7"
+				item: "naturesaura:infused_stone"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Base Material"
 			tasks: [{
 				id: "1314E5A988F41CA5"
 				item: "naturesaura:infused_stone"
@@ -387,7 +647,14 @@
 		{
 			dependencies: ["4D97591191E1FD4A"]
 			id: "79513848321D9EA1"
+			rewards: [{
+				id: "30E98CE13AB8E2CB"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Aura Storage"
 			tasks: [{
 				id: "2895323B4017F851"
 				item: "naturesaura:aura_cache"
@@ -399,7 +666,15 @@
 		{
 			dependencies: ["79513848321D9EA1"]
 			id: "586B48CFDEDEF549"
+			rewards: [{
+				count: 2
+				id: "5641FD4902F3F2BD"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "3x Storage of the Aura Cache"
 			tasks: [{
 				id: "7D7F4CA8EE5981DC"
 				item: "naturesaura:aura_trove"
@@ -414,7 +689,14 @@
 				"06F81E6B3C6B225C"
 			]
 			id: "173939FBF25FC40D"
+			rewards: [{
+				id: "0BDB8340EC9747BD"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Can be used with a Comparator"
 			tasks: [{
 				id: "5AEC0A7FD946D9DA"
 				item: "naturesaura:aura_detector"
@@ -422,6 +704,134 @@
 			}]
 			x: 4.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["70F88024E8A447F7"]
+			description: [
+				"One of the easiest way to create &aAura&r is the &2&lHerbivorous Absorber&r."
+				""
+				"Just put some flowers &c(Not always the same)&r to generate &aAura&r."
+			]
+			id: "6F40EDF8D5A7143F"
+			rewards: [{
+				id: "63EEB6B3AEBA6FA4"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Flowers Absorber"
+			tasks: [{
+				id: "067767299A73187E"
+				item: "naturesaura:flower_generator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AF05D57169D2B92"]
+			description: [
+				"&aAura&r is the core of &2&lNature's Aura&r."
+				""
+				"To start generating &aAura&r, you can craft an &dAncient Sapling&r, its leaves creates a little bit of &aAura&r."
+			]
+			id: "70F88024E8A447F7"
+			rewards: [{
+				id: "00F2FC6162F4DD13"
+				item: "naturesaura:ancient_sapling"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "456266EFD50F5F2F"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			title: "&lCreating &aAura"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4C14213DE46B34B6"
+				"70F88024E8A447F7"
+				"6BF5DB35D2FDFAF5"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Put this below an &aAura Generator&r to improve its performances."]
+			id: "7D4FF575A37FEF21"
+			rewards: [{
+				id: "36EA3FC2CD512DF9"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Aura Generator Upgrade"
+			tasks: [{
+				id: "2F377474DB615644"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["755A3B2A7DA0F100"]
+			id: "6BF5DB35D2FDFAF5"
+			rewards: [{
+				id: "308F5599BAB665B3"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5573BF9F55951DEB"
+					item: "naturesaura:token_euphoria"
+					type: "item"
+				}
+				{
+					id: "01E9F21774942689"
+					item: "naturesaura:token_terror"
+					type: "item"
+				}
+				{
+					id: "695EC859F4D4E985"
+					item: "naturesaura:token_rage"
+					type: "item"
+				}
+				{
+					id: "54E67A8CCB76B3E7"
+					item: "naturesaura:token_grief"
+					type: "item"
+				}
+			]
+			title: "Tokens"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BF5DB35D2FDFAF5"]
+			id: "1C11807B8774C0C1"
+			rewards: [{
+				id: "3287E71951B40DD4"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Aura Protection"
+			tasks: [{
+				id: "205D50B09E568F70"
+				item: "naturesaura:lower_limiter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
 		}
 	]
 	title: "Nature's Aura"

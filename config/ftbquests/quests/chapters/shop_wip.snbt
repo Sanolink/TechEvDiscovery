@@ -160,7 +160,7 @@
 			tasks: [{
 				consume_items: true
 				id: "139CBDBA237B80CF"
-				item: "coinsje:iron_coin_pile"
+				item: "coinsje:gold_coin_pile"
 				type: "item"
 			}]
 			title: "&lChoice Relic"
@@ -200,7 +200,7 @@
 				consume_items: true
 				count: 3L
 				id: "12FD33504E4EFF16"
-				item: "createdeco:iron_coin"
+				item: "coinsje:gold_coin"
 				type: "item"
 			}]
 			title: "&lRandom Relic"
@@ -224,7 +224,7 @@
 			tasks: [{
 				consume_items: true
 				id: "33ED1F90372D3233"
-				item: "coinsje:iron_coin_pile"
+				item: "coinsje:gold_coin_pile"
 				type: "item"
 			}]
 			title: "&lChoice Artifact"
@@ -249,7 +249,7 @@
 				consume_items: true
 				count: 3L
 				id: "3A3CB334EE7F108C"
-				item: "createdeco:iron_coin"
+				item: "coinsje:gold_coin"
 				type: "item"
 			}]
 			title: "&lRandom Artifact"
@@ -271,7 +271,7 @@
 			tasks: [{
 				consume_items: true
 				id: "6D72632755B611FD"
-				item: "coinsje:iron_coin_pile"
+				item: "coinsje:gold_coin_pile"
 				type: "item"
 			}]
 			title: "&lSushi"
@@ -292,8 +292,9 @@
 			size: 2.5d
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "2B22793ED534E2D6"
-				item: "coinsje:gold_coin_pile"
+				item: "coinsje:diamond_coin"
 				type: "item"
 			}]
 			title: "&l&6Meat Shredder"
@@ -315,7 +316,7 @@
 			tasks: [{
 				consume_items: true
 				id: "2151450C2EB44EE4"
-				item: "coinsje:iron_coin_pile"
+				item: "coinsje:gold_coin_pile"
 				type: "item"
 			}]
 			title: "&l&dThe Incinerator"
@@ -337,7 +338,7 @@
 			tasks: [{
 				consume_items: true
 				id: "6C8EDC0E19753DF2"
-				item: "coinsje:iron_coin_pile"
+				item: "coinsje:gold_coin_pile"
 				type: "item"
 			}]
 			title: "&l&dBulwark Of the Flame"

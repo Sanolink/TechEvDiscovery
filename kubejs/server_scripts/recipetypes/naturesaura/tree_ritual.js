@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
         }
     ]
     
+    //General Tree Ritual Function
     recipes.forEach((recipe) => {
         event
             .custom({

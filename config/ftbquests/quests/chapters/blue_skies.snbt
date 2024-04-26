@@ -129,6 +129,12 @@
 			hide_dependency_lines: true
 			icon: "blue_skies:everbright_portal"
 			id: "30E09173A7D785C1"
+			rewards: [{
+				id: "3EA7964FBBECB6BD"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				id: "7BFE1C8706087A75"
@@ -168,6 +174,12 @@
 			hide_dependency_lines: true
 			icon: "blue_skies:everdawn_portal"
 			id: "2EB5323374BA9EDD"
+			rewards: [{
+				id: "7F543F71F17C2B93"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "blue_skies:everdawn"
 				id: "2F484AA5C45E1CAA"
@@ -180,6 +192,13 @@
 		{
 			dependencies: ["0EC5A89AC22E7C49"]
 			id: "6126436A3DC0ACE0"
+			rewards: [{
+				count: 2
+				id: "510055E2B27E6872"
+				item: "blue_skies:aquite"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A0BFED3EA019FA6"
 				item: "blue_skies:raw_aquite"
@@ -191,6 +210,13 @@
 		{
 			dependencies: ["0EC5A89AC22E7C49"]
 			id: "694AEE12EE8E7AB9"
+			rewards: [{
+				count: 2
+				id: "6EE9E547B7056381"
+				item: "blue_skies:charoite"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [{
 				id: "5924B40893433766"
 				item: "blue_skies:raw_charoite"
@@ -202,6 +228,12 @@
 		{
 			dependencies: ["30E09173A7D785C1"]
 			id: "05F9AF0269F4AB36"
+			rewards: [{
+				id: "7D51B11021A631F4"
+				item: "blue_skies:falsite_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DDBF87587792B88"
 				item: "blue_skies:raw_falsite"
@@ -213,6 +245,12 @@
 		{
 			dependencies: ["30E09173A7D785C1"]
 			id: "1924F8AB67451E1A"
+			rewards: [{
+				id: "622B5A85DE4604EB"
+				item: "blue_skies:ventium_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "4EE5EB122906F27B"
 				item: "blue_skies:raw_ventium"
@@ -224,6 +262,12 @@
 		{
 			dependencies: ["2EB5323374BA9EDD"]
 			id: "4885512E41C5FF3A"
+			rewards: [{
+				id: "2421D929C6F3AEF0"
+				item: "blue_skies:horizonite_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "19AD54E002A0FE55"
 				item: "blue_skies:raw_horizonite"
@@ -235,6 +279,13 @@
 		{
 			dependencies: ["0EC5A89AC22E7C49"]
 			id: "776D30902F4073AE"
+			rewards: [{
+				count: 2
+				id: "20B3569C09E8F4BC"
+				item: "blue_skies:diopside_gem"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [{
 				id: "089F9F68AA80779D"
 				item: "blue_skies:diopside_gem"
@@ -246,6 +297,13 @@
 		{
 			dependencies: ["0EC5A89AC22E7C49"]
 			id: "26BB8115AA8DE500"
+			rewards: [{
+				count: 2
+				id: "6907C17848D70868"
+				item: "blue_skies:pyrope_gem"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FA683EB1F39AD22"
 				item: "blue_skies:pyrope_gem"
@@ -261,6 +319,13 @@
 			]
 			icon: "blue_skies:summoner_spawn_egg"
 			id: "262E6188195B479B"
+			rewards: [{
+				count: 2
+				id: "5A61088595947D44"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [
 				{
 					entity: "blue_skies:summoner"
@@ -305,6 +370,13 @@
 			]
 			icon: "blue_skies:alchemist_spawn_egg"
 			id: "7C29DD3FF7AFA2C8"
+			rewards: [{
+				count: 2
+				id: "5EBBF8477FA92A4F"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [
 				{
 					entity: "blue_skies:alchemist"
@@ -345,6 +417,13 @@
 		{
 			dependencies: ["694AEE12EE8E7AB9"]
 			id: "2F7C4F3ED7656B93"
+			rewards: [{
+				count: 2
+				id: "1C9FB8E83F6B3169"
+				item: "blue_skies:charoite"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0E437EF65E58F5B5"
@@ -397,6 +476,13 @@
 		{
 			dependencies: ["6126436A3DC0ACE0"]
 			id: "1C755D2740540057"
+			rewards: [{
+				count: 2
+				id: "70BD5490DFC36765"
+				item: "blue_skies:aquite"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "261AC63D8D013B3C"
@@ -449,6 +535,13 @@
 		{
 			dependencies: ["694AEE12EE8E7AB9"]
 			id: "00154F96019C553B"
+			rewards: [{
+				count: 2
+				id: "3C3FCDB372C39676"
+				item: "blue_skies:charoite"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "128FE89AAA0CC99D"
@@ -512,6 +605,13 @@
 		{
 			dependencies: ["6126436A3DC0ACE0"]
 			id: "32F7CB45868299DC"
+			rewards: [{
+				count: 2
+				id: "59BDA82682D8E45F"
+				item: "blue_skies:aquite"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5FD8E5694923DC3D"
@@ -575,6 +675,13 @@
 		{
 			dependencies: ["776D30902F4073AE"]
 			id: "307969C2FEDD589C"
+			rewards: [{
+				count: 2
+				id: "30F3A4BA6104F13E"
+				item: "blue_skies:diopside_gem"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "75EB02EC07B01A0D"
@@ -627,6 +734,13 @@
 		{
 			dependencies: ["776D30902F4073AE"]
 			id: "0F2570DAAE445C26"
+			rewards: [{
+				count: 2
+				id: "2680024DE202DB41"
+				item: "blue_skies:diopside_gem"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "36272B768BCE6EBD"
@@ -690,6 +804,13 @@
 		{
 			dependencies: ["26BB8115AA8DE500"]
 			id: "6DDD2B5EE64E9712"
+			rewards: [{
+				count: 2
+				id: "5FE741363F0DD5C9"
+				item: "blue_skies:pyrope_gem"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "516149F2688253BA"
@@ -753,6 +874,13 @@
 		{
 			dependencies: ["26BB8115AA8DE500"]
 			id: "22E692CE02DBD4F5"
+			rewards: [{
+				count: 2
+				id: "23F888435BA6CDD1"
+				item: "blue_skies:pyrope_gem"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4AE1BD85AA8F9987"
@@ -805,6 +933,12 @@
 		{
 			dependencies: ["4885512E41C5FF3A"]
 			id: "38CD352563AD2B48"
+			rewards: [{
+				id: "10E59A7B112FA686"
+				item: "blue_skies:horizonite_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "12519CC77C063850"
@@ -857,6 +991,12 @@
 		{
 			dependencies: ["4885512E41C5FF3A"]
 			id: "4089E6DC50920F5C"
+			rewards: [{
+				id: "615DAAAA67D8E6DE"
+				item: "blue_skies:horizonite_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "238E7D0D5DCCE20A"
@@ -920,6 +1060,12 @@
 		{
 			dependencies: ["7C29DD3FF7AFA2C8"]
 			id: "1A6D4E9873BEC0EF"
+			rewards: [{
+				id: "743F700765B250B7"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "294E46AEADBDA5A0"
@@ -932,6 +1078,13 @@
 		{
 			dependencies: ["4885512E41C5FF3A"]
 			id: "3988B6CE1FCAF98F"
+			rewards: [{
+				id: "6FCF758EB1D81D90"
+				item: "blue_skies:horizonite_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Horizonite Powered Furnace"
 			tasks: [{
 				id: "3069A7ED3A2F4A85"
 				item: "blue_skies:horizonite_forge"
@@ -943,6 +1096,12 @@
 		{
 			dependencies: ["262E6188195B479B"]
 			id: "0007F0F04D506ACA"
+			rewards: [{
+				id: "7CB4C6AC5E950918"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6ADA920FF988B64D"
@@ -955,6 +1114,13 @@
 		{
 			dependencies: ["0EC5A89AC22E7C49"]
 			id: "276DE5B49A696673"
+			rewards: [{
+				count: 2
+				id: "3A98C0777512B9A7"
+				item: "blue_skies:moonstone"
+				random_bonus: 6
+				type: "item"
+			}]
 			tasks: [{
 				id: "413CA01617F4A34C"
 				item: "blue_skies:moonstone"
@@ -970,6 +1136,12 @@
 			]
 			description: ["{image:techev:textures/misc/quests/blue_skies/blinding_dungeon.png width:79 height:100 align:1 fit:true}"]
 			id: "61E9FE30B745E875"
+			rewards: [{
+				id: "187CF231B64628DC"
+				item: "minecraft:enchanted_golden_apple"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "26D2FCC010BA7027"
 				item: "blue_skies:blinding_key"
@@ -983,6 +1155,12 @@
 			dependencies: ["262E6188195B479B"]
 			description: ["{image:techev:textures/misc/quests/blue_skies/nature_dungeon.png width:60 height:51 align:1 fit:true}"]
 			id: "0F42B1A2F905F5F7"
+			rewards: [{
+				id: "74E10424464616D0"
+				item: "minecraft:enchanted_golden_apple"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "62F1FEAFF13E7D08"
 				item: "blue_skies:nature_key"
@@ -996,6 +1174,12 @@
 			dependencies: ["7C29DD3FF7AFA2C8"]
 			description: ["{image:techev:textures/misc/quests/blue_skies/poison_dungeon.png width:53 height:54 align:1 fit:true}"]
 			id: "156DC55F2465DD0E"
+			rewards: [{
+				id: "1B331B0B0933ADB3"
+				item: "minecraft:enchanted_golden_apple"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "44C5CBA0256EFF34"
 				item: "blue_skies:poison_key"
@@ -1008,6 +1192,12 @@
 		{
 			dependencies: ["61E9FE30B745E875"]
 			id: "54F31CC7FECF78B0"
+			rewards: [{
+				id: "686D811E0F4F0587"
+				item: "blue_skies:cherry_sapling"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "0A3106DA74592B42"
@@ -1021,6 +1211,13 @@
 			dependencies: ["0F42B1A2F905F5F7"]
 			icon: "blue_skies:arachnarch_spawn_egg"
 			id: "46C454ED851B7241"
+			rewards: [{
+				count: 2
+				id: "786032B2D4898D44"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [
 				{
 					entity: "blue_skies:arachnarch"
@@ -1062,6 +1259,13 @@
 			dependencies: ["156DC55F2465DD0E"]
 			icon: "blue_skies:starlit_crusher_spawn_egg"
 			id: "30CED9451C9EA563"
+			rewards: [{
+				count: 2
+				id: "7D2BF9579AA36816"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [
 				{
 					entity: "blue_skies:starlit_crusher"
@@ -1140,23 +1344,45 @@
 		}
 		{
 			dependencies: ["1924F8AB67451E1A"]
+			icon: "blue_skies:tool_box"
 			id: "25F41351A2E0E88E"
-			tasks: [{
-				id: "475F299041BA0569"
-				item: "blue_skies:tool_box"
-				type: "item"
-			}]
+			subtitle: "Durability Upgrader (Falsite)"
+			tasks: [
+				{
+					id: "475F299041BA0569"
+					item: "blue_skies:tool_box"
+					type: "item"
+				}
+				{
+					id: "49F021F11ED2684D"
+					item: "blue_skies:falsite_ingot"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["05F9AF0269F4AB36"]
+			description: [
+				"&5&lAstrolabe&r can be used to teleport to a Star Emitter"
+				""
+				"It can be bought by a Stargazer (Villager + Star Emitter)"
+			]
+			icon: "blue_skies:star_emitter"
 			id: "6715796B478CC0BB"
-			tasks: [{
-				id: "4F0294472DE62999"
-				item: "blue_skies:star_emitter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4F0294472DE62999"
+					item: "blue_skies:star_emitter"
+					type: "item"
+				}
+				{
+					id: "223E0F03C53996F5"
+					item: "blue_skies:astrolabe"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -2.0d
 		}

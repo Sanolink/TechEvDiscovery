@@ -2,9 +2,7 @@
 //Last Modification : 1.1.0
 
 ServerEvents.recipes(event => {
-
-    //Remove
-    event.remove({ output: 'eidolon:pewter_blend', type: 'minecraft:crafting_shapeless' })
+    
     //Recipes
     const recipes = [
     ]

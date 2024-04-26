@@ -920,6 +920,12 @@
 					type: "xp_levels"
 					xp_levels: 100
 				}
+				{
+					id: "75993B87FB0D9206"
+					item: "coinsje:diamond_coin_pile"
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			subtitle: "Becoming Lara Craft"
@@ -1905,7 +1911,7 @@
 				}
 			]
 			title: "&lWands"
-			x: 1.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -1933,7 +1939,7 @@
 				}
 			]
 			title: "&lTool Belt"
-			x: -1.5d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -2085,7 +2091,7 @@
 				}
 			]
 			title: "&lWaystones"
-			x: -0.5d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
@@ -2241,20 +2247,6 @@
 			}]
 			x: -1.0d
 			y: -8.5d
-		}
-		{
-			dependencies: ["4169F3CB261CE8D0"]
-			id: "45AE97715D4F71C1"
-			shape: "rsquare"
-			subtitle: "Volatile Easy Teleportation"
-			tasks: [{
-				id: "2F0D6F30574E6E3A"
-				item: "tempad:tempad"
-				type: "item"
-			}]
-			title: "&lTempad"
-			x: 0.5d
-			y: 2.5d
 		}
 	]
 	title: "Exploring World"

@@ -3,12 +3,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-    event.remove({ output: 'constructionwand:stone_wand', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'constructionwand:iron_wand', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'constructionwand:diamond_wand', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'constructionwand:infinity_wand', type: 'minecraft:crafting_shaped' })
-    
     //Recipes
     const recipes = [
         //Stone Core

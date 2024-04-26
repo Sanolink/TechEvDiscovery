@@ -24,12 +24,12 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "relics:items/magic_mirror_0"
+			image: "relics:item/magic_mirror_0"
 			order: 1
 			rotation: 45.0d
 			width: 2.0d
-			x: -4.5d
-			y: -4.5d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			click: ""
@@ -37,12 +37,12 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "relics:items/magic_mirror_1"
+			image: "relics:item/magic_mirror_1"
 			order: 1
 			rotation: -45.0d
 			width: 2.0d
-			x: 4.5d
-			y: -4.5d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			click: ""
@@ -50,12 +50,12 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "relics:items/magic_mirror_2"
+			image: "relics:item/magic_mirror_2"
 			order: 1
 			rotation: -45.0d
 			width: 2.0d
-			x: -4.5d
-			y: 4.5d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -63,12 +63,12 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "relics:items/magic_mirror_3"
+			image: "relics:item/magic_mirror_3"
 			order: 1
 			rotation: 45.0d
 			width: 2.0d
-			x: 4.5d
-			y: 4.5d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -76,7 +76,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "relics:items/aqua_walker_4"
+			image: "relics:item/aqua_walker"
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.0d
@@ -88,7 +88,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "relics:items/magma_walker_4"
+			image: "relics:item/magma_walker"
 			rotation: 0.0d
 			width: 1.0d
 			x: -4.0d
@@ -1779,5 +1779,6 @@
 			y: -8.0d
 		}
 	]
+	subtitle: ["&lSecret Artifacts"]
 	title: "&l[Relics]"
 }

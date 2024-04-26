@@ -46,6 +46,14 @@ ServerEvents.recipes(event => {
             input: "#forge:gems/diamond",
             mold: "immersiveengineering:mold_rod",
             energy: 2400
+        },
+        //Compressed Steel Gear
+        {
+            id: "gear_compressed_iron",
+            output: "#forge:gears/compressed_iron",
+            input: Item.of("#forge:ingots/compressed_iron", 4),
+            mold: "immersiveengineering:mold_gear",
+            energy: 2400
         }
     ]
 

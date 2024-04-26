@@ -7,6 +7,11 @@ ServerEvents.recipes(event => {
     event.remove([{ type: 'minecraft:smelting', input: '#create:crushed_raw_materials' }])
     event.remove({ id: 'naturalist:cooked_egg' })
     event.remove({ id: 'quark:tweaks/smelting/bone_meal_utility' })
+    event.remove({ id: 'coinsje:furnace/copper_ingot_to_copper_coin' })
+    event.remove({ id: 'coinsje:furnace/iron_ingot_to_iron_coin' })
+    event.remove({ id: 'coinsje:furnace/gold_ingot_to_gold_coin' })
+    event.remove({ id: 'forbidden_arcanus:smelting/arcane_crystal_dust_from_smelting' })
+    event.remove({ id: 'forbidden_arcanus:obsidian_ingot'})
 
     //Recipes
     const recipes = [

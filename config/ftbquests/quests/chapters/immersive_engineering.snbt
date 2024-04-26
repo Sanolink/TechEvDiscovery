@@ -169,6 +169,30 @@
 			x: 14.5d
 			y: -4.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "immersivepetroleum:block/fluid/crudeoil_still"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "immersiveengineering:item/tool_manual"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -9.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -677,7 +701,11 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["073647E404E8E9D8"]
+			dependencies: [
+				"073647E404E8E9D8"
+				"03F1739AF4FA589A"
+				"6010F0FDE1BB66D2"
+			]
 			id: "0DA6FDB7B29BE94B"
 			rewards: [{
 				count: 2

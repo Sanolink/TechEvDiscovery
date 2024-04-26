@@ -1,0 +1,1184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "2F512FC162451D63"
+	icon: {
+		Count: 1b
+		id: "occultism:dictionary_of_spirits"
+		tag: {
+			"modonomicon:book_id": "occultism:dictionary_of_spirits"
+		}
+	}
+	id: "1EB935DAAA7A6D06"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:item/datura"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.7d
+			y: -1.4d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/spirit_campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.3d
+			y: -1.4d
+		}
+		{
+			click: ""
+			color: 16711680
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:textures/gui/book/arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "occultism:textures/gui/book/pentagram_rose.png"
+			rotation: 135.0d
+			width: 5.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "occultism:textures/gui/book/pentagram_rose.png"
+			rotation: -135.0d
+			width: 5.0d
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/10"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/11"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/12"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/4"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/8"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "occultism:block/chalk_glyph/9"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 2.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["124EB53C169A26C8"]
+			icon: "occultism:spirit_fire"
+			id: "1C94B78C0A6122EB"
+			rewards: [{
+				id: "0F5215F065B6B78A"
+				item: {
+					Count: 1b
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5F6C68B30355AF2E"
+					item: "occultism:datura"
+					type: "item"
+				}
+				{
+					icon: "occultism:spirit_fire"
+					id: "348FB2DE401D6D31"
+					observe_type: 0
+					timer: 0L
+					to_observe: "occultism:spirit_fire"
+					type: "observation"
+				}
+			]
+			title: "&5&lOccultism"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C94B78C0A6122EB"]
+			id: "7B89D40AD2B157BC"
+			rewards: [{
+				id: "037797C9656B4C99"
+				item: "occultism:spirit_attuned_gem"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "01670AB364DDB114"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B89D40AD2B157BC"]
+			id: "693C2B24EF7E2EBF"
+			rewards: [{
+				id: "415CA743574EAE94"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1AD7BF581DE88A54"
+				item: {
+					Count: 1b
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C94B78C0A6122EB"]
+			id: "6F9B6492C0906089"
+			rewards: [{
+				id: "44EE0B4DF3191EDA"
+				item: "occultism:otherworld_ashes"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "639D9DF99CBDA9BE"
+				item: "occultism:otherworld_ashes"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C94B78C0A6122EB"]
+			id: "64CCC6002B9B65DF"
+			rewards: [{
+				id: "152A64237DA238A1"
+				item: "occultism:burnt_otherstone"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1D5C512695E7DDF5"
+				item: "occultism:burnt_otherstone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C94B78C0A6122EB"]
+			id: "4847068E3FD83783"
+			rewards: [{
+				id: "4D57A073D6806C6E"
+				item: "occultism:purified_ink"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "53CC4AA681976756"
+				item: "occultism:purified_ink"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F9B6492C0906089"
+				"64CCC6002B9B65DF"
+			]
+			hide_dependent_lines: true
+			id: "1C0AB7520804DDED"
+			rewards: [{
+				id: "5A9A4EBE9091CF66"
+				item: "occultism:brush"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "766D77FC60986ACE"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4847068E3FD83783"]
+			id: "34FC3AD9DC76B5AF"
+			rewards: [{
+				id: "587AA68EF2723A7B"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "32F7499AE0A38FC0"
+				item: "occultism:book_of_binding_foliot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4847068E3FD83783"]
+			id: "511E9C642BC59287"
+			rewards: [{
+				id: "304E400A09C3AD16"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6FE39F74F21C4739"
+				item: "occultism:book_of_binding_djinni"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4847068E3FD83783"]
+			id: "4C49992326D3DD8C"
+			rewards: [{
+				id: "44F972D1A0A341B8"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "04F915D271140E66"
+				item: "occultism:book_of_binding_afrit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4847068E3FD83783"]
+			id: "133820BAD9B86802"
+			rewards: [{
+				id: "676269B25E5C880A"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6558A5C60CCC41BA"
+				item: "occultism:book_of_binding_marid"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B89D40AD2B157BC"]
+			id: "64D452BC38F764AE"
+			rewards: [{
+				id: "70FCC2226C45F8D0"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3FBBECC69A412B1F"
+				item: {
+					Count: 1b
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B89D40AD2B157BC"]
+			id: "00E7AFD37EA131E2"
+			rewards: [{
+				id: "6F6BFAB923411750"
+				item: "occultism:spirit_attuned_gem"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "277A418D7E3C4DCB"
+				item: {
+					Count: 1b
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Ulflires"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"00E7AFD37EA131E2"
+				"64D452BC38F764AE"
+				"693C2B24EF7E2EBF"
+			]
+			id: "0475D6A25DB7A96A"
+			rewards: [{
+				id: "0373866E335E0A27"
+				item: "occultism:iesnium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1BE58922BD1EF9C7"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0475D6A25DB7A96A"]
+			id: "79B7536444AE11F7"
+			rewards: [{
+				id: "1A0AC038BB03C66B"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6483D24BB5D5CF00"
+				item: {
+					Count: 1b
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"4CF07ED6D3996AFE"
+				"0D16774F6E1A263C"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/eziveus_spectral_convulsion.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/eziveus_spectral_convulsion.png"
+				}
+			}
+			id: "513A2C60CA56501A"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "7BD1641FDEAE76B7"
+				type: "checkmark"
+			}]
+			title: "&lEziveus' Spectral Convulsion"
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"4CF07ED6D3996AFE"
+				"0D16774F6E1A263C"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/strigeors_higher_binding.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/strigeors_higher_binding.png"
+				}
+			}
+			id: "06B08D12AA3D5720"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "055026EC9EDA99D0"
+				type: "checkmark"
+			}]
+			title: "&lStrigeors' Higher Binding"
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"4CF07ED6D3996AFE"
+				"0D16774F6E1A263C"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/sevira_permanent_confinement.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/sevira_permanent_confinement.png"
+				}
+			}
+			id: "73790D3D8D69EFF8"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "53B4075E9CA57660"
+				type: "checkmark"
+			}]
+			title: "&lSevira's Permanent Confinement"
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"4CF07ED6D3996AFE"
+				"0D16774F6E1A263C"
+				"5843CB3BF4206593"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/uphyxes_inverted_tower.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/uphyxes_inverted_tower.png"
+				}
+			}
+			id: "05D48B61C6F8C02A"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "68039EA14D56D940"
+				type: "checkmark"
+			}]
+			title: "&lUphyxes Inverted Tower"
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"4CF07ED6D3996AFE"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/hedyrin_lure.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/hedyrin_lure.png"
+				}
+			}
+			id: "7B488F12E0E943E6"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "6EDC7B99245AAE78"
+				type: "checkmark"
+			}]
+			title: "&lHedyrin's Lure"
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"4CF07ED6D3996AFE"
+				"0D16774F6E1A263C"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/ihagan_enthrallment.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/ihagan_enthrallment.png"
+				}
+			}
+			id: "2CE50FB75EFCA4D8"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "5BA82D1DE45A864E"
+				type: "checkmark"
+			}]
+			title: "&lIhagan's Enthrallment"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"4CF07ED6D3996AFE"
+				"0D16774F6E1A263C"
+				"5843CB3BF4206593"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/abras_commanding_conjure.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/abras_commanding_conjure.png"
+				}
+			}
+			id: "710D16907FBBCBBC"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "5EDEBF9D05B8DC07"
+				type: "checkmark"
+			}]
+			title: "&lAbras' Commanding Conjure"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1C0AB7520804DDED"]
+			description: ["{image:techev:textures/misc/quests/occultism/aviar_circle.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/aviar_circle.png"
+				}
+			}
+			id: "2655CC9B7F4E691F"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "716511A2D0CEEB3B"
+				type: "checkmark"
+			}]
+			title: "&lAviar's Circle"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"0D16774F6E1A263C"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/ophyx_calling.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/ophyx_calling.png"
+				}
+			}
+			id: "06B5970EA766EE36"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "78596A00E0C78DFB"
+				type: "checkmark"
+			}]
+			title: "&lOphyx' Calling"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"0D16774F6E1A263C"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/abras_open_conjure.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/abras_open_conjure.png"
+				}
+			}
+			id: "3701C7F568A69720"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "5C8CE517B0F4A902"
+				type: "checkmark"
+			}]
+			title: "&lAbras' Open Conjure"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"0D16774F6E1A263C"
+				"5843CB3BF4206593"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/abras_conjure.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/abras_conjure.png"
+				}
+			}
+			id: "75CD9A755B623E0A"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "740DC84B4467BA03"
+				type: "checkmark"
+			}]
+			title: "&lAbras' Conjure"
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"4CF07ED6D3996AFE"
+				"5843CB3BF4206593"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/fatma_incentivized_attraction.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/fatma_incentivized_attraction.png"
+				}
+			}
+			id: "17D8157ADD19075A"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "6579F86E44529080"
+				type: "checkmark"
+			}]
+			title: "&lFatma's Incentivized Attraction"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"0D16774F6E1A263C"
+			]
+			description: ["{image:techev:textures/misc/quests/occultism/osorin_unbound_calling.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/occultism/osorin_unbound_calling.png"
+				}
+			}
+			id: "1C96921BA7B90EAF"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "710765F1A250B758"
+				type: "checkmark"
+			}]
+			title: "&lOsorin's Unbound Calling"
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C0AB7520804DDED"]
+			hide_dependent_lines: true
+			id: "4CF07ED6D3996AFE"
+			rewards: [{
+				id: "6318F1E202355734"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "27D4D5D60151CFDC"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"08B5C84E8EAF610A"
+			]
+			hide_dependent_lines: true
+			id: "0D16774F6E1A263C"
+			rewards: [{
+				id: "35B6C6C48388D9B3"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "78D5EDC2D0735276"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1C0AB7520804DDED"
+				"47A2908D4E7CDE38"
+			]
+			hide_dependent_lines: true
+			id: "5843CB3BF4206593"
+			rewards: [{
+				id: "21043842F5B05063"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3051F46C7E18353A"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FF1D6610A947394"]
+			id: "59DD6AAEC80A1B07"
+			rewards: [{
+				id: "4CBFD442D8A04B92"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "+256 Slots"
+			tasks: [{
+				id: "5D8405A294F9C36D"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["59DD6AAEC80A1B07"]
+			id: "66217067802E12F5"
+			rewards: [{
+				id: "792B66FF2CB08F8A"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "+512 Slots"
+			tasks: [{
+				id: "54D63519977A033D"
+				item: "occultism:storage_stabilizer_tier2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["66217067802E12F5"]
+			id: "03014F65818D74DB"
+			rewards: [{
+				id: "5E2BC34214441EFD"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "+1024 Slots"
+			tasks: [{
+				id: "1C2AB3FF192CE4C1"
+				item: "occultism:storage_stabilizer_tier3"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["03014F65818D74DB"]
+			id: "3C032A87F6719E23"
+			rewards: [{
+				id: "15ACD92131D219A0"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "+2048 Slots"
+			tasks: [{
+				id: "171D74B423CB5BA8"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1C0AB7520804DDED"]
+			icon: {
+				Count: 1b
+				id: "occultism:miner_marid_master"
+				tag: {
+					Damage: 0
+					maxMiningTime: 100
+					rollsPerOperation: 1
+					spiritName: "Rakfellvine"
+				}
+			}
+			id: "6FE866EC6BC38C01"
+			rewards: [{
+				id: "075FECB3F47EB1C8"
+				item: "coinsje:gold_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Digital Mining"
+			tasks: [
+				{
+					id: "7CA8F7C0A748B436"
+					item: "occultism:dimensional_mineshaft"
+					type: "item"
+				}
+				{
+					id: "118141B0C60CA78C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "occultism:miners/ores"
+						}
+					}
+					title: "Occultism Miner"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1C0AB7520804DDED"]
+			description: [
+				"&lOptimal Storage Setup : "
+				""
+				"-&l&eStorage Actuator "
+				"-&l&3Stabilizers : 6x 2048 Slots"
+				""
+				"{image:techev:textures/misc/quests/occultism/storage.png width:100 height:100 align:1}"
+			]
+			id: "7FF1D6610A947394"
+			rewards: [{
+				id: "630030BBA4BD9E16"
+				item: "coinsje:gold_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Digital Storage"
+			tasks: [{
+				id: "72B3850D88BD235C"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3701C7F568A69720"]
+			id: "47A2908D4E7CDE38"
+			rewards: [{
+				id: "1966E988D0F3AEA7"
+				item: "occultism:afrit_essence"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "53FB2D4004482242"
+				item: "occultism:afrit_essence"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FF1D6610A947394"]
+			id: "290A90B172BAAE23"
+			rewards: [{
+				id: "1C315EEC4E002C3C"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6625B8E785FCF9F7"
+				item: {
+					Count: 1b
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7FF1D6610A947394"]
+			id: "372B1CEBC7776EDC"
+			rewards: [{
+				id: "493F2B15C19B8F8E"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "09BE7C8938177F10"
+				item: {
+					Count: 1b
+					id: "occultism:book_of_calling_djinni_manage_machine"
+					tag: {
+						spiritName: "Holsires"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2655CC9B7F4E691F"]
+			id: "08B5C84E8EAF610A"
+			rewards: [{
+				count: 2
+				id: "57CA85137EEA88DD"
+				item: "occultism:crushed_end_stone"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 2L
+				id: "5C7C8FBFCA629765"
+				item: "occultism:crushed_end_stone"
+				type: "item"
+			}]
+			title: "Crushed End Stone"
+			x: -0.5d
+			y: 4.0d
+		}
+	]
+	title: "Occultism"
+}

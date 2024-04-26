@@ -12,6 +12,9 @@ StartupEvents.registry('block', e => {
     e.create('create:source_quartz_block').displayName("Block Of Source Quartz").soundType("deepslate").property(BlockProperties.AXIS).placementState(event => event.set(BlockProperties.AXIS, event.clickedFace.axis)).hardness(1.5).tagBlock("mineable/pickaxe").requiresTool(true)
     e.create('create:source_quartz_tiles').displayName("Source Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     e.create('create:small_source_quartz_tiles').displayName("Small Source Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
+    
+    e.create('blue_skies:everstone').displayName("Everstone").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
+
     e.create('kubejs:raw_auricargentum_block').displayName("Block Of Raw Auricargentum").soundType("tuff").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     e.create('kubejs:raw_cuperzinate_block').displayName("Block Of Raw Cuperzinate").soundType("tuff").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     e.create('kubejs:raw_leadosnite_block').displayName("Block Of Raw Leadosnite").soundType("tuff").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)

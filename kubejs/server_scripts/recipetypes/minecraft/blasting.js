@@ -5,6 +5,11 @@ ServerEvents.recipes(event => {
 
     //Remove
     event.remove([{ type: 'minecraft:blasting', input: '#create:crushed_raw_materials' }])
+    event.remove({ id: 'coinsje:blasting/copper_ingot_to_copper_coin' })
+    event.remove({ id: 'coinsje:blasting/iron_ingot_to_iron_coin' })
+    event.remove({ id: 'coinsje:blasting/gold_ingot_to_gold_coin' })
+    event.remove({ id: 'forbidden_arcanus:blasting/arcane_crystal_dust_from_blasting' })
+    event.remove({ id: 'forbidden_arcanus:obsidian_ingot_from_blasting'})
 
     //Recipes
     const recipes = [

@@ -1,0 +1,28 @@
+{
+	"type": "enderstorage:create_recipe",
+	"result": {
+		"item": "enderstorage:ender_tank"
+	},
+	"pattern": [
+		"BWB",
+		"OCO",
+		"BPB"
+	],
+	"key": {
+		"P": {
+			"item": "occultism:spirit_attuned_gem"
+		},
+		"O": {
+			"tag": "forge:obsidian"
+		},
+		"C": {
+			"item": "minecraft:cauldron"
+		},
+		"B": {
+			"item": "minecraft:blaze_rod"
+		},
+		"W": {
+			"tag": "forge:wool"
+		}
+	}
+}

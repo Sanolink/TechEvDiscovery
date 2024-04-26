@@ -198,7 +198,7 @@
 		speed = 5
 		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
 		# Default: 16
-		#Range: 1 ~ 64
+		#Range: 1 ~ 1073741823
 		mult = 16
 		# How much RF to generate per tick
 		# Default: 1000
@@ -217,7 +217,7 @@
 		speed = 3
 		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
 		# Default: 32
-		#Range: 1 ~ 64
+		#Range: 1 ~ 1073741823
 		mult = 32
 		# How much RF to generate per tick
 		# Default: 1500
@@ -236,7 +236,7 @@
 		speed = 1
 		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
 		# Default: 64
-		#Range: 1 ~ 64
+		#Range: 1 ~ 1073741823
 		mult = 64
 		# How much RF to generate per tick
 		# Default: 2000

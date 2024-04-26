@@ -2,12 +2,6 @@
 //Last Modification : 1.1.0
 
 ServerEvents.recipes(event => {
-
-
-    //Remove
-    event.remove({ id: 'ars_nouveau:novice_spell_book'})
-    event.remove({ id: 'ars_nouveau:apprentice_spell_book_upgrade'})
-    event.remove({ id: 'ars_nouveau:archmage_spell_book_upgrade'})
     
     //Replace 
     event.replaceInput({ id: 'ars_nouveau:arcane_core'}, 'ars_nouveau:source_gem', 'create:source_tube')

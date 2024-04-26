@@ -22,7 +22,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome to the first Modpack of the TechEv Series."]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -38,6 +37,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "Welcome to the first Modpack of the TechEv Series."
 			tasks: [{
 				id: "4B79912DA9338FD8"
 				title: "Welcome to TechEv !"

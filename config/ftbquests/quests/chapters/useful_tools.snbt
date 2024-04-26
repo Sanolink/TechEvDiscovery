@@ -52,6 +52,7 @@
 				item: "scannable:scanner"
 				type: "item"
 			}]
+			title: "&f&lScanner"
 			x: -7.5d
 			y: 2.0d
 		}
@@ -543,6 +544,7 @@
 				}
 				type: "item"
 			}]
+			title: "&f&lBuilding Gadgets"
 			x: 3.5d
 			y: 2.0d
 		}

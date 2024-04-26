@@ -270,8 +270,9 @@
 			size: 2.0d
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "6D72632755B611FD"
-				item: "coinsje:gold_coin_pile"
+				item: "coinsje:gold_coin"
 				type: "item"
 			}]
 			title: "&lSushi"
@@ -347,5 +348,5 @@
 		}
 	]
 	subtitle: ["&l/ &c[Casino]"]
-	title: "&l&a[SHOP]"
+	title: "&l&a[SHOP] &r&7&lWIP"
 }

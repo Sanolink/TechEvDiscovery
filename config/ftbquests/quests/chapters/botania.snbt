@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "38610A8E5A0E3694"
+	icon: {
+		Count: 1b
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "5F59061230727417"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Botania"
+}

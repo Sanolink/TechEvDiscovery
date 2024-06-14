@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "38610A8E5A0E3694"
+	icon: "aether:aether_portal_frame"
+	id: "2B65EE8D5CCB466D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Aether"
+}

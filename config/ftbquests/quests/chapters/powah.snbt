@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "38610A8E5A0E3694"
+	icon: "powah:steel_energized"
+	id: "37A7824EF48ED2B7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Powah"
+}

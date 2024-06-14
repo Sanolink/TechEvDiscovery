@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "psi"
+	group: "38610A8E5A0E3694"
+	icon: "psi:psigem"
+	id: "09004559BFA9B097"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Psi"
+}

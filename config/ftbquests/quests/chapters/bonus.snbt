@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bonus"
+	group: "38610A8E5A0E3694"
+	icon: "hostilenetworks:sim_chamber"
+	id: "50B21343CD81E26D"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5B2704AE60E8BEAF"
+			tasks: [{
+				id: "6BCB7155E954FFA4"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "580CCDF873AF2684"
+			tasks: [{
+				id: "75DC0F91EEEFC7CE"
+				item: "compactmachines:machine_maximum"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "7D8D5085BE2D814A"
+			tasks: [{
+				id: "2CC4E2F792D227AD"
+				item: "compactcrafting:field_projector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "67247CBEEBC06475"
+			tasks: [{
+				id: "4F6B27A3C9727122"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "7C35451D11D93987"
+			tasks: [{
+				id: "5DC78725914C82E3"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+	]
+	title: "[WIP]"
+}

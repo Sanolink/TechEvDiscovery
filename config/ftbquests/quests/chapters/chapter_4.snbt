@@ -3,9 +3,158 @@
 	default_quest_shape: ""
 	filename: "chapter_4"
 	group: "0EBC8803CE24B703"
+	icon: "cataclysm:desert_eye"
 	id: "179A396524ADC3F1"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["2E2664395197DDEC"]
+			id: "6F64D9A367C073CD"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "678BAEBE0690588C"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "&lApplied Energestics 2"
+			x: 2.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["437DA21FD05860BD"]
+			id: "0F093F0CC5D16D32"
+			tasks: [{
+				id: "313633479E512705"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F64D9A367C073CD"]
+			icon: "kubejs:techevium"
+			id: "6BF612431ADBCFF4"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Soon, in 1.4.0 !"
+			tasks: [{
+				id: "323A795F677FF661"
+				title: "WIP : Age 4"
+				type: "checkmark"
+			}]
+			title: "&lAge 5 : WIP"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["124EB53C169A26C8"]
+			icon: "cataclysm:desert_eye"
+			id: "63894331FBB6B6DA"
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Welcome to Age 4 !"
+			tasks: [{
+				id: "70451DEA0C4A7505"
+				title: "WIP : Age 4"
+				type: "checkmark"
+			}]
+			title: "&d&lPsychotic Innovation"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63894331FBB6B6DA"]
+			id: "0FDF3E5703AAA35E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1FF708D1EA61A025"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			title: "&lThe Undergarden"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39EA64A31323A0A3"]
+			id: "437DA21FD05860BD"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6D3AA9AA1C4E705D"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "&lThermal"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0FDF3E5703AAA35E"]
+			id: "0D39F45B20FE632A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5ECF087DE4F59CF5"
+				item: {
+					Count: 1b
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "&lBotania"
+			x: -2.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0D39F45B20FE632A"]
+			id: "39EA64A31323A0A3"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "128E23DFAC0E115A"
+				item: "psi:psigem"
+				type: "item"
+			}]
+			title: "&lPsi"
+			x: -0.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0F093F0CC5D16D32"]
+			id: "2E2664395197DDEC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "397DF882A43F7198"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			title: "&lPowah"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["437DA21FD05860BD"]
+			id: "03844453AD98001B"
+			shape: "gear"
+			tasks: [{
+				id: "33F29909A6ADB8CE"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			title: "&l[WIP]"
+			x: -0.5d
+			y: 2.5d
+		}
+	]
+	subtitle: ["&lPsychotic Innovation"]
 	title: "Chapter 4"
 }

@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "SanoLink",
+      "uniqueId": "47aede6e-aca1-4b15-aac0-38c9f6106b02"
+    },
+    "time": 1718443753235,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pk7VXTiw0W"
+    }
+  }
+]

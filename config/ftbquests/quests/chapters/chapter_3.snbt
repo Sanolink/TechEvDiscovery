@@ -31,6 +31,14 @@
 			x: 2.0d
 			y: 4.5d
 		}
+		{
+			id: "0502F694A4D99720"
+			linked_quest: "63894331FBB6B6DA"
+			shape: "octagon"
+			size: 2.0d
+			x: 0.0d
+			y: 7.0d
+		}
 	]
 	quests: [
 		{
@@ -234,22 +242,6 @@
 			title: "&lEverstone / Cherry Sapling"
 			x: -1.0d
 			y: 5.5d
-		}
-		{
-			dependencies: ["124EB53C169A26C8"]
-			icon: "kubejs:techevium"
-			id: "63894331FBB6B6DA"
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "Soon, in 1.3.0 !"
-			tasks: [{
-				id: "70451DEA0C4A7505"
-				title: "WIP : Age 4"
-				type: "checkmark"
-			}]
-			title: "WIP : Age 4"
-			x: 0.0d
-			y: 7.0d
 		}
 	]
 	subtitle: ["&lAtomic Pressure"]

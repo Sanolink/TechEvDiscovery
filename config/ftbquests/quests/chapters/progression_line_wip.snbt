@@ -15,7 +15,7 @@
 			image: "techev:textures/misc/quests/progression.png"
 			rotation: 0.0d
 			width: 20.959044368600683d
-			x: 10.5d
+			x: 13.5d
 			y: -5.5d
 		}
 		{
@@ -27,8 +27,8 @@
 			image: "pneumaticcraft:item/wip"
 			rotation: 0.0d
 			width: 2.0d
-			x: 19.5d
-			y: -2.0d
+			x: 25.5d
+			y: -2.5d
 		}
 	]
 	order_index: 0
@@ -59,11 +59,20 @@
 			y: 0.0d
 		}
 		{
+			icon: "cataclysm:monstrous_eye"
 			id: "0BB965361AB25E4D"
 			linked_quest: "63894331FBB6B6DA"
 			shape: "octagon"
 			size: 3.0d
 			x: 19.5d
+			y: 0.0d
+		}
+		{
+			id: "11BA0CDB990A3FBC"
+			linked_quest: "6BF612431ADBCFF4"
+			shape: "octagon"
+			size: 3.0d
+			x: 25.5d
 			y: 0.0d
 		}
 	]

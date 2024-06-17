@@ -1,5 +1,5 @@
 //Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+//Last Modification : 1.3.0
 
 ServerEvents.recipes(event => {
 
@@ -54,6 +54,38 @@ ServerEvents.recipes(event => {
             input: Item.of("#forge:ingots/compressed_iron", 4),
             mold: "immersiveengineering:mold_gear",
             energy: 2400
+        },
+        //Netherite Gear
+        {
+            id: "gear_netherite",
+            output: "#forge:gears/netherite",
+            input: Item.of("#forge:ingots/netherite", 4),
+            mold: "immersiveengineering:mold_gear",
+            energy: 2400
+        },
+        //Lapis Gear
+        {
+            id: "gear_lapis",
+            output: "#forge:gears/lapis",
+            input: Item.of("#forge:gems/lapis", 4),
+            mold: "immersiveengineering:mold_gear",
+            energy: 2400
+        },
+        //Emerald Gear
+        {
+            id: "gear_emerald",
+            output: "#forge:gears/emerald",
+            input: Item.of("#forge:gems/emerald", 4),
+            mold: "immersiveengineering:mold_gear",
+            energy: 2400
+        },
+        //Quartz Gear
+        {
+            id: "gear_quartz",
+            output: "#forge:gears/quartz",
+            input: Item.of("#forge:gems/quartz", 4),
+            mold: "immersiveengineering:mold_gear",
+            energy: 2400
         }
     ]
 
@@ -63,8 +95,7 @@ ServerEvents.recipes(event => {
         "lumium",
         "enderium",
         "iridium"
-    ]
-    specialIngots.forEach(ingot => {
+    ].forEach(ingot => {
         recipes.push(
             //Special Ingots Plates
             {

@@ -15,7 +15,7 @@
   },
   "secondary_result": {
     "chance": "0.05",
-    "item": "eidolon:sulfur"
+    "item": "thermal:sulfur_dust"
   },
   "time": 1
 }

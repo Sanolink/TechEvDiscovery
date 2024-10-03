@@ -1,0 +1,12 @@
+{
+  "item.occultism.ritual_dummy.summon_mog": "Ritual: Summon The Mog",
+  "item.occultism.ritual_dummy.summon_mog.tooltip": "This ritual summons a Mog.",
+  "ritual.occultism.summon_mog.conditions": "Not all requirements for this ritual are met.",
+  "ritual.occultism.summon_mog.finished": "Summoned the Mog successfully.",
+  "ritual.occultism.summon_mog.interrupted": "Summoning of the Mog interrupted.",
+  "ritual.occultism.summon_mog.started": "Started summoning the Mog.",
+  "ritual.occultism.craft_catalyst.conditions": "Not all requirements for this ritual are met.",
+  "ritual.occultism.craft_catalyst.finished": "Crafted the Catalyst successfully.",
+  "ritual.occultism.craft_catalyst.interrupted": "Crafting of the Catalyst interrupted.",
+  "ritual.occultism.craft_catalyst.started": "Started summoning the Catalyst."
+}

@@ -43,7 +43,7 @@
 				title: "Welcome to TechEv !"
 				type: "checkmark"
 			}]
-			title: "Welcome to TechEv || Discovery !"
+			title: "&lTechEv || Discovery"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -172,7 +172,7 @@
 				id: "7AC9758F7E04F074"
 				type: "checkmark"
 			}]
-			title: "Quests Info"
+			title: "&lQuests"
 			x: 0.0d
 			y: -5.25d
 		}

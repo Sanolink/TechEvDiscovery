@@ -5,7 +5,7 @@
 	group: "38610A8E5A0E3694"
 	icon: "hostilenetworks:sim_chamber"
 	id: "50B21343CD81E26D"
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,16 +29,6 @@
 			y: -0.5d
 		}
 		{
-			id: "7D8D5085BE2D814A"
-			tasks: [{
-				id: "2CC4E2F792D227AD"
-				item: "compactcrafting:field_projector"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.0d
-		}
-		{
 			id: "67247CBEEBC06475"
 			tasks: [{
 				id: "4F6B27A3C9727122"
@@ -58,6 +48,20 @@
 			x: -2.5d
 			y: -3.5d
 		}
+		{
+			id: "3F718A5388DF266F"
+			tasks: [{
+				id: "461DD13E73DE8524"
+				item: {
+					Count: 1b
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
 	]
-	title: "[WIP]"
+	title: " &l&d♦ &r[WIP]"
 }

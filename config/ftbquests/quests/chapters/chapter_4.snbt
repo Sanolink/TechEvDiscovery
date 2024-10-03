@@ -6,10 +6,16 @@
 	icon: "cataclysm:desert_eye"
 	id: "179A396524ADC3F1"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "68F442E6901AFD02"
+		linked_quest: "6F7452A312162674"
+		x: -1.5d
+		y: 0.5d
+	}]
 	quests: [
 		{
-			dependencies: ["2E2664395197DDEC"]
+			dependencies: ["2265920619400A57"]
+			icon: "ae2:fluix_crystal"
 			id: "6F64D9A367C073CD"
 			shape: "gear"
 			size: 1.5d
@@ -19,8 +25,8 @@
 				type: "item"
 			}]
 			title: "&lApplied Energestics 2"
-			x: 2.25d
-			y: 3.75d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["437DA21FD05860BD"]
@@ -30,8 +36,8 @@
 				item: "powah:dielectric_paste"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6F64D9A367C073CD"]
@@ -66,66 +72,76 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["63894331FBB6B6DA"]
+			dependencies: ["6F7452A312162674"]
+			icon: "undergarden:catalyst"
 			id: "0FDF3E5703AAA35E"
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "1FF708D1EA61A025"
-				item: "undergarden:catalyst"
-				type: "item"
+				id: "159C64862EA6F509"
+				type: "checkmark"
 			}]
 			title: "&lThe Undergarden"
-			x: -1.5d
-			y: 1.5d
+			x: -2.25d
+			y: 2.0d
 		}
 		{
-			dependencies: ["39EA64A31323A0A3"]
+			dependencies: [
+				"0A4FF4BC7C059DA5"
+				"30D4B88E615B49E4"
+				"09C5AFDD4ADB8458"
+			]
+			icon: "thermal:machine_frame"
 			id: "437DA21FD05860BD"
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "6D3AA9AA1C4E705D"
-				item: "thermal:machine_frame"
-				type: "item"
+				id: "3B6F66805C4B9A53"
+				type: "checkmark"
 			}]
 			title: "&lThermal"
 			x: 0.0d
-			y: 3.75d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0FDF3E5703AAA35E"]
+			dependencies: [
+				"7A330F7735440814"
+				"0CD9924DE5C4214A"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:lexicon"
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
 			id: "0D39F45B20FE632A"
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "5ECF087DE4F59CF5"
-				item: {
-					Count: 1b
-					id: "botania:lexicon"
-					tag: {
-						"botania:elven_unlock": 1b
-					}
-				}
-				type: "item"
+				id: "3B46535F813EBC72"
+				type: "checkmark"
 			}]
 			title: "&lBotania"
-			x: -2.25d
-			y: 3.75d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["0D39F45B20FE632A"]
+			dependencies: [
+				"6D03EA0496A8425D"
+				"71B4B0B74432676D"
+			]
+			icon: "psi:psigem"
 			id: "39EA64A31323A0A3"
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "128E23DFAC0E115A"
-				item: "psi:psigem"
-				type: "item"
+				id: "64B0013B6BF90DD6"
+				type: "checkmark"
 			}]
 			title: "&lPsi"
-			x: -0.75d
-			y: 5.25d
+			x: 0.75d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0F093F0CC5D16D32"]
@@ -138,8 +154,8 @@
 				type: "item"
 			}]
 			title: "&lPowah"
-			x: 1.5d
-			y: 0.75d
+			x: 2.25d
+			y: 3.0d
 		}
 		{
 			dependencies: ["437DA21FD05860BD"]
@@ -151,10 +167,98 @@
 				type: "item"
 			}]
 			title: "&l[WIP]"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FDF3E5703AAA35E"]
+			id: "0CD9924DE5C4214A"
+			tasks: [{
+				id: "5F950975303B8542"
+				item: "undergarden:shiverstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0FDF3E5703AAA35E"]
+			id: "7A330F7735440814"
+			tasks: [{
+				id: "5AC052D0F0C29FDB"
+				item: "undergarden:wigglewood_log"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D39F45B20FE632A"]
+			id: "71B4B0B74432676D"
+			tasks: [{
+				id: "1AE5FEC7B840957C"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D39F45B20FE632A"]
+			id: "6D03EA0496A8425D"
+			tasks: [{
+				id: "00F1BD9487668810"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
 			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["39EA64A31323A0A3"]
+			id: "0A4FF4BC7C059DA5"
+			tasks: [{
+				id: "16F4B24363BE9B61"
+				item: "psi:ebony_psimetal_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39EA64A31323A0A3"]
+			id: "30D4B88E615B49E4"
+			tasks: [{
+				id: "1FD8118C65E2901E"
+				item: "psi:ivory_psimetal_block"
+				type: "item"
+			}]
+			x: 1.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["0CD9924DE5C4214A"]
+			id: "09C5AFDD4ADB8458"
+			tasks: [{
+				id: "5156143F963D8818"
+				item: "compactcrafting:field_projector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E2664395197DDEC"]
+			id: "2265920619400A57"
+			tasks: [{
+				id: "67FD43DBCDE4301A"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
 		}
 	]
 	subtitle: ["&lPsychotic Innovation"]
-	title: "Chapter 4"
+	title: " &l&d♦ &rChapter 4"
 }

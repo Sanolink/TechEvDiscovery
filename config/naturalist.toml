@@ -10,7 +10,7 @@
 	forestFoxSpawnWeight = 6
 	#Snail Spawn Weight
 	#Range: 0 ~ 1000
-	snailSpawnWeight = 5
+	snailSpawnWeight = 10
 	#Snake Spawn Weight
 	#Range: 0 ~ 1000
 	snakeSpawnWeight = 4

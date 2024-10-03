@@ -46,6 +46,9 @@
     "mob_spawner": true,
     "redstone": true
   },
+  "entangled": {
+    "entangled_block_component": true
+  },
   "tombstone": {
     "graves": true
   },
@@ -76,9 +79,6 @@
   },
   "lootr": {
     "info": true
-  },
-  "custommachinery": {
-    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,

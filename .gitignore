@@ -48,3 +48,5 @@ config/worldstripper/settings.toml
 config/worldstripper/stripper.json
 resourcepacks/Quark Programmer Art.zip
 reauth.toml
+kubejs/probe
+resourcepacks/SmoothFont_1.19.X.zip

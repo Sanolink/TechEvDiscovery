@@ -31,6 +31,14 @@ ServerEvents.recipes(event => {
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})
 
+    //Compact Machines
+    event.remove({ id: 'compactmachines:machine_tiny'})
+    event.remove({ id: 'compactmachines:machine_small'})
+    event.remove({ id: 'compactmachines:machine_normal'})
+    event.remove({ id: 'compactmachines:machine_large'})
+    event.remove({ id: 'compactmachines:machine_giant'})
+    event.remove({ id: 'compactmachines:machine_maximum'})
+
     //Construction Wand
     event.remove({ output: 'constructionwand:stone_wand', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'constructionwand:iron_wand', type: 'minecraft:crafting_shaped' })
@@ -73,6 +81,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })
 
+    //Occultism
+    event.remove({ id: 'undergarden:catalyst'})
+    
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})
 
@@ -80,6 +91,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'storagenetwork:inventory_remote', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'storagenetwork:crafting_remote', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'storagenetwork:master', type: 'minecraft:crafting_shaped' })
+
+    //Thermal Series 
+    event.remove({ id: 'thermal:machine_frame'})
 
     //Time In A Bottle
     event.remove({ id: 'tiab:time_in_a_bottle'})

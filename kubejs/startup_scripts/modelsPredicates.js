@@ -1,5 +1,21 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0 
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 StartupEvents.postInit(event => {
     if (!Platform.isClientEnvironment()) return;
@@ -29,9 +45,34 @@ StartupEvents.postInit(event => {
         'alltheores:uranium_plate',
         'alltheores:zinc_plate'
     ]
+    //All Plates
     Plates.forEach(plate => {
         $ItemProperties.register(Item.of(plate), new ResourceLocation('count'), (stack, world, living, seed) => {
             return stack.getCount() / stack.getMaxStackSize()
         })
     })
+
+    //Immmersive Engineering Blueprint Types
+    $ItemProperties.register(Item.of('immersiveengineering:blueprint'), new ResourceLocation('blueprint_type'), (stack, world, living, seed) => {
+        const nbt = stack.getNbt();
+        if (nbt && nbt.contains("blueprint")) {  
+            const blueprintType = nbt.getString("blueprint");  
+            switch (blueprintType) {
+                case "bannerpatterns":
+                    return 1.0;
+                case "bullet":
+                    return 2.0;
+                case "specialBullet":
+                    return 3.0;
+                case "components":
+                    return 4.0;
+                case "molds":
+                    return 5.0;
+                case "appliedComponents":
+                    return 6.0;
+                default:
+                    return 0.0;
+            }}
+        return 0.0
+    }) 
 })

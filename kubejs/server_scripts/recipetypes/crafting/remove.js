@@ -1,5 +1,21 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.2.0
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 ServerEvents.recipes(event => {
 
@@ -7,6 +23,22 @@ ServerEvents.recipes(event => {
     event.remove([{ output: '#alltheores:ore_hammers'} ,{ input: '#alltheores:ore_hammers'}])
     event.remove({ output: '#forge:gears', mod: 'alltheores'})
     event.remove({ output: '#forge:dusts', mod: 'alltheores', type: "crafting_shapeless"})
+
+    //Applied Energistics 
+    event.remove({ id: 'ae2:network/cells/view_cell'})
+    event.remove({ id: 'ae2:network/cells/item_storage_cell_1k'})
+    event.remove({ id: 'ae2:network/cells/item_storage_cell_4k'})
+    event.remove({ id: 'ae2:network/cells/item_storage_cell_16k'})
+    event.remove({ id: 'ae2:network/cells/item_storage_cell_64k'})
+    event.remove({ id: 'ae2:network/cells/item_storage_cell_256k'})
+    event.remove({ id: 'ae2:network/cells/fluid_storage_cell_1k'})
+    event.remove({ id: 'ae2:network/cells/fluid_storage_cell_4k'})
+    event.remove({ id: 'ae2:network/cells/fluid_storage_cell_16k'})
+    event.remove({ id: 'ae2:network/cells/fluid_storage_cell_64k'})
+    event.remove({ id: 'ae2:network/cells/fluid_storage_cell_256k'})
+    event.remove({ id: 'ae2:network/cells/spatial_storage_cell_2_cubed'})
+    event.remove({ id: 'ae2:network/cells/spatial_storage_cell_16_cubed'})
+    event.remove({ id: 'ae2:network/cells/spatial_storage_cell_128_cubed'})
 
     //Aquaculture
     event.remove({ output: 'aquaculture:neptunium_fillet_knife', type: 'minecraft:crafting_shaped' })
@@ -93,8 +125,36 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'storagenetwork:master', type: 'minecraft:crafting_shaped' })
 
     //Thermal Series 
+    event.remove({ input: 'thermal:earth_charge', output: '#forge:dusts', not: {output: '#forge:dusts/prismarine'}})
+    event.remove({ id: 'thermal:earth_charge/ender_pearl_dust_from_ender_pearl'})
+    event.remove({ id: 'thermal_extra:dragonsteel_dust'})
+    event.remove({ id: 'thermal_extra:parts/dragonsteel_gear'})
+    event.remove({ id: 'thermal_extra:parts/shellite_gear'})
+    event.remove({ id: 'thermal_extra:parts/soul_infused_gear'})
+    event.remove({ id: 'thermal_extra:parts/twinite_gear'})
+    event.remove({ id: 'thermal_extra:shellite_dust'})
+    event.remove({ id: 'thermal_extra:soul_infused_dust'})
+    event.remove({ id: 'thermal_extra:twinite_dust'})
+    event.remove({ id: 'thermal:bronze_dust_4'})
+    event.remove({ id: 'thermal:constantan_dust_2'})
+    event.remove({ id: 'thermal:electrum_dust_2'})
+    event.remove({ id: 'thermal:enderium_dust_2'})
+    event.remove({ id: 'thermal:invar_dust_3'})
+    event.remove({ id: 'thermal:lumium_dust_4'})
     event.remove({ id: 'thermal:machine_frame'})
-
+    event.remove({ id: 'thermal:signalum_dust_4'})
+    event.remove({ id: 'thermalendergy:melodium_gear'})
+    event.remove({ id: 'thermalendergy:prismalium_gear'})
+    event.remove({ id: 'thermalendergy:stellarium_gear'})
+    event.remove({ id: 'thermal:fire_charge/lumium_ingot_4'})
+    event.remove({ id: 'thermal:fire_charge/constantan_ingot_2'})
+    event.remove({ id: 'thermal:fire_charge/invar_ingot_3'})
+    event.remove({ id: 'thermal:fire_charge/enderium_ingot_2'})
+    event.remove({ id: 'thermal:fire_charge/electrum_ingot_2'})
+    event.remove({ id: 'thermal:fire_charge/bronze_ingot_4'})
+    event.remove({ id: 'thermal:fire_charge/signalum_ingot_4'})
+    event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
+    
     //Time In A Bottle
     event.remove({ id: 'tiab:time_in_a_bottle'})
 

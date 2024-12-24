@@ -1,5 +1,21 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.3.0
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 ServerEvents.recipes(event => {
 
@@ -89,12 +105,19 @@ ServerEvents.recipes(event => {
         }
     ]
 
-    // Ingots -> Plates / Gears / Rods
-    const specialIngots = [
-        "signalum",
-        "lumium",
+    // Ingots -> Plates / Gears
+    const IngotsPlatesGears = [
+        "dragonsteel",
         "enderium",
-        "iridium"
+        "iridium",
+        "lumium",
+        "melodium",
+        "prismalium",
+        "shellite",
+        "signalum",
+        "soul_infused",
+        "stellarium",
+        "twinite"
     ].forEach(ingot => {
         recipes.push(
             //Special Ingots Plates
@@ -111,14 +134,6 @@ ServerEvents.recipes(event => {
                 output: "#forge:gears/" + ingot,
                 input: Item.of("#forge:ingots/" + ingot, 4),
                 mold: "immersiveengineering:mold_gear",
-                energy: 2400
-            },
-            //Special Ingots Rods
-            {
-                id: "rod_" + ingot,
-                output: Item.of("#forge:rods/" + ingot, 2),
-                input: "#forge:ingots/" + ingot,
-                mold: "immersiveengineering:mold_rod",
                 energy: 2400
             }
         )

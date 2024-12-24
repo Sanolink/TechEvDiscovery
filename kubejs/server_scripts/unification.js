@@ -1,6 +1,22 @@
 //priority: 10000
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.3.0
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 /*********************************************/
 //MAIN FILE OF UNIFICATION, PLEASE DON'T TOUCH
@@ -165,6 +181,7 @@ ServerEvents.recipes(e => {
     ['#forge:storage_blocks/aluminum', 'immersiveengineering:storage_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_block')});
     ['#forge:storage_blocks/brass', 'create:brass_block'].forEach(I => {replaceIO(I, 'alltheores:brass_block')});
     ['#forge:storage_blocks/bronze', 'thermal:bronze_block'].forEach(I => {replaceIO(I, 'alltheores:bronze_block')});
+    ['#forge:storage_blocks/coal_coke', 'thermal:coal_coke_block'].forEach(I => {replaceIO(I, 'immersiveengineering:coke')});
     ['#forge:storage_blocks/constantan', 'immersiveengineering:storage_constantan', 'thermal:constantan_block'].forEach(I => {replaceIO(I, 'alltheores:constantan_block')});
     ['#forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum', 'thermal:electrum_block'].forEach(I => {replaceIO(I, 'alltheores:electrum_block')});
     ['#forge:storage_blocks/enderium', 'thermal:enderium_block'].forEach(I => {replaceIO(I, 'alltheores:enderium_block')});
@@ -185,7 +202,8 @@ ServerEvents.recipes(e => {
     ['#forge:wires/electrum', 'createaddition:electrum_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_electrum')});
     
     //Gems
-    ['#forge:gems/sapphire', 'iceandfire:sapphire_gem'].forEach(I => {replaceIO(I, 'alltheores:sapphire')});
+    ['#forge:gems/sapphire', 'iceandfire:sapphire_gem', 'thermal:sapphire'].forEach(I => {replaceIO(I, 'alltheores:sapphire')});
+    ['#forge:gems/ruby', 'thermal:ruby'].forEach(I => {replaceIO(I, 'alltheores:ruby')});
     
     //Others
     ['#forge:crops/rice', 'sushigocrafting:rice'].forEach(I => {replaceIO(I, 'farmersdelight:rice')});
@@ -358,6 +376,8 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'darkerdepths:silver_ingot_from_smelting_limestone_silver_ore'})
     e.remove({ id: 'darkerdepths:silver_ingot_from_blasting_aridrock_silver_ore'})
     e.remove({ id: 'darkerdepths:silver_ingot_from_blasting_limestone_silver_ore'})
+    e.remove({ id: 'thermal:storage/coal_coke_block'})
+    e.remove({ id: 'thermal:storage/coal_coke_from_block'})
     
     //Add Unified SMELTING Recipes
     const SMELT_ORES = ["gold", "copper", "iron", "platinum", "tin", "aluminum", "uranium", "nickel", "silver", "lead", "osmium", "iridium", "zinc"]

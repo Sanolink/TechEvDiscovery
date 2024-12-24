@@ -1,5 +1,21 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.3.0
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 /*********************************************/
 //THIRD FILE OF UNIFICATION, PLEASE DON'T TOUCH
@@ -177,6 +193,7 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:storage_blocks/aluminum', 'immersiveengineering:storage_aluminum'], 'alltheores:aluminum_block')
     replaceLT(['#forge:storage_blocks/brass', 'create:brass_block'], 'alltheores:brass_block')
     replaceLT(['#forge:storage_blocks/bronze', 'thermal:bronze_block'], 'alltheores:bronze_block')
+    replaceLT(['#forge:storage_blocks/coal_coke', 'thermal:coal_coke_block'], 'immersiveengineering:coke')
     replaceLT(['#forge:storage_blocks/constantan', 'immersiveengineering:storage_constantan', 'thermal:constantan_block'], 'alltheores:constantan_block')
     replaceLT(['#forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum', 'thermal:electrum_block'], 'alltheores:electrum_block')
     replaceLT(['#forge:storage_blocks/enderium', 'thermal:enderium_block'], 'alltheores:enderium_block')
@@ -197,7 +214,8 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:wires/electrum', 'createaddition:electrum_wire'], 'immersiveengineering:wire_electrum')
     
     //Gems
-    replaceLT(['#forge:gems/sapphire', 'iceandfire:sapphire_gem'], 'alltheores:sapphire')
+    replaceLT(['#forge:gems/sapphire', 'thermal:sapphire', 'iceandfire:sapphire_gem'], 'alltheores:sapphire')
+    replaceLT(['#forge:gems/ruby', 'thermal:ruby'], 'alltheores:ruby')
     
     //Others
     replaceLT(['#forge:crops/rice', 'sushigocrafting:rice', 'sushigocrafting:rice_seeds'], 'farmersdelight:rice')

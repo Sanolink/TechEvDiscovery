@@ -1,5 +1,21 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.4
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 ServerEvents.recipes(event => {
 
@@ -39,25 +55,42 @@ ServerEvents.recipes(event => {
             secondaries: Item.of('createdeco:netherite_nugget').withChance(0.8)
         },
         {
-            id : 'netherite_tool_recycling',
-            input: '#forge:tools/netherite',
-            output: Item.of('createdeco:netherite_nugget').withCount(4),
-            secondaries: Item.of('createdeco:netherite_nugget').withChance(0.8)
+            id : 'obsidian',
+            input: 'minecraft:obsidian',
+            output: 'create:powdered_obsidian',
+            secondaries: Item.of('minecraft:obsidian').withChance(0.75)
         }
     ]
 
     const ingotsDusts = [
-        'iridium', 
-        'netherite', 
-        'enderium', 
-        'lumium', 
-        'signalum'
+        'dragonsteel',
+        'enderium',
+        'iridium',
+        'lumium',
+        'melodium',
+        'netherite',
+        'prismalium',
+        'shellite',
+        'signalum',
+        'soul_infused',
+        'stellarium',
+        'twinite'
     ]
     const gemsDusts = [
-        'diamond', 
-        'sapphire', 
-        'peridot', 
-        'ruby'
+        'amethyst',
+        'apatite',
+        'certus_quartz',
+        'cinnabar',
+        'diamond',
+        'emerald',
+        'fluix',
+        'lapis',
+        'niter',
+        'peridot',
+        'quartz',
+        'ruby',
+        'sapphire',
+        'sulfur'
     ]
     ingotsDusts.forEach(type => {
         recipes.push(

@@ -7,7 +7,7 @@
   },
   "result": {
     "amount": 10,
-    "fluid": "immersivepetroleum:diesel"
+    "fluid": "pneumaticcraft:diesel"
   },
   "secondary_input": {
     "amount": 5,

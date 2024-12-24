@@ -1,5 +1,21 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.3.0
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 JEIEvents.hideItems(event => {
 
@@ -173,6 +189,7 @@ JEIEvents.hideItems(event => {
         'immersiveengineering:storage_steel',
         'immersiveengineering:storage_uranium', 
         'thermal:bronze_block', 
+        'thermal:coal_coke_block',
         'thermal:enderium_block',
         'thermal:invar_block', 
         'thermal:lumium_block', 
@@ -187,14 +204,62 @@ JEIEvents.hideItems(event => {
         'iceandfire:sapphire_gem',
         
         //Others
-        'sushigocrafting:rice',
-        'sushigocrafting:rice_seeds',
+        'ae2:facade',
+        'alltheores:other_aluminum_ore',
+        'alltheores:other_coal_ore',
+        'alltheores:other_copper_ore',
+        'alltheores:other_diamond_ore',
+        'alltheores:other_emerald_ore',
+        'alltheores:other_gold_ore',
+        'alltheores:other_iridium_ore',
+        'alltheores:other_iron_ore',
+        'alltheores:other_lapis_ore',
+        'alltheores:other_lead_ore',
+        'alltheores:other_nickel_ore',
+        'alltheores:other_osmium_ore',
+        'alltheores:other_platinum_ore',
+        'alltheores:other_quartz_ore',
+        'alltheores:other_redstone_ore',
+        'alltheores:other_silver_ore',
+        'alltheores:other_tin_ore',
+        'alltheores:other_uranium_ore',
+        'alltheores:other_zinc_ore',
         'bhc:wither_bone',
-        'industrialforegoing:plastic',
-        'thermal:coal_coke',
         'immersivepetroleum:bitumen',
-        'immersivepetroleum:slag'
+        'immersivepetroleum:slag',
+        Item.of('immersiveengineering:blueprint', '{blueprint:"electrode"}'),
+        'industrialforegoing:plastic',
+        'sushigocrafting:rice_seeds',
+        'sushigocrafting:rice',
+        'thermal:coal_coke',
+        'ars_nouveau:bucket_of_source',
+        'createaddition:seed_oil_bucket',
+        'immersiveengineering:biodiesel_bucket',
+        'immersivepetroleum:diesel_bucket',
+        'immersivepetroleum:gasoline_bucket',
+        'immersivepetroleum:kerosene_bucket',
+        'immersivepetroleum:lubricant_bucket',
+        'pneumaticcraft:ethanol_bucket',
+        'pneumaticcraft:oil_bucket',
+        'pneumaticcraft:vegetable_oil_bucket',
+        'thermal:crude_oil_bucket',
+        'thermal:creosote_bucket'
     ])
+})
+
+JEIEvents.hideFluids(event => {
+    event.hide('cofh_core:honey')
+    event.hide('createaddition:seed_oil')
+    event.hide('immersiveengineering:biodiesel')
+    event.hide('immersivepetroleum:diesel')
+    event.hide('immersivepetroleum:gasoline')
+    event.hide('immersivepetroleum:kerosene')
+    event.hide('immersivepetroleum:lubricant')
+    event.hide('pneumaticcraft:ethanol')
+    event.hide('pneumaticcraft:oil')
+    event.hide('pneumaticcraft:vegetable_oil')
+    event.hide('thermal:crude_oil')
+    event.hide('thermal:creosote')
 })
 
 JEIEvents.removeCategories(event => {
@@ -208,6 +273,12 @@ JEIEvents.removeCategories(event => {
 JEIEvents.addItems(event => {
 
     event.add([
-        'minecraft:dragon_egg'
+        'minecraft:dragon_egg',
+        Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'),
+        Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'),
+        Item.of('immersiveengineering:blueprint', '{blueprint:"molds"}'),
+        Item.of('immersiveengineering:blueprint', '{blueprint:"bannerpatterns"}'),
+        Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'),
+        Item.of('immersiveengineering:blueprint', '{blueprint:"appliedComponents"}')
     ])
 })

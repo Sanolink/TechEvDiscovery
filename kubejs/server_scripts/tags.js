@@ -1,5 +1,21 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.3.0
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 /*********************************************/
 //SECOND FILE OF UNIFICATION, PLEASE DON'T TOUCH
@@ -12,7 +28,8 @@ ServerEvents.tags('item', e => {
     e.remove('forge:ores/aluminum', 'immersiveengineering:ore_aluminum')
     e.remove('forge:ores/lead', 'eidolon:lead_ore', 'immersiveengineering:ore_lead', 'thermal:lead_ore')
     e.remove('forge:ores/nickel', 'immersiveengineering:ore_nickel', 'thermal:nickel_ore')
-    e.remove('forge:ores/sapphire', 'iceandfire:sapphire_ore')
+    e.remove('forge:ores/ruby', 'thermal:ruby_ore')
+    e.remove('forge:ores/sapphire', 'iceandfire:sapphire_ore', 'thermal:sapphire_ore')
     e.remove('forge:ores/silver', 'eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore', 'occultism:silver_ore', 'thermal:silver_ore')
     e.remove('forge:ores/tin', 'thermal:tin_ore')
     e.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium')
@@ -22,6 +39,8 @@ ServerEvents.tags('item', e => {
     e.remove('forge:ores/aluminum', 'immersiveengineering:deepslate_ore_aluminum')
     e.remove('forge:ores/lead', 'eidolon:deep_lead_ore', 'immersiveengineering:deepslate_ore_lead', 'thermal:deepslate_lead_ore')
     e.remove('forge:ores/nickel', 'immersiveengineering:deepslate_ore_nickel', 'thermal:deepslate_nickel_ore')
+    e.remove('forge:ores/ruby', 'thermal:deepslate_ruby_ore')
+    e.remove('forge:ores/sapphire', 'iceandfire:sapphire_ore', 'thermal:deepslate_sapphire_ore')
     e.remove('forge:ores/silver', 'eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore', 'occultism:silver_ore_deepslate', 'thermal:deepslate_silver_ore')
     e.remove('forge:ores/tin', 'thermal:deepslate_tin_ore')
     e.remove('forge:ores/uranium', 'immersiveengineering:deepslate_ore_uranium')
@@ -161,6 +180,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:storage_blocks/aluminum', 'immersiveengineering:storage_aluminum')
     e.remove('forge:storage_blocks/brass', 'create:brass_block')
     e.remove('forge:storage_blocks/bronze', 'thermal:bronze_block')
+    e.remove('forge:storage_blocks/coal_coke', 'thermal:coal_coke_block')
     e.remove('forge:storage_blocks/constantan', 'immersiveengineering:storage_constantan', 'thermal:constantan_block')
     e.remove('forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum', 'thermal:electrum_block')
     e.remove('forge:storage_blocks/enderium', 'thermal:enderium_block')
@@ -181,7 +201,8 @@ ServerEvents.tags('item', e => {
     e.remove('forge:wires/electrum', 'createaddition:electrum_wire')
     
     //Gems
-    e.remove('forge:gems/sapphire', 'iceandfire:sapphire_gem')
+    e.remove('forge:gems/sapphire', 'iceandfire:sapphire_gem', 'thermal:sapphire')
+    e.remove('forge:gems/ruby', 'thermal:ruby')
    
     //Others
     e.remove('forge:crops/rice', 'sushigocrafting:rice')
@@ -196,7 +217,26 @@ ServerEvents.tags('item', e => {
     /********************DISABLE**************************/
     const DISABLED_ITEMS = [
         'sushigocrafting:rice',
-        'sushigocrafting:rice_seeds'
+        'sushigocrafting:rice_seeds',
+        'alltheores:other_aluminum_ore',
+        'alltheores:other_coal_ore',
+        'alltheores:other_copper_ore',
+        'alltheores:other_diamond_ore',
+        'alltheores:other_emerald_ore',
+        'alltheores:other_gold_ore',
+        'alltheores:other_iridium_ore',
+        'alltheores:other_iron_ore',
+        'alltheores:other_lapis_ore',
+        'alltheores:other_lead_ore',
+        'alltheores:other_nickel_ore',
+        'alltheores:other_osmium_ore',
+        'alltheores:other_platinum_ore',
+        'alltheores:other_quartz_ore',
+        'alltheores:other_redstone_ore',
+        'alltheores:other_silver_ore',
+        'alltheores:other_tin_ore',
+        'alltheores:other_uranium_ore',
+        'alltheores:other_zinc_ore'
     ].forEach(item => {e.removeAllTagsFrom(item)})
 
     /**********************ADD****************************/

@@ -1,0 +1,29 @@
+{
+  "type": "blue_skies:grittle_flatfish",
+  "name": "entity.blue_skies.grittle_flatfish",
+  "name_color": "0x1F242A",
+  "gui_scale": 1.2,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blue_skies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.grittle_flatfish",
+  "fabricator_drops": [
+		{
+			"item": "blue_skies:grittle_flatfish",
+			"count": 16
+		},
+    {
+			"item": "minecraft:bone_meal",
+			"count": 2
+		}
+  ],
+  "tier_data": [6, 54, 354, 1254],
+  "data_per_kill": [1, 4, 10, 18]
+}

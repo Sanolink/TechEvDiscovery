@@ -46,6 +46,18 @@ ServerEvents.recipes(event => {
             outputs: Item.of('thermal_extra:dragonsteel_glass').withCount(2),
             inputs: [Item.of('thermal:obsidian_glass').withCount(2), 'thermal_extra:dragonsteel_ingot'],
             energy: 4800
+        },
+        {
+            id:  "sim_chamber",
+            outputs: 'hostilenetworks:sim_chamber',
+            inputs: ['kubejs:resonant_machine_frame', 'kubejs:ender_servo', 'thermalendergy:vibrating_core'],
+            energy: 4800
+        },
+        {
+            id:  "loot_fabricator",
+            outputs: 'hostilenetworks:loot_fabricator',
+            inputs: ['kubejs:resonant_machine_frame', 'thermal:redstone_servo', 'thermal:rf_coil'],
+            energy: 4800
         }
     ]
 

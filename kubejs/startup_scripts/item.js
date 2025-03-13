@@ -31,7 +31,9 @@ StartupEvents.registry('item', e => {
     e.create('kubejs:raw_leadosnite').displayName("Raw Leadosnite")
     e.create('kubejs:compressed_iron_bottle').displayName("Compressed Bottle")
     e.create('kubejs:flowing_time').displayName("Flowing Time")
+    e.create('kubejs:ender_servo').displayName("Ender Servo")
 
     e.create('hostilenetworks:blue_skies_prediction').displayName("Generalized Blue Skies Prediction")
     e.create('hostilenetworks:undergarden_prediction').displayName("Generalized Undergarden Prediction")
+    e.create('hostilenetworks:inert_data_model').displayName("Inert Model Framework")
   })

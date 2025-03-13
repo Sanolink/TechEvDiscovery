@@ -22,6 +22,12 @@ ServerEvents.recipes(event => {
             input: ["minecraft:iron_ingot", "alltheores:lead_ingot"],
             output: Item.of('eidolon:pewter_blend', 2),
         },
+        {
+            id: 'polymer_clay',
+            type: 'heated',
+            input: ['minecraft:clay_ball', Fluid.of("thermal:resin", 125), Fluid.of("pneumaticcraft:plastic", 125)],
+            output: Fluid.of("hostilenetworks:polymer_clay", 250)
+        },
         //Superheated Recipes
         {
             id: 'molten_redstone',

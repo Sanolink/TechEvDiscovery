@@ -92,6 +92,13 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'farmersdelight:golden_knife'})
     event.remove({ output: 'farmersdelight:diamond_knife'})
 
+    //Hostile Neural Networks 
+    event.remove({ output: 'hostilenetworks:blank_data_model'})
+    event.remove({ output: 'hostilenetworks:empty_prediction'})
+    event.remove({ output: 'hostilenetworks:sim_chamber'})
+    event.remove({ output: 'hostilenetworks:loot_fabricator'})
+    event.remove({ output: "hostilenetworks:deep_learner"})
+    
     //Immersive Engineering 
     event.remove({ id: 'immersiveengineering:crafting/stick_iron'})
     event.remove({ id: 'immersiveengineering:crafting/stick_aluminum'})

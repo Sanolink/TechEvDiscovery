@@ -20,5 +20,5 @@ StartupEvents.registry('block', e => {
     e.create('kubejs:raw_leadosnite_block').displayName("Block Of Raw Leadosnite").soundType("tuff").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     e.create('kubejs:raw_uratinumal_block').displayName("Block Of Raw Uratinumal").soundType("tuff").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
 
-    e.create('kubejs:resonant_machine_frame').displayName("Resonant Machine Frame").soundType("lantern").hardness(2).tagBlock("mineable/pickaxe")
+    e.create('kubejs:resonant_machine_frame').displayName("Resonant Machine Frame").soundType("lantern").hardness(2).tagBlock("mineable/pickaxe").notSolid()
 })

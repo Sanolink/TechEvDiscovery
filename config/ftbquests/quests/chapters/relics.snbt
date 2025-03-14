@@ -1780,5 +1780,5 @@
 		}
 	]
 	subtitle: ["&lSecret Artifacts"]
-	title: "&l[Relics]"
+	title: "&l&d[Relics]"
 }

@@ -131,6 +131,10 @@ ServerEvents.recipes(event => {
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})
 
+    //Powah 
+    event.remove({ id: 'powah:crafting/dielectric_paste'})
+    event.remove({ id: 'powah:crafting/dielectric_paste_2'})
+    
     //Simple Storage
     event.remove({ output: 'storagenetwork:inventory_remote', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'storagenetwork:crafting_remote', type: 'minecraft:crafting_shaped' })

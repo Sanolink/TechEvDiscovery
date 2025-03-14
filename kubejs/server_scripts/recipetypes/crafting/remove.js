@@ -44,6 +44,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'arseng:source_cell_housing'})
     event.remove({ id: 'ae2:network/cells/item_cell_housing'})
     event.remove({ id: 'ae2:network/cells/fluid_cell_housing'})
+    event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz'})
 
     //Aquaculture
     event.remove({ output: 'aquaculture:neptunium_fillet_knife', type: 'minecraft:crafting_shaped' })

@@ -64,6 +64,12 @@ ServerEvents.recipes(event => {
             outputs: '24x powah:dielectric_paste',
             inputs: ['4x thermal:tar', '4x thermal:compost', '4x thermal_extra:sticky_ball'],
             energy: 4800
+        },
+        {
+            id:  "machine_frame",
+            outputs: 'thermal:machine_frame',
+            inputs: ['2x thermal_extra:dragonsteel_glass', 'industrialforegoing:machine_frame_supreme', 'thermal:redstone_servo'],
+            energy: 4800
         }
     ]
     

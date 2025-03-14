@@ -5,6 +5,200 @@
 	group: "38610A8E5A0E3694"
 	icon: "undergarden:catalyst"
 	id: "2B65EE8D5CCB466D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "undergarden:block/blisterberry_bush_3"
+			rotation: 30.0d
+			width: 1.0d
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "undergarden:block/gloom_o_lantern"
+			rotation: -30.0d
+			width: 1.0d
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "pneumaticcraft:textures/gui/jei/explosion.png"
+			rotation: 45.0d
+			width: 1.5d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "undergarden:block/underbean_bush_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.244031830238727d
+			hover: ["Forgotten Guardian"]
+			image: "techev:textures/misc/quests/undergarden/forgotten_guardian.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["Masticator"]
+			image: "techev:textures/misc/quests/undergarden/masticator.png"
+			rotation: 0.0d
+			width: 3.919491525423729d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["Muncher"]
+			image: "techev:textures/misc/quests/undergarden/muncher.png"
+			rotation: 0.0d
+			width: 1.8511904761904763d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: ["Rotbeast"]
+			image: "techev:textures/misc/quests/undergarden/rotbeast.png"
+			rotation: 0.0d
+			width: 3.0131926121372032d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: ["Rotwalker"]
+			image: "techev:textures/misc/quests/undergarden/rotwalker.png"
+			rotation: 0.0d
+			width: 1.059288537549407d
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["Rotling"]
+			image: "techev:textures/misc/quests/undergarden/rotling.png"
+			rotation: 0.0d
+			width: 0.9765957446808511d
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["Gloomper"]
+			image: "techev:textures/misc/quests/undergarden/gloomper.png"
+			rotation: 0.0d
+			width: 2.404494382022472d
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["Dweller"]
+			image: "techev:textures/misc/quests/undergarden/dweller.png"
+			rotation: 0.0d
+			width: 1.7087033747779752d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: ["Brute"]
+			image: "techev:textures/misc/quests/undergarden/brute.png"
+			rotation: 0.0d
+			width: 2.193d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Scintling"]
+			image: "techev:textures/misc/quests/undergarden/scintling.png"
+			rotation: 0.0d
+			width: 2.1659751037344397d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Sploogie"]
+			image: "techev:textures/misc/quests/undergarden/sploogie.png"
+			rotation: 0.0d
+			width: 1.5354838709677419d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: ["Nargoyle"]
+			image: "techev:textures/misc/quests/undergarden/nargoyle.png"
+			rotation: 0.0d
+			width: 2.6194690265486726d
+			x: -4.5d
+			y: -3.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -44,62 +238,82 @@
 		}
 		{
 			dependencies: ["74C04BCEAF0AABF7"]
+			description: ["Utherium Crystals can be obtained from mining of from looting."]
 			id: "5D8972FA2595DA5D"
+			shape: "rsquare"
 			tasks: [{
-				id: "3786E4DB793764A1"
+				id: "673AF20C739E75D6"
 				item: "undergarden:utherium_crystal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["74C04BCEAF0AABF7"]
+			description: [
+				"Regalium Crystals are rare minerals that are used primarily for trading with stoneborns"
+				""
+				"{image:techev:textures/misc/quests/undergarden/stoneborn.png width:66 height:164 align:1}"
+			]
 			id: "2E474B4F16827A33"
+			shape: "rsquare"
+			subtitle: "Emeralds of Undergarden"
 			tasks: [{
 				id: "089CDF2FF0C868C8"
 				item: "undergarden:regalium_crystal"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["7451B531B951F0FA"]
+			dependencies: ["74C04BCEAF0AABF7"]
+			description: [
+				"&3&lForgotten Ingots&r are looted by &a&lForgotten Guardians&r."
+				""
+				"They are primarily used to upgrade cloggrum gear into forgotten gear."
+			]
 			id: "23778655D45E5898"
+			shape: "rsquare"
+			subtitle: "Mysterious Alloy"
 			tasks: [{
 				id: "166B7DD703D67467"
 				item: "undergarden:forgotten_ingot"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["74C04BCEAF0AABF7"]
 			id: "684F077B9C4C99F1"
+			shape: "rsquare"
 			tasks: [{
 				id: "319505BC6D539206"
 				item: "undergarden:froststeel_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["74C04BCEAF0AABF7"]
 			id: "7451B531B951F0FA"
+			shape: "rsquare"
+			subtitle: "Coprolithic Alloy"
 			tasks: [{
 				id: "4412CB7EB3F05741"
 				item: "undergarden:cloggrum_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["684F077B9C4C99F1"]
 			id: "3AF8C1F704764B65"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "5A222F436A1A28E7"
@@ -157,12 +371,13 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -2.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["684F077B9C4C99F1"]
 			id: "2433BD8AF968C71A"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "4F386479F011974F"
@@ -209,12 +424,13 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -3.0d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5D8972FA2595DA5D"]
 			id: "4FD41FF258EB7F72"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "05774D7B3C566DD3"
@@ -272,12 +488,13 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5D8972FA2595DA5D"]
 			id: "24A3056E197B68FA"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "58FC49AE4B895D80"
@@ -324,12 +541,13 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -0.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7451B531B951F0FA"]
 			id: "7814DF6732C1DC9B"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "08C574F11759BC58"
@@ -387,12 +605,13 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7451B531B951F0FA"]
 			id: "403E96938050392F"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "1631D080EE0D97C2"
@@ -439,12 +658,13 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: -0.5d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["23778655D45E5898"]
 			id: "69B5F2C9791F5956"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "14477E699EACE7DE"
@@ -502,30 +722,437 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -2.5d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["74C04BCEAF0AABF7"]
+			dependencies: [
+				"74C04BCEAF0AABF7"
+				"0FDF3E5703AAA35E"
+			]
+			description: ["{image:techev:textures/misc/quests/undergarden/shiverstone_gen.png width:121 height:72 align:1 fit:true}"]
 			id: "3C1FED6889EC0A57"
+			shape: "gear"
 			tasks: [{
 				id: "713F1918F6BDDDBB"
 				item: "undergarden:shiverstone"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["74C04BCEAF0AABF7"]
+			dependencies: [
+				"74C04BCEAF0AABF7"
+				"0FDF3E5703AAA35E"
+			]
 			id: "200F0417C092637A"
+			shape: "gear"
 			tasks: [{
 				id: "5B161250F335E2F7"
 				item: "undergarden:wigglewood_log"
 				type: "item"
 			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "00D1839393F71376"
+			rewards: [{
+				id: "6A95BF9BA37A95A9"
+				item: "undergarden:gloomgourd_pie"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7C09862AEA857013"
+					item: "undergarden:gloomgourd_seeds"
+					type: "item"
+				}
+				{
+					id: "650C698EA01E012A"
+					item: "undergarden:gloomgourd"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"00D1839393F71376"
+				"77E8FAB5C0281B61"
+			]
+			id: "15DC1D5B30EB0811"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "02984722E8A10C83"
+					item: "undergarden:boomgourd"
+					type: "item"
+				}
+				{
+					id: "732A1BA75157671A"
+					item: "undergarden:blisterbomb"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			description: ["&l&2Blisterberries&r can be collected from &a&nBlisterberry Bushes&r. They also drop &6Rotten Blisterberries&r."]
+			hide_dependency_lines: true
+			id: "77E8FAB5C0281B61"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0C1FFD603A14EA17"
+					item: "undergarden:blisterberry"
+					type: "item"
+				}
+				{
+					id: "12062C0B51269E89"
+					item: "undergarden:rotten_blisterberry"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"00D1839393F71376"
+				"23778655D45E5898"
+			]
+			description: [
+				"{image:techev:textures/misc/quests/undergarden/forgotten_golem.png width:100 height:100 align:1}"
+				"With a Carved Gloomgourd, you can make a &l&bGolem&r that shoots projectiles at hostile mobs."
+				"{image:techev:textures/misc/quests/undergarden/forgotten_golem_build.png width:32 height:64 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/undergarden/forgotten_golem.png"
+				}
+			}
+			id: "25D4EB2EB09310E5"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0AE390B75A96FC4A"
+					item: "undergarden:carved_gloomgourd"
+					type: "item"
+				}
+				{
+					id: "009D4C567F3A334C"
+					item: "undergarden:forgotten_block"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			id: "7D23355AA75F91EA"
+			shape: "circle"
+			tasks: [{
+				id: "74C52811B262253C"
+				item: {
+					Count: 1b
+					id: "undergarden:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			description: ["&l&2Underbeans&r can be collected from &a&nUnderbeans Bushes&r."]
+			hide_dependency_lines: true
+			id: "611713A33DF78446"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2159AD8CCD7C30A4"
+					item: "undergarden:underbeans"
+					type: "item"
+				}
+				{
+					id: "69D83E8A510CE487"
+					item: "undergarden:roasted_underbeans"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "30827A5A598867B6"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:brute"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/brute.png"
+					}
+				}
+				id: "4CBACA41FE9EDA8B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "156F8BB0323160B6"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:dweller"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/dweller.png"
+					}
+				}
+				id: "0E60282AC6EE6C6B"
+				type: "kill"
+				value: 1L
+			}]
 			x: -1.5d
-			y: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			description: [
+				"&a&lForgotten Guardian&r is a mini-boss spawning in &n&lCatacombs&r."
+				""
+				"{image:techev:textures/misc/quests/undergarden/catacombs.png width:148 height:95 align:1 fit:true}"
+			]
+			hide_dependency_lines: true
+			id: "7B28B6C9D3632031"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/forgotten_guardian.png"
+					}
+				}
+				id: "4B4BF1B2C6D72BF1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "6294BD517547111B"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:gloomper"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/gloomper.png"
+					}
+				}
+				id: "3888315C56DA6851"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "6C7EA8A2687AFE72"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:masticator"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/masticator.png"
+					}
+				}
+				id: "37D15D4944AE52C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "3EE91882D29994C4"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:muncher"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/muncher.png"
+					}
+				}
+				id: "03E64D3D55EF25CD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "2E7C0313A6125BFC"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:nargoyle"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/nargoyle.png"
+					}
+				}
+				id: "6D1693E869131550"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "4CB211F26A0AA0A2"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:rotbeast"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/rotbeast.png"
+					}
+				}
+				id: "557CC5C9933BFB85"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "026827CFFB3ED946"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:rotwalker"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/rotwalker.png"
+					}
+				}
+				id: "58A9CA53F9B58371"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "40C1637D76AF6C7F"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:scintling"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/scintling.png"
+					}
+				}
+				id: "07AEBE920D34088A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "60CFD9053ACF9840"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:sploogie"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/sploogie.png"
+					}
+				}
+				id: "4BE1EC9F57B32FA3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74C04BCEAF0AABF7"]
+			hide_dependency_lines: true
+			id: "124027EB2F738D3C"
+			shape: "rsquare"
+			tasks: [{
+				entity: "undergarden:rotling"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "techev:textures/misc/quests/undergarden/rotling.png"
+					}
+				}
+				id: "35B0E8AB5A337E62"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 2.0d
 		}
 	]
 	title: " &l&d♦ &rThe Undergarden"

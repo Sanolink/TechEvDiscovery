@@ -30,6 +30,58 @@
 			x: 25.5d
 			y: -2.5d
 		}
+		{
+			click: ""
+			color: 15335168
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
+			rotation: 0.0d
+			width: 3.25d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			color: 130816
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
+			rotation: 0.0d
+			width: 3.25d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			color: 65526
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
+			rotation: 0.0d
+			width: 3.25d
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			color: 15270143
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
+			rotation: 0.0d
+			width: 3.25d
+			x: 22.5d
+			y: 0.0d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -179,8 +231,8 @@
 				type: "checkmark"
 			}]
 			title: "&lCreate Addons"
-			x: 7.5d
-			y: -2.25d
+			x: 8.25d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -203,7 +255,7 @@
 			}]
 			title: "&lImmersive Engineering"
 			x: 9.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -225,8 +277,8 @@
 				type: "checkmark"
 			}]
 			title: "&lSimple Storage"
-			x: 9.75d
-			y: 0.0d
+			x: 6.75d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -248,7 +300,7 @@
 				type: "checkmark"
 			}]
 			title: "&lFarmer's Life | Part 2"
-			x: 6.0d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
@@ -271,7 +323,7 @@
 				type: "checkmark"
 			}]
 			title: "&lTwilight Forest"
-			x: 9.0d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -294,8 +346,8 @@
 				type: "checkmark"
 			}]
 			title: "&lLittle Additions"
-			x: 5.25d
-			y: 0.0d
+			x: 7.5d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -318,7 +370,7 @@
 			}]
 			title: "&lArs Nouveau"
 			x: 6.0d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -364,8 +416,8 @@
 				type: "checkmark"
 			}]
 			title: "&lPneumaticCraft"
-			x: 11.25d
-			y: 0.0d
+			x: 14.25d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -387,8 +439,8 @@
 				type: "checkmark"
 			}]
 			title: "&lNature's Aura"
-			x: 15.75d
-			y: 0.0d
+			x: 12.75d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -410,8 +462,8 @@
 				type: "checkmark"
 			}]
 			title: "&lBlue Skies"
-			x: 15.0d
-			y: -1.5d
+			x: 12.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -433,7 +485,7 @@
 				type: "checkmark"
 			}]
 			title: "&lIndustrial Foregoing"
-			x: 12.0d
+			x: 15.0d
 			y: -1.5d
 		}
 		{
@@ -456,8 +508,8 @@
 				type: "checkmark"
 			}]
 			title: "&lOccultism"
-			x: 13.5d
-			y: -2.25d
+			x: 15.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -484,7 +536,7 @@
 			}]
 			title: "&lForbidden And Arcanus"
 			x: 12.0d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -510,8 +562,143 @@
 				type: "checkmark"
 			}]
 			title: "&lUseful Tools"
-			x: 15.0d
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"63894331FBB6B6DA"
+				"25D4EB2EB09310E5"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/undergarden/forgotten_golem.png"
+				}
+			}
+			id: "16F99C9B9CB76C93"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"The Undergarden\"."
+			tasks: [{
+				id: "4CC67CF601E4A051"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "&lThe Undergarden"
+			x: 18.0d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"63894331FBB6B6DA"
+				"28379A273B0C6897"
+			]
+			icon: "mythicbotany:mjoellnir"
+			id: "0A64807D71D67987"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Botania\"."
+			tasks: [{
+				id: "5C8170346E17A2A4"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "&lBotania"
+			x: 18.75d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"63894331FBB6B6DA"
+				"63F36957EB3EEA0A"
+			]
+			icon: "thermalendergy:endergy_upgrade_3"
+			id: "346D3E8CFD2E96A4"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Thermal Series\"."
+			tasks: [{
+				id: "5A11AEA75EA9482A"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "&lThermal Series"
+			x: 20.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63894331FBB6B6DA"]
+			id: "4F77389499DF53BF"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Applied Energistics 2\"."
+			tasks: [{
+				id: "2310E395C799B6B0"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "&lApplied Energistics 2"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"63894331FBB6B6DA"
+				"700766542DC5190F"
+			]
+			icon: "psi:psigem"
+			id: "365D97E08264FEA4"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Psi\"."
+			tasks: [{
+				id: "46AD5AC28AD8FACB"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "&lPsi"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"63894331FBB6B6DA"
+				"790A2F3C4320D2F5"
+			]
+			icon: "powah:crystal_nitro"
+			id: "5B34FD4F6957423D"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Powah\"."
+			tasks: [{
+				id: "5781201F98D1E049"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "&lPowah"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"63894331FBB6B6DA"
+				"2500B54F7CC55A93"
+			]
+			icon: "hostilenetworks:loot_fabricator"
+			id: "18F25119E45A6D46"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Compact Addons\"."
+			tasks: [{
+				id: "5692AFDEABD3460A"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "&lCompact Addons"
+			x: 19.5d
+			y: -2.25d
 		}
 	]
 	title: " &l♠ &r&lAchievements"

@@ -39,6 +39,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ae2:network/cells/spatial_storage_cell_2_cubed'})
     event.remove({ id: 'ae2:network/cells/spatial_storage_cell_16_cubed'})
     event.remove({ id: 'ae2:network/cells/spatial_storage_cell_128_cubed'})
+    event.remove({ id: 'ae2things:cells/disk_housing'})
+    event.remove({ id: 'appbot:mana_cell_housing'})
+    event.remove({ id: 'arseng:source_cell_housing'})
+    event.remove({ id: 'ae2:network/cells/item_cell_housing'})
+    event.remove({ id: 'ae2:network/cells/fluid_cell_housing'})
 
     //Aquaculture
     event.remove({ output: 'aquaculture:neptunium_fillet_knife', type: 'minecraft:crafting_shaped' })

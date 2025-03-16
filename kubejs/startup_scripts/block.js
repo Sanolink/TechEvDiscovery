@@ -15,6 +15,9 @@ StartupEvents.registry('block', e => {
     
     e.create('blue_skies:everstone').displayName("Everstone").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
 
+    e.create('botania:floral_catalyst').displayName("Floral Catalyst").soundType("stone").hardness(2).tagBlock("mineable/pickaxe").requiresTool(true)
+    e.create('botania:abjuration_catalyst').displayName("Abjuration Catalyst").soundType("stone").hardness(2).tagBlock("mineable/pickaxe").requiresTool(true)
+
     e.create('kubejs:raw_auricargentum_block').displayName("Block Of Raw Auricargentum").soundType("tuff").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     e.create('kubejs:raw_cuperzinate_block').displayName("Block Of Raw Cuperzinate").soundType("tuff").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     e.create('kubejs:raw_leadosnite_block').displayName("Block Of Raw Leadosnite").soundType("tuff").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)

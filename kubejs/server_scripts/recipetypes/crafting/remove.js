@@ -66,6 +66,9 @@ ServerEvents.recipes(event => {
     //Blue Skies
     event.remove({ id: 'blue_skies:zeal_lighter'})
 
+    //Botania
+    event.remove({ id: 'botania:fertilizer_dye'})
+
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})
 

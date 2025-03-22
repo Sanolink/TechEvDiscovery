@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:abjuration_catalyst"
+  },
+  "input": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mana": 5000,
+  "output": {
+    "item": "botania:mana_bottle"
+  }
+}

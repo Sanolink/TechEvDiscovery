@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:floral_catalyst"
+  },
+  "input": {
+    "item": "minecraft:grass"
+  },
+  "mana": 2500,
+  "output": {
+    "item": "botania:grass_seeds"
+  }
+}

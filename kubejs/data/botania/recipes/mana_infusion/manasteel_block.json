@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:abjuration_catalyst"
+  },
+  "input": {
+    "item": "minecraft:iron_block"
+  },
+  "mana": 27000,
+  "output": {
+    "item": "botania:manasteel_block"
+  }
+}

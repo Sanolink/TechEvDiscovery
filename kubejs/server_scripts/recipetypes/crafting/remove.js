@@ -68,6 +68,8 @@ ServerEvents.recipes(event => {
 
     //Botania
     event.remove({ id: 'botania:fertilizer_dye'})
+    event.remove({ id: 'mythicbotany:gjallar_horn_empty_mana_infusion'})
+    event.remove({ id: 'mythicbotany:kvasir_mead'})
 
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})

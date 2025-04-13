@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
                 M: 'occultism:dimensional_matrix',
                 E: 'ars_nouveau:manipulation_essence',
                 N: 'forbidden_arcanus:dark_nether_star',
-                F: 'kubejs:flowing_time',
+                F: 'tiab:flowing_time',
                 U: 'forbidden_arcanus:mundabitur_dust',
                 S: 'forbidden_arcanus:sanity_meter'
             }

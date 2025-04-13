@@ -6,13 +6,13 @@ ServerEvents.recipes(event => {
         {
             id: 'flowing_time',
             inputs: [
-                { item: 'kubejs:compressed_iron_bottle', count: 1 },
+                { item: 'tiab:compressed_iron_bottle', count: 1 },
                 { item: 'naturesaura:clock_hand', count: 1 },
                 { item: 'upgradednetherite_ultimate:ultimate_essence', count: 1 },
                 { item: 'ars_nouveau:glyph_extend_time', count: 1 }
             ],
             pressure: 4.0,
-            results: [{ item: 'kubejs:flowing_time', count: 1 }]
+            results: [{ item: 'tiab:flowing_time', count: 1 }]
         }
     ]
 

@@ -50,13 +50,13 @@ ServerEvents.recipes(event => {
         {
             id:  "sim_chamber",
             outputs: 'hostilenetworks:sim_chamber',
-            inputs: ['kubejs:resonant_machine_frame', 'kubejs:ender_servo', 'thermalendergy:vibrating_core'],
+            inputs: ['thermal:resonant_machine_frame', 'thermal:ender_servo', 'thermalendergy:vibrating_core'],
             energy: 4800
         },
         {
             id:  "loot_fabricator",
             outputs: 'hostilenetworks:loot_fabricator',
-            inputs: ['kubejs:resonant_machine_frame', 'thermal:redstone_servo', 'thermal:rf_coil'],
+            inputs: ['thermal:resonant_machine_frame', 'thermal:redstone_servo', 'thermal:rf_coil'],
             energy: 4800
         },
         {

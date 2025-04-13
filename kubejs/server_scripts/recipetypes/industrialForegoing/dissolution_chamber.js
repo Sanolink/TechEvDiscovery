@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
             'thermalendergy:stellarium_gear', 'immersiveengineering:component_electronic_adv', 'thermalendergy:stellarium_gear'
         ],
         fluid : Fluid.of('thermal:ender', 1000),
-        output : 'kubejs:resonant_machine_frame',
+        output : 'thermal:resonant_machine_frame',
         time : 300,
     }
 ]

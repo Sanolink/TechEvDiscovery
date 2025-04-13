@@ -1,5 +1,21 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0 
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 Platform.mods.kubejs.name = 'TechEv || Discovery'
 
@@ -24,16 +40,18 @@ StartupEvents.registry('item', e => {
     e.create('create:source_tube').displayName("Source Tube")
     e.create('create:netherite_sandpaper', 'create:sandpaper').maxDamage(2048).displayName("Netherite Sandpaper")
 
-    e.create('kubejs:techevium').displayName("Techevium")
-    e.create('kubejs:raw_cuperzinate').displayName("Raw Cuperzinate")
-    e.create('kubejs:raw_auricargentum').displayName("Raw Auricargentum")
-    e.create('kubejs:raw_uratinumal').displayName("Raw Uratinumal")
-    e.create('kubejs:raw_leadosnite').displayName("Raw Leadosnite")
-    e.create('kubejs:compressed_iron_bottle').displayName("Compressed Bottle")
-    e.create('kubejs:flowing_time').displayName("Flowing Time")
-    e.create('kubejs:ender_servo').displayName("Ender Servo")
+    e.create('tiab:compressed_iron_bottle').displayName("Compressed Bottle")
+    e.create('tiab:flowing_time').displayName("Flowing Time")
+
+    e.create('thermal:ender_servo').displayName("Ender Servo")
 
     e.create('hostilenetworks:blue_skies_prediction').displayName("Generalized Blue Skies Prediction")
     e.create('hostilenetworks:undergarden_prediction').displayName("Generalized Undergarden Prediction")
     e.create('hostilenetworks:inert_data_model').displayName("Inert Model Framework")
+
+    e.create('ae2:elemental_processor_press').displayName("Inscriber Elemental Press")
+    e.create('ae2:elemental_processor').displayName("Elemental Processor")
+    e.create('ae2:printed_elemental_processor').displayName("Printed Elemental Circuit")
+
+    e.create('botania:elementium_plate').displayName("Elementium Plate")
   })

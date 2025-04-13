@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
             input: [
                 { item: 'minecraft:glass_bottle', count: 1 }
             ],
-            output: { item: 'kubejs:compressed_iron_bottle', count: 1 },
+            output: { item: 'tiab:compressed_iron_bottle', count: 1 },
             program: 'laser',
         }
     ]

@@ -26,25 +26,25 @@ ServerEvents.recipes(event => {
     let recipes = [
         {
             id : 'raw_cuperzinate',
-            input: 'kubejs:raw_cuperzinate',
+            input: 'techev_additions:raw_cuperzinate',
             output: 'create:crushed_raw_copper',
             secondaries: [Item.of('create:crushed_raw_zinc').withChance(0.8), Item.of('create:crushed_raw_iron').withChance(0.6)]
         },
         {
             id : 'raw_auricargentum',
-            input: 'kubejs:raw_auricargentum',
+            input: 'techev_additions:raw_auricargentum',
             output: 'create:crushed_raw_gold',
             secondaries: [Item.of('create:crushed_raw_silver').withChance(0.8), Item.of('create:crushed_raw_platinum').withChance(0.6)]
         },
         {
             id : 'raw_uratinumal',
-            input: 'kubejs:raw_uratinumal',
+            input: 'techev_additions:raw_uratinumal',
             output: 'create:crushed_raw_uranium',
             secondaries: [Item.of('create:crushed_raw_tin').withChance(0.8), Item.of('create:crushed_raw_aluminum').withChance(0.6)]
         },
         {
             id : 'raw_leadosnite',
-            input: 'kubejs:raw_leadosnite',
+            input: 'techev_additions:raw_leadosnite',
             output: 'create:crushed_raw_lead',
             secondaries: [Item.of('create:crushed_raw_osmium').withChance(0.8), Item.of('create:crushed_raw_nickel').withChance(0.6)]
         },

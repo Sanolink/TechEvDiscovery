@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mythicbotany:gjallar_horn_empty_mana_infusion'})
     event.remove({ id: 'mythicbotany:kvasir_mead'})
     event.remove({ id: 'botania:petal_apothecary/pure_daisy'})
-    
+
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})
 
@@ -96,22 +96,22 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'coinsje:furnace/copper_ingot_to_copper_coin' })
     event.remove({ id: 'coinsje:furnace/iron_ingot_to_iron_coin' })
     event.remove({ id: 'coinsje:furnace/gold_ingot_to_gold_coin' })
-    event.remove({type:'create:splashing', input: '#create:crushed_raw_materials'})
 
     //Create
-    event.remove({ output: 'create:red_sand_paper', type: 'minecraft:crafting_shapeless' })
-    event.remove({ output: 'create:sand_paper', type: 'minecraft:crafting_shapeless' })
     event.remove({ id: 'create:crafting/materials/rose_quartz'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc'})
-    event.remove([{ type: 'minecraft:blasting', input: '#create:crushed_raw_materials' }])
-    event.remove([{ type: 'minecraft:smelting', input: '#create:crushed_raw_materials' }])
     event.remove({ id: 'create:mixing/andesite_alloy'})
     event.remove({ id: 'create:mixing/andesite_alloy_from_zinc'})
+    event.remove({ id: 'create:compat/byg/crushing/lignite_ore'})
     event.remove({ input: 'minecraft:tuff', type: 'create:crushing' })
     event.remove({ input: 'minecraft:diamond', type: 'create:crushing' })
     event.remove({ input: '#forge:ingots/steel', type: 'create:crushing' })
-    event.remove({ id: 'create:compat/byg/crushing/lignite_ore'})
+    event.remove({ output: 'create:red_sand_paper', type: 'minecraft:crafting_shapeless' })
+    event.remove({ output: 'create:sand_paper', type: 'minecraft:crafting_shapeless' })
+    event.remove([{ type: 'minecraft:blasting', input: '#create:crushed_raw_materials' }])
+    event.remove([{ type: 'minecraft:smelting', input: '#create:crushed_raw_materials' }])
+    event.remove([{ type:'create:splashing', input: '#create:crushed_raw_materials'}])
 
     //Eidolon
     event.remove({ output: 'eidolon:pewter_blend', type: 'minecraft:crafting_shapeless' })

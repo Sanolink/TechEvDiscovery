@@ -19,9 +19,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-    event.remove({ id: 'create:mixing/andesite_alloy'})
-    event.remove({ id: 'create:mixing/andesite_alloy_from_zinc'})
     //Recipes 
     const recipes = [
         //Basic Recipes

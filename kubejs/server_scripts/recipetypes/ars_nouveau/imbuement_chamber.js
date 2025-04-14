@@ -17,10 +17,7 @@
 
 */
 
-
 ServerEvents.recipes(event => {
-
-    //Remove
 
     //Recipes
     const recipes = [

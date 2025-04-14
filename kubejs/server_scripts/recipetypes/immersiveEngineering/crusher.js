@@ -19,10 +19,7 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-
     //Recipes 
-
     let recipes = [
         {
             id : 'raw_cuperzinate',

@@ -19,9 +19,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-    event.remove({ id: 'immersiveengineering:blueprint/graphite_electrode'})
-
     //Recipes
     let recipes = [
         {

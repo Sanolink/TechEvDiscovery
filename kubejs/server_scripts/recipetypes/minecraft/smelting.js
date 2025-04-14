@@ -1,17 +1,23 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.2
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 ServerEvents.recipes(event => {
-
-    //Remove
-    event.remove([{ type: 'minecraft:smelting', input: '#create:crushed_raw_materials' }])
-    event.remove({ id: 'naturalist:cooked_egg' })
-    event.remove({ id: 'quark:tweaks/smelting/bone_meal_utility' })
-    event.remove({ id: 'coinsje:furnace/copper_ingot_to_copper_coin' })
-    event.remove({ id: 'coinsje:furnace/iron_ingot_to_iron_coin' })
-    event.remove({ id: 'coinsje:furnace/gold_ingot_to_gold_coin' })
-    event.remove({ id: 'forbidden_arcanus:smelting/arcane_crystal_dust_from_smelting' })
-    event.remove({ id: 'forbidden_arcanus:obsidian_ingot'})
 
     //Recipes
     const recipes = [

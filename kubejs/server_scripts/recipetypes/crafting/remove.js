@@ -70,7 +70,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'botania:fertilizer_dye'})
     event.remove({ id: 'mythicbotany:gjallar_horn_empty_mana_infusion'})
     event.remove({ id: 'mythicbotany:kvasir_mead'})
-
+    event.remove({ id: 'botania:petal_apothecary/pure_daisy'})
+    
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})
 
@@ -88,12 +89,29 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'constructionwand:diamond_wand', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'constructionwand:infinity_wand', type: 'minecraft:crafting_shaped' })
 
+    //CoinsJE
+    event.remove({ id: 'coinsje:blasting/copper_ingot_to_copper_coin' })
+    event.remove({ id: 'coinsje:blasting/iron_ingot_to_iron_coin' })
+    event.remove({ id: 'coinsje:blasting/gold_ingot_to_gold_coin' })
+    event.remove({ id: 'coinsje:furnace/copper_ingot_to_copper_coin' })
+    event.remove({ id: 'coinsje:furnace/iron_ingot_to_iron_coin' })
+    event.remove({ id: 'coinsje:furnace/gold_ingot_to_gold_coin' })
+    event.remove({type:'create:splashing', input: '#create:crushed_raw_materials'})
+
     //Create
     event.remove({ output: 'create:red_sand_paper', type: 'minecraft:crafting_shapeless' })
     event.remove({ output: 'create:sand_paper', type: 'minecraft:crafting_shapeless' })
     event.remove({ id: 'create:crafting/materials/rose_quartz'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc'})
+    event.remove([{ type: 'minecraft:blasting', input: '#create:crushed_raw_materials' }])
+    event.remove([{ type: 'minecraft:smelting', input: '#create:crushed_raw_materials' }])
+    event.remove({ id: 'create:mixing/andesite_alloy'})
+    event.remove({ id: 'create:mixing/andesite_alloy_from_zinc'})
+    event.remove({ input: 'minecraft:tuff', type: 'create:crushing' })
+    event.remove({ input: 'minecraft:diamond', type: 'create:crushing' })
+    event.remove({ input: '#forge:ingots/steel', type: 'create:crushing' })
+    event.remove({ id: 'create:compat/byg/crushing/lignite_ore'})
 
     //Eidolon
     event.remove({ output: 'eidolon:pewter_blend', type: 'minecraft:crafting_shapeless' })
@@ -102,6 +120,12 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'farmersdelight:iron_knife'})
     event.remove({ output: 'farmersdelight:golden_knife'})
     event.remove({ output: 'farmersdelight:diamond_knife'})
+
+    //Forbidden Arcanus
+    event.remove({ id: 'forbidden_arcanus:blasting/arcane_crystal_dust_from_blasting' })
+    event.remove({ id: 'forbidden_arcanus:obsidian_ingot_from_blasting'})
+    event.remove({ id: 'forbidden_arcanus:smelting/arcane_crystal_dust_from_smelting' })
+    event.remove({ id: 'forbidden_arcanus:obsidian_ingot'})
 
     //Hostile Neural Networks 
     event.remove({ output: 'hostilenetworks:blank_data_model'})
@@ -121,15 +145,27 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:crafting/rs_engineering'})
     event.remove({ id: 'immersiveengineering:crafting/light_engineering'})
     event.remove({ id: 'immersiveengineering:crafting/heavy_engineering'})
+    event.remove({ id: 'immersiveengineering:squeezer/graphite_dust'})
+    event.remove({ id: 'immersiveengineering:refinery/acetaldehyde'})
+    event.remove({ id: 'immersiveengineering:blueprint/graphite_electrode'})
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:plates" })
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:dusts" })
     event.remove({ input: 'immersiveengineering:wirecutter', output: '#forge:wires', type: 'minecraft:crafting_shapeless' })
     event.remove({ output: 'immersiveengineering:hammer', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'immersiveengineering:wirecutter', type: 'minecraft:crafting_shaped' })
 
+    //Immersive Petroleum
+    event.remove({ id: 'immersivepetroleum:hydrotreater/propylene_plastic'})
+    event.remove({ id: 'immersivepetroleum:hydrotreater/ethylene_plastic'})
+
     //Minecraft
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })
+
+    //Naturalist
+    event.remove({ id: 'naturalist:cooked_egg_from_campfire_cooking' })
+    event.remove({ id: 'naturalist:cooked_egg' })
+    event.remove({ id: 'naturalist:cooked_egg_from_smoking' })
 
     //Occultism
     event.remove({ id: 'undergarden:catalyst'})
@@ -141,6 +177,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'powah:crafting/dielectric_paste'})
     event.remove({ id: 'powah:crafting/dielectric_paste_2'})
     
+    //Quark
+    event.remove({ id: 'quark:tweaks/smelting/bone_meal_utility' })
+
     //Simple Storage
     event.remove({ output: 'storagenetwork:inventory_remote', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'storagenetwork:crafting_remote', type: 'minecraft:crafting_shaped' })

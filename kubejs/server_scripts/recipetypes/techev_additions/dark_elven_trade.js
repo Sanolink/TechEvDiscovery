@@ -19,6 +19,7 @@
 
 ServerEvents.recipes(event => {
     
+    //Recipes
     const recipes = [
         {
             id: "gjallar_horn_empty",

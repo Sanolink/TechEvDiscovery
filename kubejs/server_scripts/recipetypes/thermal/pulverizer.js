@@ -20,8 +20,6 @@
 
 ServerEvents.recipes(event => {
 
-    //Remove
-
     //Recipes
     let recipes = [
         {

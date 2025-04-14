@@ -19,6 +19,7 @@
 
 ServerEvents.recipes(event => {
 
+    //Recipes
     thermo_plant("mana_diamond_block", 10, false, "botania:synthetic_mana_diamond", 1000, undefined, false, "botania:mana_diamond_block", 1, undefined, undefined, 7.5, 0, 273, 0.1)
 
     //General Thermo Plant Function

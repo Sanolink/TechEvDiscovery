@@ -23,7 +23,7 @@
 	#The second line of text under the app name
 	state = "Game Starting..."
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+	largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
@@ -44,7 +44,7 @@
 	#The seconds line of text under the app name
 	state = "Chilling in the menu"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+	largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
@@ -65,7 +65,7 @@
 	#The second line of text under the app name
 	state = "Searching for friends"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+	largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
@@ -86,7 +86,7 @@
 	#The second line of text under the app name
 	state = "Browsing Realms"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+	largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
@@ -107,7 +107,7 @@
 	#The second line of text under the app name
 	state = "Joining Game"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+	largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
@@ -128,7 +128,7 @@
 	#The second line of text under the app name
 	state = "Playing lonely mode"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+	largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
@@ -149,7 +149,7 @@
 	#The second line of text under the app name
 	state = "Playing online"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+	largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
@@ -170,7 +170,7 @@
 	#The second line of text under the app name
 	state = "Playing on a Realm"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+	largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
@@ -189,7 +189,7 @@
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+	largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "TechEv || Discovery %mcver%"
 	#The Asset ID of the image to display as the small image
@@ -222,7 +222,7 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID of the image to display as the large image
-		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+		largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 		#The text that gets displayed when the large image is hovered
 		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
@@ -242,7 +242,7 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID of the image to display as the large image
-		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+		largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 		#The text that gets displayed when the large image is hovered
 		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
@@ -262,7 +262,7 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID of the image to display as the large image
-		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+		largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 		#The text that gets displayed when the large image is hovered
 		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
@@ -282,7 +282,7 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID of the image to display as the large image
-		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+		largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 		#The text that gets displayed when the large image is hovered
 		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
@@ -302,7 +302,7 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID of the image to display as the large image
-		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+		largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 		#The text that gets displayed when the large image is hovered
 		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image
@@ -322,7 +322,7 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID of the image to display as the large image
-		largeImageKey = ["https://i.imgur.com/UvNUXFt.png"]
+		largeImageKey = ["https://i.imgur.com/xHXAAxc.png"]
 		#The text that gets displayed when the large image is hovered
 		largeImageText = "TechEv || Discovery %mcver%"
 		#The Asset ID of the image to display as the small image

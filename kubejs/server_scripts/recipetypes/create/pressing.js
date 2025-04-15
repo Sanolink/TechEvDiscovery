@@ -40,7 +40,9 @@ ServerEvents.recipes(event => {
             output: "create:red_sand_paper"
         }
     ]
-    const specialIngots = [
+    
+    // Ingots -> Plates
+    const IngotsToPlates = [
         'iridium', 
         'enderium', 
         'signalum', 
@@ -49,9 +51,16 @@ ServerEvents.recipes(event => {
         'invar', 
         'osmium', 
         'platinum', 
-        'tin'
-    ]
-    specialIngots.forEach(ingot => {
+        'tin',
+        'dragonsteel',
+        'soul_infused',
+        'shellite',
+        'twinite',
+        'prismalium',
+        'melodium',
+        'stellarium',
+        'elementium'
+    ].forEach(ingot => {
         recipes.push(
             {
                 id: ingot + "_ingot",
@@ -60,6 +69,7 @@ ServerEvents.recipes(event => {
             }
         )
     })
+
     //General Pressing Function
     recipes.forEach(recipe => {
         event.recipes.create.pressing(recipe.output, recipe.input).id("create:pressing/" + recipe.id)

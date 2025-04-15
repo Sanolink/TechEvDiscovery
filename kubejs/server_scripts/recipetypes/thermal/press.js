@@ -22,7 +22,8 @@ ServerEvents.recipes(event => {
     //Recipes
     let recipes = [
     ]
-
+    
+    // Ingots -> Gears
     const IngotsToGears = [
         "compressed_iron",
         "brass",
@@ -32,7 +33,8 @@ ServerEvents.recipes(event => {
         "platinum",
         "osmium",
         "iridium",
-        "aluminum"
+        "aluminum",
+        "elementium"
     ].forEach((ingot) => {
         recipes.push(
             {
@@ -44,6 +46,7 @@ ServerEvents.recipes(event => {
         )
     });
 
+    // Gems -> Plates
     const GemsToGears = [
         "quartz",
         "emerald",
@@ -60,6 +63,7 @@ ServerEvents.recipes(event => {
         )
     });
 
+    // Ingots -> Plates
     const IngotsToPlates = [
         "brass",
         "steel",
@@ -68,7 +72,8 @@ ServerEvents.recipes(event => {
         "platinum",
         "osmium",
         "iridium",
-        "aluminum"
+        "aluminum",
+        "elementium"
     ].forEach((ingot) => {
         recipes.push(
             {
@@ -80,6 +85,7 @@ ServerEvents.recipes(event => {
         )
     });
 
+    // Gems -> Plates
     const GemsToPlates = [
         "diamond"
     ].forEach((gem) => {

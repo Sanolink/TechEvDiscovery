@@ -115,7 +115,8 @@ ServerEvents.recipes(event => {
         "signalum",
         "soul_infused",
         "stellarium",
-        "twinite"
+        "twinite",
+        "elementium"
     ].forEach(ingot => {
         recipes.push(
             //Special Ingots Plates

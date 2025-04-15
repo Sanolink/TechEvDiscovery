@@ -259,5 +259,7 @@ ServerEvents.tags('item', e => {
     e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
     e.add('ae2:inscriber_presses', 'ae2:elemental_processor_press')
     e.add('forge:plates', 'botania:elementium_plate')
+    e.add('forge:gears', 'botania:elementium_gear')
     e.add('forge:plates/elementium', 'botania:elementium_plate')
+    e.add('forge:gears/elementium', 'botania:elementium_gear')
 })

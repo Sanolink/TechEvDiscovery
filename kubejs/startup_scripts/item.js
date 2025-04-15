@@ -54,4 +54,5 @@ StartupEvents.registry('item', e => {
     e.create('ae2:printed_elemental_processor').displayName("Printed Elemental Circuit")
 
     e.create('botania:elementium_plate').displayName("Elementium Plate")
+    e.create('botania:elementium_gear').displayName("Elementium Gear")
   })

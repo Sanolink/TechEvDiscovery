@@ -35,9 +35,27 @@ ServerEvents.recipes(event => {
             energy: 2000
         },
         {
+            id:  "petcoke_to_dust",
+            output: Ingredient.of("#forge:dusts/coal_petcoke"),
+            inputs: Ingredient.of("#forge:coal_petcoke"),
+            energy: 2000
+        },
+        {
+            id:  "petcoke_block_to_dust",
+            output: Item.of("immersivepetroleum:petcoke_dust").withCount(9),
+            inputs: Ingredient.of("#forge:storage_blocks/coal_petcoke"),
+            energy: 2000
+        },
+        {
             id:  "obsidian_to_dust",
             output: [Ingredient.of("#forge:dusts/obsidian"), Item.of("minecraft:obsidian").withChance(0.75)],
             inputs: "minecraft:obsidian",
+            energy: 2000
+        },
+        {
+            id:  "sky_stone_to_dust",
+            output: 'ae2:sky_dust',
+            inputs: "ae2:sky_stone_block",
             energy: 2000
         }
     ]
@@ -46,13 +64,69 @@ ServerEvents.recipes(event => {
         "brass",
         "iridium",
         "uranium",
-        "aluminum"
-    ].forEach((ingot) => {
+        "aluminum",
+        "iesnium",
+        "steel"
+    ].forEach((mat) => {
         recipes.push(
             {
-                id: ingot + "_ingot_to_dust",
-                output: Ingredient.of("#forge:dusts/" + ingot),
-                inputs: Ingredient.of("#forge:ingots/" + ingot),
+                id: mat + "_ingot_to_dust",
+                output: Ingredient.of("#forge:dusts/" + mat),
+                inputs: Ingredient.of("#forge:ingots/" + mat),
+                energy: 2000
+            }
+        )
+    });
+
+    const RawMat_OresToDusts = [
+        {main: "aluminum", dust: 'alltheores:aluminum_dust', secdust: 'alltheores:osmium_dust'},
+        {main: "osmium", dust: 'alltheores:osmium_dust', secdust: 'alltheores:aluminum_dust'},
+        {main: "uranium", dust: 'alltheores:uranium_dust', secdust: 'alltheores:lead_dust'},
+        {main: "iridium", dust: 'alltheores:iridium_dust', secdust: 'alltheores:uranium_dust'},
+        {main: "zinc", dust: 'alltheores:zinc_dust', secdust: 'alltheores:copper_dust', excludeore: true},
+        {main: "iesnium", dust: 'occultism:iesnium_dust'}
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: "raw_" + mat.main ,
+                output: [Item.of(mat.dust).withChance(1.25), Item.of(mat.secdust).withChance(0.05)],
+                inputs: Ingredient.of("#forge:raw_materials/" + mat.main),
+                energy: 2000
+            }
+        )
+        if (mat.excludeore == true) {return}
+        recipes.push(
+            {
+                id: mat.main + "_ore",
+                output: [Item.of(mat.dust).withChance(2), Item.of(mat.secdust).withChance(0.1), Item.of("minecraft:gravel").withChance(0.2)],
+                inputs: Ingredient.of("#forge:ores/" + mat.main),
+                energy: 2000
+            }
+        )
+    });
+
+    const PlatesToDusts = [
+        "aluminum",
+        "osmium",
+        "uranium",
+        "zinc",
+        "iridium",
+        "diamond",
+        "steel",
+        "brass",
+        "soul_infused",
+        "shellite",
+        "twinite",
+        "dragonsteel",
+        "prismalium",
+        "melodium",
+        "stellarium"
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: mat + "_plate_to_dust",
+                output: Ingredient.of("#forge:dusts/" + mat),
+                inputs: Ingredient.of("#forge:plates/" + mat),
                 energy: 2000
             }
         )
@@ -64,12 +138,12 @@ ServerEvents.recipes(event => {
         "sapphire",
         "peridot",
         "ruby"
-    ].forEach((gem) => {
+    ].forEach((mat) => {
         recipes.push(
             {
-                id: gem + "_gem_to_dust",
-                output: Ingredient.of("#forge:dusts/" + gem),
-                inputs: Ingredient.of("#forge:gems/" + gem),
+                id: mat + "_gem_to_dust",
+                output: Ingredient.of("#forge:dusts/" + mat),
+                inputs: Ingredient.of("#forge:gems/" + mat),
                 energy: 2000
             }
         )

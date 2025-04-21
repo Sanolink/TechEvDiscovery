@@ -56,6 +56,24 @@ ServerEvents.recipes(event => {
             input: 'minecraft:obsidian',
             output: 'create:powdered_obsidian',
             secondaries: Item.of('minecraft:obsidian').withChance(0.75)
+        },
+        {
+            id : 'soul_sand',
+            input: 'minecraft:soul_sand',
+            output: 'thermal_extra:soul_sand_dust',
+            secondaries: []
+        },
+        {
+            id : 'ender_pearl',
+            input: 'minecraft:ender_pearl',
+            output: 'thermal:ender_pearl_dust',
+            secondaries: []
+        },
+        {
+            id : 'sky_stone',
+            input: 'ae2:sky_stone_block',
+            output: 'ae2:sky_dust',
+            secondaries: []
         }
     ]
 

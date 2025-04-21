@@ -21,7 +21,100 @@ ServerEvents.recipes(event => {
 
     //Recipes
     let recipes = [
+        {
+            id: "prismalium_nugget_packing",
+            output: Ingredient.of("#forge:ingots/prismalium"),
+            inputs: [Ingredient.of("#forge:nuggets/prismalium", 9), Ingredient.of('thermal:press_packing_3x3_die')],
+            energy: 400
+        },
+        {
+            id: "prismalium_nugget_unpacking",
+            output: Item.of("#forge:nuggets/prismalium").withCount(9),
+            inputs: [Ingredient.of("#forge:ingots/prismalium"), Ingredient.of('thermal:press_unpacking_die')],
+            energy: 400
+        },
+        {
+            id: "melodium_nugget_packing",
+            output: Ingredient.of("#forge:ingots/melodium"),
+            inputs: [Ingredient.of("#forge:nuggets/melodium", 9), Ingredient.of('thermal:press_packing_3x3_die')],
+            energy: 400
+        },
+        {
+            id: "melodium_nugget_unpacking",
+            output: Item.of("#forge:nuggets/melodium").withCount(9),
+            inputs: [Ingredient.of("#forge:ingots/melodium"), Ingredient.of('thermal:press_unpacking_die')],
+            energy: 400
+        },
+        {
+            id: "stellarium_nugget_packing",
+            output: Ingredient.of("#forge:ingots/stellarium"),
+            inputs: [Ingredient.of("#forge:nuggets/stellarium", 9), Ingredient.of('thermal:press_packing_3x3_die')],
+            energy: 400
+        },
+        {
+            id: "stellarium_nugget_unpacking",
+            output: Item.of("#forge:nuggets/stellarium").withCount(9),
+            inputs: [Ingredient.of("#forge:ingots/stellarium"), Ingredient.of('thermal:press_unpacking_die')],
+            energy: 400
+        }
     ]
+
+    const PackingUnpacking = [
+        "aluminum",
+        'osmium',
+        'platinum',
+        'uranium',
+        'zinc',
+        'iridium',
+        'steel',
+        'brass',
+        'neptunium',
+        'pewter',
+        'cast_iron',
+        'cloggrum',
+        'froststeel',
+        'forgotten_metal',
+        'soul_infused',
+        'shellite',
+        'twinite',
+        'dragonsteel',
+        'arcane_gold',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'deorum',
+        'iesnium',
+        'manasteel',
+        'terrasteel',
+        'elementium'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: mat + "_nugget_packing",
+                output: Ingredient.of("#forge:ingots/" + mat),
+                inputs: [Ingredient.of("#forge:nuggets/" + mat, 9), Ingredient.of('thermal:press_packing_3x3_die')],
+                energy: 400
+            },
+            {
+                id: mat + "_packing",
+                output: Ingredient.of("#forge:storage_blocks/" + mat),
+                inputs: [Ingredient.of("#forge:ingots/" + mat, 9), Ingredient.of('thermal:press_packing_3x3_die')],
+                energy: 400
+            },
+            {
+                id: mat + "_unpacking",
+                output: Item.of("#forge:ingots/" + mat).withCount(9),
+                inputs: [Ingredient.of("#forge:storage_blocks/" + mat), Ingredient.of('thermal:press_unpacking_die')],
+                energy: 400
+            },
+            {
+                id: mat + "_nugget_unpacking",
+                output: Item.of("#forge:nuggets/" + mat).withCount(9),
+                inputs: [Ingredient.of("#forge:ingots/" + mat), Ingredient.of('thermal:press_unpacking_die')],
+                energy: 400
+            }
+        )
+    });
     
     // Ingots -> Gears
     const IngotsToGears = [

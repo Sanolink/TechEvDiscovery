@@ -282,3 +282,8 @@ JEIEvents.addItems(event => {
         Item.of('immersiveengineering:blueprint', '{blueprint:"appliedComponents"}')
     ])
 })
+
+JEIEvents.information(event => {
+
+    event.addItem('ae2:elemental_processor_press', Component.translatable("gui.ae2.inWorldCraftingPresses"))
+})

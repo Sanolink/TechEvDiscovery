@@ -47,7 +47,31 @@ ServerEvents.recipes(event => {
                 U: 'forbidden_arcanus:mundabitur_dust',
                 S: 'forbidden_arcanus:sanity_meter'
             }
-        }
+        },
+        //ME Controller
+        {
+            id: "me_controller",
+            output: "ae2:controller",
+            shape: [
+                ' AYA ',
+                'ALECA',
+                'RNING',
+                'ACELA',
+                ' ABA ',
+            ],
+            key: {
+                Y: 'ae2:yellow_lumen_paint_ball', 
+                R: 'ae2:red_lumen_paint_ball',
+                G: 'ae2:green_lumen_paint_ball',
+                B: 'ae2:blue_lumen_paint_ball',
+                A: 'create_new_age:reactor_casing',
+                L: 'ae2:logic_processor',
+                E: 'ae2:elemental_processor',
+                C: 'ae2:calculation_processor',
+                N: 'ae2:engineering_processor',
+                I: 'botania:corporea_index'
+            }
+        },
     ]
 
     //General Mechanical Crafting Function

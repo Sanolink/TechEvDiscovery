@@ -138,6 +138,24 @@ ServerEvents.recipes(event => {
         )
     })
 
+    // Ingots -> Rods
+    const IngotsToRods = [
+        'iridium',
+        'enderium',
+        'lumium',
+        'signalum'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: "rod_" + mat,
+                output: Item.of("#forge:rods/" + mat, 2),
+                input: "#forge:ingots/" + mat,
+                mold: "immersiveengineering:mold_rod",
+                energy: 2400
+            }
+        )
+    })
+
     //General Metal Press Function
     recipes.forEach((recipe) => {
         event.recipes.immersiveengineering.metal_press(recipe.output, recipe.input, recipe.mold, recipe.energy).id("immersiveengineering:metalpress/" + recipe.id)

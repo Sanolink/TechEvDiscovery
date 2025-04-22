@@ -262,4 +262,5 @@ ServerEvents.tags('item', e => {
     e.add('forge:gears', 'botania:elementium_gear')
     e.add('forge:plates/elementium', 'botania:elementium_plate')
     e.add('forge:gears/elementium', 'botania:elementium_gear')
+    e.add("thermal:crafting/dies", 'thermal:press_rod_die')
 })

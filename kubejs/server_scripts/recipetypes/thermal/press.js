@@ -178,6 +178,55 @@ ServerEvents.recipes(event => {
         )
     });
 
+    // Ingots -> Rods
+    const IngotsToRods = [
+        'aluminum',
+        'iridium',
+        'lead',
+        'nickel',
+        'osmium',
+        'platinum',
+        'silver',
+        'tin',
+        'uranium',
+        'zinc',
+        'steel',
+        'invar',
+        'electrum',
+        'bronze',
+        'iron',
+        'gold',
+        'copper',
+        'enderium',
+        'lumium',
+        'signalum',
+        'constantan',
+        'brass'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: mat + "_ingot_to_rod",
+                output: Item.of("#forge:rods/" + mat, 2),
+                inputs: [Ingredient.of("#forge:ingots/" + mat), Ingredient.of('thermal:press_rod_die')],
+                energy: 2400
+            }
+        )
+    });
+
+    // Gems -> Rods
+    const GemsToRods = [
+        'diamond'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: mat + "_gem_to_rod",
+                output: Item.of("#forge:rods/" + mat, 2),
+                inputs: [Ingredient.of("#forge:gems/" + mat), Ingredient.of('thermal:press_rod_die')],
+                energy: 2400
+            }
+        )
+    });    
+
     // Gems -> Plates
     const GemsToPlates = [
         "diamond"

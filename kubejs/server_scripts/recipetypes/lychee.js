@@ -46,5 +46,18 @@ ServerEvents.recipes(event => {
                 }
             }
     }).id("lychee:item_exploding/cinder_flour")
+
+    event.custom({
+
+        "type": "lychee:lightning_channeling",
+        "item_in": [
+            {"item": "pneumaticcraft:ingot_iron_compressed"},
+            {"item": "alltheores:electrum_ingot"}
+        ],
+        "post": {
+                "type": "drop_item",
+                "item": "powah:steel_energized"
+            }
+    }).id("lychee:lightning_channeling/steel_energized")
 })
 

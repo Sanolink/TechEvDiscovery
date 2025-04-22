@@ -263,4 +263,6 @@ ServerEvents.tags('item', e => {
     e.add('forge:plates/elementium', 'botania:elementium_plate')
     e.add('forge:gears/elementium', 'botania:elementium_gear')
     e.add("thermal:crafting/dies", 'thermal:press_rod_die')
+    e.add("lychee:lightning_immune", "powah:steel_energized")
+    e.add("lychee:lightning_fire_immune", "powah:steel_energized")
 })

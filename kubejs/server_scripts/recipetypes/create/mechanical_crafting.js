@@ -72,6 +72,32 @@ ServerEvents.recipes(event => {
                 I: 'botania:corporea_index'
             }
         },
+        {
+            id: "redstone_servo",
+            output: "thermal:redstone_servo",
+            shape: [
+                'C C',
+                ' S ',
+                'C C',
+            ],
+            key: {
+                S: 'powah:steel_energized', 
+                C: 'thermal:signalum_coin',
+            }
+        },
+        {
+            id: "ender_servo",
+            output: "thermal:ender_servo",
+            shape: [
+                'C C',
+                ' S ',
+                'C C',
+            ],
+            key: {
+                S: 'thermal_extra:shellite_ingot', 
+                C: 'thermal:enderium_coin',
+            }
+        },
     ]
 
     //General Mechanical Crafting Function

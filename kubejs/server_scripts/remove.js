@@ -223,6 +223,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermal:fire_charge/bronze_ingot_4'})
     event.remove({ id: 'thermal:fire_charge/signalum_ingot_4'})
     event.remove({ id: 'thermalendergy:vibrating_core'})
+    event.remove({ id: 'thermal:redstone_servo'})
     event.remove({ id: 'thermal:rf_coil'})
     event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
     

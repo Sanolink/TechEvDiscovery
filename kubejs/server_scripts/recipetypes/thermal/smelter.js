@@ -66,7 +66,19 @@ ServerEvents.recipes(event => {
         {
             id:  "machine_frame",
             outputs: 'thermal:machine_frame',
-            inputs: ['2x thermal_extra:dragonsteel_glass', 'industrialforegoing:machine_frame_supreme', 'thermal:redstone_servo'],
+            inputs: ['industrialforegoing:machine_frame_supreme', '2x thermal_extra:dragonsteel_glass', 'thermal:redstone_servo'],
+            energy: 4800
+        },
+        {
+            id:  "rf_coil",
+            outputs: 'thermal:rf_coil',
+            inputs: ['alltheores:signalum_rod', 'alltheores:electrum_gear', 'alltheores:lumium_gear'],
+            energy: 4800
+        },
+        {
+            id:  "vibrating_core",
+            outputs: 'thermalendergy:vibrating_core',
+            inputs: ['deeperdarker:reinforced_echo_shard', 'alltheores:electrum_gear', 'alltheores:lumium_gear'],
             energy: 4800
         }
     ]

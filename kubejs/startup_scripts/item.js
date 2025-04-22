@@ -44,6 +44,7 @@ StartupEvents.registry('item', e => {
     e.create('tiab:flowing_time').displayName("Flowing Time")
 
     e.create('thermal:ender_servo').displayName("Ender Servo")
+    e.create('thermal:press_rod_die').displayName("Rodworking Die")
 
     e.create('hostilenetworks:blue_skies_prediction').displayName("Generalized Blue Skies Prediction")
     e.create('hostilenetworks:undergarden_prediction').displayName("Generalized Undergarden Prediction")

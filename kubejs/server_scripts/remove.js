@@ -179,6 +179,7 @@ ServerEvents.recipes(event => {
     
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})
+    event.remove({ id: 'pneumaticcraft:block_heat_properties/immersiveengineering/uranium'})
 
     //Powah 
     event.remove({ id: 'powah:crafting/dielectric_paste'})

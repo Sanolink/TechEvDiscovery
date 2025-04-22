@@ -102,7 +102,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:plates/steel', 'immersiveengineering:plate_steel')
     e.remove('forge:plates/tin', 'thermal:tin_plate')
     e.remove('forge:plates/uranium', 'immersiveengineering:plate_uranium')
-    e.remove('forge:plates/zinc', 'zinc_sheet', 'createaddition:zinc_sheet')
+    e.remove('forge:plates/zinc', 'createdeco:zinc_sheet', 'createaddition:zinc_sheet')
     
     //Gears
     e.remove('forge:gears/bronze', 'thermal:bronze_gear')

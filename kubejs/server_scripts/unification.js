@@ -388,4 +388,7 @@ ServerEvents.recipes(e => {
 
     //Remove OTHERS Repetitive Recipes
     e.remove({id: "createaddition:pressing/zinc_ingot"})
+    e.remove({id: "eidolon:bonelord_greaves"})
+    e.remove({id: "eidolon:bonelord_chestplate"})
+    e.remove({id: "eidolon:bonelord_helm"})
 })

@@ -61,7 +61,7 @@ Every element has been carefully crafted to deliver a smooth and rewarding exper
 
 ### 🔗 Useful Links 
 
-- 💬 [Join the Community Discord](https://discord.com/invite/62avqHae)
+- 💬 [Join the Community Discord](https://discord.gg/CdeTXFYXgK)
 - 🛠️ [GitHub Repository](https://github.com/SanoLink/TechEvDiscovery)
 - 📦 [CurseForge Page](https://www.curseforge.com/minecraft/modpacks/techevdiscovery)
 

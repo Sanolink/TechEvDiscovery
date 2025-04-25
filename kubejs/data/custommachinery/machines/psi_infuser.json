@@ -1,0 +1,195 @@
+{
+  "name": "PSI Infuser",
+  "appearance": {
+    "block": "custommachinery:machines/psi_infuser_idle",
+    "item": "custommachinery:machines/psi_infuser_idle",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone",
+    "light": 0,
+    "color": 16777215,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "custommachinery:machines/psi_infuser_running",
+      "ambient_sound": "thermal:block.machine_smelter",
+      "light": 10
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000,
+      "maxInput": 100000,
+      "maxOutput": 100000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "energy",
+      "mode": "input",
+      "variant": "custommachinery:energy"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "filter": "#psi:psimetal_assemblies",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "filter": "#psi:psimetal_assemblies",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input3",
+      "filter": "#psi:psimetal_assemblies",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "cad",
+      "mode": "input",
+      "filter": "#psi:psimetal_assemblies",
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/psi_infuser/gui.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:text",
+      "text": {"text": "PSI Infuser", "color": "#f7c5ff", "bold": true},
+      "height": 7,
+      "x": 122,
+      "y": 8
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 58,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": "custommachinery:textures/gui/psi_infuser/player_inventory.png",
+      "x": 10,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/psi_infuser/progress_empty.png",
+      "texture_filled": "custommachinery:textures/gui/psi_infuser/progress_full.png",
+      "x": 83,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_empty": "custommachinery:textures/gui/psi_infuser/energy_storage_empty.png",
+      "texture_filled": "custommachinery:textures/gui/psi_infuser/energy_storage_full.png",
+      "x": 38,
+      "y": 10
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/psi_infuser/energy_slot.png",
+      "id": "energy",
+      "x": 37,
+      "y": 61
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/psi_infuser/item_slot.png",
+      "id": "input1",
+      "x": 64,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/psi_infuser/item_slot.png",
+      "id": "input2",
+      "x": 82,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/psi_infuser/item_slot.png",
+      "id": "input3",
+      "x": 100,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/psi_infuser/cad_slot.png",
+      "id": "cad",
+      "x": 82,
+      "y": 61
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/psi_infuser/item_slot.png",
+      "id": "output",
+      "x": 136,
+      "y": 35
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/psi_infuser/progress_empty_jei.png",
+      "texture_filled": "custommachinery:textures/gui/psi_infuser/progress_full.png",
+      "x": 83,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_empty": "custommachinery:textures/gui/psi_infuser/energy_storage_empty.png",
+      "texture_filled": "custommachinery:textures/gui/psi_infuser/energy_storage_full.png",
+      "x": 40,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 64,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 82,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input3",
+      "x": 100,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "cad",
+      "x": 82,
+      "y": 61
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 136,
+      "y": 35
+    }
+  ],
+  "catalysts": []
+}

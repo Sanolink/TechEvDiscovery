@@ -20,9 +20,13 @@
 
 StartupEvents.registry('fluid', e => {
 
-    e.create("create:molten_lapis").thickTexture(0x345ec3).bucketColor(0x345ec3).noBlock().displayName("Molten Lapis")
-    e.create("create:molten_redstone").thickTexture(0xaa0f01).bucketColor(0xaa0f01).noBlock().displayName("Molten Redstone")
-    e.create("create:molten_source").thickTexture(0xcc66ff).bucketColor(0xcc66ff).noBlock().displayName("Molten Source")
+    e.create("create:molten_lapis")
+      .displayName("Molten Lapis")
+      .thickTexture(0x345ec3)
+      
+    e.create("create:molten_source")
+      .displayName("Molten Source")
+      .thickTexture(0xcc66ff)
 
     e.create('hostilenetworks:polymer_clay')
       .displayName('Liquid Polymer Clay')
@@ -33,4 +37,9 @@ StartupEvents.registry('fluid', e => {
       .displayName('Synthetic Mana Diamond')
       .stillTexture('botania:fluid/synthetic_mana_diamond_still')
       .flowingTexture('botania:fluid/synthetic_mana_diamond_flow')
+
+    e.create('psi:destabilized_psimetal')
+      .displayName('Destabilized Psimetal')
+      .stillTexture('psi:fluid/destabilized_psimetal_still')
+      .flowingTexture('psi:fluid/destabilized_psimetal_flow')
   })

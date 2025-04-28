@@ -27,6 +27,28 @@ ServerEvents.recipes(event => {
         id : 'molten_plastic',
         output : Fluid.of("pneumaticcraft:plastic", 500),
         ingredients : "pneumaticcraft:plastic"
+    },
+    //Molten Lapis
+    {
+        id : 'molten_lapis',
+        output : Fluid.of("create:molten_lapis", 100),
+        ingredients : 'minecraft:lapis_lazuli'
+    },
+    {
+        id : 'molten_lapis_from_block',
+        output : Fluid.of("create:molten_lapis", 900),
+        ingredients : 'minecraft:lapis_block'
+    },
+    //Molten Source
+    {
+        id : 'molten_source',
+        output : Fluid.of("create:molten_source", 200),
+        ingredients : 'ars_nouveau:source_gem'
+    },
+    {
+        id : 'molten_source_from_block',
+        output : Fluid.of("create:molten_source", 800),
+        ingredients : 'ars_nouveau:source_gem_block'
     }
 ]
 

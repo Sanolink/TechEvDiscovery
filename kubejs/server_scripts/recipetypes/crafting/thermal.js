@@ -31,9 +31,21 @@ ServerEvents.recipes(event => {
              D: "alltheores:diamond_rod"
          }
      },
+     //Induction Smelter
+     {
+        output: 'thermal:machine_smelter',
+        pattern: [" R ", "IMI", "PHP"],
+        key: {
+            R: 'industrialforegoing:resourceful_furnace',
+            I: 'immersiveengineering:toolupgrade_powerpack_induction',
+            M: 'thermal:machine_frame',
+            P: 'alltheores:platinum_gear',
+            H: 'create_sa:heat_engine'
+        }
+    },
  ]
  
- recipes.forEach((recipe) => {
-     event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.output)
- })
+    recipes.forEach((recipe) => {
+        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.output)
+    })
  })

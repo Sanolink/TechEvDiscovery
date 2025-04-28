@@ -31,6 +31,17 @@ ServerEvents.recipes(event => {
         fluid : Fluid.of('thermal:ender', 1000),
         output : 'thermal:resonant_machine_frame',
         time : 300,
+    },
+    {
+        id : 'psi_infuser',
+        input : [
+            'psi:ivory_psimetal_block', 'thermal:machine_smelter', 'psi:ivory_psimetal_block',
+            'create:shadow_steel', 'create:shadow_steel',
+            'psi:ebony_psimetal_block', 'thermalendergy:melodium_gear', 'psi:ebony_psimetal_block'
+        ],
+        fluid : Fluid.of('psi:destabilized_psimetal', 1000),
+        output : Item.of('custommachinery:custom_machine_item').withNBT({"machine": "custommachinery:psi_infuser"}),
+        time : 300,
     }
 ]
 

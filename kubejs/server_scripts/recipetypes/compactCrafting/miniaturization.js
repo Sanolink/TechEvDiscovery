@@ -211,7 +211,23 @@ ServerEvents.recipes(event => {
             'C': 'compactmachines:wall',
             'B': 'minecraft:netherite_block',
             'O': 'compactmachines:machine_giant'
-        }, "machine_maximum")
+        }, "machine_maximum"),
+
+        //Mana Pool
+        miniaturization('botania:spark', 1, 'botania:mana_pool', 1, [
+            [
+                ['L', 'L', 'L', 'L', 'L'],
+                ['L', 'S', 'S', 'S', 'L'],
+                ['L', 'S', 'D', 'S', 'L'],
+                ['L', 'S', 'S', 'S', 'L'],
+                ['L', 'L', 'L', 'L', 'L']
+            ]
+        ],
+        {
+            'L': 'botania:livingrock',
+            'S': 'botania:livingrock_slab',
+            'D': 'botania:diluted_pool'
+        }, "mana_pool")
     ]
 
     function miniaturization(catalyst, incount, output, outcount, shape, key, id) {

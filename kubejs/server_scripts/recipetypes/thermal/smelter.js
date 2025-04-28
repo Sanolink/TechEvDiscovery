@@ -80,6 +80,12 @@ ServerEvents.recipes(event => {
             outputs: 'thermalendergy:vibrating_core',
             inputs: ['deeperdarker:reinforced_echo_shard', 'alltheores:electrum_gear', 'alltheores:lumium_gear'],
             energy: 4800
+        },
+        {
+            id:  "ultimate_trash_can",
+            outputs: 'trashcans:ultimate_trash_can',
+            inputs: ['trashcans:item_trash_can', 'trashcans:liquid_trash_can', 'trashcans:energy_trash_can'],
+            energy: 4800
         }
     ]
     

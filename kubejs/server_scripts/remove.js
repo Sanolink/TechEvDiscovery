@@ -225,11 +225,15 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermalendergy:vibrating_core'})
     event.remove({ id: 'thermal:redstone_servo'})
     event.remove({ id: 'thermal:rf_coil'})
+    event.remove({ id: 'thermal:machine_smelter'})
     event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
     
     //Time In A Bottle
     event.remove({ id: 'tiab:time_in_a_bottle'})
 
+    //Trash Cans
+    event.remove({ id: 'trashcans:ultimate_trash_can'})
+    
     //Twilight Forest
     event.remove({ output: 'twilightforest:uncrafting_table'})
     

@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
             id: 'molten_redstone',
             type: 'superheated',
             input: Item.of('minecraft:redstone', 8),
-            output: Fluid.of("create:molten_redstone", 200)
+            output: Fluid.of("thermal:redstone", 200)
         },
         {
             id: 'molten_lapis',

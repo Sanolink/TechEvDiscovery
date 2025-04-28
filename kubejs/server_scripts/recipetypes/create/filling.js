@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         {
             id: 'molten_redstone',
             output: 'create:rose_quartz',
-            input: [Fluid.of("create:molten_redstone", 200), 'minecraft:quartz']
+            input: [Fluid.of("thermal:redstone", 200), 'minecraft:quartz']
         },
         {
             id: 'molten_lapis',

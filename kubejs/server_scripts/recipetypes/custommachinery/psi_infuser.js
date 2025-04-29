@@ -21,7 +21,6 @@ ServerEvents.recipes(event => {
 
     //Recipes
    psi_infuser('psidust', 'minecraft:redstone', 'psi:psidust')
-   psi_infuser('gold_to_psimetal_assembly_upgrade', 'psi:cad_assembly_gold', 'psi:cad_assembly_psimetal')
    psi_infuser('psigem', 'minecraft:diamond', 'psi:psigem')
    psi_infuser('ebony_substance', 'minecraft:coal', 'psi:ebony_substance')
    psi_infuser('psimetal', 'minecraft:gold_ingot', 'psi:psimetal')

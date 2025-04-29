@@ -63,6 +63,20 @@ ServerEvents.recipes(event => {
                 {type: 'deploying', item:"createdeco:cast_iron_sheet"},
                 {type: 'cutting'}
             ]
+        },
+        //Psimetal CAD Assembly
+        {
+            id:"cad_assembly_psimetal",
+            input:"#psi:basic_assemblies",
+            transition:"psi:incomplete_cad_assembly_psimetal",
+            output:["psi:cad_assembly_psimetal"],
+            loops: 1,
+            sequence: [
+                {type: 'cutting'},
+                {type: 'deploying', item:"psi:spell_bullet"},
+                {type: 'pressing'},
+                {type: 'filling',  fluid:Fluid.of("psi:destabilized_psimetal", 400)},
+            ]
         }
     ]
 

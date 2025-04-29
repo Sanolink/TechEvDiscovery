@@ -185,6 +185,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'powah:crafting/dielectric_paste'})
     event.remove({ id: 'powah:crafting/dielectric_paste_2'})
     
+    //Psi 
+    event.remove({ id: 'psi:gold_to_psimetal_assembly_upgrade'})
+    event.remove({ id: 'psi:cad_assembly_psimetal'})
+
     //Quark
     event.remove({ id: 'quark:tweaks/smelting/bone_meal_utility' })
 

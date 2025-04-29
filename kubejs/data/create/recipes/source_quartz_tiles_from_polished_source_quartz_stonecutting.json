@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "create:polished_source_quartz"
-  },
-  "result": "create:source_quartz_tiles"
-}

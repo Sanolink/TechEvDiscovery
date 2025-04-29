@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create:block/psi_quartz_tiles"
+    }
+  }
+}

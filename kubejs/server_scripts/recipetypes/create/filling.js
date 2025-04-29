@@ -35,6 +35,11 @@ ServerEvents.recipes(event => {
             id: 'molten_source',
             output: 'create:source_quartz',
             input: [Fluid.of("create:molten_source", 200), 'minecraft:quartz']
+        },
+        {
+            id: 'molten_psi',
+            output: 'create:psi_quartz',
+            input: [Fluid.of("psi:destabilized_psimetal", 200), 'minecraft:quartz']
         }
     ]
     //General Filling Function

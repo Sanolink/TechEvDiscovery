@@ -49,6 +49,17 @@ ServerEvents.recipes(event => {
         id : 'molten_source_from_block',
         output : Fluid.of("create:molten_source", 800),
         ingredients : 'ars_nouveau:source_gem_block'
+    },
+    //Destabilized Psimetal
+    {
+        id : 'destabilized_psimetal',
+        output : Fluid.of("psi:destabilized_psimetal", 100),
+        ingredients : 'psi:psimetal'
+    },
+    {
+        id : 'destabilized_psimetal_from_block',
+        output : Fluid.of("psi:destabilized_psimetal", 900),
+        ingredients : 'psi:psimetal_block'
     }
 ]
 

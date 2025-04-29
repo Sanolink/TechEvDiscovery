@@ -266,4 +266,5 @@ ServerEvents.tags('item', e => {
     e.add('lychee:lightning_immune', 'powah:steel_energized')
     e.add('lychee:lightning_fire_immune', 'powah:steel_energized')
     e.add('psi:psimetal_assemblies', ['psi:cad_assembly_psimetal', 'psi:cad_assembly_ivory_psimetal', 'psi:cad_assembly_ebony_psimetal'])
+    e.add('psi:basic_assemblies', ['psi:cad_assembly_iron', 'psi:cad_assembly_gold'])
 })

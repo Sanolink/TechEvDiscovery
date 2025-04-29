@@ -27,6 +27,21 @@ ServerEvents.recipes(event => {
         id : 'empty_prediction',
         output : Item.of('hostilenetworks:empty_prediction', 4),
         ingredients : ['thermal:chiller_ball_cast', Fluid.of('hostilenetworks:polymer_clay', 250)]
+    },
+    {
+        id : 'lapis_block',
+        output : 'minecraft:lapis_block',
+        ingredients : Fluid.of('create:molten_lapis', 900)
+    },
+    {
+        id : 'source_gem_block',
+        output : 'ars_nouveau:source_gem_block',
+        ingredients : Fluid.of('create:molten_source', 800)
+    },
+    {
+        id : 'psimetal_block',
+        output : 'psi:psimetal_block',
+        ingredients : Fluid.of('psi:destabilized_psimetal', 900)
     }
 ]
 

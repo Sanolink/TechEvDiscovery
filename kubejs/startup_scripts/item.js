@@ -38,6 +38,9 @@ StartupEvents.registry('item', e => {
     e.create('create:source_quartz').displayName("Source Quartz")
     e.create('create:polished_source_quartz').displayName("Polished Source Quartz")
     e.create('create:source_tube').displayName("Source Tube")
+    e.create('create:psi_quartz').displayName("Psi Quartz")
+    e.create('create:polished_psi_quartz').displayName("Polished Psi Quartz")
+    e.create('create:psi_tube').displayName("Psi Tube")
     e.create('create:netherite_sandpaper', 'create:sandpaper').maxDamage(2048).displayName("Netherite Sandpaper")
 
     e.create('tiab:compressed_iron_bottle').displayName("Compressed Bottle")
@@ -56,4 +59,6 @@ StartupEvents.registry('item', e => {
 
     e.create('botania:elementium_plate').displayName("Elementium Plate")
     e.create('botania:elementium_gear').displayName("Elementium Gear")
+
+    e.create('psi:incomplete_cad_assembly_psimetal', 'create:sequenced_assembly').displayName("Incomplete Psimetal CAD Assembly")
   })

@@ -66,6 +66,12 @@ ServerEvents.recipes(event => {
             type: 'superheated',
             input: Item.of('ars_nouveau:source_gem', 4),
             output: Fluid.of("create:molten_source", 200)
+        },
+        {
+            id: 'destabilized_psimetal',
+            type: 'superheated',
+            input: Item.of('psi:psimetal', 2),
+            output: Fluid.of("psi:destabilized_psimetal", 200)
         }
     ]
     //General Mixing Function

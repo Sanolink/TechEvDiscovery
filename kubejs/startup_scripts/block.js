@@ -25,7 +25,10 @@ StartupEvents.registry('block', e => {
     e.create('create:source_quartz_block').displayName("Block Of Source Quartz").soundType("deepslate").property(BlockProperties.AXIS).placementState(event => event.set(BlockProperties.AXIS, event.clickedFace.axis)).hardness(1.5).tagBlock("mineable/pickaxe").requiresTool(true)
     e.create('create:source_quartz_tiles').displayName("Source Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     e.create('create:small_source_quartz_tiles').displayName("Small Source Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
-    
+    e.create('create:psi_quartz_block').displayName("Block Of Psi Quartz").soundType("deepslate").property(BlockProperties.AXIS).placementState(event => event.set(BlockProperties.AXIS, event.clickedFace.axis)).hardness(1.5).tagBlock("mineable/pickaxe").requiresTool(true)
+    e.create('create:psi_quartz_tiles').displayName("Psi Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
+    e.create('create:small_psi_quartz_tiles').displayName("Small Psi Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
+
     e.create('blue_skies:everstone').displayName("Everstone").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
 
     e.create('botania:floral_catalyst').displayName("Floral Catalyst").soundType("stone").hardness(2).tagBlock("mineable/pickaxe").requiresTool(true)

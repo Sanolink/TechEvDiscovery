@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "create:polished_psi_quartz"
+    },
+    "N": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "L",
+    "L",
+    "N"
+  ],
+  "result": {
+    "item": "create:psi_tube"
+  }
+}

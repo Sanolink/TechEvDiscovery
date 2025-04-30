@@ -67,7 +67,7 @@ ServerEvents.recipes(event => {
         //Psimetal CAD Assembly
         {
             id:"cad_assembly_psimetal",
-            input:"#psi:basic_assemblies",
+            input:"psi:cad_assembly_gold",
             transition:"psi:incomplete_cad_assembly_psimetal",
             output:["psi:cad_assembly_psimetal"],
             loops: 1,
@@ -76,6 +76,20 @@ ServerEvents.recipes(event => {
                 {type: 'deploying', item:"psi:spell_bullet"},
                 {type: 'pressing'},
                 {type: 'filling',  fluid:Fluid.of("psi:destabilized_psimetal", 400)},
+            ]
+        },
+        //Iron CAD Assembly
+        {
+            id:"cad_assembly_iron",
+            input:"reliquary:hammer_assembly",
+            transition:"reliquary:hammer_assembly",
+            output:["psi:cad_assembly_iron"],
+            loops: 1,
+            sequence: [
+                {type: 'deploying', item:"reliquary:grip_assembly"},
+                {type: 'pressing'},
+                {type: 'deploying', item:"reliquary:barrel_assembly"},
+                {type: 'pressing'},
             ]
         }
     ]

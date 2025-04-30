@@ -5,7 +5,7 @@
     "block": "botania:abjuration_catalyst"
   },
   "input": {
-    "item": "minecraft:iron_ingot"
+    "item": "spirit:soul_steel_ingot"
   },
   "mana": 3000,
   "output": {

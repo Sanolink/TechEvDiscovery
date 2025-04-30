@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
             }
         )
     }
-    //General Smithing Function
+    //General Stonecutting Function
     recipes.forEach(recipe => {
         event.stonecutting(recipe.output, recipe.input).id("minecraft:stonecutting/" + recipe.id)
     })

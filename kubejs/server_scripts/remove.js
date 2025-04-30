@@ -188,6 +188,9 @@ ServerEvents.recipes(event => {
     //Psi 
     event.remove({ id: 'psi:gold_to_psimetal_assembly_upgrade'})
     event.remove({ id: 'psi:cad_assembly_psimetal'})
+    event.remove({ id: 'psi:cad_assembly_iron'})
+    event.remove({ id: 'psi:cad_assembly_gold'})
+
 
     //Quark
     event.remove({ id: 'quark:tweaks/smelting/bone_meal_utility' })

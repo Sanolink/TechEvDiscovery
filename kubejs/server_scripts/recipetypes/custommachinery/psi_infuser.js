@@ -20,10 +20,10 @@
 ServerEvents.recipes(event => {
 
     //Recipes
-   psi_infuser('psidust', 'minecraft:redstone', 'psi:psidust')
-   psi_infuser('psigem', 'minecraft:diamond', 'psi:psigem')
+   psi_infuser('psidust', 'botania:pixie_dust', 'psi:psidust')
+   psi_infuser('psigem', 'botania:dragonstone', 'psi:psigem')
    psi_infuser('ebony_substance', 'minecraft:coal', 'psi:ebony_substance')
-   psi_infuser('psimetal', 'minecraft:gold_ingot', 'psi:psimetal')
+   psi_infuser('psimetal', 'botania:elementium_ingot', 'psi:psimetal')
    psi_infuser('guide_book', 'minecraft:book', Item.of('patchouli:guide_book', '{"patchouli:book":"psi:encyclopaedia_psionica"}'))
    psi_infuser('ivory_substance', 'minecraft:quartz', 'psi:ivory_substance')
 

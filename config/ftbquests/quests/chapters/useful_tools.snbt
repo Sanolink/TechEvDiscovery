@@ -487,7 +487,7 @@
 			subtitle: "Make a resistant Container"
 			tasks: [{
 				id: "79C2CB349D7C7753"
-				item: "kubejs:compressed_iron_bottle"
+				item: "tiab:compressed_iron_bottle"
 				type: "item"
 			}]
 			title: "&f&lCompressed Bottle"
@@ -508,7 +508,7 @@
 			subtitle: "Compress the Time"
 			tasks: [{
 				id: "7F248D7FD7B5A989"
-				item: "kubejs:flowing_time"
+				item: "tiab:flowing_time"
 				type: "item"
 			}]
 			title: "&e&lFlowing Time"

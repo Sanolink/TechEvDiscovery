@@ -63,11 +63,12 @@
 				item: "modularrouters:modular_router"
 				type: "item"
 			}]
+			title: "&lModular Routers"
 			x: -12.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0CC8BF52C4CEC37D"]
+			dependencies: ["080A33E18074B4CC"]
 			id: "7C35451D11D93987"
 			shape: "rsquare"
 			tasks: [{
@@ -174,6 +175,7 @@
 					type: "item"
 				}
 			]
+			title: "&lHostile Neural Networks"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -201,6 +203,7 @@
 				item: "hostilenetworks:overworld_prediction"
 				type: "item"
 			}]
+			title: "Generalized &l&aOverworld &rPrediction"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -215,6 +218,7 @@
 				item: "hostilenetworks:nether_prediction"
 				type: "item"
 			}]
+			title: "Generalized &l&6Nether &rPrediction"
 			x: -4.5d
 			y: 2.0d
 		}
@@ -229,6 +233,7 @@
 				item: "hostilenetworks:end_prediction"
 				type: "item"
 			}]
+			title: "Generalized &l&dEnder &rPrediction"
 			x: 4.5d
 			y: 2.0d
 		}
@@ -243,6 +248,7 @@
 				item: "hostilenetworks:twilight_prediction"
 				type: "item"
 			}]
+			title: "Generalized &l&5Twilight &rPrediction"
 			x: -4.5d
 			y: -2.0d
 		}
@@ -257,6 +263,7 @@
 				item: "hostilenetworks:blue_skies_prediction"
 				type: "item"
 			}]
+			title: "Generalized &l&3Blue Skies &rPrediction"
 			x: 4.5d
 			y: -2.0d
 		}
@@ -271,6 +278,7 @@
 				item: "hostilenetworks:undergarden_prediction"
 				type: "item"
 			}]
+			title: "Generalized &l&2Undergarden &rPrediction"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -3245,7 +3253,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["0CC8BF52C4CEC37D"]
+			dependencies: ["080A33E18074B4CC"]
 			id: "2D9FFC889C0AE423"
 			shape: "rsquare"
 			tasks: [{
@@ -3257,7 +3265,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0CC8BF52C4CEC37D"]
+			dependencies: ["080A33E18074B4CC"]
 			id: "2D6CD746CE207893"
 			shape: "rsquare"
 			tasks: [{
@@ -3269,20 +3277,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["03844453AD98001B"]
-			id: "0CC8BF52C4CEC37D"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "2BE485EC373EABA2"
-				item: "fluxnetworks:flux_dust"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0CC8BF52C4CEC37D"]
+			dependencies: ["080A33E18074B4CC"]
 			id: "00D78F84124329F1"
 			shape: "rsquare"
 			tasks: [{
@@ -3327,6 +3322,7 @@
 				item: "compactmachines:machine_tiny"
 				type: "item"
 			}]
+			title: "&lCompact Machines"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -5952,6 +5948,20 @@
 			]
 			x: 0.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["03844453AD98001B"]
+			id: "080A33E18074B4CC"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4FA7A71D8D9FEBEB"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			title: "&lFlux Networks"
+			x: 12.5d
+			y: 0.0d
 		}
 	]
 	title: " &l&d♦ &rCompact Addons"

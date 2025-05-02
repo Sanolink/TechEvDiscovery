@@ -764,7 +764,7 @@
 		}
 		{
 			dependencies: ["0F8C4C01C5E75A8B"]
-			icon: "kubejs:techevium"
+			icon: "techev_additions:techevium"
 			id: "201A9DEECD831DD0"
 			rewards: [
 				{

@@ -143,8 +143,8 @@
 			}
 			id: "650779D3343EAEB0"
 			rewards: [{
-				id: "1C786CA1A2A2B6B5"
-				item: "kubejs:techevium"
+				id: "09D82618D874570E"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -168,7 +168,7 @@
 			id: "7960E8764050AA1E"
 			rewards: [{
 				id: "435A608F4962BC56"
-				item: "kubejs:techevium"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -191,8 +191,8 @@
 			icon: "create:mechanical_arm"
 			id: "7E3D43C44C52D9E9"
 			rewards: [{
-				id: "5A362997B215D44D"
-				item: "kubejs:techevium"
+				id: "34EF00F36754E023"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -219,8 +219,8 @@
 			}
 			id: "0A43A2A87CBE5983"
 			rewards: [{
-				id: "2EC7EBE9D9C654FC"
-				item: "kubejs:techevium"
+				id: "2408FD0CB3E08FA0"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -242,8 +242,8 @@
 			icon: "immersiveengineering:diesel_generator"
 			id: "755B4D0F8227F379"
 			rewards: [{
-				id: "11F27574357DD855"
-				item: "kubejs:techevium"
+				id: "026BF528DDFDBBC7"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -265,8 +265,8 @@
 			icon: "storagenetwork:request"
 			id: "277A5C4810D2671E"
 			rewards: [{
-				id: "46B98CEAA1600D4E"
-				item: "kubejs:techevium"
+				id: "4D8887188D4A6F1E"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -288,8 +288,8 @@
 			icon: "create_confectionery:gingerbread_man"
 			id: "1C4850214C2051E7"
 			rewards: [{
-				id: "55C49CFC365B4A1F"
-				item: "kubejs:techevium"
+				id: "3E0CEBE84D906C9C"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -311,8 +311,8 @@
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "0E03A6DF5661AD92"
 			rewards: [{
-				id: "33A4C58081489A55"
-				item: "kubejs:techevium"
+				id: "6C3E1E2F92930B7A"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -334,8 +334,8 @@
 			icon: "mob_grinding_utils:saw"
 			id: "1AA7F8E25CA2ADB7"
 			rewards: [{
-				id: "53EE9835CA5E5E3F"
-				item: "kubejs:techevium"
+				id: "1D317A19B8791F3A"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -357,8 +357,8 @@
 			icon: "ars_nouveau:archmage_spell_book"
 			id: "4FDD7B306D39E759"
 			rewards: [{
-				id: "37043B6B07998691"
-				item: "kubejs:techevium"
+				id: "1E12967BAD1CF488"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -380,8 +380,8 @@
 			icon: "eidolon:unholy_effigy"
 			id: "75E9D92DA2303E2F"
 			rewards: [{
-				id: "38095EE6E2272929"
-				item: "kubejs:techevium"
+				id: "5F734ADA40170A75"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -404,8 +404,8 @@
 			icon: "pneumaticcraft:printed_circuit_board"
 			id: "5BE12E09C779B5DE"
 			rewards: [{
-				id: "6C7CF33E94B9F1D8"
-				item: "kubejs:techevium"
+				id: "019769E001646A27"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -427,8 +427,8 @@
 			icon: "naturesaura:eye_improved"
 			id: "3408F9A7CC95DC52"
 			rewards: [{
-				id: "32EE9BAD8AB2C6B2"
-				item: "kubejs:techevium"
+				id: "29628A0EC20587B4"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -450,8 +450,8 @@
 			icon: "blue_skies:alchemy_table"
 			id: "2DF9E53AFCE91BF6"
 			rewards: [{
-				id: "4FDD0A417299343D"
-				item: "kubejs:techevium"
+				id: "4AE3E19DBE00D7B8"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -473,8 +473,8 @@
 			icon: "industrialforegoing:mycelial_reactor"
 			id: "07D58D719A1ABC37"
 			rewards: [{
-				id: "43BB324B9FA3F4B1"
-				item: "kubejs:techevium"
+				id: "2D6FE768DC0B2450"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -496,8 +496,8 @@
 			icon: "occultism:storage_controller"
 			id: "6CCA6E2A5E8A8A7D"
 			rewards: [{
-				id: "3309523F7792F96F"
-				item: "kubejs:techevium"
+				id: "1EBEF95B0B034EC7"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -523,8 +523,8 @@
 			}
 			id: "7EAC7C10DF276AB9"
 			rewards: [{
-				id: "36B1CBF39A0AB7C3"
-				item: "kubejs:techevium"
+				id: "0EBA7222A1E84676"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -550,8 +550,8 @@
 			}
 			id: "69C5CE8627813144"
 			rewards: [{
-				id: "0B3BFE0F388B9F9B"
-				item: "kubejs:techevium"
+				id: "791F30B75BB6CFD4"
+				item: "techev_additions:techevium"
 				type: "item"
 			}]
 			shape: "gear"
@@ -578,12 +578,16 @@
 				}
 			}
 			id: "16F99C9B9CB76C93"
+			rewards: [{
+				id: "6A5C1C7893F58528"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"The Undergarden\"."
 			tasks: [{
 				id: "4CC67CF601E4A051"
-				title: "a"
 				type: "checkmark"
 			}]
 			title: "&lThe Undergarden"
@@ -597,12 +601,16 @@
 			]
 			icon: "mythicbotany:mjoellnir"
 			id: "0A64807D71D67987"
+			rewards: [{
+				id: "182C0B681B348185"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Botania\"."
 			tasks: [{
 				id: "5C8170346E17A2A4"
-				title: "a"
 				type: "checkmark"
 			}]
 			title: "&lBotania"
@@ -616,12 +624,16 @@
 			]
 			icon: "thermalendergy:endergy_upgrade_3"
 			id: "346D3E8CFD2E96A4"
+			rewards: [{
+				id: "6C87CAB55CB66E90"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Thermal Series\"."
 			tasks: [{
 				id: "5A11AEA75EA9482A"
-				title: "a"
 				type: "checkmark"
 			}]
 			title: "&lThermal Series"
@@ -629,14 +641,22 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["63894331FBB6B6DA"]
+			dependencies: [
+				"63894331FBB6B6DA"
+				"6EB6FCF011F980A4"
+			]
+			icon: "aeinfinitybooster:dimension_card"
 			id: "4F77389499DF53BF"
+			rewards: [{
+				id: "52D07C991FA2FB96"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Applied Energistics 2\"."
 			tasks: [{
 				id: "2310E395C799B6B0"
-				title: "a"
 				type: "checkmark"
 			}]
 			title: "&lApplied Energistics 2"
@@ -650,12 +670,16 @@
 			]
 			icon: "psi:psigem"
 			id: "365D97E08264FEA4"
+			rewards: [{
+				id: "4263023A29C9883F"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Psi\"."
 			tasks: [{
 				id: "46AD5AC28AD8FACB"
-				title: "a"
 				type: "checkmark"
 			}]
 			title: "&lPsi"
@@ -669,12 +693,16 @@
 			]
 			icon: "powah:crystal_nitro"
 			id: "5B34FD4F6957423D"
+			rewards: [{
+				id: "36D8DF3FCEB11104"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Powah\"."
 			tasks: [{
 				id: "5781201F98D1E049"
-				title: "a"
 				type: "checkmark"
 			}]
 			title: "&lPowah"
@@ -688,12 +716,16 @@
 			]
 			icon: "hostilenetworks:loot_fabricator"
 			id: "18F25119E45A6D46"
+			rewards: [{
+				id: "7433C92F56B3E80C"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Finish the Main Quest of \"Compact Addons\"."
 			tasks: [{
 				id: "5692AFDEABD3460A"
-				title: "a"
 				type: "checkmark"
 			}]
 			title: "&lCompact Addons"

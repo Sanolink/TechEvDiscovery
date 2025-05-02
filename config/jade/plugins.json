@@ -83,6 +83,9 @@
   "lootr": {
     "info": true
   },
+  "custommachinery": {
+    "machine_component_provider": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,

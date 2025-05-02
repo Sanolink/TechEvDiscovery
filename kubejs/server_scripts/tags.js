@@ -269,3 +269,9 @@ ServerEvents.tags('item', e => {
     e.add('psi:psimetal_assemblies', ['psi:cad_assembly_psimetal', 'psi:cad_assembly_ivory_psimetal', 'psi:cad_assembly_ebony_psimetal'])
     e.add('industrialforegoing:sludge_containors', ['industrialforegoing:sludge_bucket', 'industrialforegoing:sludge_bottle'])
 })
+
+ServerEvents.tags("fluid", e => {
+
+    /**********************ADD****************************/
+    e.add('ae2:resonant_fluix', 'ae2:resonant_fluix')
+})

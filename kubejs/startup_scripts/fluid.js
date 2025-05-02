@@ -47,4 +47,9 @@ StartupEvents.registry('fluid', e => {
       .displayName('Liquid Soul')
       .stillTexture('forbidden_arcanus:fluid/liquid_soul_still')
       .flowingTexture('forbidden_arcanus:fluid/liquid_soul_flow')
+
+    e.create('ae2:resonant_fluix')
+      .displayName('Resonant Fluix')
+      .stillTexture('ae2:fluid/resonant_fluix_still')
+      .flowingTexture('ae2:fluid/resonant_fluix_flow')
   })

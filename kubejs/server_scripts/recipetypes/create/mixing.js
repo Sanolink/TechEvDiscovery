@@ -34,6 +34,12 @@ ServerEvents.recipes(event => {
             input: Fluid.of("forbidden_arcanus:liquid_soul", 1000),
             output: 'forbidden_arcanus:soul'
         },
+        {
+            id: 'resonant_fluix',
+            type: 'basic',
+            input: [Fluid.of("create_confectionery:ruby_chocolate", 250), Fluid.of("thermal:ender", 250)],
+            output: Fluid.of('ae2:resonant_fluix', 500)
+        },
         //Heated Recipes
         {
             id: 'pewter_blend',

@@ -31,6 +31,14 @@ ServerEvents.recipes(event => {
             ],
             pressure: 4.0,
             results: [{ item: 'tiab:flowing_time', count: 1 }]
+        },
+        {
+            id: 'compact_machine_wall',
+            inputs: [
+                { item: 'undergarden:shiverstone_bricks', count: 4 },
+            ],
+            pressure: 2.0,
+            results: [{ item: 'compactmachines:wall', count: 4 }]
         }
     ]
 

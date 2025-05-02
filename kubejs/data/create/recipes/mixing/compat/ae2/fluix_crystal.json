@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:dusts/signalum"
+    },
+    {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "amount": 250,
+      "fluid": "ae2:resonant_fluix",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "ae2:fluix_crystal"
+    }
+  ]
+}

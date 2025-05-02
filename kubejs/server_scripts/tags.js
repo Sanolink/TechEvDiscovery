@@ -213,6 +213,7 @@ ServerEvents.tags('item', e => {
 
     /*********************OTHERS**************************/
     e.remove('pneumaticcraft:upgrade_components', 'minecraft:lapis_lazuli')
+    e.remove('forbidden_arcanus:clibano/creates_soul_fire', 'forbidden_arcanus:soul')
 
     /********************DISABLE**************************/
     const DISABLED_ITEMS = [
@@ -266,4 +267,5 @@ ServerEvents.tags('item', e => {
     e.add('lychee:lightning_immune', 'powah:steel_energized')
     e.add('lychee:lightning_fire_immune', 'powah:steel_energized')
     e.add('psi:psimetal_assemblies', ['psi:cad_assembly_psimetal', 'psi:cad_assembly_ivory_psimetal', 'psi:cad_assembly_ebony_psimetal'])
+    e.add('industrialforegoing:sludge_containors', ['industrialforegoing:sludge_bucket', 'industrialforegoing:sludge_bottle'])
 })

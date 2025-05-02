@@ -18,38 +18,22 @@
 */
 
 ServerEvents.recipes(event => {
-
+    
     //Recipes
     const recipes = [
+        //Corrupt Soul
         {
-            id: "obsidian_ingot",
-            cooking_time: 100,
-            experience: 0.35,
-            ingredient: {item: "forbidden_arcanus:obsidian_with_iron"},
-            result: "forbidden_arcanus:obsidian_ingot"
+            output: 'forbidden_arcanus:corrupt_soul',
+            pattern: ["CIC", "FSF", "CIC"],
+            key: {
+                C: 'forbidden_arcanus:corrupti_dust',
+                I: 'spirit:soul_steel_ingot',
+                F: 'blue_skies:soul_fragment',
+                S: 'forbidden_arcanus:soul'
+            }
         },
-        {
-            id: "soul_steel",
-            cooking_time: 150,
-            experience: 1.0,
-            fire_type: "soul_fire",
-            ingredient: {item: "alltheores:steel_ingot"},
-            result: "spirit:soul_steel_ingot"
-        },
-        {
-            id: "soul_steel_block",
-            cooking_time: 150,
-            experience: 1.0,
-            fire_type: "soul_fire",
-            ingredient: {item: "alltheores:steel_block"},
-            result: "spirit:soul_steel_block"
-        }
-        
     ]
-
-    //General Clibano Combustion Function
     recipes.forEach((recipe) => {
-        recipe.type = "forbidden_arcanus:clibano_combustion",
-        event.custom(recipe).id("forbidden_arcanus:clibano_combustion/" + recipe.id)
+        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.output)
     })
 })

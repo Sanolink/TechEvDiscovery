@@ -76,20 +76,6 @@ ServerEvents.recipes(event => {
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})
 
-    //Compact Machines
-    event.remove({ id: 'compactmachines:machine_tiny'})
-    event.remove({ id: 'compactmachines:machine_small'})
-    event.remove({ id: 'compactmachines:machine_normal'})
-    event.remove({ id: 'compactmachines:machine_large'})
-    event.remove({ id: 'compactmachines:machine_giant'})
-    event.remove({ id: 'compactmachines:machine_maximum'})
-
-    //Construction Wand
-    event.remove({ output: 'constructionwand:stone_wand', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'constructionwand:iron_wand', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'constructionwand:diamond_wand', type: 'minecraft:crafting_shaped' })
-    event.remove({ output: 'constructionwand:infinity_wand', type: 'minecraft:crafting_shaped' })
-
     //CoinsJE
     event.remove({ id: 'coinsje:blasting/copper_ingot_to_copper_coin' })
     event.remove({ id: 'coinsje:blasting/iron_ingot_to_iron_coin' })
@@ -97,6 +83,21 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'coinsje:furnace/copper_ingot_to_copper_coin' })
     event.remove({ id: 'coinsje:furnace/iron_ingot_to_iron_coin' })
     event.remove({ id: 'coinsje:furnace/gold_ingot_to_gold_coin' })
+    
+    //Compact Machines
+    event.remove({ id: 'compactmachines:machine_tiny'})
+    event.remove({ id: 'compactmachines:machine_small'})
+    event.remove({ id: 'compactmachines:machine_normal'})
+    event.remove({ id: 'compactmachines:machine_large'})
+    event.remove({ id: 'compactmachines:machine_giant'})
+    event.remove({ id: 'compactmachines:machine_maximum'})
+    event.remove({ id: 'compactmachines:wall'})
+
+    //Construction Wand
+    event.remove({ output: 'constructionwand:stone_wand', type: 'minecraft:crafting_shaped' })
+    event.remove({ output: 'constructionwand:iron_wand', type: 'minecraft:crafting_shaped' })
+    event.remove({ output: 'constructionwand:diamond_wand', type: 'minecraft:crafting_shaped' })
+    event.remove({ output: 'constructionwand:infinity_wand', type: 'minecraft:crafting_shaped' })
 
     //Create
     event.remove({ id: 'create:crafting/materials/rose_quartz'})

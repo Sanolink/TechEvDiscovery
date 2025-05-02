@@ -42,4 +42,9 @@ StartupEvents.registry('fluid', e => {
       .displayName('Destabilized Psimetal')
       .stillTexture('psi:fluid/destabilized_psimetal_still')
       .flowingTexture('psi:fluid/destabilized_psimetal_flow')
+
+    e.create('forbidden_arcanus:liquid_soul')
+      .displayName('Liquid Soul')
+      .stillTexture('forbidden_arcanus:fluid/liquid_soul_still')
+      .flowingTexture('forbidden_arcanus:fluid/liquid_soul_flow')
   })

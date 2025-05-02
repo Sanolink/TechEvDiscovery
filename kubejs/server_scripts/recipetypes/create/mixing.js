@@ -28,6 +28,12 @@ ServerEvents.recipes(event => {
             input: ['minecraft:andesite', '#forge:nuggets/pewter'],
             output: 'create:raw_andesite_alloy'
         },
+        {
+            id: 'soul',
+            type: 'basic',
+            input: Fluid.of("forbidden_arcanus:liquid_soul", 1000),
+            output: 'forbidden_arcanus:soul'
+        },
         //Heated Recipes
         {
             id: 'pewter_blend',

@@ -65,6 +65,11 @@
   ],
   "gui": [
     {
+      "type": "custommachinery:size",
+      "width": 182,
+      "height": 166
+    },
+    {
       "type": "custommachinery:texture",
       "texture": "custommachinery:textures/gui/psi_infuser/gui.png",
       "x": 0,

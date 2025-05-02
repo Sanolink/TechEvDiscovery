@@ -1,0 +1,22 @@
+{
+  "type": "ae2:transform",
+  "circumstance": {
+    "type": "fluid",
+    "tag": "ae2:resonant_fluix"
+  },
+  "ingredients": [
+    {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    {
+      "item": "alltheores:signalum_dust"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "ae2:fluix_crystal"
+  }
+}

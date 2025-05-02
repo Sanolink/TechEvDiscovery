@@ -81,7 +81,7 @@
 		}
 		{
 			dependencies: ["6F64D9A367C073CD"]
-			icon: "kubejs:techevium"
+			icon: "techev_additions:techevium"
 			id: "6BF612431ADBCFF4"
 			shape: "octagon"
 			size: 2.0d

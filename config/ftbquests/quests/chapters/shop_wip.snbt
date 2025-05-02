@@ -691,7 +691,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["4628EDDBF7E3E2BE"]
+			dependencies: [
+				"4628EDDBF7E3E2BE"
+				"6BF612431ADBCFF4"
+			]
 			icon: "thermal:lock"
 			id: "6C5C1C50C94FF937"
 			shape: "gear"

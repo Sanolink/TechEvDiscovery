@@ -529,6 +529,11 @@
 					item: "ae2:engineering_processor"
 					type: "item"
 				}
+				{
+					id: "6546F236B3AFB886"
+					item: "ae2:elemental_processor"
+					type: "item"
+				}
 			]
 			x: 1.5d
 			y: 5.0d
@@ -580,7 +585,7 @@
 		{
 			dependencies: [
 				"6C95882DBA4D92AC"
-				"59182A9CC91E01CB"
+				"235935EADA688867"
 			]
 			id: "09AE6A387AFF07CF"
 			shape: "square"

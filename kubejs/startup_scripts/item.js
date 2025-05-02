@@ -61,4 +61,6 @@ StartupEvents.registry('item', e => {
     e.create('botania:elementium_gear').displayName("Elementium Gear")
 
     e.create('psi:incomplete_cad_assembly_psimetal', 'create:sequenced_assembly').displayName("Incomplete Psimetal CAD Assembly")
+
+    e.create('industrialforegoing:sludge_bottle').displayName("Sludge Bottle")
   })

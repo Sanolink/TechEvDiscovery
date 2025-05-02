@@ -20,23 +20,16 @@
 ServerEvents.recipes(event => {
     
     //Recipes
-    const recipes = [
-        
-    //Blank Data Model
-    {
-        id : 'blank_data_model',
-        output : 'hostilenetworks:blank_data_model',
-        ingredients : ['hostilenetworks:inert_data_model', Fluid.of('industrialforegoing:ether_gas', 100)]
-    },
-    {
-        id : 'sludge_bottle',
-        output : 'industrialforegoing:sludge_bottle',
-        ingredients : ['minecraft:glass_bottle', Fluid.of("industrialforegoing:sludge", 250)]
-    }
-]
-
-    //General Bottler Function
-    recipes.forEach((recipe) => {
-        event.recipes.thermal.bottler(recipe.output, recipe.ingredients).id("thermal:machines/bottler/bottler_" + recipe.id)
+    const shapeless = [
+        // Sludge Bottle
+        {
+            id: 'industrialforegoing:sludge_bottle',
+            output: '4x industrialforegoing:sludge_bottle',
+            input: ['industrialforegoing:sludge_bucket', '4x minecraft:glass_bottle']
+        }
+    ]
+ 
+    shapeless.forEach((recipe) => {
+        event.shapeless(recipe.output, recipe.input).id(recipe.id)
     })
-})
+ })

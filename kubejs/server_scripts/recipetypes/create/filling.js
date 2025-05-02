@@ -40,6 +40,11 @@ ServerEvents.recipes(event => {
             id: 'molten_psi',
             output: 'create:psi_quartz',
             input: [Fluid.of("psi:destabilized_psimetal", 200), 'minecraft:quartz']
+        },
+        {
+            id: 'fill_sludge_bottle',
+            output: 'industrialforegoing:sludge_bottle',
+            input: [Fluid.of("industrialforegoing:sludge", 250), 'minecraft:glass_bottle']
         }
     ]
     //General Filling Function

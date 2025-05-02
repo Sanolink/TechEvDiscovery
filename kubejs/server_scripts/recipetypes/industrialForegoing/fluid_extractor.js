@@ -18,24 +18,21 @@
 */
 
 ServerEvents.recipes(event => {
-
+    
     //Recipes
     const recipes = [
+        // Liquid Soul
         {
-            id: "gravel",
-            input: "minecraft:gravel",
-            output: "minecraft:tuff"
-        },
-        {
-            id: "soulless_sand",
-            input: "forbidden_arcanus:soulless_sand",
-            output: "minecraft:soul_sand"
+            id: "soul_sand",
+            input: 'minecraft:soul_sand',
+            broken: 'forbidden_arcanus:soulless_sand',
+            breakChance: 0.01,
+            output: Fluid.of("forbidden_arcanus:liquid_soul", 4)
         }
-    ]
-
-    //General Haunting Function
-    recipes.forEach(recipe => {
-        event.recipes.create.haunting(recipe.output, recipe.input).id("create:haunting/" + recipe.id)
+ ]
+ 
+    //General Fluid Extractor Function
+    recipes.forEach((recipe) => {
+        event.recipes.industrialforegoing.fluid_extractor(recipe.input, recipe.broken, recipe.breakChance, recipe.output).id("industrialforegoing:fluid_extractor/" + recipe.id)
     })
-
-})
+ })

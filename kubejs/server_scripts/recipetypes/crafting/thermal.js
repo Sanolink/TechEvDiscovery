@@ -19,6 +19,11 @@
 
 ServerEvents.recipes(event => {
     
+    //Replace 
+    event.replaceInput({id: 'thermal:augments/area_radius_augment'}, 'thermal:redstone_servo', 'thermal:ender_servo')
+    event.replaceInput({id: 'thermal:augments/machine_output_augment'}, 'thermal:redstone_servo', 'thermal:ender_servo')
+    event.replaceInput({id: 'thermal:augments/machine_catalyst_augment'}, 'thermal:redstone_servo', 'thermal:ender_servo')
+    
     //Recipes
     const recipes = [
      

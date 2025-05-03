@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:dusts/lumium"
+    },
+    "G": {
+      "tag": "forge:gems/psigem"
+    },
+    "C": {
+      "item": "psi:cad_core_conductive"
+    }
+  },
+  "pattern": [
+    " G ",
+    "DCD",
+    " G "
+  ],
+  "result": {
+    "item": "psi:cad_core_radiative"
+  }
+}

@@ -100,6 +100,14 @@ ServerEvents.recipes(event => {
             input: Item.of("#forge:gems/quartz", 4),
             mold: "immersiveengineering:mold_gear",
             energy: 2400
+        },
+        //Spell Bullet
+        {
+            id: "spell_bullet",
+            output: "psi:spell_bullet",
+            input: "psi:psidust",
+            mold: "immersiveengineering:mold_bullet_casing",
+            energy: 2400
         }
     ]
 

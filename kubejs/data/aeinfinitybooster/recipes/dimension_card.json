@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "occultism:dimensional_matrix"
+    },
+    "N": {
+      "item": "forbidden_arcanus:dark_nether_star"
+    },
+    "R": {
+      "item": "aeinfinitybooster:infinity_card"
+    }
+  },
+  "pattern": [
+    "RNR",
+    "NEN",
+    "RNR"
+  ],
+  "result": {
+    "item": "aeinfinitybooster:dimension_card"
+  }
+}

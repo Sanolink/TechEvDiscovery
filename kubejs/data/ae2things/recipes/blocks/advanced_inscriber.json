@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["shs", "pip", "shs"],
+  "key": {
+    "s": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    "h": {
+      "item": "pneumaticcraft:omnidirectional_hopper"
+    },
+    "p": {
+      "item": "ae2:elemental_processor"
+    },
+    "i": {
+      "item": "ae2:inscriber"
+    }
+  },
+  "result": {
+    "item": "ae2things:advanced_inscriber"
+  }
+}

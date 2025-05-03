@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "tag": "forge:sheetmetals/iron"
+    },
+    "c": {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    "m": {
+      "item": "thermal:machine_press"
+    },
+    "s": {
+      "item": "immersiveengineering:wirecoil_structure_steel"
+    }
+  },
+  "pattern": [
+    "ici",
+    "smi",
+    "ici"
+  ],
+  "result": {
+    "item": "ae2:inscriber"
+  }
+}

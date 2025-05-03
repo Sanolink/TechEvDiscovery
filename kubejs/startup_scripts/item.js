@@ -63,4 +63,7 @@ StartupEvents.registry('item', e => {
     e.create('psi:incomplete_cad_assembly_psimetal', 'create:sequenced_assembly').displayName("Incomplete Psimetal CAD Assembly")
 
     e.create('industrialforegoing:sludge_bottle').displayName("Sludge Bottle")
+
+    e.create('minecraft:diamond_nugget').displayName("Diamond Nugget")
+
   })

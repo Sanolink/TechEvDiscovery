@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
                 { item: "minecraft:gold_nugget", chance: 0.1 },
                 { item: "alltheores:copper_nugget", chance: 0.1 },
                 { item: "alltheores:zinc_nugget", chance: 0.1 },
-                { item: "diamond_nuggets:diamond_nugget", chance: 0.0225 }
+                { item: "minecraft:diamond_nugget", chance: 0.0225 }
             ]
         },
         //Crushing Polished Blackstone

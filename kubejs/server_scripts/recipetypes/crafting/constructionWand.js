@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
             pattern: [" DD", "DND", "DD "],
             key: {
                 D: "minecraft:diamond",
-                N: "diamond_nuggets:diamond_nugget"
+                N: "minecraft:diamond_nugget"
             }
         },
         //Infinity Core

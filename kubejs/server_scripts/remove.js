@@ -191,6 +191,13 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'psi:cad_assembly_psimetal'})
     event.remove({ id: 'psi:cad_assembly_iron'})
     event.remove({ id: 'psi:cad_assembly_gold'})
+    event.remove({ id: 'psi:spell_bullet_loopcast'})
+    event.remove({ id: 'psi:spell_bullet_circle'})
+    event.remove({ id: 'psi:spell_bullet_grenade'})
+    event.remove({ id: 'psi:spell_bullet_charge'})
+    event.remove({ id: 'psi:spell_bullet_projectile'})
+    event.remove({ id: 'psi:spell_bullet_mine'})
+    event.remove({ id: 'psi:spell_bullet_basic'})
 
 
     //Quark

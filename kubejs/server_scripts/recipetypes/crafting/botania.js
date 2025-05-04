@@ -42,6 +42,16 @@ ServerEvents.recipes(event => {
                 M: "botania:mana_diamond",
                 R: "ars_nouveau:ritual_sanctuary"
             }
+        },
+        //Dark Elven Gateway Core
+        {
+            output: "techev_additions:svartalfheim_portal",
+            pattern: ["LGL", "LIL", "LGL"],
+            key: {
+                L: "#botania:dreamwood_logs",
+                G: "botania:elementium_gear",
+                I: "botania:gaia_ingot"
+            }
         }
     ]
 

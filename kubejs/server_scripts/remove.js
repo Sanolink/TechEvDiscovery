@@ -72,6 +72,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mythicbotany:gjallar_horn_empty_mana_infusion'})
     event.remove({ id: 'mythicbotany:kvasir_mead'})
     event.remove({ id: 'botania:petal_apothecary/pure_daisy'})
+    event.remove({ id: 'botania:mana_pool'})
 
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})

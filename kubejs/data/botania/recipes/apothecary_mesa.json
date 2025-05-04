@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "botania:apothecary_livingrock"
+    },
+    {
+      "item": "botania:metamorphic_mesa_cobblestone"
+    }
+  ],
+  "result": {
+    "item": "botania:apothecary_mesa"
+  }
+}

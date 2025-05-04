@@ -190,8 +190,8 @@
 			image: "immersiveengineering:item/tool_manual"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: -9.0d
+			x: 1.5d
+			y: -8.0d
 		}
 	]
 	order_index: 2
@@ -1171,14 +1171,14 @@
 			rewards: [{
 				count: 4
 				id: "74DB955C99FA0455"
-				item: "kubejs:raw_cuperzinate"
+				item: "techev_additions:raw_cuperzinate"
 				random_bonus: 12
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "2ACE77004445AFBF"
-				item: "kubejs:raw_cuperzinate"
+				item: "techev_additions:raw_cuperzinate"
 				type: "item"
 			}]
 			title: "&6&lRaw Cuperzinate"
@@ -1191,14 +1191,14 @@
 			rewards: [{
 				count: 4
 				id: "1CA3D9AFA7940CF1"
-				item: "kubejs:raw_auricargentum"
+				item: "techev_additions:raw_auricargentum"
 				random_bonus: 12
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "499608ABEF7F7821"
-				item: "kubejs:raw_auricargentum"
+				item: "techev_additions:raw_auricargentum"
 				type: "item"
 			}]
 			title: "&e&lRaw Auricargentum"
@@ -1211,14 +1211,14 @@
 			rewards: [{
 				count: 4
 				id: "4A3343D5E6329AB9"
-				item: "kubejs:raw_uratinumal"
+				item: "techev_additions:raw_uratinumal"
 				random_bonus: 12
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "4B146F2D521537AE"
-				item: "kubejs:raw_uratinumal"
+				item: "techev_additions:raw_uratinumal"
 				type: "item"
 			}]
 			title: "&2&lRaw Uratinumal"
@@ -1231,14 +1231,14 @@
 			rewards: [{
 				count: 4
 				id: "471A62F22D40FAF5"
-				item: "kubejs:raw_leadosnite"
+				item: "techev_additions:raw_leadosnite"
 				random_bonus: 12
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "6A4D88BA54CAF0E7"
-				item: "kubejs:raw_leadosnite"
+				item: "techev_additions:raw_leadosnite"
 				type: "item"
 			}]
 			title: "&9&lRaw Leadosnite"
@@ -1494,5 +1494,6 @@
 			y: -8.0d
 		}
 	]
-	title: "Immersive Engineering"
+	subtitle: ["Electric Dreams Forged in Steel"]
+	title: " &l&a♦ &rImmersive Engineering"
 }

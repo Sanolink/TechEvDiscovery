@@ -10,85 +10,13 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 35.0d
-			hover: [ ]
-			image: "simplylight:block/black"
-			rotation: 0.0d
-			width: 0.5d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 4.0d
+			height: 6.0d
 			hover: [ ]
 			image: "techev:textures/misc/quests/shop/market.png"
 			rotation: 0.0d
-			width: 10.736842105263158d
-			x: -10.0d
-			y: -8.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 4.0d
-			hover: [ ]
-			image: "techev:textures/misc/quests/shop/casino.png"
-			rotation: 0.0d
-			width: 10.736842105263158d
-			x: 10.0d
-			y: -8.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 35.0d
-			hover: [ ]
-			image: "simplylight:block/black"
-			rotation: 0.0d
-			width: 0.5d
-			x: 20.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 35.0d
-			hover: [ ]
-			image: "simplylight:block/black"
-			rotation: 0.0d
-			width: 0.5d
-			x: -20.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "simplylight:block/black"
-			rotation: 0.0d
-			width: 47.19d
+			width: 16.105263157894736d
 			x: 0.0d
-			y: -15.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "simplylight:block/black"
-			rotation: 0.0d
-			width: 47.19d
-			x: 0.0d
-			y: 15.0d
+			y: -8.0d
 		}
 		{
 			click: ""
@@ -96,11 +24,461 @@
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "pneumaticcraft:item/wip"
-			rotation: 0.0d
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: -90.0d
 			width: 5.0d
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: 90.0d
+			width: 5.0d
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: ["&l&e>> &fAge 1 : Shop"]
+			image: "minecraft:item/spyglass"
+			rotation: 0.0d
+			width: 3.5d
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: -90.0d
+			width: 5.0d
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: 90.0d
+			width: 5.0d
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: ["&l&a>> &fAge 2 : Shop"]
+			image: "create_things_and_misc:items/magnifying_glass"
+			rotation: 0.0d
+			width: 3.5d
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/dark_oak/blockframedside.png"
+			rotation: 45.0d
+			width: 6.0d
 			x: 0.0d
-			y: -4.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:block/witherite_block"
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:block/witherite_block"
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:block/witherite_block"
+			rotation: 45.0d
+			width: 1.0d
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cataclysm:block/witherite_block"
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "cataclysm:item/flame_eye"
+			rotation: 45.0d
+			width: 2.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: -90.0d
+			width: 5.0d
+			x: -14.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: 90.0d
+			width: 5.0d
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: ["&l&b>> &fAge 3 : Shop"]
+			image: "forbidden_arcanus:item/sanity_meter"
+			rotation: 0.0d
+			width: 3.5d
+			x: -16.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "sushigocrafting:block/roller"
+			rotation: 90.0d
+			width: 3.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:item/lootcrate/top_outline"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: 90.0d
+			width: 5.0d
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: -90.0d
+			width: 5.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: -90.0d
+			width: 5.0d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: -90.0d
+			width: 5.0d
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: 90.0d
+			width: 5.0d
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "structurize:textures/blocks/timberframe/acacia/blockgateframedside.png"
+			rotation: 90.0d
+			width: 5.0d
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: ["&l&d>> &fAge 4 : Shop"]
+			image: "cataclysm:item/desert_eye"
+			rotation: 0.0d
+			width: 3.5d
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftblibrary:icons/money"
+			rotation: 30.0d
+			width: 3.0d
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftblibrary:icons/money_bag"
+			rotation: -30.0d
+			width: 3.0d
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "sushigocrafting:item/book"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "sushigocrafting:item/cleaver_knife"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "sushigocrafting:item/california/salmon_cucumber_california"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "sushigocrafting:item/onigiri/onigiri"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: ["&lCurrently in Work"]
+			image: "ftblibrary:icons/security_private"
+			rotation: 0.0d
+			width: 3.5d
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: ["&lCurrently in Work"]
+			image: "ftblibrary:icons/security_private"
+			rotation: 0.0d
+			width: 3.5d
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: 9.0d
 		}
 	]
 	order_index: 1
@@ -126,46 +504,7 @@
 			}]
 			title: "Welcome to the Shop !"
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4628EDDBF7E3E2BE"]
-			icon: {
-				Count: 1b
-				id: "relics:space_dissector"
-				tag: {
-					Damage: 0
-					abilities: {
-						dissection: {
-							points: 0
-							stats: {
-								distance: 18.26193d
-								time: 8.95379d
-							}
-						}
-					}
-				}
-			}
-			id: "444C6D8F5F843EF0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "25217D5991CB8552"
-				table_id: 5638232027785617486L
-				team_reward: true
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				consume_items: true
-				id: "139CBDBA237B80CF"
-				item: "coinsje:gold_coin_pile"
-				type: "item"
-			}]
-			title: "&lChoice Relic"
-			x: -11.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -204,32 +543,8 @@
 				type: "item"
 			}]
 			title: "&lRandom Relic"
-			x: 11.0d
-			y: -1.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4628EDDBF7E3E2BE"]
-			icon: "artifacts:mimic_spawn_egg"
-			id: "22C095AEAFA51B4F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D472B5C535B0E47"
-				table_id: 4337151241683039439L
-				team_reward: true
-				type: "choice"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				consume_items: true
-				id: "33ED1F90372D3233"
-				item: "coinsje:gold_coin_pile"
-				type: "item"
-			}]
-			title: "&lChoice Artifact"
-			x: -9.0d
-			y: -1.0d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -253,8 +568,8 @@
 				type: "item"
 			}]
 			title: "&lRandom Artifact"
-			x: 9.0d
-			y: -1.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4628EDDBF7E3E2BE"]
@@ -266,7 +581,7 @@
 				table_id: 7601529717495355563L
 				type: "choice"
 			}]
-			shape: "octagon"
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				consume_items: true
@@ -276,8 +591,8 @@
 				type: "item"
 			}]
 			title: "&lSushi"
-			x: -10.0d
-			y: -4.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
@@ -287,10 +602,11 @@
 			rewards: [{
 				id: "6EA36F3941EFF176"
 				item: "cataclysm:meat_shredder"
+				team_reward: true
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 2.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -299,8 +615,8 @@
 				type: "item"
 			}]
 			title: "&l&6Meat Shredder"
-			x: -10.0d
-			y: 5.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -310,9 +626,10 @@
 			rewards: [{
 				id: "2DAE1ECF62683761"
 				item: "cataclysm:the_incinerator"
+				team_reward: true
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				consume_items: true
@@ -321,8 +638,8 @@
 				type: "item"
 			}]
 			title: "&l&dThe Incinerator"
-			x: -11.0d
-			y: 3.0d
+			x: -1.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -332,9 +649,10 @@
 			rewards: [{
 				id: "6BB63ED7F6D761A2"
 				item: "cataclysm:bulwark_of_the_flame"
+				team_reward: true
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				consume_items: true
@@ -343,10 +661,105 @@
 				type: "item"
 			}]
 			title: "&l&dBulwark Of the Flame"
-			x: -9.0d
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
+			icon: "cataclysm:blazing_grips"
+			id: "0B0D3E6959BC7725"
+			rewards: [{
+				id: "04BFDCF2E2ED4500"
+				item: "cataclysm:blazing_grips"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "3DD46F67F571BBCC"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "&bBlazing Grips"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4628EDDBF7E3E2BE"
+				"509461C4B7CFE7C8"
+			]
+			icon: "thermal:lock"
+			id: "023EABAB1B83F81E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "48AD4F617CF9832A"
+				title: "Unlock Age 1 Shop"
+				type: "checkmark"
+			}]
+			title: "Finish Age 1 to Unlock"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4628EDDBF7E3E2BE"
+				"6010F0FDE1BB66D2"
+			]
+			icon: "thermal:lock"
+			id: "0234A3F922C0AD08"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "02BFC667F4E5C00D"
+				title: "Unlock Age 2 Shop"
+				type: "checkmark"
+			}]
+			title: "Finish Age 2 to Unlock"
+			x: -8.0d
 			y: 3.0d
 		}
+		{
+			dependencies: [
+				"4628EDDBF7E3E2BE"
+				"63894331FBB6B6DA"
+			]
+			icon: "thermal:lock"
+			id: "6537B6C1FCFFD891"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2BCF6B5580D79F88"
+				title: "Unlock Age 3 Shop"
+				type: "checkmark"
+			}]
+			title: "Finish Age 3 to Unlock"
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4628EDDBF7E3E2BE"
+				"6BF612431ADBCFF4"
+			]
+			icon: "thermal:lock"
+			id: "6C5C1C50C94FF937"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3C6985448FB71AE5"
+				title: "Unlock Age 4 Shop"
+				type: "checkmark"
+			}]
+			title: "Finish Age 4 to Unlock"
+			x: 8.0d
+			y: -3.0d
+		}
 	]
-	subtitle: ["&l/ &c[Casino]"]
-	title: "&l&a[SHOP] &r&7&lWIP"
+	title: "&l&a[Market]"
 }

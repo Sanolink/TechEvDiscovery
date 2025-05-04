@@ -9,13 +9,7 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
-	icon: {
-		Count: 1b
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "kubejs:item/techevium"
-		}
-	}
+	icon: "techev_additions:techevium"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

@@ -1,0 +1,53 @@
+{
+  "type": "occultism:ritual",
+  "ritual_type": "occultism:craft",
+  "activation_item": {
+    "item": "minecraft:recovery_compass"
+  },
+  "pentacle_id": "occultism:craft_marid",
+  "duration": 240,
+  "ritual_dummy": {
+    "item": "occultism:ritual_dummy/custom_ritual"
+  },
+  "ingredients": [
+    {
+      "item": "create_new_age:overcharged_diamond"
+    },
+    {
+      "item": "undergarden:depthrock_pebble"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "undergarden:depthrock_pebble"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "result": {
+    "item": "undergarden:catalyst"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:abjuration_catalyst"
+  },
+  "input": {
+    "item": "minecraft:quartz"
+  },
+  "mana": 250,
+  "output": {
+    "item": "botania:quartz_mana"
+  }
+}

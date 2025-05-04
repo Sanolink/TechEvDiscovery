@@ -1,0 +1,9 @@
+{
+	"x": -61,
+	"y": 81,
+	"width": 125,
+	"height": 20,
+	"langKey": "packmenu.supporter_button",
+	"action": "OPEN_GUI",
+	"data": "SUPPORTERS"
+}

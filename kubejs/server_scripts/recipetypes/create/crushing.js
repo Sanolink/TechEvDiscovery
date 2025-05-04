@@ -1,14 +1,24 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.0         (_____)
+
+*/
 
 ServerEvents.recipes(event => {
 
-    //Remove
-    event.remove({ input: 'minecraft:tuff', type: 'create:crushing' })
-    event.remove({ input: 'minecraft:diamond', type: 'create:crushing' })
-    event.remove({ input: '#forge:ingots/steel', type: 'create:crushing' })
-    event.remove({ id: 'create:compat/byg/crushing/lignite_ore'})
-    
     //Recipes 
     const recipes = [
         //Crushing Tuff
@@ -21,7 +31,7 @@ ServerEvents.recipes(event => {
                 { item: "minecraft:gold_nugget", chance: 0.1 },
                 { item: "alltheores:copper_nugget", chance: 0.1 },
                 { item: "alltheores:zinc_nugget", chance: 0.1 },
-                { item: "diamond_nuggets:diamond_nugget", chance: 0.0225 }
+                { item: "minecraft:diamond_nugget", chance: 0.0225 }
             ]
         },
         //Crushing Polished Blackstone
@@ -34,6 +44,12 @@ ServerEvents.recipes(event => {
                 { item: "minecraft:gold_nugget", chance: 0.02 },
                 { item: "createdeco:netherite_nugget", chance: 0.01 }
             ]
+        },
+        //Crushing Brass Ingot
+        {
+            id : "brass_ingot",
+            input: "alltheores:brass_ingot",
+            output: [ { item: "alltheores:brass_dust", chance: 1 } ]
         }
     ]
 

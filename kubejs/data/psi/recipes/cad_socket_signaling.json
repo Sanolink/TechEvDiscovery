@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:dusts/signalum"
+    },
+    "I": {
+      "tag": "forge:ingots/psimetal"
+    },
+    "S": {
+      "item": "psi:cad_socket_basic"
+    }
+  },
+  "pattern": [
+    "SI ",
+    "ID "
+  ],
+  "result": {
+    "item": "psi:cad_socket_signaling"
+  }
+}

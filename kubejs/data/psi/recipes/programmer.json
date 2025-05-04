@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "psi:psidust"
+    },
+    "Q": {
+      "item": "botania:dark_quartz"
+    },
+    "M": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    }
+  },
+  "pattern": [
+    "QDQ",
+    "QMQ",
+    " Q "
+  ],
+  "result": {
+    "item": "psi:programmer"
+  }
+}

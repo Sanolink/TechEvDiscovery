@@ -1,0 +1,45 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "immersiveengineering:item/blueprint"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "blueprint_type": 1.0
+        },
+        "model": "immersiveengineering:item/blueprint_bannerpatterns"
+      },
+      {
+        "predicate": {
+          "blueprint_type": 2.0
+        },
+        "model": "immersiveengineering:item/blueprint_bullet"
+      },
+      {
+        "predicate": {
+          "blueprint_type": 3.0
+        },
+        "model": "immersiveengineering:item/blueprint_specialbullet"
+      },
+      {
+        "predicate": {
+          "blueprint_type": 4.0
+        },
+        "model": "immersiveengineering:item/blueprint_components"
+      },
+      {
+        "predicate": {
+          "blueprint_type": 5.0
+        },
+        "model": "immersiveengineering:item/blueprint_molds"
+      },
+      {
+        "predicate": {
+          "blueprint_type": 6.0
+        },
+        "model": "immersiveengineering:item/blueprint_appliedcomponents"
+      }
+    ]
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "forge:gems/psigem"
+    },
+    "B": {
+      "item": "psi:cad_battery_extended"
+    }
+  },
+  "pattern": [
+    "G",
+    "B",
+    "G"
+  ],
+  "result": {
+    "item": "psi:cad_battery_ultradense"
+  }
+}

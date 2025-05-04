@@ -637,6 +637,7 @@
 					type: "item"
 				}
 			]
+			title: "Draco Arcanus Tools"
 			x: 3.0d
 			y: -7.0d
 		}
@@ -729,6 +730,7 @@
 					type: "item"
 				}
 			]
+			title: "Draco Arcanus Stuff"
 			x: 3.0d
 			y: -6.0d
 		}
@@ -1145,5 +1147,6 @@
 			y: -4.5d
 		}
 	]
-	title: "Forbidden And Arcanus"
+	subtitle: ["Arcane Power, Forbidden and Unstoppable"]
+	title: " &l&b♦ &rForbidden And Arcanus"
 }

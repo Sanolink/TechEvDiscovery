@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "M": {
+      "item": "thermal:machine_frame"
+    }
+  },
+  "pattern": [
+    "IBI",
+    "BMB",
+    "IBI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "modularrouters:modular_router"
+  }
+}

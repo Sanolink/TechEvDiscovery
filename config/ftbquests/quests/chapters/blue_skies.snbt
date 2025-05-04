@@ -416,6 +416,13 @@
 		}
 		{
 			dependencies: ["694AEE12EE8E7AB9"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:charoite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2F7C4F3ED7656B93"
 			rewards: [{
 				count: 2
@@ -470,11 +477,19 @@
 					type: "item"
 				}
 			]
+			title: "Charoite Stuff"
 			x: 1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6126436A3DC0ACE0"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:aquite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1C755D2740540057"
 			rewards: [{
 				count: 2
@@ -529,11 +544,19 @@
 					type: "item"
 				}
 			]
+			title: "Aquite Stuff"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["694AEE12EE8E7AB9"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:charoite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "00154F96019C553B"
 			rewards: [{
 				count: 2
@@ -599,11 +622,19 @@
 					type: "item"
 				}
 			]
+			title: "Charoite Tools"
 			x: 2.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6126436A3DC0ACE0"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:aquite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "32F7CB45868299DC"
 			rewards: [{
 				count: 2
@@ -669,11 +700,19 @@
 					type: "item"
 				}
 			]
+			title: "Aquite Tools"
 			x: -2.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["776D30902F4073AE"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:diopside_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "307969C2FEDD589C"
 			rewards: [{
 				count: 2
@@ -728,11 +767,19 @@
 					type: "item"
 				}
 			]
+			title: "Diopside Stuff"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["776D30902F4073AE"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:diopside_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0F2570DAAE445C26"
 			rewards: [{
 				count: 2
@@ -798,11 +845,19 @@
 					type: "item"
 				}
 			]
+			title: "Diopside Tools"
 			x: -3.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["26BB8115AA8DE500"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:pyrope_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6DDD2B5EE64E9712"
 			rewards: [{
 				count: 2
@@ -868,11 +923,19 @@
 					type: "item"
 				}
 			]
+			title: "Pyrope Tools"
 			x: 3.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["26BB8115AA8DE500"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:pyrope_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "22E692CE02DBD4F5"
 			rewards: [{
 				count: 2
@@ -927,11 +990,19 @@
 					type: "item"
 				}
 			]
+			title: "Pyrope Stuff"
 			x: 3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4885512E41C5FF3A"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:horizonite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "38CD352563AD2B48"
 			rewards: [{
 				id: "10E59A7B112FA686"
@@ -985,11 +1056,19 @@
 					type: "item"
 				}
 			]
+			title: "Horizonite Stuff"
 			x: 3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4885512E41C5FF3A"]
+			icon: {
+				Count: 1b
+				id: "blue_skies:horizonite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4089E6DC50920F5C"
 			rewards: [{
 				id: "615DAAAA67D8E6DE"
@@ -1054,6 +1133,7 @@
 					type: "item"
 				}
 			]
+			title: "Horizonite Tools"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -1387,5 +1467,6 @@
 			y: -2.0d
 		}
 	]
+	subtitle: ["Realms of Light and Shadow"]
 	title: " &l&b♦ &rBlue Skies"
 }

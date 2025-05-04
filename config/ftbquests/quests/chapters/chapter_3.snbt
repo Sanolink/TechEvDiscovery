@@ -196,6 +196,7 @@
 				item: "alltheores:steel_ingot"
 				type: "item"
 			}]
+			title: "&l&7Steel"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -215,6 +216,7 @@
 				item: "naturesaura:gold_fiber"
 				type: "item"
 			}]
+			title: "&l&eBrilliant Fibers"
 			x: -1.0d
 			y: 1.5d
 		}

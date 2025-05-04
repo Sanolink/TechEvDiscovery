@@ -11,6 +11,12 @@
 		{
 			dependencies: ["2B96DE186AA9784A"]
 			id: "603F4766C0CE2F38"
+			rewards: [{
+				id: "19D9E699AA8B8F58"
+				item: "ae2things:disk_housing"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "71D992ECEE1EC7B2"
@@ -23,6 +29,13 @@
 		{
 			dependencies: ["1AB41CE7CE1ECE2E"]
 			id: "22A4AFF5E849E831"
+			rewards: [{
+				count: 2
+				id: "66EE62FF043208F0"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6B2C80B57418D95D"
@@ -34,8 +47,14 @@
 		}
 		{
 			dependencies: ["26DE14B4F1DA92D0"]
-			icon: "ae2:pattern_encoding_terminal"
+			icon: "ae2:blank_pattern"
 			id: "615DF92969760695"
+			rewards: [{
+				id: "132D8D7B1B09A1FC"
+				item: "ae2:blank_pattern"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -61,6 +80,13 @@
 			dependencies: ["26DE14B4F1DA92D0"]
 			icon: "ae2:me_p2p_tunnel"
 			id: "7C27F3FB1A933FF7"
+			rewards: [{
+				count: 2
+				id: "130BBFAE39C4582A"
+				item: "ae2:me_p2p_tunnel"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 2L
@@ -68,6 +94,7 @@
 				item: "ae2:me_p2p_tunnel"
 				type: "item"
 			}]
+			title: "&lP2P Tunnels"
 			x: 4.5d
 			y: 0.5d
 		}
@@ -75,6 +102,11 @@
 			dependencies: ["7BAE8EA3698E4086"]
 			icon: "ae2:security_station"
 			id: "31A110EE225A80D6"
+			rewards: [{
+				id: "69898571D72B988A"
+				item: "ae2:biometric_card"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "78B0737D83AE6E65"
@@ -87,6 +119,11 @@
 		{
 			dependencies: ["22A4AFF5E849E831"]
 			id: "69880E3AE3CECF42"
+			rewards: [{
+				id: "203932B12547CA4A"
+				item: "ae2:singularity"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -109,6 +146,12 @@
 			dependencies: ["2D81AE4BAC3F428A"]
 			icon: "ae2:wireless_crafting_terminal"
 			id: "44C365EBE85DEA32"
+			rewards: [{
+				id: "0E4A759580F5F174"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -133,6 +176,12 @@
 			dependencies: ["615DF92969760695"]
 			icon: "ae2:pattern_provider"
 			id: "54702ECBA9E0F838"
+			rewards: [{
+				id: "01CCCBEB20F0E6B0"
+				item: "ae2:pattern_provider"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1C6C79B2AA11FE05"
@@ -148,6 +197,7 @@
 			rewards: [{
 				id: "0F48F3EC4BC70DC7"
 				item: "ae2:drive"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "square"
@@ -157,6 +207,7 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
+			title: "&lME Drive"
 			x: 0.0d
 			y: -0.75d
 		}
@@ -171,17 +222,25 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "Core of Storage"
 			tasks: [{
 				id: "2DE0F8E0A6DE7865"
 				item: "ae2:controller"
 				type: "item"
 			}]
+			title: "&lME Controller"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["26DE14B4F1DA92D0"]
 			id: "2D81AE4BAC3F428A"
+			rewards: [{
+				id: "41D8341525AF5F4A"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "12158E2452402126"
@@ -194,6 +253,12 @@
 		{
 			dependencies: ["26DE14B4F1DA92D0"]
 			id: "46B2CD0C4765B493"
+			rewards: [{
+				id: "18943CD06A96D8ED"
+				item: "ae2:interface"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7FD77326B2852672"
@@ -206,6 +271,11 @@
 		{
 			dependencies: ["158CCDF60DCAA090"]
 			id: "5B0698EF888A20C3"
+			rewards: [{
+				id: "22B2DF0C6096DC1B"
+				item: "ae2things:advanced_inscriber"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2FBA7F57978C791C"
@@ -218,6 +288,12 @@
 		{
 			dependencies: ["2B96DE186AA9784A"]
 			id: "599D7A9A4253C99C"
+			rewards: [{
+				id: "2F9F6EEBEBAFB55E"
+				item: "ae2:item_cell_housing"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "324A20206316D531"
@@ -230,6 +306,12 @@
 		{
 			dependencies: ["2B96DE186AA9784A"]
 			id: "227830727CFC5514"
+			rewards: [{
+				id: "3D6B598CAB0ADECE"
+				item: "ae2:fluid_cell_housing"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6D38A29CB6A7732E"
@@ -242,6 +324,11 @@
 		{
 			dependencies: ["4FC82082EE9F4CC3"]
 			id: "70084CE387B396E7"
+			rewards: [{
+				id: "40E7C5C4F2BBE4E5"
+				item: "ae2:charger"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1BA9557FA44CA5A6"
@@ -266,6 +353,7 @@
 				item: "ae2:inscriber"
 				type: "item"
 			}]
+			title: "&lInscriber"
 			x: -5.5d
 			y: 1.5d
 		}
@@ -273,6 +361,11 @@
 			dependencies: ["4FC82082EE9F4CC3"]
 			hide_dependency_lines: true
 			id: "1AB41CE7CE1ECE2E"
+			rewards: [{
+				id: "1EBCB48941DD128B"
+				item: "ae2:condenser"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "059E4BCF26121C50"
@@ -306,6 +399,7 @@
 			rewards: [{
 				id: "69571782F0E2C60C"
 				item: "ae2:cell_component_1k"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "octagon"
@@ -324,6 +418,7 @@
 			rewards: [{
 				id: "1423E37CC1D609D5"
 				item: "ae2:cell_component_4k"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "octagon"
@@ -333,7 +428,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["116B329D5A4AB500"]
@@ -341,6 +436,7 @@
 			rewards: [{
 				id: "726102311CCF04D0"
 				item: "ae2:cell_component_16k"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "octagon"
@@ -350,7 +446,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7DCDE917FF9DD495"]
@@ -358,6 +454,7 @@
 			rewards: [{
 				id: "49DEFB0AB531A0D2"
 				item: "ae2:cell_component_64k"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "octagon"
@@ -367,7 +464,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["542BE243CEF6C43E"]
@@ -375,6 +472,7 @@
 			rewards: [{
 				id: "558505C8B110C14E"
 				item: "ae2:cell_component_256k"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "octagon"
@@ -391,7 +489,31 @@
 			dependencies: ["4FC82082EE9F4CC3"]
 			hide_dependency_lines: true
 			id: "26DE14B4F1DA92D0"
+			rewards: [
+				{
+					count: 4
+					id: "124E4A785A526ECA"
+					item: "ae2:fluix_glass_cable"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "62D4B8E9E42B746E"
+					item: "ae2:fluix_smart_cable"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1CDA47CB2C965C9E"
+					item: "ae2:fluix_smart_dense_cable"
+					random_bonus: 4
+					type: "item"
+				}
+			]
 			shape: "square"
+			subtitle: "Connects Devices"
 			tasks: [
 				{
 					id: "62412CCFC98020D8"
@@ -409,13 +531,22 @@
 					type: "item"
 				}
 			]
+			title: "&lME Cables"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["26DE14B4F1DA92D0"]
 			id: "1C0456E69EAE4C23"
+			rewards: [{
+				count: 16
+				id: "6258F9B4798A787B"
+				item: "ae2:matter_ball"
+				random_bonus: 16
+				type: "item"
+			}]
 			shape: "gear"
+			subtitle: "Can be filled with ME Chest"
 			tasks: [{
 				id: "7074CF4329A119D7"
 				item: {
@@ -425,6 +556,7 @@
 				}
 				type: "item"
 			}]
+			title: "Color Applicator"
 			x: 5.5d
 			y: 3.0d
 		}
@@ -483,6 +615,12 @@
 			dependencies: ["158CCDF60DCAA090"]
 			hide: false
 			id: "2AED5E854085127D"
+			rewards: [{
+				id: "449C4D74E1F9A371"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -512,6 +650,32 @@
 		{
 			dependencies: ["4FC82082EE9F4CC3"]
 			id: "64FEA9EF00AF200B"
+			rewards: [
+				{
+					id: "740744E9ECC23BFB"
+					item: "ae2:logic_processor"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52E9F1EDBB89B79D"
+					item: "ae2:calculation_processor"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "728D56F2792341FA"
+					item: "ae2:engineering_processor"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00FD6DC69540D360"
+					item: "ae2:elemental_processor"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [
 				{
@@ -535,12 +699,18 @@
 					type: "item"
 				}
 			]
+			title: "&lProcessors"
 			x: 1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2B96DE186AA9784A"]
 			id: "1F2AD76476EE39CD"
+			rewards: [{
+				id: "39C36E3E5D35D937"
+				item: "ae2:io_port"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2847E196C2C268AC"
@@ -554,6 +724,12 @@
 			dependencies: ["26DE14B4F1DA92D0"]
 			icon: "merequester:requester"
 			id: "4FC17136A4DBB794"
+			rewards: [{
+				id: "68A78FAE148AB352"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -573,6 +749,12 @@
 		{
 			dependencies: ["2B96DE186AA9784A"]
 			id: "6C95882DBA4D92AC"
+			rewards: [{
+				id: "37712689F8D311EA"
+				item: "appbot:mana_cell_housing"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "47873CC6CA374F50"
@@ -588,6 +770,11 @@
 				"235935EADA688867"
 			]
 			id: "09AE6A387AFF07CF"
+			rewards: [{
+				id: "2C1F46E9E74FA52E"
+				item: "appbot:fluix_mana_pool"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0D32FFE451BE3393"
@@ -600,6 +787,11 @@
 		{
 			dependencies: ["6F64D9A367C073CD"]
 			id: "4FC82082EE9F4CC3"
+			rewards: [{
+				id: "2632F6077E045421"
+				item: "ae2:guide"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -607,12 +799,20 @@
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
+			title: "&lApplied Energistics 2"
 			x: 0.0d
 			y: 3.75d
 		}
 		{
 			dependencies: ["7BAE8EA3698E4086"]
 			id: "5DB6304D9D06441C"
+			rewards: [{
+				count: 2
+				id: "149552A3D099726F"
+				item: "ae2:crafting_unit"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -626,13 +826,33 @@
 					type: "item"
 				}
 			]
-			title: "Auto Crafting Component"
+			title: "Auto Crafting Components"
 			x: 1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["26DE14B4F1DA92D0"]
 			id: "0DD69DB5A9C8F4A1"
+			rewards: [
+				{
+					id: "3DE9724CEFEB9EC6"
+					item: "ae2:import_bus"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35BD9EEF2AE0B857"
+					item: "ae2:export_bus"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F20FFFC7A926FDA"
+					item: "ae2:storage_bus"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -651,12 +871,19 @@
 					type: "item"
 				}
 			]
+			title: "&lME Bus"
 			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2B96DE186AA9784A"]
 			id: "0ADA1759935620A2"
+			rewards: [{
+				id: "667DC04C44D55023"
+				item: "arseng:source_cell_housing"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3F8B20B138A11A07"
@@ -669,6 +896,11 @@
 		{
 			dependencies: ["0ADA1759935620A2"]
 			id: "313B576DA870ED84"
+			rewards: [{
+				id: "75947ACC0551C963"
+				item: "arseng:source_acceptor"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "61D4F3962A5D2D2B"
@@ -679,20 +911,14 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["599D7A9A4253C99C"]
-			id: "42B29FABE7D0B8A0"
-			shape: "gear"
-			tasks: [{
-				id: "2916CF2FD658657E"
-				item: "ae2:view_cell"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.5d
-		}
-		{
 			dependencies: ["158CCDF60DCAA090"]
 			id: "6DE09425089575D2"
+			rewards: [{
+				id: "45C0596F37EBA248"
+				item: "ae2:basic_card"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6A5E20E8D39A854E"
@@ -705,6 +931,12 @@
 		{
 			dependencies: ["158CCDF60DCAA090"]
 			id: "4CB408E33190AACC"
+			rewards: [{
+				id: "0F1EB236EB4F1A7D"
+				item: "ae2:advanced_card"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "390529E66BEAE94D"
@@ -717,18 +949,31 @@
 		{
 			dependencies: ["4FC82082EE9F4CC3"]
 			id: "3063D35E3402681B"
+			rewards: [{
+				count: 2
+				id: "6CDA56D5CEFE315A"
+				item: "ae2:fluix_crystal"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "2B2599478E05BFCF"
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
+			title: "&lFluix Crystal"
 			x: -1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["7BAE8EA3698E4086"]
 			id: "02049206388EF9AD"
+			rewards: [{
+				id: "0A3390BF37AA4A4E"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2B7BBEF045224F56"
@@ -741,6 +986,32 @@
 		{
 			dependencies: ["6DE09425089575D2"]
 			id: "4407BD57804BA77D"
+			rewards: [
+				{
+					id: "7747823AE6A4E3FA"
+					item: "ae2:redstone_card"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7A5BD36E48A3ECBD"
+					item: "ae2:capacity_card"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4AAAED7F7486AD42"
+					item: "ae2:void_card"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1AEE42604C2E2281"
+					item: "ae2:crafting_card"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -770,6 +1041,44 @@
 		{
 			dependencies: ["4CB408E33190AACC"]
 			id: "678951FC87D8EA52"
+			rewards: [
+				{
+					id: "7D3E49430F1EF52F"
+					item: "ae2:fuzzy_card"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "713E472C35BD8AA5"
+					item: "ae2:speed_card"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0FBD998DCDE4048F"
+					item: "ae2:inverter_card"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0CDF91659F3B3B97"
+					item: "ae2:equal_distribution_card"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1553AA906F647BA0"
+					item: "ae2:energy_card"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "452840316C5CC340"
+					item: "ae2wtlib:magnet_card"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -810,6 +1119,11 @@
 			dependencies: ["4FC82082EE9F4CC3"]
 			hide_dependency_lines: true
 			id: "4EE951ED50931635"
+			rewards: [{
+				id: "22A304712C106659"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "44823E4DBF7EA98E"
@@ -822,6 +1136,12 @@
 		{
 			dependencies: ["44C365EBE85DEA32"]
 			id: "56B4EB004BF3CDE3"
+			rewards: [{
+				id: "3E922317F0D2D554"
+				item: "ae2:wireless_booster"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1B9DDE9B7FC2478B"
@@ -834,6 +1154,12 @@
 		{
 			dependencies: ["56B4EB004BF3CDE3"]
 			id: "72B9CF5053B0582D"
+			rewards: [{
+				id: "264811143EBCC538"
+				item: "aeinfinitybooster:infinity_card"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1F6E266C552A2D15"
@@ -846,6 +1172,12 @@
 		{
 			dependencies: ["72B9CF5053B0582D"]
 			id: "6EB6FCF011F980A4"
+			rewards: [{
+				id: "3BFDD7708C468F1D"
+				item: "coinsje:gold_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4D24601D18D737D8"
@@ -890,6 +1222,15 @@
 		{
 			dependencies: ["4FC82082EE9F4CC3"]
 			id: "2C4AB05ABCD639AE"
+			rewards: [{
+				id: "3B0EF2802CF9A294"
+				item: {
+					Count: 1b
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "31F97CCE9221D523"
@@ -906,6 +1247,12 @@
 		{
 			dependencies: ["4FC82082EE9F4CC3"]
 			id: "19364B62651CC59B"
+			rewards: [{
+				id: "7D3B14D6E7A8E4EF"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "5E225111047E645A"
@@ -918,6 +1265,12 @@
 		{
 			dependencies: ["615DF92969760695"]
 			id: "0AFFFE6E35C583FB"
+			rewards: [{
+				id: "2A7314618DFD613C"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "58E7A17416C70E74"
@@ -930,18 +1283,30 @@
 		{
 			dependencies: ["54702ECBA9E0F838"]
 			id: "7A1102DAE0FB9DEB"
+			rewards: [{
+				id: "10DA9FAACA661386"
+				item: "ae2:molecular_assembler"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "16CC1ACC4B1C24CC"
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
+			title: "&lMolecular Assembler"
 			x: 5.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5DB6304D9D06441C"]
 			id: "4F583D94410FECD9"
+			rewards: [{
+				id: "674CFFED899F375F"
+				item: "ae2:crafting_monitor"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "78F6BF2E2534BAE9"
@@ -952,5 +1317,6 @@
 			y: 2.5d
 		}
 	]
+	subtitle: ["Store the Infinite, Access the Impossible"]
 	title: " &l&d♦ &rApplied Energistics 2"
 }

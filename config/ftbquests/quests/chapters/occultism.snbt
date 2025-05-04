@@ -1241,10 +1241,11 @@
 					type: "item"
 				}
 			]
-			title: "Depthrock Pebbles"
+			title: "&lDepthrock Pebbles"
 			x: -10.5d
 			y: 8.25d
 		}
 	]
+	subtitle: ["In the Dark, We Summon"]
 	title: " &l&b♦ &rOccultism"
 }

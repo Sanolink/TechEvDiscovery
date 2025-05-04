@@ -16,7 +16,7 @@
 		rotation: 0.0d
 		width: 6.823333333333333d
 		x: 0.0d
-		y: -7.5d
+		y: -7.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -50,9 +50,9 @@
 		{
 			dependencies: ["213A3F1A58539F79"]
 			description: [
-				"Hi, I'm Sanolink, and I'm a french student in IT Security."
+				"Hi, I'm &lSanolink&r, and I'm a french student in IT Security."
 				""
-				"\"TechEv || Discovery\" is my first modpack, and I'm developing it alone. I hope I will succeed in making you enjoy my modpack ;)"
+				"\"&nTechEv || Discovery&r\" is my first modpack, and I'm developing it alone. I hope I will succeed in making you enjoy my modpack ;)"
 			]
 			disable_toast: true
 			icon: {
@@ -68,22 +68,31 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "circle"
+			shape: "octagon"
 			size: 1.5d
-			subtitle: "Personal Infos"
 			tasks: [{
 				id: "15F415863A42FDD8"
-				title: "About Me"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -4.5d
+			title: "&lAbout Me"
+			x: -2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["213A3F1A58539F79"]
-			description: ["Your objective is to achieve to a MEGA Base, with almost all items automated."]
+			description: [
+				"If you want to check out future updates, you can check my &9&lGithub&r, available on my CF page."
+				""
+				"And feel free to join the &5&lDiscord Server &rto share your builds, or maybe ask your questions about the pack with other members of TechEv's Community !"
+			]
 			disable_toast: true
-			icon: "minecraft:recovery_compass"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/gui/book/icon/discord.png"
+				}
+			}
 			id: "0005A52540E36926"
 			rewards: [{
 				id: "32AA051B511E3975"
@@ -94,9 +103,9 @@
 			size: 1.5d
 			tasks: [{
 				id: "0BB55C216A88E4C6"
-				title: "Pack's Objective"
 				type: "checkmark"
 			}]
+			title: "&lDiscord / Github"
 			x: 1.5d
 			y: -1.5d
 		}
@@ -111,25 +120,26 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "gear"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [{
 				id: "14D1BEC4D01D3380"
-				title: "Quests Info"
 				type: "checkmark"
 			}]
-			title: "Bugs / Issues / Upgrades"
+			title: "&lBugs / Issues / Upgrades"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["213A3F1A58539F79"]
 			description: [
-				"TechEv || Discovery is a challenging modpack that will introduce you to many mods in depth."
-				"You will need to complete the end game of a mod in order to unlock the next age."
+				"&lTechEv || Discovery&r is a challenging modpack that will introduce you to many mods &nin depth&r."
+				""
+				"You will need to complete the &eEnd Game&r of a mod in order to unlock the next age."
+				""
 				"You will start with a semi vanilla world with few technologies but the more you advance in the pack, the more you will discover powerful mod."
 				""
-				"This modpack is in Beta right now, so Ages aren't finished yet, but updates will add new mods, and new ages in the few weeks."
+				"This modpack is in &nBeta&r right now, so Ages aren't finished yet, but future updates will add new mods, and new ages in the few weeks."
 			]
 			disable_toast: true
 			icon: "aquamirae:ship_graveyard_echo"
@@ -139,19 +149,25 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "diamond"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [{
 				id: "180640BCE96DE62C"
 				type: "checkmark"
 			}]
-			title: "Stages Progression"
+			title: "&lPack's Progression"
 			x: 1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["213A3F1A58539F79"]
-			description: ["In this pack, quests are optionals, but highly recommanded to get useful tips. To unlock the end game of the pack, you'll need to finish all chapters."]
+			description: [
+				"In this pack, quests are optionals, but highly &nrecommanded&r to get useful tips."
+				""
+				"To unlock the end game of the pack, you'll need to finish all chapters."
+				""
+				"Their descriptions are in &nWork In Progress&r, future updates will add some texts and screenshots to improve their style."
+			]
 			disable_toast: true
 			icon: {
 				Count: 1b
@@ -166,15 +182,15 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "rsquare"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [{
 				id: "7AC9758F7E04F074"
 				type: "checkmark"
 			}]
 			title: "&lQuests"
-			x: 0.0d
-			y: -5.25d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["213A3F1A58539F79"]
@@ -203,6 +219,41 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["213A3F1A58539F79"]
+			description: [
+				"TechEv's modpacks revolve around a single, legendary objective: "
+				""
+				"• &lThe &6Te&bCh&5Ev&fium&r."
+				""
+				"This mythical alloy is forged from &l&eThree Powerful Elements&r:"
+				""
+				"• &l&6Tellurite"
+				"A mineral born from the depths of machine worlds, pulsing with logic and precision. It embodies the power of technology, automation, and progress. Tellurite fuels the heart of machines and unlocks the potential of complex systems."
+				""
+				"• &l&bChromatic"
+				"A prismatic crystal infused with the energy of rifts and realms. It resonates with the frequency of other dimensions, serving as a bridge between worlds. Those attuned to Chromatic can harness the unstable forces of alternate realities."
+				""
+				"• &l&5Evolium"
+				"A rare essence drawn from the fabric of arcane energy. Mysterious and volatile, Evolium represents raw magic in its purest form. It responds to willpower and ritual, empowering those who seek control over the supernatural."
+				""
+				"When these three forces are united, the result is the &l&6Techevium&r — an alloy beyond comprehension, said to defy the laws of nature and reshape existence itself."
+				""
+				"Those who master it hold the key to transcend the limits of reality itself."
+			]
+			icon: "techev_additions:techevium"
+			id: "5028E3FC925C2C4B"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "What is TechEv ?"
+			tasks: [{
+				id: "38567873350D2EFB"
+				type: "checkmark"
+			}]
+			title: "&lTechEv ?"
+			x: 2.25d
+			y: -3.0d
 		}
 	]
 	subtitle: ["&lWelcome !"]

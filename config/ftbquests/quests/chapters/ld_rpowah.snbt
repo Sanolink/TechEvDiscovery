@@ -5,54 +5,1080 @@
 	group: "38610A8E5A0E3694"
 	icon: "powah:charged_snowball"
 	id: "6CEB8B302404829A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/charged_snowball"
+			rotation: -30.0d
+			width: 1.0d
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 135.0d
+			width: 1.0d
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 135.0d
+			width: 1.0d
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 135.0d
+			width: 1.0d
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 135.0d
+			width: 1.0d
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 135.0d
+			width: 1.0d
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 135.0d
+			width: 1.0d
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 135.0d
+			width: 1.0d
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 135.0d
+			width: 1.0d
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			rotation: 45.0d
+			width: 1.0d
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/solar_panel_starter_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -8.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["401420C23394F8A2"]
 			id: "39A36453D9C361AC"
+			rewards: [{
+				id: "3E165767A7166977"
+				item: "powah:crystal_blazing"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5D366F065C7DA70D"
 				item: "powah:crystal_blazing"
 				type: "item"
 			}]
+			title: "&l&6Blazing Crystal"
 			x: -5.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["39A36453D9C361AC"]
 			id: "4AD5426303C53D42"
+			rewards: [{
+				id: "3AC389DECB950B3F"
+				item: "powah:crystal_niotic"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "55E4BC7AA909A68B"
 				item: "powah:crystal_niotic"
 				type: "item"
 			}]
+			title: "&l&3Niotic Crystal"
 			x: -5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4AD5426303C53D42"]
 			id: "4983F1FE5AEF4999"
+			rewards: [{
+				id: "124E822793AB98F5"
+				item: "powah:crystal_spirited"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7534051C5D419D63"
 				item: "powah:crystal_spirited"
 				type: "item"
 			}]
+			title: "&l&aSpirited Crystal"
 			x: -5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4983F1FE5AEF4999"]
 			id: "790A2F3C4320D2F5"
+			rewards: [{
+				id: "38CF770A497DB990"
+				item: "powah:crystal_nitro"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6B92EBDF4683C9F3"
 				item: "powah:crystal_nitro"
 				type: "item"
 			}]
+			title: "&l&4Nitro Crystal"
 			x: -5.0d
 			y: -0.5d
 		}
@@ -62,6 +1088,12 @@
 				"790A2F3C4320D2F5"
 			]
 			id: "1315C7913614B80E"
+			rewards: [{
+				id: "15AA3A33B7AC5861"
+				item: "powah:capacitor_nitro"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1D435895261FF431"
@@ -77,6 +1109,12 @@
 				"4983F1FE5AEF4999"
 			]
 			id: "436C93A91324082B"
+			rewards: [{
+				id: "5541DE750D807117"
+				item: "powah:capacitor_spirited"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "58D46A14C466D411"
@@ -92,6 +1130,12 @@
 				"4AD5426303C53D42"
 			]
 			id: "1565E5B6C15647C5"
+			rewards: [{
+				id: "7258D8AD7A12EBE0"
+				item: "powah:capacitor_niotic"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6E9495D6F777ED46"
@@ -107,6 +1151,12 @@
 				"39A36453D9C361AC"
 			]
 			id: "0B3C139D81E47262"
+			rewards: [{
+				id: "7EC9287E4374604A"
+				item: "powah:capacitor_blazing"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3308B7EDA56C0CAE"
@@ -119,18 +1169,30 @@
 		{
 			dependencies: ["0960E7B4939ECD2E"]
 			id: "20ED0631B3D38C66"
+			rewards: [{
+				id: "75CA505A60999A26"
+				item: "powah:uraninite"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "32921B34E052865C"
 				item: "powah:uraninite"
 				type: "item"
 			}]
+			title: "&l&2Uraninite"
 			x: -5.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["2E2664395197DDEC"]
 			id: "6F45D70728B9FA14"
+			rewards: [{
+				id: "646CDD5F415E778E"
+				item: "powah:book"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -138,6 +1200,7 @@
 				item: "powah:dielectric_paste"
 				type: "item"
 			}]
+			title: "&lPowah"
 			x: -3.5d
 			y: -5.75d
 		}
@@ -147,18 +1210,33 @@
 				"2E2664395197DDEC"
 			]
 			id: "6DF4DC9D0E013BFF"
+			rewards: [{
+				count: 2
+				id: "5546841D9A8B5255"
+				item: "ae2:charged_certus_quartz_crystal"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "4935D55E43146C03"
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
+			title: "&lCharged Certus Quartz"
 			x: -4.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["6F45D70728B9FA14"]
 			id: "00AEDBF4229B7914"
+			rewards: [{
+				count: 8
+				id: "632331896EFA4F3A"
+				item: "powah:dielectric_paste"
+				random_bonus: 8
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -177,24 +1255,36 @@
 					type: "item"
 				}
 			]
+			title: "Dielectric Materials"
 			x: -3.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "0960E7B4939ECD2E"
+			rewards: [{
+				id: "47740719C677EBB5"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7B009BA3C7CFDE93"
 				item: "powah:energizing_orb"
 				type: "item"
 			}]
+			title: "&lEnergizing Orb"
 			x: -5.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "23D6559A209D5544"
+			rewards: [{
+				id: "610548AE3642D83F"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "09EA312EA4F3FFB1"
@@ -207,6 +1297,11 @@
 		{
 			dependencies: ["23D6559A209D5544"]
 			id: "3166325BB9D014A6"
+			rewards: [{
+				id: "6327D6D2882E836A"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6B3D2ED418E01DD9"
@@ -219,12 +1314,19 @@
 		{
 			dependencies: ["0960E7B4939ECD2E"]
 			id: "401420C23394F8A2"
+			rewards: [{
+				id: "621DF788EAE78CA6"
+				item: "powah:steel_energized"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1510D84174EECB09"
 				item: "powah:steel_energized"
 				type: "item"
 			}]
+			title: "&l&eEnergized Steel"
 			x: -5.0d
 			y: -4.5d
 		}
@@ -234,6 +1336,12 @@
 				"6F45D70728B9FA14"
 			]
 			id: "6E20A12ED520CF72"
+			rewards: [{
+				id: "7F5765DDAC8F6F7C"
+				item: "powah:capacitor_hardened"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "58E2E94C75C24334"
@@ -246,6 +1354,11 @@
 		{
 			dependencies: ["6E5E8AD45FF7FDB3"]
 			id: "3781E7F6C5DCE1D3"
+			rewards: [{
+				id: "07EEA7EB0E8D6CF0"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "370E416DAE0E145C"
@@ -258,6 +1371,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "6E5E8AD45FF7FDB3"
+			rewards: [{
+				id: "22C6DC4973134623"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2A63A9875F0C14D3"
@@ -273,6 +1391,11 @@
 				"3166325BB9D014A6"
 			]
 			id: "7A64789758B57D7D"
+			rewards: [{
+				id: "1A789309DB211608"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7DE0783CFFD3C172"
@@ -288,6 +1411,11 @@
 				"7A64789758B57D7D"
 			]
 			id: "69594E7547325A46"
+			rewards: [{
+				id: "52B7AAF44D0A06B9"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4B56DDB7BBB7E210"
@@ -303,6 +1431,11 @@
 				"69594E7547325A46"
 			]
 			id: "359EDEE68A8B2DCF"
+			rewards: [{
+				id: "736F0CECA23D4CD0"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6D819ABFA577F680"
@@ -318,6 +1451,11 @@
 				"359EDEE68A8B2DCF"
 			]
 			id: "498D5CF6971C3569"
+			rewards: [{
+				id: "6861F341CE669337"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6BFABCAC40763636"
@@ -333,6 +1471,11 @@
 				"498D5CF6971C3569"
 			]
 			id: "55FF792123CD73DC"
+			rewards: [{
+				id: "04AABB11F2211451"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7B92653851C014F7"
@@ -345,6 +1488,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "3FBB9A7EAEE2679D"
+			rewards: [{
+				id: "1F9BC2DE5DC4D5FF"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6F70C692AB050F56"
@@ -357,6 +1505,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "31AF2D1D38D0DD49"
+			rewards: [{
+				id: "36A44A7C20D9946C"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3C3F4EBB067DF6D0"
@@ -369,6 +1522,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "402978B76D0F7577"
+			rewards: [{
+				id: "4B17CA112712BD9B"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4DD93CD9B6869A0B"
@@ -381,6 +1539,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "434FFD6B7AC96826"
+			rewards: [{
+				id: "2E7FFAC717D22C96"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "58CA3F8E7C96B439"
@@ -393,18 +1556,28 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "26EF7F5A25178249"
+			rewards: [{
+				id: "6DE55DA7705A4051"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1FDB8DA9AF2BF6FC"
 				item: "powah:energy_cable_starter"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "2B153044886B3E54"
+			rewards: [{
+				id: "57B815C4C2F4F1F2"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1976EBC5F9C7B1A9"
@@ -417,6 +1590,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "70109DD2FA222D36"
+			rewards: [{
+				id: "33A08C3D55F9BD46"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5F80AF679763305D"
@@ -431,15 +1609,20 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["00AEDBF4229B7914"]
+			dependencies: ["26EF7F5A25178249"]
 			id: "2E5DC58C236A2F00"
+			rewards: [{
+				id: "6E01E3F4C56183EE"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "217EE376D4DA997E"
 				item: "powah:ender_gate_starter"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: -7.0d
 		}
 		{
@@ -448,6 +1631,11 @@
 				"3781E7F6C5DCE1D3"
 			]
 			id: "6E998D033999656D"
+			rewards: [{
+				id: "7684B53A9B0BB239"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "114E7209EF191C25"
@@ -463,6 +1651,11 @@
 				"6E998D033999656D"
 			]
 			id: "2F7EA0D5C2441875"
+			rewards: [{
+				id: "037E5C5C8F64B70B"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1F4A9D6E738A01F6"
@@ -478,6 +1671,11 @@
 				"2F7EA0D5C2441875"
 			]
 			id: "7B8A412D6214A890"
+			rewards: [{
+				id: "4137C1608F7AA321"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "09155292E2FA25B5"
@@ -493,6 +1691,11 @@
 				"7B8A412D6214A890"
 			]
 			id: "07F5CB88F10EB5C2"
+			rewards: [{
+				id: "3A983A52FFF2F689"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1B16A8D3B337802E"
@@ -508,6 +1711,11 @@
 				"07F5CB88F10EB5C2"
 			]
 			id: "422BDBF930EEFC0D"
+			rewards: [{
+				id: "31D1A85F66A27B0D"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1753CEEC4A1ED51F"
@@ -520,6 +1728,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "01F399F2D063FC4A"
+			rewards: [{
+				id: "003591641A1D5ECF"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "137103C31308E062"
@@ -532,6 +1745,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "08B130EEFDAD7E8E"
+			rewards: [{
+				id: "4D010521DFABFC77"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "046C0A294A86F764"
@@ -544,6 +1762,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "5FC0493D0CD5B0A8"
+			rewards: [{
+				id: "1EF2C33C6723A511"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5E256F44254EB017"
@@ -556,6 +1779,11 @@
 		{
 			dependencies: ["00AEDBF4229B7914"]
 			id: "5FB59BBCDD85237F"
+			rewards: [{
+				id: "1CE17D707A4FBA5E"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "51171793CE26E832"
@@ -568,6 +1796,11 @@
 		{
 			dependencies: ["01F399F2D063FC4A"]
 			id: "6ADA8081ADD44EDE"
+			rewards: [{
+				id: "786E05D536895564"
+				item: "powah:capacitor_basic_large"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "09ED3D028FFEEA14"
@@ -583,6 +1816,11 @@
 				"6ADA8081ADD44EDE"
 			]
 			id: "69270DA92C0EB9BD"
+			rewards: [{
+				id: "43733E500DA0FDD4"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5255F95D3B4DD332"
@@ -598,6 +1836,11 @@
 				"2EEF5AE7D85992F4"
 			]
 			id: "70952915FA7340FE"
+			rewards: [{
+				id: "7EA8A3B513BC2388"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "72AD70F6409718E8"
@@ -613,6 +1856,11 @@
 				"69270DA92C0EB9BD"
 			]
 			id: "2EEF5AE7D85992F4"
+			rewards: [{
+				id: "53FE4E56A64C31C5"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "61FC0716EFAA8247"
@@ -628,6 +1876,11 @@
 				"70952915FA7340FE"
 			]
 			id: "7B41BABDF1E2D47D"
+			rewards: [{
+				id: "5526521572727198"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "54CBF08CE688EA61"
@@ -643,6 +1896,11 @@
 				"7B41BABDF1E2D47D"
 			]
 			id: "1950B509A2A9F79F"
+			rewards: [{
+				id: "64DD1907736448EE"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "31031FEB7D593E31"
@@ -655,6 +1913,11 @@
 		{
 			dependencies: ["434FFD6B7AC96826"]
 			id: "62FF33DDCB93629A"
+			rewards: [{
+				id: "13BF3817E9AE8B54"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "42DEDB88B8C09C50"
@@ -670,6 +1933,11 @@
 				"62FF33DDCB93629A"
 			]
 			id: "00383C9A24BB8395"
+			rewards: [{
+				id: "5DA38A0D5215673F"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7788D86F5F9A7531"
@@ -685,6 +1953,11 @@
 				"00383C9A24BB8395"
 			]
 			id: "26AC794DE75FD7B5"
+			rewards: [{
+				id: "7B01A11FBB7607D7"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "77BAE13CA96E2B45"
@@ -700,6 +1973,11 @@
 				"26AC794DE75FD7B5"
 			]
 			id: "742E31802A10C388"
+			rewards: [{
+				id: "7C8B28D9E61A8818"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "291A93F7AD2858EB"
@@ -715,6 +1993,11 @@
 				"742E31802A10C388"
 			]
 			id: "226910BA316075FD"
+			rewards: [{
+				id: "51CD571F0027A241"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "188ECDBF291E6A98"
@@ -730,6 +2013,11 @@
 				"226910BA316075FD"
 			]
 			id: "7D4DE890A48990BE"
+			rewards: [{
+				id: "23B70410D60A16AD"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "670FCFF3A2F5814F"
@@ -742,6 +2030,11 @@
 		{
 			dependencies: ["402978B76D0F7577"]
 			id: "3A3F8110B0EC860B"
+			rewards: [{
+				id: "04FFFBE9233CEE9B"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4F989BCE46AFD495"
@@ -757,6 +2050,11 @@
 				"3A3F8110B0EC860B"
 			]
 			id: "5E2D44C4BB4BDCB6"
+			rewards: [{
+				id: "017DF87FEA64F399"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "51077004A96C3FE8"
@@ -772,6 +2070,11 @@
 				"5E2D44C4BB4BDCB6"
 			]
 			id: "50D5885F7CBA90F6"
+			rewards: [{
+				id: "7A4BB6FA46C0EA3D"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "53F663798B0E1773"
@@ -787,6 +2090,11 @@
 				"50D5885F7CBA90F6"
 			]
 			id: "60529EF40FB09315"
+			rewards: [{
+				id: "7B5A3B63258877E2"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "353D0639585FFFD4"
@@ -802,6 +2110,11 @@
 				"60529EF40FB09315"
 			]
 			id: "197AFE5E3C7F6054"
+			rewards: [{
+				id: "311D24C93FF47FDA"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "28379817805EDCA6"
@@ -817,6 +2130,11 @@
 				"197AFE5E3C7F6054"
 			]
 			id: "7F5D79D4D438F226"
+			rewards: [{
+				id: "202B4A932FCCEDBB"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "42B55DCB4E254036"
@@ -829,6 +2147,11 @@
 		{
 			dependencies: ["31AF2D1D38D0DD49"]
 			id: "24E22FEE9B21D895"
+			rewards: [{
+				id: "21C9F22129AF6B91"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3743E3BF4927D6C7"
@@ -844,6 +2167,11 @@
 				"24E22FEE9B21D895"
 			]
 			id: "53DC7FDB4B8ECF3E"
+			rewards: [{
+				id: "66F6C20EAF249152"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6A073646CB2081BA"
@@ -859,6 +2187,11 @@
 				"53DC7FDB4B8ECF3E"
 			]
 			id: "7FAEB9A6E7102286"
+			rewards: [{
+				id: "5EF61EC3D38BBFCF"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1DD43049FE00F6E2"
@@ -874,6 +2207,11 @@
 				"7FAEB9A6E7102286"
 			]
 			id: "2C4B2C02FB51AB57"
+			rewards: [{
+				id: "7C9099EA3E0EE473"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3699373F9E3B9329"
@@ -889,6 +2227,11 @@
 				"2C4B2C02FB51AB57"
 			]
 			id: "554FD9357BB230DB"
+			rewards: [{
+				id: "3BC54E8B3F95407A"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3176A4282895B908"
@@ -904,6 +2247,11 @@
 				"554FD9357BB230DB"
 			]
 			id: "0557308BF9817D9A"
+			rewards: [{
+				id: "6600FCEF60678392"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2BEA6C3C5F3BF0E6"
@@ -916,6 +2264,11 @@
 		{
 			dependencies: ["08B130EEFDAD7E8E"]
 			id: "7C04F1814A78A16F"
+			rewards: [{
+				id: "3ED2C075C27EB121"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "168B02B3866D6B82"
@@ -931,6 +2284,11 @@
 				"7C04F1814A78A16F"
 			]
 			id: "49FBD31FF29376FA"
+			rewards: [{
+				id: "7291FE99BA3602F5"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "37697DE026F4896D"
@@ -946,6 +2304,11 @@
 				"49FBD31FF29376FA"
 			]
 			id: "2F24D96C8840DBCC"
+			rewards: [{
+				id: "603E9F20110D4BC4"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "22B9C732BEA71523"
@@ -961,6 +2324,11 @@
 				"2F24D96C8840DBCC"
 			]
 			id: "5337606E4A3A7CA2"
+			rewards: [{
+				id: "2B212E436A7F4A33"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "41EF8A17C865ECD0"
@@ -976,6 +2344,11 @@
 				"5337606E4A3A7CA2"
 			]
 			id: "292A95EEFCBA5096"
+			rewards: [{
+				id: "632D825B43D88FBC"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3C8CA4485112DDF0"
@@ -991,6 +2364,11 @@
 				"292A95EEFCBA5096"
 			]
 			id: "2261D43AFFA5B52E"
+			rewards: [{
+				id: "6A78A0C91052AAB6"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7F3302F1A33F083D"
@@ -1003,6 +2381,11 @@
 		{
 			dependencies: ["3FBB9A7EAEE2679D"]
 			id: "0147116F0D8CC047"
+			rewards: [{
+				id: "22BC7729BF35B7AE"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7D7A2C6981B84C78"
@@ -1018,6 +2401,11 @@
 				"0147116F0D8CC047"
 			]
 			id: "2ACB45F351AEC967"
+			rewards: [{
+				id: "322DC9AE2E71B73D"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "411566A595A002EB"
@@ -1033,6 +2421,11 @@
 				"2ACB45F351AEC967"
 			]
 			id: "3508EFD9D2E42CF2"
+			rewards: [{
+				id: "0AE67BDE30325C06"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5905777D6649B993"
@@ -1048,6 +2441,11 @@
 				"3508EFD9D2E42CF2"
 			]
 			id: "27228AAAF9596A41"
+			rewards: [{
+				id: "6E60E8560251E82D"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "23100AB440B30551"
@@ -1063,6 +2461,11 @@
 				"27228AAAF9596A41"
 			]
 			id: "42999BC2B104D903"
+			rewards: [{
+				id: "6DB4213AC8B50F92"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1E4E5A5F08670395"
@@ -1078,6 +2481,11 @@
 				"42999BC2B104D903"
 			]
 			id: "2CD39D3253D32571"
+			rewards: [{
+				id: "33E2923A456BE8D4"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "684F4DF0A5B8759A"
@@ -1090,6 +2498,11 @@
 		{
 			dependencies: ["5FC0493D0CD5B0A8"]
 			id: "2C5D8B0D327F30DE"
+			rewards: [{
+				id: "4427C2F2AD847203"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "359523B6EE0243D6"
@@ -1105,6 +2518,11 @@
 				"2C5D8B0D327F30DE"
 			]
 			id: "3DFD0A8229561367"
+			rewards: [{
+				id: "1A8F7D2C56173110"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5A7B41095D396234"
@@ -1120,6 +2538,11 @@
 				"3DFD0A8229561367"
 			]
 			id: "7DAB056BFAF2D69F"
+			rewards: [{
+				id: "1365E9D920919546"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6E61579C96CDE83B"
@@ -1135,6 +2558,11 @@
 				"7DAB056BFAF2D69F"
 			]
 			id: "0222200158C057FB"
+			rewards: [{
+				id: "2A0E2710BBB34CC4"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5CCAB06C978AA295"
@@ -1150,6 +2578,11 @@
 				"0222200158C057FB"
 			]
 			id: "563BB2CE8E8150D8"
+			rewards: [{
+				id: "4DFF7167E5681F25"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "499AF1DAA185537E"
@@ -1165,6 +2598,11 @@
 				"563BB2CE8E8150D8"
 			]
 			id: "170D69BDDAC16FDC"
+			rewards: [{
+				id: "0DEEB37A945D605F"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0D38894559E0B233"
@@ -1177,6 +2615,11 @@
 		{
 			dependencies: ["5FB59BBCDD85237F"]
 			id: "003C5F5277C01078"
+			rewards: [{
+				id: "584CB7F196FEFC37"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1787DF179CA6B662"
@@ -1192,6 +2635,11 @@
 				"003C5F5277C01078"
 			]
 			id: "14976CB33A0A1528"
+			rewards: [{
+				id: "63D40937A929CF8C"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "023E2816C7698F12"
@@ -1207,6 +2655,11 @@
 				"14976CB33A0A1528"
 			]
 			id: "02E7564D5E0F9DE4"
+			rewards: [{
+				id: "1F15718FF2A2555B"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "276AA87BE2DE97CA"
@@ -1222,6 +2675,11 @@
 				"02E7564D5E0F9DE4"
 			]
 			id: "1C9819D5E8CD16AF"
+			rewards: [{
+				id: "1EA6310818075901"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5A55E447BABB9469"
@@ -1237,6 +2695,11 @@
 				"1C9819D5E8CD16AF"
 			]
 			id: "096AD00BBCE49CAA"
+			rewards: [{
+				id: "069B721DBB597CBC"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0CA0A418E9B46325"
@@ -1252,6 +2715,11 @@
 				"096AD00BBCE49CAA"
 			]
 			id: "6560C4B2A73AE194"
+			rewards: [{
+				id: "1845C005B2FE6184"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "18ED8514D8CF9DDC"
@@ -1264,6 +2732,11 @@
 		{
 			dependencies: ["70109DD2FA222D36"]
 			id: "1CCA8E7701116FC5"
+			rewards: [{
+				id: "7529CD47E59B997B"
+				item: "powah:capacitor_basic_large"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "13F790333A7A2608"
@@ -1283,6 +2756,11 @@
 				"1CCA8E7701116FC5"
 			]
 			id: "0A93275E2EE34F46"
+			rewards: [{
+				id: "05B4C9C6870D54C9"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2F92DE28C2BBDFF7"
@@ -1302,6 +2780,11 @@
 				"0A93275E2EE34F46"
 			]
 			id: "396B0B6E5301C4E6"
+			rewards: [{
+				id: "47C0E760833DCE2A"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5F6C08B64F6BEC8D"
@@ -1321,6 +2804,11 @@
 				"396B0B6E5301C4E6"
 			]
 			id: "5ECE418C30AF0026"
+			rewards: [{
+				id: "6397798DE774FA47"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5486581D6B567A2E"
@@ -1340,6 +2828,11 @@
 				"5ECE418C30AF0026"
 			]
 			id: "16AC72047BB06B03"
+			rewards: [{
+				id: "68DB15AF9514EE95"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1AF0B73AB41A300C"
@@ -1359,6 +2852,11 @@
 				"16AC72047BB06B03"
 			]
 			id: "22AF70383604E637"
+			rewards: [{
+				id: "79FAF45AA5C43485"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "05A810D9B84321F6"
@@ -1373,102 +2871,122 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["2E5DC58C236A2F00"]
+			dependencies: ["72DBCE9265FA8541"]
 			id: "5F4AF98F23DE1854"
+			rewards: [{
+				id: "300541655BE155AC"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "522F172DE799D392"
 				item: "powah:ender_gate_basic"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"6E20A12ED520CF72"
-				"5F4AF98F23DE1854"
-			]
+			dependencies: ["003AF354DC7AED67"]
 			id: "6D4D9D10CF564E98"
+			rewards: [{
+				id: "7BB31244B534FEFC"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3397D5994C6C5BC0"
 				item: "powah:ender_gate_hardened"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"0B3C139D81E47262"
-				"6D4D9D10CF564E98"
-			]
+			dependencies: ["3027513B9B66447E"]
 			id: "7D2E914B6BBF82D0"
+			rewards: [{
+				id: "5073CCA62C379BAB"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7AAD0E451D7CB3F8"
 				item: "powah:ender_gate_blazing"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"1565E5B6C15647C5"
-				"7D2E914B6BBF82D0"
-			]
+			dependencies: ["5D7FC9DEEA51248F"]
 			id: "1EFBC006D7DD350E"
+			rewards: [{
+				id: "60E57F37FC381E72"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2F0AE647FB65CB78"
 				item: "powah:ender_gate_niotic"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"436C93A91324082B"
-				"1EFBC006D7DD350E"
-			]
+			dependencies: ["32A165C18BE0EF12"]
 			id: "176D3F04AF88A2FF"
+			rewards: [{
+				id: "745B67751E7DF729"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7B7A8F4C7474C33C"
 				item: "powah:ender_gate_spirited"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"1315C7913614B80E"
-				"176D3F04AF88A2FF"
-			]
+			dependencies: ["3C75864654DCA2E4"]
 			id: "635A9F49A760EBFC"
+			rewards: [{
+				id: "0D7BF6237F046311"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0EBB38F2DB0802CF"
 				item: "powah:ender_gate_nitro"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["26EF7F5A25178249"]
 			id: "72DBCE9265FA8541"
+			rewards: [{
+				id: "3D17C6C9408B2936"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4CE965A4CAB51A80"
 				item: "powah:energy_cable_basic"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.5d
 			y: -5.5d
 		}
 		{
@@ -1477,13 +2995,18 @@
 				"72DBCE9265FA8541"
 			]
 			id: "003AF354DC7AED67"
+			rewards: [{
+				id: "4166ABAA0B896348"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "573766D7B82AC455"
 				item: "powah:energy_cable_hardened"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.5d
 			y: -4.5d
 		}
 		{
@@ -1492,13 +3015,18 @@
 				"003AF354DC7AED67"
 			]
 			id: "3027513B9B66447E"
+			rewards: [{
+				id: "430C25EBEA22B230"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0305266F0C827FC0"
 				item: "powah:energy_cable_blazing"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.5d
 			y: -3.5d
 		}
 		{
@@ -1507,13 +3035,18 @@
 				"3027513B9B66447E"
 			]
 			id: "5D7FC9DEEA51248F"
+			rewards: [{
+				id: "0FC8E59F9D0709F9"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7E8918D6BDDAC070"
 				item: "powah:energy_cable_niotic"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.5d
 			y: -2.5d
 		}
 		{
@@ -1522,13 +3055,18 @@
 				"5D7FC9DEEA51248F"
 			]
 			id: "32A165C18BE0EF12"
+			rewards: [{
+				id: "0A8C30F2BA7233A9"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0A034E539F65D3AA"
 				item: "powah:energy_cable_spirited"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.5d
 			y: -1.5d
 		}
 		{
@@ -1537,18 +3075,28 @@
 				"32A165C18BE0EF12"
 			]
 			id: "3C75864654DCA2E4"
+			rewards: [{
+				id: "230F4D3850310C67"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2C5387A088BCEC08"
 				item: "powah:energy_cable_nitro"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2B153044886B3E54"]
 			id: "7B22B9F9A79099BB"
+			rewards: [{
+				id: "068FBDEFF208FFBE"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6E691EB81CBCEF20"
@@ -1564,6 +3112,11 @@
 				"7B22B9F9A79099BB"
 			]
 			id: "2526AF787096B639"
+			rewards: [{
+				id: "3B6C7D60396B2773"
+				item: "powah:capacitor_hardened"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0DB2898A4EF15ABA"
@@ -1579,6 +3132,11 @@
 				"2526AF787096B639"
 			]
 			id: "2A57A73795F9273D"
+			rewards: [{
+				id: "3DCF8BCB195AA8B5"
+				item: "powah:capacitor_blazing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5EE1E95A0F2C7B0C"
@@ -1594,6 +3152,11 @@
 				"2A57A73795F9273D"
 			]
 			id: "79AC7FE4D4B1D939"
+			rewards: [{
+				id: "100E2F428687857C"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "17B4AE1BE66DCEC1"
@@ -1609,6 +3172,11 @@
 				"79AC7FE4D4B1D939"
 			]
 			id: "6F3CBF11C200E779"
+			rewards: [{
+				id: "7DA138989F2F194D"
+				item: "powah:capacitor_spirited"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4A4B9D78AB0E7EBD"
@@ -1624,6 +3192,11 @@
 				"6F3CBF11C200E779"
 			]
 			id: "6864ADAC03647A5D"
+			rewards: [{
+				id: "3D259DE47217EF3D"
+				item: "powah:capacitor_nitro"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "010A673E1A6C79CB"
@@ -1634,5 +3207,6 @@
 			y: -0.5d
 		}
 	]
+	subtitle: ["Power Unleashed: Energy at Your Fingertips"]
 	title: " &l&d♦ &rPowah"
 }

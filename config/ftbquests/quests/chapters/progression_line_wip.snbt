@@ -666,9 +666,15 @@
 		{
 			dependencies: [
 				"63894331FBB6B6DA"
-				"700766542DC5190F"
+				"105FF1A34F0CC39C"
 			]
-			icon: "psi:psigem"
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "custommachinery:psi_infuser"
+				}
+			}
 			id: "365D97E08264FEA4"
 			rewards: [{
 				id: "4263023A29C9883F"

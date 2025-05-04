@@ -428,6 +428,58 @@
 			x: 16.0d
 			y: 7.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: 9.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]

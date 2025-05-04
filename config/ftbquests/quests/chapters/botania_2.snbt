@@ -105,12 +105,30 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
+			title: "&lBotania"
 			x: -5.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["396330399B85C92C"]
+			description: ["Put some blocks around the &l&5Pure Daisy &rto transform them into &lLiving Blocks."]
 			id: "11297213522089CF"
+			rewards: [
+				{
+					count: 2
+					id: "14AB10CDE3BA3608"
+					item: "botania:livingwood_log"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "355EE3652DDA767E"
+					item: "botania:livingrock"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -125,12 +143,20 @@
 					type: "item"
 				}
 			]
+			title: "&lLiving Blocks"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2D6EB524F42CC52D"]
 			id: "51C7D41855F2F564"
+			rewards: [{
+				count: 2
+				id: "45802A29941A632D"
+				item: "botania:fertilizer"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "761A83C1942FC708"
@@ -143,6 +169,12 @@
 		{
 			dependencies: ["11297213522089CF"]
 			id: "68A524363FC67D4D"
+			rewards: [{
+				id: "30A0F251BA8B44CC"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "39E094F35E31E47E"
@@ -156,12 +188,18 @@
 				}
 				type: "item"
 			}]
+			title: "Wand of the Forest"
 			x: -3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["11297213522089CF"]
 			id: "2D6EB524F42CC52D"
+			rewards: [{
+				id: "6D69884115883BF7"
+				item: "botania:diluted_pool"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -169,6 +207,7 @@
 				item: "botania:diluted_pool"
 				type: "item"
 			}]
+			title: "&lDiluted Mana Pool"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -176,17 +215,17 @@
 			dependencies: ["2D6EB524F42CC52D"]
 			hide_dependent_lines: true
 			id: "54B5F0581A53E554"
+			rewards: [{
+				count: 2
+				id: "5E79E185874481C1"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
-				id: "14BA690825FACE3C"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "botania:apothecary"
-					}
-				}
-				title: "Any #botania:apothecary"
+				id: "084456D38552AB13"
+				item: "botania:apothecary_livingrock"
 				type: "item"
 			}]
 			x: 1.0d
@@ -195,6 +234,12 @@
 		{
 			dependencies: ["11297213522089CF"]
 			id: "635D4DB44E578182"
+			rewards: [{
+				id: "08B50F75DC0184BA"
+				item: "botania:mana_spreader"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6358E5D2E7F77702"
@@ -207,6 +252,12 @@
 		{
 			dependencies: ["635D4DB44E578182"]
 			id: "446E3A6C52094F83"
+			rewards: [{
+				id: "02BC77E047086144"
+				item: "botania:elven_spreader"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "669065DB5F9CABBD"
@@ -219,6 +270,12 @@
 		{
 			dependencies: ["446E3A6C52094F83"]
 			id: "16784348A9E97EDA"
+			rewards: [{
+				id: "3E19291F4ACC7AA9"
+				item: "botania:gaia_spreader"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "22CA4022E7011C81"
@@ -231,6 +288,12 @@
 		{
 			dependencies: ["635D4DB44E578182"]
 			id: "563710979CBDE5AE"
+			rewards: [{
+				id: "7F9A023D2DBE54B4"
+				item: "botania:redstone_spreader"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "35EE802AA859C75E"
@@ -243,6 +306,13 @@
 		{
 			dependencies: ["0B667F809A611C50"]
 			id: "63DAE637A24ED5E5"
+			rewards: [{
+				count: 6
+				id: "536AEC8789A6B821"
+				item: "coinsje:copper_coin"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "69FF379B9E084889"
@@ -255,6 +325,13 @@
 		{
 			dependencies: ["63DAE637A24ED5E5"]
 			id: "3D51DC5F4D308DCC"
+			rewards: [{
+				count: 6
+				id: "43142AAF2A14FE12"
+				item: "coinsje:copper_coin"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "0BBC590C9F5987C9"
@@ -267,6 +344,13 @@
 		{
 			dependencies: ["63DAE637A24ED5E5"]
 			id: "718C212473A69F48"
+			rewards: [{
+				count: 6
+				id: "1A2817808A079756"
+				item: "coinsje:copper_coin"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "0E1C77B59D3B9114"
@@ -279,6 +363,13 @@
 		{
 			dependencies: ["0B667F809A611C50"]
 			id: "086CDB1E84793898"
+			rewards: [{
+				count: 2
+				id: "5C0F4891738A7DAB"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -322,6 +413,13 @@
 		{
 			dependencies: ["62979A9145331DD4"]
 			id: "2DA9DC7F5CA22E53"
+			rewards: [{
+				count: 6
+				id: "04B2AA981C6902FB"
+				item: "coinsje:copper_coin"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "075E4FAD096D4705"
@@ -334,6 +432,12 @@
 		{
 			dependencies: ["2F930011EBE790FB"]
 			id: "618A1D443C40D785"
+			rewards: [{
+				id: "7B1C41A6454CE95A"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "040B7DD28A1A3E94"
@@ -346,6 +450,12 @@
 		{
 			dependencies: ["187B0BA33A60E567"]
 			id: "71B484B563DF7687"
+			rewards: [{
+				id: "43A0B6D02ABBEDBD"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "41F0544FDD50CED0"
@@ -358,6 +468,13 @@
 		{
 			dependencies: ["4909F39B44EA8CB7"]
 			id: "3BB3375A5D383145"
+			rewards: [{
+				count: 3
+				id: "75A962742D9426AF"
+				item: "botania:vial"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5C0BADDE3A468F6A"
@@ -370,6 +487,11 @@
 		{
 			dependencies: ["1E083E30D14763B1"]
 			id: "4909F39B44EA8CB7"
+			rewards: [{
+				id: "5DFD16186DEE1ABC"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -377,12 +499,45 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
+			title: "&lRunic Altar"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4909F39B44EA8CB7"]
 			id: "0B667F809A611C50"
+			rewards: [
+				{
+					id: "2B80AD62F52A100B"
+					item: "botania:rune_water"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "605F25592967B4FB"
+					item: "botania:rune_fire"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1926243A6FD60D25"
+					item: "botania:rune_earth"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "072773D3ECFA4DE2"
+					item: "botania:rune_air"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3494D35DB4196F3F"
+					item: "botania:rune_mana"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -418,6 +573,32 @@
 		{
 			dependencies: ["0B667F809A611C50"]
 			id: "5770B7ECB01B728D"
+			rewards: [
+				{
+					id: "33FA35DA110C93DC"
+					item: "botania:rune_spring"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26C81A2ED41D8FFB"
+					item: "botania:rune_summer"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5835F330A19078BB"
+					item: "botania:rune_autumn"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35D9D8A93D2128E1"
+					item: "botania:rune_winter"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -448,6 +629,50 @@
 		{
 			dependencies: ["5770B7ECB01B728D"]
 			id: "62979A9145331DD4"
+			rewards: [
+				{
+					id: "6C2CF9F7DA6D9D19"
+					item: "botania:rune_lust"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1ED8A53673268951"
+					item: "botania:rune_gluttony"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1ADB2FE123CDAC21"
+					item: "botania:rune_greed"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6097A20A07E68911"
+					item: "botania:rune_sloth"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22E013B3DED7F6E0"
+					item: "botania:rune_wrath"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1A90A966F2897D8F"
+					item: "botania:rune_envy"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3471DE1A8A4BF9EF"
+					item: "botania:rune_pride"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -493,6 +718,62 @@
 		{
 			dependencies: ["62979A9145331DD4"]
 			id: "3690FC0471789439"
+			rewards: [
+				{
+					id: "42DE6317AECBCF00"
+					item: "mythicbotany:asgard_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "463712C790735673"
+					item: "mythicbotany:vanaheim_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2B7DEFE5685BBF7B"
+					item: "mythicbotany:alfheim_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0151E34BFC1F3686"
+					item: "mythicbotany:midgard_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "728BDB5F5B729AE8"
+					item: "mythicbotany:joetunheim_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "019B14CE73B58BBC"
+					item: "mythicbotany:muspelheim_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B7AF934D2972283"
+					item: "mythicbotany:niflheim_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "099FD58590422561"
+					item: "mythicbotany:nidavellir_rune"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "29AA9B28D76A5511"
+					item: "mythicbotany:helheim_rune"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -548,6 +829,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "5D0F220AAAD4BA94"
+			rewards: [{
+				id: "445EB9E5B80AD456"
+				item: "botania:loonium"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7EECAC60B0B606EB"
@@ -560,6 +846,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "1742AABBF528700B"
+			rewards: [{
+				id: "167026208C1C6E5D"
+				item: "botania:exoflame"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7B0A1B67CF98050D"
@@ -572,6 +863,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "2BD4140914AC627D"
+			rewards: [{
+				id: "30B2A915CDD75A69"
+				item: "botania:spectranthemum"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "25285EF308087D22"
@@ -584,6 +880,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "3A0F95257C76A6A1"
+			rewards: [{
+				id: "5A9240B8B5538100"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4E4BCAF4B823148F"
@@ -596,6 +897,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "0C608E3FA4FA9ACD"
+			rewards: [{
+				id: "2892791280A0C568"
+				item: "botania:manastar"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5F71EBF2DB594670"
@@ -608,6 +914,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "373F284C5C1CD5B3"
+			rewards: [{
+				id: "36F127BDC72E3692"
+				item: "botania:bellethorn"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "53F90603B94B4C91"
@@ -620,6 +931,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "40FDC129DFA6562C"
+			rewards: [{
+				id: "7F41E44977970EC2"
+				item: "botania:marimorphosis"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "31AE5DC3ADEF49EB"
@@ -632,6 +948,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "4D2393F636182497"
+			rewards: [{
+				id: "225B6BD0B0B14C2D"
+				item: "botania:tangleberrie"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4A3221C599B9BF2A"
@@ -644,6 +965,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "6C6D123E37D4BE95"
+			rewards: [{
+				id: "2FEB87D219368134"
+				item: "botania:tigerseye"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6AE5C8C6B2129856"
@@ -656,6 +982,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "188640B9BFE025E3"
+			rewards: [{
+				id: "183EE8511010BF05"
+				item: "botania:vinculotus"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3414A41F2A4A9124"
@@ -668,6 +999,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "284C85576BD31EE0"
+			rewards: [{
+				id: "06A684D859932907"
+				item: "botania:orechid"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "370F13E1C7D18CDF"
@@ -680,6 +1016,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "5E8766FA7888973D"
+			rewards: [{
+				id: "72E631E5213E566A"
+				item: "botania:medumone"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "071F60B7B5030115"
@@ -692,6 +1033,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "7752EB84911E880F"
+			rewards: [{
+				id: "1EA98D5FB7E24CEE"
+				item: "mythicbotany:petrunia"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "138B28845A2120FF"
@@ -704,6 +1050,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "61D867F1DC127E6A"
+			rewards: [{
+				id: "2275B3CA0D473E90"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "47CF8297398027BB"
@@ -716,6 +1067,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "35FBBB064B4BA1F5"
+			rewards: [{
+				id: "6C9003FBD93CE22F"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "757F62E5A076E8DE"
@@ -728,6 +1084,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "040361CDE07CD6AB"
+			rewards: [{
+				id: "6EE50C830C5D93B1"
+				item: "botania:clayconia"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5A066461B3306E7B"
@@ -740,6 +1101,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "3E21D0937AE2C8BA"
+			rewards: [{
+				id: "0E605EF9C69351D7"
+				item: "botania:labellia"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "526566DB85134014"
@@ -752,6 +1118,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "7E701DF18D79C17A"
+			rewards: [{
+				id: "1380F916F14B2DED"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3265240C2B318809"
@@ -764,6 +1135,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "5BE8990207C4C900"
+			rewards: [{
+				id: "304EBD417530F3E5"
+				item: "botania:hyacidus"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "74C3A6FD8CE24895"
@@ -776,6 +1152,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "3D064A1ABDA714FC"
+			rewards: [{
+				id: "19065C0A27E35149"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3677960732B4F473"
@@ -788,6 +1169,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "088908F4571DDAFC"
+			rewards: [{
+				id: "1814951CC27B3034"
+				item: "botania:daffomill"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6FFB58A9D69AEB2F"
@@ -800,6 +1186,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "3913ADBF5E5768D2"
+			rewards: [{
+				id: "0D43365969C3B9AC"
+				item: "botania:dreadthorn"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "52FD0F23C2F28380"
@@ -812,6 +1203,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "0F4065AE467AF32A"
+			rewards: [{
+				id: "212D9096C29FB6AF"
+				item: "mythicbotany:exoblaze"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "34EB60D9865D3FDD"
@@ -824,6 +1220,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "0E1862BA7B19BEF5"
+			rewards: [{
+				id: "285D70C7E778430A"
+				item: "botania:jiyuulia"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "64CBBEF896A60B01"
@@ -836,6 +1237,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "6C29CF39548272D5"
+			rewards: [{
+				id: "79F4EB82B396AF63"
+				item: "mythicbotany:hellebore"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "67673CE7291172C4"
@@ -848,6 +1254,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "2EB5F4123CEDA536"
+			rewards: [{
+				id: "2BC7D3B5DC5A58AC"
+				item: "botania:fallen_kanade"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "020D272752265253"
@@ -860,6 +1271,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "6F560E40B7E6C58B"
+			rewards: [{
+				id: "534F562813CD75CD"
+				item: "botania:heisei_dream"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "05016BBF249B0A5C"
@@ -872,6 +1288,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "42850076FBEEB673"
+			rewards: [{
+				id: "48F65477857E4C82"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2FF963C699A9EE70"
@@ -884,6 +1305,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "01AC288C629ABB04"
+			rewards: [{
+				id: "0A426D2A37A12122"
+				item: "mythicbotany:aquapanthus"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7A92CE13EE11E018"
@@ -896,6 +1322,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "7D71921BDA4F9D55"
+			rewards: [{
+				id: "2B80E5227BC8A203"
+				item: "botania:solegnolia"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5C803534AE27F68A"
@@ -908,6 +1339,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "007857A950F1858B"
+			rewards: [{
+				id: "6B38BA83F8683048"
+				item: "botania:bergamute"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4F85CA7ADB76D435"
@@ -920,6 +1356,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "771BB095607EED8F"
+			rewards: [{
+				id: "554012174A55B90F"
+				item: "botania:bubbell"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "30092D07BFD21CCE"
@@ -932,6 +1373,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "165CC75B981EC09C"
+			rewards: [{
+				id: "2D4F860BE5B0BB06"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6B1CB5F59C887AE7"
@@ -944,6 +1390,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "6A7E379313D56789"
+			rewards: [{
+				id: "1516E10975784536"
+				item: "botania:endoflame"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "24946A9733657B65"
@@ -956,6 +1407,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "3198105BCFD53229"
+			rewards: [{
+				id: "6EB1C4B7F1582239"
+				item: "botania:thermalily"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "04CAD19DEBCB184B"
@@ -968,6 +1424,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "65A20DBA79DFD486"
+			rewards: [{
+				id: "7E95D6AC2C1B1B0E"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0066C2E69CF9C6A9"
@@ -980,6 +1441,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "0ABFCC40A08AE099"
+			rewards: [{
+				id: "01973C45589FC8EF"
+				item: "botania:munchdew"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6EFCCDD34F61CE13"
@@ -992,6 +1458,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "57318ED8B82866E2"
+			rewards: [{
+				id: "4E8508452B9A7C35"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "558EE65D39BFB936"
@@ -1004,6 +1475,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "6AE78DA4F1193D85"
+			rewards: [{
+				id: "4CC0240B11DB1C8D"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "40D2E889AF1D2FBE"
@@ -1016,6 +1492,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "7C3B7E0E5A8CCDF1"
+			rewards: [{
+				id: "1517EDCA1C230257"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "169E1196CE2AFE4C"
@@ -1028,6 +1509,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "0206D673BE21040E"
+			rewards: [{
+				id: "2D2D7BCE5519CC65"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1DFBB3E97198702D"
@@ -1040,6 +1526,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "3B02DA34F60F9D9A"
+			rewards: [{
+				id: "5D76FACCF128799C"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "010AB2C8E11DDF79"
@@ -1052,6 +1543,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "14510E9BA8142082"
+			rewards: [{
+				id: "1987F78400C6FF5F"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Game of Life"
 			tasks: [{
@@ -1065,6 +1561,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "26E3FC3FA7F71017"
+			rewards: [{
+				id: "1D8CC4310673B32A"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "78B63F193781D826"
@@ -1077,6 +1578,11 @@
 		{
 			dependencies: ["54B5F0581A53E554"]
 			id: "7BBD085B4A2BB386"
+			rewards: [{
+				id: "729134280AA4EAEE"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0546561920496769"
@@ -1089,6 +1595,13 @@
 		{
 			dependencies: ["2D6EB524F42CC52D"]
 			id: "39CF489B7CC76F3D"
+			rewards: [{
+				count: 2
+				id: "65284C36E7C95CEB"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -1117,14 +1630,37 @@
 		}
 		{
 			dependencies: ["0B667F809A611C50"]
+			description: ["{image:techev:textures/misc/quests/botania/terrestrial_agglomeration.png width:107 height:62 align:1 fit:true}"]
 			id: "5A83592EEA25F8E7"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "07E01EBFF879E7A2"
-				item: "botania:terra_plate"
+			rewards: [{
+				count: 2
+				id: "3BEF7C7064EDBDEE"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "07E01EBFF879E7A2"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "558BDD8CA05FC4F3"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "23F6840E2D488172"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+			]
+			title: "&lTerrestrial Agglomeration Plate"
 			x: 7.0d
 			y: -1.0d
 		}
@@ -1133,20 +1669,50 @@
 				"75A93E055E9AFA91"
 				"618A1D443C40D785"
 			]
+			description: ["{image:techev:textures/misc/quests/botania/mana_infuser.png width:102 height:57 align:1 fit:true}"]
 			id: "7C77AC2DE3B94418"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "476113365775FEC5"
-				item: "mythicbotany:mana_infuser"
+			rewards: [{
+				count: 2
+				id: "4237486F211D9E0C"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "476113365775FEC5"
+					item: "mythicbotany:mana_infuser"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "62F6190C77686939"
+					item: "botania:shimmerrock"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7EC29E3CD3CAEF4B"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			title: "&lMana-Infuser"
 			x: 4.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["51C7D41855F2F564"]
 			id: "16608C865461D39F"
+			rewards: [{
+				count: 2
+				id: "0EADF90192662A84"
+				item: "coinsje:iron_coin"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [
@@ -1236,6 +1802,7 @@
 		}
 		{
 			dependencies: ["4198E4164B5403D8"]
+			description: ["{image:techev:textures/misc/quests/botania/elven_gateway.png width:797 height:574 align:1 fit:true}"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1244,32 +1811,73 @@
 				}
 			}
 			id: "3697BEFEEB23A9E5"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "0EBF481DB2FB937E"
-				item: "botania:alfheim_portal"
-				title: "&eElven Gateway Core"
+			rewards: [{
+				count: 2
+				id: "539B9B69E4BEDF98"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0EBF481DB2FB937E"
+					item: "botania:alfheim_portal"
+					title: "&eElven Gateway Core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7EEC20E8CCC95315"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2A656132E43A07C3"
+					item: "botania:glimmering_livingwood_log"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0DAEFF424A7EEE6D"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			title: "&l&eElven Gateway Core"
 			x: 7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["187B0BA33A60E567"]
 			id: "2ED488A9676E4608"
+			rewards: [{
+				id: "28CFFD4B7E454DBE"
+				item: "botania:gaia_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "2E020F0DDA9B7DB7"
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
+			title: "&lGaia Spirit Ingot"
 			x: -0.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["0C971774BECDC2E3"]
 			id: "28379A273B0C6897"
+			rewards: [{
+				id: "373E39E78069C24F"
+				item: "coinsje:gold_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -1277,24 +1885,49 @@
 				item: "mythicbotany:mjoellnir"
 				type: "item"
 			}]
+			title: "&lMjöllnir"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2D6EB524F42CC52D"]
 			id: "6C4D42DE42715528"
+			rewards: [{
+				count: 2
+				id: "18F5D8FF9413EBBC"
+				item: "botania:manasteel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "2620D93464BB5C52"
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
+			title: "&l&9Manasteel Ingot"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2D6EB524F42CC52D"]
 			id: "1E083E30D14763B1"
+			rewards: [
+				{
+					count: 2
+					id: "2974B7A45C348E59"
+					item: "botania:mana_diamond"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77436E4F777EC157"
+					item: "botania:mana_pearl"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1308,18 +1941,27 @@
 					type: "item"
 				}
 			]
+			title: "&l&bMana Materials"
 			x: 2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["5A83592EEA25F8E7"]
 			id: "4198E4164B5403D8"
+			rewards: [{
+				count: 2
+				id: "1BADD575BD7835B4"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "7942DDE2C1044B9F"
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
+			title: "&l&aTerrasteel Ingot"
 			x: 7.5d
 			y: -2.5d
 		}
@@ -1329,30 +1971,58 @@
 				"0D39F45B20FE632A"
 			]
 			id: "75A93E055E9AFA91"
+			rewards: [{
+				count: 2
+				id: "2ADC6278B0C66114"
+				item: "botania:elementium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "3F891D43D165CBC5"
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
+			title: "&l&dElementium Ingot"
 			x: 5.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["7C77AC2DE3B94418"]
 			id: "78820747E9744107"
+			rewards: [{
+				id: "61714865A3B90EDE"
+				item: "mythicbotany:alfsteel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "7BFD9AD327A6CBE5"
 				item: "mythicbotany:alfsteel_ingot"
 				type: "item"
 			}]
+			title: "&l&6Alfsteel Ingot"
 			x: 2.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["78820747E9744107"]
+			icon: {
+				Count: 1b
+				id: "mythicbotany:alfsteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0E69C984C2EA1B16"
+			rewards: [{
+				id: "2F5ADEEB3C338843"
+				item: "mythicbotany:alfsteel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1400,12 +2070,27 @@
 					type: "item"
 				}
 			]
+			title: "Alfsteel Stuff"
 			x: 3.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["75A93E055E9AFA91"]
+			icon: {
+				Count: 1b
+				id: "botania:elementium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5DC18D1BEB676D97"
+			rewards: [{
+				count: 2
+				id: "15E78FEFFEFE716D"
+				item: "botania:elementium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1453,12 +2138,27 @@
 					type: "item"
 				}
 			]
+			title: "Elementium Stuff"
 			x: 5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4198E4164B5403D8"]
+			icon: {
+				Count: 1b
+				id: "botania:terrasteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5CA39AC19E0EAAB0"
+			rewards: [{
+				count: 2
+				id: "686E2101D5C4BC5F"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1506,12 +2206,19 @@
 					type: "item"
 				}
 			]
+			title: "Terrasteel Stuff"
 			x: 6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1E083E30D14763B1"]
 			id: "5FB8468DFAF2A238"
+			rewards: [{
+				id: "6A0AB5E95E916713"
+				item: "botania:mana_pylon"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "4E7A80A1E4711116"
@@ -1523,41 +2230,85 @@
 		}
 		{
 			dependencies: ["78820747E9744107"]
+			description: [
+				"You'll need to &lShift Right Click &rthe beacon with a &l&aTerrasteel Ingot &rto summon the &lGaia."
+				"{image:techev:textures/misc/quests/botania/gaia.png width:836 height:536 align:1 fit:true}"
+			]
 			icon: "botania:life_essence"
 			id: "187B0BA33A60E567"
+			rewards: [{
+				count: 2
+				id: "694A95B90EB570E8"
+				item: "botania:life_essence"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Kill the Gaia !"
 			tasks: [
 				{
+					count: 4L
 					id: "56AE44656C2694B5"
 					item: "botania:gaia_pylon"
 					type: "item"
 				}
 				{
-					id: "64B478CD6619379A"
+					id: "00388713EB2EB9FF"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "31D5C3C0608FDF96"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "713AF5FE18DE3327"
 					item: "botania:life_essence"
 					type: "item"
 				}
 			]
+			title: "&lGaia"
 			x: 1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2D4BDA920F5DD6DB"]
+			description: [
+				"If you've been drinking the &lWater from the Well of Mimir&r, the &l&6Gaia II &rwill drop this rune."
+				""
+				"You'll need to &lShift Right Click &rthe beacon with a &lGaia Spirit Ingot &rto summon the &l&6Gaia II."
+			]
 			id: "5D722198F9457CA9"
+			rewards: [{
+				id: "09E532EF8DD93B48"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Here we go again"
 			tasks: [{
 				id: "1529E478B43D47C5"
 				item: "mythicbotany:fimbultyr_tablet"
 				type: "item"
 			}]
+			title: "&lRune Tablet of Fimbultyr"
 			x: -5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["6C4D42DE42715528"]
 			id: "2C8CFED6DF500A3D"
+			rewards: [{
+				id: "313AECD5980361C3"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "3749035953068606"
@@ -1570,6 +2321,12 @@
 		{
 			dependencies: ["187B0BA33A60E567"]
 			id: "45293828703A8F24"
+			rewards: [{
+				id: "146C728F11F6BA25"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5AE07BD729E113D2"
@@ -1582,8 +2339,15 @@
 		{
 			dependencies: ["187B0BA33A60E567"]
 			id: "7DA496B1A63D6D1D"
+			rewards: [{
+				id: "62E877282C6C2B2B"
+				item: "coinsje:gold_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
+			subtitle: "Creative Fly !"
 			tasks: [{
 				id: "0431D644AF88A550"
 				item: {
@@ -1595,12 +2359,20 @@
 				}
 				type: "item"
 			}]
+			title: "&lFlügel Tiara"
 			x: 1.0d
 			y: -4.15d
 		}
 		{
 			dependencies: ["6C4D42DE42715528"]
 			id: "37F536D40FD66271"
+			rewards: [{
+				count: 2
+				id: "5DAE15352B214007"
+				item: "botania:manasteel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1625,6 +2397,13 @@
 		{
 			dependencies: ["37F536D40FD66271"]
 			id: "65CAE66B01342D97"
+			rewards: [{
+				count: 2
+				id: "38B91824AA074813"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1649,6 +2428,12 @@
 		{
 			dependencies: ["65CAE66B01342D97"]
 			id: "3731734207C05FA9"
+			rewards: [{
+				id: "1B8C2B97EBD599B8"
+				item: "mythicbotany:alfsteel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1667,7 +2452,21 @@
 		}
 		{
 			dependencies: ["6C4D42DE42715528"]
+			icon: {
+				Count: 1b
+				id: "botania:manasteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0AF731CC48C1EE96"
+			rewards: [{
+				count: 2
+				id: "0007EBB888F821C1"
+				item: "botania:manasteel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1715,6 +2514,7 @@
 					type: "item"
 				}
 			]
+			title: "Manasteel Stuff"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -1724,6 +2524,22 @@
 				"0D39F45B20FE632A"
 			]
 			id: "2F930011EBE790FB"
+			rewards: [
+				{
+					count: 2
+					id: "47AB87382DEC0085"
+					item: "botania:dragonstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "294D65BF1C501611"
+					item: "botania:pixie_dust"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1737,12 +2553,19 @@
 					type: "item"
 				}
 			]
+			title: "&l&dDragonstone &f/ &dPixie Dust"
 			x: 6.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3697BEFEEB23A9E5"]
 			id: "2219D4C3695ED03D"
+			rewards: [{
+				id: "34279A0BB6B8C0E1"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "05463238818325DB"
@@ -1755,6 +2578,12 @@
 		{
 			dependencies: ["1E083E30D14763B1"]
 			id: "08C5128B144CAA80"
+			rewards: [{
+				id: "7394AE9078268293"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "11F12270F1C07E3A"
@@ -1770,6 +2599,12 @@
 				"0C971774BECDC2E3"
 			]
 			id: "2EC7460088069E92"
+			rewards: [{
+				id: "52545D0A9EAEE789"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "31162A7FF68D0A7C"
@@ -1781,7 +2616,14 @@
 		}
 		{
 			dependencies: ["2EC7460088069E92"]
+			description: ["Drinking this &lMead &rwill allow you to travel to the &6&lAlfheim Dimension&r."]
 			id: "0C552677B9134045"
+			rewards: [{
+				id: "6FBB821333965C72"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5616CA0E7FC77968"
@@ -1794,6 +2636,12 @@
 		{
 			dependencies: ["08C5128B144CAA80"]
 			id: "2BB451CD9D71108A"
+			rewards: [{
+				id: "43BD7DAA4AFF554B"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6F3B78D936ACD351"
@@ -1806,6 +2654,13 @@
 		{
 			dependencies: ["5D722198F9457CA9"]
 			id: "0C971774BECDC2E3"
+			rewards: [{
+				count: 2
+				id: "6D47770EAF53CC23"
+				item: "mythicbotany:rune_holder"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1825,6 +2680,12 @@
 		{
 			dependencies: ["0B667F809A611C50"]
 			id: "4919EC4063303730"
+			rewards: [{
+				id: "54324BE984BB5F6C"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "7C5A9ABF46CD5654"
@@ -1848,6 +2709,12 @@
 		{
 			dependencies: ["0B667F809A611C50"]
 			id: "3647FA834CACE05A"
+			rewards: [{
+				id: "585D5AA0A2E142B7"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "28DBE67BCDAC4216"
@@ -1860,6 +2727,13 @@
 		{
 			dependencies: ["3647FA834CACE05A"]
 			id: "06B1F7C808441999"
+			rewards: [{
+				count: 2
+				id: "1A27DF97E738DA3F"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6B8FD7EB53E7F0A2"
@@ -1872,6 +2746,13 @@
 		{
 			dependencies: ["3647FA834CACE05A"]
 			id: "19BAF827010133B3"
+			rewards: [{
+				count: 6
+				id: "0FF9478DE3F2B099"
+				item: "coinsje:copper_coin"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "326665D8964DC1C7"
@@ -1884,6 +2765,13 @@
 		{
 			dependencies: ["75A93E055E9AFA91"]
 			id: "48246DF4071E5546"
+			rewards: [{
+				count: 2
+				id: "1373553A6BED1F4C"
+				item: "botania:elementium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1935,6 +2823,13 @@
 		{
 			dependencies: ["6C4D42DE42715528"]
 			id: "50CE582829E30C0F"
+			rewards: [{
+				count: 2
+				id: "30DC0BCD625B5389"
+				item: "botania:manasteel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1964,6 +2859,12 @@
 		{
 			dependencies: ["187B0BA33A60E567"]
 			id: "2EB8E4FBCFF0EA98"
+			rewards: [{
+				id: "3D20C9FA1C7F7318"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "0967126560607077"
@@ -1976,6 +2877,12 @@
 		{
 			dependencies: ["187B0BA33A60E567"]
 			id: "18344B0EC9E08151"
+			rewards: [{
+				id: "4BE0F35FD9BE9AC9"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "168BA862D2682B88"
@@ -1988,6 +2895,12 @@
 		{
 			dependencies: ["2ED488A9676E4608"]
 			id: "0A4439EFF9985CE5"
+			rewards: [{
+				id: "4347B6C26DEC2294"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "366811F32305C889"
@@ -2000,6 +2913,13 @@
 		{
 			dependencies: ["5770B7ECB01B728D"]
 			id: "5FA7DE053C0AE093"
+			rewards: [{
+				count: 2
+				id: "2C6836C2C3CF7036"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "4AC833F121269659"
@@ -2012,6 +2932,13 @@
 		{
 			dependencies: ["187B0BA33A60E567"]
 			id: "405CB73EB1AD3CCE"
+			rewards: [{
+				count: 2
+				id: "1B0E407A9CB1D051"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2035,12 +2962,19 @@
 					type: "item"
 				}
 			]
+			title: "Cloaks"
 			x: 2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["187B0BA33A60E567"]
 			id: "3352538F44CFAD7D"
+			rewards: [{
+				id: "51D09A60056FB2E0"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2064,6 +2998,12 @@
 		{
 			dependencies: ["187B0BA33A60E567"]
 			id: "6BA517650264D8EB"
+			rewards: [{
+				id: "55B880F8C4BC8668"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "19A2869890ABC303"
@@ -2076,6 +3016,12 @@
 		{
 			dependencies: ["4F38D317BD52D2CD"]
 			id: "2D4BDA920F5DD6DB"
+			rewards: [{
+				id: "3474B040020B2C75"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2095,6 +3041,12 @@
 		{
 			dependencies: ["237862DC63A64FF3"]
 			id: "4F38D317BD52D2CD"
+			rewards: [{
+				id: "66D4F1B35862D3C6"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5AF8642874F4AA27"
@@ -2107,6 +3059,12 @@
 		{
 			dependencies: ["11297213522089CF"]
 			id: "228C17CBF2B7CE58"
+			rewards: [{
+				id: "25A9CE50C9FDFED6"
+				item: "botania:mana_distributor"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5BF76962BE9D5093"
@@ -2119,6 +3077,13 @@
 		{
 			dependencies: ["5A83592EEA25F8E7"]
 			id: "69924BD7620A0271"
+			rewards: [{
+				count: 2
+				id: "1108A4EF558CF17F"
+				item: "botania:spark"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "123751F7939D3BAA"
@@ -2131,6 +3096,32 @@
 		{
 			dependencies: ["69924BD7620A0271"]
 			id: "22DDB0CBA84888F5"
+			rewards: [
+				{
+					id: "6F232107691B5CB1"
+					item: "botania:spark_upgrade_dispersive"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "132A38D5E74369F4"
+					item: "botania:spark_upgrade_dominant"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4DC3207202289C25"
+					item: "botania:spark_upgrade_recessive"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3790F890BB6B2316"
+					item: "botania:spark_upgrade_isolated"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2160,6 +3151,12 @@
 		{
 			dependencies: ["3697BEFEEB23A9E5"]
 			id: "4BA3241BBB4E580A"
+			rewards: [{
+				id: "26260911E23C27ED"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "42AE04372D20F2C4"
@@ -2184,6 +3181,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "100x Bigger than Diluted"
 			tasks: [{
 				id: "2C02F094805629D8"
 				item: "botania:mana_pool"
@@ -2194,6 +3192,7 @@
 		}
 		{
 			dependencies: ["2ED488A9676E4608"]
+			description: ["{image:techev:textures/misc/quests/botania/dark_elven_gateway.png width:573 height:574 align:1 fit:true}"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -2202,17 +3201,46 @@
 				}
 			}
 			id: "237862DC63A64FF3"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "5CA7EFF62D22AF86"
-				item: "techev_additions:svartalfheim_portal"
-				title: "&dDark Elven Gateway Core"
+			rewards: [{
+				count: 2
+				id: "3D0028496AF7B899"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5CA7EFF62D22AF86"
+					item: "techev_additions:svartalfheim_portal"
+					title: "&dDark Elven Gateway Core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7CE261AF49A02D7A"
+					item: "botania:dreamwood_log"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5631812CCB33B6C7"
+					item: "botania:glimmering_dreamwood_log"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "52FFB9D72E5017C8"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+			]
+			title: "&l&dDark Elven Gateway Core"
 			x: -2.0d
 			y: -5.0d
 		}
 	]
+	subtitle: ["Harnessing the Power of the Earth, the Mana"]
 	title: " &l&d♦ &rBotania"
 }

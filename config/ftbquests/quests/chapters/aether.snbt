@@ -211,6 +211,11 @@
 			]
 			icon: "undergarden:catalyst"
 			id: "74C04BCEAF0AABF7"
+			rewards: [{
+				id: "2B28F68E7F80FE85"
+				item: "undergarden:music_disc_mammoth"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "First Step, in Depths"
@@ -240,6 +245,12 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			description: ["Utherium Crystals can be obtained from mining of from looting."]
 			id: "5D8972FA2595DA5D"
+			rewards: [{
+				id: "261A0580E37CB547"
+				item: "undergarden:utherium_crystal"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "673AF20C739E75D6"
@@ -257,6 +268,13 @@
 				"{image:techev:textures/misc/quests/undergarden/stoneborn.png width:66 height:164 align:1}"
 			]
 			id: "2E474B4F16827A33"
+			rewards: [{
+				count: 2
+				id: "5AE89E392FD994AB"
+				item: "undergarden:regalium_crystal"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Emeralds of Undergarden"
 			tasks: [{
@@ -275,6 +293,12 @@
 				"They are primarily used to upgrade cloggrum gear into forgotten gear."
 			]
 			id: "23778655D45E5898"
+			rewards: [{
+				id: "0F105444DF9BED9A"
+				item: "undergarden:forgotten_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Mysterious Alloy"
 			tasks: [{
@@ -288,6 +312,12 @@
 		{
 			dependencies: ["74C04BCEAF0AABF7"]
 			id: "684F077B9C4C99F1"
+			rewards: [{
+				id: "426CEDCF381BB466"
+				item: "undergarden:froststeel_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "319505BC6D539206"
@@ -300,6 +330,12 @@
 		{
 			dependencies: ["74C04BCEAF0AABF7"]
 			id: "7451B531B951F0FA"
+			rewards: [{
+				id: "6436E40AB05060AF"
+				item: "undergarden:cloggrum_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Coprolithic Alloy"
 			tasks: [{
@@ -312,7 +348,21 @@
 		}
 		{
 			dependencies: ["684F077B9C4C99F1"]
+			icon: {
+				Count: 1b
+				id: "undergarden:froststeel_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3AF8C1F704764B65"
+			rewards: [{
+				count: 2
+				id: "7E9DE8BD63945E6D"
+				item: "undergarden:froststeel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -371,12 +421,27 @@
 					type: "item"
 				}
 			]
+			title: "Froststeel Tools"
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["684F077B9C4C99F1"]
+			icon: {
+				Count: 1b
+				id: "undergarden:froststeel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2433BD8AF968C71A"
+			rewards: [{
+				count: 2
+				id: "264F9268C3CB3EAF"
+				item: "undergarden:froststeel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -424,12 +489,27 @@
 					type: "item"
 				}
 			]
+			title: "Froststeel Stuff"
 			x: 1.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5D8972FA2595DA5D"]
+			icon: {
+				Count: 1b
+				id: "undergarden:utherium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4FD41FF258EB7F72"
+			rewards: [{
+				count: 2
+				id: "2EAE188A2E0DA981"
+				item: "undergarden:utherium_crystal"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -488,12 +568,27 @@
 					type: "item"
 				}
 			]
+			title: "Utherium Tools"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5D8972FA2595DA5D"]
+			icon: {
+				Count: 1b
+				id: "undergarden:utherium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "24A3056E197B68FA"
+			rewards: [{
+				count: 2
+				id: "62E37A185995076C"
+				item: "undergarden:utherium_crystal"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -541,12 +636,27 @@
 					type: "item"
 				}
 			]
+			title: "Utherium Stuff"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7451B531B951F0FA"]
+			icon: {
+				Count: 1b
+				id: "undergarden:cloggrum_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7814DF6732C1DC9B"
+			rewards: [{
+				count: 2
+				id: "04779BD6531AF610"
+				item: "undergarden:cloggrum_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -604,13 +714,39 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3860800E05AC157D"
+					item: {
+						Count: 1b
+						id: "undergarden:cloggrum_battleaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
+			title: "Cloggrum Tools"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7451B531B951F0FA"]
+			icon: {
+				Count: 1b
+				id: "undergarden:cloggrum_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "403E96938050392F"
+			rewards: [{
+				count: 2
+				id: "4CAFBB8966B8F8E1"
+				item: "undergarden:cloggrum_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -658,12 +794,27 @@
 					type: "item"
 				}
 			]
+			title: "Cloggrum Stuff"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["23778655D45E5898"]
+			icon: {
+				Count: 1b
+				id: "undergarden:forgotten_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "69B5F2C9791F5956"
+			rewards: [{
+				count: 2
+				id: "0EBD5731AE68AC66"
+				item: "undergarden:forgotten_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -721,7 +872,19 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1BA100BD425B4423"
+					item: {
+						Count: 1b
+						id: "undergarden:forgotten_battleaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
+			title: "Forgotten Tools"
 			x: -2.5d
 			y: -3.0d
 		}
@@ -732,12 +895,20 @@
 			]
 			description: ["{image:techev:textures/misc/quests/undergarden/shiverstone_gen.png width:121 height:72 align:1 fit:true}"]
 			id: "3C1FED6889EC0A57"
+			rewards: [{
+				count: 2
+				id: "0554E63B4B6B6E90"
+				item: "undergarden:shiverstone"
+				random_bonus: 6
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "713F1918F6BDDDBB"
 				item: "undergarden:shiverstone"
 				type: "item"
 			}]
+			title: "&lShiverstone"
 			x: 1.0d
 			y: 2.0d
 		}
@@ -747,12 +918,20 @@
 				"0FDF3E5703AAA35E"
 			]
 			id: "200F0417C092637A"
+			rewards: [{
+				count: 2
+				id: "54A742F959D52532"
+				item: "undergarden:wigglewood_log"
+				random_bonus: 6
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "5B161250F335E2F7"
 				item: "undergarden:wigglewood_log"
 				type: "item"
 			}]
+			title: "&lWigglewood"
 			x: -1.0d
 			y: 2.0d
 		}
@@ -778,6 +957,7 @@
 					type: "item"
 				}
 			]
+			title: "Gloomgourd"
 			x: -2.0d
 			y: -5.0d
 		}
@@ -787,6 +967,12 @@
 				"77E8FAB5C0281B61"
 			]
 			id: "15DC1D5B30EB0811"
+			rewards: [{
+				id: "067D5F403E044ABC"
+				item: "undergarden:boomgourd"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -808,6 +994,13 @@
 			description: ["&l&2Blisterberries&r can be collected from &a&nBlisterberry Bushes&r. They also drop &6Rotten Blisterberries&r."]
 			hide_dependency_lines: true
 			id: "77E8FAB5C0281B61"
+			rewards: [{
+				count: 2
+				id: "08C9F3F24485C7A3"
+				item: "undergarden:blisterberry"
+				random_bonus: 6
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -842,6 +1035,13 @@
 				}
 			}
 			id: "25D4EB2EB09310E5"
+			rewards: [{
+				count: 3
+				id: "61D58E6C0154583A"
+				item: "undergarden:forgotten_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -861,6 +1061,13 @@
 		{
 			dependencies: ["74C04BCEAF0AABF7"]
 			id: "7D23355AA75F91EA"
+			rewards: [{
+				count: 8
+				id: "188D2CDAF135DC52"
+				item: "undergarden:depthrock_pebble"
+				random_bonus: 8
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "74C52811B262253C"
@@ -881,6 +1088,13 @@
 			description: ["&l&2Underbeans&r can be collected from &a&nUnderbeans Bushes&r."]
 			hide_dependency_lines: true
 			id: "611713A33DF78446"
+			rewards: [{
+				count: 2
+				id: "072086BB63CAAA29"
+				item: "undergarden:roasted_underbeans"
+				random_bonus: 6
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -901,6 +1115,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "30827A5A598867B6"
+			rewards: [{
+				count: 2
+				id: "4B919F4B88B8D167"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:brute"
@@ -922,6 +1143,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "156F8BB0323160B6"
+			rewards: [{
+				count: 2
+				id: "512297A6EA8656C9"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:dweller"
@@ -948,6 +1176,13 @@
 			]
 			hide_dependency_lines: true
 			id: "7B28B6C9D3632031"
+			rewards: [{
+				count: 2
+				id: "25D8D67C77FAA5FF"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
@@ -969,6 +1204,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "6294BD517547111B"
+			rewards: [{
+				count: 2
+				id: "23CEBFCEE82B3B1A"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:gloomper"
@@ -990,6 +1232,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "6C7EA8A2687AFE72"
+			rewards: [{
+				count: 2
+				id: "41A2C72C299FA57F"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:masticator"
@@ -1011,6 +1260,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "3EE91882D29994C4"
+			rewards: [{
+				count: 2
+				id: "13A3B182B676E4AD"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:muncher"
@@ -1032,6 +1288,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "2E7C0313A6125BFC"
+			rewards: [{
+				count: 2
+				id: "7225E952F9729438"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:nargoyle"
@@ -1053,6 +1316,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "4CB211F26A0AA0A2"
+			rewards: [{
+				count: 2
+				id: "712A880740BAF3E8"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:rotbeast"
@@ -1074,6 +1344,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "026827CFFB3ED946"
+			rewards: [{
+				count: 2
+				id: "596AB53BE7CF01D8"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:rotwalker"
@@ -1095,6 +1372,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "40C1637D76AF6C7F"
+			rewards: [{
+				count: 2
+				id: "5748739B0E145497"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:scintling"
@@ -1116,6 +1400,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "60CFD9053ACF9840"
+			rewards: [{
+				count: 2
+				id: "4E0F5477C11B65DD"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:sploogie"
@@ -1137,6 +1428,13 @@
 			dependencies: ["74C04BCEAF0AABF7"]
 			hide_dependency_lines: true
 			id: "124027EB2F738D3C"
+			rewards: [{
+				count: 2
+				id: "31E3C8DD6047FD06"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				entity: "undergarden:rotling"
@@ -1155,5 +1453,6 @@
 			y: 2.0d
 		}
 	]
+	subtitle: ["Beneath the Surface, Darkness Awaits"]
 	title: " &l&d♦ &rThe Undergarden"
 }

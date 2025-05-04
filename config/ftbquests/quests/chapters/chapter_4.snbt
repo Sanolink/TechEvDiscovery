@@ -36,7 +36,7 @@
 			id: "426F89D59498401B"
 			linked_quest: "72D9087CAB0B9F27"
 			x: 1.5d
-			y: 1.5d
+			y: 1.75d
 		}
 		{
 			id: "248435A03B297C97"
@@ -71,9 +71,8 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "678BAEBE0690588C"
-				item: "ae2:charged_certus_quartz_crystal"
-				type: "item"
+				id: "2C6A3F03E254C57D"
+				type: "checkmark"
 			}]
 			title: "&lApplied Energestics 2"
 			x: 1.5d
@@ -99,6 +98,13 @@
 			dependencies: ["124EB53C169A26C8"]
 			icon: "cataclysm:desert_eye"
 			id: "63894331FBB6B6DA"
+			rewards: [{
+				count: 2
+				id: "0E9C9EA24AB54C8E"
+				item: "coinsje:gold_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "Welcome to Age 4 !"
@@ -206,11 +212,20 @@
 		{
 			dependencies: ["3C1FED6889EC0A57"]
 			id: "09C5AFDD4ADB8458"
+			rewards: [{
+				count: 4
+				id: "55C3DB23BD40F227"
+				item: "compactmachines:wall"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
+				count: 4L
 				id: "5156143F963D8818"
 				item: "compactcrafting:field_projector"
 				type: "item"
 			}]
+			title: "&lCompact Crafting"
 			x: -0.5d
 			y: 3.0d
 		}

@@ -988,7 +988,7 @@
 					type: "item"
 				}
 			]
-			title: "Knightmetal Armor"
+			title: "Knightmetal Stuff"
 			x: 8.5d
 			y: -3.0d
 		}
@@ -2249,5 +2249,6 @@
 			y: -1.0d
 		}
 	]
+	subtitle: ["A Realm Beyond the Fog, Ruled by Myth"]
 	title: " &l&a♦ &rTwilight Forest"
 }

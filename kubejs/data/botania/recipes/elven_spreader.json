@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "botania:spreader",
+  "key": {
+    "E": {
+      "tag": "botania:elementium_ingots"
+    },
+    "S": {
+      "item": "botania:mana_spreader"
+    },
+    "W": {
+      "tag": "botania:dreamwood_logs"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "ES ",
+    "WWW"
+  ],
+  "result": {
+    "item": "botania:elven_spreader"
+  }
+}

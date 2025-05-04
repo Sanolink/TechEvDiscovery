@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "botania:polished_livingrock"
+    },
+    "W": {
+      "item": "botania:polished_livingrock_wall"
+    },
+    "S": {
+      "item": "botania:polished_livingrock_slab"
+    },
+    "P": {
+      "item": "botania:diluted_pool"
+    }
+  },
+  "pattern": [
+    "SPS",
+    " W ",
+    "LLL"
+  ],
+  "result": {
+    "item": "botania:apothecary_livingrock"
+  }
+}

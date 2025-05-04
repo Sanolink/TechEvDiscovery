@@ -25,6 +25,11 @@ ServerEvents.recipes(event => {
         {
             output: 'ae2:meteorite_compass',
             input: ['minecraft:compass', 'ae2:charged_certus_quartz_crystal']
+        },
+        // Guide
+        {
+            output: 'ae2:guide',
+            input: ['minecraft:book', 'ae2:charged_certus_quartz_crystal']
         }
     ]
  

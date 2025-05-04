@@ -186,6 +186,13 @@ ServerEvents.recipes(event => {
     //Powah 
     event.remove({ id: 'powah:crafting/dielectric_paste'})
     event.remove({ id: 'powah:crafting/dielectric_paste_2'})
+    event.remove({ id: 'powah:crafting/energy_cell_basic_2'})
+    event.remove({ id: 'powah:crafting/cable_basic_2'})
+    event.remove({ id: 'powah:crafting/cable_hardened_2'})
+    event.remove({ id: 'powah:crafting/cable_blazing_2'})
+    event.remove({ id: 'powah:crafting/cable_niotic_2'})
+    event.remove({ id: 'powah:crafting/cable_spirited_2'})
+    event.remove({ id: 'powah:crafting/cable_nitro_2'})
     
     //Psi 
     event.remove({ id: 'psi:gold_to_psimetal_assembly_upgrade'})

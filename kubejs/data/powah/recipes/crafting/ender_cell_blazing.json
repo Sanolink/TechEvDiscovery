@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"oio",
+	"ici",
+	"oio"
+  ],
+  "key": {
+	"c": {
+	  "item": "powah:ender_cell_hardened"
+	},
+	"i": {
+	  "item": "powah:capacitor_blazing"
+	},
+	"o": {
+	  "item": "minecraft:obsidian"
+	}
+  },
+  "result": {
+	"item": "powah:ender_cell_blazing"
+  }
+}

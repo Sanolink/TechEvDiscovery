@@ -4,13 +4,13 @@
         {
             "chance": 0.9,
             "output": {
-                "item": "kubejs:raw_cuperzinate"
+                "item": "techev_additions:raw_cuperzinate"
             }
         },
         {
             "chance": 0.1,
             "output": {
-                "item": "kubejs:raw_cuperzinate_block"
+                "item": "techev_additions:raw_cuperzinate_block"
             }
         }
     ],
@@ -33,5 +33,5 @@
     ],
     "weight": 10,
     "fail_chance": 0.15,
-    "sample_background": "kubejs:raw_cuperzinate_block"
+    "sample_background": "techev_additions:raw_cuperzinate_block"
 }

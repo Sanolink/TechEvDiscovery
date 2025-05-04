@@ -27,15 +27,15 @@
     "entity_health": true,
     "energy_storage": true,
     "entity_armor.max_for_render": 40,
-    "enchantment_power": true,
     "breaking_progress": true,
+    "enchantment_power": true,
     "tnt_stability": true,
     "villager_profession": true,
     "mob_breeding": true,
     "entity_health.icons_per_line": 10,
     "item_frame": true,
-    "crop_progress": true,
     "fluid.detailed": false,
+    "crop_progress": true,
     "total_enchantment_power": true,
     "potion_effects": true,
     "command_block": true,
@@ -74,11 +74,32 @@
     "ench": true,
     "spawner": true
   },
+  "botania_editor": {
+    "botania_spreader": true,
+    "botania_spreader_advanced": true,
+    "botania_mana": true,
+    "botania_flower": true
+  },
   "lootr": {
     "info": true
   },
   "custommachinery": {
     "machine_component_provider": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "modularrouters": {
+    "router": true
   },
   "ars_nouveau": {
     "mob_jar": true

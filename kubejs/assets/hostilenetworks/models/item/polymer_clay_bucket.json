@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hostilenetworks:item/polymer_clay_bucket"
+  }
+}

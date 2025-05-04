@@ -1,0 +1,37 @@
+{
+  "type": "blue_skies:venom_spider",
+  "name": "entity.blue_skies.venom_spider",
+  "name_color": "0x3C6244",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:empty_prediction"
+  },
+  "base_drop": {
+    "item": "hostilenetworks:blue_skies_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.venom_spider",
+  "fabricator_drops": [
+		{
+			"item": "minecraft:string",
+			"count": 32
+		},
+    {
+			"item": "blue_skies:bug_guts",
+			"count": 32
+		},
+		{
+			"item": "minecraft:spider_eye",
+			"count": 16
+		},
+    {
+			"item": "minecraft:cobweb",
+			"count": 4
+		}
+  ],
+  "tier_data": [6, 54, 354, 1254],
+  "data_per_kill": [1, 4, 10, 18]
+}

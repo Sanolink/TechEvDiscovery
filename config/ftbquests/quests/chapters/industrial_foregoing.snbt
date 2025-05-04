@@ -2606,7 +2606,14 @@
 			shape: "diamond"
 			tasks: [{
 				id: "4C47D1A715670201"
-				item: "industrialforegoing:sludge_bucket"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "industrialforegoing:sludge_containors"
+					}
+				}
+				title: "Any Sludge Containors"
 				type: "item"
 			}]
 			title: "&lSludge"
@@ -2667,5 +2674,6 @@
 			y: -14.5d
 		}
 	]
-	title: "Industrial Foregoing"
+	subtitle: ["Mass Production, Unleashed"]
+	title: " &l&b♦ &rIndustrial Foregoing"
 }

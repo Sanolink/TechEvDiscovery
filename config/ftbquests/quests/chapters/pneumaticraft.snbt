@@ -1229,5 +1229,6 @@
 			y: -2.0d
 		}
 	]
-	title: "PneumaticCraft"
+	subtitle: ["Harnessing the Invisible Force: Air as Power"]
+	title: " &l&b♦ &rPneumaticCraft"
 }

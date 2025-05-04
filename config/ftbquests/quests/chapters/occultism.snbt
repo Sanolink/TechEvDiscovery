@@ -1179,6 +1179,73 @@
 			x: -0.5d
 			y: 4.0d
 		}
+		{
+			dependencies: [
+				"63894331FBB6B6DA"
+				"1C96921BA7B90EAF"
+			]
+			description: [
+				"Summon some &lMogs&r with &5&lOccultism&r and collect &2&lDepthrocks Pebbles"
+				""
+				"{image:techev:textures/misc/quests/undergarden/mog.png width:50 height:69 align:1}"
+				""
+				"Tip - You can check how to spawn them with the &lDepthrock Pebble&r in the &lJEI"
+				""
+				"Tip #2 - I &c&lHIGHLY&r recommand to use a &lMob Imprisonment Tool&r and &l&5Mob Duplicator&r from &lIndustrial Foregoing&r to farm these."
+				""
+				"{@pagebreak}"
+				"To do the ritual, you'll need to sacrifice &lSnails&r, you can make an easy snail farm by breeding them with &dBeetroots&r."
+				""
+				""
+				"{image:techev:textures/misc/quests/undergarden/snails_breed.png width:111 height:62 align:1 fit:true}"
+				""
+				"Snails make eggs on the ground when you breed them."
+				"You can also take them with a bucket for transport."
+				"{@pagebreak}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/undergarden/mog.png"
+				}
+			}
+			id: "6F7452A312162674"
+			rewards: [{
+				count: 4
+				id: "3942A8C886157925"
+				item: "undergarden:depthrock_pebble"
+				random_bonus: 12
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Mogs Ritual"
+			tasks: [
+				{
+					entity: "undergarden:mog"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "techev:textures/misc/quests/undergarden/mog.png"
+						}
+					}
+					id: "69BDE7B39BB96B3D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "04B661D4E43E62C5"
+					item: "undergarden:depthrock_pebble"
+					type: "item"
+				}
+			]
+			title: "&lDepthrock Pebbles"
+			x: -10.5d
+			y: 8.25d
+		}
 	]
-	title: "Occultism"
+	subtitle: ["In the Dark, We Summon"]
+	title: " &l&b♦ &rOccultism"
 }

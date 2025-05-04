@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:dusts/signalum"
+    },
+    "G": {
+      "tag": "forge:gems/psigem"
+    },
+    "S": {
+      "item": "psi:cad_socket_signaling"
+    }
+  },
+  "pattern": [
+    "SG ",
+    "GD "
+  ],
+  "result": {
+    "item": "psi:cad_socket_transmissive"
+  }
+}

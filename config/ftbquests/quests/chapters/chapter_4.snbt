@@ -1,0 +1,235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_4"
+	group: "0EBC8803CE24B703"
+	icon: "cataclysm:desert_eye"
+	id: "179A396524ADC3F1"
+	order_index: 4
+	quest_links: [
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "techev:textures/misc/quests/undergarden/mog.png"
+				}
+			}
+			id: "68F442E6901AFD02"
+			linked_quest: "6F7452A312162674"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "7AFA731CA3B2345F"
+			linked_quest: "3C1FED6889EC0A57"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "7AAF6CE1CCE14110"
+			linked_quest: "200F0417C092637A"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "426F89D59498401B"
+			linked_quest: "72D9087CAB0B9F27"
+			x: 1.5d
+			y: 1.75d
+		}
+		{
+			id: "248435A03B297C97"
+			linked_quest: "75A93E055E9AFA91"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "73D7705F9AE2486A"
+			linked_quest: "2F930011EBE790FB"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "661967FA23D93E6C"
+			linked_quest: "0B2F14459EFA699E"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "37B53E4A24B34EE2"
+			linked_quest: "6DF4DC9D0E013BFF"
+			x: 2.5d
+			y: 4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6DF4DC9D0E013BFF"]
+			icon: "ae2:fluix_crystal"
+			id: "6F64D9A367C073CD"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2C6A3F03E254C57D"
+				type: "checkmark"
+			}]
+			title: "&lApplied Energestics 2"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6F64D9A367C073CD"]
+			icon: "techev_additions:techevium"
+			id: "6BF612431ADBCFF4"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Soon, in 1.4.0 !"
+			tasks: [{
+				id: "323A795F677FF661"
+				title: "WIP : Age 4"
+				type: "checkmark"
+			}]
+			title: "&lAge 5 : WIP"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["124EB53C169A26C8"]
+			icon: "cataclysm:desert_eye"
+			id: "63894331FBB6B6DA"
+			rewards: [{
+				count: 2
+				id: "0E9C9EA24AB54C8E"
+				item: "coinsje:gold_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Welcome to Age 4 !"
+			tasks: [{
+				id: "70451DEA0C4A7505"
+				title: "WIP : Age 4"
+				type: "checkmark"
+			}]
+			title: "&d&lPsychotic Innovation"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F7452A312162674"]
+			icon: "undergarden:catalyst"
+			id: "0FDF3E5703AAA35E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "159C64862EA6F509"
+				type: "checkmark"
+			}]
+			title: "&lThe Undergarden"
+			x: -2.25d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"09C5AFDD4ADB8458"
+				"0B2F14459EFA699E"
+			]
+			icon: "thermal:upgrade_augment_3"
+			id: "437DA21FD05860BD"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3B6F66805C4B9A53"
+				type: "checkmark"
+			}]
+			title: "&lThermal Series"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"200F0417C092637A"
+				"3C1FED6889EC0A57"
+			]
+			icon: "botania:lexicon"
+			id: "0D39F45B20FE632A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3B46535F813EBC72"
+				type: "checkmark"
+			}]
+			title: "&lBotania"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"75A93E055E9AFA91"
+				"2F930011EBE790FB"
+			]
+			icon: "psi:cad_core_hyperclocked"
+			id: "39EA64A31323A0A3"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "64B0013B6BF90DD6"
+				type: "checkmark"
+			}]
+			title: "&lPsi"
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72D9087CAB0B9F27"]
+			icon: "powah:charged_snowball"
+			id: "2E2664395197DDEC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "25C2BBDCC85931CF"
+				type: "checkmark"
+			}]
+			title: "&lPowah"
+			x: 2.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["437DA21FD05860BD"]
+			id: "03844453AD98001B"
+			shape: "gear"
+			tasks: [{
+				id: "33F29909A6ADB8CE"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			title: "&lCompact Addons"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C1FED6889EC0A57"]
+			id: "09C5AFDD4ADB8458"
+			rewards: [{
+				count: 4
+				id: "55C3DB23BD40F227"
+				item: "compactmachines:wall"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5156143F963D8818"
+				item: "compactcrafting:field_projector"
+				type: "item"
+			}]
+			title: "&lCompact Crafting"
+			x: -0.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["&lPsychotic Innovation"]
+	title: " &l&d♦ &rChapter 4"
+}

@@ -153,7 +153,7 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Wait for the Sapling to grow to Craft"
+			subtitle: "Wait for the Sapling to grow before Crafting"
 			tasks: [
 				{
 					count: 8L
@@ -734,7 +734,7 @@
 			description: [
 				"&aAura&r is the core of &2&lNature's Aura&r."
 				""
-				"To start generating &aAura&r, you can craft an &dAncient Sapling&r, its leaves creates a little bit of &aAura&r."
+				"To start generating &aAura&r, you can craft an &dAncient Sapling&r, its leaves create a little bit of &aAura&r."
 			]
 			id: "70F88024E8A447F7"
 			rewards: [{
@@ -834,5 +834,6 @@
 			y: 1.5d
 		}
 	]
-	title: "Nature's Aura"
+	subtitle: ["The World’s Pulse, Captured in Essence"]
+	title: " &l&b♦ &rNature's Aura"
 }

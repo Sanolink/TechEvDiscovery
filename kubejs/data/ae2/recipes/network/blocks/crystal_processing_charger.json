@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "tag": "forge:sheetmetals/iron"
+    },
+    "c": {
+      "item": "createaddition:small_light_connector"
+    },
+    "p": {
+      "item": "ae2:calculation_processor"
+    },
+    "s": {
+      "item": "immersiveengineering:wirecoil_structure_steel"
+    }
+  },
+  "pattern": [
+    "ici",
+    "ips",
+    "ici"
+  ],
+  "result": {
+    "item": "ae2:charger"
+  }
+}

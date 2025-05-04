@@ -1,0 +1,6 @@
+{
+  "parent": "custommachinery:machines/psi_infuser_base",
+  "textures": {
+    "north": "custommachinery:block/machines/psi_infuser_idle"
+  }
+}

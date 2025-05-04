@@ -1,0 +1,15 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:coal" },
+        { "item": "eidolon:enchanted_ash" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "thermal:sulfur_dust",
+    "count": 2
+  }
+}

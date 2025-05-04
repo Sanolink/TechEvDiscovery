@@ -4,13 +4,13 @@
         {
             "chance": 0.9,
             "output": {
-                "item": "kubejs:raw_auricargentum"
+                "item": "techev_additions:raw_auricargentum"
             }
         },
         {
             "chance": 0.1,
             "output": {
-                "item": "kubejs:raw_auricargentum_block"
+                "item": "techev_additions:raw_auricargentum_block"
             }
         }
     ],
@@ -33,5 +33,5 @@
     ],
     "weight": 10,
     "fail_chance": 0.15,
-    "sample_background": "kubejs:raw_auricargentum_block"
+    "sample_background": "techev_additions:raw_auricargentum_block"
 }

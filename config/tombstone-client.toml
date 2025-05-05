@@ -11,12 +11,20 @@
 	skip_respawn_screen = false
 	#Shows shield particles on villager [false/true|default:true]
 	show_shield_particle = true
+	#Allows the ghost to appear around you during Halloween [false/true|default:true]
+	enable_halloween_ghost = true
 	#Shows only the elapsed minecraft days since the death on graves [false/true|default:false]
 	date_in_mc_time = false
 	#Display or not the messages of gain of points in knowledge of death [false/true|default:true]
 	display_knowledge_message = true
 	#Equips elytra in priority when recovering your lost items [false/true|default:false]
 	equip_elytra_in_priority = false
+	#Equips shield in priority when recovering your lost items [false/true|default:false]
+	equip_shield_in_priority = false
+	#Sorts the inventory by filling the last slots first [false/true|default:false]
+	reverse_inventory_sorting = false
+	#Automatically equip magic books in Curios slot [false/true|default:false]
+	equip_curio_slot_magic_book = false
 	#Shows the use of the Tombstone's enchantments in tooltip [false/true|default:true]
 	show_info_on_enchantment = true
 	#Favor the tools on the hotbar when recovering a grave [false/true|default:false]
@@ -65,12 +73,4 @@
 	show_tooltip_combine = true
 	#Prevent night vision from flashing when less than 5 seconds left [false/true|default:true]
 	no_blinking_nightvision = true
-	#Automatically equip magic books in Curios slot [false/true|default:false]
-	equip_curio_slot_magic_book = false
-	#Allows the ghost to appear around you during Halloween [false/true|default:true]
-	enable_halloween_ghost = true
-	#Equips shield in priority when recovering your lost items [false/true|default:false]
-	equip_shield_in_priority = false
-	#Sorts the inventory by filling the last slots first [false/true|default:false]
-	reverse_inventory_sorting = false
 

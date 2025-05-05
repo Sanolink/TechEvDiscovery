@@ -10,7 +10,56 @@ to make editing this file much easier.
 {
 	// Trades for a given villager profession. Trade levels are in the range of 1-5
 	"trades_by_profession": {
+		"ae2:fluix_researcher": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
 		"ars_nouveau:shady_wizard": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:alchemist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:nightwatcher": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:shoveler": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:stargazer": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:summoner": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:wrangler": {
 			"1": [],
 			"2": [],
 			"3": [],
@@ -157,6 +206,13 @@ to make editing this file much easier.
 					"type": "corgilib:emerald_for_items"
 				}
 			]
+		},
+		"iceandfire:scribe": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
 		},
 		"immersiveengineering:electrician": {
 			"1": [],
@@ -469,6 +525,13 @@ to make editing this file much easier.
 			"5": []
 		},
 		"minecraft:weaponsmith": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"pneumaticcraft:mechanic": {
 			"1": [],
 			"2": [],
 			"3": [],

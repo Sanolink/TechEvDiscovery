@@ -12,10 +12,10 @@
 		hud_location = "TOP_LEFT"
 		#The horizontal offset of the HUD when no minimap is installed (in pixels)
 		#Default is 2.
-		hud_x_position = 0
+		hud_x_position = 2
 		#The vertical offset of the HUD when no minimap is installed (in pixels)
 		#Default is 2.
-		hud_y_position = 0
+		hud_y_position = 2
 
 		[SeasonHUD.HUD.Colors]
 			#Display the season name in a color?
@@ -57,6 +57,8 @@
 		#(true/false)
 		#Default is false.
 		need_calendar = false
+		#Having the calendar item shows the detailed version of the HUDDefault is false.
+		calendar_detail = false
 		#Show the Tropical seasons (Wet/Dry) in Tropical Biomes.
 		#Will not change the season behavior in the biomes.
 		#(true/false)
@@ -70,22 +72,20 @@
 		#Default is SHOW_DAY.
 		#Allowed Values: NONE, SHOW_DAY, SHOW_WITH_TOTAL_DAYS
 		enable_show_day = "SHOW_DAY"
-		#Having the calendar item shows the detailed version of the HUDDefault is false.
-		calendar_detail = false
 		#Change if you are using a Minecraft day length other than vanilla value and using Fabric Seasons.
 		#Default Minecraft day is 24000.
 		#Range: > 0
 		day_length = 24000
 
 	[SeasonHUD.Minimap]
-		#Show the default SeasonHUD display when the minimap is hidden?
-		#(true/false)
-		#Default is false.
-		enable_show_minimap_hidden = false
 		#Enable integration with minimap mods?
 		#(true/false)
 		#Default is true.
 		enable_minimap_integration = true
+		#Show the default SeasonHUD display when the minimap is hidden?
+		#(true/false)
+		#Default is false.
+		enable_show_minimap_hidden = false
 
 		[SeasonHUD.Minimap.Journeymap]
 			#Display the season above the JourneyMap minimap, instead of below.

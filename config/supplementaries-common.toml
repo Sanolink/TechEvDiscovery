@@ -12,11 +12,6 @@
 	dispenser_minecart = true
 	relayer = true
 
-	[redstone.crystal_display]
-		enabled = true
-		#Makes it so when a crystal display is receiving at 10 or more power and it has another display to its right, it will connect to it forming a 2 wide display. Disable to have more control over them
-		display_carry_over = true
-
 	[redstone.speaker_block]
 		enabled = true
 		#Enable/disable speaker block narrator mode
@@ -67,16 +62,21 @@
 
 	[redstone.turn_table]
 		enabled = true
-		#can rotate entities standing on it?
-		rotate_entities = true
 		#Allows turn table (and wrenches) to shuffle inventories when they turn them horizontally
 		shuffle_inventories = true
+		#can rotate entities standing on it?
+		rotate_entities = true
 
 	[redstone.pulley_block]
 		enabled = true
 		#Chance for a new mineshaft elevator piece to spawn
 		#Range: 0.0 ~ 1.0
 		mineshaft_elevator = 0.02
+
+	[redstone.crystal_display]
+		enabled = true
+		#Makes it so when a crystal display is receiving at 10 or more power and it has another display to its right, it will connect to it forming a 2 wide display. Disable to have more control over them
+		display_carry_over = true
 
 [functional]
 	fodder = true

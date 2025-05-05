@@ -73,7 +73,7 @@
 	boarSpawnWeight = 8
 	#Dragonfly Spawn Weight
 	#Range: 0 ~ 1000
-	dragonflySpawnWeight = 1
+	dragonflySpawnWeight = 8
 	#Catfish Spawn Weight
 	#Range: 0 ~ 1000
 	catfishSpawnWeight = 8

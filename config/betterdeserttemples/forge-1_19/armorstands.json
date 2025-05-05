@@ -15,8 +15,8 @@
   },
   "armoryChestplates": {
     "entries": {
-      "golden_chestplate": 0.2,
-      "chainmail_chestplate": 0.3
+      "chainmail_chestplate": 0.3,
+      "golden_chestplate": 0.2
     },
     "defaultItem": "air"
   },

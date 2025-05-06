@@ -147,7 +147,7 @@
               "add": false
             }
           ],
-          "name": "pneumaticcraft:compressed_iron_block"
+          "name": "pneumaticcraft:iron_block"
         },
         {
           "type": "minecraft:item",

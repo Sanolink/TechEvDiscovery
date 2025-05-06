@@ -311,19 +311,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "pneumaticcraft:item/wip"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 12.0d
-			y: 3.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.5d
 			hover: ["&l&d>> &fAge 4 : Shop"]
 			image: "cataclysm:item/desert_eye"
@@ -409,8 +396,8 @@
 			corner: false
 			dev: false
 			height: 3.5d
-			hover: ["&lCurrently in Work"]
-			image: "ftblibrary:icons/security_private"
+			hover: ["&l&6>> &fAge 5 : Shop"]
+			image: "techev_additions:item/techevium"
 			rotation: 0.0d
 			width: 3.5d
 			x: 16.0d
@@ -428,58 +415,6 @@
 			x: 16.0d
 			y: 7.0d
 		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "pneumaticcraft:item/wip"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -12.0d
-			y: -3.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "pneumaticcraft:item/wip"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 12.0d
-			y: -3.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "pneumaticcraft:item/wip"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -12.0d
-			y: 3.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "pneumaticcraft:item/wip"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -12.0d
-			y: 9.0d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -496,13 +431,13 @@
 			}]
 			shape: "gear"
 			size: 5.0d
-			subtitle: "You can Buy a lot of Things here"
+			subtitle: "You can &lBuy&r a lot of &lThings&r here"
 			tasks: [{
 				id: "168A391849A3C6F4"
 				title: "Work In Progress"
 				type: "checkmark"
 			}]
-			title: "Welcome to the Shop !"
+			title: "&lWelcome to the Shop !"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -543,8 +478,8 @@
 				type: "item"
 			}]
 			title: "&lRandom Relic"
-			x: -4.0d
-			y: 5.0d
+			x: -10.0d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -568,10 +503,11 @@
 				type: "item"
 			}]
 			title: "&lRandom Artifact"
-			x: 4.0d
-			y: 5.0d
+			x: -14.0d
+			y: -3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["4628EDDBF7E3E2BE"]
 			icon: "sushigocrafting:tobiko_salmon_california"
 			id: "6A1298EA9CF793AB"
@@ -579,6 +515,7 @@
 				exclude_from_claim_all: true
 				id: "6769D806777B3D70"
 				table_id: 7601529717495355563L
+				team_reward: true
 				type: "choice"
 			}]
 			shape: "rsquare"
@@ -684,7 +621,7 @@
 				item: "coinsje:gold_coin"
 				type: "item"
 			}]
-			title: "&bBlazing Grips"
+			title: "&b&lBlazing Grips"
 			x: 0.0d
 			y: 7.0d
 		}
@@ -693,6 +630,7 @@
 				"4628EDDBF7E3E2BE"
 				"509461C4B7CFE7C8"
 			]
+			hide_dependent_lines: true
 			icon: "thermal:lock"
 			id: "023EABAB1B83F81E"
 			shape: "gear"
@@ -702,15 +640,16 @@
 				title: "Unlock Age 1 Shop"
 				type: "checkmark"
 			}]
-			title: "Finish Age 1 to Unlock"
+			title: "&lFinish Age 1 to Unlock"
 			x: -8.0d
-			y: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"4628EDDBF7E3E2BE"
 				"6010F0FDE1BB66D2"
 			]
+			hide_dependent_lines: true
 			icon: "thermal:lock"
 			id: "0234A3F922C0AD08"
 			shape: "gear"
@@ -720,15 +659,16 @@
 				title: "Unlock Age 2 Shop"
 				type: "checkmark"
 			}]
-			title: "Finish Age 2 to Unlock"
+			title: "&lFinish Age 2 to Unlock"
 			x: -8.0d
-			y: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
 				"4628EDDBF7E3E2BE"
 				"63894331FBB6B6DA"
 			]
+			hide_dependent_lines: true
 			icon: "thermal:lock"
 			id: "6537B6C1FCFFD891"
 			shape: "gear"
@@ -738,15 +678,16 @@
 				title: "Unlock Age 3 Shop"
 				type: "checkmark"
 			}]
-			title: "Finish Age 3 to Unlock"
-			x: -8.0d
-			y: 9.0d
+			title: "&lFinish Age 3 to Unlock"
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"4628EDDBF7E3E2BE"
 				"6BF612431ADBCFF4"
 			]
+			hide_dependent_lines: true
 			icon: "thermal:lock"
 			id: "6C5C1C50C94FF937"
 			shape: "gear"
@@ -756,9 +697,734 @@
 				title: "Unlock Age 4 Shop"
 				type: "checkmark"
 			}]
-			title: "Finish Age 4 to Unlock"
+			title: "&lFinish Age 4 to Unlock"
 			x: 8.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
+			icon: "skilltree:amnesia_scroll"
+			id: "2A87F599191A91CF"
+			rewards: [{
+				id: "632A846B2786C2F0"
+				item: "skilltree:amnesia_scroll"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5D652B91898AD403"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "&lSkill Tree : &4Reset Points"
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["023EABAB1B83F81E"]
+			icon: "waystones:waystone"
+			id: "16C65D067067D106"
+			rewards: [{
+				id: "2BA705CB1DEC61B1"
+				item: "waystones:waystone"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "5C3A5FD928DCA5A8"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&lWaystone"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
+			icon: "skilltree:wisdom_scroll"
+			id: "61F85C1A571EE23E"
+			rewards: [{
+				id: "0165786E058F8ABA"
+				item: "skilltree:wisdom_scroll"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "1A927118AA5ADA3B"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "&lSkill Tree : &6+1 Point"
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["023EABAB1B83F81E"]
+			icon: "eidolon:pewter_ingot"
+			id: "6D10EC6AB3667A08"
+			rewards: [{
+				count: 32
+				id: "2D70C980456DACC8"
+				item: "eidolon:pewter_ingot"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "354665AE45601810"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&7Pewter"
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["023EABAB1B83F81E"]
+			icon: "eidolon:arcane_gold_ingot"
+			id: "6F893B8640BA745F"
+			rewards: [{
+				count: 32
+				id: "5C2C8FFBC4954CE8"
+				item: "eidolon:arcane_gold_ingot"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "30BBC51050F21569"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&6Arcane Gold"
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["023EABAB1B83F81E"]
+			icon: "create:precision_mechanism"
+			id: "587D1F94B7F316FE"
+			rewards: [{
+				id: "440081D2C68A2F6D"
+				item: "create:precision_mechanism"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "424CB21D0345ED87"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&ePrecision Mechanism"
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["023EABAB1B83F81E"]
+			icon: "alltheores:brass_ingot"
+			id: "3B47D9332A0D0D93"
+			rewards: [{
+				count: 32
+				id: "5B173434DD859051"
+				item: "alltheores:brass_ingot"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "02A5F89D69F88659"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&6Brass"
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["023EABAB1B83F81E"]
+			icon: "create:andesite_alloy"
+			id: "6968A2DAE17DFDEE"
+			rewards: [{
+				count: 32
+				id: "1497CCFB1548F450"
+				item: "create:andesite_alloy"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "4254C76E8D07D8A5"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "&l&7Andesite Alloy"
+			x: -14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4628EDDBF7E3E2BE"]
+			description: [
+				"This page is still in &nBETA&r."
+				""
+				"If you have some ideas to fill up this shop / Buff - Nerf, leave me some comments on the &nDiscord Server&r."
+			]
+			icon: "immersiveengineering:light_bulb"
+			id: "28B1CCD4CBCBC8F2"
+			rewards: [{
+				id: "13F8F570B68110B8"
+				item: "bhc:red_heart"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "73E0EDEBF545778B"
+				type: "checkmark"
+			}]
+			title: "&lIdeas ?"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "ars_nouveau:source_gem"
+			id: "6619AA860AEE9D35"
+			rewards: [{
+				count: 32
+				id: "3EE508307E0651D8"
+				item: "ars_nouveau:source_gem"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "3BA6CE2AAB69CD62"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&5Source Gem"
+			x: -12.0d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "techev_additions:raw_leadosnite_block"
+			id: "01736CE5FD9353F7"
+			rewards: [{
+				count: 16
+				id: "65CD7DC321E29871"
+				item: "techev_additions:raw_leadosnite_block"
+				random_bonus: 16
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4A05B83F0A84AD90"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&9Leadosnite"
+			x: -10.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "techev_additions:raw_cuperzinate_block"
+			id: "6180844408B54B6A"
+			rewards: [{
+				count: 16
+				id: "296FC70A3F261C42"
+				item: "techev_additions:raw_cuperzinate_block"
+				random_bonus: 16
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4F0003CAE4AE879D"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&6Cuperzinate"
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "techev_additions:raw_auricargentum_block"
+			id: "44741E34972D7E03"
+			rewards: [{
+				count: 16
+				id: "004920AC8E298677"
+				item: "techev_additions:raw_auricargentum_block"
+				random_bonus: 16
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5FBA1DF50C5447D5"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&eAuricargentum"
+			x: -10.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "techev_additions:raw_uratinumal_block"
+			id: "7FACC56E1B21D26D"
+			rewards: [{
+				count: 16
+				id: "5B5821BF0330C4C8"
+				item: "techev_additions:raw_uratinumal_block"
+				random_bonus: 16
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6E619C80B8850DCC"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&2Uratinumal"
+			x: -9.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "create_things_and_misc:vibration_mechanism"
+			id: "7B4F67B2C11441F3"
+			rewards: [{
+				id: "2F48D21ACBB1850E"
+				item: "create_things_and_misc:vibration_mechanism"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "2F6391544A5F3F61"
+					item: "coinsje:iron_coin_pile"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "052EB3A0D68B6AFF"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			title: "&l&5Vibration Mechanism"
+			x: -14.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "create_sa:heat_engine"
+			id: "16B2AB77DE17590C"
+			rewards: [{
+				id: "0F33868E988F681B"
+				item: "create_sa:heat_engine"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "503FF4DD864B323C"
+					item: "coinsje:iron_coin_pile"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "425AB4B18949E188"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			title: "&l&2Heat Engine"
+			x: -13.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "create_sa:hydraulic_engine"
+			id: "72DCE878E8221D0A"
+			rewards: [{
+				id: "07BC9B435A2A822E"
+				item: "create_sa:hydraulic_engine"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "362AB0072DC7776A"
+					item: "coinsje:iron_coin_pile"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "05BF50F4581DC74B"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			title: "&l&6Hydraulic Engine"
+			x: -13.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "create_sa:steam_engine"
+			id: "3A5D7CFD7F33E8B7"
+			rewards: [{
+				id: "5B3C1BC883EDF0F0"
+				item: "create_sa:steam_engine"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "29B6EEE6980D8B22"
+					item: "coinsje:iron_coin_pile"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "0169ECCF91DB25BD"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			title: "&l&eSteam Engine"
+			x: -14.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0234A3F922C0AD08"]
+			icon: "alltheores:steel_ingot"
+			id: "70696B03A52F7348"
+			rewards: [{
+				count: 32
+				id: "589B9305168FD699"
+				item: "alltheores:steel_ingot"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "43B6F372715174EC"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&7Steel"
+			x: -12.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6537B6C1FCFFD891"]
+			icon: "pneumaticcraft:printed_circuit_board"
+			id: "21FD3ADF3C1DE97A"
+			rewards: [{
+				count: 2
+				id: "086102D5ECE7B1AD"
+				item: "pneumaticcraft:printed_circuit_board"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "718CE87A4C5E486E"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "&l&2Finished PCB"
+			x: 10.0d
 			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6537B6C1FCFFD891"]
+			icon: "pneumaticcraft:plastic"
+			id: "6CEFC69491664338"
+			rewards: [{
+				count: 32
+				id: "3F0B0C60F519E718"
+				item: "pneumaticcraft:plastic"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "1CB6D95EB24F01C3"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&lPlastic"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6537B6C1FCFFD891"]
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+			id: "3142BC88A2949836"
+			rewards: [{
+				id: "133D7AFE533F0A70"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5672BD2CC77699EF"
+				item: "coinsje:diamond_coin"
+				type: "item"
+			}]
+			title: "&l&aEternal Stella"
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6537B6C1FCFFD891"]
+			icon: "pipez:universal_pipe"
+			id: "41CE46FC0CF89CAA"
+			rewards: [{
+				count: 32
+				id: "0B61B02830FCCA2A"
+				item: "pipez:universal_pipe"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "747A7303153FC4D6"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&lUniversal Pipe"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C5C1C50C94FF937"]
+			icon: "thermal:machine_frame"
+			id: "2E1E9AC3EDBA3FD5"
+			rewards: [{
+				id: "40860EA40AEFD722"
+				item: "thermal:machine_frame"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4319246DF5788182"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "&l&7Machine Frame"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C5C1C50C94FF937"]
+			icon: "fluxnetworks:flux_point"
+			id: "21CBD80EE8249096"
+			rewards: [{
+				count: 2
+				id: "4E4B9F7FAA295E81"
+				item: "fluxnetworks:flux_point"
+				random_bonus: 2
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "48CE9C7D945A3617"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&lFlux Point"
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C5C1C50C94FF937"]
+			icon: "fluxnetworks:flux_plug"
+			id: "07E4E02DD4DB09C0"
+			rewards: [{
+				count: 2
+				id: "5F8295E80468CC6D"
+				item: "fluxnetworks:flux_plug"
+				random_bonus: 2
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "1C0ED3A2F6D9BA97"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&lFlux Plug"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C5C1C50C94FF937"]
+			icon: "botania:elementium_ingot"
+			id: "2CB82A4E5628A481"
+			rewards: [{
+				count: 32
+				id: "7767019F061D0853"
+				item: "botania:elementium_ingot"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "3729F5FBDF0BDF3D"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&dElementium"
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C5C1C50C94FF937"]
+			icon: "thermalendergy:endergy_upgrade_3"
+			id: "62019C152079D6BC"
+			rewards: [{
+				id: "246057DDCA17188D"
+				item: "thermalendergy:endergy_upgrade_3"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "1E098F8478A96A46"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&3Stellar Integral Components"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C5C1C50C94FF937"]
+			icon: "ae2:fluix_crystal"
+			id: "5C8E1585E163B2F2"
+			rewards: [{
+				count: 32
+				id: "195E43DD1ECC6766"
+				item: "ae2:fluix_crystal"
+				random_bonus: 32
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "7B7D62344A6AD67A"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&5Fluix"
+			x: 14.5d
+			y: 3.5d
 		}
 	]
 	title: "&l&a[Market]"

@@ -7,211 +7,13 @@
 		Count: 1b
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "scannable:items/scanner"
+			Icon: "tiab:items/time_in_a_bottle"
 		}
 	}
 	id: "1D2D1EA4F21D239E"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 3.0d
-		hover: [ ]
-		image: "scannable:items/range_module"
-		rotation: 0.0d
-		width: 3.0d
-		x: -7.5d
-		y: -3.5d
-	}]
 	order_index: 6
-	quest_links: [{
-		id: "553473787BC16A54"
-		linked_quest: "6D9403738042644F"
-		shape: "gear"
-		x: -7.5d
-		y: 3.5d
-	}]
+	quest_links: [ ]
 	quests: [
-		{
-			dependencies: [
-				"6D9403738042644F"
-				"734126CF0607FDF9"
-			]
-			id: "573B8F8CC887970D"
-			rewards: [{
-				count: 2
-				id: "5EEA984CFD96B8B4"
-				item: "coinsje:iron_coin"
-				random_bonus: 4
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			tasks: [{
-				id: "596D09FFBB45C9F9"
-				item: "scannable:scanner"
-				type: "item"
-			}]
-			title: "&f&lScanner"
-			x: -7.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["573B8F8CC887970D"]
-			id: "2085A7854DF7BE03"
-			rewards: [{
-				id: "5DA6B66AE41BFAE8"
-				item: "scannable:blank_module"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				id: "1C7F2557A30E2A5B"
-				item: "scannable:blank_module"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2085A7854DF7BE03"]
-			id: "01EFA5FD136B7AFC"
-			rewards: [{
-				id: "444219EEAD7565BA"
-				item: "coinsje:iron_coin"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "585024D3E7BD98E0"
-				item: "scannable:range_module"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2085A7854DF7BE03"]
-			id: "7660EADA383EEDAF"
-			rewards: [{
-				id: "278DB7CF635B1413"
-				item: "coinsje:iron_coin"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "3310BE8A37F5A815"
-				item: "scannable:entity_module"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2085A7854DF7BE03"]
-			id: "4DD98503CD94C4C2"
-			rewards: [{
-				id: "1A10BA10F9A0D3B1"
-				item: "coinsje:iron_coin"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E42C42E98C25812"
-				item: "scannable:friendly_entity_module"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2085A7854DF7BE03"]
-			id: "4FD60EBD8C8B80C4"
-			rewards: [{
-				id: "1522855A17A8B6D8"
-				item: "coinsje:iron_coin"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4A06DECE42392142"
-				item: "scannable:hostile_entity_module"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2085A7854DF7BE03"]
-			id: "5CA64156CA5646E3"
-			rewards: [{
-				id: "55627DD067AEBF0E"
-				item: "coinsje:iron_coin"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "6FF2EF7DA1D51D89"
-				item: "scannable:block_module"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2085A7854DF7BE03"]
-			id: "0A4A63E2DB98887B"
-			rewards: [{
-				id: "0C39B3548369BE0D"
-				item: "coinsje:iron_coin"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "2DECF59B5B242653"
-				item: "scannable:common_ores_module"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2085A7854DF7BE03"]
-			id: "7632A4B5737EC7B5"
-			rewards: [{
-				id: "054015750F362CFF"
-				item: "coinsje:iron_coin"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "6D96FD72EB5A8E28"
-				item: "scannable:rare_ores_module"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2085A7854DF7BE03"]
-			id: "553580BF9BCA2DA0"
-			rewards: [{
-				id: "21B36E0B773ACF9D"
-				item: "coinsje:iron_coin"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "7AFEC1A864EBD706"
-				item: "scannable:fluid_module"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 0.0d
-		}
 		{
 			dependencies: ["00860396C421A15A"]
 			id: "341467386B7F8EFB"
@@ -280,8 +82,8 @@
 				}
 			]
 			title: "&f&lEnder Storage"
-			x: 7.5d
-			y: 2.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
@@ -557,7 +359,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
 				id: "41745B0EF3E0E744"
 				item: {
@@ -575,8 +377,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
@@ -587,7 +389,6 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "diamond"
 			tasks: [{
 				id: "3A764FD05AC0BA4B"
 				item: {
@@ -605,8 +406,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
@@ -617,7 +418,6 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "diamond"
 			tasks: [{
 				id: "1BE94FCE24C858B5"
 				item: {
@@ -630,8 +430,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["73915F14C3CFE8CE"]
@@ -643,14 +443,13 @@
 				random_bonus: 256
 				type: "item"
 			}]
-			shape: "diamond"
 			tasks: [{
 				id: "1A20ABE7E2238315"
 				item: "buildinggadgets:construction_paste_container_t3"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["38A41446F0A450F5"]
@@ -671,7 +470,6 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
 			tasks: [
 				{
 					id: "0E9973AF303C2DAF"
@@ -695,8 +493,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 2.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1C56460E3FAC5045"]
@@ -708,14 +506,13 @@
 				random_bonus: 128
 				type: "item"
 			}]
-			shape: "diamond"
 			tasks: [{
 				id: "1724D39133434E93"
 				item: "buildinggadgets:construction_paste_container_t2"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2E76974D5F572F28"]
@@ -727,14 +524,13 @@
 				random_bonus: 64
 				type: "item"
 			}]
-			shape: "diamond"
 			tasks: [{
 				id: "654CB3244E8A29E4"
 				item: "buildinggadgets:construction_paste_container_t1"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 3.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Powerful Gadgets, Endless Possibilities"]

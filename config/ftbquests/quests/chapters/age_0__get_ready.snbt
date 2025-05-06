@@ -16,7 +16,7 @@
 		rotation: 0.0d
 		width: 6.823333333333333d
 		x: 0.0d
-		y: -7.0d
+		y: -7.5d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -244,6 +244,11 @@
 			]
 			icon: "techev_additions:techevium"
 			id: "5028E3FC925C2C4B"
+			rewards: [{
+				id: "1F450340A6FA3AFA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "What is TechEv ?"
@@ -252,6 +257,40 @@
 				type: "checkmark"
 			}]
 			title: "&lTechEv ?"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["213A3F1A58539F79"]
+			description: [
+				"If you're an experienced explorer, you can play the pack in &l&4Hardcore&r."
+				""
+				"By equipping this ring, every &lSource of Damage&r will deal twice the base damages. "
+			]
+			icon: "enigmaticlegacy:astral_fruit"
+			id: "1F2B44D48D73D345"
+			rewards: [{
+				id: "4761FCFF12FF7D42"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:cursed_ring"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 1.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "7AA702D6F20A012E"
+				type: "checkmark"
+			}]
+			title: "&lHardcore Mode"
 			x: 2.25d
 			y: -3.0d
 		}

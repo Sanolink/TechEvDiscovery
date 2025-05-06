@@ -27,7 +27,7 @@
 			image: "farmersdelight:item/apple_pie_slice"
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.0d
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -40,7 +40,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: -3.5d
-			y: -11.0d
+			y: -12.0d
 		}
 		{
 			click: ""
@@ -359,8 +359,8 @@
 				item: "minecraft:carrot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.0d
+			x: -4.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["42C6D00344063138"]
@@ -555,7 +555,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["747EA72719721F09"]
@@ -2197,7 +2197,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4AA33D15930722BC"]
@@ -2214,7 +2214,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2388,8 +2388,8 @@
 				item: "minecraft:golden_carrot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.5d
+			x: -3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["478D1E1CB1AAFA71"]
@@ -2582,7 +2582,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["7FCF8A5C7478A4EC"]
@@ -3916,6 +3916,76 @@
 			}]
 			x: 16.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["478D1E1CB1AAFA71"]
+			hide_dependency_lines: true
+			id: "06402E9F17D91DDE"
+			rewards: [{
+				id: "7CCED28298C0F5C3"
+				item: "upgrade_aquatic:mulberry"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3126FE7A6F7B6012"
+				item: "upgrade_aquatic:mulberry"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["06402E9F17D91DDE"]
+			id: "7005C409C866810F"
+			rewards: [{
+				id: "0749D44CB03D560A"
+				item: "upgrade_aquatic:mulberry_pie"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "73EE43B2F9CA9F45"
+				item: "upgrade_aquatic:mulberry_pie"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["34BB895D454952E3"]
+			id: "3AD1A2501718E66E"
+			rewards: [{
+				id: "575FC5475FD609ED"
+				item: "upgrade_aquatic:mulberry_bread"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "46982F40B370476B"
+				item: "upgrade_aquatic:mulberry_bread"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["06402E9F17D91DDE"]
+			id: "34BB895D454952E3"
+			rewards: [{
+				id: "5C1D4E6015122B94"
+				item: "upgrade_aquatic:mulberry_jam_bottle"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E15E633CF4FFEBA"
+				item: "upgrade_aquatic:mulberry_jam_bottle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
 		}
 	]
 	subtitle: ["The Humble Beginning of a Culinary Empire"]

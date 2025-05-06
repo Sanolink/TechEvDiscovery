@@ -68,7 +68,7 @@
 				Count: 1b
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "scannable:items/scanner"
+					Icon: "tiab:items/time_in_a_bottle"
 				}
 			}
 			id: "734126CF0607FDF9"

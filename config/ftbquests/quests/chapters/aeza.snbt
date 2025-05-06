@@ -1975,47 +1975,6 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["71310706657288F9"]
-			icon: "apotheosis:reforging_table"
-			id: "7395E98C0F2B3E31"
-			rewards: [
-				{
-					count: 4
-					id: "4EECBD06B547C7F3"
-					item: "apotheosis:gem_dust"
-					random_bonus: 12
-					type: "item"
-				}
-				{
-					id: "3A905EBE8D660F34"
-					item: "apotheosis:mythic_material"
-					random_bonus: 3
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "365E876832AEB611"
-					item: "apotheosis:reforging_table"
-					type: "item"
-				}
-				{
-					id: "6067D80E28D43F1D"
-					item: "apotheosis:gem_cutting_table"
-					type: "item"
-				}
-				{
-					id: "278BC519E42E0D5E"
-					item: "apotheosis:salvaging_table"
-					type: "item"
-				}
-			]
-			title: "Affix Enchanting"
-			x: 5.0d
-			y: -5.5d
-		}
-		{
 			dependencies: ["3A84C8C5E4546480"]
 			id: "71310706657288F9"
 			rewards: [{

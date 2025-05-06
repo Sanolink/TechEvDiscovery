@@ -2579,8 +2579,8 @@
 				type: "item"
 			}]
 			title: "&lBotany Pot"
-			x: 5.5d
-			y: -12.5d
+			x: 4.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -2605,8 +2605,8 @@
 				type: "item"
 			}]
 			title: "&lHopper Botany Pot"
-			x: 5.5d
-			y: -14.0d
+			x: 5.25d
+			y: -12.75d
 		}
 		{
 			dependencies: ["2F07876B33C9A76A"]
@@ -3252,6 +3252,142 @@
 			}]
 			x: 0.5d
 			y: -13.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "40D5CF879ECC320D"
+			rewards: [{
+				id: "3CD7F1718C0C9880"
+				item: "upgrade_aquatic:lionfish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "224CF91D3AE7EED8"
+				item: "upgrade_aquatic:lionfish"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["40D5CF879ECC320D"]
+			id: "6591C9DC002E84CD"
+			rewards: [{
+				id: "4F329E55947BA4CC"
+				item: "upgrade_aquatic:cooked_lionfish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "68FFA94FE1BEE796"
+				item: "upgrade_aquatic:cooked_lionfish"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "1519F3E61B4A14E9"
+			rewards: [{
+				id: "174CD04D4720302B"
+				item: "upgrade_aquatic:perch"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "232FD1AC2B221089"
+				item: "upgrade_aquatic:perch"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1519F3E61B4A14E9"]
+			id: "67EE1F63952AAE5D"
+			rewards: [{
+				id: "1DDDEBEEFFA90D84"
+				item: "upgrade_aquatic:cooked_perch"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E5FB66309883EA2"
+				item: "upgrade_aquatic:cooked_perch"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "7FFADDFF0591ACC7"
+			rewards: [{
+				id: "4AFF55CEB10146AB"
+				item: "upgrade_aquatic:pike"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5B8BD9EAA1F113"
+				item: "upgrade_aquatic:pike"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7FFADDFF0591ACC7"]
+			id: "6DD32A04E31664AA"
+			rewards: [{
+				id: "6F120B849F6141D7"
+				item: "upgrade_aquatic:cooked_pike"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "42B9BDEC6D26EF83"
+				item: "upgrade_aquatic:cooked_pike"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2F07876B33C9A76A"]
+			id: "757CDA84754E45E5"
+			rewards: [{
+				id: "6B36C49D50D05443"
+				item: "aquamirae:spinefish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F90D20C8CAA90F0"
+				item: "aquamirae:spinefish"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["757CDA84754E45E5"]
+			id: "476C786A94D250C6"
+			rewards: [{
+				id: "7057823E92C84843"
+				item: "aquamirae:cooked_spinefish"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "18B9CB36B2E59A36"
+				item: "aquamirae:cooked_spinefish"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -12.5d
 		}
 	]
 	subtitle: ["Fishing Nets and Cocoa Dreams"]

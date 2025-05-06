@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "U": {
+      "item": "thermal_extra:upgrade_augment"
+    },
+    "G": {
+      "tag": "forge:gears/enderium"
+    },
+    "I": {
+      "tag": "forge:ingots/prismalium"
+    },
+    "X": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "pattern": [
+    "IXI",
+    "GUG",
+    "IXI"
+  ],
+  "result": {
+    "item": "thermalendergy:endergy_upgrade_1"
+  }
+}

@@ -924,6 +924,7 @@
 				id: "3EE508307E0651D8"
 				item: "ars_nouveau:source_gem"
 				random_bonus: 32
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -947,6 +948,7 @@
 				id: "65CD7DC321E29871"
 				item: "techev_additions:raw_leadosnite_block"
 				random_bonus: 16
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -969,6 +971,7 @@
 				id: "296FC70A3F261C42"
 				item: "techev_additions:raw_cuperzinate_block"
 				random_bonus: 16
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -991,6 +994,7 @@
 				id: "004920AC8E298677"
 				item: "techev_additions:raw_auricargentum_block"
 				random_bonus: 16
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1013,6 +1017,7 @@
 				id: "5B5821BF0330C4C8"
 				item: "techev_additions:raw_uratinumal_block"
 				random_bonus: 16
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1033,6 +1038,7 @@
 			rewards: [{
 				id: "2F48D21ACBB1850E"
 				item: "create_things_and_misc:vibration_mechanism"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1063,6 +1069,7 @@
 			rewards: [{
 				id: "0F33868E988F681B"
 				item: "create_sa:heat_engine"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1093,6 +1100,7 @@
 			rewards: [{
 				id: "07BC9B435A2A822E"
 				item: "create_sa:hydraulic_engine"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1123,6 +1131,7 @@
 			rewards: [{
 				id: "5B3C1BC883EDF0F0"
 				item: "create_sa:steam_engine"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1155,6 +1164,7 @@
 				id: "589B9305168FD699"
 				item: "alltheores:steel_ingot"
 				random_bonus: 32
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1177,6 +1187,7 @@
 				count: 2
 				id: "086102D5ECE7B1AD"
 				item: "pneumaticcraft:printed_circuit_board"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1202,6 +1213,7 @@
 				id: "3F0B0C60F519E718"
 				item: "pneumaticcraft:plastic"
 				random_bonus: 32
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1231,6 +1243,7 @@
 					id: "forbidden_arcanus:eternal_stella"
 					tag: { }
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1256,6 +1269,7 @@
 				id: "0B61B02830FCCA2A"
 				item: "pipez:universal_pipe"
 				random_bonus: 32
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1277,6 +1291,7 @@
 			rewards: [{
 				id: "40860EA40AEFD722"
 				item: "thermal:machine_frame"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1302,6 +1317,7 @@
 				id: "4E4B9F7FAA295E81"
 				item: "fluxnetworks:flux_point"
 				random_bonus: 2
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1325,6 +1341,7 @@
 				id: "5F8295E80468CC6D"
 				item: "fluxnetworks:flux_plug"
 				random_bonus: 2
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1348,6 +1365,7 @@
 				id: "7767019F061D0853"
 				item: "botania:elementium_ingot"
 				random_bonus: 32
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1369,6 +1387,7 @@
 			rewards: [{
 				id: "246057DDCA17188D"
 				item: "thermalendergy:endergy_upgrade_3"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1393,6 +1412,7 @@
 				id: "195E43DD1ECC6766"
 				item: "ae2:fluix_crystal"
 				random_bonus: 32
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"

@@ -4282,6 +4282,12 @@
 		{
 			dependencies: ["0F1C466FC47A58C4"]
 			id: "15562F6AF996FA12"
+			rewards: [{
+				id: "7E2F895970F60429"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			subtitle: "Denies Mobs Spawning"
 			tasks: [{
 				id: "1375C0B053443728"
@@ -4294,6 +4300,12 @@
 		{
 			dependencies: ["0F1C466FC47A58C4"]
 			id: "7D8EDAF53458889D"
+			rewards: [{
+				id: "675123E4B8BD600C"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			subtitle: "Summons Wild Animals"
 			tasks: [{
 				id: "0AF908D0C0FE406A"
@@ -4306,6 +4318,12 @@
 		{
 			dependencies: ["0F1C466FC47A58C4"]
 			id: "4E3A7513A40AC939"
+			rewards: [{
+				id: "5A74F71FA9DF86A8"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			subtitle: "Increases Gravity"
 			tasks: [{
 				id: "4177D8E4EF57DABD"

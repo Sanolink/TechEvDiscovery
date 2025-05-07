@@ -195,6 +195,7 @@ JEIEvents.hideItems(event => {
         'thermal:lumium_block', 
         'thermal:signalum_block', 
         'thermal:tin_block',
+        'quark:charcoal_block',
 
         //Wires
         'createaddition:copper_wire',

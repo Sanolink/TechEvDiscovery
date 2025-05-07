@@ -63,7 +63,8 @@ ServerEvents.tags('item', e => {
     e.remove('forge:storage_blocks/raw_tin', 'thermal:raw_tin_block')
     e.remove('forge:storage_blocks/raw_uranium', 'immersiveengineering:raw_block_uranium')
     e.remove('forge:storage_blocks/raw_zinc', 'create:raw_zinc_block')
-    
+    e.remove('forge:storage_blocks/charcoal', 'quark:charcoal_block')
+
     //Ingots
     e.remove('forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum')
     e.remove('forge:ingots/brass', 'create:brass_ingot')

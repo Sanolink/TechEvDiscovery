@@ -76,6 +76,7 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:storage_blocks/raw_tin', 'thermal:raw_tin_block'], 'alltheores:raw_tin_block')
     replaceLT(['#forge:storage_blocks/raw_uranium', 'immersiveengineering:raw_block_uranium'], 'alltheores:raw_uranium_block')
     replaceLT(['#forge:storage_blocks/raw_zinc', 'create:raw_zinc_block'], 'alltheores:raw_zinc_block')
+    replaceLT(['#forge:storage_blocks/charcoal', 'quark:charcoal_block'], 'thermal:charcoal_block')
     
     //Ingots
     replaceLT(['#forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum'], 'alltheores:aluminum_ingot')

@@ -65,6 +65,7 @@ ServerEvents.recipes(e => {
     ['#forge:storage_blocks/raw_tin', 'thermal:raw_tin_block'].forEach(I => {replaceIO(I, 'alltheores:raw_tin_block')});
     ['#forge:storage_blocks/raw_uranium', 'immersiveengineering:raw_block_uranium'].forEach(I => {replaceIO(I, 'alltheores:raw_uranium_block')});
     ['#forge:storage_blocks/raw_zinc', 'create:raw_zinc_block'].forEach(I => {replaceIO(I, 'alltheores:raw_zinc_block')});
+    ['#forge:storage_blocks/charcoal', 'quark:charcoal_block'].forEach(I => {replaceIO(I, 'thermal:charcoal_block')});
 
     //Ingots
     ['#forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_ingot')});
@@ -259,6 +260,8 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'industrialforegoing:diamond_gear'})
     e.remove({ id: 'skilltree:copper_nugget'})
     e.remove({ id: 'skilltree:copper_ingot'})
+    e.remove({ id: 'quark:building/crafting/compressed/charcoal_block'})
+    e.remove({ id: 'quark:building/crafting/compressed/charcoal_block_uncompress'})
 
     const RAW_BLOCKS_IE = ['alltheores:raw_aluminum_block', 'alltheores:raw_zinc_block', 'alltheores:raw_lead_block', 'alltheores:raw_silver_block', 'alltheores:raw_nickel_block', 'alltheores:raw_uranium_block']
     const BLOCKS_IE = ['alltheores:silver_block', 'alltheores:lead_block', 'alltheores:steel_block', 'alltheores:electrum_block', 'alltheores:constantan_block', 'alltheores:uranium_block', 'alltheores:nickel_block', 'alltheores:aluminum_block']

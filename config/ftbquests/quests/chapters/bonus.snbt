@@ -416,8 +416,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 7.5d
+			x: -5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -466,8 +466,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 6.5d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -716,7 +716,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: 2.0d
 			y: 7.0d
 		}
 		{
@@ -966,8 +966,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 7.5d
+			x: -4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -1066,8 +1066,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 6.5d
+			x: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -1166,8 +1166,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 6.5d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -1267,7 +1267,7 @@
 				}
 			]
 			x: 0.0d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -1316,8 +1316,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 7.5d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -1466,8 +1466,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 7.0d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -1566,7 +1566,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -0.5d
 			y: 3.5d
 		}
 		{
@@ -1616,8 +1616,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 3.5d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -1666,7 +1666,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: 3.5d
 		}
 		{
@@ -1767,7 +1767,7 @@
 				}
 			]
 			x: 0.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -1816,8 +1816,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 7.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2E8B3F4560477110"]
@@ -1867,7 +1867,7 @@
 				}
 			]
 			x: -5.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2E8B3F4560477110"]
@@ -1967,7 +1967,7 @@
 				}
 			]
 			x: -5.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2E8B3F4560477110"]
@@ -2317,7 +2317,7 @@
 				}
 			]
 			x: 5.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4ED55AE17696DB9B"]
@@ -2367,7 +2367,7 @@
 				}
 			]
 			x: 5.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4ED55AE17696DB9B"]
@@ -2617,7 +2617,7 @@
 				}
 			]
 			x: -3.5d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4EC3E72346F1A76C"]
@@ -2817,7 +2817,7 @@
 				}
 			]
 			x: -3.5d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4EC3E72346F1A76C"]
@@ -2967,7 +2967,7 @@
 				}
 			]
 			x: -3.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4EC3E72346F1A76C"]
@@ -3216,7 +3216,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -5.5d
 			y: -8.5d
 		}
 		{
@@ -3366,7 +3366,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -4.5d
 			y: -8.5d
 		}
 		{
@@ -3416,8 +3416,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -8.5d
+			x: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4EC3E72346F1A76C"]
@@ -3467,7 +3467,7 @@
 				}
 			]
 			x: -3.5d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4EC3E72346F1A76C"]
@@ -3567,7 +3567,7 @@
 				}
 			]
 			x: -3.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4EC3E72346F1A76C"]
@@ -5017,7 +5017,7 @@
 				}
 			]
 			x: 3.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["044F5C413F6DA999"]
@@ -5267,7 +5267,7 @@
 				}
 			]
 			x: 3.5d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["044F5C413F6DA999"]
@@ -5317,7 +5317,7 @@
 				}
 			]
 			x: 3.5d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["044F5C413F6DA999"]
@@ -5367,7 +5367,7 @@
 				}
 			]
 			x: 3.5d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["044F5C413F6DA999"]
@@ -5516,7 +5516,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 5.5d
 			y: -8.5d
 		}
 		{
@@ -5766,7 +5766,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.5d
 			y: -8.5d
 		}
 		{
@@ -5866,8 +5866,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -8.5d
+			x: 6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["044F5C413F6DA999"]
@@ -6067,7 +6067,7 @@
 				}
 			]
 			x: 3.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["044F5C413F6DA999"]
@@ -6417,7 +6417,7 @@
 				}
 			]
 			x: -2.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["11364A85D218348D"]
@@ -6467,7 +6467,7 @@
 				}
 			]
 			x: 2.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["11364A85D218348D"]
@@ -6517,7 +6517,7 @@
 				}
 			]
 			x: -2.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["11364A85D218348D"]
@@ -6717,7 +6717,7 @@
 				}
 			]
 			x: 2.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["11364A85D218348D"]
@@ -6939,6 +6939,153 @@
 			title: "&lFlux Networks"
 			x: 12.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5EB4453CF55EE48B"]
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:duck"
+					}
+				}
+			}
+			id: "0C0E064EE307E539"
+			rewards: [{
+				id: "162A23DE03DC6014"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "75E38E2D4212CE63"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:duck"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21E24AFC4329645B"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:prediction"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:duck"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EB4453CF55EE48B"]
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:lizard"
+					}
+				}
+			}
+			id: "0629B567571EF0BE"
+			rewards: [{
+				id: "5FC9F310B72B12C8"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1A693C12ED8CEEDD"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:lizard"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DD23C1313640FB7"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:prediction"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:lizard"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5EB4453CF55EE48B"]
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:turtle"
+					}
+				}
+			}
+			id: "6EFD10765377C2DC"
+			rewards: [{
+				id: "63CC00D2CFDE53D2"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5BA5DD7C3C011282"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:turtle"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "362E256A75B75E4B"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:prediction"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:turtle"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 7.5d
 		}
 	]
 	subtitle: ["Tiny Worlds, Deadly Networks"]

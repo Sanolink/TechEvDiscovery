@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.2         (_____)
 
 */
 
@@ -63,7 +63,8 @@ ServerEvents.tags('item', e => {
     e.remove('forge:storage_blocks/raw_tin', 'thermal:raw_tin_block')
     e.remove('forge:storage_blocks/raw_uranium', 'immersiveengineering:raw_block_uranium')
     e.remove('forge:storage_blocks/raw_zinc', 'create:raw_zinc_block')
-    
+    e.remove('forge:storage_blocks/charcoal', 'quark:charcoal_block')
+
     //Ingots
     e.remove('forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum')
     e.remove('forge:ingots/brass', 'create:brass_ingot')
@@ -135,7 +136,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:nuggets/brass', 'create:brass_nugget')
     e.remove('forge:nuggets/bronze', 'thermal:bronze_nugget')
     e.remove('forge:nuggets/constantan', 'immersiveengineering:nugget_constantan', 'thermal:constantan_nugget')
-    e.remove('forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget')
+    e.remove('forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget', 'skilltree:copper_nugget')
     e.remove('forge:nuggets/electrum', 'createaddition:electrum_nugget', 'immersiveengineering:nugget_electrum')
     e.remove('forge:nuggets/electrum', 'thermal:electrum_nugget')
     e.remove('forge:nuggets/enderium', 'thermal:enderium_nugget')

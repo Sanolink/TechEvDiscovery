@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.2         (_____)
 
 */
 
@@ -136,7 +136,7 @@ JEIEvents.hideItems(event => {
         'create:zinc_nugget',
         'immersiveengineering:nugget_aluminum', 
         'immersiveengineering:nugget_constantan', 'thermal:constantan_nugget',
-        'immersiveengineering:nugget_copper', 'create:copper_nugget', 'iceandfire:copper_nugget', 'thermal:copper_nugget',
+        'immersiveengineering:nugget_copper', 'create:copper_nugget', 'iceandfire:copper_nugget', 'thermal:copper_nugget', 'skilltree:copper_nugget',
         'immersiveengineering:nugget_electrum', 'createaddition:electrum_nugget', 'thermal:electrum_nugget',
         'immersiveengineering:nugget_lead', 'eidolon:lead_nugget', 'thermal:lead_nugget',
         'immersiveengineering:nugget_nickel', 'thermal:nickel_nugget',
@@ -195,6 +195,7 @@ JEIEvents.hideItems(event => {
         'thermal:lumium_block', 
         'thermal:signalum_block', 
         'thermal:tin_block',
+        'quark:charcoal_block',
 
         //Wires
         'createaddition:copper_wire',

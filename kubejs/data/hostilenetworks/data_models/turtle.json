@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:turtle",
+    "subtypes": [
+      "aquaculture:arrau_turtle",
+      "aquaculture:box_turtle",
+      "aquaculture:starshell_turtle"
+    ],
+    "name": "entity.minecraft.turtle",
+    "name_color": 5635925,
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 64,
+    "input": {
+      "item": "hostilenetworks:empty_prediction",
+      "count": 1
+    },
+    "base_drop": {
+      "item": "hostilenetworks:overworld_prediction",
+      "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.turtle",
+    "fabricator_drops": [
+      {
+        "item": "minecraft:turtle_egg",
+        "count": 16
+      },
+      {
+        "item": "aquaculture:box_turtle",
+        "count": 8
+      },
+      {
+        "item": "aquaculture:arrau_turtle",
+        "count": 8
+      },
+      {
+        "item": "aquaculture:starshell_turtle",
+        "count": 8
+      }
+    ],
+    "tier_data": [
+      6,
+      54,
+      354,
+      1254
+    ],
+    "data_per_kill": [
+      1,
+      4,
+      10,
+      18
+    ]
+  }

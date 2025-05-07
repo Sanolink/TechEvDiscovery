@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.2         (_____)
 
 */
 
@@ -65,6 +65,7 @@ ServerEvents.recipes(e => {
     ['#forge:storage_blocks/raw_tin', 'thermal:raw_tin_block'].forEach(I => {replaceIO(I, 'alltheores:raw_tin_block')});
     ['#forge:storage_blocks/raw_uranium', 'immersiveengineering:raw_block_uranium'].forEach(I => {replaceIO(I, 'alltheores:raw_uranium_block')});
     ['#forge:storage_blocks/raw_zinc', 'create:raw_zinc_block'].forEach(I => {replaceIO(I, 'alltheores:raw_zinc_block')});
+    ['#forge:storage_blocks/charcoal', 'quark:charcoal_block'].forEach(I => {replaceIO(I, 'thermal:charcoal_block')});
 
     //Ingots
     ['#forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_ingot')});
@@ -137,7 +138,7 @@ ServerEvents.recipes(e => {
     ['#forge:nuggets/brass', 'create:brass_nugget'].forEach(I => {replaceIO(I, 'alltheores:brass_nugget')});
     ['#forge:nuggets/bronze', 'thermal:bronze_nugget'].forEach(I => {replaceIO(I, 'alltheores:bronze_nugget')});
     ['#forge:nuggets/constantan', 'immersiveengineering:nugget_constantan', 'thermal:constantan_nugget'].forEach(I => {replaceIO(I, 'alltheores:constantan_nugget')});
-    ['#forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget'].forEach(I => {replaceIO(I, 'alltheores:copper_nugget')});
+    ['#forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget', 'skilltree:copper_nugget'].forEach(I => {replaceIO(I, 'alltheores:copper_nugget')});
     ['#forge:nuggets/electrum', 'createaddition:electrum_nugget', 'immersiveengineering:nugget_electrum', 'thermal:electrum_nugget'].forEach(I => {replaceIO(I, 'alltheores:electrum_nugget')});
     ['#forge:nuggets/enderium', 'thermal:enderium_nugget'].forEach(I => {replaceIO(I, 'alltheores:enderium_nugget')});
     ['#forge:nuggets/invar', 'thermal:invar_nugget'].forEach(I => {replaceIO(I, 'alltheores:invar_nugget')});
@@ -257,6 +258,10 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'industrialforegoing:iron_gear'})
     e.remove({ id: 'industrialforegoing:gold_gear'})
     e.remove({ id: 'industrialforegoing:diamond_gear'})
+    e.remove({ id: 'skilltree:copper_nugget'})
+    e.remove({ id: 'skilltree:copper_ingot'})
+    e.remove({ id: 'quark:building/crafting/compressed/charcoal_block'})
+    e.remove({ id: 'quark:building/crafting/compressed/charcoal_block_uncompress'})
 
     const RAW_BLOCKS_IE = ['alltheores:raw_aluminum_block', 'alltheores:raw_zinc_block', 'alltheores:raw_lead_block', 'alltheores:raw_silver_block', 'alltheores:raw_nickel_block', 'alltheores:raw_uranium_block']
     const BLOCKS_IE = ['alltheores:silver_block', 'alltheores:lead_block', 'alltheores:steel_block', 'alltheores:electrum_block', 'alltheores:constantan_block', 'alltheores:uranium_block', 'alltheores:nickel_block', 'alltheores:aluminum_block']

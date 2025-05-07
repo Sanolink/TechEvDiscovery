@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.2         (_____)
 
 */
 
@@ -148,7 +148,7 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:nuggets/brass', 'create:brass_nugget'], 'alltheores:brass_nugget')
     replaceLT(['#forge:nuggets/bronze', 'thermal:bronze_nugget'], 'alltheores:bronze_nugget')
     replaceLT(['#forge:nuggets/constantan', 'immersiveengineering:nugget_constantan', 'thermal:constantan_nugget'], 'alltheores:constantan_nugget')
-    replaceLT(['#forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget'], 'alltheores:copper_nugget')
+    replaceLT(['#forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget', 'skilltree:copper_nugget'], 'alltheores:copper_nugget')
     replaceLT(['#forge:nuggets/electrum', 'createaddition:electrum_nugget', 'immersiveengineering:nugget_electrum'], 'alltheores:electrum_nugget')
     replaceLT(['#forge:nuggets/electrum', 'thermal:electrum_nugget'], 'alltheores:electrum_nugget')
     replaceLT(['#forge:nuggets/enderium', 'thermal:enderium_nugget'], 'alltheores:enderium_nugget')

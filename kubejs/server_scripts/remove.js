@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.2         (_____)
 
 */
 
@@ -135,6 +135,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'forbidden_arcanus:obsidian_ingot_from_blasting'})
     event.remove({ id: 'forbidden_arcanus:smelting/arcane_crystal_dust_from_smelting' })
     event.remove({ id: 'forbidden_arcanus:obsidian_ingot'})
+
+    //Functional Storage 
+    event.remove({ id: 'functionalstorage:oak_drawer_alternate_x1'})
+    event.remove({ id: 'functionalstorage:oak_drawer_alternate_x2'})
+    event.remove({ id: 'functionalstorage:oak_drawer_alternate_x4'})
 
     //Hostile Neural Networks 
     event.remove({ output: 'hostilenetworks:blank_data_model'})

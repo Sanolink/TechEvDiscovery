@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_rmekanism"
+	group: "7C12EC759EE02863"
+	icon: "mekanism:alloy_atomic"
+	id: "4F10E53C47176267"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&6♦ &rMekanism"
+}

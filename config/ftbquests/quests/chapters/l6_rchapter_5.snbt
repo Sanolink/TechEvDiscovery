@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_rchapter_5"
+	group: "0EBC8803CE24B703"
+	icon: "ae2:singularity"
+	id: "46241183D943E707"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&6♦ &rChapter 5"
+}

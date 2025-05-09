@@ -359,7 +359,7 @@
 				item: "minecraft:carrot"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: -9.5d
 		}
 		{
@@ -2388,7 +2388,7 @@
 				item: "minecraft:golden_carrot"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -9.5d
 		}
 		{
@@ -3107,6 +3107,7 @@
 				"3AD1A2501718E66E"
 				"06402E9F17D91DDE"
 				"34BB895D454952E3"
+				"26A123F663119612"
 			]
 			description: ["Try to craft all foods to unlock the final Age, remember, more you eat, more you get hearts ;)"]
 			hide_dependency_lines: true
@@ -4006,6 +4007,19 @@
 			}]
 			x: 17.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["478D1E1CB1AAFA71"]
+			hide_dependency_lines: true
+			id: "26A123F663119612"
+			shape: "square"
+			tasks: [{
+				id: "7DAE8F563759EF45"
+				item: "bhc:relic_apple"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
 		}
 	]
 	subtitle: ["The Humble Beginning of a Culinary Empire"]

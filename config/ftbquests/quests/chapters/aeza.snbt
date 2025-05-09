@@ -2485,10 +2485,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"6BAFC3CFF66D616A"
-				"59E6103F47B93BF8"
-			]
+			dependencies: ["59E6103F47B93BF8"]
 			id: "51F8911A6EE2F7B6"
 			rewards: [{
 				count: 16

@@ -49,6 +49,9 @@
   "tombstone": {
     "graves": true
   },
+  "entangled": {
+    "entangled_block_component": true
+  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
@@ -70,9 +73,7 @@
     "mod_name": true
   },
   "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
+    "ench": true
   },
   "botania_editor": {
     "botania_spreader": true,
@@ -98,14 +99,48 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "bee_attributes": true,
+    "productive_bee": true
+  },
   "modularrouters": {
     "router": true
+  },
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
   },
   "ars_nouveau": {
     "mob_jar": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
   },
   "pipez": {
     "pipe": true
@@ -132,5 +167,10 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   }
 }

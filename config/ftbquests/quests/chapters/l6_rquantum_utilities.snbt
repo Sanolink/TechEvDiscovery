@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_rquantum_utilities"
+	group: "7C12EC759EE02863"
+	icon: "angelring:angel_ring"
+	id: "3FDB296086D3A6D8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&6♦ &rQuantum Utilities"
+}

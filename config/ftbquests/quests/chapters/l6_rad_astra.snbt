@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_rad_astra"
+	group: "7C12EC759EE02863"
+	icon: "ad_astra:earth_globe"
+	id: "699C036049936502"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&6♦ &rAd Astra"
+}

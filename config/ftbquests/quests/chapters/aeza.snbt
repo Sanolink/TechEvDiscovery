@@ -5,18 +5,417 @@
 	group: "6E6EAE103F859B8D"
 	icon: "minecraft:ender_eye"
 	id: "65D4062281B5E14D"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 9.0d
-		hover: [ ]
-		image: "techev:textures/misc/quests/music_notes.png"
-		rotation: 0.0d
-		width: 14.6341463d
-		x: -4.642857142857146d
-		y: -8.642857142857139d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/music_notes.png"
+			rotation: 0.0d
+			width: 14.6341463d
+			x: -4.642857142857146d
+			y: -8.642857142857139d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:textures/thaumcraft/dragon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "iceandfire:textures/item/dragon_stick_fire.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbchunks:textures/faces/iceandfire/lightning_dragon.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbchunks:textures/faces/iceandfire/fire_dragon.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbchunks:textures/faces/iceandfire/ice_dragon.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.525136894387742d
+			y: -8.484693877551024d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.8125d
+			hover: [ ]
+			image: "byg:textures/biome_previews/shulkren_forest.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ae2:block/spatial_pylon/base_end"
+			rotation: -90.0d
+			width: 4.0d
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ae2:block/spatial_pylon/base_end"
+			rotation: 90.0d
+			width: 4.0d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.25d
+			hover: [ ]
+			image: "byg:textures/biome_previews/crimson_gardens.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.8d
+			hover: [ ]
+			image: "mcwdoors:block/glass/mangrove_glass_door_lower"
+			rotation: 90.0d
+			width: 2.8d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.8d
+			hover: [ ]
+			image: "mcwdoors:block/glass/mangrove_glass_door_upper"
+			rotation: 90.0d
+			width: 2.8d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 45.0d
+			width: 0.5d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "spirit:textures/block/soul_cage_sides.png"
+			rotation: 45.0d
+			width: 0.5d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ironfurnaces:block/netherite_furnace_front_on_smoke"
+			rotation: 15.0d
+			width: 1.0d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/painting/wither.png"
+			rotation: 15.0d
+			width: 1.0d
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "enigmaticlegacy:items/redemption_potion"
+			rotation: 15.0d
+			width: 0.75d
+			x: 8.239082472619053d
+			y: -4.723809523809521d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/recall_potion"
+			rotation: 30.0d
+			width: 1.0d
+			x: 8.627177710714285d
+			y: -3.5714285714285765d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/twisted_potion"
+			rotation: -15.0d
+			width: 1.0d
+			x: 7.172415805952376d
+			y: -4.345238095238088d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 30.0d
+			width: 1.0d
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "apotheosis:blocks/draconic_endshelf"
+			rotation: 15.0d
+			width: 1.0d
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "apotheosis:blocks/crystal_seashelf"
+			rotation: -15.0d
+			width: 1.0d
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/entity_icon/enderdragon/dragon.png"
+			rotation: -15.0d
+			width: 1.0d
+			x: 12.25d
+			y: -8.4d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/entity_icon/enderdragon/dragon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/entity_icon/enderdragon/dragon.png"
+			rotation: 15.0d
+			width: 1.0d
+			x: 13.75d
+			y: -8.4d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/entity_icon/shulker/shulker_purple.png"
+			rotation: 30.0d
+			width: 1.0d
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 9835873
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/particle/note.png"
+			rotation: 15.0d
+			width: 1.0d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "sophisticatedstorage:block/diamond_barrel_bottom"
+			rotation: 45.0d
+			width: 1.5d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "sophisticatedstorage:block/iron_barrel_bottom"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbchunks:textures/waystone.png"
+			rotation: -15.0d
+			width: 1.0d
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.25d
+			hover: [ ]
+			image: "byg:textures/biome_previews/autumnal_taiga.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "mcwbyg:block/glass/ether_glass_door_lower"
+			rotation: 90.0d
+			width: 2.5d
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "mcwbyg:block/glass/ether_glass_door_upper"
+			rotation: 90.0d
+			width: 2.5d
+			x: -7.5d
+			y: 1.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -47,11 +446,11 @@
 				type: "item"
 			}]
 			title: "Chop Chop"
-			x: 0.0d
-			y: 0.0d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["30904BB5FBBE1C99"]
+			dependencies: ["51F8911A6EE2F7B6"]
 			hide: false
 			id: "2D686E6C43E4C7F0"
 			rewards: [{
@@ -61,17 +460,27 @@
 				random_bonus: 6
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "Iron Age"
 			tasks: [{
 				id: "76CE9F0B430E5520"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			title: "&lIron"
 			x: 0.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["08CF6AC64D3D96BC"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/nether_portal.png"
+				}
+			}
 			id: "78031CA01693DE76"
 			rewards: [{
 				count: 4
@@ -80,18 +489,27 @@
 				random_bonus: 12
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "Visit the Nether"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "5375A0779D8929DC"
 				type: "dimension"
 			}]
-			title: "The Hell"
-			x: 2.5d
+			title: "&l&4The Hell"
+			x: 4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["0FF1BCA2AFCCF7AC"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/end_portal_frame_top"
+				}
+			}
 			id: "5A34D51CA1286F47"
 			rewards: [{
 				count: 4
@@ -100,15 +518,17 @@
 				random_bonus: 12
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "Visit the End"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "375B34D5111D9711"
 				type: "dimension"
 			}]
-			title: "The End ? Or the Beginning ?"
-			x: 7.0d
-			y: -3.0d
+			title: "&l&5&mThe End ?&r &lOr the Beginning ?"
+			x: 11.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["05F2EA0909780338"]
@@ -136,10 +556,11 @@
 			}]
 			title: "&6&lElytra"
 			x: 9.5d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5A34D51CA1286F47"]
+			icon: "naturesaura:end_city_finder"
 			id: "05F2EA0909780338"
 			rewards: [{
 				count: 8
@@ -148,15 +569,16 @@
 				random_bonus: 8
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "Shulkers"
 			tasks: [{
 				id: "16CA9409CB9EAC0C"
 				structure: "minecraft:end_city"
 				type: "structure"
 			}]
-			title: "The End City"
-			x: 8.0d
-			y: -2.5d
+			title: "&l&eThe End City"
+			x: 11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2D686E6C43E4C7F0"]
@@ -173,6 +595,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "Burn, burn, burn"
 			tasks: [{
 				id: "3086FF3F4ED36180"
@@ -185,7 +608,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
@@ -198,6 +621,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "I see the Way"
 			tasks: [{
 				count: 4L
@@ -205,9 +629,9 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			title: "Eye Of Ender"
-			x: 6.0d
-			y: -2.5d
+			title: "&l&5Eye Of Ender"
+			x: 9.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["543B42D290B12674"]
@@ -219,6 +643,7 @@
 				random_bonus: 12
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "Ouch, That's Hot."
 			tasks: [{
 				count: 4L
@@ -226,9 +651,9 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			title: "Blaze Rod"
-			x: 4.0d
-			y: -2.0d
+			title: "&l&6Blaze Rod"
+			x: 7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["32EBA25AC1E569E9"]
@@ -240,6 +665,7 @@
 				random_bonus: 12
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "Strange Energy"
 			tasks: [{
 				count: 4L
@@ -247,9 +673,9 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			title: "Ender Pearl"
-			x: 5.0d
-			y: -2.5d
+			title: "&l&3Ender Pearl"
+			x: 7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4169F3CB261CE8D0"]
@@ -261,14 +687,15 @@
 				random_bonus: 8
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "Future Artisan"
 			tasks: [{
 				id: "1E64ED17B69BE3C2"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3A84C8C5E4546480"]
@@ -281,12 +708,14 @@
 				table_id: 3473199561735796573L
 				type: "random"
 			}]
+			shape: "octagon"
 			subtitle: "Wait for the drop"
 			tasks: [{
 				id: "604F4C4F4E7337E0"
 				item: "minecraft:jukebox"
 				type: "item"
 			}]
+			title: "&lJukebox"
 			x: -4.0d
 			y: -5.5d
 		}
@@ -629,48 +1058,6 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["2E6F287452AA5FCC"]
-			description: ["Find a Trident."]
-			id: "2EE914DD471825B6"
-			rewards: [
-				{
-					id: "1588990ACEC38D5F"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:mending"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4D9DCA44CB7C8DAC"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			shape: "rsquare"
-			subtitle: "Unleash The Sea's Power"
-			tasks: [{
-				id: "5E7AD8147F3EA08C"
-				item: {
-					Count: 1b
-					id: "minecraft:trident"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Poseidon's Legacy"
-			x: 1.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["41D00EA7A425B155"]
 			id: "51D008F70C308163"
 			rewards: [
@@ -687,14 +1074,15 @@
 					type: "item"
 				}
 			]
+			shape: "circle"
 			subtitle: "Hero's Trophy"
 			tasks: [{
 				id: "28E0AAD5D24152F8"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["543B42D290B12674"]
@@ -707,6 +1095,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			shape: "circle"
 			subtitle: "Spooky Scary Skeletons"
 			tasks: [
 				{
@@ -723,8 +1112,8 @@
 				}
 			]
 			title: "Wither Base"
-			x: 4.0d
-			y: -1.0d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["78031CA01693DE76"]
@@ -735,13 +1124,14 @@
 				random_bonus: 1
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "241E78480ACF2E55"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["05F2EA0909780338"]
@@ -758,129 +1148,12 @@
 				item: "minecraft:dragon_head"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			title: "&lDragon Head"
+			x: 12.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["43CA651EE776DB52"]
-			description: ["You can get Bear's Fur by using shears on a bear."]
-			id: "463ABDC7A0A14D3B"
-			rewards: [{
-				id: "20ADC75D8936CBCC"
-				item: "naturalist:bear_fur"
-				random_bonus: 3
-				type: "item"
-			}]
-			subtitle: "That's mine now !"
-			tasks: [{
-				id: "42FD123FE883FDAB"
-				item: "naturalist:bear_fur"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["463ABDC7A0A14D3B"]
-			id: "55E655F54830A407"
-			rewards: [{
-				id: "36FC29D4F8815E5B"
-				item: "minecraft:white_bed"
-				type: "item"
-			}]
-			shape: "rsquare"
-			subtitle: "Best Friend"
-			tasks: [{
-				id: "1E5896599B9B123D"
-				item: "naturalist:teddy_bear"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["75A3D9A6515BB16F"]
-			description: ["You can get antlers by killing innocent deers."]
-			id: "516DF6D339EC4823"
-			rewards: [{
-				id: "730E8658C2CACA82"
-				item: "naturalist:antler"
-				random_bonus: 3
-				type: "item"
-			}]
-			subtitle: "Hello my dear deer."
-			tasks: [{
-				id: "20A41A328BE8820B"
-				item: "naturalist:antler"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["75A3D9A6515BB16F"]
-			description: ["Kill an innocent firefly to take his goop."]
-			id: "4459D931B04229C5"
-			rewards: [{
-				id: "0EF10A180F7DA65F"
-				item: "naturalist:glow_goop"
-				random_bonus: 3
-				type: "item"
-			}]
-			subtitle: "Fires in the sky."
-			tasks: [{
-				id: "53E1234581DCD2BC"
-				item: "naturalist:glow_goop"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["75A3D9A6515BB16F"]
-			description: ["You can get a chrysalis with a caterpillar, breed 2 butterflies and wait for him to go next to a tree to create his chrysalis."]
-			id: "563BE7C54E54FBE6"
-			rewards: [{
-				id: "5F4380A32D1AC65F"
-				item: "naturalist:chrysalis"
-				random_bonus: 3
-				type: "item"
-			}]
-			subtitle: "Caterpillar house."
-			tasks: [{
-				id: "48DEC97E346875BC"
-				item: "naturalist:chrysalis"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["75A3D9A6515BB16F"]
-			description: ["Kill an innocent snail to get his shell."]
-			id: "06FE1AA8115F9C2F"
-			rewards: [{
-				id: "781F37C74C6FF00B"
-				item: "naturalist:snail_shell"
-				random_bonus: 3
-				type: "item"
-			}]
-			subtitle: "Little snail."
-			tasks: [{
-				id: "29ABBE6CC0A8DDAE"
-				item: "naturalist:snail_shell"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"516DF6D339EC4823"
-				"4459D931B04229C5"
-				"563BE7C54E54FBE6"
-				"06FE1AA8115F9C2F"
-			]
+			dependencies: ["4169F3CB261CE8D0"]
 			description: ["With this compass, you can locate EVERY biome, yeah, that's OP"]
 			id: "1115C52F766AEA93"
 			rewards: [{
@@ -889,6 +1162,7 @@
 				item: "minecraft:firework_rocket"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "Biome Searcher"
 			tasks: [{
 				id: "61BECD35B981E030"
@@ -899,78 +1173,9 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1115C52F766AEA93"]
-			description: ["Find all biomes to discover new animals and new stuff."]
-			icon: "biomesoplenty:bop_icon"
-			id: "138628E7A586E84B"
-			rewards: [
-				{
-					count: 128
-					id: "46B1E5E98A78ADE0"
-					item: "minecraft:firework_rocket"
-					random_bonus: 128
-					type: "item"
-				}
-				{
-					id: "16B0C3FCDBADD9FA"
-					type: "xp_levels"
-					xp_levels: 100
-				}
-				{
-					id: "75993B87FB0D9206"
-					item: "coinsje:diamond_coin_pile"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "Becoming Lara Craft"
-			tasks: [
-				{
-					advancement: "minecraft:adventure/adventuring_time"
-					criterion: ""
-					id: "7972D6B65A5ADB37"
-					type: "advancement"
-				}
-				{
-					advancement: "biomesoplenty:biomesoplenty/all_biomes"
-					criterion: ""
-					id: "7DBE7FA0BC88133D"
-					type: "advancement"
-				}
-				{
-					advancement: "byg:adventure/oh_the_biomes_youll_go"
-					criterion: ""
-					id: "068CEEF1988C7EE6"
-					type: "advancement"
-				}
-			]
-			title: "Expert Explorer"
-			x: -6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4169F3CB261CE8D0"]
-			description: ["Craft a Spyglass to look around you easier. "]
-			id: "75A3D9A6515BB16F"
-			rewards: [{
-				id: "6802D46B3E5EA217"
-				item: "minecraft:map"
-				type: "item"
-			}]
-			subtitle: "Like a Pirate"
-			tasks: [{
-				id: "15D2BC83D4121ED2"
-				item: "minecraft:spyglass"
-				type: "item"
-			}]
-			title: "Land in sight !"
-			x: -1.5d
-			y: 0.0d
+			title: "&l&aNature's Compass"
+			x: -5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["51D008F70C308163"]
@@ -1013,6 +1218,7 @@
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
 			subtitle: "The Most Powerful Laser"
 			tasks: [{
 				advancement: "better_beacons:true_full_power"
@@ -1022,85 +1228,8 @@
 				type: "advancement"
 			}]
 			title: "Full Beacon"
-			x: 6.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"7B48A4175178551E"
-				"204A05C19DE5625A"
-			]
-			description: ["Build a Conduit to get an effect to swim faster and breath underwater."]
-			id: "4543254F7091ECD2"
-			rewards: [
-				{
-					id: "1312F23B284F8D4F"
-					item: {
-						Count: 1b
-						id: "minecraft:turtle_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "624B25DD203722F3"
-					item: "minecraft:turtle_egg"
-					random_bonus: 4
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "Swim like a Fish"
-			tasks: [{
-				id: "3431E0454242825A"
-				item: "minecraft:conduit"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2E6F287452AA5FCC"]
-			description: ["You can find a Heart of the sea in chest from a treasure map."]
-			id: "7B48A4175178551E"
-			rewards: [{
-				id: "0E7DB5F7FA74D606"
-				item: "minecraft:heart_of_the_sea"
-				random_bonus: 1
-				type: "item"
-			}]
-			subtitle: "Conduit Core"
-			tasks: [{
-				id: "4F6CB5F3524F8DA4"
-				item: "minecraft:heart_of_the_sea"
-				type: "item"
-			}]
-			title: "The Heart Of The Sea"
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2E6F287452AA5FCC"]
-			description: ["You can trade Nautilus Shells from wandering traders with emeralds."]
-			id: "204A05C19DE5625A"
-			rewards: [{
-				count: 2
-				id: "7BD1FAE507B69E3C"
-				item: "minecraft:nautilus_shell"
-				random_bonus: 6
-				type: "item"
-			}]
-			subtitle: "Ocean's Treasure"
-			tasks: [{
-				id: "5670EE05DBDC0A1E"
-				item: "minecraft:nautilus_shell"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.5d
+			x: 9.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["5A34D51CA1286F47"]
@@ -1118,11 +1247,13 @@
 				item: "minecraft:dragon_egg"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.5d
+			title: "&lDragon Egg"
+			x: 13.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["78031CA01693DE76"]
+			icon: "naturesaura:fortress_finder"
 			id: "543B42D290B12674"
 			rewards: [{
 				count: 2
@@ -1130,59 +1261,16 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "Blazes, Wither Skeletons"
 			tasks: [{
 				id: "15D6B9F15450F067"
 				structure: "betterfortresses:fortress"
 				type: "structure"
 			}]
-			title: "The Fortress"
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2D686E6C43E4C7F0"]
-			id: "43CA651EE776DB52"
-			rewards: [{
-				count: 4
-				id: "4979A78C3E38BEED"
-				item: "minecraft:white_wool"
-				random_bonus: 12
-				type: "item"
-			}]
-			subtitle: "Snip Snip"
-			tasks: [{
-				id: "33ACF57004DBF72E"
-				item: {
-					Count: 1b
-					id: "minecraft:shears"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["59E6103F47B93BF8"]
-			id: "30904BB5FBBE1C99"
-			rewards: [{
-				count: 8
-				id: "241748233EB18E7F"
-				item: "minecraft:coal"
-				random_bonus: 8
-				type: "item"
-			}]
-			subtitle: "First Foundry"
-			tasks: [{
-				id: "495A21724779F25F"
-				item: "minecraft:furnace"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.5d
+			title: "&l&cThe Fortress"
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["28E8B971E6F22ABA"]
@@ -1250,7 +1338,7 @@
 			]
 			title: "Netherite Full Armor"
 			x: 4.0d
-			y: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["28E8B971E6F22ABA"]
@@ -1328,8 +1416,8 @@
 				}
 			]
 			title: "Netherite Tools"
-			x: 4.0d
-			y: -3.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2D686E6C43E4C7F0"]
@@ -1341,13 +1429,15 @@
 				random_bonus: 6
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "You're Rich !"
 			tasks: [{
 				id: "31A94CFCD6065206"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			title: "&l&bDiamond"
 			x: 0.0d
 			y: -4.5d
 		}
@@ -1382,52 +1472,8 @@
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4169F3CB261CE8D0"]
-			description: ["Explore the Ocean to discover mysteries !"]
-			icon: {
-				Count: 1b
-				id: "minecraft:fishing_rod"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "2E6F287452AA5FCC"
-			rewards: [{
-				id: "2090E37DA9B41447"
-				item: "minecraft:oak_boat"
-				type: "item"
-			}]
-			subtitle: "A Fisherman's Tale"
-			tasks: [{
-				id: "4A36D1524B811308"
-				type: "checkmark"
-			}]
-			title: "Go Fishing"
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0FF1BCA2AFCCF7AC"]
-			id: "01FC9B635D85541F"
-			rewards: [{
-				id: "554A7E7E07B9F388"
-				item: "minecraft:ender_chest"
-				random_bonus: 3
-				type: "item"
-			}]
-			shape: "rsquare"
-			subtitle: "Multiverse Paradox"
-			tasks: [{
-				id: "64692A05042C6E9C"
-				item: "minecraft:ender_chest"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.0d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["05F2EA0909780338"]
@@ -1445,8 +1491,9 @@
 				item: "minecraft:shulker_shell"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.5d
+			title: "&lShulker Shell"
+			x: 13.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["71310706657288F9"]
@@ -1772,42 +1819,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["43CA651EE776DB52"]
-			icon: "comforts:hammock_white"
-			id: "7353109BEB66ED87"
-			rewards: [{
-				count: 4
-				id: "4FD95766F5366089"
-				item: "minecraft:string"
-				random_bonus: 12
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "70127B8AD77010A9"
-					item: "comforts:rope_and_nail"
-					type: "item"
-				}
-				{
-					id: "76D33D267A0291DF"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "comforts:hammocks"
-						}
-					}
-					title: "Any #comforts:hammocks"
-					type: "item"
-				}
-			]
-			title: "Hammocks"
-			x: -1.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["43CA651EE776DB52"]
+			dependencies: ["4169F3CB261CE8D0"]
 			icon: "comforts:sleeping_bag_white"
 			id: "060AD25BA2A9EA74"
 			rewards: [{
@@ -1817,7 +1829,7 @@
 				random_bonus: 12
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
 			tasks: [{
 				id: "22A539F1699EBB7C"
 				item: {
@@ -1830,9 +1842,9 @@
 				title: "Any #comforts:sleeping_bags"
 				type: "item"
 			}]
-			title: "Sleeping Bags"
-			x: -2.5d
-			y: -3.5d
+			title: "&lSleeping Bags"
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4169F3CB261CE8D0"]
@@ -1859,7 +1871,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "gear"
 			subtitle: "Builder's Helper"
 			tasks: [
 				{
@@ -1911,8 +1923,8 @@
 				}
 			]
 			title: "&lWands"
-			x: 1.0d
-			y: 2.0d
+			x: -8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4169F3CB261CE8D0"]
@@ -1924,7 +1936,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
 			subtitle: "Fast Toolbar"
 			tasks: [
 				{
@@ -1939,8 +1951,8 @@
 				}
 			]
 			title: "&lTool Belt"
-			x: -1.0d
-			y: 2.0d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7683CB7CBAAAF017"]
@@ -1988,20 +2000,27 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "octagon"
 			subtitle: "You're a Wizard, Harry"
 			tasks: [{
 				id: "00E7DEF7375F2C07"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
+			title: "&lEnchanting Table"
 			x: 4.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["75A3D9A6515BB16F"]
+			dependencies: ["4169F3CB261CE8D0"]
 			id: "44A7C0F77ED559A1"
-			shape: "rsquare"
+			rewards: [{
+				count: 32
+				id: "31C5F0361337A91E"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "5D85875C7A0B8524"
 				item: {
@@ -2011,8 +2030,9 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			title: "&l&7Explorer's Compass"
+			x: -7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4169F3CB261CE8D0"]
@@ -2024,7 +2044,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
 			subtitle: "Static Easy Teleportation"
 			tasks: [
 				{
@@ -2049,9 +2069,9 @@
 					type: "item"
 				}
 			]
-			title: "&lWaystones"
-			x: 0.0d
-			y: 2.5d
+			title: "&l&7Waystones"
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3203B6E662B8D430"]
@@ -2206,6 +2226,517 @@
 			}]
 			x: -1.0d
 			y: -8.5d
+		}
+		{
+			dependencies: ["0FF1BCA2AFCCF7AC"]
+			id: "57CFFCB1406C1C15"
+			rewards: [{
+				id: "2CE19C22980FE8C9"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "170D1B9D47CA8D0A"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0FF1BCA2AFCCF7AC"]
+			id: "71CD9797062D39DC"
+			rewards: [{
+				id: "3338710DB7288311"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2B71822702FA558C"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0FF1BCA2AFCCF7AC"]
+			id: "57ABF4F0B9FFD14F"
+			rewards: [{
+				id: "631C3E2868361319"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "17D8344168BB1932"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0FF1BCA2AFCCF7AC"]
+			id: "6FBDB4C3CE103E19"
+			rewards: [{
+				id: "467479419F19DF16"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "741528813D08FC68"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0FF1BCA2AFCCF7AC"]
+			id: "1F68C692D2D0F4CC"
+			rewards: [{
+				id: "06AC9BC4F40ED75E"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "15AC0831EA317004"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0FF1BCA2AFCCF7AC"]
+			id: "6193FFEF86E10C66"
+			rewards: [{
+				id: "0391E0D5FDDCBC5D"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4B4E5F1748B80B69"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FF1BCA2AFCCF7AC"]
+			id: "5136D45733A27040"
+			rewards: [{
+				id: "1EA9ED0DA428253D"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "17C289C6B2A39341"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A05787442F3C4E5"]
+			id: "199835F650A25B83"
+			rewards: [{
+				id: "14CC5190F403976D"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2E3F8AC09430B6EF"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			title: "&l&cFire Dragonsteel"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A05787442F3C4E5"]
+			id: "2E848FC154E769E4"
+			rewards: [{
+				id: "73B22C7A65CD46BE"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1078FF67AA941992"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			title: "&l&5Lightning Dragonsteel"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3A05787442F3C4E5"]
+			id: "6DE89924E00A64F3"
+			rewards: [{
+				id: "0550184D3005BCF4"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1D58BC1821F27CC4"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				type: "item"
+			}]
+			title: "&l&bIce Dragonsteel"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D686E6C43E4C7F0"]
+			id: "3A05787442F3C4E5"
+			rewards: [{
+				id: "7B09DE064B35736F"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "1D28A0C7B3E6391F"
+					item: "iceandfire:dragonbone"
+					type: "item"
+				}
+				{
+					id: "5D0BFDBCCA201778"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:dragon_skulls"
+						}
+					}
+					title: "Dragon Skull"
+					type: "item"
+				}
+			]
+			title: "&l&bIce &fAnd &cFire"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08CF6AC64D3D96BC"]
+			id: "706E0405E8582FBF"
+			rewards: [{
+				id: "6B6F4619C9DF262A"
+				item: "spirit:soul_crystal"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "09F5BDC8C5DEE608"
+				item: "spirit:soul_cage"
+				type: "item"
+			}]
+			title: "&l&3Spirit"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4169F3CB261CE8D0"]
+			id: "00371106D75CBEC7"
+			rewards: [{
+				id: "48B3C13B3B62DF06"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "simplyswords:runic_grimoire"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1B72C73E9ADCAE21"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplyswords:swords"
+					}
+				}
+				title: "Any #simplyswords:swords"
+				type: "item"
+			}]
+			title: "&lSimply Swords"
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59E6103F47B93BF8"]
+			id: "51F8911A6EE2F7B6"
+			rewards: [{
+				count: 16
+				id: "017040C34C748743"
+				item: "minecraft:coal"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Cooktime : 200"
+			tasks: [{
+				id: "2150FDCED7FFD60B"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51F8911A6EE2F7B6"]
+			id: "528CDBB261594E59"
+			rewards: [{
+				count: 8
+				id: "0D5CF8E35E14BE21"
+				item: "minecraft:copper_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Cooktime : 180"
+			tasks: [{
+				id: "469D1D394B20FAD5"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"51F8911A6EE2F7B6"
+				"528CDBB261594E59"
+			]
+			dependency_requirement: "one_completed"
+			id: "42BEA1F400F03B4D"
+			rewards: [{
+				count: 8
+				id: "15151F9A98FDE3FD"
+				item: "minecraft:iron_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Cooktime : 160"
+			tasks: [{
+				id: "55A72B0D06CAE39C"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"528CDBB261594E59"
+				"42BEA1F400F03B4D"
+			]
+			dependency_requirement: "one_completed"
+			id: "02AC56E71353A14B"
+			rewards: [{
+				count: 8
+				id: "138783702500D50D"
+				item: "alltheores:silver_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Cooktime : 140"
+			tasks: [{
+				id: "41E77104CC37BBDE"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"42BEA1F400F03B4D"
+				"02AC56E71353A14B"
+			]
+			dependency_requirement: "one_completed"
+			id: "10CA78E6BF087AC9"
+			rewards: [{
+				count: 8
+				id: "379B747B1E3F7EEF"
+				item: "minecraft:gold_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Cooktime : 120"
+			tasks: [{
+				id: "2EC9BB8A7CC4106B"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10CA78E6BF087AC9"]
+			id: "6A8F3BAB4062B573"
+			rewards: [{
+				count: 8
+				id: "1682180C1A1BE14D"
+				item: "minecraft:diamond"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Cooktime : 80"
+			tasks: [{
+				id: "48E0081A33CF480B"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A8F3BAB4062B573"]
+			id: "7DFF55E1A6722B0B"
+			rewards: [{
+				count: 8
+				id: "2C39D8983224C416"
+				item: "minecraft:emerald"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Cooktime : 40"
+			tasks: [{
+				id: "354D05B58E597A35"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7DFF55E1A6722B0B"
+				"4D7FB8F984C58674"
+			]
+			dependency_requirement: "one_completed"
+			id: "77EEBDF2FC4059A0"
+			rewards: [{
+				count: 8
+				id: "6FB69F1639BCDFBE"
+				item: "minecraft:obsidian"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Cooktime : 20"
+			tasks: [{
+				id: "585BAC0656201EF7"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A8F3BAB4062B573"]
+			id: "4D7FB8F984C58674"
+			rewards: [{
+				count: 8
+				id: "097331639A0463F7"
+				item: "minecraft:glass"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Cooktime : 40"
+			tasks: [{
+				id: "750B08910F39805F"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77EEBDF2FC4059A0"]
+			id: "63D245D105D6B7DE"
+			rewards: [{
+				id: "71D9058B2677FEDF"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Cooktime : 5"
+			tasks: [{
+				id: "03B6A0A5E573B562"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63D245D105D6B7DE"]
+			id: "4DDBF21542DF7F4B"
+			rewards: [{
+				id: "5AD72B2B537FED07"
+				item: "ironfurnaces:million_furnace"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "64 Items Per 20 Ticks"
+			tasks: [{
+				id: "6ADB99B3A3389061"
+				item: {
+					Count: 1b
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"light_purple\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"i\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"blue\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&dR&9a&bi&cn&eb&9o&dw &dF&9u&br&cn&ea&9c&de"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DDBF21542DF7F4B"]
+			id: "01DFA05D913888E6"
+			rewards: [{
+				count: 16
+				id: "622915E205B35929"
+				item: "minecraft:coal_block"
+				random_bonus: 48
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Very Durable Coal"
+			tasks: [{
+				id: "46E8953FA47E8B0F"
+				item: "ironfurnaces:rainbow_coal"
+				type: "item"
+			}]
+			title: "&l&dR&9a&bi&cn&eb&9o&dw &dC&9o&ba&cl"
+			x: -5.5d
+			y: 0.5d
 		}
 	]
 	subtitle: ["Tracks of sand! Lands of ice! Water that burns!"]

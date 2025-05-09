@@ -1,16 +1,5 @@
 {
   "attributes": {
-    "forge:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "obscure_api:penetration": {
       "enabled": false,
       "min": {
@@ -20,6 +9,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "forge:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "forge:step_height_addition": {
@@ -88,17 +88,6 @@
         "value": 10
       }
     },
-    "forge:entity_gravity": {
-      "enabled": false,
-      "min": {
-        "default": -8,
-        "value": -8
-      },
-      "max": {
-        "default": 8,
-        "value": 8
-      }
-    },
     "obscure_api:resilience": {
       "enabled": false,
       "min": {
@@ -110,15 +99,15 @@
         "value": 100
       }
     },
-    "ars_nouveau:ars_nouveau.perk.flat_max_mana": {
+    "forge:entity_gravity": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": -8,
+        "value": -8
       },
       "max": {
-        "default": 10000,
-        "value": 10000
+        "default": 8,
+        "value": 8
       }
     },
     "obscure_api:regeneration": {
@@ -130,6 +119,17 @@
       "max": {
         "default": 100000,
         "value": 100000
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.flat_max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecolonies:mc_mob_damage": {
@@ -418,17 +418,6 @@
         "value": 1000000
       }
     },
-    "eidolon:magic_power": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
     "obscure_api:accuracy": {
       "enabled": false,
       "min": {
@@ -438,6 +427,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "eidolon:magic_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "forge:nametag_distance": {
@@ -462,17 +462,6 @@
         "value": 1
       }
     },
-    "ars_nouveau:ars_nouveau.perk.percent_max_mana": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
     "obscure_api:parry": {
       "enabled": false,
       "min": {
@@ -482,6 +471,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.percent_max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecraft:generic.attack_speed": {

@@ -62,6 +62,14 @@
 			x: 2.5d
 			y: 4.5d
 		}
+		{
+			id: "0502F694A4D99720"
+			linked_quest: "63894331FBB6B6DA"
+			shape: "pentagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
 	]
 	quests: [
 		{
@@ -93,29 +101,6 @@
 			title: "&lAge 5 : WIP"
 			x: 0.0d
 			y: 7.0d
-		}
-		{
-			dependencies: ["124EB53C169A26C8"]
-			icon: "cataclysm:desert_eye"
-			id: "63894331FBB6B6DA"
-			rewards: [{
-				count: 2
-				id: "0E9C9EA24AB54C8E"
-				item: "coinsje:gold_coin"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			subtitle: "Welcome to Age 4 !"
-			tasks: [{
-				id: "70451DEA0C4A7505"
-				title: "WIP : Age 4"
-				type: "checkmark"
-			}]
-			title: "&d&lPsychotic Innovation"
-			x: 0.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["6F7452A312162674"]

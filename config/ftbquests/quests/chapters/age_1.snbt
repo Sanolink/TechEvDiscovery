@@ -37,14 +37,6 @@
 			x: 0.5d
 			y: 5.5d
 		}
-		{
-			id: "4DAB70949395A1E1"
-			linked_quest: "509461C4B7CFE7C8"
-			shape: "octagon"
-			size: 2.0d
-			x: 0.0d
-			y: 7.0d
-		}
 	]
 	quests: [
 		{
@@ -151,6 +143,28 @@
 			title: "&e&lFirst Discovery"
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6036A88041F3C3E2"]
+			dependency_requirement: "all_started"
+			icon: "create_things_and_misc:magnifying_glass"
+			id: "509461C4B7CFE7C8"
+			rewards: [{
+				id: "12781662009DE21A"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Welcome To Age 2 !"
+			tasks: [{
+				id: "2E49F745454B4DCE"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "&a&lShock Therapy"
+			x: 0.0d
+			y: 7.0d
 		}
 	]
 	subtitle: ["&lFirst Discovery"]

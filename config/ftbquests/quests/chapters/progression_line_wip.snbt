@@ -120,6 +120,7 @@
 			y: 0.0d
 		}
 		{
+			icon: "ae2:singularity"
 			id: "11BA0CDB990A3FBC"
 			linked_quest: "6BF612431ADBCFF4"
 			shape: "octagon"

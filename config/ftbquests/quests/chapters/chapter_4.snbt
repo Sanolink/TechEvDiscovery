@@ -80,7 +80,7 @@
 		}
 		{
 			dependencies: ["6F64D9A367C073CD"]
-			icon: "techev_additions:techevium"
+			icon: "ae2:singularity"
 			id: "6BF612431ADBCFF4"
 			shape: "octagon"
 			size: 2.0d

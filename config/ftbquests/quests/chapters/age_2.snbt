@@ -50,12 +50,12 @@
 			y: 2.0d
 		}
 		{
-			id: "04F87FDC051B886F"
-			linked_quest: "6010F0FDE1BB66D2"
-			shape: "octagon"
+			id: "4DAB70949395A1E1"
+			linked_quest: "509461C4B7CFE7C8"
+			shape: "pentagon"
 			size: 2.0d
 			x: 0.0d
-			y: 7.0d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -208,26 +208,25 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6036A88041F3C3E2"]
-			dependency_requirement: "all_started"
-			icon: "create_things_and_misc:magnifying_glass"
-			id: "509461C4B7CFE7C8"
+			dependencies: ["03F1739AF4FA589A"]
+			icon: "forbidden_arcanus:sanity_meter"
+			id: "6010F0FDE1BB66D2"
 			rewards: [{
-				id: "12781662009DE21A"
-				item: "createaddition:chocolate_cake"
+				id: "6CD67462B509CC33"
+				item: "coinsje:gold_coin"
+				random_bonus: 1
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "octagon"
 			size: 2.0d
-			subtitle: "Welcome To Age 2 !"
+			subtitle: "Welcome to Age 3 !"
 			tasks: [{
-				id: "2E49F745454B4DCE"
-				title: "Checkmark"
+				id: "4606CBFE6E1F36D3"
 				type: "checkmark"
 			}]
-			title: "&a&lShock Therapy"
+			title: "&b&lAtomic Pressure"
 			x: 0.0d
-			y: 0.0d
+			y: 7.0d
 		}
 	]
 	subtitle: ["&lShock Therapy"]

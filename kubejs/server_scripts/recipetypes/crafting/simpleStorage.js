@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
             output: "storagenetwork:inventory_remote",
             pattern: ["SPS", "CMC", "SNS"],
             key: {
-                S: "#forge:slimeballs",
+                S: "createaddition:connector",
                 P: "upgradednetherite_items:ender_upgraded_netherite_pearl",
                 C: 'create:linked_controller',
                 M: "storagenetwork:master",

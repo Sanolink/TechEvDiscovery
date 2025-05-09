@@ -1,11 +1,27 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.3         (_____)
+
+*/
 
 ServerEvents.recipes(event => {
 
     //Recipes
     const recipes = [
-        //Storage ?etwork Root
+        //Storage Network Root
         {
             output: "storagenetwork:master",
             pattern: ["PHP", "HSH", "PHP"],
@@ -24,7 +40,7 @@ ServerEvents.recipes(event => {
                 P: "upgradednetherite_items:ender_upgraded_netherite_pearl",
                 C: 'create:linked_controller',
                 M: "storagenetwork:master",
-                N: 'upgradednetherite_items:ultimate_upgraded_netherite_totem'
+                N: 'create_things_and_misc:radar'
             }
         },
         //Crafting Remote

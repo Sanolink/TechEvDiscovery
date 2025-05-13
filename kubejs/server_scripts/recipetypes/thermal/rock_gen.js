@@ -44,7 +44,6 @@ ServerEvents.recipes(event => {
         'quark:myalite',
         'quark:shale',
         'quark:jasper',
-        'quark:limestone',
         'byg:cryptic_stone'
     ].forEach(output => {
         recipes.push(

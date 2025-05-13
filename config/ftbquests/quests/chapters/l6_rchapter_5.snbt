@@ -6,7 +6,104 @@
 	icon: "ae2:singularity"
 	id: "46241183D943E707"
 	order_index: 5
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "60B892EE69AE2237"
+		linked_quest: "6BF612431ADBCFF4"
+		shape: "pentagon"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"6F64D9A367C073CD"
+				"1A187165637C4238"
+				"3529A0DB7D4269CD"
+			]
+			icon: "techev_additions:techevium"
+			id: "4E7356179682035C"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Soon, in 1.5.0 !"
+			tasks: [{
+				id: "7CB895CC1AE88B28"
+				title: "WIP : Age 4"
+				type: "checkmark"
+			}]
+			title: "&lAge 6 : WIP"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6BF612431ADBCFF4"]
+			icon: "ad_astra:earth_globe"
+			id: "6F9E580941C61B9B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "522EC3D8417BC5C1"
+				type: "checkmark"
+			}]
+			title: "&lAd Astra"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F9E580941C61B9B"]
+			icon: "mekanism:alloy_atomic"
+			id: "5D3103914AC6D89E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "74F998942D7BEA2F"
+				type: "checkmark"
+			}]
+			title: "&lMekanism"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D3103914AC6D89E"]
+			icon: "mysticalagradditions:creative_essence"
+			id: "3529A0DB7D4269CD"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3D2B12CBEAB6D737"
+				type: "checkmark"
+			}]
+			title: "&lMystical Agriculture"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D3103914AC6D89E"]
+			icon: "productivebees:upgrade_comb_block"
+			id: "1A187165637C4238"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "21815BCB6BF3AB64"
+				type: "checkmark"
+			}]
+			title: "&lProductive Bees"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D3103914AC6D89E"]
+			icon: "angelring:angel_ring"
+			id: "30269A7AC0A8AE0B"
+			shape: "gear"
+			tasks: [{
+				id: "7BAB5458D55B06B9"
+				type: "checkmark"
+			}]
+			title: "&lQuantum Utilities"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
 	title: " &l&6♦ &rChapter 5"
 }

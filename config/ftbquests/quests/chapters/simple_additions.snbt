@@ -5,18 +5,32 @@
 	group: "12B18F44A38CD6E7"
 	icon: "upgradednetherite_items:echo_upgraded_netherite_totem"
 	id: "5F6CD42A8F615A8D"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 3.0d
-		hover: [ ]
-		image: "techev:textures/misc/quests/netherite.png"
-		rotation: 0.0d
-		width: 17.15d
-		x: -12.5d
-		y: -9.952380952380942d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/netherite.png"
+			rotation: 0.0d
+			width: 17.15d
+			x: -12.5d
+			y: -9.952380952380942d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bhc:items/blade_of_vitality"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.5d
+			y: 2.0d
+		}
+	]
 	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -37,7 +51,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 1.5d
+			title: "&lGlassential"
+			x: -22.5d
 			y: -5.5d
 		}
 		{
@@ -56,7 +71,7 @@
 				type: "item"
 			}]
 			title: "&lEthereal Glass"
-			x: 1.5d
+			x: -22.5d
 			y: -6.5d
 		}
 		{
@@ -75,7 +90,7 @@
 				type: "item"
 			}]
 			title: "&l&8Tinted Ethereal Glass"
-			x: 0.5d
+			x: -23.5d
 			y: -6.0d
 		}
 		{
@@ -93,7 +108,7 @@
 				item: "glassential:glass_ghostly"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -21.5d
 			y: -6.0d
 		}
 		{
@@ -111,7 +126,7 @@
 				item: "glassential:glass_light"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -22.5d
 			y: -4.5d
 		}
 		{
@@ -129,7 +144,7 @@
 				item: "glassential:glass_redstone"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -21.5d
 			y: -5.0d
 		}
 		{
@@ -147,7 +162,7 @@
 				item: "mob_grinding_utils:tinted_glass"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -23.5d
 			y: -5.0d
 		}
 		{
@@ -164,7 +179,7 @@
 				item: "itemcollectors:basic_collector"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -29.5d
 			y: -5.5d
 		}
 		{
@@ -181,7 +196,7 @@
 				item: "itemcollectors:advanced_collector"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -29.5d
 			y: -6.5d
 		}
 		{
@@ -3620,7 +3635,7 @@
 				item: "mob_grinding_utils:fan_upgrade_width"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -31.0d
 			y: 0.0d
 		}
 		{
@@ -3638,7 +3653,7 @@
 				item: "mob_grinding_utils:fan_upgrade_height"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -31.0d
 			y: -2.0d
 		}
 		{
@@ -3656,7 +3671,7 @@
 				item: "mob_grinding_utils:fan_upgrade_speed"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -31.5d
 			y: -1.0d
 		}
 		{
@@ -3674,7 +3689,7 @@
 				item: "mob_grinding_utils:absorption_upgrade"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -28.5d
 			y: -6.5d
 		}
 		{
@@ -3691,7 +3706,7 @@
 				item: "mob_grinding_utils:absorption_hopper"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -28.5d
 			y: -5.5d
 		}
 		{
@@ -3708,7 +3723,7 @@
 				item: "mob_grinding_utils:fan"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -30.5d
 			y: -1.0d
 		}
 		{
@@ -3728,7 +3743,7 @@
 				type: "item"
 			}]
 			title: "&6&lMob Masher"
-			x: -2.0d
+			x: -29.0d
 			y: -3.5d
 		}
 		{
@@ -3746,7 +3761,7 @@
 				item: "mob_grinding_utils:saw_upgrade_arthropod"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -27.5d
 			y: -3.5d
 		}
 		{
@@ -3764,7 +3779,7 @@
 				item: "mob_grinding_utils:saw_upgrade_beheading"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -30.5d
 			y: -3.5d
 		}
 		{
@@ -3782,7 +3797,7 @@
 				item: "mob_grinding_utils:saw_upgrade_fire"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -30.0d
 			y: -4.5d
 		}
 		{
@@ -3800,7 +3815,7 @@
 				item: "mob_grinding_utils:saw_upgrade_looting"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -28.0d
 			y: -4.5d
 		}
 		{
@@ -3818,7 +3833,7 @@
 				item: "mob_grinding_utils:saw_upgrade_sharpness"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -28.0d
 			y: -2.5d
 		}
 		{
@@ -3836,7 +3851,7 @@
 				item: "mob_grinding_utils:saw_upgrade_smite"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -30.0d
 			y: -2.5d
 		}
 		{
@@ -3853,12 +3868,16 @@
 				item: "mob_grinding_utils:entity_spawner"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -29.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0806ADC61C8653A7"]
-			description: ["You can use different materials to upgrade a spawner (check JEI for details)."]
+			description: [
+				"&l&4Apotheosis Spawners are disabled for now. 1.4.0 will rework them."
+				""
+				"You can use different materials to upgrade a spawner (check JEI for details)."
+			]
 			id: "2D8031EFE3A960D5"
 			rewards: [
 				{
@@ -3881,7 +3900,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -3.0d
+			title: "&lDISABLED FOR NOW"
+			x: -30.0d
 			y: 0.5d
 		}
 		{
@@ -3899,8 +3919,8 @@
 				item: "mob_grinding_utils:xp_solidifier_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: -26.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["450835FFDF409FE5"]
@@ -3916,7 +3936,7 @@
 				item: "mob_grinding_utils:xpsolidifier"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -26.0d
 			y: -0.5d
 		}
 		{
@@ -3934,7 +3954,7 @@
 				item: "mob_grinding_utils:spawner_upgrade_width"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -28.5d
 			y: 1.5d
 		}
 		{
@@ -3952,7 +3972,7 @@
 				item: "mob_grinding_utils:spawner_upgrade_height"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -29.5d
 			y: 1.5d
 		}
 		{
@@ -3969,7 +3989,7 @@
 				item: "mob_grinding_utils:rotten_egg"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -30.0d
 			y: 3.5d
 		}
 		{
@@ -3986,7 +4006,7 @@
 				item: "mob_grinding_utils:golden_egg"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -28.0d
 			y: 3.5d
 		}
 		{
@@ -4010,7 +4030,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: -29.0d
 			y: 3.0d
 		}
 		{
@@ -4027,7 +4047,7 @@
 				item: "mob_grinding_utils:gm_chicken_feed"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -29.0d
 			y: 4.0d
 		}
 		{
@@ -4044,7 +4064,7 @@
 				item: "mob_grinding_utils:gm_chicken_feed_cursed"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -30.5d
 			y: 2.5d
 		}
 		{
@@ -4061,7 +4081,7 @@
 				item: "mob_grinding_utils:nutritious_chicken_feed"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -27.5d
 			y: 2.5d
 		}
 		{
@@ -4082,7 +4102,7 @@
 				type: "item"
 			}]
 			title: "&lMob Grinding Utils"
-			x: -2.0d
+			x: -29.0d
 			y: -1.0d
 		}
 		{
@@ -4099,7 +4119,7 @@
 				item: "mob_grinding_utils:tank"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -27.5d
 			y: -1.0d
 		}
 		{
@@ -4116,7 +4136,7 @@
 				item: "mob_grinding_utils:tank_sink"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -27.0d
 			y: -2.0d
 		}
 		{
@@ -4132,7 +4152,7 @@
 				item: "mob_grinding_utils:xp_tap"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -26.0d
 			y: -1.5d
 		}
 		{
@@ -4149,7 +4169,7 @@
 				item: "mob_grinding_utils:jumbo_tank"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -27.0d
 			y: 0.0d
 		}
 		{
@@ -4169,7 +4189,7 @@
 				type: "item"
 			}]
 			title: "Entity Conveyors"
-			x: -1.0d
+			x: -28.0d
 			y: 0.5d
 		}
 		{
@@ -4532,6 +4552,134 @@
 			title: "&4&lUltimerite Essence"
 			x: -20.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["6BAFC3CFF66D616A"]
+			id: "1CE9BC08EDA2616E"
+			rewards: [{
+				id: "51E110B2F19D02F6"
+				item: "bhc:red_heart"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "58322A4EBEF6DC2B"
+				item: "bhc:heart_amulet"
+				type: "item"
+			}]
+			title: "&lHeart Amulet"
+			x: -22.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D9DF1713E3A7DC3"]
+			id: "083D8698C564974C"
+			rewards: [{
+				id: "4B7C6F01387DBCE8"
+				item: "bhc:red_heart"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E2328E4C9AEF0FB"
+				item: "bhc:red_heart_canister"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["083D8698C564974C"]
+			id: "2DF14E5478BBD2A7"
+			rewards: [{
+				id: "61F26F10F83EDACF"
+				item: "bhc:yellow_heart"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "318E1CC7DCF468AA"
+				item: "bhc:yellow_heart_canister"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DF14E5478BBD2A7"]
+			id: "472EC83ED4FA5875"
+			rewards: [{
+				id: "07C9E505E70DFD38"
+				item: "bhc:green_heart"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CDC17332598DB42"
+				item: "bhc:green_heart_canister"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["472EC83ED4FA5875"]
+			id: "7BD26FBBDDE10082"
+			rewards: [{
+				id: "0EBE7454DF9E6576"
+				item: "bhc:blue_heart"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "070AE9A39EDD7307"
+				item: "bhc:blue_heart_canister"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BD26FBBDDE10082"]
+			id: "15F3AA62CAD1A65A"
+			rewards: [{
+				id: "5DFE8B993187A8AC"
+				item: "bhc:blue_heart"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A9E623CCF996A1B"
+					item: "bhc:soul_heart_amulet"
+					type: "item"
+				}
+				{
+					id: "19A346D3FA3BF813"
+					item: "bhc:soul_heart_canister"
+					type: "item"
+				}
+			]
+			x: -23.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CE9BC08EDA2616E"]
+			id: "5D9DF1713E3A7DC3"
+			rewards: [{
+				id: "38595C5CB9317676"
+				item: "bhc:canister"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DD5BC94AC0D880D"
+				item: "bhc:canister"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["Small Tweaks, Big Impact"]

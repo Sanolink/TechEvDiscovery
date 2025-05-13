@@ -92,13 +92,13 @@
 			id: "6BF612431ADBCFF4"
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Soon, in 1.4.0 !"
+			subtitle: "Welcome to Age 5 !"
 			tasks: [{
 				id: "323A795F677FF661"
 				title: "WIP : Age 4"
 				type: "checkmark"
 			}]
-			title: "&lAge 5 : WIP"
+			title: "&l&6Cosmic Supremacy"
 			x: 0.0d
 			y: 7.0d
 		}

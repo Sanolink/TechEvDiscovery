@@ -397,7 +397,7 @@
 			dev: false
 			height: 3.5d
 			hover: ["&l&6>> &fAge 5 : Shop"]
-			image: "techev_additions:item/techevium"
+			image: "ae2:item/singularity"
 			rotation: 0.0d
 			width: 3.5d
 			x: 16.0d
@@ -409,7 +409,7 @@
 			dev: false
 			height: 3.5d
 			hover: ["&lCurrently in Work"]
-			image: "ftblibrary:icons/security_private"
+			image: "techev_additions:item/techevium"
 			rotation: 0.0d
 			width: 3.5d
 			x: 16.0d
@@ -1250,9 +1250,8 @@
 			size: 2.0d
 			tasks: [{
 				consume_items: true
-				count: 3L
 				id: "5672BD2CC77699EF"
-				item: "coinsje:diamond_coin"
+				item: "coinsje:gold_coin_pile"
 				type: "item"
 			}]
 			title: "&l&aEternal Stella"

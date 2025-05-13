@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.4         (_____)
 
 */
 
@@ -65,5 +65,7 @@ StartupEvents.registry('item', e => {
     e.create('industrialforegoing:sludge_bottle').displayName("Sludge Bottle")
 
     e.create('minecraft:diamond_nugget').displayName("Diamond Nugget")
+
+    e.create('bhc:incomplete_heart_amulet', 'create:sequenced_assembly').displayName("Incomplete Heart Amulet")
 
   })

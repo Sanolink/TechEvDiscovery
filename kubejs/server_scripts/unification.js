@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.2         (_____)
+(_____)         Last Modification : 1.3.4         (_____)
 
 */
 
@@ -208,7 +208,7 @@ ServerEvents.recipes(e => {
     
     //Others
     ['#forge:crops/rice', 'sushigocrafting:rice'].forEach(I => {replaceIO(I, 'farmersdelight:rice')});
-    ['#forge:bones/wither', 'bhc:wither_bone'].forEach(I => {replaceIO(I, 'iceandfire:witherbone')});
+    ['bhc:wither_bone'].forEach(I => {replaceIO(I, 'iceandfire:witherbone')});
     ['#forge:plastic', 'industrialforegoing:plastic'].forEach(I => {replaceIO(I, 'pneumaticcraft:plastic')});
     ['#forge:coal_coke', 'thermal:coal_coke'].forEach(I => {replaceIO(I, 'immersiveengineering:coal_coke')});
     ['#forge:bitumen', 'immersivepetroleum:bitumen'].forEach(I => {replaceIO(I, 'thermal:bitumen')});

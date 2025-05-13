@@ -2003,9 +2003,10 @@
 			dependencies: ["3873066120553A4E"]
 			id: "5EAB086676D46E75"
 			rewards: [{
-				id: "0DA902981D4F3095"
-				item: "ars_nouveau:worn_notebook"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3EE34F7FF9CDE1A3"
+				table_id: 6024433765965034692L
+				type: "random"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -2087,10 +2088,9 @@
 			dependencies: ["13D91B869676071A"]
 			id: "3873066120553A4E"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "3B750125A9600F12"
-				table_id: 6024433765965034692L
-				type: "random"
+				id: "15FDA5FE832D768F"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
 			}]
 			shape: "pentagon"
 			size: 1.5d
@@ -2188,6 +2188,7 @@
 				item: "ars_nouveau:abjuration_essence"
 				type: "item"
 			}]
+			title: "&dAbjuration &fEssence"
 			x: 5.0d
 			y: 6.5d
 		}
@@ -2206,6 +2207,7 @@
 				item: "ars_nouveau:conjuration_essence"
 				type: "item"
 			}]
+			title: "&3Conjuration &fEssence"
 			x: 4.0d
 			y: 5.5d
 		}
@@ -2224,6 +2226,7 @@
 				item: "ars_nouveau:air_essence"
 				type: "item"
 			}]
+			title: "&eAir &fEssence"
 			x: 5.5d
 			y: 5.0d
 		}
@@ -2242,6 +2245,7 @@
 				item: "ars_nouveau:earth_essence"
 				type: "item"
 			}]
+			title: "&aEarth &fEssence"
 			x: 4.5d
 			y: 6.0d
 		}
@@ -2260,6 +2264,7 @@
 				item: "ars_nouveau:fire_essence"
 				type: "item"
 			}]
+			title: "&cFire &fEssence"
 			x: 5.5d
 			y: 6.0d
 		}
@@ -2278,6 +2283,7 @@
 				item: "ars_nouveau:manipulation_essence"
 				type: "item"
 			}]
+			title: "&6Manipulation &fEssence"
 			x: 6.0d
 			y: 5.5d
 		}
@@ -2296,6 +2302,7 @@
 				item: "ars_nouveau:water_essence"
 				type: "item"
 			}]
+			title: "&9Water &fEssence"
 			x: 4.5d
 			y: 5.0d
 		}
@@ -4218,6 +4225,7 @@
 				item: "ars_nouveau:arcane_pedestal"
 				type: "item"
 			}]
+			title: "&lArcane Pedestal"
 			x: 5.0d
 			y: 5.5d
 		}

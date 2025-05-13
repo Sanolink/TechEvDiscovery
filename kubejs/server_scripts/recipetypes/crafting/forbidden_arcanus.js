@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.4         (_____)
 
 */
 
@@ -32,6 +32,14 @@ ServerEvents.recipes(event => {
                 S: 'forbidden_arcanus:soul'
             }
         },
+        //Arcane Crystal
+        {
+            output: 'forbidden_arcanus:arcane_crystal',
+            pattern: ["AAA", "AAA", "AAA"],
+            key: {
+                A: 'forbidden_arcanus:arcane_crystal_dust_speck'
+            }
+        }
     ]
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.output)

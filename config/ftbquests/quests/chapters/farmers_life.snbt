@@ -4012,6 +4012,12 @@
 			dependencies: ["478D1E1CB1AAFA71"]
 			hide_dependency_lines: true
 			id: "26A123F663119612"
+			rewards: [{
+				id: "7488E10B512D5265"
+				item: "bhc:relic_apple"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7DAE8F563759EF45"

@@ -64,6 +64,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ars_nouveau:apprentice_spell_book_upgrade'})
     event.remove({ id: 'ars_nouveau:archmage_spell_book_upgrade'})
 
+    //Baubley Heart Canisters
+    event.remove({ id: 'bhc:heart_amulet'})
+    event.remove({ id: 'bhc:soul_heart_amulet'})
+
     //Blue Skies
     event.remove({ id: 'blue_skies:zeal_lighter'})
 

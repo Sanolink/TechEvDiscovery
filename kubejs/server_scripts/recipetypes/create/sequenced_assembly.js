@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.4         (_____)
 
 */
 
@@ -23,7 +23,6 @@ ServerEvents.recipes(event => {
     const recipes = [
         //Fishing Rod
         {
-            id:"fishing_rod",
             input:"#forge:rods/wooden",
             transition:"immersiveengineering:incomplete_wirecutter",
             output:["minecraft:fishing_rod"],
@@ -35,7 +34,6 @@ ServerEvents.recipes(event => {
         },
         //Engineer's Hammer
         {
-            id:"hammer",
             input:"#forge:rods/wooden",
             transition:"immersiveengineering:incomplete_hammer",
             output:["immersiveengineering:hammer"],
@@ -51,7 +49,6 @@ ServerEvents.recipes(event => {
         },
         //Engineer's Wire Cutters
         {
-            id:"wirecutter",
             input:"#forge:rods/wooden",
             transition:"immersiveengineering:incomplete_wirecutter",
             output:["immersiveengineering:wirecutter"],
@@ -66,7 +63,6 @@ ServerEvents.recipes(event => {
         },
         //Psimetal CAD Assembly
         {
-            id:"cad_assembly_psimetal",
             input:"psi:cad_assembly_gold",
             transition:"psi:incomplete_cad_assembly_psimetal",
             output:["psi:cad_assembly_psimetal"],
@@ -80,7 +76,6 @@ ServerEvents.recipes(event => {
         },
         //Iron CAD Assembly
         {
-            id:"cad_assembly_iron",
             input:"reliquary:hammer_assembly",
             transition:"reliquary:hammer_assembly",
             output:["psi:cad_assembly_iron"],
@@ -90,6 +85,17 @@ ServerEvents.recipes(event => {
                 {type: 'pressing'},
                 {type: 'deploying', item:"reliquary:barrel_assembly"},
                 {type: 'pressing'},
+            ]
+        },
+        //Heart Amulet
+        {
+            input:"eidolon:void_amulet",
+            transition:"bhc:incomplete_heart_amulet",
+            output:["bhc:heart_amulet"],
+            loops: 1,
+            sequence: [
+                {type: 'cutting'},
+                {type: 'deploying', item:"#forge:heart"},
             ]
         }
     ]
@@ -104,7 +110,7 @@ ServerEvents.recipes(event => {
             if (step.type == 'deploying'){sequence.push(event.recipes.create.deploying(transition, [transition, step.item]))}
             if (step.type == 'filling') {sequence.push(event.recipes.create.filling(transition, [transition, step.fluid]))}
         })
-        event.recipes.create.sequenced_assembly(recipe.output, recipe.input, sequence).transitionalItem(recipe.transition).loops(recipe.loops).id("create:sequenced_assembly/" + recipe.id)
+        event.recipes.create.sequenced_assembly(recipe.output, recipe.input, sequence).transitionalItem(recipe.transition).loops(recipe.loops).id("create:sequenced_assembly/" + recipe.output[0].split(":")[1])
     })
 
 })

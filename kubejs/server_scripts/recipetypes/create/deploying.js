@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.4         (_____)
 
 */
 
@@ -24,11 +24,16 @@ ServerEvents.recipes(event => {
             output : 'psi:cad_assembly_gold',
             input : ['psi:cad_assembly_iron', 'alltheores:gold_gear']
 
+        },
+        {
+            output : 'bhc:soul_heart_amulet',
+            input : ['bhc:heart_amulet', 'bhc:soul_heart_crystal']
         }
     ]
+    
     //General Deploying Function
     recipes.forEach(recipe => {
-        event.recipes.create.deploying(recipe.output, recipe.input,).id("create:sequenced_assembly/" + recipe.id)
+        event.recipes.create.deploying(recipe.output, recipe.input,).id("create:deploying/" + recipe.output.split(":")[1])
     })
 
 })

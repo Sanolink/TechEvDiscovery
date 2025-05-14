@@ -68,4 +68,14 @@ StartupEvents.registry('item', e => {
 
     e.create('bhc:incomplete_heart_amulet', 'create:sequenced_assembly').displayName("Incomplete Heart Amulet")
 
+    e.create('ad_astra:desh_gear').displayName("Desh Gear")
+    e.create('ad_astra:desh_rod').displayName("Desh Rod")
+    e.create('ad_astra:desh_dust').displayName("Desh Dust")
+    e.create('ad_astra:ostrum_gear').displayName("Ostrum Gear")
+    e.create('ad_astra:ostrum_rod').displayName("Ostrum Rod")
+    e.create('ad_astra:ostrum_dust').displayName("Ostrum Dust")
+    e.create('ad_astra:calorite_gear').displayName("Calorite Gear")
+    e.create('ad_astra:calorite_rod').displayName("Calorite Rod")
+    e.create('ad_astra:calorite_dust').displayName("Calorite Dust")
+
   })

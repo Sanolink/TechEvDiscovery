@@ -44,7 +44,10 @@ StartupEvents.postInit(event => {
         'alltheores:tin_plate',
         'alltheores:uranium_plate',
         'alltheores:zinc_plate',
-        'botania:elementium_plate'
+        'botania:elementium_plate',
+        'ad_astra:desh_plate',
+        'ad_astra:ostrum_plate',
+        'ad_astra:calorite_plate'
     ]
     //All Plates
     Plates.forEach(plate => {

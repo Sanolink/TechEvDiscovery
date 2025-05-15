@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.4         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -24,7 +24,12 @@ ServerEvents.recipes(event => {
     event.remove({ output: '#forge:gears', mod: 'alltheores'})
     event.remove({ output: '#forge:dusts', mod: 'alltheores', type: "crafting_shapeless"})
 
-    //Applied Energistics 
+    //Ad Astra
+    event.remove([{ output: 'ad_astra:hammer'}, { input: 'ad_astra:hammer'}])
+    event.remove({ id: 'ad_astra:compressing/iron_plate_from_compressing_iron_ingot'})
+    event.remove({ id: 'ad_astra:compressing/steel_plate_from_compressing_steel_ingot'})
+
+    //Applied Energistics + Addons
     event.remove({ id: 'ae2:network/cells/view_cell'})
     event.remove({ id: 'ae2:network/cells/item_storage_cell_1k'})
     event.remove({ id: 'ae2:network/cells/item_storage_cell_4k'})
@@ -167,6 +172,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:squeezer/graphite_dust'})
     event.remove({ id: 'immersiveengineering:refinery/acetaldehyde'})
     event.remove({ id: 'immersiveengineering:blueprint/graphite_electrode'})
+    event.remove({ id: 'immersiveengineering:crafting/paper_from_sawdust'})
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:plates" })
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:dusts" })
     event.remove({ input: 'immersiveengineering:wirecutter', output: '#forge:wires', type: 'minecraft:crafting_shapeless' })
@@ -177,9 +183,16 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersivepetroleum:hydrotreater/propylene_plastic'})
     event.remove({ id: 'immersivepetroleum:hydrotreater/ethylene_plastic'})
 
+    //Industrial Foregoing
+    event.remove({ id: 'ad_astra_giselle_addon:compat/industrialforegoing/laser_drill_fluid/oil'})
+    
     //Minecraft
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })
+
+    //Mystical Agriculture + Addons
+    event.remove({ id: 'mysticalagradditions:nether_prosperity_shard_smelted'})
+    event.remove({ id: 'mysticalagradditions:end_prosperity_shard_smelted'})
 
     //Naturalist
     event.remove({ id: 'naturalist:cooked_egg_from_campfire_cooking' })
@@ -204,6 +217,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'powah:crafting/cable_spirited_2'})
     event.remove({ id: 'powah:crafting/cable_nitro_2'})
     
+    //Productive Bees
+    event.remove({ id: 'productivebees:create/obsidian_dust_to_obsidian'})
+
     //Psi 
     event.remove({ id: 'psi:gold_to_psimetal_assembly_upgrade'})
     event.remove({ id: 'psi:cad_assembly_psimetal'})
@@ -259,6 +275,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermal:redstone_servo'})
     event.remove({ id: 'thermal:rf_coil'})
     event.remove({ id: 'thermal:machine_smelter'})
+    event.remove({ id: 'thermal:machines/centrifuge/centrifuge_invar_dust'})
+    event.remove({ id: 'thermal:machines/centrifuge/centrifuge_bronze_dust'})
+    event.remove({ id: 'thermal:machines/centrifuge/centrifuge_constantan_dust'})
+    event.remove({ id: 'thermal:machines/centrifuge/centrifuge_electrum_dust'})
     event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
     
     //Time In A Bottle

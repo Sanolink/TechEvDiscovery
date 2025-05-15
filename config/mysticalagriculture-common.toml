@@ -40,7 +40,7 @@
 	#Range: 0.0 ~ 1.0
 	souliumOreChance = 0.05
 	#Should Prosperity Ore generate in the world?
-	generateProsperityOre = true
+	generateProsperityOre = false
 	#How many Prosperity Ore veins should spawn in a chunk.
 	#Range: 0 ~ 128
 	prosperitySpawnRate = 12
@@ -54,7 +54,7 @@
 	#Range: -64 ~ 319
 	prosperitySpawnMaxY = 24
 	#Should Inferium Ore generate in the world?
-	generateInferiumOre = true
+	generateInferiumOre = false
 	#How many Inferium Ore veins should spawn in a chunk.
 	#Range: 0 ~ 128
 	inferiumSpawnRate = 16

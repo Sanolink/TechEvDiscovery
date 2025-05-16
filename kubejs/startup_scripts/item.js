@@ -17,8 +17,6 @@
 
 */
 
-Platform.mods.kubejs.name = 'TechEv || Discovery'
-
 StartupEvents.registry('item', e => {
 
     e.create('minecraft:fishing_rod_cast', 'create:sequenced_assembly').displayName("Fishing Rod Cast")
@@ -78,4 +76,12 @@ StartupEvents.registry('item', e => {
     e.create('ad_astra:calorite_rod').displayName("Calorite Rod")
     e.create('ad_astra:calorite_dust').displayName("Calorite Dust")
 
+    e.create('mekaevolution:enriched_radiance').displayName("Enriched Radiance")
+    e.create('mekaevolution:enriched_thermonuclear').displayName("Enriched Thermonuclear")
+    e.create('mekaevolution:enriched_shining').displayName("Enriched Shining")
+    e.create('mekaevolution:enriched_spectrum').displayName("Enriched Spectrum")
+    e.create('mekaevolution:alloy_radiance').displayName("§aRadiance Alloy")
+    e.create('mekaevolution:alloy_thermonuclear').displayName("§4Thermonuclear Alloy")
+    e.create('mekaevolution:alloy_shining').displayName("§3Shining Alloy")
+    e.create('mekaevolution:alloy_spectrum').displayName("§5Spectrum Alloy")
   })

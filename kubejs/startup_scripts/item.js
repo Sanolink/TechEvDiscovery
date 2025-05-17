@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.4         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -54,6 +54,8 @@ StartupEvents.registry('item', e => {
     e.create('ae2:elemental_processor_press').displayName("Inscriber Elemental Press")
     e.create('ae2:elemental_processor').displayName("Elemental Processor")
     e.create('ae2:printed_elemental_processor').displayName("Printed Elemental Circuit")
+    e.create('ae2:cosmic_processor').displayName("Cosmic Processor")
+    e.create('ae2:printed_cosmic_processor').displayName("Printed Cosmic Circuit")
 
     e.create('botania:elementium_plate').displayName("Elementium Plate")
     e.create('botania:elementium_gear').displayName("Elementium Gear")

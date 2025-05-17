@@ -27,6 +27,8 @@ JEIEvents.hideItems(event => {
         'aquaculture:stone_fillet_knife',
         'aquaculture:wooden_fillet_knife',
         /botanypots:.+_(terracotta|concrete)(_hopper)?_botany_pot/,
+        /botanypotstiers:(elite|ultra|creative)_.+_(terracotta|concrete)(_hopper)?_botany_pot/,
+        /botanypotstiers:(elite|ultra|creative)_terracotta_botany_pot/,
         
         //Ores
         'create:zinc_ore', 

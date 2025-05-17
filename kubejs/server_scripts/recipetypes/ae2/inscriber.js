@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
     inscribe("elemental_processor_press", 'ae2:elemental_processor_press', 'forge:storage_blocks/iron', 'ae2:elemental_processor_press')
 
     press("elemental_processor", 'ae2:printed_silicon', 'immersiveengineering:wirecoil_redstone', 'ae2:printed_elemental_processor', 'ae2:elemental_processor')
+    press("cosmic_processor", 'ae2:printed_silicon', 'immersiveengineering:wirecoil_redstone', 'ae2:printed_cosmic_processor', 'ae2:cosmic_processor')
 
     //Inscribe Function
     function inscribe(id, press, tag_input, output) {

@@ -26,8 +26,9 @@ ServerEvents.recipes(event => {
 
     //Ad Astra
     event.remove([{ output: 'ad_astra:hammer'}, { input: 'ad_astra:hammer'}])
-    event.remove({ id: 'ad_astra:compressing/iron_plate_from_compressing_iron_ingot'})
-    event.remove({ id: 'ad_astra:compressing/steel_plate_from_compressing_steel_ingot'})
+    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_blasting_mercury_iron_ore'})
+    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_smelting_mercury_iron_ore'})
+    event.remove({ id: 'ad_astra:recipes/compressor'})
 
     //Applied Energistics + Addons
     event.remove({ id: 'ae2:network/cells/view_cell'})
@@ -115,7 +116,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc'})
     event.remove({ id: 'create:mixing/andesite_alloy'})
     event.remove({ id: 'create:mixing/andesite_alloy_from_zinc'})
+    event.remove({ id: 'create:pressing/desh_ingot'})
+    event.remove({ id: 'create:pressing/ostrum_ingot'})
+    event.remove({ id: 'create:pressing/calorite_ingot'})
     event.remove({ id: 'create:compat/byg/crushing/lignite_ore'})
+    event.remove({ id: 'create:crushing/mercury_iron_ore'})
     event.remove({ id: 'create:milling/compat/ae2/certus_quartz'})
     event.remove({ id: 'create:milling/compat/ae2/ender_pearl'})
     event.remove({ id: 'create:milling/compat/ae2/fluix_crystal'})

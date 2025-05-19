@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -35,4 +35,8 @@ StartupEvents.registry('block', e => {
     e.create('botania:abjuration_catalyst').displayName("Abjuration Catalyst").soundType("stone").hardness(2).tagBlock("mineable/pickaxe").requiresTool(true)
 
     e.create('thermal:resonant_machine_frame').displayName("Resonant Machine Frame").soundType("lantern").hardness(2).tagBlock("mineable/pickaxe").notSolid()
+
+    e.create('ad_astra:mercury_nephryx_ore').displayName("Mercury Nephryx Ore").soundType(SoundType.STONE).hardness(3).tagBlock("mineable/pickaxe").tagBlock("forge:needs_iron_tool").requiresTool(true)
+    e.create('ad_astra:raw_nephryx_block').displayName("Raw Nephryx Block").soundType(SoundType.STONE).hardness(5).tagBlock("mineable/pickaxe").tagBlock("forge:needs_iron_tool").requiresTool(true)
+    e.create('ad_astra:nephryx_block').displayName("Nephryx Block").soundType(SoundType.METAL).hardness(5).tagBlock("mineable/pickaxe").tagBlock("forge:needs_stone_tool").requiresTool(true)
 })

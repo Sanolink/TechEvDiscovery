@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -47,7 +47,8 @@ StartupEvents.postInit(event => {
         'botania:elementium_plate',
         'ad_astra:desh_plate',
         'ad_astra:ostrum_plate',
-        'ad_astra:calorite_plate'
+        'ad_astra:calorite_plate',
+        'ad_astra:nephryx_plate'
     ]
     //All Plates
     Plates.forEach(plate => {

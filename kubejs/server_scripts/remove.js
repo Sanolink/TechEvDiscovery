@@ -191,6 +191,9 @@ ServerEvents.recipes(event => {
     //Industrial Foregoing
     event.remove({ id: 'ad_astra_giselle_addon:compat/industrialforegoing/laser_drill_fluid/oil'})
     
+    //Mekanism 
+    event.remove({ id: 'mekanism:metallurgic_infuser'})
+
     //Minecraft
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })

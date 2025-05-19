@@ -145,7 +145,7 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:rods/copper', 'createaddition:copper_rod'], 'alltheores:copper_rod')
     replaceLT(['#forge:rods/electrum', 'createaddition:electrum_rod'], 'alltheores:electrum_rod')
     replaceLT(['#forge:rods/gold', 'createaddition:gold_rod'], 'alltheores:gold_rod')
-    replaceLT(['#forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron'], 'alltheores:iron_rod')
+    replaceLT(['#forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron', 'ad_astra:iron_rod'], 'alltheores:iron_rod')
     replaceLT(['#forge:rods/steel', 'immersiveengineering:stick_steel'], 'alltheores:steel_rod')
     
     //Nuggets

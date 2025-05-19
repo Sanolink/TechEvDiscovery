@@ -134,7 +134,7 @@ ServerEvents.recipes(e => {
     ['#forge:rods/copper', 'createaddition:copper_rod'].forEach(I => {replaceIO(I, 'alltheores:copper_rod')});
     ['#forge:rods/electrum', 'createaddition:electrum_rod'].forEach(I => {replaceIO(I, 'alltheores:electrum_rod')});
     ['#forge:rods/gold', 'createaddition:gold_rod'].forEach(I => {replaceIO(I, 'alltheores:gold_rod')});
-    ['#forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron'].forEach(I => {replaceIO(I, 'alltheores:iron_rod')});
+    ['#forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron', 'ad_astra:iron_rod'].forEach(I => {replaceIO(I, 'alltheores:iron_rod')});
     ['#forge:rods/steel', 'immersiveengineering:stick_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_rod')});
     
     //Nuggets

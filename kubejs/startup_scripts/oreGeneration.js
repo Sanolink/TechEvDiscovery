@@ -27,7 +27,8 @@ WorldgenEvents.remove(event => {
             "eidolon:deep_lead_ore",
             "mysticalagradditions:nether_inferium_ore",
             "mysticalagradditions:nether_prosperity_ore",
-            "mysticalagradditions:end_prosperity_ore"
+            "mysticalagradditions:end_prosperity_ore",
+            "ad_astra:mercury_iron_ore"
         ]
     })
 })

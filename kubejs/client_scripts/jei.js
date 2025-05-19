@@ -135,7 +135,7 @@ JEIEvents.hideItems(event => {
         'createaddition:electrum_rod', 
         'createaddition:gold_rod', 
         'immersiveengineering:stick_aluminum', 
-        'immersiveengineering:stick_iron', 'createaddition:iron_rod', 
+        'immersiveengineering:stick_iron', 'createaddition:iron_rod', 'ad_astra:iron_rod',
         'immersiveengineering:stick_steel', 
         
         //Nuggets
@@ -268,7 +268,8 @@ JEIEvents.hideItems(event => {
         'ad_astra:oil_bucket',
         'ad_astra:hammer',
         'mysticalagradditions:nether_prosperity_ore',
-        'mysticalagradditions:end_prosperity_ore'
+        'mysticalagradditions:end_prosperity_ore',
+        'ad_astra:mercury_iron_ore'
     ])
 })
 

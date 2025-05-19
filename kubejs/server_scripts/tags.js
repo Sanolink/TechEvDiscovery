@@ -132,7 +132,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:rods/copper', 'createaddition:copper_rod')
     e.remove('forge:rods/electrum', 'createaddition:electrum_rod')
     e.remove('forge:rods/gold', 'createaddition:gold_rod')
-    e.remove('forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron')
+    e.remove('forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron', 'ad_astra:iron_rod')
     e.remove('forge:rods/steel', 'immersiveengineering:stick_steel')
     
     //Nuggets
@@ -252,14 +252,12 @@ ServerEvents.tags('item', e => {
         'alltheores:other_zinc_ore',
         'mekanism:dust_sulfur',
         'mysticalagradditions:end_prosperity_ore',
-        'mysticalagradditions:nether_prosperity_ore'
-        
+        'mysticalagradditions:nether_prosperity_ore',
+        'ad_astra:mercury_iron_ore'
     ].forEach(item => {e.removeAllTagsFrom(item)})
 
     /**********************ADD****************************/
     e.add('botania:apothecary', ['botania:apothecary_mesa', 'botania:apothecary_taiga', 'botania:apothecary_desert', 'botania:apothecary_swamp', 'botania:apothecary_fungal', 'botania:apothecary_mountain', 'botania:apothecary_plains', 'botania:apothecary_forest', 'botania:apothecary_default', 'botania:apothecary_mossy'])
-    e.add('forge:dusts', 'alltheores:netherite_dust')
-    e.add('forge:dusts/netherite', 'alltheores:netherite_dust')
     e.add('forge:plastic', 'pneumaticcraft:plastic')
     e.add('powah:ender_cell', ['powah:ender_cell_nitro', 'powah:ender_cell_spirited', 'powah:ender_cell_niotic', 'powah:ender_cell_blazing', 'powah:ender_cell_hardened', 'powah:ender_cell_basic', 'powah:ender_cell_starter'])
     e.add('powah:ender_gate', ['powah:ender_gate_nitro', 'powah:ender_gate_spirited', 'powah:ender_gate_niotic', 'powah:ender_gate_blazing', 'powah:ender_gate_hardened', 'powah:ender_gate_basic', 'powah:ender_gate_starter'])
@@ -275,15 +273,38 @@ ServerEvents.tags('item', e => {
     e.add('powah:solar_panel', ['powah:solar_panel_nitro', 'powah:solar_panel_spirited', 'powah:solar_panel_niotic', 'powah:solar_panel_blazing', 'powah:solar_panel_hardened', 'powah:solar_panel_basic', 'powah:solar_panel_starter'])
     e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
     e.add('ae2:inscriber_presses', 'ae2:elemental_processor_press')
-    e.add('forge:plates', 'botania:elementium_plate')
-    e.add('forge:gears', 'botania:elementium_gear')
-    e.add('forge:plates/elementium', 'botania:elementium_plate')
-    e.add('forge:gears/elementium', 'botania:elementium_gear')
     e.add('thermal:crafting/dies', 'thermal:press_rod_die')
     e.add('lychee:lightning_immune', 'powah:steel_energized')
     e.add('lychee:lightning_fire_immune', 'powah:steel_energized')
     e.add('psi:psimetal_assemblies', ['psi:cad_assembly_psimetal', 'psi:cad_assembly_ivory_psimetal', 'psi:cad_assembly_ebony_psimetal'])
     e.add('industrialforegoing:sludge_containors', ['industrialforegoing:sludge_bucket', 'industrialforegoing:sludge_bottle'])
+
+    // Common Tags
+    e.add('forge:raw_materials', 'ad_astra:raw_nephryx')
+    e.add('forge:ingots', 'ad_astra:nephryx_ingot')
+    e.add('forge:nuggets', 'ad_astra:nephryx_nugget')
+    e.add('forge:dusts', 'alltheores:netherite_dust')
+    e.add('forge:plates', 'botania:elementium_plate', 'ad_astra:nephryx_plate')
+    e.add('forge:gears', 'botania:elementium_gear', 'ad_astra:nephryx_gear', 'ad_astra:desh_gear', 'ad_astra:ostrum_gear', 'ad_astra:calorite_gear')
+    e.add('forge:rods', 'ad_astra:nephryx_rod', 'ad_astra:desh_rod', 'ad_astra:ostrum_rod', 'ad_astra:calorite_rod')
+    e.add('forge:dusts', 'ad_astra:nephryx_dust')
+
+    e.add('forge:raw_materials/nephryx', 'ad_astra:raw_nephryx')
+    e.add('forge:ingots/nephryx', 'ad_astra:nephryx_ingot')
+    e.add('forge:nuggets/nephryx', 'ad_astra:nephryx_nugget')
+    e.add('forge:dusts/netherite', 'alltheores:netherite_dust')
+    e.add('forge:plates/elementium', 'botania:elementium_plate')
+    e.add('forge:plates/nephryx', 'ad_astra:nephryx_plate')
+    e.add('forge:rods/nephryx', 'ad_astra:nephryx_rod')
+    e.add('forge:rods/desh', 'ad_astra:desh_rod')
+    e.add('forge:rods/ostrum', 'ad_astra:ostrum_rod')
+    e.add('forge:rods/calorite', 'ad_astra:calorite_rod')
+    e.add('forge:gears/elementium', 'botania:elementium_gear')
+    e.add('forge:gears/nephryx', 'ad_astra:nephryx_gear')
+    e.add('forge:gears/desh', 'ad_astra:desh_gear')
+    e.add('forge:gears/ostrum', 'ad_astra:ostrum_gear')
+    e.add('forge:gears/calorite', 'ad_astra:calorite_gear')
+    e.add('forge:dusts/nephryx', 'ad_astra:nephryx_dust')
 })
 
 ServerEvents.tags("fluid", e => {

@@ -77,6 +77,13 @@ StartupEvents.registry('item', e => {
     e.create('ad_astra:calorite_gear').displayName("Calorite Gear")
     e.create('ad_astra:calorite_rod').displayName("Calorite Rod")
     e.create('ad_astra:calorite_dust').displayName("Calorite Dust")
+    e.create('ad_astra:raw_nephryx').displayName("Raw Nephryx")
+    e.create('ad_astra:nephryx_ingot').displayName("Nephryx Ingot")
+    e.create('ad_astra:nephryx_nugget').displayName("Nephryx Nugget")
+    e.create('ad_astra:nephryx_plate').displayName("Nephryx Plate")
+    e.create('ad_astra:nephryx_gear').displayName("Nephryx Gear")
+    e.create('ad_astra:nephryx_rod').displayName("Nephryx Rod")
+    e.create('ad_astra:nephryx_dust').displayName("Nephryx Dust")
 
     e.create('mekaevolution:enriched_radiance').displayName("Enriched Radiance")
     e.create('mekaevolution:enriched_thermonuclear').displayName("Enriched Thermonuclear")

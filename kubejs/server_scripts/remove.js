@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ad_astra:recipes/iron_ingot_from_blasting_mercury_iron_ore'})
     event.remove({ id: 'ad_astra:recipes/iron_ingot_from_smelting_mercury_iron_ore'})
     event.remove({ id: 'ad_astra:recipes/compressor'})
+    event.remove({ id: 'ad_astra:recipes/iron_rod'})
 
     //Applied Energistics + Addons
     event.remove({ id: 'ae2:network/cells/view_cell'})
@@ -119,6 +120,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:pressing/desh_ingot'})
     event.remove({ id: 'create:pressing/ostrum_ingot'})
     event.remove({ id: 'create:pressing/calorite_ingot'})
+    event.remove({ id: 'createaddition:pressing/steel_ingot'})
     event.remove({ id: 'create:compat/byg/crushing/lignite_ore'})
     event.remove({ id: 'create:crushing/mercury_iron_ore'})
     event.remove({ id: 'create:milling/compat/ae2/certus_quartz'})

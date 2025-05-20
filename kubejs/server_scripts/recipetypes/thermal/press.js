@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -127,7 +127,11 @@ ServerEvents.recipes(event => {
         "osmium",
         "iridium",
         "aluminum",
-        "elementium"
+        "elementium",
+        "desh",
+        "ostrum",
+        "calorite",
+        "nephryx"
     ].forEach((ingot) => {
         recipes.push(
             {
@@ -166,7 +170,8 @@ ServerEvents.recipes(event => {
         "osmium",
         "iridium",
         "aluminum",
-        "elementium"
+        "elementium",
+        "nephryx"
     ].forEach((ingot) => {
         recipes.push(
             {
@@ -201,7 +206,11 @@ ServerEvents.recipes(event => {
         'lumium',
         'signalum',
         'constantan',
-        'brass'
+        'brass',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach((mat) => {
         recipes.push(
             {

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -101,6 +101,30 @@ ServerEvents.recipes(event => {
             mold: "immersiveengineering:mold_gear",
             energy: 2400
         },
+        //Desh Gear
+        {
+            id: "gear_desh",
+            output: "#forge:gears/desh",
+            input: Item.of("#forge:ingots/desh", 4),
+            mold: "immersiveengineering:mold_gear",
+            energy: 2400
+        },
+        //Ostrum Gear
+        {
+            id: "gear_ostrum",
+            output: "#forge:gears/ostrum",
+            input: Item.of("#forge:ingots/ostrum", 4),
+            mold: "immersiveengineering:mold_gear",
+            energy: 2400
+        },
+        //Calorite Gear
+        {
+            id: "gear_calorite",
+            output: "#forge:gears/calorite",
+            input: Item.of("#forge:ingots/calorite", 4),
+            mold: "immersiveengineering:mold_gear",
+            energy: 2400
+        },
         //Spell Bullet
         {
             id: "spell_bullet",
@@ -124,7 +148,8 @@ ServerEvents.recipes(event => {
         "soul_infused",
         "stellarium",
         "twinite",
-        "elementium"
+        "elementium",
+        "nephryx"
     ].forEach(ingot => {
         recipes.push(
             //Special Ingots Plates
@@ -151,7 +176,11 @@ ServerEvents.recipes(event => {
         'iridium',
         'enderium',
         'lumium',
-        'signalum'
+        'signalum',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach(mat => {
         recipes.push(
             {

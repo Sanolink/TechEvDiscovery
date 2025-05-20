@@ -5,8 +5,558 @@
 	group: "7C12EC759EE02863"
 	icon: "ad_astra:earth_globe"
 	id: "699C036049936502"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/sky/vicinus.png"
+			order: 1
+			rotation: 15.0d
+			width: 2.0d
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:textures/painting/earth.png"
+			rotation: -15.0d
+			width: 1.5d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.5d
+			hover: [ ]
+			image: "ad_astra:textures/painting/the_milky_way.png"
+			rotation: -15.0d
+			width: 6.0d
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:textures/gui/planet_bar/rocket.png"
+			order: 1
+			rotation: 45.0d
+			width: 1.0909090909090908d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:textures/gui/space_station_icon.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:particle/flame_2"
+			rotation: 45.0d
+			width: 1.5d
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/sky/saturn.png"
+			rotation: -30.0d
+			width: 2.0d
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ad_astra:textures/gui/planet_bar/earth_planet_bar.png"
+			rotation: 70.0d
+			width: 0.375d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ad_astra:textures/gui/planet_bar/moon_planet_bar.png"
+			rotation: 70.0d
+			width: 0.375d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ad_astra:textures/gui/planet_bar/mars_planet_bar.png"
+			rotation: 70.0d
+			width: 0.375d
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ad_astra:textures/gui/planet_bar/glacio_planet_bar.png"
+			rotation: 70.0d
+			width: 0.375d
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:textures/painting/moon.png"
+			rotation: -15.0d
+			width: 1.5d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:textures/painting/mars.png"
+			rotation: -15.0d
+			width: 1.5d
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:textures/painting/venus.png"
+			rotation: -15.0d
+			width: 1.5d
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:textures/painting/glacio.png"
+			rotation: -15.0d
+			width: 1.5d
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ad_astra_giselle_addon:block/automation_nasa_workbench"
+			rotation: -15.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ad_astra:textures/painting/mercury.png"
+			rotation: -15.0d
+			width: 1.5d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ad_astra:textures/gui/planet_bar/mars_planet_bar.png"
+			rotation: 122.0d
+			width: 0.375d
+			x: 5.803571428571431d
+			y: -3.0127551020408205d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["60DFB9A6A02619E3"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "53F4A27E5674C446"
+			tasks: [{
+				id: "751C63D555019DAA"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&lTen, nine, eight..."
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18C40C1A8D19173F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "652C6246E31BA6A4"
+			tasks: [{
+				id: "13C102EDD2B2F29B"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&lThe Long Road"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4AA258BECF79E59E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "45D303090473CEAA"
+			tasks: [{
+				id: "6DA4142ABC72C5FE"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&lInto the Fire"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53A2C940E775FCC1"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1893958B84FE9CA6"
+			tasks: [{
+				id: "49CC73C31ECEFC62"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&lPast the Light"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["18C40C1A8D19173F"]
+			id: "771129A6BDE866B5"
+			tasks: [{
+				id: "3C53BBBD69EEC9A3"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4AA258BECF79E59E"]
+			id: "2BE006CA5C18A60E"
+			tasks: [{
+				id: "053E4B6CAFC3D0BF"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["53A2C940E775FCC1"]
+			id: "7839C56763766E23"
+			tasks: [{
+				id: "6A9102437FEF39D0"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F9E580941C61B9B"]
+			id: "60DFB9A6A02619E3"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "75369B3841CF451A"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			title: "&lPer Aspera Ad Astra"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53F4A27E5674C446"]
+			id: "18C40C1A8D19173F"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "71BD3E214AD09737"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			title: "&l&7One Small Step"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["652C6246E31BA6A4"]
+			id: "4AA258BECF79E59E"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "75F85C512C2B8F86"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			title: "&l&6Far From Home"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45D303090473CEAA"]
+			id: "53A2C940E775FCC1"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "367A12D1133DE3B3"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			title: "&l&4No Way Home"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1893958B84FE9CA6"]
+			id: "54D89EA890C7FE6C"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0A140F3B4D823045"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			title: "&l&5Interstellar"
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			id: "68FC9326E0B6FBDF"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "48270CA70C3D442E"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "489B5D460575FAC6"
+			tasks: [{
+				id: "404C66445DF31CB9"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "46C799470884AF33"
+			tasks: [{
+				id: "4896361557FE39CC"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "24D50446AC1EB1BD"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1130AA089A06713F"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "573A302DFF939617"
+			tasks: [{
+				id: "5A031E25669D6BDF"
+				item: "ad_astra_giselle_addon:gravity_normalizer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "3788E95A811110DB"
+			tasks: [{
+				id: "04F7197687F4DA2C"
+				item: "ad_astra_giselle_addon:fuel_loader"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "5571EB0F63195E44"
+			tasks: [{
+				id: "6B8A27A77925EEC5"
+				item: "ad_astra_giselle_addon:rocket_sensor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24D50446AC1EB1BD"]
+			id: "53EDAD3F4C96550B"
+			tasks: [{
+				id: "26CF45B83477ACA5"
+				item: "ad_astra_giselle_addon:automation_nasa_workbench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "008E98DF0C747E99"
+			tasks: [{
+				id: "74EB6A1A075C60C9"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "784E1ABAFD6789DE"
+			tasks: [{
+				id: "27820EE5B0C3F4BC"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19410DF7CB138BC2"]
+			id: "65531A748E8FBA13"
+			tasks: [{
+				id: "718A5FCB53BC357C"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30D0FC02EB3F160D"]
+			id: "19410DF7CB138BC2"
+			tasks: [{
+				id: "34FA7DEC6DABA51A"
+				item: "ad_astra:nephryx_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["45D303090473CEAA"]
+			id: "30D0FC02EB3F160D"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "08E67A3581B00F88"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+	]
 	title: " &l&6♦ &rAd Astra"
 }

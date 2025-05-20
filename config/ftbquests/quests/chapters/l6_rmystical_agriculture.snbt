@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "l6_rmystical_agriculture"
 	group: "7C12EC759EE02863"
-	icon: "mysticalagradditions:creative_essence"
+	icon: "mysticalagriculture:inferium_essence"
 	id: "5C4A3AC62A654201"
 	images: [
 		{
@@ -79,7 +79,7 @@
 			y: -6.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -87,10 +87,14 @@
 			hide_dependent_lines: true
 			id: "2F78F2577A0E3D55"
 			rewards: [{
-				count: 8
-				id: "04F5F0E56DE48B95"
-				item: "mysticalagriculture:inferium_essence"
-				random_bonus: 8
+				id: "337B1C73290F39D8"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -100,7 +104,7 @@
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: "&l&aInferium Essence"
+			title: "&l&aMystical Agriculture"
 			x: -7.0d
 			y: -17.0d
 		}
@@ -4108,6 +4112,123 @@
 			}]
 			x: -1.5d
 			y: -18.75d
+		}
+		{
+			dependencies: [
+				"33CEA2E2DF761354"
+				"50987EC5EB9ED4CC"
+				"1B4FCACCA088AF1F"
+				"4CF1E01CABC3EC3B"
+				"351F578812F60E79"
+				"6A8309A353D0CEEA"
+				"66BFEBCDB029547B"
+				"2B9612C3E26B011F"
+				"3DB9602359736CCB"
+				"06045D5F35FD3983"
+				"52CE1F61FE9FE216"
+				"0C8D5625205413DA"
+				"29CC5C6359750DFD"
+				"2734939DC05F2ED1"
+				"1C3F98FDEA7FF790"
+				"39FB2F86B79304DD"
+				"7F259ED66581F944"
+				"3414483E8762B274"
+				"4B5D0A6E479450E5"
+				"0FD1F9E4EDEB2C95"
+				"4158FEA1BF01CBB4"
+				"3A94207E23FAB441"
+				"25C4E0960977AA77"
+				"2803B3EF90F80B47"
+				"048C72B7BC201048"
+				"419FBE54DA60E7FF"
+				"27925CAC550E4D65"
+				"7C801422095F35AA"
+				"4AD1D7A39FF990D6"
+				"49630846144BEC0F"
+				"1C1FC1FEBEFA697A"
+				"4B10793E4A89A4C0"
+				"5B995A6607A5C331"
+				"121065465047B37D"
+				"2E2EE9C0A7B03B2F"
+				"7A608CA15DE74455"
+				"3EFADC7DA9B4A744"
+				"38F8E977BBAD1A5A"
+				"1DA6928B143CCF6B"
+				"5415559BD379BE8A"
+				"3DBCFCDDF07EF560"
+				"3062E7C1571D89C1"
+				"778AFDDC9489145E"
+				"0A1C4FFAE9C46BA6"
+				"3DCF635CD2B830AF"
+				"65B8889FDC158FB7"
+				"3B85B5EB9A072BEC"
+				"668E936E392F7E49"
+				"716216898E470424"
+				"3BCF90540EBF2CAF"
+				"2395DC8B52A0D933"
+				"0677E168915297C2"
+				"16DF85344E984EE0"
+				"59371EF8875E6602"
+				"36D5DA5B444F7959"
+				"5B0FE4409128EEFA"
+				"3BD35CA1DCED6F02"
+				"1D09C0E6A30DEE7F"
+				"7E29A6B330903994"
+				"4BF1EEA32BCFA903"
+				"39B5D9BA52757ADB"
+				"3C1FDB08A7E31056"
+				"1BEBDF2C609583F6"
+				"50D7E58D132CCCD3"
+				"13069BB4E448E55C"
+				"6053DC9844C230AF"
+				"58B44A8BB45AF8C2"
+				"599800AE786C23F2"
+				"311F31D697B265D2"
+				"03378BCD55323863"
+				"7DF239FCCE2AB088"
+				"651C88C290AFC9DD"
+				"121EF95AA4A36748"
+				"5EBF6D1190C080DC"
+				"14234A553B65CAA0"
+				"5F0FD04005462CBC"
+				"0E2D46AD78A75090"
+				"1AE2035542462B4B"
+				"57072C75B02ABAE5"
+				"17B34B0418E67D94"
+				"7B62BD2A81C4C544"
+				"4EC58361AD3F9552"
+				"26D3F4FE328E4469"
+				"4B7DE7A831B097AE"
+				"7B91192E674FCF3D"
+				"4A2FA9E6E1D967DE"
+				"315F5922062EAF9C"
+				"19836B51878C628F"
+				"464A50128BC49840"
+				"3B57F896637D395E"
+				"1B41F93B56BE9826"
+				"4ABD8B8419EA7937"
+				"354CC46A8A0224D6"
+				"5B0F3D75618F2706"
+				"4555F03C80CB5351"
+				"27C9CFB0D1B2F938"
+				"646947BA405CE77C"
+				"14BF62333FC670BE"
+				"4F7D53E13322B049"
+				"6EC240EFE7B39664"
+				"220DC4FF60C3C6CA"
+				"4E645C9905477246"
+			]
+			hide_dependency_lines: true
+			id: "3DC73E5443307ED5"
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "5097A2A69AA26FDC"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			x: 7.937556154537283d
+			y: -16.422619047619044d
 		}
 	]
 	title: " &l&6♦ &rMystical Agriculture"

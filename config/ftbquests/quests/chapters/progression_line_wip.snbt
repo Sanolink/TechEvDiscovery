@@ -15,8 +15,8 @@
 			image: "techev:textures/misc/quests/progression.png"
 			rotation: 0.0d
 			width: 20.959044368600683d
-			x: 13.5d
-			y: -5.5d
+			x: 12.5d
+			y: -6.0d
 		}
 		{
 			click: ""
@@ -28,7 +28,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 25.5d
-			y: -2.5d
+			y: -8.5d
 		}
 		{
 			click: ""
@@ -82,6 +82,19 @@
 			x: 22.5d
 			y: 0.0d
 		}
+		{
+			click: ""
+			color: 16550912
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
+			rotation: -90.0d
+			width: 3.25d
+			x: 25.5d
+			y: -3.0d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -127,6 +140,14 @@
 			size: 3.0d
 			x: 25.5d
 			y: 0.0d
+		}
+		{
+			id: "7BEF2722FF59A04F"
+			linked_quest: "4E7356179682035C"
+			shape: "octagon"
+			size: 3.0d
+			x: 25.5d
+			y: -6.0d
 		}
 	]
 	quests: [
@@ -738,6 +759,124 @@
 			title: "&lCompact Addons"
 			x: 19.5d
 			y: -2.25d
+		}
+		{
+			dependencies: [
+				"6BF612431ADBCFF4"
+				"579C643804E863A8"
+			]
+			icon: "mekaevolution:infinite_control_circuit"
+			id: "5FF4EA546D8B59FF"
+			rewards: [{
+				id: "689CA3DEF7021592"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Mekanism\"."
+			tasks: [{
+				id: "62C10DA4B76B72D1"
+				type: "checkmark"
+			}]
+			title: "&lMekanism"
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6BF612431ADBCFF4"]
+			icon: "productivebees:upgrade_comb_block"
+			id: "6D057E3BDEF6CCFB"
+			rewards: [{
+				id: "371AAEBA137DDB29"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Productive Bees\"."
+			tasks: [{
+				id: "4D00F38A580D3AE0"
+				type: "checkmark"
+			}]
+			title: "&lProductive Bees"
+			x: 26.25d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"11A703891734B3CD"
+				"6BF612431ADBCFF4"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "angelring:items/resonant_angel_ring"
+				}
+			}
+			id: "6C50363D14D24786"
+			rewards: [{
+				id: "44FE17787D891A57"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Applied Energistics 2\"."
+			tasks: [{
+				id: "185123BAD17CAE67"
+				type: "checkmark"
+			}]
+			title: "&lApplied Energistics 2"
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3DC73E5443307ED5"
+				"6BF612431ADBCFF4"
+			]
+			icon: "mysticalagradditions:creative_essence"
+			id: "4DB4C1C0F89D9057"
+			rewards: [{
+				id: "2CB163BD403ED45C"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Mystical Agriculture\"."
+			tasks: [{
+				id: "6F527ED473AE9203"
+				type: "checkmark"
+			}]
+			title: "&lMystical Agriculture"
+			x: 27.75d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"54D89EA890C7FE6C"
+				"6BF612431ADBCFF4"
+			]
+			icon: "ad_astra:glacio_globe"
+			id: "4211333364489533"
+			rewards: [{
+				id: "5C1FA0430A04AF13"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Ad Astra\"."
+			tasks: [{
+				id: "69D6C7B42C88416C"
+				type: "checkmark"
+			}]
+			title: "&lAd Astra"
+			x: 27.0d
+			y: -1.5d
 		}
 	]
 	title: " &l♠ &r&lAchievements"

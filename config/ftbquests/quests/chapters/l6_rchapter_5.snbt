@@ -65,7 +65,7 @@
 		}
 		{
 			dependencies: ["5D3103914AC6D89E"]
-			icon: "mysticalagradditions:creative_essence"
+			icon: "mysticalagriculture:inferium_essence"
 			id: "3529A0DB7D4269CD"
 			shape: "gear"
 			size: 1.5d
@@ -78,7 +78,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["5D3103914AC6D89E"]
+			dependencies: [
+				"5D3103914AC6D89E"
+				"3529A0DB7D4269CD"
+			]
 			icon: "productivebees:upgrade_comb_block"
 			id: "1A187165637C4238"
 			shape: "gear"
@@ -101,9 +104,10 @@
 				type: "checkmark"
 			}]
 			title: "&lQuantum Utilities"
-			x: 0.0d
-			y: 5.0d
+			x: 1.0d
+			y: 2.5d
 		}
 	]
+	subtitle: ["&lCosmic Supremacy"]
 	title: " &l&6♦ &rChapter 5"
 }

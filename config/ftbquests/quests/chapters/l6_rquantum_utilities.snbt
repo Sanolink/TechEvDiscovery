@@ -5,8 +5,148 @@
 	group: "7C12EC759EE02863"
 	icon: "angelring:angel_ring"
 	id: "3FDB296086D3A6D8"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "52A74AFD3A6CAF3A"
+			tasks: [{
+				id: "2CCEA8234D4ED859"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52A74AFD3A6CAF3A"]
+			id: "11A703891734B3CD"
+			shape: "octagon"
+			tasks: [{
+				id: "589B9175752B7979"
+				item: "angelring:resonant_angel_ring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "2F57CAAED7EDB0A0"
+			tasks: [{
+				id: "5BADCC2F5A0D7173"
+				item: {
+					Count: 1b
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "19F1068675B5DC6B"
+			tasks: [{
+				id: "17BDDFA89064A29D"
+				item: "entangled:item"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "09375F56A5CAA6E8"
+			tasks: [{
+				id: "6AB4FEB9B871B3F9"
+				item: "extendedcrafting:ender_crafter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "4A7CF98F57F95A5A"
+			tasks: [{
+				id: "0B44DA6A579EB261"
+				item: "extendedcrafting:flux_crafter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "2F54CEDE5F5BAB82"
+			tasks: [{
+				id: "0F90E50F8763D7CA"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F54CEDE5F5BAB82"]
+			id: "562D3049B9DF5C4B"
+			tasks: [{
+				id: "3333CC9A771A15DC"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["562D3049B9DF5C4B"]
+			id: "02DB202690A267FB"
+			tasks: [{
+				id: "7B0C63B3A5AAA81F"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["02DB202690A267FB"]
+			id: "52AF4D54465B2B2F"
+			tasks: [{
+				id: "2A9D83451B5F77B6"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "5854BA6F44D1CB10"
+			tasks: [{
+				id: "787A39F44E78C8CA"
+				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "7FB863F0381150F4"
+			tasks: [{
+				id: "2532E9809CA56D03"
+				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "6AFBF33E68B0F1D6"
+			tasks: [{
+				id: "7A3832B82C0ACB1E"
+				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+	]
 	title: " &l&6♦ &rQuantum Utilities"
 }

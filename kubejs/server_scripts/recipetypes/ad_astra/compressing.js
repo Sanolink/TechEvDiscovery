@@ -33,11 +33,9 @@ ServerEvents.recipes(event => {
         'alltheores:tin_plate',
         'alltheores:uranium_plate',
         'alltheores:zinc_plate',
-        'alltheores:steel_plate',
         'alltheores:invar_plate',
         'alltheores:electrum_plate',
         'alltheores:bronze_plate',
-        'alltheores:iron_plate',
         'alltheores:gold_plate',
         'alltheores:copper_plate',
         'alltheores:enderium_plate',
@@ -74,7 +72,7 @@ ServerEvents.recipes(event => {
             },
             time: 1
         }
-        event.custom(recipe).id("ad_astra/compressing" + id)
+        event.custom(recipe).id("ad_astra:compressing/" + id)
     }
     
 })

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -59,7 +59,11 @@ ServerEvents.recipes(event => {
         'prismalium',
         'melodium',
         'stellarium',
-        'elementium'
+        'elementium',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach(ingot => {
         recipes.push(
             {

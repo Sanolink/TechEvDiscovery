@@ -1,1 +1,20 @@
-{}
+{
+    "mysticalagriculture:chrome": {
+        "enabled": false
+    },
+    "mysticalagriculture:graphite": {
+        "enabled": false
+    },
+    "mysticalagriculture:mithril": {
+        "enabled": false
+    },
+    "mysticalagriculture:rubber": {
+        "enabled": false
+    },
+    "mysticalagriculture:titanium": {
+        "enabled": false
+    },
+    "mysticalagriculture:tungsten": {
+        "enabled": false
+    }
+}

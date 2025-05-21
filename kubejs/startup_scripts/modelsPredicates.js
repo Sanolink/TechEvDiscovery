@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -44,7 +44,14 @@ StartupEvents.postInit(event => {
         'alltheores:tin_plate',
         'alltheores:uranium_plate',
         'alltheores:zinc_plate',
-        'botania:elementium_plate'
+        'botania:elementium_plate',
+        'create_things_and_misc:rose_quartz_sheet',
+        'create_things_and_misc:blue_quartz_sheet',
+        'create_things_and_misc:source_quartz_sheet',
+        'create_things_and_misc:psi_quartz_sheet',
+        'create_things_and_misc:experience_sheet',
+        'create_new_age:overcharged_iron_sheet',
+        'create_new_age:overcharged_golden_sheet'
     ]
     //All Plates
     Plates.forEach(plate => {

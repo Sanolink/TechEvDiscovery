@@ -105,6 +105,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'constructionwand:infinity_wand', type: 'minecraft:crafting_shaped' })
 
     //Create
+    event.remove({ id: 'create:smoking/bread'})
+    event.remove({ id: 'create:smelting/bread'})
     event.remove({ id: 'create:crafting/materials/rose_quartz'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc'})

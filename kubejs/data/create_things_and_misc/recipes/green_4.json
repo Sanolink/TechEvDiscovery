@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "create:copper_alloy"
+  },
+  "result": "create_things_and_misc:green_sing_3"
+}

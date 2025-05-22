@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.4         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -180,6 +180,8 @@ ServerEvents.recipes(event => {
     //Minecraft
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })
+    event.remove({ id: 'minecraft:bread' })
+    event.remove({ id: 'minecraft:cookie' })
 
     //Naturalist
     event.remove({ id: 'naturalist:cooked_egg_from_campfire_cooking' })

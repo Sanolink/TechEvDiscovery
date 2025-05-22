@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -44,12 +44,6 @@ ServerEvents.recipes(event => {
                 { item: "minecraft:gold_nugget", chance: 0.02 },
                 { item: "createdeco:netherite_nugget", chance: 0.01 }
             ]
-        },
-        //Crushing Brass Ingot
-        {
-            id : "brass_ingot",
-            input: "alltheores:brass_ingot",
-            output: [ { item: "alltheores:brass_dust", chance: 1 } ]
         }
     ]
 

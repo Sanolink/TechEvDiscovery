@@ -33,6 +33,8 @@ StartupEvents.registry('item', e => {
 
     e.create('create:raw_andesite_alloy').displayName("Raw Andesite Alloy")
     e.create('create:brass_alloy').displayName("Brass Alloy")
+    e.create('create:incomplete_copper_alloy', 'create:sequenced_assembly').displayName("Incomplete Copper Alloy")
+    e.create('create:incomplete_optimized_copper_alloy', 'create:sequenced_assembly').displayName("Incomplete Copper Alloy")
     e.create('create:copper_alloy').displayName("Copper Alloy")
     e.create('create:blue_quartz').displayName("Blue Quartz")
     e.create('create:polished_blue_quartz').displayName("Polished Blue Quartz")

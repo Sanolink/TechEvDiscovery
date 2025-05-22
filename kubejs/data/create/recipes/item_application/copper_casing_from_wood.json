@@ -2,15 +2,15 @@
   "type": "create:item_application",
   "ingredients": [
     {
-      "tag": "forge:stripped_logs"
+      "tag": "forge:stripped_wood"
     },
     {
-      "item": "create:brass_alloy"
+      "item": "create:copper_alloy"
     }
   ],
   "results": [
     {
-      "item": "create:brass_casing"
+      "item": "create:copper_casing"
     }
   ]
 }

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -21,23 +21,41 @@ ServerEvents.recipes(event => {
 
     //Recipes
     let recipes = [
-        //Pressing Diamond
+        //Diamond
         {
             id: "diamond",
             input: "#forge:gems/diamond",
             output: "#forge:plates/diamond"
         },
-        //Pressing Sand Paper
+        //Sand Paper
         {
             id: "sand_paper",
             input: "minecraft:sand",
             output: "create:sand_paper"
         },
-        //Pressing Red Sand Paper
+        //Red Sand Paper
         {
             id: "red_sand_paper",
             input: "minecraft:red_sand",
             output: "create:red_sand_paper"
+        },
+        //Blue Quartz Plate
+        {
+            id: "blue_quartz_sheet",
+            input: "create:polished_blue_quartz",
+            output: "create_things_and_misc:blue_quartz_sheet"
+        },
+        //Source Quartz Plate
+        {
+            id: "source_quartz_sheet",
+            input: "create:polished_source_quartz",
+            output: "create_things_and_misc:source_quartz_sheet"
+        },
+        //Psi Quartz Plate
+        {
+            id: "psi_quartz_sheet",
+            input: "create:polished_psi_quartz",
+            output: "create_things_and_misc:psi_quartz_sheet"
         }
     ]
     

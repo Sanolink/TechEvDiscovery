@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -21,6 +21,48 @@ ServerEvents.recipes(event => {
 
     //Recipes
     let recipes = [
+        {
+            id: "overcharged_iron_to_plate",
+            output: 'create_new_age:overcharged_iron_sheet',
+            inputs: 'create_new_age:overcharged_iron',
+            energy: 2400
+        },
+        {
+            id: "overcharged_golden_to_plate",
+            output: 'create_new_age:overcharged_golden_sheet',
+            inputs: 'create_new_age:overcharged_gold',
+            energy: 2400
+        },
+        {
+            id: "experience_to_plate",
+            output: 'create_things_and_misc:experience_sheet',
+            inputs: 'create:experience_nugget',
+            energy: 2400
+        },
+        {
+            id: "rose_quartz_to_plate",
+            output: 'create_things_and_misc:rose_quartz_sheet',
+            inputs: 'create:polished_rose_quartz',
+            energy: 2400
+        },
+        {
+            id: "blue_quartz_to_plate",
+            output: 'create_things_and_misc:blue_quartz_sheet',
+            inputs: 'create:polished_blue_quartz',
+            energy: 2400
+        },
+        {
+            id: "source_quartz_to_plate",
+            output: 'create_things_and_misc:source_quartz_sheet',
+            inputs: 'create:polished_source_quartz',
+            energy: 2400
+        },
+        {
+            id: "psi_quartz_to_plate",
+            output: 'create_things_and_misc:psi_quartz_sheet',
+            inputs: 'create:polished_psi_quartz',
+            energy: 2400
+        },
         {
             id: "prismalium_nugget_packing",
             output: Ingredient.of("#forge:ingots/prismalium"),
@@ -42,7 +84,6 @@ ServerEvents.recipes(event => {
         {
             id: "melodium_nugget_unpacking",
             output: Item.of("#forge:nuggets/melodium").withCount(9),
-            inputs: [Ingredient.of("#forge:ingots/melodium"), Ingredient.of('thermal:press_unpacking_die')],
             energy: 400
         },
         {

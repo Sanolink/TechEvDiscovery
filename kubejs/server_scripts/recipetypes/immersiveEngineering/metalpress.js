@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -42,6 +42,62 @@ ServerEvents.recipes(event => {
             id: "plate_diamond",
             output: "#forge:plates/diamond",
             input: "#forge:gems/diamond",
+            mold: "immersiveengineering:mold_plate",
+            energy: 2400
+        },
+        //Overcharged Iron Plate
+        {
+            id: "plate_overcharged_iron",
+            output: "create_new_age:overcharged_iron_sheet",
+            input: "create_new_age:overcharged_iron",
+            mold: "immersiveengineering:mold_plate",
+            energy: 2400
+        },
+        //Overcharged Golden Plate
+        {
+            id: "plate_overcharged_golden",
+            output: "create_new_age:overcharged_golden_sheet",
+            input: "create_new_age:overcharged_gold",
+            mold: "immersiveengineering:mold_plate",
+            energy: 2400
+        },
+        //Experience Plate
+        {
+            id: "plate_experience",
+            output: "create_things_and_misc:experience_sheet",
+            input: "create:experience_nugget",
+            mold: "immersiveengineering:mold_plate",
+            energy: 2400
+        },
+        //Rose Quartz Plate
+        {
+            id: "plate_rose_quartz",
+            output: "create_things_and_misc:rose_quartz_sheet",
+            input: "create:polished_rose_quartz",
+            mold: "immersiveengineering:mold_plate",
+            energy: 2400
+        },
+        //Blue Quartz Plate
+        {
+            id: "plate_blue_quartz",
+            output: "create_things_and_misc:blue_quartz_sheet",
+            input: "create:polished_blue_quartz",
+            mold: "immersiveengineering:mold_plate",
+            energy: 2400
+        },
+        //Source Quartz Plate
+        {
+            id: "plate_source_quartz",
+            output: "create_things_and_misc:source_quartz_sheet",
+            input: "create:polished_source_quartz",
+            mold: "immersiveengineering:mold_plate",
+            energy: 2400
+        },
+        //Psi Quartz Plate
+        {
+            id: "plate_psi_quartz",
+            output: "create_things_and_misc:psi_quartz_sheet",
+            input: "create:polished_psi_quartz",
             mold: "immersiveengineering:mold_plate",
             energy: 2400
         },
@@ -105,7 +161,7 @@ ServerEvents.recipes(event => {
         {
             id: "spell_bullet",
             output: "psi:spell_bullet",
-            input: "psi:psidust",
+            input: "create_things_and_misc:psi_quartz_sheet",
             mold: "immersiveengineering:mold_bullet_casing",
             energy: 2400
         }

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.2         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -238,7 +238,8 @@ ServerEvents.tags('item', e => {
         'alltheores:other_silver_ore',
         'alltheores:other_tin_ore',
         'alltheores:other_uranium_ore',
-        'alltheores:other_zinc_ore'
+        'alltheores:other_zinc_ore',
+        'create:dough'
     ].forEach(item => {e.removeAllTagsFrom(item)})
 
     /**********************ADD****************************/

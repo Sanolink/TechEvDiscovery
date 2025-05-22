@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.4         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -97,6 +97,27 @@ ServerEvents.recipes(event => {
                 {type: 'cutting'},
                 {type: 'deploying', item:"#forge:heart"},
             ]
+        },
+        //Copper Alloy
+        {
+            input:"create:andesite_alloy",
+            transition:"create:incomplete_copper_alloy",
+            output:["create:copper_alloy"],
+            loops: 4,
+            sequence: [
+                {type: 'deploying', item:"#forge:plates/copper"},
+            ]
+        },
+        //Optimized Copper Alloy
+        {
+            input:"create:andesite_alloy",
+            transition:"create:incomplete_optimized_copper_alloy",
+            output:["create:copper_alloy"], id: "optimized_copper_alloy",
+            loops: 1,
+            sequence: [
+                {type: 'filling', fluid:Fluid.of("water", 250)},
+                {type: 'deploying', item:"#forge:plates/copper"},
+            ]
         }
     ]
 
@@ -110,7 +131,7 @@ ServerEvents.recipes(event => {
             if (step.type == 'deploying'){sequence.push(event.recipes.create.deploying(transition, [transition, step.item]))}
             if (step.type == 'filling') {sequence.push(event.recipes.create.filling(transition, [transition, step.fluid]))}
         })
-        event.recipes.create.sequenced_assembly(recipe.output, recipe.input, sequence).transitionalItem(recipe.transition).loops(recipe.loops).id("create:sequenced_assembly/" + recipe.output[0].split(":")[1])
+        event.recipes.create.sequenced_assembly(recipe.output, recipe.input, sequence).transitionalItem(recipe.transition).loops(recipe.loops).id("create:sequenced_assembly/" + (recipe.id || recipe.output[0].split(":")[1]))
     })
 
 })

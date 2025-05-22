@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.4         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -213,6 +213,8 @@ ServerEvents.recipes(e => {
     ['#forge:coal_coke', 'thermal:coal_coke'].forEach(I => {replaceIO(I, 'immersiveengineering:coal_coke')});
     ['#forge:bitumen', 'immersivepetroleum:bitumen'].forEach(I => {replaceIO(I, 'thermal:bitumen')});
     ['#forge:slag', 'immersiveengineering:slag'].forEach(I => {replaceIO(I, 'thermal:slag')});
+    ['pneumaticcraft:wheat_flour'].forEach(I => {replaceIO(I, 'create:wheat_flour')});
+    ['create:dough'].forEach(I => {replaceIO(I, 'farmersdelight:wheat_dough')});
 
     //Remove CRAFTING Repetitive Recipes
     e.remove({ output: '#forge:storage_blocks/brass', type: 'minecraft:crafting_shaped', mod: "create" })

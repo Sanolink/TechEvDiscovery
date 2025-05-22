@@ -1,5 +1,22 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.0
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.3.5         (_____)
+
+*/
+
 
 ServerEvents.recipes(event => {
     
@@ -16,7 +33,7 @@ ServerEvents.recipes(event => {
             output: "ars_nouveau:novice_spell_book",
             pattern: ["GSG", "HBP", "GAG"],
             key: {
-                G: "create:polished_source_quartz",
+                G: "create_things_and_misc:source_quartz_sheet",
                 S: "minecraft:diamond_sword",
                 H: "minecraft:diamond_shovel",
                 B: "minecraft:book",

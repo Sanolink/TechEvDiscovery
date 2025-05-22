@@ -5,12 +5,12 @@
       "tag": "forge:stripped_logs"
     },
     {
-      "item": "create:brass_alloy"
+      "item": "create:copper_alloy"
     }
   ],
   "results": [
     {
-      "item": "create:brass_casing"
+      "item": "create:copper_casing"
     }
   ]
 }

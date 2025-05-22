@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "create_things_and_misc:psi_quartz_sheet"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "I",
+    "D",
+    "G"
+  ],
+  "result": {
+    "item": "psi:cad_battery_basic"
+  }
+}

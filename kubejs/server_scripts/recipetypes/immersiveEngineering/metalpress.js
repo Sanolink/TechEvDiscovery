@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
         {
             id: "spell_bullet",
             output: "psi:spell_bullet",
-            input: "psi:psidust",
+            input: "create_things_and_misc:psi_quartz_sheet",
             mold: "immersiveengineering:mold_bullet_casing",
             energy: 2400
         }

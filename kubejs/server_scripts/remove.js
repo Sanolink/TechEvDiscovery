@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.4         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -105,6 +105,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'constructionwand:infinity_wand', type: 'minecraft:crafting_shaped' })
 
     //Create
+    event.remove({ id: 'create:smoking/bread'})
+    event.remove({ id: 'create:smelting/bread'})
     event.remove({ id: 'create:crafting/materials/rose_quartz'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc'})
@@ -180,6 +182,8 @@ ServerEvents.recipes(event => {
     //Minecraft
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })
+    event.remove({ id: 'minecraft:bread' })
+    event.remove({ id: 'minecraft:cookie' })
 
     //Naturalist
     event.remove({ id: 'naturalist:cooked_egg_from_campfire_cooking' })

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.4         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -32,6 +32,10 @@ StartupEvents.registry('item', e => {
     e.create('constructionwand:core_infinity').displayName("Infinity Wand Core")
 
     e.create('create:raw_andesite_alloy').displayName("Raw Andesite Alloy")
+    e.create('create:brass_alloy').displayName("Brass Alloy")
+    e.create('create:incomplete_copper_alloy', 'create:sequenced_assembly').displayName("Incomplete Copper Alloy")
+    e.create('create:incomplete_optimized_copper_alloy', 'create:sequenced_assembly').displayName("Incomplete Copper Alloy")
+    e.create('create:copper_alloy').displayName("Copper Alloy")
     e.create('create:blue_quartz').displayName("Blue Quartz")
     e.create('create:polished_blue_quartz').displayName("Polished Blue Quartz")
     e.create('create:positron_tube').displayName("Positron Tube")
@@ -42,6 +46,10 @@ StartupEvents.registry('item', e => {
     e.create('create:polished_psi_quartz').displayName("Polished Psi Quartz")
     e.create('create:psi_tube').displayName("Psi Tube")
     e.create('create:netherite_sandpaper', 'create:sandpaper').maxDamage(2048).displayName("Netherite Sandpaper")
+
+    e.create('create_things_and_misc:blue_quartz_sheet').displayName("Blue Quartz Plate").texture('create_things_and_misc:items/blue_quartz_sheet')
+    e.create('create_things_and_misc:source_quartz_sheet').displayName("Source Quartz Plate").texture('create_things_and_misc:items/source_quartz_sheet')
+    e.create('create_things_and_misc:psi_quartz_sheet').displayName("Psi Quartz Plate").texture('create_things_and_misc:items/psi_quartz_sheet')
 
     e.create('tiab:compressed_iron_bottle').displayName("Compressed Bottle")
     e.create('tiab:flowing_time').displayName("Flowing Time")

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "forge:stripped_logs"
+    },
+    {
+      "item": "create:copper_alloy"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:copper_casing"
+    }
+  ]
+}

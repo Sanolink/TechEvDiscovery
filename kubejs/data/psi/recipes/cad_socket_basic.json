@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "create_things_and_misc:psi_quartz_sheet"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "DI ",
+    "I  "
+  ],
+  "result": {
+    "item": "psi:cad_socket_basic"
+  }
+}

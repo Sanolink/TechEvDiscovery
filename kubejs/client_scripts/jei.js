@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.2         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -244,7 +244,9 @@ JEIEvents.hideItems(event => {
         'pneumaticcraft:oil_bucket',
         'pneumaticcraft:vegetable_oil_bucket',
         'thermal:crude_oil_bucket',
-        'thermal:creosote_bucket'
+        'thermal:creosote_bucket',
+        'pneumaticcraft:wheat_flour',
+        'create:dough'
     ])
 })
 

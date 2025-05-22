@@ -5,7 +5,7 @@
       "tag": "forge:stripped_wood"
     },
     {
-      "tag": "forge:dusts/brass"
+      "item": "create:brass_alloy"
     }
   ],
   "results": [

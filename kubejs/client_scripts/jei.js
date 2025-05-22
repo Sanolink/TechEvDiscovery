@@ -265,6 +265,8 @@ JEIEvents.hideItems(event => {
         'pneumaticcraft:vegetable_oil_bucket',
         'thermal:crude_oil_bucket',
         'thermal:creosote_bucket',
+        'pneumaticcraft:wheat_flour',
+        'create:dough',
         'ad_astra:oil_bucket',
         'ad_astra:hammer',
         'mysticalagradditions:nether_prosperity_ore',

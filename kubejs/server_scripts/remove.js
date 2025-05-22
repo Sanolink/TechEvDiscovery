@@ -112,6 +112,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'constructionwand:infinity_wand', type: 'minecraft:crafting_shaped' })
 
     //Create
+    event.remove({ id: 'create:smoking/bread'})
+    event.remove({ id: 'create:smelting/bread'})
     event.remove({ id: 'create:crafting/materials/rose_quartz'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc'})
@@ -199,6 +201,8 @@ ServerEvents.recipes(event => {
     //Minecraft
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })
+    event.remove({ id: 'minecraft:bread' })
+    event.remove({ id: 'minecraft:cookie' })
 
     //Mystical Agriculture + Addons
     event.remove({ id: 'mysticalagradditions:nether_prosperity_shard_smelted'})

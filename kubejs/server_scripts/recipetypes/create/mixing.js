@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.5         (_____)
 
 */
 
@@ -27,6 +27,12 @@ ServerEvents.recipes(event => {
             type: 'basic',
             input: ['minecraft:andesite', '#forge:nuggets/pewter'],
             output: 'create:raw_andesite_alloy'
+        },
+        {
+            id: 'brass_alloy',
+            type: 'basic',
+            input: ['create:andesite_alloy', '#forge:dusts/brass'],
+            output: 'create:brass_alloy'
         },
         {
             id: 'soul',

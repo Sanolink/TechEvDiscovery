@@ -250,6 +250,7 @@ ServerEvents.tags('item', e => {
         'alltheores:other_tin_ore',
         'alltheores:other_uranium_ore',
         'alltheores:other_zinc_ore',
+        'create:dough',
         'mekanism:dust_sulfur',
         'mysticalagradditions:end_prosperity_ore',
         'mysticalagradditions:nether_prosperity_ore',

@@ -1,0 +1,32 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "create_things_and_misc:items/source_quartz_sheet_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "count": 0.00000
+      },
+      "model": "create_things_and_misc:item/source_quartz_sheet_0"
+    },
+    {
+      "predicate": {
+        "count": 0.25000
+      },
+      "model": "create_things_and_misc:item/source_quartz_sheet_1"
+    },
+    {
+      "predicate": {
+        "count": 0.50000
+      },
+      "model": "create_things_and_misc:item/source_quartz_sheet_2"
+    },
+    {
+      "predicate": {
+        "count": 1.00000
+      },
+      "model": "create_things_and_misc:item/source_quartz_sheet_3"
+    }
+  ]
+}

@@ -36,7 +36,7 @@ StartupEvents.registry('block', e => {
 
     e.create('thermal:resonant_machine_frame').displayName("Resonant Machine Frame").soundType("lantern").hardness(2).tagBlock("mineable/pickaxe").notSolid()
 
-    e.create('ad_astra:mercury_nephryx_ore').displayName("Mercury Nephryx Ore").soundType(SoundType.STONE).hardness(3).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_iron_tool").requiresTool(true)
-    e.create('ad_astra:raw_nephryx_block').displayName("Raw Nephryx Block").soundType(SoundType.STONE).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_iron_tool").requiresTool(true)
-    e.create('ad_astra:nephryx_block').displayName("Nephryx Block").soundType(SoundType.METAL).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").requiresTool(true)
+    e.create('ad_astra:mercury_nephryx_ore').displayName("Mercury Nephryx Ore").soundType(SoundType.STONE).hardness(3).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_iron_tool").tagBoth("forge:ores").tagBoth("forge:ores/nephryx").requiresTool(true)
+    e.create('ad_astra:raw_nephryx_block').displayName("Raw Nephryx Block").soundType(SoundType.STONE).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_iron_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/raw_nephryx").requiresTool(true)
+    e.create('ad_astra:nephryx_block').displayName("Nephryx Block").soundType(SoundType.METAL).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/nephryx").requiresTool(true)
 })

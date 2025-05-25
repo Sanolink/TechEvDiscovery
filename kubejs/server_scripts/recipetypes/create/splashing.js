@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -48,7 +48,11 @@ ServerEvents.recipes(event => {
         {mat: "lead", sec: "minecraft:coal"},
         {mat: "aluminum"},
         {mat: "nickel"},
-        {mat: "platinum"}
+        {mat: "platinum"},
+        {mat: "desh"},
+        {mat: "ostrum"},
+        {mat: "calorite"},
+        {mat: "nephryx"}
     ]
     //Splashing Crushed Raw 
     crushed.forEach(material => {

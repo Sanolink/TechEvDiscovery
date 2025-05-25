@@ -44,6 +44,10 @@ StartupEvents.registry('item', e => {
     e.create('create:polished_psi_quartz').displayName("Polished Psi Quartz")
     e.create('create:psi_tube').displayName("Psi Tube")
     e.create('create:netherite_sandpaper', 'create:sandpaper').maxDamage(2048).displayName("Netherite Sandpaper")
+    e.create('create:crushed_raw_desh').displayName("Crushed Desh Ore").tag("create:crushed_raw_materials")
+    e.create('create:crushed_raw_ostrum').displayName("Crushed Ostrum Ore").tag("create:crushed_raw_materials")
+    e.create('create:crushed_raw_calorite').displayName("Crushed Calorite Ore").tag("create:crushed_raw_materials")
+    e.create('create:crushed_raw_nephryx').displayName("Crushed Nephryx Ore").tag("create:crushed_raw_materials")
 
     e.create('create_things_and_misc:blue_quartz_sheet').displayName("Blue Quartz Plate").texture('create_things_and_misc:items/blue_quartz_sheet')
     e.create('create_things_and_misc:source_quartz_sheet').displayName("Source Quartz Plate").texture('create_things_and_misc:items/source_quartz_sheet')

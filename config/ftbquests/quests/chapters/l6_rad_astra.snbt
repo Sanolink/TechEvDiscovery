@@ -209,8 +209,8 @@
 			image: "ad_astra:textures/painting/mercury.png"
 			rotation: -15.0d
 			width: 1.5d
-			x: 5.0d
-			y: -2.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			click: ""
@@ -426,8 +426,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			id: "489B5D460575FAC6"
@@ -436,8 +436,8 @@
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			id: "46C799470884AF33"
@@ -446,8 +446,8 @@
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			id: "24D50446AC1EB1BD"
@@ -468,8 +468,8 @@
 				item: "ad_astra_giselle_addon:gravity_normalizer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			id: "3788E95A811110DB"
@@ -479,7 +479,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			id: "5571EB0F63195E44"
@@ -488,8 +488,8 @@
 				item: "ad_astra_giselle_addon:rocket_sensor"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["24D50446AC1EB1BD"]
@@ -509,8 +509,8 @@
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			id: "784E1ABAFD6789DE"
@@ -519,8 +519,8 @@
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["19410DF7CB138BC2"]
@@ -531,7 +531,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["30D0FC02EB3F160D"]

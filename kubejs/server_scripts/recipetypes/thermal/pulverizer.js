@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.6         (_____)
 
 */
 
@@ -66,8 +66,7 @@ ServerEvents.recipes(event => {
         "uranium",
         "aluminum",
         "iesnium",
-        "steel",
-        "brass"
+        "steel"
     ].forEach((mat) => {
         recipes.push(
             {
@@ -121,8 +120,7 @@ ServerEvents.recipes(event => {
         "dragonsteel",
         "prismalium",
         "melodium",
-        "stellarium",
-        "brass"
+        "stellarium"
     ].forEach((mat) => {
         recipes.push(
             {

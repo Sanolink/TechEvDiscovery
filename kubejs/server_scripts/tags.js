@@ -291,6 +291,8 @@ ServerEvents.tags('item', e => {
     e.add('forge:dusts', 'ad_astra:nephryx_dust')
 
     e.add('forge:raw_materials/nephryx', 'ad_astra:raw_nephryx')
+    e.add('forge:raw_materials/elementium', "mythicbotany:raw_elementium")
+    e.add('forge:storage_blocks/raw_elementium', "mythicbotany:raw_elementium_block")
     e.add('forge:ingots/nephryx', 'ad_astra:nephryx_ingot')
     e.add('forge:nuggets/nephryx', 'ad_astra:nephryx_nugget')
     e.add('forge:dusts/netherite', 'alltheores:netherite_dust')
@@ -306,6 +308,11 @@ ServerEvents.tags('item', e => {
     e.add('forge:gears/ostrum', 'ad_astra:ostrum_gear')
     e.add('forge:gears/calorite', 'ad_astra:calorite_gear')
     e.add('forge:dusts/nephryx', 'ad_astra:nephryx_dust')
+
+    const BlueSkiesMissingTags = ['aquite', 'charoite', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
+        e.add(`forge:raw_materials/${mat}`, `blue_skies:raw_${mat}`)
+        e.add(`forge:storage_blocks/raw_${mat}`, `blue_skies:raw_${mat}_block`)
+    })
 })
 
 ServerEvents.tags("fluid", e => {

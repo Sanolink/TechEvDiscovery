@@ -100,7 +100,39 @@ ServerEvents.recipes(event => {
         }
     ]
 
-    const PackingUnpacking = [
+    const RawPackingUnpacking = [
+        'zinc',
+        'aluminum',
+        'osmium',
+        'uranium',
+        'platinum',
+        'iridium',
+        'aquite',
+        'charoite',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'elementium',
+        'cloggrum',
+        'froststeel'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: `raw_${mat}_packing`,
+                output: Ingredient.of(`#forge:storage_blocks/raw_${mat}`),
+                inputs: [Ingredient.of(`#forge:raw_materials/${mat}`, 9), Ingredient.of('thermal:press_packing_3x3_die')],
+                energy: 400
+            },
+            {
+                id: `raw_${mat}_unpacking`,
+                output: Item.of(`#forge:raw_materials/${mat}`).withCount(9),
+                inputs: [Ingredient.of(`#forge:storage_blocks/raw_${mat}`), Ingredient.of('thermal:press_packing_3x3_die')],
+                energy: 400
+            },
+        )
+    });
+
+    const IngotsPackingUnpacking = [
         "aluminum",
         'osmium',
         'platinum',

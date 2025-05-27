@@ -114,7 +114,11 @@ ServerEvents.recipes(event => {
         'horizonite',
         'elementium',
         'cloggrum',
-        'froststeel'
+        'froststeel',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach((mat) => {
         recipes.push(
             {

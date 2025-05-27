@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.6         (_____)
 
 */
 
@@ -270,6 +270,12 @@ ServerEvents.tags('item', e => {
     e.add('lychee:lightning_fire_immune', 'powah:steel_energized')
     e.add('psi:psimetal_assemblies', ['psi:cad_assembly_psimetal', 'psi:cad_assembly_ivory_psimetal', 'psi:cad_assembly_ebony_psimetal'])
     e.add('industrialforegoing:sludge_containors', ['industrialforegoing:sludge_bucket', 'industrialforegoing:sludge_bottle'])
+    e.add('forge:raw_materials/elementium', "mythicbotany:raw_elementium")
+    e.add('forge:storage_blocks/raw_elementium', "mythicbotany:raw_elementium_block")
+    const BlueSkiesMissingTags = ['aquite', 'charoite', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
+        e.add(`forge:raw_materials/${mat}`, `blue_skies:raw_${mat}`)
+        e.add(`forge:storage_blocks/raw_${mat}`, `blue_skies:raw_${mat}_block`)
+    })
 })
 
 ServerEvents.tags("fluid", e => {

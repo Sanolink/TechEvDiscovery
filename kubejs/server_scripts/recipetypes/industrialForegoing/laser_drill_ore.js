@@ -13,53 +13,372 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.6         (_____)
 
 */
 
 ServerEvents.recipes(event => {
     
+    const endBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.minecraft.end
+    };
+
+    const everbrightBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.blue_skies.everbright
+    };
+
+    const everdawnBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.blue_skies.everdawn
+    };
+
+    const blue_skiesBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.blue_skies.everbright.concat(biomes.blue_skies.everdawn)
+    };
+
+    const alfheimBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.mythicbotany.alfheim
+    };
+
+    const undergardenBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.undergarden
+    };
+
+
     //Recipes
     const recipes = [
-        //Amethyst Block
+        //Amethyst
         {
             id: "amethyst",
-            catalyst: "industrialforegoing:laser_lens10",
+            catalyst: laserLens.purple,
             output: "minecraft:amethyst_block",
             rarity: [
                 {
-                    blacklist: {
-                    type: "minecraft:worldgen/biome",
-                    values: [
-                        "minecraft:the_end",
-                        "minecraft:the_void",
-                        "minecraft:small_end_islands",
-                        "minecraft:end_barrens",
-                        "minecraft:end_highlands",
-                        "minecraft:end_midlands"
-                        ]
-                    },
+                    blacklist: endBiomes,
                     depth_max: 26,
                     depth_min: 0,
                     weight: 8,
                     whitelist: {}
                 },
                 {
-                    blacklist: {
-                    type: "minecraft:worldgen/biome",
-                    values: [
-                        "minecraft:the_end",
-                        "minecraft:the_void",
-                        "minecraft:small_end_islands",
-                        "minecraft:end_barrens",
-                        "minecraft:end_highlands",
-                        "minecraft:end_midlands"
-                        ]
-                    },
+                    blacklist: endBiomes,
                     depth_max: 255,
                     depth_min: 0,
                     weight: 1,
                     whitelist: {}
+                }
+            ]
+        },
+        //Zinc
+        {
+            id: "zinc",
+            catalyst: laserLens.cyan,
+            output: "alltheores:raw_zinc",
+            rarity: [
+                {
+                    blacklist: endBiomes,
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: {}
+                },
+                {
+                    blacklist: endBiomes,
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: {}
+                }
+            ]
+        },
+        //Falsite
+        {
+            id: "falsite",
+            catalyst: laserLens.purple,
+            output: "blue_skies:raw_falsite",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: everbrightBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: everbrightBiomes
+                }
+            ]
+        },
+        //Ventium
+        {
+            id: "ventium",
+            catalyst: laserLens.red,
+            output: "blue_skies:raw_ventium",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: everbrightBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: everbrightBiomes
+                }
+            ]
+        },
+        //Horizonite
+        {
+            id: "horizonite",
+            catalyst: laserLens.orange,
+            output: "blue_skies:raw_horizonite",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 29,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: everdawnBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: everdawnBiomes
+                }
+            ]
+        },
+        //Diopside
+        {
+            id: "diopside",
+            catalyst: laserLens.green,
+            output: "blue_skies:diopside_gem",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 29,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: blue_skiesBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: blue_skiesBiomes
+                }
+            ]
+        },
+        //Aquite
+        {
+            id: "aquite",
+            catalyst: laserLens.light_blue,
+            output: "blue_skies:raw_aquite",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: blue_skiesBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: blue_skiesBiomes
+                }
+            ]
+        },
+        //Charoite
+        {
+            id: "charoite",
+            catalyst: laserLens.purple,
+            output: "blue_skies:raw_charoite",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: blue_skiesBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: blue_skiesBiomes
+                }
+            ]
+        },
+        //Pyrope
+        {
+            id: "pyrope",
+            catalyst: laserLens.pink,
+            output: "blue_skies:pyrope_gem",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: blue_skiesBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: blue_skiesBiomes
+                }
+            ]
+        },
+        //Moonstone
+        {
+            id: "moonstone",
+            catalyst: laserLens.light_gray,
+            output: "blue_skies:moonstone_shard",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: blue_skiesBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: blue_skiesBiomes
+                }
+            ]
+        },
+        //Elementium
+        {
+            id: "elementium",
+            catalyst: laserLens.magenta,
+            output: "mythicbotany:raw_elementium",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: alfheimBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: alfheimBiomes
+                }
+            ]
+        },
+        //Cloggrum
+        {
+            id: "cloggrum",
+            catalyst: laserLens.brown,
+            output: "undergarden:raw_cloggrum",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: undergardenBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: undergardenBiomes
+                }
+            ]
+        },
+        //Froststeel
+        {
+            id: "froststeel",
+            catalyst: laserLens.light_blue,
+            output: "undergarden:raw_froststeel",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: undergardenBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: undergardenBiomes
+                }
+            ]
+        },
+        //Regalium
+        {
+            id: "regalium",
+            catalyst: laserLens.orange,
+            output: "undergarden:regalium_crystal",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 28,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: undergardenBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: undergardenBiomes
+                }
+            ]
+        },
+        //Utherium
+        {
+            id: "utherium",
+            catalyst: laserLens.red,
+            output: "undergarden:utherium_crystal",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 28,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: undergardenBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: undergardenBiomes
                 }
             ]
         }

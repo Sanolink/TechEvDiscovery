@@ -1,3 +1,4 @@
+//priority: 12000
 /* 
  _____                                             _____ 
 ( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
@@ -17,29 +18,10 @@
 
 */
 
-ServerEvents.recipes(event => {
-
-    //Recipes
-    let recipes = [
-        //Pure Daisy
-        {
-            input: 'minecraft:oxeye_daisy',
-            output: 'botania:pure_daisy',
-            source: 2000,
-            pedestalItems: ['eidolon:oanna_bloom', 'forbidden_arcanus:purifying_soap'],
-        }
-    ]
-
-    //General Imbuement Chamber Function
-    recipes.forEach((recipe) => {
-        let json = {
-            type: 'ars_nouveau:imbuement',
-            input: recipe.input,
-            output: recipe.output,
-            count: recipe.count || 1,
-            source: recipe.source,
-            pedestalItems: recipe.pedestalItems.map(i => ({ item: parseIngredient(i) })),
-        }
-        event.custom(json).id(`ars_nouveau:imbuement_${recipe.output.split(":")[1]}`)
-    })
-})
+function parseIngredient(str) {
+    if (str.startsWith("#")) {
+        return { tag: str.slice(1) }
+    } else {
+        return { item: str }
+    }
+}

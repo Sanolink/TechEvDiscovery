@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
     recipes.forEach((recipe) => {
         let json = {
             type: 'ars_nouveau:imbuement',
-            input: recipe.input,
+            input: parseIngredient(recipe.input),
             output: recipe.output,
             count: recipe.count || 1,
             source: recipe.source,

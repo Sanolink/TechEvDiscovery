@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         //Fishing Rod
         {
             input:"#forge:rods/wooden",
-            transition:"immersiveengineering:incomplete_wirecutter",
+            transition:"minecraft:fishing_rod_cast",
             output:["minecraft:fishing_rod"],
             loops: 1,
             sequence: [

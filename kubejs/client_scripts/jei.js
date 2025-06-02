@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -277,6 +277,7 @@ JEIEvents.addItems(event => {
 
     event.add([
         'minecraft:dragon_egg',
+        'create:netherite_sandpaper',
         Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"molds"}'),

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.6         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -33,7 +33,8 @@ ItemEvents.tooltip(event => {
     
     //Create Tooltips (Located in Create Lang)
     const ItemsCreateTooltips = [
-        'create:chromatic_compound'
+        'create:chromatic_compound',
+        'create:netherite_sandpaper'
     ].forEach(id => {
         event.addAdvanced(id, (item) => {
             TooltipModifier.REGISTRY.register(

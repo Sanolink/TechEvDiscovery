@@ -18,10 +18,65 @@
 
 */
 
+/***************** JSON RECIPES HELPER *****************/
+
+//Parse
 function parseIngredient(str) {
     if (str.startsWith("#")) {
         return { tag: str.slice(1) }
     } else {
         return { item: str }
     }
+}
+
+function parseChanceOrCountIngredient(str, ChanceOrCount) {
+    if (str.startsWith("#")) {
+        return ChanceOrCountTag(str, ChanceOrCount)
+    } else {
+        return ChanceOrCountItem(str, ChanceOrCount)
+    }
+}
+
+function parseChanceAndCountIngredient(str, chance, count) {
+    if (str.startsWith("#")) {
+        return ChanceAndCountTag(str, chance, count)
+    } else {
+        return ChanceAndCountItem(str, chance, count)
+    }
+}
+
+//Chance Or Count
+function ChanceOrCountItem(item, ChanceOrCount) {
+    if (ChanceOrCount < 1) {
+        return { item: item, chance: ChanceOrCount}
+    } else {
+        return { item: item, count: ChanceOrCount}
+    }
+}
+
+function ChanceOrCountTag(tag, ChanceOrCount) {
+    if (ChanceOrCount < 1) {
+        return { tag: tag.slice(1), chance: ChanceOrCount}
+    } else {
+        return { tag: tag.slice(1), count: ChanceOrCount}
+    }
+}
+
+//Chance And Count
+function ChanceAndCountItem(item, chance, count) {
+    return { item: item, chance: chance, count: count}
+}
+
+function ChanceAndCountTag(tag, chance, count) {
+    return { tag: tag.slice(1), chance: chance, count: count}
+}
+
+//Fluid With Count
+function FluidWithCount(fluid, count) {
+    return { amount: count, fluid: fluid}
+}
+
+//Get Item With Tag
+function TagToItem(tag) {
+    return Item.of(tag).getId()
 }

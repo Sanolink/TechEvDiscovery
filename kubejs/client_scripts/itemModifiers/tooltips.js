@@ -17,11 +17,11 @@
 
 */
 
-// Thanks to Tizu on the Latvian.dev Discord Server for this cool Create tooltip trick
-// Here is a little credit : https://tizu.dev/
-const ItemDescription = Java.loadClass("com.simibubi.create.foundation.item.ItemDescription$Modifier");
-const TooltipModifier = Java.loadClass("com.simibubi.create.foundation.item.TooltipModifier");
-const Palette = Java.loadClass("com.simibubi.create.foundation.item.TooltipHelper$Palette");
+// Special thanks to the Latvian.dev Discord Server community for their help with this awesome Create tooltip trick
+
+const $ItemDescription = Java.loadClass("com.simibubi.create.foundation.item.ItemDescription$Modifier");
+const $TooltipModifier = Java.loadClass("com.simibubi.create.foundation.item.TooltipModifier");
+const $Palette = Java.loadClass("com.simibubi.create.foundation.item.TooltipHelper$Palette");
 
 ItemEvents.tooltip(event => {
 
@@ -36,11 +36,8 @@ ItemEvents.tooltip(event => {
         'create:chromatic_compound',
         'create:netherite_sandpaper'
     ].forEach(id => {
-        event.addAdvanced(id, (item) => {
-            TooltipModifier.REGISTRY.register(
-              item.item,
-              new ItemDescription(item.item, Palette.STANDARD_CREATE)
-            );
-          })
-    })
+        $TooltipModifier.REGISTRY.registerDeferred(
+          id, (item) => new $ItemDescription( item, $Palette.STANDARD_CREATE)
+        )
+    });
 })

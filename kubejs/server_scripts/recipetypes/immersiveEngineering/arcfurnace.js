@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -23,16 +23,26 @@ ServerEvents.recipes(event => {
     let recipes = [
         {
             id: 'deep_learner',
-            output: 'hostilenetworks:deep_learner',
-            input: 'occultism:otherstone_tablet',
-            additives: ['ae2:engineering_processor', 'ae2:wireless_receiver', 'thermal:flux_capacitor'],
+            input: parseIngredient('occultism:otherstone_tablet'),
+            additives: [parseIngredient('ae2:engineering_processor'), parseIngredient('ae2:wireless_receiver'), parseIngredient('thermal:flux_capacitor')],
+            output: [parseIngredient('hostilenetworks:deep_learner')],
             time: 600,
             energy: 307200
         }
     ]
 
-    //General Arc Furnace Function
-    recipes.forEach((recipe) => {
-        event.recipes.immersiveengineering.arc_furnace(recipe.output, recipe.input, recipe.additives).time(recipe.time).energy(recipe.energy).id("immersiveengineering:arcfurnace/" + recipe.id)
+   //General Arc Furnace Function
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'immersiveengineering:arc_furnace',
+            input: recipe.input,
+            additives: recipe.additives || [],
+            results: recipe.output,
+            time: recipe.time,
+            energy: recipe.energy
+        }
+        if (recipe.secondaries) { json.secondaries = recipe.secondaries}
+        if (recipe.slag) { json.slag = recipe.slag}
+        event.custom(json).id(`immersiveengineering:arc_furnace/${recipe.id}`)
     })
 })

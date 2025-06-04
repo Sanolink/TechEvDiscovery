@@ -62,6 +62,14 @@ function ChanceOrCountTag(tag, ChanceOrCount) {
     }
 }
 
+function IEChanceOrCountIngredient(str, ChanceOrCount) {
+    if (ChanceOrCount < 1) {
+        return { output: parseIngredient(str), chance: ChanceOrCount}
+    } else {
+        return { base_ingredient: parseIngredient(str), count: ChanceOrCount}
+    }
+}
+
 //Chance And Count
 function ChanceAndCountItem(item, chance, count) {
     return { item: item, chance: chance, count: count}
@@ -69,6 +77,10 @@ function ChanceAndCountItem(item, chance, count) {
 
 function ChanceAndCountTag(tag, chance, count) {
     return { tag: tag.slice(1), chance: chance, count: count}
+}
+
+function IEChanceAndCountIngredient(str, chance, count) {
+    return { output: parseChanceOrCountIngredient(str, count), chance: chance}
 }
 
 //Fluid With Count

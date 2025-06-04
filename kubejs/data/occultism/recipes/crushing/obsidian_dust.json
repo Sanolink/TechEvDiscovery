@@ -1,0 +1,12 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:obsidian"
+  },
+  "result": {
+    "item": "create:powdered_obsidian",
+    "count": 1
+  },
+  "crushing_time": 400,
+  "ignore_crushing_multiplier": true
+}

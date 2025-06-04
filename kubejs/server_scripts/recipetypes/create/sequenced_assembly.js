@@ -20,118 +20,151 @@
 ServerEvents.recipes(event => {
 
     //Recipes
+    const makeSequence = (transition, steps) =>
+        steps.map(step => step(transition))
+
+    const Cutting = () => transition => ({
+        type: 'create:cutting',
+        ingredients: [parseIngredient(transition)],
+        results: [parseIngredient(transition)]
+    })
+
+    const Pressing = () => transition => ({
+        type: 'create:pressing',
+        ingredients: [parseIngredient(transition)],
+        results: [parseIngredient(transition)]
+    })
+
+    const Deploying = item => transition => ({
+        type: 'create:deploying',
+        ingredients: [
+            parseIngredient(transition),
+            parseIngredient(item)
+        ],
+        results: [parseIngredient(transition)]
+    })
+
+    const Filling = fluid => transition => ({
+        type: 'create:filling',
+        ingredients: [
+            parseIngredient(transition),
+            fluid
+        ],
+        results: [parseIngredient(transition)]
+    })
+
     const recipes = [
         //Fishing Rod
         {
-            input:"#forge:rods/wooden",
-            transition:"minecraft:fishing_rod_cast",
-            output:["minecraft:fishing_rod"],
-            loops: 1,
-            sequence: [
-                {type: 'deploying', item:"aquaculture:fishing_line"},
-                {type: 'deploying', item:"aquaculture:iron_hook"}
-            ]
+            id: "fishing_rod",
+            input: [parseIngredient("#forge:rods/wooden")],
+            output: [parseIngredient("minecraft:fishing_rod")],
+            transition: "minecraft:fishing_rod_cast",
+            sequence: makeSequence("minecraft:fishing_rod_cast", [
+                Deploying("aquaculture:fishing_line"),
+                Deploying("aquaculture:iron_hook")
+            ])
         },
         //Engineer's Hammer
         {
-            input:"#forge:rods/wooden",
-            transition:"immersiveengineering:incomplete_hammer",
-            output:["immersiveengineering:hammer"],
+            id: "hammer",
+            input: [parseIngredient("#forge:rods/wooden")],
+            output: [parseIngredient("immersiveengineering:hammer")],
             loops: 2,
-            sequence: [
-                {type: 'deploying', item:"#twilightforest:fiery_vial"},
-                {type: 'filling',  fluid:Fluid.of("create_things_and_misc:slime", 100)},
-                {type: 'pressing'},
-                {type: 'deploying', item:"createdeco:cast_iron_sheet"},
-                {type: 'pressing'}
-
-            ]
+            transition: "immersiveengineering:incomplete_hammer",
+            sequence: makeSequence("immersiveengineering:incomplete_hammer", [
+                Deploying("#twilightforest:fiery_vial"),
+                Filling(FluidWithCount("create_things_and_misc:slime", 100)),
+                Pressing(),
+                Deploying("createdeco:cast_iron_sheet"),
+                Pressing()
+            ])
         },
         //Engineer's Wire Cutters
         {
-            input:"#forge:rods/wooden",
-            transition:"immersiveengineering:incomplete_wirecutter",
-            output:["immersiveengineering:wirecutter"],
-            loops: 1,
-            sequence: [
-                {type: 'deploying', item:"#forge:rods/wooden"},
-                {type: 'filling',  fluid:Fluid.of("create_things_and_misc:slime", 100)},
-                {type: 'pressing'},
-                {type: 'deploying', item:"createdeco:cast_iron_sheet"},
-                {type: 'cutting'}
-            ]
+            id: "incomplete_wirecutter",
+            input: [parseIngredient("#forge:rods/wooden")],
+            output: [parseIngredient("immersiveengineering:wirecutter")],
+            transition: "immersiveengineering:incomplete_wirecutter",
+            sequence: makeSequence("immersiveengineering:incomplete_wirecutter", [
+                Deploying("#forge:rods/wooden"),
+                Filling(FluidWithCount("create_things_and_misc:slime", 100)),
+                Pressing(),
+                Deploying("createdeco:cast_iron_sheet"),
+                Cutting()
+            ])
         },
         //Psimetal CAD Assembly
         {
-            input:"psi:cad_assembly_gold",
-            transition:"psi:incomplete_cad_assembly_psimetal",
-            output:["psi:cad_assembly_psimetal"],
-            loops: 1,
-            sequence: [
-                {type: 'cutting'},
-                {type: 'deploying', item:"psi:spell_bullet"},
-                {type: 'pressing'},
-                {type: 'filling',  fluid:Fluid.of("psi:destabilized_psimetal", 400)},
-            ]
+            id: "cad_assembly_psimetal",
+            input: [parseIngredient("psi:cad_assembly_gold")],
+            output: [parseIngredient("psi:cad_assembly_psimetal")],
+            transition: "psi:incomplete_cad_assembly_psimetal",
+            sequence: makeSequence("psi:incomplete_cad_assembly_psimetal", [
+                Cutting(),
+                Deploying("psi:spell_bullet"),
+                Pressing(),
+                Filling(FluidWithCount("psi:destabilized_psimetal", 400))
+            ])
         },
         //Iron CAD Assembly
         {
-            input:"reliquary:hammer_assembly",
-            transition:"reliquary:hammer_assembly",
-            output:["psi:cad_assembly_iron"],
-            loops: 1,
-            sequence: [
-                {type: 'deploying', item:"reliquary:grip_assembly"},
-                {type: 'pressing'},
-                {type: 'deploying', item:"reliquary:barrel_assembly"},
-                {type: 'pressing'},
-            ]
+            id: "cad_assembly_iron",
+            input: [parseIngredient("reliquary:hammer_assembly")],
+            output: [parseIngredient("psi:cad_assembly_iron")],
+            transition: "reliquary:hammer_assembly",
+            sequence: makeSequence("reliquary:hammer_assembly", [
+                Deploying("reliquary:grip_assembly"),
+                Pressing(),
+                Deploying("reliquary:barrel_assembly"),
+                Pressing()
+            ])
         },
         //Heart Amulet
         {
-            input:"eidolon:void_amulet",
-            transition:"bhc:incomplete_heart_amulet",
-            output:["bhc:heart_amulet"],
-            loops: 1,
-            sequence: [
-                {type: 'cutting'},
-                {type: 'deploying', item:"#forge:heart"},
-            ]
+            id: "heart_amulet",
+            input: [parseIngredient("eidolon:void_amulet")],
+            output: [parseIngredient("bhc:heart_amulet")],
+            transition: "bhc:incomplete_heart_amulet",
+            sequence: makeSequence("bhc:incomplete_heart_amulet", [
+                Cutting(),
+                Deploying("#forge:heart")
+            ])
         },
         //Copper Alloy
         {
-            input:"create:andesite_alloy",
-            transition:"create:incomplete_copper_alloy",
-            output:["create:copper_alloy"],
+            id: "copper_alloy",
+            input: [parseIngredient("create:andesite_alloy")],
+            output: [parseIngredient("create:copper_alloy")],
             loops: 4,
-            sequence: [
-                {type: 'deploying', item:"#forge:plates/copper"},
-            ]
+            transition: "create:incomplete_copper_alloy",
+            sequence: makeSequence("create:incomplete_copper_alloy", [
+                Deploying("#forge:plates/copper")
+            ])
         },
         //Optimized Copper Alloy
         {
-            input:"create:andesite_alloy",
-            transition:"create:incomplete_optimized_copper_alloy",
-            output:["create:copper_alloy"], id: "optimized_copper_alloy",
-            loops: 1,
-            sequence: [
-                {type: 'filling', fluid:Fluid.of("water", 250)},
-                {type: 'deploying', item:"#forge:plates/copper"},
-            ]
+            id: "optimized_copper_alloy",
+            input: [parseIngredient("create:andesite_alloy")],
+            output: [parseIngredient("create:copper_alloy")],
+            transition: "create:incomplete_optimized_copper_alloy",
+            sequence: makeSequence("create:incomplete_optimized_copper_alloy", [
+                Filling(FluidWithCount("minecraft:water", 250)),
+                Deploying("#forge:plates/copper")
+            ])
         }
     ]
 
-    //General Sequenced Assembly Function
+   //General Sequenced Assembly Function
     recipes.forEach(recipe => {
-        let sequence = []
-        let transition = recipe.transition
-        recipe.sequence.forEach(step => {
-            if (step.type == 'cutting'){sequence.push(event.recipes.create.cutting(transition, transition))}
-            if (step.type == 'pressing'){sequence.push(event.recipes.create.pressing(transition, transition))}
-            if (step.type == 'deploying'){sequence.push(event.recipes.create.deploying(transition, [transition, step.item]))}
-            if (step.type == 'filling') {sequence.push(event.recipes.create.filling(transition, [transition, step.fluid]))}
-        })
-        event.recipes.create.sequenced_assembly(recipe.output, recipe.input, sequence).transitionalItem(recipe.transition).loops(recipe.loops).id("create:sequenced_assembly/" + (recipe.id || recipe.output[0].split(":")[1]))
+        let json = {
+            type: 'create:sequenced_assembly',
+            ingredient: recipe.input,
+            results: recipe.output,
+            loops: recipe.loops || 1,
+            transitionalItem: parseIngredient(recipe.transition),
+            sequence: recipe.sequence
+        }
+        event.custom(json).id(`create:sequenced_assembly/${recipe.id}`)
     })
-
 })

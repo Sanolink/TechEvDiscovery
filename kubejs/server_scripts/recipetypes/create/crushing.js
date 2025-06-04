@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -23,35 +23,38 @@ ServerEvents.recipes(event => {
     const recipes = [
         //Crushing Tuff
         {
-            id : "tuff",
-            input: "minecraft:tuff",
+            id: "tuff_recycling",
+            input: [parseIngredient("minecraft:tuff")],
             output: [
-                { item: "minecraft:flint", chance: 0.25 },
-                { item: "minecraft:iron_nugget", chance: 0.1 },
-                { item: "minecraft:gold_nugget", chance: 0.1 },
-                { item: "alltheores:copper_nugget", chance: 0.1 },
-                { item: "alltheores:zinc_nugget", chance: 0.1 },
-                { item: "minecraft:diamond_nugget", chance: 0.0225 }
+                ChanceOrCountItem("minecraft:flint", 0.25),
+                ChanceOrCountItem("minecraft:iron_nugget", 0.1),
+                ChanceOrCountItem("minecraft:gold_nugget", 0.1),
+                ChanceOrCountItem("alltheores:copper_nugget", 0.1),
+                ChanceOrCountItem("alltheores:zinc_nugget", 0.1),
+                ChanceOrCountItem("minecraft:diamond_nugget", 0.0225)
             ]
         },
         //Crushing Polished Blackstone
         {
-            id : "polished_blackstone",
-            input: "minecraft:polished_blackstone",
+            id: "polished_blackstone_recycling",
+            input: [parseIngredient("minecraft:polished_blackstone")],
             output: [
-                { item: "create:cinder_flour", chance: 0.1 },
-                { item: "minecraft:quartz", chance: 0.05 },
-                { item: "minecraft:gold_nugget", chance: 0.02 },
-                { item: "createdeco:netherite_nugget", chance: 0.01 }
+                ChanceOrCountItem("create:cinder_flour", 0.1),
+                ChanceOrCountItem("minecraft:quartz", 0.05),
+                ChanceOrCountItem("minecraft:gold_nugget", 0.02),
+                ChanceOrCountItem("createdeco:netherite_nugget", 0.01)
             ]
         }
     ]
 
     //General Crushing Function
     recipes.forEach(recipe => {
-        const itemOutputs = recipe.output.map(item => {
-            return Item.of(item.item).withChance(item.chance)
-        })
-        event.recipes.create.crushing(itemOutputs, recipe.input).id("create:crushing/" + recipe.id)
+        let json = {
+            type: 'create:crushing',
+            ingredients: recipe.input,
+            results: recipe.output,
+            processingTime: recipe.processingTime || 100
+        }
+        event.custom(json).id(`create:crushing/${recipe.id}`)
     })
 })

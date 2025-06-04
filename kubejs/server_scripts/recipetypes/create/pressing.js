@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -24,72 +24,91 @@ ServerEvents.recipes(event => {
         //Diamond
         {
             id: "diamond",
-            input: "#forge:gems/diamond",
-            output: "#forge:plates/diamond"
+            input: [parseIngredient("#forge:gems/diamond")],
+            output: [parseIngredient(TagToItem("#forge:plates/diamond"))]
         },
         //Sand Paper
         {
             id: "sand_paper",
-            input: "minecraft:sand",
-            output: "create:sand_paper"
+            input: [parseIngredient("minecraft:sand")],
+            output: [parseIngredient("create:sand_paper")]
         },
         //Red Sand Paper
         {
             id: "red_sand_paper",
-            input: "minecraft:red_sand",
-            output: "create:red_sand_paper"
+            input: [parseIngredient("minecraft:red_sand")],
+            output: [parseIngredient("create:red_sand_paper")]
         },
         //Blue Quartz Plate
         {
             id: "blue_quartz_sheet",
-            input: "create:polished_blue_quartz",
-            output: "create_things_and_misc:blue_quartz_sheet"
+            input: [parseIngredient("create:polished_blue_quartz")],
+            output: [parseIngredient("create_things_and_misc:blue_quartz_sheet")]
         },
         //Source Quartz Plate
         {
             id: "source_quartz_sheet",
-            input: "create:polished_source_quartz",
-            output: "create_things_and_misc:source_quartz_sheet"
+            input: [parseIngredient("create:polished_source_quartz")],
+            output: [parseIngredient("create_things_and_misc:source_quartz_sheet")]
         },
         //Psi Quartz Plate
         {
             id: "psi_quartz_sheet",
-            input: "create:polished_psi_quartz",
-            output: "create_things_and_misc:psi_quartz_sheet"
+            input: [parseIngredient("create:polished_psi_quartz")],
+            output: [parseIngredient("create_things_and_misc:psi_quartz_sheet")]
         }
     ]
     
     // Ingots -> Plates
     const IngotsToPlates = [
-        'iridium', 
-        'enderium', 
-        'signalum', 
-        'lumium', 
+        'aluminum',
+        'brass',
         'bronze', 
+        'constantan',
+        'copper',
+        'dragonsteel',
+        'electrum',
+        'elementium',
+        'enderium', 
+        'gold',
         'invar', 
+        'iridium',
+        'iron',
+        'lead',
+        'lumium', 
+        'melodium',
+        'netherite',
+        'nickel',
         'osmium', 
         'platinum', 
-        'tin',
-        'dragonsteel',
-        'soul_infused',
-        'shellite',
-        'twinite',
         'prismalium',
-        'melodium',
+        'shellite',
+        'signalum', 
+        'silver',
+        'soul_infused',
+        'steel',
         'stellarium',
-        'elementium'
+        'tin',
+        'twinite',
+        'uranium',
+        'zinc'
     ].forEach(ingot => {
         recipes.push(
             {
-                id: ingot + "_ingot",
-                input: "#forge:ingots/" + ingot,
-                output: "#forge:plates/" + ingot
+                id: `${ingot}_ingot`,
+                input: [parseIngredient(`#forge:ingots/${ingot}`)],
+                output: [parseIngredient(TagToItem(`#forge:plates/${ingot}`))]
             }
         )
     })
-
-    //General Pressing Function
+    console.log(parseIngredient(TagToItem("#forge:plates/diamond")))
+   //General Pressing Function
     recipes.forEach(recipe => {
-        event.recipes.create.pressing(recipe.output, recipe.input).id("create:pressing/" + recipe.id)
+        let json = {
+            type: 'create:pressing',
+            ingredients: recipe.input,
+            results: recipe.output
+        }
+        event.custom(json).id(`create:pressing/${recipe.id}`)
     })
 })

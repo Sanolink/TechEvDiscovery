@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.6         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -383,9 +383,16 @@ ServerEvents.recipes(event => {
             ]
         }
     ]
-
+    
     //General Laser Drill Ore Function
-    recipes.forEach((recipe) => {
-        event.recipes.industrialforegoing.laser_drill_ore(recipe.output, recipe.catalyst, recipe.rarity).id("industrialforegoing:laser_drill_ore/" + recipe.id)
-    })
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'industrialforegoing:laser_drill_ore',
+            catalyst: parseIngredient(recipe.catalyst),
+            output: parseIngredient(recipe.output),
+            pointer: 0,
+            rarity: recipe.rarity,
+        }
+        event.custom(json).id(`industrialforegoing:laser_drill_ore/${recipe.id}`)
+    })   
 })

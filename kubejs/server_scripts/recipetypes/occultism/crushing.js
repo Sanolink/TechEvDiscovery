@@ -120,6 +120,6 @@ ServerEvents.recipes(event => {
             crushing_time: recipe.time || 200,
             ignore_crushing_multiplier: recipe.ignore_crushing_multiplier || true
         }
-        event.custom(json).id(`immersiveengineering:metalpress/${recipe.id}`)
+        event.custom(json).id(`occultism:crushing/${recipe.id}`)
     })
 })

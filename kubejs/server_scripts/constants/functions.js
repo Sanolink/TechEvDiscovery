@@ -88,6 +88,15 @@ function FluidWithCount(fluid, count) {
     return { amount: count, fluid: fluid}
 }
 
+function IndustrialFluidWithCount(fluid, count) {
+    return `{Amount:${count},FluidName:\"${fluid}\"}`
+}
+
+//NBT Items
+function NBTItem(item, nbt) {
+    return { item: item, nbt: nbt}
+}
+
 //Get Item With Tag
 function TagToItem(tag) {
     return Item.of(tag).getId()

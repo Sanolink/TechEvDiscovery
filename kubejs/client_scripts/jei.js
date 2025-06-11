@@ -246,7 +246,8 @@ JEIEvents.hideItems(event => {
         'thermal:crude_oil_bucket',
         'thermal:creosote_bucket',
         'pneumaticcraft:wheat_flour',
-        'create:dough'
+        'create:dough',
+        'immersiveengineering:slag'
     ])
 })
 

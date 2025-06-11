@@ -28,6 +28,12 @@ ServerEvents.recipes(event => {
             output: [parseIngredient('hostilenetworks:deep_learner')],
             time: 600,
             energy: 307200
+        },
+        {
+            id: 'slag_glass',
+            input: parseIngredient('thermal:slag'),
+            output: [parseIngredient('immersiveengineering:slag_glass')],
+            energy: 25600
         }
     ]
 
@@ -38,8 +44,8 @@ ServerEvents.recipes(event => {
             input: recipe.input,
             additives: recipe.additives || [],
             results: recipe.output,
-            time: recipe.time,
-            energy: recipe.energy
+            time: recipe.time || 100,
+            energy: recipe.energy || 51200
         }
         if (recipe.secondaries) { json.secondaries = recipe.secondaries}
         if (recipe.slag) { json.slag = recipe.slag}

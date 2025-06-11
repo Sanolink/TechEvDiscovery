@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -169,6 +169,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:squeezer/graphite_dust'})
     event.remove({ id: 'immersiveengineering:refinery/acetaldehyde'})
     event.remove({ id: 'immersiveengineering:blueprint/graphite_electrode'})
+    event.remove({ id: 'immersiveengineering:smelting/slag_glass'})
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:plates" })
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:dusts" })
     event.remove({ input: 'immersiveengineering:wirecutter', output: '#forge:wires', type: 'minecraft:crafting_shapeless' })
@@ -178,6 +179,7 @@ ServerEvents.recipes(event => {
     //Immersive Petroleum
     event.remove({ id: 'immersivepetroleum:hydrotreater/propylene_plastic'})
     event.remove({ id: 'immersivepetroleum:hydrotreater/ethylene_plastic'})
+    event.remove({ id: 'immersivepetroleum:arcfurnace/steel'})
 
     //Minecraft
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
@@ -263,6 +265,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermal:redstone_servo'})
     event.remove({ id: 'thermal:rf_coil'})
     event.remove({ id: 'thermal:machine_smelter'})
+    event.remove({ id: 'thermal:machines/centrifuge/centrifuge_invar_dust'})
+    event.remove({ id: 'thermal:machines/centrifuge/centrifuge_bronze_dust'})
+    event.remove({ id: 'thermal:machines/centrifuge/centrifuge_constantan_dust'})
+    event.remove({ id: 'thermal:machines/centrifuge/centrifuge_electrum_dust'})
     event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
     
     //Time In A Bottle

@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
             }
         )
     })
-    console.log(parseIngredient(TagToItem("#forge:plates/diamond")))
+    
    //General Pressing Function
     recipes.forEach(recipe => {
         let json = {

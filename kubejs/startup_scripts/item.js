@@ -80,7 +80,6 @@ StartupEvents.registry('item', e => {
     SequencedAssemblyItem('bhc:incomplete_heart_amulet', "Incomplete Heart Amulet")
 
     SequencedAssemblyItem('create:incomplete_copper_alloy', "Incomplete Copper Alloy")
-    SequencedAssemblyItem('create:incomplete_optimized_copper_alloy', "Incomplete Copper Alloy")
 
     SequencedAssemblyItem('immersiveengineering:incomplete_hammer', "Incomplete Engineer's Hammer")
     SequencedAssemblyItem('immersiveengineering:incomplete_wirecutter', "Incomplete Engineer's Wire Cutters")

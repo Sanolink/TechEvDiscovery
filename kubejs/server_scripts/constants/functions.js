@@ -70,6 +70,10 @@ function IEChanceOrCountIngredient(str, ChanceOrCount) {
     }
 }
 
+function ThermalChanceItem(item, chance) {
+    return { item: item, chance: chance}
+}
+
 //Chance And Count
 function ChanceAndCountItem(item, chance, count) {
     return { item: item, chance: chance, count: count}

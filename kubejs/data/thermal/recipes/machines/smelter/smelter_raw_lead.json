@@ -1,0 +1,18 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": {
+    "tag": "forge:raw_materials/lead"
+  },
+  "result": [
+    {
+      "item": "alltheores:lead_ingot",
+      "chance": 1.5,
+      "locked": true
+    },
+    {
+      "item": "alltheores:silver_nugget",
+      "chance": 1.0
+    }
+  ],
+  "experience": 0.1
+}

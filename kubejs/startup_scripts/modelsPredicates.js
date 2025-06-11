@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -51,7 +51,8 @@ StartupEvents.postInit(event => {
         'create_things_and_misc:psi_quartz_sheet',
         'create_things_and_misc:experience_sheet',
         'create_new_age:overcharged_iron_sheet',
-        'create_new_age:overcharged_golden_sheet'
+        'create_new_age:overcharged_golden_sheet',
+        "createdeco:cast_iron_sheet"
     ]
     //All Plates
     Plates.forEach(plate => {

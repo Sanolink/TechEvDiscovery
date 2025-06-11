@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.6         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -68,14 +68,20 @@ const biomes = {
         ]
     },
     undergarden: [
+        'undergarden:ancient_sea',
         'undergarden:barren_abyss',
+        'undergarden:blood_mushroom_bog',
+        'undergarden:dead_sea',
         'undergarden:dense_forest',
         'undergarden:forgotten_field',
         'undergarden:frostfields',
         'undergarden:gronglegrowth',
-        'undergarden:mushroom_bog',
-        'undergarden:smog_spires',
+        'undergarden:icy_sea',
+        'undergarden:indigo_mushroom_bog',
+        'undergarden:ink_mushroom_bog',
         'undergarden:smogstem_forest',
+        'undergarden:smog_spires',
+        'undergarden:veil_mushroom_bog',
         'undergarden:wigglewood_forest'
     ]
 }

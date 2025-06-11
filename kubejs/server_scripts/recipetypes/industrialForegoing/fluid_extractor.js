@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -24,15 +24,23 @@ ServerEvents.recipes(event => {
         // Liquid Soul
         {
             id: "soul_sand",
-            input: 'minecraft:soul_sand',
-            broken: 'forbidden_arcanus:soulless_sand',
+            input: parseIngredient('minecraft:soul_sand'),
+            output: 'forbidden_arcanus:soulless_sand',
             breakChance: 0.01,
-            output: Fluid.of("forbidden_arcanus:liquid_soul", 4)
+            fluid: IndustrialFluidWithCount("forbidden_arcanus:liquid_soul", 4)
         }
  ]
  
-    //General Fluid Extractor Function
-    recipes.forEach((recipe) => {
-        event.recipes.industrialforegoing.fluid_extractor(recipe.input, recipe.broken, recipe.breakChance, recipe.output).id("industrialforegoing:fluid_extractor/" + recipe.id)
-    })
+   //General Fluid Extractor Function
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'industrialforegoing:fluid_extractor',
+            input: recipe.input,
+            result: recipe.output,
+            output: recipe.fluid,
+            breakChance: recipe.breakChance,
+            defaultRecipe: false
+        }
+        event.custom(json).id(`industrialforegoing:fluid_extractor/${recipe.id}`)
+    })    
  })

@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -395,7 +395,26 @@ ServerEvents.recipes(e => {
 
     //Remove OTHERS Repetitive Recipes
     e.remove({id: "createaddition:pressing/zinc_ingot"})
+    e.remove({id: "createaddition:pressing/lead_ingot"})
+    e.remove({id: "createaddition:pressing/silver_ingot"})
+    e.remove({id: "createaddition:pressing/nickel_ingot"})
+    e.remove({id: "createaddition:pressing/uranium_ingot"})
+    e.remove({id: "createaddition:pressing/aluminum_ingot"})
+    e.remove({id: "createaddition:pressing/constantan_ingot"})
+    e.remove({id: "createaddition:pressing/steel_ingot"})
+    e.remove({id: "createaddition:pressing/electrum_ingot"})
+    e.remove({id: "minecraft:pressing/netherite_sheet"})
+    e.remove({id: "minecraft:pressing/zinc_sheet"})
+    e.remove({id: "minecraft:pressing/zinc_sheet"})
+    e.remove({id: "createaddition:mixing/electrum"})
+    e.remove({id: "createaddition:compat/immersiveengineering/constantan"})
+    e.remove({id: "occultism:miner/deeps/deepslate_lead_ore"})
+    e.remove({id: "occultism:miner/deeps/deepslate_silver_ore"})
+    e.remove({id: "createaddition:compat/immersiveengineering/constantan"})
+    e.remove({id: "createaddition:mixing/electrum"})
+
     e.remove({id: "eidolon:bonelord_greaves"})
     e.remove({id: "eidolon:bonelord_chestplate"})
     e.remove({id: "eidolon:bonelord_helm"})
+
 })

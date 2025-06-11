@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -28,9 +28,8 @@ ServerEvents.recipes(event => {
             'thermal_extra:dragonsteel_ingot', 'thermal_extra:dragonsteel_ingot',
             'thermalendergy:stellarium_gear', 'immersiveengineering:component_electronic_adv', 'thermalendergy:stellarium_gear'
         ],
-        fluid : Fluid.of('thermal:ender', 1000),
-        output : 'thermal:resonant_machine_frame',
-        time : 300,
+        fluid : IndustrialFluidWithCount('thermal:ender', 1000),
+        output : parseIngredient('thermal:resonant_machine_frame')
     },
     {
         id : 'psi_infuser',
@@ -39,14 +38,20 @@ ServerEvents.recipes(event => {
             'create:shadow_steel', 'create:shadow_steel',
             'psi:ebony_psimetal_block', 'thermalendergy:melodium_gear', 'psi:ebony_psimetal_block'
         ],
-        fluid : Fluid.of('psi:destabilized_psimetal', 1000),
-        output : Item.of('custommachinery:custom_machine_item').withNBT({"machine": "custommachinery:psi_infuser"}),
-        time : 300,
+        fluid : IndustrialFluidWithCount('psi:destabilized_psimetal', 1000),
+        output : NBTItem('custommachinery:custom_machine_item', "{machine:\"custommachinery:psi_infuser\"}")
     }
 ]
 
-    //General Dissolution Chamber Function
-    recipes.forEach((recipe) => {
-        event.recipes.industrialforegoing.dissolution_chamber(recipe.input, recipe.fluid, recipe.output, recipe.time).id("industrialforegoing:dissolution_chamber/" + recipe.id)
-    })
+   //General Dissolution Chamber Function
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'industrialforegoing:dissolution_chamber',
+            input: recipe.input.map(i => parseIngredient(i)),
+            inputFluid: recipe.fluid,
+            output: recipe.output,
+            processingTime: recipe.time || 300
+        }
+        event.custom(json).id(`industrialforegoing:dissolution_chamber/${recipe.id}`)
+    })    
 })

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -23,74 +23,82 @@ ServerEvents.recipes(event => {
     let recipes = [
         {
             id:  "glass_soul_infused",
-            outputs: Item.of('thermal_extra:soul_infused_glass').withCount(2),
-            inputs: [Item.of('thermal:obsidian_glass').withCount(2), 'thermal_extra:soul_infused_ingot'],
+            outputs: ChanceOrCountItem('thermal_extra:soul_infused_glass', 2),
+            ingredients: [ChanceOrCountItem('thermal:obsidian_glass', 2), parseIngredient('thermal_extra:soul_infused_ingot')],
             energy: 4800
         },
         {
             id:  "glass_shellite",
-            outputs: Item.of('thermal_extra:shellite_glass').withCount(2),
-            inputs: [Item.of('thermal:obsidian_glass').withCount(2), 'thermal_extra:shellite_ingot'],
+            outputs: ChanceOrCountItem('thermal_extra:shellite_glass', 2),
+            ingredients: [ChanceOrCountItem('thermal:obsidian_glass', 2), parseIngredient('thermal_extra:shellite_ingot')],
             energy: 4800
         },
         {
             id:  "glass_twinite",
-            outputs: Item.of('thermal_extra:twinite_glass').withCount(2),
-            inputs: [Item.of('thermal:obsidian_glass').withCount(2), 'thermal_extra:twinite_ingot'],
+            outputs: ChanceOrCountItem('thermal_extra:twinite_glass', 2),
+            ingredients: [ChanceOrCountItem('thermal:obsidian_glass', 2), parseIngredient('thermal_extra:twinite_ingot')],
             energy: 4800
         },
         {
             id:  "glass_dragonsteel",
-            outputs: Item.of('thermal_extra:dragonsteel_glass').withCount(2),
-            inputs: [Item.of('thermal:obsidian_glass').withCount(2), 'thermal_extra:dragonsteel_ingot'],
+            outputs: ChanceOrCountItem('thermal_extra:dragonsteel_glass', 2),
+            ingredients: [ChanceOrCountItem('thermal:obsidian_glass', 2), parseIngredient('thermal_extra:dragonsteel_ingot')],
             energy: 4800
         },
         {
             id:  "sim_chamber",
-            outputs: 'hostilenetworks:sim_chamber',
-            inputs: ['thermal:resonant_machine_frame', 'thermal:ender_servo', 'thermalendergy:vibrating_core'],
+            outputs: parseIngredient('hostilenetworks:sim_chamber'),
+            ingredients: [parseIngredient('thermal:resonant_machine_frame'), parseIngredient('thermal:ender_servo'), parseIngredient('thermalendergy:vibrating_core')],
             energy: 4800
         },
         {
             id:  "loot_fabricator",
-            outputs: 'hostilenetworks:loot_fabricator',
-            inputs: ['thermal:resonant_machine_frame', 'thermal:redstone_servo', 'thermal:rf_coil'],
+            outputs: parseIngredient('hostilenetworks:loot_fabricator'),
+            ingredients: [parseIngredient('thermal:resonant_machine_frame'), parseIngredient('thermal:redstone_servo'), parseIngredient('thermal:rf_coil')],
             energy: 4800
         },
         {
             id:  "dielectric_paste",
-            outputs: '24x powah:dielectric_paste',
-            inputs: ['4x thermal:tar', '4x thermal:compost', '4x thermal_extra:sticky_ball'],
+            outputs: ChanceOrCountItem('powah:dielectric_paste', 24),
+            ingredients: [ChanceOrCountItem('thermal:tar', 4), ChanceOrCountItem('thermal:compost', 4), ChanceOrCountItem('thermal_extra:sticky_ball', 4)],
             energy: 4800
         },
         {
             id:  "machine_frame",
-            outputs: 'thermal:machine_frame',
-            inputs: ['industrialforegoing:machine_frame_supreme', '2x thermal_extra:dragonsteel_glass', 'thermal:redstone_servo'],
+            outputs: parseIngredient('thermal:machine_frame'),
+            ingredients: [parseIngredient('industrialforegoing:machine_frame_supreme'), ChanceOrCountItem('thermal_extra:dragonsteel_glass', 2), parseIngredient('thermal:redstone_servo')],
             energy: 4800
         },
         {
             id:  "rf_coil",
-            outputs: 'thermal:rf_coil',
-            inputs: ['alltheores:signalum_rod', 'alltheores:electrum_gear', 'alltheores:lumium_gear'],
+            outputs: parseIngredient('thermal:rf_coil'),
+            ingredients: [parseIngredient('alltheores:signalum_rod'), parseIngredient('alltheores:electrum_gear'), parseIngredient('alltheores:lumium_gear')],
             energy: 4800
         },
         {
             id:  "vibrating_core",
-            outputs: 'thermalendergy:vibrating_core',
-            inputs: ['deeperdarker:reinforced_echo_shard', 'alltheores:electrum_gear', 'alltheores:lumium_gear'],
+            outputs: parseIngredient('thermalendergy:vibrating_core'),
+            ingredients: [parseIngredient('deeperdarker:reinforced_echo_shard'), parseIngredient('alltheores:electrum_gear'), parseIngredient('alltheores:lumium_gear')],
             energy: 4800
         },
         {
             id:  "ultimate_trash_can",
-            outputs: 'trashcans:ultimate_trash_can',
-            inputs: ['trashcans:item_trash_can', 'trashcans:liquid_trash_can', 'trashcans:energy_trash_can'],
+            outputs: parseIngredient('trashcans:ultimate_trash_can'),
+            ingredients: [parseIngredient('trashcans:item_trash_can'), parseIngredient('trashcans:liquid_trash_can'), parseIngredient('trashcans:energy_trash_can')],
             energy: 4800
         }
     ]
     
     //General Smelter Function
-    recipes.forEach((recipe) => {
-        event.recipes.thermal.smelter(recipe.outputs, recipe.inputs).energy(recipe.energy).id("thermal:machines/smelter/smelter_" + recipe.id)
-    });
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'thermal:smelter',
+            ingredients: recipe.ingredients,
+            result: recipe.outputs,
+            experience: recipe.experience || 0,
+            energy: recipe.energy || 3200
+        }
+        if (recipe.below) { json.below = recipe.below}
+        event.custom(json).id(`thermal:machines/smelter/smelter_${recipe.id}`)
+    })
 })

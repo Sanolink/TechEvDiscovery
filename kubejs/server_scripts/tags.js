@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.6         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -239,7 +239,14 @@ ServerEvents.tags('item', e => {
         'alltheores:other_tin_ore',
         'alltheores:other_uranium_ore',
         'alltheores:other_zinc_ore',
-        'create:dough'
+        'createaddition:electrum_sheet',
+        'create:iron_sheet',
+        'create:golden_sheet',
+        'create:copper_sheet',
+        'create:brass_sheet',
+        'createaddition:zinc_sheet',
+        'create:dough',
+        'immersiveengineering:slag'
     ].forEach(item => {e.removeAllTagsFrom(item)})
 
     /**********************ADD****************************/

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -246,7 +246,8 @@ JEIEvents.hideItems(event => {
         'thermal:crude_oil_bucket',
         'thermal:creosote_bucket',
         'pneumaticcraft:wheat_flour',
-        'create:dough'
+        'create:dough',
+        'immersiveengineering:slag'
     ])
 })
 
@@ -277,6 +278,7 @@ JEIEvents.addItems(event => {
 
     event.add([
         'minecraft:dragon_egg',
+        'create:netherite_sandpaper',
         Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"molds"}'),

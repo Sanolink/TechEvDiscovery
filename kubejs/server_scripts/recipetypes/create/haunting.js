@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -23,19 +23,23 @@ ServerEvents.recipes(event => {
     const recipes = [
         {
             id: "gravel",
-            input: "minecraft:gravel",
-            output: "minecraft:tuff"
+            input: [parseIngredient("minecraft:gravel")],
+            output: [parseIngredient("minecraft:tuff")]
         },
         {
             id: "soulless_sand",
-            input: "forbidden_arcanus:soulless_sand",
-            output: "minecraft:soul_sand"
+            input: [parseIngredient("forbidden_arcanus:soulless_sand")],
+            output: [parseIngredient("minecraft:soul_sand")]
         }
     ]
 
-    //General Haunting Function
+   //General Haunting Function
     recipes.forEach(recipe => {
-        event.recipes.create.haunting(recipe.output, recipe.input).id("create:haunting/" + recipe.id)
+        let json = {
+            type: 'create:haunting',
+            ingredients: recipe.input,
+            results: recipe.output
+        }
+        event.custom(json).id(`create:haunting/${recipe.id}`)
     })
-
 })

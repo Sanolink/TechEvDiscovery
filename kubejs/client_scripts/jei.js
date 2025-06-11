@@ -267,6 +267,7 @@ JEIEvents.hideItems(event => {
         'thermal:creosote_bucket',
         'pneumaticcraft:wheat_flour',
         'create:dough',
+        'immersiveengineering:slag',
         'ad_astra:oil_bucket',
         'ad_astra:hammer',
         'mysticalagradditions:nether_prosperity_ore',
@@ -305,6 +306,7 @@ JEIEvents.addItems(event => {
 
     event.add([
         'minecraft:dragon_egg',
+        'create:netherite_sandpaper',
         Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"molds"}'),

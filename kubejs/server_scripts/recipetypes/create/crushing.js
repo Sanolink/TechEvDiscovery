@@ -23,24 +23,26 @@ ServerEvents.recipes(event => {
     let recipes = [
         //Crushing Tuff
         {
-            input: "minecraft:tuff",
+            id: "tuff_recycling",
+            input: [parseIngredient("minecraft:tuff")],
             output: [
-                Item.of("minecraft:flint").withChance(0.25),
-                Item.of("minecraft:iron_nugget").withChance(0.1),
-                Item.of("minecraft:gold_nugget").withChance(0.1),
-                Item.of("alltheores:copper_nugget").withChance(0.1),
-                Item.of("alltheores:zinc_nugget").withChance(0.1),
-                Item.of("minecraft:diamond_nugget").withChance(0.0225)
+                ChanceOrCountItem("minecraft:flint", 0.25),
+                ChanceOrCountItem("minecraft:iron_nugget", 0.1),
+                ChanceOrCountItem("minecraft:gold_nugget", 0.1),
+                ChanceOrCountItem("alltheores:copper_nugget", 0.1),
+                ChanceOrCountItem("alltheores:zinc_nugget", 0.1),
+                ChanceOrCountItem("minecraft:diamond_nugget", 0.0225)
             ]
         },
         //Crushing Polished Blackstone
         {
-            input: "minecraft:polished_blackstone",
+            id: "polished_blackstone_recycling",
+            input: [parseIngredient("minecraft:polished_blackstone")],
             output: [
-                Item.of("create:cinder_flour").withChance(0.1),
-                Item.of("minecraft:quartz").withChance(0.05),
-                Item.of("minecraft:gold_nugget").withChance(0.02),
-                Item.of("createdeco:netherite_nugget").withChance(0.01)
+                ChanceOrCountItem("create:cinder_flour", 0.1),
+                ChanceOrCountItem("minecraft:quartz", 0.05),
+                ChanceOrCountItem("minecraft:gold_nugget", 0.02),
+                ChanceOrCountItem("createdeco:netherite_nugget", 0.01)
             ]
         }
     ]
@@ -53,38 +55,42 @@ ServerEvents.recipes(event => {
     function crushedAdAstra(material, planet) {
         recipes.push(
             {
-                input: `#forge:raw_materials/${material}`,
+                id: TagToItem(`#forge:raw_materials/${material}`).split(":")[1],
+                input: [parseIngredient(`#forge:raw_materials/${material}`)],
                 output: [
-                    `create:crushed_raw_${material}`,
-                    Item.of("create:experience_nugget").withChance(0.75)
+                    parseIngredient(`create:crushed_raw_${material}`),
+                    ChanceOrCountItem("create:experience_nugget", 0.75)
                 ]
             },
             {
-                input: `#forge:storage_blocks/raw_${material}`,
+                id: TagToItem(`#forge:storage_blocks/raw_${material}`).split(":")[1],
+                input: [parseIngredient(`#forge:storage_blocks/raw_${material}`)],
                 output: [
-                    `9x create:crushed_raw_${material}`,
-                    Item.of("9x create:experience_nugget").withChance(0.75)
+                    ChanceOrCountItem(`create:crushed_raw_${material}`, 9),
+                    ChanceAndCountItem("create:experience_nugget", 0.75, 9)
                 ]
             },
             {
-                input: `ad_astra:${planet}_${material}_ore`,
+                id: `${planet}_${material}_ore`,
+                input: [parseIngredient(`ad_astra:${planet}_${material}_ore`)],
                 output: [
-                    `create:crushed_raw_${material}`,
-                    Item.of(`create:crushed_raw_${material}`).withChance(0.75),
-                    Item.of("create:experience_nugget").withChance(0.75),
-                    Item.of(`ad_astra:${planet}_cobblestone`).withChance(0.12)
+                    parseIngredient(`create:crushed_raw_${material}`),
+                    ChanceOrCountItem(`create:crushed_raw_${material}`, 0.75),
+                    ChanceOrCountItem("create:experience_nugget", 0.75),
+                    ChanceOrCountItem(`ad_astra:${planet}_cobblestone`, 0.12)
                 ]
             }
         )
         if (Item.exists(`ad_astra:deepslate_${material}_ore`)) {
             recipes.push(
                 {
-                    input: `ad_astra:deepslate_${material}_ore`,
+                    id: `deepslate_${material}_ore`,
+                    input: [parseIngredient(`ad_astra:deepslate_${material}_ore`)],
                     output: [
-                        `2x create:crushed_raw_${material}`,
-                        Item.of(`create:crushed_raw_${material}`).withChance(0.75),
-                        Item.of("create:experience_nugget").withChance(0.75),
-                        Item.of("minecraft:cobbled_deepslate").withChance(0.12)
+                        ChanceOrCountItem(`create:crushed_raw_${material}`, 2),
+                        ChanceOrCountItem(`create:crushed_raw_${material}`, 0.75),
+                        ChanceOrCountItem("create:experience_nugget", 0.75),
+                        ChanceOrCountItem("minecraft:cobbled_deepslate", 0.12)
                     ]
                 }
             )
@@ -93,6 +99,12 @@ ServerEvents.recipes(event => {
 
     //General Crushing Function
     recipes.forEach(recipe => {
-        event.recipes.create.crushing(recipe.output, recipe.input).id(`create:crushing/${recipe.input.split(":")[1]}`)
+        let json = {
+            type: 'create:crushing',
+            ingredients: recipe.input,
+            results: recipe.output,
+            processingTime: recipe.processingTime || 100
+        }
+        event.custom(json).id(`create:crushing/${recipe.id}`)
     })
 })

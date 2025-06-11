@@ -52,6 +52,7 @@ StartupEvents.postInit(event => {
         'create_things_and_misc:experience_sheet',
         'create_new_age:overcharged_iron_sheet',
         'create_new_age:overcharged_golden_sheet',
+        "createdeco:cast_iron_sheet",
         'ad_astra:desh_plate',
         'ad_astra:ostrum_plate',
         'ad_astra:calorite_plate',

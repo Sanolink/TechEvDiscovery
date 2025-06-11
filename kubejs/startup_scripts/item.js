@@ -19,90 +19,113 @@
 
 StartupEvents.registry('item', e => {
 
-    e.create('minecraft:fishing_rod_cast', 'create:sequenced_assembly').displayName("Fishing Rod Cast")
+    //Java Class
+    const $SequencedAssemblyItem = Java.loadClass('com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem')
+    const $SandPaperItem = Java.loadClass('com.simibubi.create.content.equipment.sandPaper.SandPaperItem')
+    const $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties');
 
-    e.create('immersiveengineering:incomplete_hammer', 'create:sequenced_assembly').displayName("Incomplete Engineer's Hammer")
-    e.create('immersiveengineering:incomplete_wirecutter', 'create:sequenced_assembly').displayName("Incomplete Engineer's Wire Cutters")
+    //Basic Items
+    function BasicItem(id, displayName) {
+      return e.create(id).displayName(displayName)
+    }
 
-    e.create('constructionwand:core_stone').displayName("Stone Wand Core")
-    e.create('constructionwand:core_iron').displayName("Iron Wand Core")
-    e.create('constructionwand:core_diamond').displayName("Diamond Wand Core")
-    e.create('constructionwand:core_infinity').displayName("Infinity Wand Core")
+    BasicItem('ad_astra:calorite_dust', "Calorite Dust")
+    BasicItem('ad_astra:calorite_gear', "Calorite Gear")
+    BasicItem('ad_astra:calorite_rod', "Calorite Rod")
+    BasicItem('ad_astra:desh_dust', "Desh Dust")
+    BasicItem('ad_astra:desh_gear', "Desh Gear")
+    BasicItem('ad_astra:desh_rod', "Desh Rod")
+    BasicItem('ad_astra:nephryx_dust', "Nephryx Dust")
+    BasicItem('ad_astra:nephryx_gear', "Nephryx Gear")
+    BasicItem('ad_astra:nephryx_ingot', "Nephryx Ingot")
+    BasicItem('ad_astra:nephryx_nugget', "Nephryx Nugget")
+    BasicItem('ad_astra:nephryx_plate', "Nephryx Plate")
+    BasicItem('ad_astra:nephryx_rod', "Nephryx Rod")
+    BasicItem('ad_astra:ostrum_dust', "Ostrum Dust")
+    BasicItem('ad_astra:ostrum_gear', "Ostrum Gear")
+    BasicItem('ad_astra:ostrum_rod', "Ostrum Rod")
+    BasicItem('ad_astra:raw_nephryx', "Raw Nephryx")
 
-    e.create('create:raw_andesite_alloy').displayName("Raw Andesite Alloy")
-    e.create('create:brass_alloy').displayName("Brass Alloy")
-    e.create('create:incomplete_copper_alloy', 'create:sequenced_assembly').displayName("Incomplete Copper Alloy")
-    e.create('create:incomplete_optimized_copper_alloy', 'create:sequenced_assembly').displayName("Incomplete Copper Alloy")
-    e.create('create:copper_alloy').displayName("Copper Alloy")
-    e.create('create:blue_quartz').displayName("Blue Quartz")
-    e.create('create:polished_blue_quartz').displayName("Polished Blue Quartz")
-    e.create('create:positron_tube').displayName("Positron Tube")
-    e.create('create:source_quartz').displayName("Source Quartz")
-    e.create('create:polished_source_quartz').displayName("Polished Source Quartz")
-    e.create('create:source_tube').displayName("Source Tube")
-    e.create('create:psi_quartz').displayName("Psi Quartz")
-    e.create('create:polished_psi_quartz').displayName("Polished Psi Quartz")
-    e.create('create:psi_tube').displayName("Psi Tube")
-    e.create('create:netherite_sandpaper', 'create:sandpaper').maxDamage(2048).displayName("Netherite Sandpaper")
-    e.create('create:crushed_raw_desh').displayName("Crushed Desh Ore").tag("create:crushed_raw_materials")
-    e.create('create:crushed_raw_ostrum').displayName("Crushed Ostrum Ore").tag("create:crushed_raw_materials")
-    e.create('create:crushed_raw_calorite').displayName("Crushed Calorite Ore").tag("create:crushed_raw_materials")
-    e.create('create:crushed_raw_nephryx').displayName("Crushed Nephryx Ore").tag("create:crushed_raw_materials")
+    BasicItem('ae2:cosmic_processor', "Cosmic Processor")
+    BasicItem('ae2:elemental_processor_press', "Inscriber Elemental Press")
+    BasicItem('ae2:elemental_processor', "Elemental Processor")
+    BasicItem('ae2:printed_cosmic_processor', "Printed Cosmic Circuit")
+    BasicItem('ae2:printed_elemental_processor', "Printed Elemental Circuit")
 
-    e.create('create_things_and_misc:blue_quartz_sheet').displayName("Blue Quartz Plate").texture('create_things_and_misc:items/blue_quartz_sheet')
-    e.create('create_things_and_misc:source_quartz_sheet').displayName("Source Quartz Plate").texture('create_things_and_misc:items/source_quartz_sheet')
-    e.create('create_things_and_misc:psi_quartz_sheet').displayName("Psi Quartz Plate").texture('create_things_and_misc:items/psi_quartz_sheet')
+    BasicItem('botania:elementium_gear', "Elementium Gear")
+    BasicItem('botania:elementium_plate', "Elementium Plate")
 
-    e.create('tiab:compressed_iron_bottle').displayName("Compressed Bottle")
-    e.create('tiab:flowing_time').displayName("Flowing Time")
+    BasicItem('constructionwand:core_diamond', "Diamond Wand Core")
+    BasicItem('constructionwand:core_infinity', "Infinity Wand Core")
+    BasicItem('constructionwand:core_iron', "Iron Wand Core")
+    BasicItem('constructionwand:core_stone', "Stone Wand Core")
 
-    e.create('thermal:ender_servo').displayName("Ender Servo")
-    e.create('thermal:press_rod_die').displayName("Rodworking Die")
+    BasicItem('create_things_and_misc:blue_quartz_sheet', "Blue Quartz Plate").texture('create_things_and_misc:items/blue_quartz_sheet')
+    BasicItem('create_things_and_misc:psi_quartz_sheet', "Psi Quartz Plate").texture('create_things_and_misc:items/psi_quartz_sheet')
+    BasicItem('create_things_and_misc:source_quartz_sheet', "Source Quartz Plate").texture('create_things_and_misc:items/source_quartz_sheet')
 
-    e.create('hostilenetworks:blue_skies_prediction').displayName("Generalized Blue Skies Prediction")
-    e.create('hostilenetworks:undergarden_prediction').displayName("Generalized Undergarden Prediction")
-    e.create('hostilenetworks:inert_data_model').displayName("Inert Model Framework")
+    BasicItem('create:blue_quartz', "Blue Quartz")
+    BasicItem('create:brass_alloy', "Brass Alloy")
+    BasicItem('create:copper_alloy', "Copper Alloy")
+    BasicItem('create:crushed_raw_desh', "Crushed Desh Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:crushed_raw_ostrum', "Crushed Ostrum Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:crushed_raw_calorite', "Crushed Calorite Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:crushed_raw_nephryx', "Crushed Nephryx Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:polished_blue_quartz', "Polished Blue Quartz")
+    BasicItem('create:polished_psi_quartz', "Polished Psi Quartz")
+    BasicItem('create:polished_source_quartz', "Polished Source Quartz")
+    BasicItem('create:positron_tube', "Positron Tube")
+    BasicItem('create:psi_quartz', "Psi Quartz")
+    BasicItem('create:psi_tube', "Psi Tube")
+    BasicItem('create:raw_andesite_alloy', "Raw Andesite Alloy")
+    BasicItem('create:source_quartz', "Source Quartz")
+    BasicItem('create:source_tube', "Source Tube")
 
-    e.create('ae2:elemental_processor_press').displayName("Inscriber Elemental Press")
-    e.create('ae2:elemental_processor').displayName("Elemental Processor")
-    e.create('ae2:printed_elemental_processor').displayName("Printed Elemental Circuit")
-    e.create('ae2:cosmic_processor').displayName("Cosmic Processor")
-    e.create('ae2:printed_cosmic_processor').displayName("Printed Cosmic Circuit")
+    BasicItem('hostilenetworks:blue_skies_prediction', "Generalized Blue Skies Prediction")
+    BasicItem('hostilenetworks:inert_data_model', "Inert Model Framework")
+    BasicItem('hostilenetworks:undergarden_prediction', "Generalized Undergarden Prediction")
 
-    e.create('botania:elementium_plate').displayName("Elementium Plate")
-    e.create('botania:elementium_gear').displayName("Elementium Gear")
+    BasicItem('industrialforegoing:sludge_bottle', "Sludge Bottle")
 
-    e.create('psi:incomplete_cad_assembly_psimetal', 'create:sequenced_assembly').displayName("Incomplete Psimetal CAD Assembly")
+    BasicItem('mekaevolution:alloy_radiance', "§aRadiance Alloy")
+    BasicItem('mekaevolution:alloy_shining', "§3Shining Alloy")
+    BasicItem('mekaevolution:alloy_spectrum', "§5Spectrum Alloy")
+    BasicItem('mekaevolution:alloy_thermonuclear', "§4Thermonuclear Alloy")
+    BasicItem('mekaevolution:enriched_radiance', "Enriched Radiance")
+    BasicItem('mekaevolution:enriched_shining', "Enriched Shining")
+    BasicItem('mekaevolution:enriched_spectrum', "Enriched Spectrum")
+    BasicItem('mekaevolution:enriched_thermonuclear', "Enriched Thermonuclear")
 
-    e.create('industrialforegoing:sludge_bottle').displayName("Sludge Bottle")
+    BasicItem('minecraft:diamond_nugget', "Diamond Nugget")
 
-    e.create('minecraft:diamond_nugget').displayName("Diamond Nugget")
+    BasicItem('thermal:ender_servo', "Ender Servo")
+    BasicItem('thermal:press_rod_die', "Rodworking Die")
 
-    e.create('bhc:incomplete_heart_amulet', 'create:sequenced_assembly').displayName("Incomplete Heart Amulet")
+    BasicItem('tiab:compressed_iron_bottle', "Compressed Bottle")
+    BasicItem('tiab:flowing_time', "Flowing Time")
+    
+    //Sequenced Assembly Items
+    function SequencedAssemblyItem(id, displayName) {
+      return e.createCustom(id, () => new $SequencedAssemblyItem(new $ItemProperties())).displayName(displayName)
+    }
 
-    e.create('ad_astra:desh_gear').displayName("Desh Gear")
-    e.create('ad_astra:desh_rod').displayName("Desh Rod")
-    e.create('ad_astra:desh_dust').displayName("Desh Dust")
-    e.create('ad_astra:ostrum_gear').displayName("Ostrum Gear")
-    e.create('ad_astra:ostrum_rod').displayName("Ostrum Rod")
-    e.create('ad_astra:ostrum_dust').displayName("Ostrum Dust")
-    e.create('ad_astra:calorite_gear').displayName("Calorite Gear")
-    e.create('ad_astra:calorite_rod').displayName("Calorite Rod")
-    e.create('ad_astra:calorite_dust').displayName("Calorite Dust")
-    e.create('ad_astra:raw_nephryx').displayName("Raw Nephryx")
-    e.create('ad_astra:nephryx_ingot').displayName("Nephryx Ingot")
-    e.create('ad_astra:nephryx_nugget').displayName("Nephryx Nugget")
-    e.create('ad_astra:nephryx_plate').displayName("Nephryx Plate")
-    e.create('ad_astra:nephryx_gear').displayName("Nephryx Gear")
-    e.create('ad_astra:nephryx_rod').displayName("Nephryx Rod")
-    e.create('ad_astra:nephryx_dust').displayName("Nephryx Dust")
+    SequencedAssemblyItem('bhc:incomplete_heart_amulet', "Incomplete Heart Amulet")
 
-    e.create('mekaevolution:enriched_radiance').displayName("Enriched Radiance")
-    e.create('mekaevolution:enriched_thermonuclear').displayName("Enriched Thermonuclear")
-    e.create('mekaevolution:enriched_shining').displayName("Enriched Shining")
-    e.create('mekaevolution:enriched_spectrum').displayName("Enriched Spectrum")
-    e.create('mekaevolution:alloy_radiance').displayName("§aRadiance Alloy")
-    e.create('mekaevolution:alloy_thermonuclear').displayName("§4Thermonuclear Alloy")
-    e.create('mekaevolution:alloy_shining').displayName("§3Shining Alloy")
-    e.create('mekaevolution:alloy_spectrum').displayName("§5Spectrum Alloy")
+    SequencedAssemblyItem('create:incomplete_copper_alloy', "Incomplete Copper Alloy")
+    SequencedAssemblyItem('create:incomplete_optimized_copper_alloy', "Incomplete Copper Alloy")
+
+    SequencedAssemblyItem('immersiveengineering:incomplete_hammer', "Incomplete Engineer's Hammer")
+    SequencedAssemblyItem('immersiveengineering:incomplete_wirecutter', "Incomplete Engineer's Wire Cutters")
+
+    SequencedAssemblyItem('minecraft:fishing_rod_cast', "Fishing Rod Cast")
+
+    SequencedAssemblyItem('psi:incomplete_cad_assembly_psimetal', "Incomplete Psimetal CAD Assembly")
+
+    //Sand Paper Items
+    function SandPaperItem(id, displayName, durability) {
+      return e.createCustom(id, () => new $SandPaperItem(new $ItemProperties().defaultDurability(durability))).displayName(displayName).tag("create:sandpaper")
+    }
+
+    SandPaperItem('create:netherite_sandpaper', "Netherite Sandpaper", 2048)
+
   })

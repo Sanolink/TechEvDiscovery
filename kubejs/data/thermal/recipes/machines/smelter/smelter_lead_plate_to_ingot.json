@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": {
+    "tag": "forge:plates/lead"
+  },
+  "result": [
+    {
+      "item": "alltheores:lead_ingot",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

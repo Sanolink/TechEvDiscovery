@@ -24,170 +24,149 @@ ServerEvents.recipes(event => {
         //Cast Iron Plate
         {
             id: "plate_cast_iron",
-            output: "#forge:plates/cast_iron",
-            input: "#forge:ingots/cast_iron",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("#forge:plates/cast_iron"),
+            input: parseIngredient("#forge:ingots/cast_iron"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Netherite Plate
         {
             id: "plate_netherite",
-            output: "#forge:plates/netherite",
-            input: "#forge:ingots/netherite",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("#forge:plates/netherite"),
+            input: parseIngredient("#forge:ingots/netherite"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Diamond Plate
         {
             id: "plate_diamond",
-            output: "#forge:plates/diamond",
-            input: "#forge:gems/diamond",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("#forge:plates/diamond"),
+            input: parseIngredient("#forge:gems/diamond"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Overcharged Iron Plate
         {
             id: "plate_overcharged_iron",
-            output: "create_new_age:overcharged_iron_sheet",
-            input: "create_new_age:overcharged_iron",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("create_new_age:overcharged_iron_sheet"),
+            input: parseIngredient("create_new_age:overcharged_iron"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Overcharged Golden Plate
         {
             id: "plate_overcharged_golden",
-            output: "create_new_age:overcharged_golden_sheet",
-            input: "create_new_age:overcharged_gold",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("create_new_age:overcharged_golden_sheet"),
+            input: parseIngredient("create_new_age:overcharged_gold"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Experience Plate
         {
             id: "plate_experience",
-            output: "create_things_and_misc:experience_sheet",
-            input: "create:experience_nugget",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("create_things_and_misc:experience_sheet"),
+            input: parseIngredient("create:experience_nugget"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Rose Quartz Plate
         {
             id: "plate_rose_quartz",
-            output: "create_things_and_misc:rose_quartz_sheet",
-            input: "create:polished_rose_quartz",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("create_things_and_misc:rose_quartz_sheet"),
+            input: parseIngredient("create:polished_rose_quartz"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Blue Quartz Plate
         {
             id: "plate_blue_quartz",
-            output: "create_things_and_misc:blue_quartz_sheet",
-            input: "create:polished_blue_quartz",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("create_things_and_misc:blue_quartz_sheet"),
+            input: parseIngredient("create:polished_blue_quartz"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Source Quartz Plate
         {
             id: "plate_source_quartz",
-            output: "create_things_and_misc:source_quartz_sheet",
-            input: "create:polished_source_quartz",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("create_things_and_misc:source_quartz_sheet"),
+            input: parseIngredient("create:polished_source_quartz"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Psi Quartz Plate
         {
             id: "plate_psi_quartz",
-            output: "create_things_and_misc:psi_quartz_sheet",
-            input: "create:polished_psi_quartz",
-            mold: "immersiveengineering:mold_plate",
-            energy: 2400
+            output: parseIngredient("create_things_and_misc:psi_quartz_sheet"),
+            input: parseIngredient("create:polished_psi_quartz"),
+            mold: "immersiveengineering:mold_plate"
         },
         //Diamond Gear
         {
             id: "gear_diamond",
-            output: "#forge:gears/diamond",
-            input: Item.of("#forge:gems/diamond", 4),
-            mold: "immersiveengineering:mold_gear",
-            energy: 2400
+            output: parseIngredient("#forge:gears/diamond"),
+            input: IEChanceOrCountIngredient("#forge:gems/diamond", 4),
+            mold: "immersiveengineering:mold_gear"
         },
         //Diamond Rod
         {
             id: "rod_diamond",
-            output: Item.of("#forge:rods/diamond", 2),
-            input: "#forge:gems/diamond",
-            mold: "immersiveengineering:mold_rod",
-            energy: 2400
+            output: IEChanceOrCountIngredient("#forge:rods/diamond", 2),
+            input: parseIngredient("#forge:gems/diamond"),
+            mold: "immersiveengineering:mold_rod"
         },
         //Compressed Steel Gear
         {
             id: "gear_compressed_iron",
-            output: "#forge:gears/compressed_iron",
-            input: Item.of("#forge:ingots/compressed_iron", 4),
-            mold: "immersiveengineering:mold_gear",
-            energy: 2400
+            output: parseIngredient("#forge:gears/compressed_iron"),
+            input: IEChanceOrCountIngredient("#forge:ingots/compressed_iron", 4),
+            mold: "immersiveengineering:mold_gear"
         },
         //Netherite Gear
         {
             id: "gear_netherite",
-            output: "#forge:gears/netherite",
-            input: Item.of("#forge:ingots/netherite", 4),
-            mold: "immersiveengineering:mold_gear",
-            energy: 2400
+            output: parseIngredient("#forge:gears/netherite"),
+            input: IEChanceOrCountIngredient("#forge:ingots/netherite", 4),
+            mold: "immersiveengineering:mold_gear"
         },
         //Lapis Gear
         {
             id: "gear_lapis",
-            output: "#forge:gears/lapis",
-            input: Item.of("#forge:gems/lapis", 4),
-            mold: "immersiveengineering:mold_gear",
-            energy: 2400
+            output: parseIngredient("#forge:gears/lapis"),
+            input: IEChanceOrCountIngredient("#forge:gems/lapis", 4),
+            mold: "immersiveengineering:mold_gear"
         },
         //Emerald Gear
         {
             id: "gear_emerald",
-            output: "#forge:gears/emerald",
-            input: Item.of("#forge:gems/emerald", 4),
-            mold: "immersiveengineering:mold_gear",
-            energy: 2400
+            output: parseIngredient("#forge:gears/emerald"),
+            input: IEChanceOrCountIngredient("#forge:gems/emerald", 4),
+            mold: "immersiveengineering:mold_gear"
         },
         //Quartz Gear
         {
             id: "gear_quartz",
-            output: "#forge:gears/quartz",
-            input: Item.of("#forge:gems/quartz", 4),
-            mold: "immersiveengineering:mold_gear",
-            energy: 2400
+            output: parseIngredient("#forge:gears/quartz"),
+            input: IEChanceOrCountIngredient("#forge:gems/quartz", 4),
+            mold: "immersiveengineering:mold_gear"
         },
         //Desh Gear
         {
             id: "gear_desh",
-            output: "#forge:gears/desh",
-            input: Item.of("#forge:ingots/desh", 4),
-            mold: "immersiveengineering:mold_gear",
-            energy: 2400
+            output: parseIngredient("#forge:gears/desh"),
+            input: IEChanceOrCountIngredient("#forge:ingots/desh", 4),
+            mold: "immersiveengineering:mold_gear"
         },
         //Ostrum Gear
         {
             id: "gear_ostrum",
-            output: "#forge:gears/ostrum",
-            input: Item.of("#forge:ingots/ostrum", 4),
-            mold: "immersiveengineering:mold_gear",
-            energy: 2400
+            output: parseIngredient("#forge:gears/ostrum"),
+            input: IEChanceOrCountIngredient("#forge:ingots/ostrum", 4),
+            mold: "immersiveengineering:mold_gear"
         },
         //Calorite Gear
         {
             id: "gear_calorite",
-            output: "#forge:gears/calorite",
-            input: Item.of("#forge:ingots/calorite", 4),
-            mold: "immersiveengineering:mold_gear",
-            energy: 2400
+            output: parseIngredient("#forge:gears/calorite"),
+            input: IEChanceOrCountIngredient("#forge:ingots/calorite", 4),
+            mold: "immersiveengineering:mold_gear"
         },
         //Spell Bullet
         {
             id: "spell_bullet",
-            output: "psi:spell_bullet",
-            input: "create_things_and_misc:psi_quartz_sheet",
-            mold: "immersiveengineering:mold_bullet_casing",
-            energy: 2400
+            output: parseIngredient("psi:spell_bullet"),
+            input: parseIngredient("create_things_and_misc:psi_quartz_sheet"),
+            mold: "immersiveengineering:mold_bullet_casing"
         }
     ]
 
@@ -210,19 +189,17 @@ ServerEvents.recipes(event => {
         recipes.push(
             //Special Ingots Plates
             {
-                id: "plate_" + ingot,
-                output: "#forge:plates/" + ingot,
-                input: "#forge:ingots/" + ingot,
-                mold: "immersiveengineering:mold_plate",
-                energy: 2400
+                id: `plate_${ingot}`,
+                output: parseIngredient(`#forge:plates/${ingot}`),
+                input: parseIngredient(`#forge:ingots/${ingot}`),
+                mold: "immersiveengineering:mold_plate"
             },
             //Special Ingots Gears
             {
-                id: "gear_" + ingot,
-                output: "#forge:gears/" + ingot,
-                input: Item.of("#forge:ingots/" + ingot, 4),
-                mold: "immersiveengineering:mold_gear",
-                energy: 2400
+                id: `gear_${ingot}`,
+                output: parseIngredient(`#forge:gears/${ingot}`),
+                input: IEChanceOrCountIngredient(`#forge:ingots/${ingot}`, 4),
+                mold: "immersiveengineering:mold_gear"
             }
         )
     })
@@ -240,18 +217,23 @@ ServerEvents.recipes(event => {
     ].forEach(mat => {
         recipes.push(
             {
-                id: "rod_" + mat,
-                output: Item.of("#forge:rods/" + mat, 2),
-                input: "#forge:ingots/" + mat,
-                mold: "immersiveengineering:mold_rod",
-                energy: 2400
+                id: `rod_${mat}`,
+                output: IEChanceOrCountIngredient(`#forge:rods/${mat}`, 2),
+                input: parseIngredient(`#forge:ingots/${mat}`),
+                mold: "immersiveengineering:mold_rod"
             }
         )
     })
 
-    //General Metal Press Function
-    recipes.forEach((recipe) => {
-        event.recipes.immersiveengineering.metal_press(recipe.output, recipe.input, recipe.mold, recipe.energy).id("immersiveengineering:metalpress/" + recipe.id)
+   //General Metal Press Function
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'immersiveengineering:metal_press',
+            input: recipe.input,
+            result: recipe.output,
+            mold: recipe.mold,
+            energy: recipe.energy || 2400
+        }
+        event.custom(json).id(`immersiveengineering:metalpress/${recipe.id}`)
     })
-
 })

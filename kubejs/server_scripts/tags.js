@@ -245,7 +245,8 @@ ServerEvents.tags('item', e => {
         'create:copper_sheet',
         'create:brass_sheet',
         'createaddition:zinc_sheet',
-        'create:dough'
+        'create:dough',
+        'immersiveengineering:slag'
     ].forEach(item => {e.removeAllTagsFrom(item)})
 
     /**********************ADD****************************/

@@ -131,24 +131,13 @@ ServerEvents.recipes(event => {
                 Deploying("#forge:heart")
             ])
         },
-        //Copper Alloy
+        // Copper Alloy
         {
             id: "copper_alloy",
             input: [parseIngredient("create:andesite_alloy")],
             output: [parseIngredient("create:copper_alloy")],
-            loops: 4,
             transition: "create:incomplete_copper_alloy",
             sequence: makeSequence("create:incomplete_copper_alloy", [
-                Deploying("#forge:plates/copper")
-            ])
-        },
-        //Optimized Copper Alloy
-        {
-            id: "optimized_copper_alloy",
-            input: [parseIngredient("create:andesite_alloy")],
-            output: [parseIngredient("create:copper_alloy")],
-            transition: "create:incomplete_optimized_copper_alloy",
-            sequence: makeSequence("create:incomplete_optimized_copper_alloy", [
                 Filling(FluidWithCount("minecraft:water", 250)),
                 Deploying("#forge:plates/copper")
             ])

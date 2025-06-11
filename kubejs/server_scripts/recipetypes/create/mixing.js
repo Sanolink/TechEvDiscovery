@@ -51,6 +51,14 @@ ServerEvents.recipes(event => {
             ],
             output: [FluidWithCount('ae2:resonant_fluix', 500)]
         },
+        {
+            id: "copper_alloy",
+            input: [
+                parseIngredient("create:andesite_alloy"),
+                parseIngredient("alltheores:copper_plate"), parseIngredient("alltheores:copper_plate"), parseIngredient("alltheores:copper_plate"), parseIngredient("alltheores:copper_plate"),
+            ],
+            output: [parseIngredient("create:copper_alloy")]
+        },
         //Heated Recipes
         {
             id: "pewter_blend",

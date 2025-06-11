@@ -13,15 +13,15 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.6         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
-// Thanks to Tizu on the Latvian.dev Discord Server for this cool Create tooltip trick
-// Here is a little credit : https://tizu.dev/
-const ItemDescription = Java.loadClass("com.simibubi.create.foundation.item.ItemDescription$Modifier");
-const TooltipModifier = Java.loadClass("com.simibubi.create.foundation.item.TooltipModifier");
-const Palette = Java.loadClass("com.simibubi.create.foundation.item.TooltipHelper$Palette");
+// Special thanks to the Latvian.dev Discord Server community for their help with this awesome Create tooltip trick
+
+const $ItemDescription = Java.loadClass("com.simibubi.create.foundation.item.ItemDescription$Modifier");
+const $TooltipModifier = Java.loadClass("com.simibubi.create.foundation.item.TooltipModifier");
+const $Palette = Java.loadClass("com.simibubi.create.foundation.item.TooltipHelper$Palette");
 
 ItemEvents.tooltip(event => {
 
@@ -33,13 +33,11 @@ ItemEvents.tooltip(event => {
     
     //Create Tooltips (Located in Create Lang)
     const ItemsCreateTooltips = [
-        'create:chromatic_compound'
+        'create:chromatic_compound',
+        'create:netherite_sandpaper'
     ].forEach(id => {
-        event.addAdvanced(id, (item) => {
-            TooltipModifier.REGISTRY.register(
-              item.item,
-              new ItemDescription(item.item, Palette.STANDARD_CREATE)
-            );
-          })
-    })
+        $TooltipModifier.REGISTRY.registerDeferred(
+          id, (item) => new $ItemDescription( item, $Palette.STANDARD_CREATE)
+        )
+    });
 })

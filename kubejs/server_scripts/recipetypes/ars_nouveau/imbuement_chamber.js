@@ -13,25 +13,33 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
 ServerEvents.recipes(event => {
 
     //Recipes
-    const recipes = [
+    let recipes = [
+        //Pure Daisy
         {
-            id: "pure_daisy",
-            input : 'minecraft:oxeye_daisy',
-            output : 'botania:pure_daisy',
-            source : 2000,
-            adds : ['eidolon:oanna_bloom', 'forbidden_arcanus:purifying_soap'] 
+            input: 'minecraft:oxeye_daisy',
+            output: 'botania:pure_daisy',
+            source: 2000,
+            pedestalItems: ['eidolon:oanna_bloom', 'forbidden_arcanus:purifying_soap'],
         }
     ]
-    
+
     //General Imbuement Chamber Function
     recipes.forEach((recipe) => {
-        event.recipes.ars_nouveau.imbuement(recipe.input, recipe.output, recipe.source, recipe.adds).id("ars_nouveau:imbuement_" + recipe.id)
+        let json = {
+            type: 'ars_nouveau:imbuement',
+            input: parseIngredient(recipe.input),
+            output: recipe.output,
+            count: recipe.count || 1,
+            source: recipe.source,
+            pedestalItems: recipe.pedestalItems.map(i => ({ item: parseIngredient(i) })),
+        }
+        event.custom(json).id(`ars_nouveau:imbuement_${recipe.output.split(":")[1]}`)
     })
 })

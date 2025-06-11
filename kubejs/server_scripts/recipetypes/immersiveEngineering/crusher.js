@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -23,57 +23,66 @@ ServerEvents.recipes(event => {
     let recipes = [
         {
             id : 'raw_cuperzinate',
-            input: 'techev_additions:raw_cuperzinate',
-            output: 'create:crushed_raw_copper',
-            secondaries: [Item.of('create:crushed_raw_zinc').withChance(0.8), Item.of('create:crushed_raw_iron').withChance(0.6)]
+            input: parseIngredient('techev_additions:raw_cuperzinate'),
+            output: parseIngredient('create:crushed_raw_copper'),
+            secondaries: [
+                IEChanceOrCountIngredient('create:crushed_raw_zinc', 0.8),
+                IEChanceOrCountIngredient('create:crushed_raw_iron', 0.6)
+            ]
         },
         {
             id : 'raw_auricargentum',
-            input: 'techev_additions:raw_auricargentum',
-            output: 'create:crushed_raw_gold',
-            secondaries: [Item.of('create:crushed_raw_silver').withChance(0.8), Item.of('create:crushed_raw_platinum').withChance(0.6)]
+            input: parseIngredient('techev_additions:raw_auricargentum'),
+            output: parseIngredient('create:crushed_raw_gold'),
+            secondaries: [
+                IEChanceOrCountIngredient('create:crushed_raw_silver', 0.8),
+                IEChanceOrCountIngredient('create:crushed_raw_platinum', 0.6)
+            ]
         },
         {
             id : 'raw_uratinumal',
-            input: 'techev_additions:raw_uratinumal',
-            output: 'create:crushed_raw_uranium',
-            secondaries: [Item.of('create:crushed_raw_tin').withChance(0.8), Item.of('create:crushed_raw_aluminum').withChance(0.6)]
+            input: parseIngredient('techev_additions:raw_uratinumal'),
+            output: parseIngredient('create:crushed_raw_uranium'),
+            secondaries: [
+                IEChanceOrCountIngredient('create:crushed_raw_tin', 0.8),
+                IEChanceOrCountIngredient('create:crushed_raw_aluminum', 0.6)
+            ]
         },
         {
             id : 'raw_leadosnite',
-            input: 'techev_additions:raw_leadosnite',
-            output: 'create:crushed_raw_lead',
-            secondaries: [Item.of('create:crushed_raw_osmium').withChance(0.8), Item.of('create:crushed_raw_nickel').withChance(0.6)]
+            input: parseIngredient('techev_additions:raw_leadosnite'),
+            output: parseIngredient('create:crushed_raw_lead'),
+            secondaries: [
+                IEChanceOrCountIngredient('create:crushed_raw_osmium', 0.8),
+                IEChanceOrCountIngredient('create:crushed_raw_nickel', 0.6)
+            ]
         },
         {
             id : 'netherite_armor_recycling',
-            input: '#forge:armor/netherite',
-            output: Item.of('createdeco:netherite_nugget').withCount(4),
-            secondaries: Item.of('createdeco:netherite_nugget').withChance(0.8)
+            input: parseIngredient('#forge:armor/netherite'),
+            output: IEChanceOrCountIngredient('createdeco:netherite_nugget', 4),
+            secondaries: [IEChanceOrCountIngredient('createdeco:netherite_nugget', 0.8)]
         },
         {
             id : 'obsidian',
-            input: 'minecraft:obsidian',
-            output: 'create:powdered_obsidian',
-            secondaries: Item.of('minecraft:obsidian').withChance(0.75)
+            input: parseIngredient('minecraft:obsidian'),
+            output: parseIngredient('create:powdered_obsidian'),
+            secondaries: [IEChanceOrCountIngredient('minecraft:obsidian', 0.75)]
         },
         {
             id : 'soul_sand',
-            input: 'minecraft:soul_sand',
-            output: 'thermal_extra:soul_sand_dust',
-            secondaries: []
+            input: parseIngredient('minecraft:soul_sand'),
+            output: parseIngredient('thermal_extra:soul_sand_dust')
         },
         {
             id : 'ender_pearl',
-            input: 'minecraft:ender_pearl',
-            output: 'thermal:ender_pearl_dust',
-            secondaries: []
+            input: parseIngredient('minecraft:ender_pearl'),
+            output: parseIngredient('thermal:ender_pearl_dust')
         },
         {
             id : 'sky_stone',
-            input: 'ae2:sky_stone_block',
-            output: 'ae2:sky_dust',
-            secondaries: []
+            input: parseIngredient('ae2:sky_stone_block'),
+            output: parseIngredient('ae2:sky_dust')
         }
     ]
 
@@ -110,38 +119,29 @@ ServerEvents.recipes(event => {
     ingotsDusts.forEach(type => {
         recipes.push(
         {
-            id : type + '_dust',
-            input: '#forge:ingots/' + type,
-            output: '#forge:dusts/' + type,
-            secondaries: []
+            id : `${type}_dust`,
+            input: parseIngredient(`#forge:ingots/${type}`),
+            output: parseIngredient(`#forge:dusts/${type}`)
         }
     )})
     gemsDusts.forEach(type => {
         recipes.push(
         {
-            id : type + '_dust',
-            input: '#forge:gems/' + type,
-            output: '#forge:dusts/' + type,
-            secondaries: []
+            id : `${type}_dust`,
+            input: parseIngredient(`#forge:gems/${type}`),
+            output: parseIngredient(`#forge:dusts/${type}`)
         }
     )})
 
-    //General Crusher Function
+   //General Crusher Function
     recipes.forEach(recipe => {
-        event.recipes.immersiveengineeringCrusher(recipe.output, recipe.input, recipe.secondaries).id("immersiveengineering:crusher/" + recipe.id)
+        let json = {
+            type: 'immersiveengineering:crusher',
+            input: recipe.input,
+            result: recipe.output,
+            secondaries: recipe.secondaries || [],
+            energy: recipe.energy || 3000
+        }
+        event.custom(json).id(`immersiveengineering:crusher/${recipe.id}`)
     })
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-

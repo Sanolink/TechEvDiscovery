@@ -1,3 +1,7 @@
 {
-    "item.create.chromatic_compound.tooltip.summary": "A mysterious _Alloy_. _Legends_ say that its _properties_ are _highly reactive_ to _Light Sources_ and the _Void_"
+    "item.create.chromatic_compound.tooltip.summary": "A mysterious _Alloy_. _Legends_ say that its _properties_ are _highly reactive_ to _Light Sources_ and the _Void_",
+
+    "item.create.netherite_sandpaper.tooltip.summary": "Can be used to _refine materials_. The process can be automated with a Deployer.",
+    "item.create.netherite_sandpaper.tooltip.condition1": "When Used",
+    "item.create.netherite_sandpaper.tooltip.behaviour1": "Applies polish to items held in the _offhand_ or lying on the _floor_ when _looking at them_"
 }

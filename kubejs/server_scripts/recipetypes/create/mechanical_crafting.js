@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         //Time In A Bottle
         {
             id: "time_in_a_bottle",
-            output: "tiab:time_in_a_bottle",
+            output: parseIngredient("tiab:time_in_a_bottle"),
             shape: [
                 ' DDD ',
                 ' DCD ',
@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
         //ME Controller
         {
             id: "me_controller",
-            output: "ae2:controller",
+            output: parseIngredient("ae2:controller"),
             shape: [
                 ' AYA ',
                 'ALECA',
@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
         },
         {
             id: "redstone_servo",
-            output: "thermal:redstone_servo",
+            output: parseIngredient("thermal:redstone_servo"),
             shape: [
                 'C C',
                 ' S ',
@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
         },
         {
             id: "ender_servo",
-            output: "thermal:ender_servo",
+            output: parseIngredient("thermal:ender_servo"),
             shape: [
                 'C C',
                 ' S ',
@@ -102,7 +102,17 @@ ServerEvents.recipes(event => {
 
     //General Mechanical Crafting Function
     recipes.forEach(recipe => {
-        event.recipes.create.mechanical_crafting(recipe.output, recipe.shape, recipe.key).id("create:mechanical_crafting/" + recipe.id)
-    })
+        let parsedKey = {}
+        for (let key in recipe.key) {
+            parsedKey[key] = parseIngredient(recipe.key[key])
+        }
 
+        let json = {
+            type: 'create:mechanical_crafting',
+            key: parsedKey,
+            pattern: recipe.shape,
+            result: recipe.output
+        }
+        event.custom(json).id(`create:mechanical_crafting/${recipe.id}`)
+    })
 })

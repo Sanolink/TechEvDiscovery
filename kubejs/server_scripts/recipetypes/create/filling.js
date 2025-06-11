@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -22,35 +22,44 @@ ServerEvents.recipes(event => {
     //Recipes 
     const recipes = [
         {
-            id: 'molten_redstone',
-            output: 'create:rose_quartz',
-            input: [Fluid.of("thermal:redstone", 200), 'minecraft:quartz']
+            id: "rose_quartz",
+            output: [parseIngredient('create:rose_quartz')],
+            input: [parseIngredient('minecraft:quartz')],
+            fluid: FluidWithCount("thermal:redstone", 200)
         },
         {
-            id: 'molten_lapis',
-            output: 'create:blue_quartz',
-            input: [Fluid.of("create:molten_lapis", 200), 'minecraft:quartz']
+            id: "blue_quartz",
+            output: [parseIngredient('create:blue_quartz')],
+            input: [parseIngredient('minecraft:quartz')],
+            fluid: FluidWithCount("create:molten_lapis", 200)
+        },
+        {   
+            id: "source_quartz",
+            output: [parseIngredient('create:source_quartz')],
+            input: [parseIngredient('minecraft:quartz')],
+            fluid: FluidWithCount("create:molten_source", 200)
         },
         {
-            id: 'molten_source',
-            output: 'create:source_quartz',
-            input: [Fluid.of("create:molten_source", 200), 'minecraft:quartz']
+            id: "psi_quartz",
+            output: [parseIngredient('create:psi_quartz')],
+            input: [parseIngredient('minecraft:quartz')],
+            fluid: FluidWithCount("psi:destabilized_psimetal", 200)
         },
         {
-            id: 'molten_psi',
-            output: 'create:psi_quartz',
-            input: [Fluid.of("psi:destabilized_psimetal", 200), 'minecraft:quartz']
-        },
-        {
-            id: 'fill_sludge_bottle',
-            output: 'industrialforegoing:sludge_bottle',
-            input: [Fluid.of("industrialforegoing:sludge", 250), 'minecraft:glass_bottle']
+            id: "sludge_bottle",
+            output: [parseIngredient('industrialforegoing:sludge_bottle')],
+            input: [parseIngredient('minecraft:glass_bottle')],
+            fluid: FluidWithCount("industrialforegoing:sludge", 250)
         }
     ]
-    //General Filling Function
+
+   //General Filling Function
     recipes.forEach(recipe => {
-
-        event.recipes.create.filling(recipe.output, recipe.input).id("create:filling/" + recipe.id)
-
+        let json = {
+            type: 'create:filling',
+            ingredients: [recipe.input, recipe.fluid],
+            results: recipe.output
+        }
+        event.custom(json).id(`create:filling/${recipe.id}`)
     })
 })

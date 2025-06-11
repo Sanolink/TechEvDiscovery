@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -21,22 +21,27 @@ ServerEvents.recipes(event => {
     
     //Recipes
     const recipes = [
-        
-    //Blank Data Model
-    {
-        id : 'blank_data_model',
-        output : 'hostilenetworks:blank_data_model',
-        ingredients : ['hostilenetworks:inert_data_model', Fluid.of('industrialforegoing:ether_gas', 100)]
-    },
-    {
-        id : 'sludge_bottle',
-        output : 'industrialforegoing:sludge_bottle',
-        ingredients : ['minecraft:glass_bottle', Fluid.of("industrialforegoing:sludge", 250)]
-    }
-]
+        {
+            id : 'blank_data_model',
+            ingredients : [parseIngredient('hostilenetworks:inert_data_model'), FluidWithCount('industrialforegoing:ether_gas', 100)],
+            output : parseIngredient('hostilenetworks:blank_data_model')
+        },
+        {
+            id : 'sludge_bottle',
+            ingredients : [parseIngredient('minecraft:glass_bottle'), FluidWithCount("industrialforegoing:sludge", 250)],
+            output : parseIngredient('industrialforegoing:sludge_bottle')
+        }
+    ]
 
     //General Bottler Function
-    recipes.forEach((recipe) => {
-        event.recipes.thermal.bottler(recipe.output, recipe.ingredients).id("thermal:machines/bottler/bottler_" + recipe.id)
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'thermal:bottler',
+            ingredients: recipe.ingredients,
+            result: recipe.output,
+            experience: recipe.experience || 0.0,
+            energy: recipe.energy || 400
+        }
+        event.custom(json).id(`thermal:machines/bottler/bottler_${recipe.id}`)
     })
 })

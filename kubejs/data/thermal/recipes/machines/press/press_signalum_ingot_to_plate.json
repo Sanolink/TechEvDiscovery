@@ -1,0 +1,11 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "tag": "forge:ingots/signalum"
+  },
+  "result": [
+    {
+      "item": "alltheores:signalum_plate"
+    }
+  ]
+}

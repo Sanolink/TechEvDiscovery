@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.4         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -55,9 +55,15 @@ ServerEvents.recipes(event => {
         )
     })
 
-
     //General Rock Gen Function
-    recipes.forEach((recipe) => {
-    event.recipes.thermal.rock_gen(recipe.output, recipe.below || "minecraft:air", recipe.adjacent).id("thermal:devices/rock_gen/rock_gen_" + recipe.output.split(":")[1]);
-    });
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'thermal:rock_gen',
+            adjacent: recipe.adjacent,
+            result: parseIngredient(recipe.output),
+            time: recipe.time || 20
+        }
+        if (recipe.below) { json.below = recipe.below}
+        event.custom(json).id(`thermal:devices/rock_gen/rock_gen_${recipe.output.split(":")[1]}`)
+    })
 })

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -21,50 +21,56 @@ ServerEvents.recipes(event => {
     
     //Recipes
     const recipes = [
-        
-    //Molten Plastic
-    {
-        id : 'molten_plastic',
-        output : Fluid.of("pneumaticcraft:plastic", 500),
-        ingredients : "pneumaticcraft:plastic"
-    },
-    //Molten Lapis
-    {
-        id : 'molten_lapis',
-        output : Fluid.of("create:molten_lapis", 100),
-        ingredients : 'minecraft:lapis_lazuli'
-    },
-    {
-        id : 'molten_lapis_from_block',
-        output : Fluid.of("create:molten_lapis", 900),
-        ingredients : 'minecraft:lapis_block'
-    },
-    //Molten Source
-    {
-        id : 'molten_source',
-        output : Fluid.of("create:molten_source", 200),
-        ingredients : 'ars_nouveau:source_gem'
-    },
-    {
-        id : 'molten_source_from_block',
-        output : Fluid.of("create:molten_source", 800),
-        ingredients : 'ars_nouveau:source_gem_block'
-    },
-    //Destabilized Psimetal
-    {
-        id : 'destabilized_psimetal',
-        output : Fluid.of("psi:destabilized_psimetal", 100),
-        ingredients : 'psi:psimetal'
-    },
-    {
-        id : 'destabilized_psimetal_from_block',
-        output : Fluid.of("psi:destabilized_psimetal", 900),
-        ingredients : 'psi:psimetal_block'
-    }
-]
+        //Molten Plastic
+        {
+            id : 'molten_plastic',
+            output : FluidWithCount("pneumaticcraft:plastic", 500),
+            ingredients : parseIngredient('pneumaticcraft:plastic')
+        },
+        //Molten Lapis
+        {
+            id : 'molten_lapis',
+            output : FluidWithCount("create:molten_lapis", 100),
+            ingredients : parseIngredient('minecraft:lapis_lazuli')
+        },
+        {
+            id : 'molten_lapis_from_block',
+            output : FluidWithCount("create:molten_lapis", 900),
+            ingredients : parseIngredient('minecraft:lapis_block')
+        },
+        //Molten Source
+        {
+            id : 'molten_source',
+            output : FluidWithCount("create:molten_source", 200),
+            ingredients : parseIngredient('ars_nouveau:source_gem')
+        },
+        {
+            id : 'molten_source_from_block',
+            output : FluidWithCount("create:molten_source", 800),
+            ingredients : parseIngredient('ars_nouveau:source_gem_block')
+        },
+        //Destabilized Psimetal
+        {
+            id : 'destabilized_psimetal',
+            output : FluidWithCount("psi:destabilized_psimetal", 100),
+            ingredients : parseIngredient('psi:psimetal')
+        },
+        {
+            id : 'destabilized_psimetal_from_block',
+            output : FluidWithCount("psi:destabilized_psimetal", 900),
+            ingredients : parseIngredient('psi:psimetal_block')
+        }
+    ]
 
     //General Crucible Function
-    recipes.forEach((recipe) => {
-        event.recipes.thermal.crucible(recipe.output, recipe.ingredients).id("thermal:machines/crucible/crucible_" + recipe.id)
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'thermal:crucible',
+            ingredients: recipe.ingredients,
+            result: recipe.output,
+            experience: recipe.experience || 0.0,
+            energy: recipe.energy || 40000
+        }
+        event.custom(json).id(`thermal:machines/crucible/crucible_${recipe.id}`)
     })
 })

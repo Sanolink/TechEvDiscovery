@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.5         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -23,83 +23,102 @@ ServerEvents.recipes(event => {
     const recipes = [
         //Basic Recipes
         {
-            id: 'andesite_alloy',
-            type: 'basic',
-            input: ['minecraft:andesite', '#forge:nuggets/pewter'],
-            output: 'create:raw_andesite_alloy'
+            id: "raw_andesite_alloy",
+            input: [
+                parseIngredient('minecraft:andesite'),
+                parseIngredient('#forge:nuggets/pewter')
+            ],
+            output: [parseIngredient('create:raw_andesite_alloy')]
         },
         {
-            id: 'brass_alloy',
-            type: 'basic',
-            input: ['create:andesite_alloy', '#forge:dusts/brass'],
-            output: 'create:brass_alloy'
+            id: "brass_alloy",
+            input: [
+                parseIngredient('create:andesite_alloy'),
+                parseIngredient('#forge:dusts/brass')
+            ],
+            output: [parseIngredient('create:brass_alloy')]
         },
         {
-            id: 'soul',
-            type: 'basic',
-            input: Fluid.of("forbidden_arcanus:liquid_soul", 1000),
-            output: 'forbidden_arcanus:soul'
+            id: "soul",
+            input: [FluidWithCount("forbidden_arcanus:liquid_soul", 1000)],
+            output: [parseIngredient('forbidden_arcanus:soul')]
         },
         {
-            id: 'resonant_fluix',
-            type: 'basic',
-            input: [Fluid.of("create_confectionery:ruby_chocolate", 250), Fluid.of("thermal:ender", 250)],
-            output: Fluid.of('ae2:resonant_fluix', 500)
+            id: "resonant_fluix",
+            input: [
+                FluidWithCount("create_confectionery:ruby_chocolate", 250),
+                FluidWithCount("thermal:ender", 250)
+            ],
+            output: [FluidWithCount('ae2:resonant_fluix', 500)]
         },
         //Heated Recipes
         {
-            id: 'pewter_blend',
-            type: 'heated',
-            input: ["minecraft:iron_ingot", "alltheores:lead_ingot"],
-            output: Item.of('eidolon:pewter_blend', 2),
+            id: "pewter_blend",
+            heat: 'heated',
+            input: [
+                parseIngredient("minecraft:iron_ingot"),
+                parseIngredient("alltheores:lead_ingot")
+            ],
+            output: [ChanceOrCountItem('eidolon:pewter_blend', 2)],
         },
         {
-            id: 'polymer_clay',
-            type: 'heated',
-            input: ['minecraft:clay_ball', Fluid.of("thermal:resin", 125), Fluid.of("pneumaticcraft:plastic", 125)],
-            output: Fluid.of("hostilenetworks:polymer_clay", 250)
+            id: "polymer_clay",
+            heat: 'heated',
+            input: [
+                parseIngredient('minecraft:clay_ball'),
+                FluidWithCount("thermal:resin", 125),
+                FluidWithCount("pneumaticcraft:plastic", 125)
+            ],
+            output: [FluidWithCount("hostilenetworks:polymer_clay", 250)]
         },
         {
-            id: 'synthetic_mana_diamond',
-            type: 'heated',
-            input: [Fluid.of("create_enchantment_industry:hyper_experience", 50), Fluid.of("pneumaticcraft:yeast_culture", 1000), "botania:infused_seeds" , "9x minecraft:diamond", "3x forbidden_arcanus:arcane_crystal_dust"],
-            output: Fluid.of("botania:synthetic_mana_diamond", 1000),
-            time: 1000
+            id: "synthetic_mana_diamond",
+            heat: 'heated',
+            input: [
+                FluidWithCount("create_enchantment_industry:hyper_experience", 50),
+                FluidWithCount("pneumaticcraft:yeast_culture", 1000),
+                parseIngredient("botania:infused_seeds"),
+                parseIngredient("minecraft:diamond"), parseIngredient("minecraft:diamond"), parseIngredient("minecraft:diamond"), parseIngredient("minecraft:diamond"), parseIngredient("minecraft:diamond"), parseIngredient("minecraft:diamond"), parseIngredient("minecraft:diamond"), parseIngredient("minecraft:diamond"), parseIngredient("minecraft:diamond"),
+                parseIngredient("forbidden_arcanus:arcane_crystal_dust"), parseIngredient("forbidden_arcanus:arcane_crystal_dust"), parseIngredient("forbidden_arcanus:arcane_crystal_dust")
+            ],
+            output: [FluidWithCount("botania:synthetic_mana_diamond", 1000)],
         },
         //Superheated Recipes
         {
-            id: 'molten_redstone',
-            type: 'superheated',
-            input: Item.of('minecraft:redstone', 8),
-            output: Fluid.of("thermal:redstone", 200)
+            id: "molten_redstone",
+            heat: 'superheated',
+            input: [parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone")],
+            output: [FluidWithCount("thermal:redstone", 200)]
         },
         {
-            id: 'molten_lapis',
-            type: 'superheated',
-            input: Item.of('minecraft:lapis_lazuli', 8),
-            output: Fluid.of("create:molten_lapis", 200)
+            id: "molten_lapis",
+            heat: 'superheated',
+            input: [parseIngredient("minecraft:lapis_lazuli"), parseIngredient("minecraft:lapis_lazuli"), parseIngredient("minecraft:lapis_lazuli"), parseIngredient("minecraft:lapis_lazuli"), parseIngredient("minecraft:lapis_lazuli"), parseIngredient("minecraft:lapis_lazuli"), parseIngredient("minecraft:lapis_lazuli"), parseIngredient("minecraft:lapis_lazuli")],
+            output: [FluidWithCount("create:molten_lapis", 200)]
         },
         {
-            id: 'molten_source',
-            type: 'superheated',
-            input: Item.of('ars_nouveau:source_gem', 4),
-            output: Fluid.of("create:molten_source", 200)
+            id: "molten_source",
+            heat: 'superheated',
+            input: [parseIngredient("ars_nouveau:source_gem"), parseIngredient("ars_nouveau:source_gem"), parseIngredient("ars_nouveau:source_gem"), parseIngredient("ars_nouveau:source_gem")],
+            output: [FluidWithCount("create:molten_source", 200)]
         },
         {
-            id: 'destabilized_psimetal',
-            type: 'superheated',
-            input: Item.of('psi:psimetal', 2),
-            output: Fluid.of("psi:destabilized_psimetal", 200)
+            id: "destabilized_psimetal",
+            heat: 'superheated',
+            input: [parseIngredient("psi:psimetal"), parseIngredient("psi:psimetal")],
+            output: [FluidWithCount("psi:destabilized_psimetal", 200)]
         }
     ]
-    //General Mixing Function
+
+   //General Mixing Function
     recipes.forEach(recipe => {
-        if (recipe.type == 'basic') {
-            event.recipes.create.mixing(recipe.output, recipe.input, recipe.time ?? 100).id("create:mixing/" + recipe.id)
-        } else if (recipe.type == 'heated') {
-            event.recipes.create.mixing(recipe.output, recipe.input, recipe.time ?? 100).id("create:mixing/" + recipe.id).heated()
-        } else if (recipe.type == 'superheated') {
-            event.recipes.create.mixing(recipe.output, recipe.input, recipe.time ?? 100).id("create:mixing/" + recipe.id).superheated()
+        let json = {
+            type: 'create:mixing',
+            ingredients: recipe.input,
+            results: recipe.output,
         }
+        if (recipe.heat) { json.heatRequirement = recipe.heat }
+        event.custom(json).id(`create:mixing/${recipe.id || recipe.output.split(":")[1]}`)
     })
+    
 })

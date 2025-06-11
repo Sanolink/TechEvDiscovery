@@ -178,7 +178,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["06F81E6B3C6B225C"]
+			dependencies: [
+				"06F81E6B3C6B225C"
+				"17BCA9859BA0CAD6"
+			]
 			id: "358EF7485AE5A835"
 			rewards: [{
 				count: 2
@@ -832,6 +835,31 @@
 			}]
 			x: 8.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["1B66E02D35803760"]
+			description: [
+				"You can find &l&5Roses of Oblivion&r in the End after killing the Ender Dragon."
+				""
+				"{image:techev:textures/misc/quests/blue_skies/rose_of_oblivion.png width:130 height:67 align:1 fit:true}"
+			]
+			hide_dependency_lines: true
+			id: "17BCA9859BA0CAD6"
+			rewards: [{
+				count: 2
+				id: "507D3DD8463DB78C"
+				item: "naturesaura:end_flower"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "60B336E7B274D947"
+				item: "naturesaura:end_flower"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -3.0d
 		}
 	]
 	subtitle: ["The World’s Pulse, Captured in Essence"]

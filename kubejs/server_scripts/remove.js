@@ -182,6 +182,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:refinery/acetaldehyde'})
     event.remove({ id: 'immersiveengineering:blueprint/graphite_electrode'})
     event.remove({ id: 'immersiveengineering:crafting/paper_from_sawdust'})
+    event.remove({ id: 'immersiveengineering:smelting/slag_glass'})
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:plates" })
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:dusts" })
     event.remove({ input: 'immersiveengineering:wirecutter', output: '#forge:wires', type: 'minecraft:crafting_shapeless' })
@@ -191,6 +192,7 @@ ServerEvents.recipes(event => {
     //Immersive Petroleum
     event.remove({ id: 'immersivepetroleum:hydrotreater/propylene_plastic'})
     event.remove({ id: 'immersivepetroleum:hydrotreater/ethylene_plastic'})
+    event.remove({ id: 'immersivepetroleum:arcfurnace/steel'})
 
     //Industrial Foregoing
     event.remove({ id: 'ad_astra_giselle_addon:compat/industrialforegoing/laser_drill_fluid/oil'})

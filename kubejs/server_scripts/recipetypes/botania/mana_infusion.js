@@ -13,18 +13,17 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
 ServerEvents.recipes(event => {
 
     //Recipes
-    const recipes = [
+    let recipes = [
         {
-            id: 'fertilizer',
             output: 'botania:fertilizer',
-            inputs: 'minecraft:bone_meal',
+            input: 'minecraft:bone_meal',
             mana: 2500,
             catalyst: 'botania:floral_catalyst'
         }
@@ -32,6 +31,14 @@ ServerEvents.recipes(event => {
 
     //General Mana Infusion Function
     recipes.forEach(recipe => {
-        event.recipes.botania.mana_infusion(recipe.output, recipe.inputs, recipe.mana, recipe.catalyst).id("botania:mana_infusion/" + recipe.id)
+        let json = {
+            type: 'botania:mana_infusion',
+            input: parseIngredient(recipe.input),
+            output: { item: recipe.output },
+            mana: recipe.mana,
+        }
+        if (recipe.catalyst) { json.catalyst = { type: "block", block: recipe.catalyst }}
+        if (recipe.count) { json.output.count = recipe.count }
+        event.custom(json).id(`botania:mana_infusion/${recipe.output.split(":")[1]}`)
     })
 })

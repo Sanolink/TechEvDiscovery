@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -22,34 +22,65 @@ ServerEvents.recipes(event => {
     //Recipes
     let recipes = [
         {
-            output: 'appbot:mana_cell_housing',
-            inputs: ['3x botania:manasteel_ingot', '3x botania:life_essence', '2x ae2:quartz_glass'],
+            id: "mana_cell_housing",
+            output: parseIngredient('appbot:mana_cell_housing'),
+            inputs: [
+                IEChanceOrCountIngredient('botania:manasteel_ingot', 3),
+                IEChanceOrCountIngredient('botania:life_essence', 3),
+                IEChanceOrCountIngredient('ae2:quartz_glass', 2)
+            ],
             blueprint: "appliedComponents"
         },
         {
-            output: 'ae2:fluid_cell_housing',
-            inputs: ['3x minecraft:copper_ingot', '3x ae2:silicon', '2x ae2:quartz_glass'],
+            id: "fluid_cell_housing",
+            output: parseIngredient('ae2:fluid_cell_housing'),
+            inputs: [
+                IEChanceOrCountIngredient('minecraft:copper_ingot', 3),
+                IEChanceOrCountIngredient('ae2:silicon', 3),
+                IEChanceOrCountIngredient('ae2:quartz_glass', 2)
+            ],
             blueprint: "appliedComponents"
         },
         {
-            output: 'arseng:source_cell_housing',
-            inputs: ['3x minecraft:gold_ingot', '3x ars_nouveau:source_gem', '2x ae2:quartz_glass'],
+            id: "source_cell_housing",
+            output: parseIngredient('arseng:source_cell_housing'),
+            inputs: [
+                IEChanceOrCountIngredient('minecraft:gold_ingot', 3),
+                IEChanceOrCountIngredient('ars_nouveau:source_gem', 3),
+                IEChanceOrCountIngredient('ae2:quartz_glass', 2)
+            ],
             blueprint: "appliedComponents"
         },
         {
-            output: 'ae2:item_cell_housing',
-            inputs: ['3x minecraft:iron_ingot', '3x ae2:silicon', '2x ae2:quartz_glass'],
+            id: "item_cell_housing",
+            output: parseIngredient('ae2:item_cell_housing'),
+            inputs: [
+                IEChanceOrCountIngredient('minecraft:iron_ingot', 3),
+                IEChanceOrCountIngredient('ae2:silicon', 3),
+                IEChanceOrCountIngredient('ae2:quartz_glass', 2)
+            ],
             blueprint: "appliedComponents"
         },
         {
-            output: 'ae2things:disk_housing',
-            inputs: ['3x minecraft:netherite_ingot', 'forbidden_arcanus:dark_nether_star', '2x ae2:quartz_glass'],
+            id: "disk_housing",
+            output: parseIngredient('ae2things:disk_housing'),
+            inputs: [
+                IEChanceOrCountIngredient('minecraft:netherite_ingot', 3),
+                parseIngredient('forbidden_arcanus:dark_nether_star'),
+                IEChanceOrCountIngredient('ae2:quartz_glass', 2)
+            ],
             blueprint: "appliedComponents"
         }
     ]
 
-    //General Blueprint Function
-    recipes.forEach((recipe) => {
-        event.recipes.immersiveengineering.blueprint(recipe.output, recipe.inputs, recipe.blueprint)
+   //General Blueprint Function
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'immersiveengineering:blueprint',
+            inputs: recipe.inputs,
+            result: recipe.output,
+            category: recipe.blueprint
+        }
+        event.custom(json).id(`immersiveengineering:blueprint/${recipe.id}`)
     })
 })

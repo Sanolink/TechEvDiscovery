@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.6         (_____)
+(_____)         Last Modification : 1.3.7         (_____)
 
 */
 
@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
             id: "liquid_soul",
             catalyst: laserLens.white,
             entity: "forbidden_arcanus:lost_soul",
-            output: Fluid.of("forbidden_arcanus:liquid_soul", 20),
+            output: IndustrialFluidWithCount("forbidden_arcanus:liquid_soul", 200),
             rarity: [
                 {
                     blacklist: {},
@@ -39,8 +39,16 @@ ServerEvents.recipes(event => {
         }
     ]
 
-    //General Laser Drill Ore Function
-    recipes.forEach((recipe) => {
-        event.recipes.industrialforegoing.laser_drill_fluid(recipe.output, recipe.catalyst, recipe.rarity, recipe.entity).id(`industrialforegoing:laser_drill_ore/${recipe.id}`)
-    })
+    //General Laser Drill Fluid Function
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'industrialforegoing:laser_drill_fluid',
+            catalyst: parseIngredient(recipe.catalyst),
+            entity: recipe.entity || "minecraft:empty",
+            output: recipe.output,
+            pointer: 0,
+            rarity: recipe.rarity,
+        }
+        event.custom(json).id(`industrialforegoing:laser_drill_fluid/${recipe.id}`)
+    })   
 })

@@ -23,15 +23,21 @@ ServerEvents.recipes(event => {
     let recipes = [
         //Splashing Pewter Blend
         {
-        id: "pewter_blend",
-        input: "eidolon:pewter_blend",
-        output: [Item.of("#forge:nuggets/pewter", 9), Item.of("#forge:nuggets/pewter", 4).withChance(0.55)]
+            id: "pewter_blend",
+            input: [parseIngredient("eidolon:pewter_blend")],
+            output: [
+                ChanceOrCountItem(TagToItem("#forge:nuggets/pewter"), 9),
+                ChanceAndCountItem(TagToItem("#forge:nuggets/pewter"), 0.55, 4)
+            ]
         },
         //Splashing Raw Andesite Alloy
         {
             id: "raw_andesite_alloy",
-            input: "create:raw_andesite_alloy",
-            output: ["create:andesite_alloy", Item.of("create:andesite_alloy", 1).withChance(0.5)]
+            input: [parseIngredient("create:raw_andesite_alloy")],
+            output: [
+                parseIngredient("create:andesite_alloy"),
+                ChanceOrCountItem("create:andesite_alloy", 0.5)
+            ]
         }
     ]
 
@@ -57,18 +63,30 @@ ServerEvents.recipes(event => {
     //Splashing Crushed Raw 
     crushed.forEach(material => {
         if (material.sec != undefined) {recipes.push({
-                    id: "crushed_raw_" + material.mat,
-                    input: "create:crushed_raw_" + material.mat,
-                    output: [Item.of("#forge:nuggets/" + material.mat, 9), Item.of("#forge:nuggets/" + material.mat, 4).withChance(0.5), Item.of(material.sec).withChance(0.5)]
+                    id: `crushed_raw_${material.mat}`,
+                    input: [parseIngredient(`create:crushed_raw_${material.mat}`)],
+                    output: [
+                        ChanceOrCountItem(TagToItem(`#forge:nuggets/${material.mat}`), 9),
+                        ChanceAndCountItem(TagToItem(`#forge:nuggets/${material.mat}`), 0.5, 4),
+                        parseChanceOrCountIngredient(TagToItem(material.sec), 0.5)
+                    ]
                 })} else {recipes.push({
-                    id: "crushed_raw_" + material.mat,
-                    input: "create:crushed_raw_" + material.mat,
-                    output: [Item.of("#forge:nuggets/" + material.mat, 9), Item.of("#forge:nuggets/" + material.mat, 4).withChance(0.5)]
+                    id: `crushed_raw_${material.mat}`,
+                    input: [parseIngredient(`create:crushed_raw_${material.mat}`)],
+                    output: [
+                        ChanceOrCountItem(TagToItem(`#forge:nuggets/${material.mat}`), 9),
+                        ChanceAndCountItem(TagToItem(`#forge:nuggets/${material.mat}`), 0.5, 4)
+                    ]
                 })}
     })
 
-    //General Splashing Function
+   //General Splashing Function
     recipes.forEach(recipe => {
-        event.recipes.create.splashing(recipe.output, recipe.input).id("create:splashing/" + recipe.id)
+        let json = {
+            type: 'create:splashing',
+            ingredients: recipe.input,
+            results: recipe.output
+        }
+        event.custom(json).id(`create:splashing/${recipe.id}`)
     })
 })

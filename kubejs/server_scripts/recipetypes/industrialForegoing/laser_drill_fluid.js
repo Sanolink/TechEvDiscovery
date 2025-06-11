@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
             id: "liquid_soul",
             catalyst: laserLens.white,
             entity: "forbidden_arcanus:lost_soul",
-            output: IndustrialFluidWithCount("forbidden_arcanus:liquid_soul", 20),
+            output: IndustrialFluidWithCount("forbidden_arcanus:liquid_soul", 200),
             rarity: [
                 {
                     blacklist: {},

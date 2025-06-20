@@ -22,14 +22,14 @@
 		{
 			id: "2685FB594BACC59C"
 			linked_quest: "273F4EE658C5BEFD"
-			x: 0.0d
-			y: 2.5d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			id: "128B902F1062A7AA"
 			linked_quest: "174335DFD4E91CD6"
-			x: 0.5d
-			y: 1.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			id: "3087BFF9E674ADA5"
@@ -120,7 +120,7 @@
 				type: "item"
 			}]
 			title: "&lRaw Andesite Alloy"
-			x: 1.5d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -165,6 +165,20 @@
 			title: "&a&lShock Therapy"
 			x: 0.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["74C9143F2AE3BB45"]
+			icon: "spirit:soul_cage"
+			id: "0D10208846ADA66C"
+			shape: "gear"
+			tasks: [{
+				id: "5B3DF155AE586B9D"
+				title: "Farmer's Life"
+				type: "checkmark"
+			}]
+			title: "&lSpirit"
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["&lFirst Discovery"]

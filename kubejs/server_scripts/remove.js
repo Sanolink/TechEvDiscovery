@@ -205,6 +205,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })
     event.remove({ id: 'minecraft:bread' })
     event.remove({ id: 'minecraft:cookie' })
+    event.remove({ id: 'minecraft:decorations/decorated_pot_simple' })
 
     //Mystical Agriculture + Addons
     event.remove({ id: 'mysticalagradditions:nether_prosperity_shard_smelted'})

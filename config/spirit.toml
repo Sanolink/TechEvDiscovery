@@ -1,7 +1,7 @@
 
 ["Spirit Options"]
 	#Set this to true if you want mobs that spawn from a soul cage to be collectable in a soul crystal.
-	collectFromSoulless = false
+	collectFromSoulless = true
 	#This is the range that the soul pedestal will attract mobs from to insert into it.
 	#Range: 1 ~ 6
 	soulPedestalRange = 3

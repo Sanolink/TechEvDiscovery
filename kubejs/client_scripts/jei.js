@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.3.8         (_____)
 
 */
 
@@ -247,7 +247,8 @@ JEIEvents.hideItems(event => {
         'thermal:creosote_bucket',
         'pneumaticcraft:wheat_flour',
         'create:dough',
-        'immersiveengineering:slag'
+        'immersiveengineering:slag',
+        'minecraft:decorated_pot'
     ])
 })
 

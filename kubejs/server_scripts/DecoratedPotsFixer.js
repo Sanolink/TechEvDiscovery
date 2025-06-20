@@ -28,3 +28,20 @@ MoreJSEvents.structureLoad(event => {
         });
     });
 });
+
+BlockEvents.leftClicked('minecraft:decorated_pot', event => {
+    event.player.tell(Text.red('This block currently has a bug, please do not use it!'))
+    event.cancel()
+    event.block.set('minecraft:air')
+})
+
+BlockEvents.rightClicked('minecraft:decorated_pot', event => {
+    event.player.tell(Text.red('This block currently has a bug, please do not use it!'))
+    event.cancel()
+    event.block.set('minecraft:air')
+})
+
+BlockEvents.broken('minecraft:decorated_pot', event => {
+    event.cancel()
+    event.block.set('minecraft:air')
+})

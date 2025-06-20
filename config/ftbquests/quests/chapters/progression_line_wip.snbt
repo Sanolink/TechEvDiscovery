@@ -156,8 +156,8 @@
 				type: "checkmark"
 			}]
 			title: "&lExploring World"
-			x: 3.0d
-			y: 1.5d
+			x: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -737,6 +737,30 @@
 			title: "&lCompact Addons"
 			x: 19.5d
 			y: -2.25d
+		}
+		{
+			dependencies: [
+				"74C9143F2AE3BB45"
+				"106208AEC912D9E1"
+			]
+			icon: "spirit:soul_crystal"
+			id: "4AD507B94280F97E"
+			rewards: [{
+				id: "3F39A702307FA38C"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Spirit\"."
+			tasks: [{
+				id: "405CFFC361C71804"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "&lSpirit"
+			x: 3.0d
+			y: 1.5d
 		}
 	]
 	title: " &l♠ &r&lAchievements"

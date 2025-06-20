@@ -2440,13 +2440,14 @@
 			id: "706E0405E8582FBF"
 			rewards: [{
 				id: "6B6F4619C9DF262A"
-				item: "spirit:soul_crystal"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
 			tasks: [{
 				id: "09F5BDC8C5DEE608"
-				item: "spirit:soul_cage"
+				item: "spirit:broken_spawner"
 				type: "item"
 			}]
 			title: "&l&3Spirit"

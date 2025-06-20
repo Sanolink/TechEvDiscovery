@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "le_rspirit"
+	group: "6E6EAE103F859B8D"
+	icon: "spirit:soul_cage"
+	id: "3F96FB1CD2F92AFE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "spirit:item/soul_steel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "spirit:item/soul_steel_sword"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/soul_fire_1"
+			order: 1
+			rotation: 10.0d
+			width: 1.0d
+			x: -2.8591836734693743d
+			y: -0.8292517006802598d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/soul_sand"
+			rotation: 10.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/glowstone_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.202380952380949d
+			y: -0.8428571428571416d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "spirit:item/soul_powder"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.672619047619044d
+			y: -0.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/spirit/title_spirit.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.2564935064935066d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "chipped:block/soul_lantern/iron_bowl_soul_lantern"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.1785714285714235d
+			y: 2.434523809523803d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecraft:item/soul_lantern"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D1BBEB24EC55C1D"]
+			description: [
+				"Creating a single &b&lSoul Steel Ingot&r will require you to make &a&l4 Soul Powder Blocks&r."
+				""
+				"&eIn the future, you will have the opportunity to automate this with &lForbidden and Arcanus&r&e."
+			]
+			id: "47DE2074627881BB"
+			rewards: [{
+				count: 2
+				id: "6FE80BCC24053ED2"
+				item: "spirit:soul_steel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "02B8C919A4E11032"
+				item: "spirit:soul_steel_ingot"
+				type: "item"
+			}]
+			title: "&b&lSoul Steel"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D10208846ADA66C"]
+			description: ["Throw some &a&lGlowstone Dust&r onto a &3&lSoul Fire&r, and it will turn it into &b&lSoul Powder&r."]
+			id: "6D1BBEB24EC55C1D"
+			rewards: [{
+				count: 2
+				id: "2FBA0A5E83528FE5"
+				item: "spirit:soul_powder"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4EF73E25759BB8EA"
+				item: "spirit:soul_powder"
+				type: "item"
+			}]
+			title: "&b&lSoul Powder"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47DE2074627881BB"]
+			description: [
+				"When a &a&lBroken Spawner&r is added to the &3&lSoul Fire&r, it will be turned into the &b&lSoul Cage&r."
+				""
+				"The &b&lSoul Cage&r is basically an upgraded spawner and spawns more mobs depending on the tier."
+				""
+				"There are many tiers to the &b&lSoul Cage&r, and the tier is determined by the number of &3&lSouls&r stored within a &a&lSoul Crystal&r."
+			]
+			id: "3D43CB3AFC5D3830"
+			rewards: [{
+				count: 2
+				id: "708AA3043F9897F3"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4060E50A78C10499"
+				item: "spirit:soul_cage"
+				type: "item"
+			}]
+			title: "&b&lSoul Cage"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"47DE2074627881BB"
+				"53B47D3C4BBB310A"
+			]
+			description: ["The &b&lSoul Pedestal&r is used to transmute souls into different forms."]
+			id: "7D4D8ED8962FC7EF"
+			rewards: [{
+				count: 2
+				id: "0CBBB765BDB23A4C"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2E76A387A0C38B2B"
+				item: "spirit:soul_pedestal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47DE2074627881BB"]
+			description: [
+				"One interesting feature about Soul Steel equipment is that &d&lthey can be empowered&r, depending on the &3&lSouls&r stored in your Soul Crystal."
+				""
+				"When enabled, your equipment will have a special ability, depending on which mob souls are stored within your Soul Crystal."
+				""
+				"Items can inflict effects like &nPoison, Slow Falling, Blindness, or even cause Explosions&r when striking a target."
+				""
+				"Each time these effects take place, a &3&lSoul&r will be consumed from the Crystal."
+				""
+				"Other useful features exist, as items like the &6&lSoul Steel Bow don’t require Arrows as ammunition&r, as it uses stored &3&lSouls&r instead."
+				""
+				"Soul Steel Swords will also &6&lgive twice the amount of &3Souls&r when slaying a creature."
+				""
+				"These items are easily repairable too, just throw them into a &3&lSoul Fire&r for a short amount of time."
+			]
+			id: "74998237EBE129CB"
+			rewards: [{
+				count: 2
+				id: "0425C63D05115188"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5A87E046722E1F03"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B6D5DB5CB9CD725"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AF125E0DBEE21A5"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FF6C553B42B61B3"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2968A466D4066792"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79EBCAE9D2A0F451"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Soul Steel Equipment"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3DB7799974C3EB2F"
+				"5FD9B38A32D2E764"
+			]
+			description: [
+				"Create an Engulfing Structure from 4 Soul Glasses with a &3&lSoul Fire&r in the middle."
+				""
+				"To create a &b&lSoul Crystal&r, you’ll need a &a&lCrude Soul Crystal&r."
+				""
+				"The &b&lSoul Crystal&r has the ability to store and bind Souls. Useful for Soul Steel Equipment and the Soul Cage."
+			]
+			id: "106208AEC912D9E1"
+			rewards: [{
+				count: 2
+				id: "4E91112803C8EF55"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "527C420BC848B920"
+				item: "spirit:soul_crystal"
+				type: "item"
+			}]
+			title: "&b&lSoul Crystal"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D10208846ADA66C"]
+			description: ["Throw some &a&lDeepslate&r onto a &3&lSoul Fire&r, and it will turn it into &b&lSoul Slate&r."]
+			id: "53B47D3C4BBB310A"
+			rewards: [{
+				count: 2
+				id: "3ACA1F86304D7488"
+				item: "spirit:soul_slate"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1E38485187BE2507"
+				item: "spirit:soul_slate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D10208846ADA66C"]
+			description: ["Using 4 Lapis Lazuli Blocks, throw some &a&lTinted Glass&r into the &3&lSoul Fire&r, and it will be turned into &b&lSoul Glass&r."]
+			id: "3DB7799974C3EB2F"
+			rewards: [{
+				count: 2
+				id: "4483F868C7022C7F"
+				item: "spirit:soul_glass"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5181DABE29B6451B"
+				item: "spirit:soul_glass"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3DB7799974C3EB2F"
+				"47DE2074627881BB"
+			]
+			description: ["The &b&lSoul Steel Wand&r has the ability to convert soul on Soul Pedestal to Crude Soul."]
+			id: "1DD4E61D0F8731F1"
+			rewards: [{
+				id: "5B785A3A9F98958F"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "07B5142FD3B57791"
+				item: "spirit:soul_steel_wand"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0AD53C68298B4B5D"
+				"53B47D3C4BBB310A"
+			]
+			description: [
+				"Create an Engulfing Structure from 4 Soul Slates with a &3&lSoul Fire&r in the middle."
+				""
+				"To create a &b&lCrude Soul Crystal&r, you’ll need a &a&lSoul Crystal Shard&r."
+			]
+			id: "5FD9B38A32D2E764"
+			rewards: [{
+				id: "29B1EDAB4DC8BBCA"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "402C665D0EEBF64F"
+				item: "spirit:crude_soul_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D1BBEB24EC55C1D"]
+			description: [
+				"Create an Engulfing Structure from 4 Quartz Blocks with a &3&lSoul Fire&r in the middle."
+				""
+				"To create a &b&lSoul Crystal Shard&r, you’ll need a &a&lSoul Powder&r."
+			]
+			id: "0AD53C68298B4B5D"
+			rewards: [{
+				id: "5D717D3992DC26DD"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "53C036B971D8B778"
+				item: "spirit:soul_crystal_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+	]
+	subtitle: ["Soulfire Unleashed Forged Tools and Summons"]
+	title: " &l&e♦ &rSpirit"
+}

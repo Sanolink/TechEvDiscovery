@@ -19,3 +19,16 @@
 */
 
 const allItems = Ingredient.all.getItemIds()
+
+const plankExceptions = {
+    'ars_nouveau:stripped_blue_archwood_log': 'ars_nouveau:archwood_planks',
+    'ars_nouveau:stripped_blue_archwood_wood': 'ars_nouveau:archwood_planks',
+    'ars_nouveau:stripped_red_archwood_log': 'ars_nouveau:archwood_planks',
+    'ars_nouveau:stripped_red_archwood_wood': 'ars_nouveau:archwood_planks',
+    'ars_nouveau:stripped_green_archwood_log': 'ars_nouveau:archwood_planks',
+    'ars_nouveau:stripped_green_archwood_wood': 'ars_nouveau:archwood_planks',
+    'ars_nouveau:stripped_purple_archwood_log': 'ars_nouveau:archwood_planks',
+    'ars_nouveau:stripped_purple_archwood_wood': 'ars_nouveau:archwood_planks',
+    'byg:stripped_palo_verde_log': 'minecraft:birch_planks',
+    'byg:stripped_palo_verde_wood': 'minecraft:birch_planks'
+}

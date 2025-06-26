@@ -22,20 +22,24 @@ ServerEvents.recipes(event => {
     //Recipes
     let recipes = []
 
-
     allItems.forEach(id => {
         if (!Item.of(id).hasTag('minecraft:logs') || !id.includes("stripped")) {return}
-        console.log(id);
         let [modID, name] = id.split(":")
         let [beg, end] = name.split("stripped_")
         let splittedType = end.split("_")
         if (!(splittedType.length == 1)) {splittedType.pop()}
         let type = splittedType.join("_")
+        let outputPlanks = plankExceptions[id] ?? `${modID}:${type}_planks`
+        if (!Item.exists(outputPlanks)) {
+            console.log(`Missing Plank : ${outputPlanks}`);
+            console.log(`-> ID : ${id}`);
+            return
+        }
         recipes.push(
             {
                 id: `${modID}_${beg}${end}`,
                 input: parseIngredient(`${modID}:${beg}${end}`),
-                result: ChanceOrCountItem(`${modID}:${type}_planks`, 6),
+                result: ChanceOrCountItem(outputPlanks, 6),
                 secondaries: [
                     {
                         "output":
@@ -58,7 +62,7 @@ ServerEvents.recipes(event => {
             {
                 id: `${modID}_${name}`,
                 input: parseIngredient(id),
-                result: ChanceOrCountItem(`${modID}:${type}_planks`, 6),
+                result: ChanceOrCountItem(outputPlanks, 6),
                 secondaries: [
                     {
                         "output":

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.8         (_____)
+(_____)         Last Modification : 1.3.9         (_____)
 
 */
 
@@ -170,6 +170,24 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:refinery/acetaldehyde'})
     event.remove({ id: 'immersiveengineering:blueprint/graphite_electrode'})
     event.remove({ id: 'immersiveengineering:smelting/slag_glass'})
+    event.remove({ id: 'immersiveengineering:sawmill/acacia_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/birch_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/crimson_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/dark_oak_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/jungle_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/mangrove_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/oak_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/spruce_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/warped_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/stripped_acacia_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/stripped_birch_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/stripped_crimson_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/stripped_dark_oak_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/stripped_jungle_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/stripped_mangrove_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/stripped_oak_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/stripped_spruce_log'})
+    event.remove({ id: 'immersiveengineering:sawmill/stripped_warped_log'})
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:plates" })
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:dusts" })
     event.remove({ input: 'immersiveengineering:wirecutter', output: '#forge:wires', type: 'minecraft:crafting_shapeless' })

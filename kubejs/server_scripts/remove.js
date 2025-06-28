@@ -228,6 +228,14 @@ ServerEvents.recipes(event => {
     //Mystical Agriculture + Addons
     event.remove({ id: 'mysticalagradditions:nether_prosperity_shard_smelted'})
     event.remove({ id: 'mysticalagradditions:end_prosperity_shard_smelted'})
+    event.remove({ id: 'mysticalagradditions:end_inferium_smelted'})
+    event.remove({ id: 'mysticalagradditions:nether_inferium_smelted'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/rubber'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/mithril'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/graphite'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/tungsten'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/titanium'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/chrome'})
 
     //Naturalist
     event.remove({ id: 'naturalist:cooked_egg_from_campfire_cooking' })
@@ -254,6 +262,7 @@ ServerEvents.recipes(event => {
     
     //Productive Bees
     event.remove({ id: 'productivebees:create/obsidian_dust_to_obsidian'})
+    event.remove({ id: 'productivebees:create/mixing/ingots/honeycomb_soulsteel'})
 
     //Psi 
     event.remove({ id: 'psi:gold_to_psimetal_assembly_upgrade'})

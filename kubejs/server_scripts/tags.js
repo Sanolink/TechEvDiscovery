@@ -261,7 +261,13 @@ ServerEvents.tags('item', e => {
         'mekanism:dust_sulfur',
         'mysticalagradditions:end_prosperity_ore',
         'mysticalagradditions:nether_prosperity_ore',
-        'ad_astra:mercury_iron_ore'
+        'ad_astra:mercury_iron_ore',
+        'mysticalagriculture:rubber_seeds',
+        'mysticalagriculture:mithril_seeds',
+        'mysticalagriculture:graphite_seeds',
+        'mysticalagriculture:tungsten_seeds',
+        'mysticalagriculture:titanium_seeds',
+        'mysticalagriculture:chrome_seeds'
     ].forEach(item => {e.removeAllTagsFrom(item)})
 
     /**********************ADD****************************/

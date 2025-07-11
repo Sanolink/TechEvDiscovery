@@ -295,6 +295,11 @@ JEIEvents.hideFluids(event => {
     ])
 })
 
+JEIEvents.addFluids(event => {
+    event.add([
+        "create:tea"
+    ])
+})
 JEIEvents.removeCategories(event => {
 
     event.remove([

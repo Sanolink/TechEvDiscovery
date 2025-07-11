@@ -1,0 +1,13 @@
+{
+    "name": "Tertium",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/tertium_flower",
+      "seeds": "mysticalagriculture:item/seeds/tertium_seeds"
+    },
+    "essence": "mysticalagriculture:tertium_essence"
+  }

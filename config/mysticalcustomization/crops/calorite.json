@@ -1,0 +1,13 @@
+{
+    "name": "Calorite",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/calorite_flower",
+      "essence": "mysticalagriculture:item/essence/calorite_essence",
+      "seeds": "mysticalagriculture:item/seeds/calorite_seeds"
+    }
+  }

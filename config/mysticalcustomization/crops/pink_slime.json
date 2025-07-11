@@ -1,0 +1,13 @@
+{
+    "name": "Pink Slime",
+    "type": "mob",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/pink_slime_flower",
+      "essence": "mysticalagriculture:item/essence/pink_slime_essence",
+      "seeds": "mysticalagriculture:item/seeds/pink_slime_seeds"
+    }
+  }

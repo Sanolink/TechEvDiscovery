@@ -1,0 +1,13 @@
+{
+    "name": "Resonant Ender",
+    "type": "resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/resonant_ender_flower",
+      "essence": "mysticalagriculture:item/essence/resonant_ender_essence",
+      "seeds": "mysticalagriculture:item/seeds/resonant_ender_seeds"
+    }
+  }

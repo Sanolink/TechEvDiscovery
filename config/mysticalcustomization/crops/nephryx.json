@@ -1,0 +1,13 @@
+{
+    "name": "Nephryx",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/nephryx_flower",
+      "essence": "mysticalagriculture:item/essence/nephryx_essence",
+      "seeds": "mysticalagriculture:item/seeds/nephryx_seeds"
+    }
+  }

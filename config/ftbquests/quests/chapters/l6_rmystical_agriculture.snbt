@@ -64,7 +64,7 @@
 			rotation: 0.0d
 			width: 6.15015015015015d
 			x: -11.0d
-			y: -8.0d
+			y: -7.5d
 		}
 		{
 			click: ""
@@ -76,6 +76,30 @@
 			rotation: 0.0d
 			width: 5.069306930693069d
 			x: -11.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "techev:textures/misc/quests/mysticalagriculture/title_mystical.png"
+			rotation: 0.0d
+			width: 11.58371040723982d
+			x: 1.5d
+			y: -19.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: [ ]
+			image: "extendedcrafting:item/singularity_overlay"
+			rotation: 0.0d
+			width: 3.5d
+			x: 12.0d
 			y: -6.0d
 		}
 	]
@@ -84,7 +108,6 @@
 	quests: [
 		{
 			dependencies: ["3529A0DB7D4269CD"]
-			hide_dependent_lines: true
 			id: "2F78F2577A0E3D55"
 			rewards: [{
 				id: "337B1C73290F39D8"
@@ -99,6 +122,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "&lTier: &e[Elemental]"
 			tasks: [{
 				id: "6040E975A530766D"
 				item: "mysticalagriculture:inferium_essence"
@@ -110,7 +134,6 @@
 		}
 		{
 			dependencies: ["7C39130F147E2134"]
-			hide_dependent_lines: true
 			id: "6508B1690933CD15"
 			rewards: [{
 				count: 8
@@ -121,6 +144,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "3310AA61D82EF546"
 				item: "mysticalagriculture:tertium_essence"
@@ -132,7 +156,6 @@
 		}
 		{
 			dependencies: ["6508B1690933CD15"]
-			hide_dependent_lines: true
 			id: "02517C7458288B0C"
 			rewards: [{
 				count: 8
@@ -143,6 +166,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "434649068ABD4B2B"
 				item: "mysticalagriculture:imperium_essence"
@@ -154,7 +178,6 @@
 		}
 		{
 			dependencies: ["02517C7458288B0C"]
-			hide_dependent_lines: true
 			id: "3730968CF8D42E5B"
 			rewards: [{
 				count: 8
@@ -165,6 +188,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "422E7DE01E8F8D35"
 				item: "mysticalagriculture:supremium_essence"
@@ -172,11 +196,10 @@
 			}]
 			title: "&l&4Supremium Essence"
 			x: -7.0d
-			y: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3730968CF8D42E5B"]
-			hide_dependent_lines: true
 			id: "1BEBDF2C609583F6"
 			rewards: [{
 				count: 8
@@ -187,6 +210,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "&lTier: &5[6]"
 			tasks: [{
 				id: "4FD1CEFEA5F21D92"
 				item: "mysticalagradditions:insanium_essence"
@@ -194,7 +218,7 @@
 			}]
 			title: "&l&5Insanium Essence"
 			x: -7.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -217,14 +241,15 @@
 				}
 			]
 			shape: "square"
+			size: 1.5d
 			subtitle: "&lTier: &e[Elemental]"
 			tasks: [{
 				id: "56F2CCF5F874117D"
-				item: "mysticalagriculture:air_seeds"
+				item: "mysticalagriculture:air_essence"
 				type: "item"
 			}]
 			title: "&l&eAir"
-			x: -3.5d
+			x: -3.0d
 			y: -17.0d
 		}
 		{
@@ -248,14 +273,15 @@
 				}
 			]
 			shape: "square"
+			size: 1.5d
 			subtitle: "&lTier: &e[Elemental]"
 			tasks: [{
 				id: "7062314DB08E5DE6"
-				item: "mysticalagriculture:earth_seeds"
+				item: "mysticalagriculture:earth_essence"
 				type: "item"
 			}]
 			title: "&l&aEarth"
-			x: -2.5d
+			x: 0.0d
 			y: -17.0d
 		}
 		{
@@ -279,14 +305,15 @@
 				}
 			]
 			shape: "square"
+			size: 1.5d
 			subtitle: "&lTier: &e[Elemental]"
 			tasks: [{
 				id: "11694AA719802270"
-				item: "mysticalagriculture:water_seeds"
+				item: "mysticalagriculture:water_essence"
 				type: "item"
 			}]
 			title: "&l&9Water"
-			x: -1.5d
+			x: 3.0d
 			y: -17.0d
 		}
 		{
@@ -310,49 +337,23 @@
 				}
 			]
 			shape: "square"
+			size: 1.5d
 			subtitle: "&lTier: &e[Elemental]"
 			tasks: [{
 				id: "10BA6D6402FB3071"
-				item: "mysticalagriculture:fire_seeds"
+				item: "mysticalagriculture:fire_essence"
 				type: "item"
 			}]
 			title: "&l&4Fire"
-			x: -0.5d
-			y: -17.0d
-		}
-		{
-			dependencies: ["2F78F2577A0E3D55"]
-			id: "51FB7F494A4A1DEE"
-			rewards: [
-				{
-					count: 16
-					id: "21A1C286D389DE79"
-					item: "mysticalagriculture:inferium_essence"
-					random_bonus: 16
-					type: "item"
-				}
-				{
-					id: "4E91DCC3753DA706"
-					item: "coinsje:iron_coin"
-					type: "item"
-				}
-			]
-			shape: "square"
-			subtitle: "&lTier: &e[1]"
-			tasks: [{
-				id: "250D97F6342013A5"
-				item: "mysticalagriculture:inferium_seeds"
-				type: "item"
-			}]
-			title: "&l&aInferium"
-			x: -5.0d
+			x: 6.0d
 			y: -17.0d
 		}
 		{
 			dependencies: [
-				"2F78F2577A0E3D55"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "121EF95AA4A36748"
 			rewards: [
 				{
@@ -369,21 +370,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &e[1]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "47EF62A6BC623B5B"
-				item: "mysticalagriculture:stone_seeds"
+				item: "mysticalagriculture:stone_essence"
 				type: "item"
 			}]
 			title: "&l&7Stone"
-			x: 4.0d
-			y: -17.0d
+			x: 10.5d
+			y: -18.5d
 		}
 		{
 			dependencies: [
-				"2F78F2577A0E3D55"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "668E936E392F7E49"
 			rewards: [
 				{
@@ -400,21 +402,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &e[1]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "6D2FFCA735441C48"
-				item: "mysticalagriculture:dirt_seeds"
+				item: "mysticalagriculture:dirt_essence"
 				type: "item"
 			}]
 			title: "&lDirt"
-			x: 3.0d
-			y: -17.0d
+			x: 9.5d
+			y: -19.0d
 		}
 		{
 			dependencies: [
-				"2F78F2577A0E3D55"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "220DC4FF60C3C6CA"
 			rewards: [
 				{
@@ -431,21 +434,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &e[1]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "30EAA6B535157658"
-				item: "mysticalagriculture:wood_seeds"
+				item: "mysticalagriculture:wood_essence"
 				type: "item"
 			}]
 			title: "&lWood"
-			x: 2.0d
-			y: -17.0d
+			x: 11.5d
+			y: -18.5d
 		}
 		{
 			dependencies: [
-				"2F78F2577A0E3D55"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "599800AE786C23F2"
 			rewards: [
 				{
@@ -462,21 +466,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &e[1]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "3D139FAF51AE7B47"
-				item: "mysticalagriculture:ice_seeds"
+				item: "mysticalagriculture:ice_essence"
 				type: "item"
 			}]
 			title: "&l&bIce"
-			x: 1.0d
-			y: -17.0d
+			x: 13.5d
+			y: -17.5d
 		}
 		{
 			dependencies: [
-				"2F78F2577A0E3D55"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "1D09C0E6A30DEE7F"
 			rewards: [
 				{
@@ -493,21 +498,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &e[1]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "69E40C24A11E0F2A"
-				item: "mysticalagriculture:deepslate_seeds"
+				item: "mysticalagriculture:deepslate_essence"
 				type: "item"
 			}]
 			title: "&l&7Deepslate"
-			x: 5.0d
-			y: -17.0d
+			x: 12.5d
+			y: -19.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "2734939DC05F2ED1"
 			rewards: [
 				{
@@ -524,21 +530,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "6026766FAAEC9F0D"
-				item: "mysticalagriculture:nature_seeds"
+				item: "mysticalagriculture:nature_essence"
 				type: "item"
 			}]
 			title: "&l&2Nature"
-			x: -5.0d
-			y: -14.5d
+			x: 10.5d
+			y: -17.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "36D5DA5B444F7959"
 			rewards: [
 				{
@@ -555,21 +562,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "1C5DC6AD7773003D"
-				item: "mysticalagriculture:dye_seeds"
+				item: "mysticalagriculture:dye_essence"
 				type: "item"
 			}]
 			title: "&lDye"
-			x: -4.0d
-			y: -14.5d
+			x: 12.5d
+			y: -18.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "4B7DE7A831B097AE"
 			rewards: [
 				{
@@ -586,20 +594,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "3FD3008E218F870E"
-				item: "mysticalagriculture:nether_seeds"
+				item: "mysticalagriculture:nether_essence"
 				type: "item"
 			}]
 			title: "&l&4Nether"
-			x: -4.0d
-			y: -15.5d
+			x: 11.5d
+			y: -17.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "048C72B7BC201048"
 			rewards: [
@@ -617,21 +625,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: &a[2]"
 			tasks: [{
 				id: "7AAA8EEBF4ADB520"
-				item: "mysticalagriculture:coal_seeds"
+				item: "mysticalagriculture:coal_essence"
 				type: "item"
 			}]
 			title: "&l&7Coal"
-			x: -5.0d
-			y: -15.5d
+			x: 4.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "29CC5C6359750DFD"
 			rewards: [
 				{
@@ -648,15 +657,15 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "1FE1514642194786"
-				item: "mysticalagriculture:coral_seeds"
+				item: "mysticalagriculture:coral_essence"
 				type: "item"
 			}]
 			title: "&lCoral"
-			x: -3.0d
-			y: -14.5d
+			x: 9.5d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -679,20 +688,21 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			size: 1.5d
+			subtitle: "&lTier: &a[2]"
 			tasks: [{
 				id: "33E8263D5D10C98B"
-				item: "mysticalagriculture:honey_seeds"
+				item: "mysticalagriculture:honey_essence"
 				type: "item"
 			}]
 			title: "&l&6Honey"
-			x: -2.0d
-			y: -14.5d
+			x: -4.5d
+			y: -15.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "17B34B0418E67D94"
 			rewards: [
@@ -710,20 +720,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "69C5077766F27C38"
-				item: "mysticalagriculture:amethyst_seeds"
+				item: "mysticalagriculture:amethyst_essence"
 				type: "item"
 			}]
 			title: "&l&5Amethyst"
-			x: -3.0d
-			y: -15.5d
+			x: 5.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"2BFAB59269327DC3"
+				"7C39130F147E2134"
 			]
 			id: "4B10793E4A89A4C0"
 			rewards: [
@@ -741,20 +751,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2] &e[Soulium]"
+			subtitle: "&lTier: &a[2] &e[Soulium]"
 			tasks: [{
 				id: "5F8180E48471D767"
-				item: "mysticalagriculture:pig_seeds"
+				item: "mysticalagriculture:pig_essence"
 				type: "item"
 			}]
 			title: "&l&dPig"
-			x: 3.5d
-			y: -15.5d
+			x: 9.5d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"2BFAB59269327DC3"
+				"7C39130F147E2134"
 			]
 			id: "2B9612C3E26B011F"
 			rewards: [
@@ -772,20 +782,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2] &e[Soulium]"
+			subtitle: "&lTier: &a[2] &e[Soulium]"
 			tasks: [{
 				id: "1031D2C4568AFC57"
-				item: "mysticalagriculture:chicken_seeds"
+				item: "mysticalagriculture:chicken_essence"
 				type: "item"
 			}]
 			title: "&lChicken"
-			x: 4.5d
+			x: 9.5d
 			y: -15.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"2BFAB59269327DC3"
+				"7C39130F147E2134"
 			]
 			id: "4EC58361AD3F9552"
 			rewards: [
@@ -803,20 +813,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2] &e[Soulium]"
+			subtitle: "&lTier: &a[2] &e[Soulium]"
 			tasks: [{
 				id: "64ED37049AEAE9D4"
-				item: "mysticalagriculture:cow_seeds"
+				item: "mysticalagriculture:cow_essence"
 				type: "item"
 			}]
 			title: "&lCow"
-			x: 4.5d
-			y: -14.5d
+			x: 8.5d
+			y: -15.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"2BFAB59269327DC3"
+				"7C39130F147E2134"
 			]
 			id: "5B995A6607A5C331"
 			rewards: [
@@ -834,20 +844,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2] &e[Soulium]"
+			subtitle: "&lTier: &a[2] &e[Soulium]"
 			tasks: [{
 				id: "5624B7EB1A0DAAF3"
-				item: "mysticalagriculture:sheep_seeds"
+				item: "mysticalagriculture:sheep_essence"
 				type: "item"
 			}]
 			title: "&lSheep"
-			x: 5.5d
+			x: 7.5d
 			y: -15.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"2BFAB59269327DC3"
+				"6508B1690933CD15"
 			]
 			id: "7B62BD2A81C4C544"
 			rewards: [
@@ -865,20 +875,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2] &e[Soulium]"
+			subtitle: "&lTier: &6[3] &e[Soulium]"
 			tasks: [{
 				id: "15DCDBA128DF9F31"
-				item: "mysticalagriculture:squid_seeds"
+				item: "mysticalagriculture:squid_essence"
 				type: "item"
 			}]
 			title: "&l&9Squid"
-			x: 3.5d
-			y: -14.5d
+			x: 8.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"2BFAB59269327DC3"
+				"6508B1690933CD15"
 			]
 			id: "6053DC9844C230AF"
 			rewards: [
@@ -896,20 +906,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2] &e[Soulium]"
+			subtitle: "&lTier: &6[3] &e[Soulium]"
 			tasks: [{
 				id: "3FAAC613D71513F6"
-				item: "mysticalagriculture:fish_seeds"
+				item: "mysticalagriculture:fish_essence"
 				type: "item"
 			}]
 			title: "&lFish"
-			x: 2.5d
-			y: -15.5d
+			x: 9.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"2BFAB59269327DC3"
+				"6508B1690933CD15"
 			]
 			id: "419FBE54DA60E7FF"
 			rewards: [
@@ -927,20 +937,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2] &e[Soulium]"
+			subtitle: "&lTier: &6[3] &e[Soulium]"
 			tasks: [{
 				id: "520D932DE7A0431F"
-				item: "mysticalagriculture:slime_seeds"
+				item: "mysticalagriculture:slime_essence"
 				type: "item"
 			}]
 			title: "&l&aSlime"
-			x: 5.5d
-			y: -14.5d
+			x: 9.5d
+			y: -12.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"2BFAB59269327DC3"
+				"6508B1690933CD15"
 			]
 			id: "3BCF90540EBF2CAF"
 			rewards: [
@@ -958,20 +968,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2] &e[Soulium]"
+			subtitle: "&lTier: &6[3] &e[Soulium]"
 			tasks: [{
 				id: "1EE2964F2B971E5E"
-				item: "mysticalagriculture:turtle_seeds"
+				item: "mysticalagriculture:turtle_essence"
 				type: "item"
 			}]
 			title: "&l&aTurtle"
-			x: 2.5d
-			y: -14.5d
+			x: 7.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "4A2FA9E6E1D967DE"
 			rewards: [
@@ -989,20 +999,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "0A43ED60E4EE93EA"
-				item: "mysticalagriculture:silicon_seeds"
+				item: "mysticalagriculture:silicon_essence"
 				type: "item"
 			}]
 			title: "&lSilicon"
-			x: 0.0d
-			y: -14.5d
+			x: 3.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "14BF62333FC670BE"
 			rewards: [
@@ -1020,20 +1030,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: &a[2]"
 			tasks: [{
 				id: "6DD34334ED69265C"
-				item: "mysticalagriculture:sulfur_seeds"
+				item: "mysticalagriculture:sulfur_essence"
 				type: "item"
 			}]
 			title: "&l&eSulfur"
-			x: 1.0d
+			x: 5.0d
 			y: -14.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "59371EF8875E6602"
 			rewards: [
@@ -1051,20 +1061,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: &a[2]"
 			tasks: [{
 				id: "6EDF77D3BBC8214B"
-				item: "mysticalagriculture:aluminum_seeds"
+				item: "mysticalagriculture:aluminum_essence"
 				type: "item"
 			}]
 			title: "&lAluminum"
-			x: 1.0d
-			y: -15.5d
+			x: -1.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "651C88C290AFC9DD"
 			rewards: [
@@ -1082,20 +1092,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: &a[2]"
 			tasks: [{
 				id: "776A4C849BF50226"
-				item: "mysticalagriculture:saltpeter_seeds"
+				item: "mysticalagriculture:saltpeter_essence"
 				type: "item"
 			}]
-			title: "&lSaltpeper"
-			x: -1.0d
+			title: "&lSaltpeter"
+			x: 6.0d
 			y: -15.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "716216898E470424"
 			rewards: [
@@ -1113,21 +1123,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "71324C0D5A10B9AE"
-				item: "mysticalagriculture:apatite_seeds"
+				item: "mysticalagriculture:apatite_essence"
 				type: "item"
 			}]
 			title: "&l&bApatite"
-			x: -2.0d
-			y: -15.5d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "1DA6928B143CCF6B"
 			rewards: [
 				{
@@ -1144,21 +1155,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "415433ABF2DB7D31"
-				item: "mysticalagriculture:mystical_flower_seeds"
+				item: "mysticalagriculture:mystical_flower_essence"
 				type: "item"
 			}]
 			title: "&lMystical Flower"
-			x: -1.0d
-			y: -14.5d
+			x: 13.5d
+			y: -18.5d
 		}
 		{
 			dependencies: [
-				"7C39130F147E2134"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "0E2D46AD78A75090"
 			rewards: [
 				{
@@ -1175,20 +1187,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &2[2]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "365C8DB9077B6D61"
-				item: "mysticalagriculture:limestone_seeds"
+				item: "mysticalagriculture:limestone_essence"
 				type: "item"
 			}]
 			title: "&lLimestone"
-			x: 0.0d
-			y: -15.5d
+			x: 11.0d
+			y: -19.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "7DF239FCCE2AB088"
 			rewards: [
@@ -1209,17 +1221,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "4DE8CD8ED5874407"
-				item: "mysticalagriculture:iron_seeds"
+				item: "mysticalagriculture:iron_essence"
 				type: "item"
 			}]
 			title: "&l&7Iron"
-			x: -5.0d
-			y: -13.0d
+			x: 0.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "3B57F896637D395E"
 			rewards: [
@@ -1240,17 +1252,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "7A45BDB94FC1270E"
-				item: "mysticalagriculture:copper_seeds"
+				item: "mysticalagriculture:copper_essence"
 				type: "item"
 			}]
 			title: "&l&6Copper"
-			x: -5.0d
-			y: -12.0d
+			x: 1.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "464A50128BC49840"
 			rewards: [
@@ -1271,17 +1283,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "7F447402E88FA2FE"
-				item: "mysticalagriculture:nether_quartz_seeds"
+				item: "mysticalagriculture:nether_quartz_essence"
 				type: "item"
 			}]
 			title: "&lNether Quartz"
-			x: -4.0d
-			y: -13.0d
+			x: 6.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "25C4E0960977AA77"
 			rewards: [
@@ -1302,17 +1314,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "537EDD1328B38371"
-				item: "mysticalagriculture:glowstone_seeds"
+				item: "mysticalagriculture:glowstone_essence"
 				type: "item"
 			}]
 			title: "&l&6Glowstone"
-			x: -4.0d
-			y: -12.0d
+			x: 6.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "2395DC8B52A0D933"
 			rewards: [
@@ -1333,17 +1345,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "42A41608FA60F669"
-				item: "mysticalagriculture:redstone_seeds"
+				item: "mysticalagriculture:redstone_essence"
 				type: "item"
 			}]
 			title: "&l&4Redstone"
-			x: -3.0d
-			y: -13.0d
+			x: 5.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "4ABD8B8419EA7937"
 			rewards: [
@@ -1364,17 +1376,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "1E976E88BB84E2A9"
-				item: "mysticalagriculture:obsidian_seeds"
+				item: "mysticalagriculture:obsidian_essence"
 				type: "item"
 			}]
 			title: "&l&7Obsidian"
-			x: -3.0d
-			y: -12.0d
+			x: 4.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "7F259ED66581F944"
 			rewards: [
@@ -1395,17 +1407,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "35053004506C8353"
-				item: "mysticalagriculture:prismarine_seeds"
+				item: "mysticalagriculture:prismarine_essence"
 				type: "item"
 			}]
 			title: "&l&3Prismarine"
-			x: -2.0d
-			y: -13.0d
+			x: 3.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"2BFAB59269327DC3"
+				"6508B1690933CD15"
 			]
 			id: "2803B3EF90F80B47"
 			rewards: [
@@ -1426,17 +1438,17 @@
 			subtitle: "&lTier: &6[3] &e[Soulium]"
 			tasks: [{
 				id: "53045081BEDD60D6"
-				item: "mysticalagriculture:zombie_seeds"
+				item: "mysticalagriculture:zombie_essence"
 				type: "item"
 			}]
 			title: "&l&2Zombie"
-			x: 5.5d
-			y: -13.0d
+			x: 7.5d
+			y: -12.0d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"2BFAB59269327DC3"
+				"6508B1690933CD15"
 			]
 			id: "3A94207E23FAB441"
 			rewards: [
@@ -1457,17 +1469,17 @@
 			subtitle: "&lTier: &6[3] &e[Soulium]"
 			tasks: [{
 				id: "676D3F406F41E19A"
-				item: "mysticalagriculture:skeleton_seeds"
+				item: "mysticalagriculture:skeleton_essence"
 				type: "item"
 			}]
 			title: "&lSkeleton"
-			x: 5.5d
+			x: 8.5d
 			y: -12.0d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"2BFAB59269327DC3"
+				"02517C7458288B0C"
 			]
 			id: "5B0FE4409128EEFA"
 			rewards: [
@@ -1485,20 +1497,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &6[3] &e[Soulium]"
+			subtitle: "&lTier: &b[4] &e[Soulium]"
 			tasks: [{
 				id: "034532066524A192"
-				item: "mysticalagriculture:creeper_seeds"
+				item: "mysticalagriculture:creeper_essence"
 				type: "item"
 			}]
 			title: "&l&aCreeper"
-			x: 4.5d
-			y: -13.0d
+			x: 7.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"2BFAB59269327DC3"
+				"02517C7458288B0C"
 			]
 			id: "27925CAC550E4D65"
 			rewards: [
@@ -1516,20 +1528,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &6[3] &e[Soulium]"
+			subtitle: "&lTier: &b[4] &e[Soulium]"
 			tasks: [{
 				id: "786EA9C76479FF1E"
-				item: "mysticalagriculture:spider_seeds"
+				item: "mysticalagriculture:spider_essence"
 				type: "item"
 			}]
 			title: "&l&7Spider"
-			x: 4.5d
-			y: -12.0d
+			x: 7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"2BFAB59269327DC3"
+				"7C39130F147E2134"
 			]
 			id: "2E2EE9C0A7B03B2F"
 			rewards: [
@@ -1550,17 +1562,17 @@
 			subtitle: "&lTier: &6[3] &e[Soulium]"
 			tasks: [{
 				id: "39B1091B2E040724"
-				item: "mysticalagriculture:rabbit_seeds"
+				item: "mysticalagriculture:rabbit_essence"
 				type: "item"
 			}]
 			title: "&lRabbit"
 			x: 7.5d
-			y: -12.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "4AD1D7A39FF990D6"
 			rewards: [
@@ -1581,17 +1593,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "6908A9CF4E1DE8A4"
-				item: "mysticalagriculture:tin_seeds"
+				item: "mysticalagriculture:tin_essence"
 				type: "item"
 			}]
 			title: "&l&3Tin"
-			x: 1.0d
-			y: -13.0d
+			x: -2.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "5B0F3D75618F2706"
 			rewards: [
@@ -1609,20 +1621,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &6[3]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "2BDB089BB09A9799"
-				item: "mysticalagriculture:bronze_seeds"
+				item: "mysticalagriculture:bronze_essence"
 				type: "item"
 			}]
 			title: "&l&6Bronze"
-			x: 1.0d
-			y: -12.0d
+			x: -3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "39B5D9BA52757ADB"
 			rewards: [
@@ -1643,17 +1655,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "6527ECEFFD5F6BE1"
-				item: "mysticalagriculture:zinc_seeds"
+				item: "mysticalagriculture:zinc_essence"
 				type: "item"
 			}]
 			title: "&l&7Zinc"
 			x: 2.0d
-			y: -13.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "3DB9602359736CCB"
 			rewards: [
@@ -1671,20 +1683,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &6[3]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "5F2188579C22EE0F"
-				item: "mysticalagriculture:brass_seeds"
+				item: "mysticalagriculture:brass_essence"
 				type: "item"
 			}]
 			title: "&l&6Brass"
-			x: 2.0d
-			y: -12.0d
+			x: -1.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "50D7E58D132CCCD3"
 			rewards: [
@@ -1705,17 +1717,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "1AA31A719F180AFA"
-				item: "mysticalagriculture:silver_seeds"
+				item: "mysticalagriculture:silver_essence"
 				type: "item"
 			}]
 			title: "&lSilver"
-			x: 3.0d
-			y: -13.0d
+			x: -2.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "4F7D53E13322B049"
 			rewards: [
@@ -1736,17 +1748,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "2F3489DE618F6760"
-				item: "mysticalagriculture:lead_seeds"
+				item: "mysticalagriculture:lead_essence"
 				type: "item"
 			}]
 			title: "&l&9Lead"
-			x: 3.0d
-			y: -12.0d
+			x: 2.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"2BFAB59269327DC3"
+				"3730968CF8D42E5B"
 			]
 			id: "0A1C4FFAE9C46BA6"
 			rewards: [
@@ -1764,20 +1776,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &6[3] &e[Soulium]"
+			subtitle: "&lTier: &c[5] &e[Soulium]"
 			tasks: [{
 				id: "59C82ECE79BFD3F1"
-				item: "mysticalagriculture:blizz_seeds"
+				item: "mysticalagriculture:blizz_essence"
 				type: "item"
 			}]
 			title: "&l&bBlizz"
-			x: 6.5d
-			y: -12.0d
+			x: 7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"2BFAB59269327DC3"
+				"3730968CF8D42E5B"
 			]
 			id: "39FB2F86B79304DD"
 			rewards: [
@@ -1795,20 +1807,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &6[3] &e[Soulium]"
+			subtitle: "&lTier: &c[5] &e[Soulium]"
 			tasks: [{
 				id: "24D7AF6A4B90594E"
-				item: "mysticalagriculture:blitz_seeds"
+				item: "mysticalagriculture:blitz_essence"
 				type: "item"
 			}]
 			title: "&lBlitz"
-			x: 7.5d
-			y: -13.0d
+			x: 9.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"2BFAB59269327DC3"
+				"3730968CF8D42E5B"
 			]
 			id: "3EFADC7DA9B4A744"
 			rewards: [
@@ -1826,20 +1838,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &6[3] &e[Soulium]"
+			subtitle: "&lTier: &c[5] &e[Soulium]"
 			tasks: [{
 				id: "5C65E7C2FE56F51C"
-				item: "mysticalagriculture:basalz_seeds"
+				item: "mysticalagriculture:basalz_essence"
 				type: "item"
 			}]
 			title: "&l&7Basalz"
-			x: 6.5d
-			y: -13.0d
+			x: 7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "4555F03C80CB5351"
 			rewards: [
@@ -1857,20 +1869,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &6[3]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "24A88A096140C06D"
-				item: "mysticalagriculture:manasteel_seeds"
+				item: "mysticalagriculture:manasteel_essence"
 				type: "item"
 			}]
 			title: "&l&9Manasteel"
-			x: -1.0d
-			y: -13.0d
+			x: 3.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "0FD1F9E4EDEB2C95"
 			rewards: [
@@ -1891,17 +1903,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "6F4C60FDD736A06A"
-				item: "mysticalagriculture:steeleaf_seeds"
+				item: "mysticalagriculture:steeleaf_essence"
 				type: "item"
 			}]
 			title: "&l&aSteeleaf"
-			x: -1.0d
+			x: 2.0d
 			y: -12.0d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "7A608CA15DE74455"
 			rewards: [
@@ -1922,18 +1934,19 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "05481FC17C6B740D"
-				item: "mysticalagriculture:ironwood_seeds"
+				item: "mysticalagriculture:ironwood_essence"
 				type: "item"
 			}]
 			title: "&l&7Ironwood"
-			x: 0.0d
-			y: -13.0d
+			x: -3.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "4B5D0A6E479450E5"
 			rewards: [
 				{
@@ -1950,20 +1963,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &6[3]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "424366E541B704C2"
-				item: "mysticalagriculture:sky_stone_seeds"
+				item: "mysticalagriculture:sky_stone_essence"
 				type: "item"
 			}]
 			title: "&l&7Sky Stone"
-			x: 0.0d
-			y: -12.0d
+			x: 8.5d
+			y: -18.5d
 		}
 		{
 			dependencies: [
-				"6508B1690933CD15"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "121065465047B37D"
 			rewards: [
@@ -1984,17 +1997,17 @@
 			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "4C878A06DC6696F1"
-				item: "mysticalagriculture:certus_quartz_seeds"
+				item: "mysticalagriculture:certus_quartz_essence"
 				type: "item"
 			}]
 			title: "&lCertus Quartz"
-			x: -2.0d
-			y: -12.0d
+			x: 2.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "3414483E8762B274"
 			rewards: [
@@ -2012,20 +2025,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "18EEB15D90509A27"
-				item: "mysticalagriculture:gold_seeds"
+				item: "mysticalagriculture:gold_essence"
 				type: "item"
 			}]
 			title: "&l&6Gold"
-			x: -5.0d
-			y: -10.5d
+			x: 1.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "14234A553B65CAA0"
 			rewards: [
@@ -2043,21 +2056,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "1D5B8FD9331FC944"
-				item: "mysticalagriculture:lapis_lazuli_seeds"
+				item: "mysticalagriculture:lapis_lazuli_essence"
 				type: "item"
 			}]
 			title: "&l&9Lapis Lazuli"
-			x: -5.0d
-			y: -9.5d
+			x: 3.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"2F78F2577A0E3D55"
 			]
+			hide_dependency_lines: true
 			id: "52CE1F61FE9FE216"
 			rewards: [
 				{
@@ -2074,20 +2088,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: [Optional]"
 			tasks: [{
 				id: "4E19D6CD5AFC8979"
-				item: "mysticalagriculture:end_seeds"
+				item: "mysticalagriculture:end_essence"
 				type: "item"
 			}]
 			title: "&lEnd"
-			x: -4.0d
-			y: -10.5d
+			x: 8.5d
+			y: -17.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "16DF85344E984EE0"
 			rewards: [
@@ -2105,20 +2119,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "28893E2665E76516"
-				item: "mysticalagriculture:experience_seeds"
+				item: "mysticalagriculture:experience_essence"
 				type: "item"
 			}]
 			title: "&l&aExperience"
-			x: -4.0d
-			y: -9.5d
+			x: 3.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"2BFAB59269327DC3"
+				"3730968CF8D42E5B"
 			]
 			id: "7B91192E674FCF3D"
 			rewards: [
@@ -2136,20 +2150,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4] &e[Soulium]"
+			subtitle: "&lTier: &c[5] &e[Soulium]"
 			tasks: [{
 				id: "60DAC1D8D4CDF76E"
-				item: "mysticalagriculture:blaze_seeds"
+				item: "mysticalagriculture:blaze_essence"
 				type: "item"
 			}]
 			title: "&l&6Blaze"
-			x: 8.5d
-			y: -9.5d
+			x: 9.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"2BFAB59269327DC3"
+				"02517C7458288B0C"
 			]
 			id: "1B4FCACCA088AF1F"
 			rewards: [
@@ -2167,20 +2181,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4] &e[Soulium]"
+			subtitle: "&lTier: &b[4] &e[Soulium]"
 			tasks: [{
 				id: "0BBAD72143807BA4"
-				item: "mysticalagriculture:ghast_seeds"
+				item: "mysticalagriculture:ghast_essence"
 				type: "item"
 			}]
 			title: "&lGhast"
-			x: 9.5d
-			y: -10.0d
+			x: 8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"2BFAB59269327DC3"
+				"02517C7458288B0C"
 			]
 			id: "315F5922062EAF9C"
 			rewards: [
@@ -2198,20 +2212,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4] &e[Soulium]"
+			subtitle: "&lTier: &b[4] &e[Soulium]"
 			tasks: [{
 				id: "705D20958DBCA0A1"
-				item: "mysticalagriculture:enderman_seeds"
+				item: "mysticalagriculture:enderman_essence"
 				type: "item"
 			}]
-			title: "&l&7Enderman"
+			title: "&l&9Enderman"
 			x: 8.5d
 			y: -10.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "33CEA2E2DF761354"
 			rewards: [
@@ -2229,20 +2243,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "33DE1EED2C23C657"
-				item: "mysticalagriculture:steel_seeds"
+				item: "mysticalagriculture:steel_essence"
 				type: "item"
 			}]
 			title: "&l&7Steel"
-			x: -2.0d
+			x: 2.0d
 			y: -9.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "57072C75B02ABAE5"
 			rewards: [
@@ -2260,20 +2274,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "5AE9DEB083E41C29"
-				item: "mysticalagriculture:nickel_seeds"
+				item: "mysticalagriculture:nickel_essence"
 				type: "item"
 			}]
 			title: "&lNickel"
-			x: -1.0d
-			y: -10.5d
+			x: -3.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "351F578812F60E79"
 			rewards: [
@@ -2291,20 +2305,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "3FECF249077FD2EA"
-				item: "mysticalagriculture:constantan_seeds"
+				item: "mysticalagriculture:constantan_essence"
 				type: "item"
 			}]
 			title: "&l&6Constantan"
-			x: -1.0d
+			x: -2.0d
 			y: -9.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "3DBCFCDDF07EF560"
 			rewards: [
@@ -2322,10 +2336,10 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "5E1474CA4DD72F7C"
-				item: "mysticalagriculture:electrum_seeds"
+				item: "mysticalagriculture:electrum_essence"
 				type: "item"
 			}]
 			title: "&l&eElectrum"
@@ -2334,8 +2348,8 @@
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "6A8309A353D0CEEA"
 			rewards: [
@@ -2353,20 +2367,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "53F1D4A14A962AF0"
-				item: "mysticalagriculture:invar_seeds"
+				item: "mysticalagriculture:invar_essence"
 				type: "item"
 			}]
 			title: "&l&3Invar"
-			x: 0.0d
-			y: -9.5d
+			x: 2.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "13069BB4E448E55C"
 			rewards: [
@@ -2384,20 +2398,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "7F6958B5550E7824"
-				item: "mysticalagriculture:uranium_seeds"
+				item: "mysticalagriculture:uranium_essence"
 				type: "item"
 			}]
 			title: "&l&2Uranium"
-			x: 1.0d
-			y: -10.5d
+			x: -1.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "0677E168915297C2"
 			rewards: [
@@ -2415,20 +2429,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "182DBB3D77F1169C"
-				item: "mysticalagriculture:ruby_seeds"
+				item: "mysticalagriculture:ruby_essence"
 				type: "item"
 			}]
 			title: "&l&cRuby"
 			x: 1.0d
-			y: -9.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "49630846144BEC0F"
 			rewards: [
@@ -2446,20 +2460,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "62956FEC8AB0D447"
-				item: "mysticalagriculture:sapphire_seeds"
+				item: "mysticalagriculture:sapphire_essence"
 				type: "item"
 			}]
 			title: "&l&9Sapphire"
-			x: 2.0d
-			y: -10.5d
+			x: 4.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "1C1FC1FEBEFA697A"
 			rewards: [
@@ -2477,20 +2491,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "7213114ED4B3F92B"
-				item: "mysticalagriculture:signalum_seeds"
+				item: "mysticalagriculture:signalum_essence"
 				type: "item"
 			}]
 			title: "&l&cSignalum"
-			x: 2.0d
-			y: -9.5d
+			x: -3.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "66BFEBCDB029547B"
 			rewards: [
@@ -2508,20 +2522,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "6FAEC4E5C2777FAA"
-				item: "mysticalagriculture:lumium_seeds"
+				item: "mysticalagriculture:lumium_essence"
 				type: "item"
 			}]
 			title: "&l&eLumium"
-			x: 3.0d
+			x: -1.0d
 			y: -10.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "19836B51878C628F"
 			rewards: [
@@ -2539,20 +2553,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "5537F0891F50A922"
-				item: "mysticalagriculture:hop_graphite_seeds"
+				item: "mysticalagriculture:hop_graphite_essence"
 				type: "item"
 			}]
 			title: "&l&7HOP Graphite"
-			x: 3.0d
-			y: -9.5d
+			x: -1.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "7E29A6B330903994"
 			rewards: [
@@ -2570,20 +2584,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "370333E1E5C69635"
-				item: "mysticalagriculture:elementium_seeds"
+				item: "mysticalagriculture:elementium_essence"
 				type: "item"
 			}]
 			title: "&l&dElementium"
-			x: 4.0d
-			y: -10.5d
+			x: -2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "3C1FDB08A7E31056"
 			rewards: [
@@ -2601,20 +2615,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "00F97DA59BAA49A9"
-				item: "mysticalagriculture:osmium_seeds"
+				item: "mysticalagriculture:osmium_essence"
 				type: "item"
 			}]
 			title: "&l&3Osmium"
-			x: 4.0d
-			y: -9.5d
+			x: 0.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "26D3F4FE328E4469"
 			rewards: [
@@ -2632,20 +2646,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "3D5CFFD0C39A60FE"
-				item: "mysticalagriculture:fluorite_seeds"
+				item: "mysticalagriculture:fluorite_essence"
 				type: "item"
 			}]
 			title: "&lFluorite"
-			x: 5.0d
+			x: 6.0d
 			y: -10.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "27C9CFB0D1B2F938"
 			rewards: [
@@ -2663,20 +2677,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "0DE8A6A119D7E3AE"
-				item: "mysticalagriculture:refined_glowstone_seeds"
+				item: "mysticalagriculture:refined_glowstone_essence"
 				type: "item"
 			}]
 			title: "&l&eRefined Glowstone"
-			x: 5.0d
-			y: -9.5d
+			x: 1.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "778AFDDC9489145E"
 			rewards: [
@@ -2694,20 +2708,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "166E7E11D8C824CF"
-				item: "mysticalagriculture:refined_obsidian_seeds"
+				item: "mysticalagriculture:refined_obsidian_essence"
 				type: "item"
 			}]
 			title: "&l&5Refined Obsidian"
-			x: 6.0d
-			y: -10.5d
+			x: 3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "50987EC5EB9ED4CC"
 			rewards: [
@@ -2725,20 +2739,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "77B9D671D564C664"
-				item: "mysticalagriculture:knightmetal_seeds"
+				item: "mysticalagriculture:knightmetal_essence"
 				type: "item"
 			}]
 			title: "&l&aKnightmetal"
-			x: 6.0d
-			y: -9.5d
+			x: -3.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"6508B1690933CD15"
 			]
 			id: "7C801422095F35AA"
 			rewards: [
@@ -2756,20 +2770,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &6[3]"
 			tasks: [{
 				id: "7CFADC14E56D90B6"
-				item: "mysticalagriculture:fiery_ingot_seeds"
+				item: "mysticalagriculture:fiery_ingot_essence"
 				type: "item"
 			}]
 			title: "&l&6Fiery Ingot"
-			x: 7.0d
-			y: -10.5d
+			x: -2.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "38F8E977BBAD1A5A"
 			rewards: [
@@ -2787,20 +2801,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "3DACB61FE08B9359"
-				item: "mysticalagriculture:compressed_iron_seeds"
+				item: "mysticalagriculture:compressed_iron_essence"
 				type: "item"
 			}]
 			title: "&l&7Compressed Steel"
-			x: 7.0d
+			x: 1.0d
 			y: -9.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "1B41F93B56BE9826"
 			rewards: [
@@ -2818,20 +2832,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "53529A0CBDE0A93A"
-				item: "mysticalagriculture:fluix_seeds"
+				item: "mysticalagriculture:fluix_essence"
 				type: "item"
 			}]
 			title: "&l&5Fluix"
-			x: -3.0d
-			y: -10.5d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "3DCF635CD2B830AF"
 			rewards: [
@@ -2849,20 +2863,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "5784F4AE5A2B8760"
-				item: "mysticalagriculture:energized_steel_seeds"
+				item: "mysticalagriculture:energized_steel_essence"
 				type: "item"
 			}]
 			title: "&lEnergized Steel"
-			x: -3.0d
+			x: 0.0d
 			y: -9.5d
 		}
 		{
 			dependencies: [
-				"02517C7458288B0C"
 				"155F79F30E753F8C"
+				"02517C7458288B0C"
 			]
 			id: "4158FEA1BF01CBB4"
 			rewards: [
@@ -2880,20 +2894,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &9[4]"
+			subtitle: "&lTier: &b[4]"
 			tasks: [{
 				id: "0DB99F70349182D3"
-				item: "mysticalagriculture:blazing_crystal_seeds"
+				item: "mysticalagriculture:blazing_crystal_essence"
 				type: "item"
 			}]
 			title: "&l&6Blazing Crystal"
-			x: -2.0d
-			y: -10.5d
+			x: 6.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "311F31D697B265D2"
 			rewards: [
@@ -2911,20 +2925,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "3903A5E44A6A41DB"
-				item: "mysticalagriculture:diamond_seeds"
+				item: "mysticalagriculture:diamond_essence"
 				type: "item"
 			}]
 			title: "&l&bDiamond"
-			x: -4.0d
+			x: 3.0d
 			y: -8.0d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "1AE2035542462B4B"
 			rewards: [
@@ -2942,20 +2956,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "46CB5F7AE778CC6D"
-				item: "mysticalagriculture:emerald_seeds"
+				item: "mysticalagriculture:emerald_essence"
 				type: "item"
 			}]
 			title: "&l&2Emerald"
-			x: -5.0d
-			y: -8.0d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "354CC46A8A0224D6"
 			rewards: [
@@ -2973,20 +2987,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "7FB81E6E993F501E"
-				item: "mysticalagriculture:netherite_seeds"
+				item: "mysticalagriculture:netherite_essence"
 				type: "item"
 			}]
 			title: "&l&7Netherite"
-			x: -2.0d
+			x: -3.0d
 			y: -8.0d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"2BFAB59269327DC3"
+				"02517C7458288B0C"
 			]
 			id: "6EC240EFE7B39664"
 			rewards: [
@@ -3004,20 +3018,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5] &e[Soulium]"
+			subtitle: "&lTier: &b[4] &e[Soulium]"
 			tasks: [{
 				id: "2670F2541822D616"
-				item: "mysticalagriculture:wither_skeleton_seeds"
+				item: "mysticalagriculture:wither_skeleton_essence"
 				type: "item"
 			}]
 			title: "&l&7Wither Skeleton"
-			x: 5.5d
-			y: -8.0d
+			x: 9.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"7C39130F147E2134"
 			]
 			id: "5F0FD04005462CBC"
 			rewards: [
@@ -3035,20 +3049,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "495E3FFC7F547141"
-				item: "mysticalagriculture:platinum_seeds"
+				item: "mysticalagriculture:platinum_essence"
 				type: "item"
 			}]
 			title: "&l&bPlatinum"
-			x: 0.0d
-			y: -8.0d
+			x: -3.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "5EBF6D1190C080DC"
 			rewards: [
@@ -3066,20 +3080,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "1ED21DBA7D86A163"
-				item: "mysticalagriculture:iridium_seeds"
+				item: "mysticalagriculture:iridium_essence"
 				type: "item"
 			}]
 			title: "&lIridium"
-			x: -1.0d
+			x: -2.0d
 			y: -8.0d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "06045D5F35FD3983"
 			rewards: [
@@ -3097,20 +3111,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "35186693C7F9BE70"
-				item: "mysticalagriculture:enderium_seeds"
+				item: "mysticalagriculture:enderium_essence"
 				type: "item"
 			}]
 			title: "&l&9Enderium"
-			x: 2.0d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "0C8D5625205413DA"
 			rewards: [
@@ -3128,20 +3142,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "4A7D6ED0654D47CF"
-				item: "mysticalagriculture:terrasteel_seeds"
+				item: "mysticalagriculture:terrasteel_essence"
 				type: "item"
 			}]
 			title: "&l&aTerrasteel"
-			x: 1.0d
-			y: -8.0d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "5415559BD379BE8A"
 			rewards: [
@@ -3159,10 +3173,10 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "29F5241A68A26429"
-				item: "mysticalagriculture:niotic_crystal_seeds"
+				item: "mysticalagriculture:niotic_crystal_essence"
 				type: "item"
 			}]
 			title: "&l&bNiotic Crystal"
@@ -3171,8 +3185,8 @@
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "646947BA405CE77C"
 			rewards: [
@@ -3190,20 +3204,20 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "37D00295FFA3A73D"
-				item: "mysticalagriculture:spirited_crystal_seeds"
+				item: "mysticalagriculture:spirited_crystal_essence"
 				type: "item"
 			}]
 			title: "&l&aSpirited Crystal"
-			x: 3.0d
-			y: -8.0d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
-				"3730968CF8D42E5B"
 				"155F79F30E753F8C"
+				"3730968CF8D42E5B"
 			]
 			id: "4E645C9905477246"
 			rewards: [
@@ -3221,15 +3235,15 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&lTier: &4[5]"
+			subtitle: "&lTier: &c[5]"
 			tasks: [{
 				id: "54E59D725F4CDCCF"
-				item: "mysticalagriculture:uraninite_seeds"
+				item: "mysticalagriculture:uraninite_essence"
 				type: "item"
 			}]
 			title: "&l&aUraninite"
-			x: -3.0d
-			y: -8.0d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -3252,15 +3266,16 @@
 				}
 			]
 			shape: "square"
+			size: 1.5d
 			subtitle: "&lTier: &5[6]"
 			tasks: [{
 				id: "53BD1F274016BD98"
-				item: "mysticalagriculture:nether_star_seeds"
+				item: "mysticalagriculture:nether_star_essence"
 				type: "item"
 			}]
 			title: "&lNether Star"
-			x: -5.0d
-			y: -6.0d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -3283,15 +3298,16 @@
 				}
 			]
 			shape: "square"
+			size: 1.5d
 			subtitle: "&lTier: &5[6]"
 			tasks: [{
 				id: "6F8709FDDAF47F7D"
-				item: "mysticalagriculture:dragon_egg_seeds"
+				item: "mysticalagriculture:dragon_egg_essence"
 				type: "item"
 			}]
 			title: "&l&7Dragon Egg"
-			x: -4.0d
-			y: -6.0d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -3314,15 +3330,16 @@
 				}
 			]
 			shape: "square"
+			size: 1.5d
 			subtitle: "&lTier: &5[6]"
 			tasks: [{
 				id: "53D3FCD4C39DB504"
-				item: "mysticalagriculture:gaia_spirit_seeds"
+				item: "mysticalagriculture:gaia_spirit_essence"
 				type: "item"
 			}]
 			title: "&l&dGaia Spirit"
-			x: -3.0d
-			y: -6.0d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -3345,18 +3362,20 @@
 				}
 			]
 			shape: "square"
+			size: 1.5d
 			subtitle: "&lTier: &5[6]"
 			tasks: [{
 				id: "606C802225523003"
-				item: "mysticalagriculture:nitro_crystal_seeds"
+				item: "mysticalagriculture:nitro_crystal_essence"
 				type: "item"
 			}]
 			title: "&l&cNitro Crystal"
-			x: -2.0d
-			y: -6.0d
+			x: 6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
+			hide_dependency_lines: true
 			id: "2BA54579C22574DB"
 			rewards: [{
 				count: 8
@@ -3412,11 +3431,12 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -6.5d
+			x: 13.5d
+			y: -14.25d
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
+			hide_dependency_lines: true
 			id: "59C4310D3BB81C5E"
 			rewards: [{
 				count: 8
@@ -3438,8 +3458,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: 12.5d
+			y: -14.25d
 		}
 		{
 			dependencies: ["2BA54579C22574DB"]
@@ -3498,8 +3518,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -6.5d
+			x: 13.5d
+			y: -13.25d
 		}
 		{
 			dependencies: ["59C4310D3BB81C5E"]
@@ -3524,8 +3544,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.5d
+			x: 12.5d
+			y: -13.25d
 		}
 		{
 			dependencies: ["31457DAD7DA01316"]
@@ -3584,8 +3604,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -6.5d
+			x: 13.5d
+			y: -12.25d
 		}
 		{
 			dependencies: ["315681F6CECDD1A8"]
@@ -3610,8 +3630,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.5d
+			x: 12.5d
+			y: -12.25d
 		}
 		{
 			dependencies: ["21D676362C3CDA5D"]
@@ -3670,8 +3690,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -6.5d
+			x: 13.5d
+			y: -11.25d
 		}
 		{
 			dependencies: ["4EC83F9D70DD1AA7"]
@@ -3696,8 +3716,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 12.5d
+			y: -11.25d
 		}
 		{
 			dependencies: ["628B9F4C6B335830"]
@@ -3756,8 +3776,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -6.5d
+			x: 13.5d
+			y: -10.25d
 		}
 		{
 			dependencies: ["530C154EE1EEF410"]
@@ -3782,8 +3802,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.5d
+			x: 12.5d
+			y: -10.25d
 		}
 		{
 			dependencies: ["4F4E45D26E3F42E3"]
@@ -3808,8 +3828,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.5d
+			x: 12.5d
+			y: -8.25d
 		}
 		{
 			dependencies: ["46142C0F1F2EE85B"]
@@ -3868,8 +3888,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -6.5d
+			x: 13.5d
+			y: -8.25d
 		}
 		{
 			dependencies: ["0265545F88CD61C8"]
@@ -3894,8 +3914,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.5d
+			x: 12.5d
+			y: -9.25d
 		}
 		{
 			dependencies: ["5E62C90AD297C4CD"]
@@ -3954,12 +3974,11 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -6.5d
+			x: 13.5d
+			y: -9.25d
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
-			hide_dependent_lines: true
 			id: "7C39130F147E2134"
 			rewards: [{
 				count: 8
@@ -3970,6 +3989,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "&lTier: &a[2]"
 			tasks: [{
 				id: "5303B64F6EE3A42E"
 				item: "mysticalagriculture:prudentium_essence"
@@ -4053,6 +4073,7 @@
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
+			hide_dependency_lines: true
 			id: "44F1561B95D09870"
 			rewards: [{
 				count: 2
@@ -4068,8 +4089,8 @@
 				item: "mysticalagriculture:tinkering_table"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -6.0d
+			x: 13.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["155F79F30E753F8C"]
@@ -4089,11 +4110,12 @@
 				item: "mysticalagriculture:soulium_seed_base"
 				type: "item"
 			}]
-			x: 0.75d
-			y: -18.75d
+			x: 11.0d
+			y: -11.25d
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
+			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "155F79F30E753F8C"
 			rewards: [{
@@ -4110,8 +4132,8 @@
 				item: "mysticalagriculture:prosperity_seed_base"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -18.75d
+			x: -4.5d
+			y: -11.25d
 		}
 		{
 			dependencies: [
@@ -4221,14 +4243,756 @@
 			hide_dependency_lines: true
 			id: "3DC73E5443307ED5"
 			shape: "octagon"
-			size: 3.0d
+			size: 2.5d
+			subtitle: "&lTier: &f[&1U&3l&2t&ai&em&6a&4t&5e&f]"
 			tasks: [{
 				id: "5097A2A69AA26FDC"
-				item: "mysticalagradditions:creative_essence"
+				item: "mysticalagriculture:ultimate_essence"
 				type: "item"
 			}]
-			x: 7.937556154537283d
-			y: -16.422619047619044d
+			title: "&l&fUltimate Essence"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3730968CF8D42E5B"
+				"155F79F30E753F8C"
+			]
+			hide_dependent_lines: true
+			icon: "mysticalagriculture:awakened_supremium_essence"
+			id: "7D9EB17FD5739007"
+			rewards: [{
+				count: 8
+				id: "692B61AE27E13E20"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "4FD26CC62E2ECB06"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			title: "&l&4Awakened Supremium Essence"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"2BFAB59269327DC3"
+			]
+			id: "4F6BC3D18EA49A0B"
+			rewards: [
+				{
+					count: 16
+					id: "0BED1D65FC4663CC"
+					item: "mysticalagriculture:echo_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "22B8D5D1A3FEBC24"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5] &e[Soulium]"
+			tasks: [{
+				id: "3083CC670C7BD27F"
+				item: "mysticalagriculture:echo_essence"
+				type: "item"
+			}]
+			title: "&l&9Echo"
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"155F79F30E753F8C"
+				"6508B1690933CD15"
+			]
+			id: "67700B1CD0058479"
+			rewards: [
+				{
+					count: 16
+					id: "0F2ADF2D58180BD8"
+					item: "mysticalagriculture:source_gem_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "73E3433DD22B2BB7"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "6F6AFFA872C85F40"
+				item: "mysticalagriculture:source_gem_essence"
+				type: "item"
+			}]
+			title: "&l&5Arcane"
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"155F79F30E753F8C"
+				"6508B1690933CD15"
+			]
+			id: "7FC12BD1F444E3CC"
+			rewards: [
+				{
+					count: 16
+					id: "2E7EC2907C0B8B68"
+					item: "mysticalagriculture:soul_steel_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6123054A29525C53"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "3DAFCFCDB8676D55"
+				item: "mysticalagriculture:soul_steel_essence"
+				type: "item"
+			}]
+			title: "&l&bSpirit"
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"02517C7458288B0C"
+				"155F79F30E753F8C"
+			]
+			id: "0DBE42B4F7F747D6"
+			rewards: [
+				{
+					count: 16
+					id: "61DDE4508A4C07AC"
+					item: "mysticalagriculture:ostrum_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "64F527D441536E3B"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "6C24A7B46BD803EE"
+				item: "mysticalagriculture:ostrum_essence"
+				type: "item"
+			}]
+			title: "&lOstrum"
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"155F79F30E753F8C"
+			]
+			id: "19F3C30DA730B7C6"
+			rewards: [
+				{
+					count: 16
+					id: "4FC41A850DC213CC"
+					item: "mysticalagriculture:dragonsteel_ice_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "156516FE5A71A606"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "6A08CFEFA3B78F82"
+				item: "mysticalagriculture:dragonsteel_ice_essence"
+				type: "item"
+			}]
+			title: "&l&bIce Dragonsteel"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"155F79F30E753F8C"
+			]
+			id: "145BE3ADE078242F"
+			rewards: [
+				{
+					count: 16
+					id: "114C6EFA5847BD71"
+					item: "mysticalagriculture:alfsteel_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2481376AE6154887"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "7A18FC68DC4BC4EF"
+				item: "mysticalagriculture:alfsteel_essence"
+				type: "item"
+			}]
+			title: "&l&6Alfsteel"
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"155F79F30E753F8C"
+			]
+			id: "22666E5F46348FB4"
+			rewards: [
+				{
+					count: 16
+					id: "712B4A5687E1855B"
+					item: "mysticalagriculture:dragonsteel_fire_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "303672C0D71D93BD"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "6D43780624660CAC"
+				item: "mysticalagriculture:dragonsteel_fire_essence"
+				type: "item"
+			}]
+			title: "&l&cFire Dragonsteel"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"155F79F30E753F8C"
+			]
+			id: "7FF344645B90A73F"
+			rewards: [
+				{
+					count: 16
+					id: "3C26FDE0F8FB79F0"
+					item: "mysticalagriculture:iesnium_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "668130965D7DC9B7"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "32EFFEBC4F7EE778"
+				item: "mysticalagriculture:iesnium_essence"
+				type: "item"
+			}]
+			title: "&l&3Iesnium"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"155F79F30E753F8C"
+				"6508B1690933CD15"
+			]
+			id: "1F95229F70273BCC"
+			rewards: [
+				{
+					count: 16
+					id: "7168EE73B5FA8F24"
+					item: "mysticalagriculture:peridot_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "77F5BEA48A6885CE"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "2BC95FC1C4169811"
+				item: "mysticalagriculture:peridot_essence"
+				type: "item"
+			}]
+			title: "&l&aPeridot"
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"155F79F30E753F8C"
+			]
+			id: "256A6B23A8DE7727"
+			rewards: [
+				{
+					count: 16
+					id: "0BBE92C650008507"
+					item: "mysticalagriculture:dragonsteel_lightning_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1EA09DDF061E0C17"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "508B44BB9532F843"
+				item: "mysticalagriculture:dragonsteel_lightning_essence"
+				type: "item"
+			}]
+			title: "&l&5Lightning Dragonsteel"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"02517C7458288B0C"
+				"155F79F30E753F8C"
+			]
+			id: "5B5E2983F59C88F8"
+			rewards: [
+				{
+					count: 16
+					id: "3666C1B583925915"
+					item: "mysticalagriculture:desh_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "4E5B96CB6C51F6FA"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "5334E689838166E6"
+				item: "mysticalagriculture:desh_essence"
+				type: "item"
+			}]
+			title: "&l&6Desh"
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"155F79F30E753F8C"
+			]
+			id: "09D999053AD913C4"
+			rewards: [
+				{
+					count: 16
+					id: "018454E7F50A915C"
+					item: "mysticalagriculture:calorite_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6403742527D9AC9B"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "3EA93CA7C23E04EE"
+				item: "mysticalagriculture:calorite_essence"
+				type: "item"
+			}]
+			title: "&l&cCalorite"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"02517C7458288B0C"
+				"155F79F30E753F8C"
+			]
+			id: "5AB1A886EE3154E3"
+			rewards: [
+				{
+					count: 16
+					id: "2A80898682D4AB1F"
+					item: "mysticalagriculture:destabilized_redstone_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "46E17B3005C1CD9A"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "49A8471ACF0E706F"
+				item: "mysticalagriculture:destabilized_redstone_essence"
+				type: "item"
+			}]
+			title: "&l&cDestabilized Redstone"
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"155F79F30E753F8C"
+			]
+			id: "54BA7A90F8CD3E75"
+			rewards: [
+				{
+					count: 16
+					id: "25459341E866B2AC"
+					item: "mysticalagriculture:plastic_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "0C3F61F6F72E950B"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "7D0E76C087959597"
+				item: "mysticalagriculture:plastic_essence"
+				type: "item"
+			}]
+			title: "&lPlastic"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"155F79F30E753F8C"
+			]
+			id: "58C010DE23F13DF9"
+			rewards: [
+				{
+					count: 16
+					id: "5F07584001CE4B26"
+					item: "mysticalagriculture:wasted_radioactive_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "0DFB0AE962840F8A"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "6BA62C61277C5CA7"
+				item: "mysticalagriculture:wasted_radioactive_essence"
+				type: "item"
+			}]
+			title: "&l&2Wasted Radioactive"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"155F79F30E753F8C"
+				"6508B1690933CD15"
+			]
+			id: "03A3E4CEA6768D06"
+			rewards: [
+				{
+					count: 16
+					id: "1B167EBF8B547673"
+					item: "mysticalagriculture:cinnabar_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "117514194A0EA668"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "7FD851209BA59875"
+				item: "mysticalagriculture:cinnabar_essence"
+				type: "item"
+			}]
+			title: "&l&cCinnabar"
+			x: 6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"155F79F30E753F8C"
+				"6508B1690933CD15"
+			]
+			id: "555B70801C77AC9C"
+			rewards: [
+				{
+					count: 16
+					id: "73F6778588F2BDB2"
+					item: "mysticalagriculture:chocolate_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "4DDBF9AAF959A3C6"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "38A77F0E758144EB"
+				item: "mysticalagriculture:chocolate_essence"
+				type: "item"
+			}]
+			title: "&lChoco"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"155F79F30E753F8C"
+				"6508B1690933CD15"
+			]
+			id: "40C170DF28522E65"
+			rewards: [
+				{
+					count: 16
+					id: "7A2BC056E26DCA82"
+					item: "mysticalagriculture:tea_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "127603E0CB6B0DB8"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "5EB7B99785191586"
+				item: "mysticalagriculture:tea_essence"
+				type: "item"
+			}]
+			title: "&lTea"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"02517C7458288B0C"
+				"2BFAB59269327DC3"
+			]
+			id: "228B7D23FC40C50F"
+			rewards: [
+				{
+					count: 16
+					id: "08CAB2F1E287D302"
+					item: "mysticalagriculture:pink_slime_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6235DDEBEDECFEF9"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &b[4] &e[Soulium]"
+			tasks: [{
+				id: "2F9B49EE664FAC29"
+				item: "mysticalagriculture:pink_slime_essence"
+				type: "item"
+			}]
+			title: "&l&dPink Slimy"
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"155F79F30E753F8C"
+				"6508B1690933CD15"
+			]
+			id: "1230F9D62FE9FFBB"
+			rewards: [
+				{
+					count: 16
+					id: "685A046FF6C86E7B"
+					item: "mysticalagriculture:oil_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "5028AE2BEFE430B9"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "5DD74BC9B5EEF1FB"
+				item: "mysticalagriculture:oil_essence"
+				type: "item"
+			}]
+			title: "&lOily"
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"02517C7458288B0C"
+				"155F79F30E753F8C"
+			]
+			id: "4954CE417ACC93A6"
+			rewards: [
+				{
+					count: 16
+					id: "187F411674998AD9"
+					item: "mysticalagriculture:energized_glowstone_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "522AC6E2EA1F3145"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "092A1960111F6AB6"
+				item: "mysticalagriculture:energized_glowstone_essence"
+				type: "item"
+			}]
+			title: "&l&6Energized Glowstone"
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"02517C7458288B0C"
+				"155F79F30E753F8C"
+			]
+			id: "0EE538581EAEB79D"
+			rewards: [
+				{
+					count: 16
+					id: "1721524F7AF210AE"
+					item: "mysticalagriculture:resonant_ender_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "5842F76076DEC8F9"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "21646B4E2A954C72"
+				item: "mysticalagriculture:resonant_ender_essence"
+				type: "item"
+			}]
+			title: "&lResonant Ender"
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7D9EB17FD5739007"
+				"155F79F30E753F8C"
+			]
+			id: "05B2830E69DB4092"
+			rewards: [
+				{
+					count: 16
+					id: "0A73081655A0F13A"
+					item: "mysticalagriculture:nephryx_essence"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "313B0B43556F9B07"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "5856D42673E7C65F"
+				item: "mysticalagriculture:nephryx_essence"
+				type: "item"
+			}]
+			title: "&l&aNephryx"
+			x: -1.0d
+			y: -8.0d
 		}
 	]
 	title: " &l&6♦ &rMystical Agriculture"

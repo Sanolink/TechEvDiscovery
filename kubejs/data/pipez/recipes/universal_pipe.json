@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IEF",
+    "GDG",
+    "IEF"
+  ],
+  "key": {
+    "I": {
+      "item": "pipez:item_pipe"
+    },
+    "E": {
+      "item": "pipez:energy_pipe"
+    },
+    "F": {
+      "item": "pipez:fluid_pipe"
+    },
+    "G": {
+      "item": "pipez:gas_pipe"
+    },
+    "D": {
+      "item": "ad_astra:fluid_pipe_duct"
+    }
+  },
+  "result": {
+    "item": "pipez:universal_pipe",
+    "count": 8
+  }
+}

@@ -21,89 +21,137 @@
 const combTier = {
     1: [
         "inferium",
-        "frosty"
+        
+        "aeric",
+        "aquatic",
+        "geotic",
+        "magmatic",
+        "prosperity",
+        "soulium",
     ],
     2: [
         "prudentium",
-        "coal",
-        "amethyst",
-        "slimy",
-        "silicon",
-        "sulfur",
+
         "aluminum",
+        "chicken",
+        "coal",
+        "copper",
+        "glowing",
+        "gold",
+        "iron",
+        "lapis",
+        "lead",
+        "nickel",
         "niter",
-        "apatite"
+        "obsidian",
+        "osmium",
+        "piggy",
+        "platinum",
+        "prismarine",
+        "rabbit",
+        "radioactive",
+        "redstone",
+        "sheep",
+        "silver",
+        "sulfur",
+        "tin",
+        "zinc"
     ],
     3: [
         "tertium",
-        "iron",
-        "copper",
+
+        "amethyst",
+        "apatite",
+        "arcane",
+        "chocolate",
+        "cinnabar",
         "crystalline",
-        "glowing",
-        "redstone",
-        "obsidian",
-        "prismarine",
-        "zombie",
+        "experience",
+        "fiery",
+        "fishy",
+        "hop_graphite",
+        "ironwood",
+        "knightmetal",
+        "oily",
+        "peridot",
+        "ruby",
+        "sapphire",
+        "silicon",
         "skeletal",
-        'honeycomb_powdery',
-        "silky",
-        "tin",
-        "bronze",
-        "zinc",
-        "brass",
-        "silver",
-        "lead",
-        "blizz",
-        "blitz",
-        "basalz",
-        "manasteel",
-        "spacial"
+        "slimy",
+        "spacial",
+        "spirit",
+        "squid",
+        "steeleaf",
+        "tea",
+        "turtle",
+        "zombie"
     ],
     4: [
         "imperium",
-        "gold",
-        "lapis",
-        "experience",
-        "blazing",
-        "ender",
-        "steel",
-        "nickel",
+
+        "blazing_crystal",
+        "brass",
+        "bronze",
+        "compressed_iron",
         "constantan",
+        "desh",
+        "destabilized_redstone",
         "electrum",
-        "invar",
-        "radioactive",
-        "ruby",
-        "sapphire",
-        "signalum",
-        "lumium",
-        "elementium",
-        "osmium",
+        "ender",
+        "energized_glowstone",
+        "energized_steel",
         "fluorite",
+        "invar",
+        "lumium",
+        "manasteel",
+        "ostrum",
+        "pink_slimy",
         "refined_glowstone",
         "refined_obsidian",
-        "compressed_iron",
-        "fluix",
-        "energized_steel",
-        "blazing_crystal"
+        "resonant_ender",
+        "signalum",
+        "silky",
+        "steel",
+        "withered"
     ],
     5: [
         "supremium",
+
+        "alfsteel",
+        "awakened_supremium",
+        "basalz",
+        "blazing",
+        "blitz",
+        "blizz",
+        "calorite",
         "diamond",
+        "elementium",
         "emerald",
-        "netherite",
-        "withered",
-        "platinum",
-        "iridium",
         "enderium",
-        "terrasteel",
+        "fire_dragonsteel",
+        "fluix",
+        "ice_dragonsteel",
+        "iesnium",
+        "iridium",
+        "lightning_dragonsteel",
+        "nephryx",
+        "netherite",
         "niotic_crystal",
+        "plastic",
+        "sculk",
         "spirited_crystal",
-        "uraninite"
+        "terrasteel",
+        "uraninite",
+        "wasted_radioactive"
     ], 
     6: [
         "insanium",
+
         "draconic",
-        "nitro_crystal"
+        "gaia",
+        "nitro_crystal",
+        "starry"
     ],
     getTier(mat) {
         for (let tier in this) {
@@ -115,13 +163,14 @@ const combTier = {
     },
     getColor(tier) {
         switch (parseInt(tier)) {
-            case 1: return "§e1";
+            case 1: return "§eElemental";
             case 2: return "§a2";
             case 3: return "§63";
             case 4: return "§b4";
             case 5: return "§c5";
             case 6: return "§56";
-            default: return "§7Unknown";
+            case 7: return "§1U§3l§2t§ai§em§6a§4t§5e";
+            default: return "§7Optional";
         }
     }
 };

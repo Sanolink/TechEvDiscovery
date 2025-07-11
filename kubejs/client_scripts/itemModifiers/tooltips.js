@@ -26,7 +26,8 @@ const $Palette = Java.loadClass("com.simibubi.create.foundation.item.TooltipHelp
 ItemEvents.tooltip(event => {
 
     //Honeycombs Tiers
-    event.addAdvanced('productivebees:configurable_honeycomb', (item, advanced, text) => {
+    ['productivebees:configurable_honeycomb', 'productivebees:spawn_egg_configurable_bee', 'productivebees:configurable_comb'].forEach(category => {
+    event.addAdvanced(category, (item, advanced, text) => {
         let nbt = item.nbt
         if (!nbt) return
 
@@ -37,14 +38,32 @@ ItemEvents.tooltip(event => {
         
         let tier = combTier.getTier(mat)
         if (tier) {
-            text.add(Text.of(`Tier: ${combTier.getColor(tier)}`))
+            text.add(1, Text.of(`Tier: ${combTier.getColor(tier)}`))
         } else {
-            text.add(Text.of(`Tier: §l§7Unknown`))
+            text.add(1, Text.of(`Tier: §l§7Optional`))
         }
-    })
-    event.add('productivebees:honeycomb_milky', `Tier: ${combTier.getColor(0)}`)
-    event.add('minecraft:honeycomb', `Tier: ${combTier.getColor(2)}`)
-    event.add('productivebees:honeycomb_ghostly', `Tier: ${combTier.getColor(4)}`)
+    })})
+
+    function combTierTooltip(initem, tier) {
+        event.addAdvanced(initem, (item, advanced, text) => {text.add(1, `Tier: ${combTier.getColor(tier)}`)})
+    }
+
+    combTierTooltip('productivebees:spawn_egg_rancher_bee', 2)
+    combTierTooltip('productivebees:honeycomb_milky', 2)
+    combTierTooltip('productivebees:comb_milky', 2)
+
+    combTierTooltip('minecraft:honeycomb', 2)
+    combTierTooltip('minecraft:honeycomb_block', 2)
+
+    combTierTooltip('productivebees:spawn_egg_creeper_bee', 4)
+    combTierTooltip('productivebees:honeycomb_powdery', 4)
+    combTierTooltip('productivebees:comb_powdery', 4)
+    
+    combTierTooltip('productivebees:honeycomb_ghostly', 4)
+    combTierTooltip('productivebees:comb_ghostly', 4)
+    
+    combTierTooltip('productivebees:honeycomb_ultimate', 7)
+    combTierTooltip('productivebees:comb_ultimate', 7)
 
     //Blue Skies
     event.add('blue_skies:blue_journal', "§l§fThe §bGatekeeper §fis §CDISABLED")

@@ -95,8 +95,12 @@ StartupEvents.registry('item', e => {
     BasicItem('mekaevolution:enriched_shining', "Enriched Shining")
     BasicItem('mekaevolution:enriched_spectrum', "Enriched Spectrum")
     BasicItem('mekaevolution:enriched_thermonuclear', "Enriched Thermonuclear")
+    
+    BasicItem('mysticalagriculture:ultimate_essence', "Ultimate Essence").texture("mysticalagriculture/item/essence/ultimate_essence")
 
     BasicItem('minecraft:diamond_nugget', "Diamond Nugget")
+    
+    BasicItem('productivebees:honeycomb_ultimate', "Ultimate Comb")
 
     BasicItem('thermal:ender_servo', "Ender Servo")
     BasicItem('thermal:press_rod_die', "Rodworking Die")

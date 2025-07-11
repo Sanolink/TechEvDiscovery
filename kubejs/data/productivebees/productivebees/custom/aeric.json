@@ -1,0 +1,8 @@
+{
+    "primaryColor": "#988a52",
+    "secondaryColor": "#544d2e",
+    "particleColor": "#b7ab7a",
+    "beeTexture": "productivebees:textures/entity/bee/aeric/bee",
+    "renderer": "translucent_with_center",
+    "flowerTag": "minecraft:flowers"
+}

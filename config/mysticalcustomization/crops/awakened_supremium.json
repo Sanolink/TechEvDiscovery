@@ -1,0 +1,13 @@
+{
+    "name": "Awakened Supremium",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/awakened_supremium_flower",
+      "seeds": "mysticalagriculture:item/seeds/awakened_supremium_seeds"
+    },
+    "essence": "mysticalagriculture:awakened_supremium_essence"
+  }

@@ -1,0 +1,6 @@
+{
+  "name": "Echo",
+  "souls": 10,
+  "entity": "minecraft:warden",
+  "color": "00232d"
+}

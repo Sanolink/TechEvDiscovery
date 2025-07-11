@@ -1,0 +1,13 @@
+{
+    "name": "Echo",
+    "type": "mob",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/echo_flower",
+      "essence": "mysticalagriculture:item/essence/echo_essence",
+      "seeds": "mysticalagriculture:item/seeds/echo_seeds"
+    }
+  }

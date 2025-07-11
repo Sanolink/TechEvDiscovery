@@ -1,0 +1,13 @@
+{
+    "name": "Ostrum",
+    "type": "resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/ostrum_flower",
+      "essence": "mysticalagriculture:item/essence/ostrum_essence",
+      "seeds": "mysticalagriculture:item/seeds/ostrum_seeds"
+    }
+  }

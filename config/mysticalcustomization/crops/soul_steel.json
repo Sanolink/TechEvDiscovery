@@ -1,0 +1,13 @@
+{
+    "name": "Soul Steel",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/soul_steel_flower",
+      "essence": "mysticalagriculture:item/essence/soul_steel_essence",
+      "seeds": "mysticalagriculture:item/seeds/soul_steel_seeds"
+    }
+  }

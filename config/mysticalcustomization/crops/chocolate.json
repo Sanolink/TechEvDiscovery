@@ -1,0 +1,13 @@
+{
+    "name": "Chocolate",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/chocolate_flower",
+      "essence": "mysticalagriculture:item/essence/chocolate_essence",
+      "seeds": "mysticalagriculture:item/seeds/chocolate_seeds"
+    }
+  }

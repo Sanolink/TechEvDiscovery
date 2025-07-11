@@ -1,0 +1,13 @@
+{
+    "name": "Destabilized Redstone",
+    "type": "resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/destabilized_redstone_flower",
+      "essence": "mysticalagriculture:item/essence/destabilized_redstone_essence",
+      "seeds": "mysticalagriculture:item/seeds/destabilized_redstone_seeds"
+    }
+  }

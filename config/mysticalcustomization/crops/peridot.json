@@ -1,0 +1,13 @@
+{
+    "name": "Peridot",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/peridot_flower",
+      "essence": "mysticalagriculture:item/essence/peridot_essence",
+      "seeds": "mysticalagriculture:item/seeds/peridot_seeds"
+    }
+  }

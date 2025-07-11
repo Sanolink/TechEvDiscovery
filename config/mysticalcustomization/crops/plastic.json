@@ -1,0 +1,13 @@
+{
+    "name": "Plastic",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/plastic_flower",
+      "essence": "mysticalagriculture:item/essence/plastic_essence",
+      "seeds": "mysticalagriculture:item/seeds/plastic_seeds"
+    }
+  }

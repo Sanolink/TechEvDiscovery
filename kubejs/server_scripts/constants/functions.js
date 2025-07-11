@@ -98,7 +98,7 @@ function IndustrialFluidWithCount(fluid, count) {
 
 //NBT Items
 function NBTItem(item, nbt) {
-    return { item: item, nbt: nbt}
+    return { type: "forge:nbt", item: item, nbt: nbt}
 }
 
 //Get Item With Tag

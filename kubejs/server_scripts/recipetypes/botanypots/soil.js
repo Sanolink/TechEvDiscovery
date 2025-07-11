@@ -19,40 +19,41 @@
 
 ServerEvents.recipes(event => {
 
-    //Recipes
-    let recipes = [
-        {
-            id: "end_flower",
-            ingredient: parseIngredient("naturesaura:end_flower"),
-            result: ThermalChanceItem("naturesaura:end_flower", 2)
-        }
-    ]
 
-    mysticalCrops.enabled.forEach(cropName => {
-        let crop = CropRegistryInstance.getCropByName(cropName)
+    //Recipes
+    let recipes = []
+
+    //Mystical Crops Soils
+    let crux = []
+    for (const seed of mysticalCrops.enabled) {
+        let crop = CropRegistryInstance.getCropByName(seed)
+        let cruxBlock = crop.getCruxBlock()
+        if (cruxBlock) {
+            crux[cruxBlock.getId()] = cruxBlock.getIdLocation().getPath()
+        }
+    }
+    for (const block in crux) {
+        let category = crux[block]
         recipes.push(
             {
-                id: `essence_${cropName}`,
-                ingredient: parseIngredient(crop.getSeedsItem().getId()),
-                result: [ 
-                    ThermalChanceItem(crop.getEssenceItem().getId(), 1 + SecondarySeedChance),
-                    {
-                      item: crop.getSeedsItem().getId(),
-                      chance: crop.getTier().hasSecondarySeedDrop() ? (1 + SecondarySeedChance) : 1,
-                      locked: true
-                    }
-                ]
+                id: `mysticalagriculture/${category}`,
+                input: { item: block },
+                display: { block: block },
+                categories: [category],
+                growthModifier: 1.0
             }
         )
-    })
+    }
 
-   //General Insolator Function
+   //General Soil Function
     recipes.forEach(recipe => {
         let json = {
-            type: 'thermal:insolator',
-            ingredient: recipe.ingredient,
-            result: recipe.result
+            type: 'botanypots:soil',
+            input: recipe.input,
+            display: recipe.display,
+            categories: recipe.categories,
+            growthModifier: recipe.growthModifier
         }
-        event.custom(json).id(`thermal:insolator/insolator_${recipe.id}`)
+        event.custom(json).id(`botanypots:soil/${recipe.id}`)
     })
 })

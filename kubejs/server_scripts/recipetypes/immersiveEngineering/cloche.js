@@ -20,39 +20,36 @@
 ServerEvents.recipes(event => {
 
     //Recipes
-    let recipes = [
-        {
-            id: "end_flower",
-            ingredient: parseIngredient("naturesaura:end_flower"),
-            result: ThermalChanceItem("naturesaura:end_flower", 2)
-        }
-    ]
+    let recipes = []
 
     mysticalCrops.enabled.forEach(cropName => {
         let crop = CropRegistryInstance.getCropByName(cropName)
+        let crux = crop.getCruxBlock()
         recipes.push(
             {
-                id: `essence_${cropName}`,
-                ingredient: parseIngredient(crop.getSeedsItem().getId()),
-                result: [ 
-                    ThermalChanceItem(crop.getEssenceItem().getId(), 1 + SecondarySeedChance),
-                    {
-                      item: crop.getSeedsItem().getId(),
-                      chance: crop.getTier().hasSecondarySeedDrop() ? (1 + SecondarySeedChance) : 1,
-                      locked: true
-                    }
-                ]
+                id: `mysticalagriculture/${cropName}`,
+                input: parseIngredient(crop.getSeedsItem().getId()),
+                output: [ChanceOrCountItem(crop.getEssenceItem().getId(), 2)],
+                soil: parseIngredient(crux ? crux.getId() : `#forge:soil_tier/${crop.getTier().getFarmland().getIdLocation().getPath().replace('_farmland', '')}`),
+                time: 250 + (125 * crop.getTier().getValue()),
+                render: {
+                  type: 'crop',
+                  block: crop.getCropBlock().getId()
+                }
             }
         )
     })
 
-   //General Insolator Function
+   //General Cloche Function
     recipes.forEach(recipe => {
         let json = {
-            type: 'thermal:insolator',
-            ingredient: recipe.ingredient,
-            result: recipe.result
+            type: 'immersiveengineering:cloche',
+            input: recipe.input,
+            results: recipe.output,
+            soil: recipe.soil,
+            time: recipe.time,
+            render: recipe.render
         }
-        event.custom(json).id(`thermal:insolator/insolator_${recipe.id}`)
+        event.custom(json).id(`immersiveengineering:cloche/${recipe.id}`)
     })
 })

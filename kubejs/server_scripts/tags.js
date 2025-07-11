@@ -326,6 +326,22 @@ ServerEvents.tags('item', e => {
         e.add(`forge:raw_materials/${mat}`, `blue_skies:raw_${mat}`)
         e.add(`forge:storage_blocks/raw_${mat}`, `blue_skies:raw_${mat}_block`)
     })
+
+    // Mystical Farmlands
+    let cropTiers = CropRegistryInstance.getTiers()
+    let tiers = []
+    for (const tier of cropTiers) { tiers[tier.getValue() - 1] = tier.getFarmland() }
+    for (let i = 0; i < tiers.length; i++) {
+        let farmland = tiers[i]
+        let farmlandNext = tiers[i + 1]
+        let tier = farmland.getIdLocation().getPath().replace('_farmland', '')
+        e.add(`forge:soil_tier/${tier}`, farmland.getId())
+
+        if (farmlandNext && !farmland.equals(farmlandNext)) {
+            let tierNext = farmlandNext.getIdLocation().getPath().replace('_farmland', '')
+            e.add(`forge:soil_tier/${tier}`, `#forge:soil_tier/${tierNext}`)
+        } else if (!farmlandNext) { break }
+    }
 })
 
 ServerEvents.tags("fluid", e => {

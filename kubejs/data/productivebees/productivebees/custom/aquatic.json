@@ -1,0 +1,8 @@
+{
+    "primaryColor": "#2e2e54",
+    "secondaryColor": "#7a7ab7",
+    "particleColor": "#6767ad",
+    "beeTexture": "productivebees:textures/entity/bee/aquatic/bee",
+    "renderer": "translucent_with_center",
+    "flowerTag": "productivebees:flowers/frozen"
+}

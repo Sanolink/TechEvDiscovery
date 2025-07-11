@@ -263,6 +263,7 @@ ServerEvents.recipes(event => {
     //Productive Bees
     event.remove({ id: 'productivebees:create/obsidian_dust_to_obsidian'})
     event.remove({ id: 'productivebees:create/mixing/ingots/honeycomb_soulsteel'})
+    event.remove({ id: 'productivebees:create/mixing/pneumaticcraft/honeycomb_oily'})
 
     //Psi 
     event.remove({ id: 'psi:gold_to_psimetal_assembly_upgrade'})

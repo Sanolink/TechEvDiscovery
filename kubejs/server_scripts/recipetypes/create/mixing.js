@@ -13,11 +13,28 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
 ServerEvents.recipes(event => {
+
+
+    //Replace
+    event.forEachRecipe({ type: "create:mixing" }, recipe => {
+        let results = recipe.json.get("results")
+        results.forEach((/** @type {Internal.JsonObject} */ result) => {
+            if (result.has("fluid") && result.get("fluid").getAsString() == "productivebees:honey") {
+                result.add("fluid", "create:honey");
+                if (recipe.getId() != "productivebees:create/mixing/honeycomb") {
+                    result.add("amount", 50);
+                }
+            }
+            if (recipe.getId().includes("honeycomb")) {
+                result.remove("chance")
+            }
+        })
+    })
 
     //Recipes 
     const recipes = [
@@ -118,7 +135,27 @@ ServerEvents.recipes(event => {
         }
     ]
 
-   //General Mixing Function
+    function combMixing(combType, result) {
+        recipes.push(
+            {
+                id: `productivebees/honeycomb_${combType}`,
+                heat: 'heated',
+                input: [NBTItem('productivebees:configurable_honeycomb', `{EntityTag:{type:"productivebees:${combType}"}}`)],
+                output: [result, FluidWithCount("create:honey", 50), parseIngredient('productivebees:wax')]
+            }
+        )
+    }
+
+    combMixing("fluix", parseIngredient('ae2:fluix_crystal'))
+    combMixing("peridot", parseIngredient('alltheores:peridot'))
+    combMixing("desh", parseIngredient('ad_astra:desh_ingot'))
+    combMixing("ostrum", parseIngredient('ad_astra:ostrum_ingot'))
+    combMixing("calorite", parseIngredient('ad_astra:calorite_ingot'))
+    combMixing("platinum", parseIngredient('alltheores:platinum_ingot'))
+    combMixing("fluorite", parseIngredient('mekanism:fluorite_gem'))
+    combMixing("ametrine", parseIngredient('byg:ametrine_gems'))
+
+    //General Mixing Function
     recipes.forEach(recipe => {
         let json = {
             type: 'create:mixing',

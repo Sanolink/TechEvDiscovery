@@ -1,0 +1,14 @@
+{
+    "primaryColor": "#49cc1d",
+    "secondaryColor": "#804f40",
+    "flowerTag": "forge:storage_blocks/terrasteel",
+    "invulnerability": [
+        "mekanism.radiation"
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botania"
+        }
+    ]
+}

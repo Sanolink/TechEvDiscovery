@@ -1,0 +1,14 @@
+{
+    "primaryColor": "#4aa7ef",
+    "secondaryColor": "#804f40",
+    "flowerTag": "forge:storage_blocks/manasteel",
+    "invulnerability": [
+        "mekanism.radiation"
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botania"
+        }
+    ]
+}

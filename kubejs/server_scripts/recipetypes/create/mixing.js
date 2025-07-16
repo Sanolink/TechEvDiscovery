@@ -135,25 +135,42 @@ ServerEvents.recipes(event => {
         }
     ]
 
-    function combMixing(combType, result) {
+    function basicComb(combType, result) {
         recipes.push(
             {
                 id: `productivebees/honeycomb_${combType}`,
                 heat: 'heated',
-                input: [NBTItem('productivebees:configurable_honeycomb', `{EntityTag:{type:"productivebees:${combType}"}}`)],
-                output: [result, FluidWithCount("create:honey", 50), parseIngredient('productivebees:wax')]
+                input: [BeeConfigurableComb(combType)],
+                output: [parseIngredient(result), FluidWithCount("create:honey", 50), parseIngredient('productivebees:wax')]
             }
         )
     }
 
-    combMixing("fluix", parseIngredient('ae2:fluix_crystal'))
-    combMixing("peridot", parseIngredient('alltheores:peridot'))
-    combMixing("desh", parseIngredient('ad_astra:desh_ingot'))
-    combMixing("ostrum", parseIngredient('ad_astra:ostrum_ingot'))
-    combMixing("calorite", parseIngredient('ad_astra:calorite_ingot'))
-    combMixing("platinum", parseIngredient('alltheores:platinum_ingot'))
-    combMixing("fluorite", parseIngredient('mekanism:fluorite_gem'))
-    combMixing("ametrine", parseIngredient('byg:ametrine_gems'))
+    basicComb("fluix", 'ae2:fluix_crystal')
+    basicComb("peridot", 'alltheores:peridot')
+    basicComb("desh", 'ad_astra:desh_ingot')
+    basicComb("ostrum", 'ad_astra:ostrum_ingot')
+    basicComb("calorite", 'ad_astra:calorite_ingot')
+    basicComb("platinum", 'alltheores:platinum_ingot')
+    basicComb("fluorite", 'mekanism:fluorite_gem')
+    basicComb("ametrine", 'byg:ametrine_gems')
+    basicComb("aeric", 'botania:ender_air_bottle')
+    basicComb("aquatic", 'minecraft:snowball')
+    basicComb("chicken", 'minecraft:chicken')
+    basicComb("fiery", 'twilightforest:fiery_ingot')
+    basicComb("fishy", 'minecraft:pufferfish')
+    basicComb("gaia", 'botania:life_essence')
+    basicComb("geotic", 'minecraft:clay_ball')
+    basicComb("hop_graphite", 'immersiveengineering:ingot_hop_graphite')
+    basicComb("ironwood", 'twilightforest:ironwood_ingot')
+    basicComb("knightmetal", 'twilightforest:knightmetal_ingot')
+    basicComb("nephryx", 'ad_astra:nephryx_ingot')
+    basicComb("piggy", 'minecraft:porkchop')
+    basicComb("rabbit", 'minecraft:rabbit_foot')
+    basicComb("sheep", 'minecraft:mutton')
+    basicComb("squid", 'minecraft:ink_sac')
+    basicComb("steeleaf", 'twilightforest:steeleaf_ingot')
+    basicComb("turtle", 'minecraft:scute')
 
     //General Mixing Function
     recipes.forEach(recipe => {

@@ -50,10 +50,7 @@ ServerEvents.recipes(event => {
         })
 
         if (!parsedFluid && !excludedIds.includes(recipe.getId())) {
-            newOutputs.push({
-                fluid: { fluid: "create:honey" },
-                amount: 50
-            })
+            newOutputs.push(BeeFluidWithCount("create:honey", 50))
             recipe.json.add("outputs", newOutputs);
         }
     })
@@ -61,12 +58,85 @@ ServerEvents.recipes(event => {
     //Recipes 
     let recipes = []
 
+    basicComb("aeric", 'botania:ender_air_bottle')
+    basicComb("aquatic", 'minecraft:snowball')
+    basicComb("chicken", 'minecraft:chicken')
+    basicComb("fiery", 'twilightforest:fiery_ingot')
+    basicComb("fishy", 'minecraft:pufferfish')
+    basicComb("gaia", 'botania:life_essence')
+    basicComb("geotic", 'minecraft:clay_ball')
+    basicComb("hop_graphite", 'immersiveengineering:ingot_hop_graphite')
+    basicComb("ironwood", 'twilightforest:ironwood_ingot')
+    basicComb("knightmetal", 'twilightforest:knightmetal_ingot')
+    basicComb("nephryx", 'ad_astra:nephryx_ingot')
+    basicComb("piggy", 'minecraft:porkchop')
+    basicComb("rabbit", 'minecraft:rabbit_foot')
+    basicComb("sheep", 'minecraft:mutton')
+    basicComb("squid", 'minecraft:ink_sac')
+    basicComb("steeleaf", 'twilightforest:steeleaf_ingot')
+    basicComb("turtle", 'minecraft:scute')
+
+    function basicComb(type, output) {
+        recipes.push(
+            {
+                id: `honeycomb_${type}`,
+                ingredient: BeeConfigurableComb(type),
+                outputs: [
+                    BeeParseIngredient(output),
+                    BeeParseIngredient("productivebees:wax"),
+                    BeeFluidWithCount("create:honey", 50)
+                ]
+            }
+        )
+    }
+
     //General Centrifuge Function (TO DO)
     recipes.forEach(recipe => {
         let json = {
             type: 'productivebees:centrifuge',
+            ingredient: recipe.ingredient,
+            outputs: recipe.outputs
         }
-        event.custom(json).id(`productivebees:centrifuge/${recipe.id || recipe.output.split(":")[1]}`)
+        event.custom(json).id(`productivebees:centrifuge/${recipe.id}`)
     })
-    
 })
+
+/*
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:arcane"
+            }
+        }
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:gems/source"
+            },
+            "chance": 50
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        },
+        {
+            "fluid": {
+                "fluid": "productivebees:honey"
+            },
+            "amount": 50
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ]
+}
+*/

@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "IG",
+    "DC"
+  ],
+  "key": {
+    "I": {
+      "item": "forbidden_arcanus:aquatic_dragon_scale"
+    },
+    "G": {
+      "item": "minecraft:gravel"
+    },
+    "D": {
+      "item": "farmersdelight:rich_soil"
+    },
+    "C": {
+      "item": "ars_nouveau:water_essence"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:water_agglomeratio"
+  }
+}

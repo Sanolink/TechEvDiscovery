@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "IG",
+    "DC"
+  ],
+  "key": {
+    "I": {
+      "item": "botania:world_seed"
+    },
+    "G": {
+      "item": "minecraft:gravel"
+    },
+    "D": {
+      "item": "farmersdelight:rich_soil"
+    },
+    "C": {
+      "item": "ars_nouveau:earth_essence"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:earth_agglomeratio"
+  }
+}

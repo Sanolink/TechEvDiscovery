@@ -1,0 +1,9 @@
+{
+    "primaryColor": "#c1c1c1",
+    "beeTexture": "productivebees:textures/entity/bee/skeletal/bee",
+    "combTexture": "productivebees:item/honeycombs/bone",
+    "flowerBlock": "minecraft:bone_block",
+    "attributes": {
+        "behavior": 1
+    }
+}

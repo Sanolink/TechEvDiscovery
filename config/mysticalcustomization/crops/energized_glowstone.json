@@ -1,9 +1,10 @@
 {
     "name": "Energized Glowstone",
-    "type": "resource",
+    "type": "mysticalagriculture:resource",
     "tier": "mysticalagriculture:4",
     "ingredient": {
-      "item": "minecraft:air"
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:energized_glowstone\"}}"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower/energized_glowstone_flower",

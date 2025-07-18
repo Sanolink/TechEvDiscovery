@@ -1,9 +1,10 @@
 {
     "name": "Ultimate",
-    "type": "resource",
+    "type": "mysticalagriculture:resource",
     "tier": "mysticalcustomization:ultimate",
     "ingredient": {
-      "item": "minecraft:air"
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:ultimate\"}}"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower/ultimate_flower",

@@ -1,6 +1,6 @@
 {
   "name": "Pink Slime",
-  "souls": 10,
+  "souls": 1000,
   "entity": "industrialforegoing:pink_slime",
   "color": "c871ca"
 }

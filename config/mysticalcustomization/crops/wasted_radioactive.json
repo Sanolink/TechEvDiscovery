@@ -1,9 +1,10 @@
 {
     "name": "Wasted Radioactive",
-    "type": "resource",
+    "type": "mysticalagriculture:resource",
     "tier": "mysticalagriculture:5",
     "ingredient": {
-      "item": "minecraft:air"
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:wasted_radioactive\"}}"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower/wasted_radioactive_flower",

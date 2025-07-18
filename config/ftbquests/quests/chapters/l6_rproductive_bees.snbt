@@ -95,12 +95,12 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 24.9d
+			height: 24.847882454624028d
 			hover: [ ]
 			image: "techev:textures/misc/quests/productivebees/bee_cell.png"
 			order: -2
 			rotation: 0.0d
-			width: 25.954324324324322d
+			width: 25.9d
 			x: -4.999999999999986d
 			y: -29.484403424291074d
 		}
@@ -109,7 +109,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1A187165637C4238"]
+			dependencies: [
+				"1A187165637C4238"
+				"465AC1A06741EE64"
+			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "0EF3BDFA5090C605"
@@ -140,7 +143,7 @@
 				}
 				type: "item"
 			}]
-			title: "&l&aProductive Bees"
+			title: "&l&aInferium Comb"
 			x: -8.5d
 			y: -23.5d
 		}
@@ -961,7 +964,8 @@
 			y: -38.5d
 		}
 		{
-			dependencies: ["0EF3BDFA5090C605"]
+			dependencies: ["1A187165637C4238"]
+			hide_dependent_lines: true
 			id: "465AC1A06741EE64"
 			rewards: [{
 				count: 4
@@ -977,6 +981,7 @@
 				item: "productivebees:bee_cage"
 				type: "item"
 			}]
+			title: "&lProductive Bees"
 			x: -5.0d
 			y: -27.25d
 		}
@@ -1495,6 +1500,7 @@
 			y: -22.0d
 		}
 		{
+			dependencies: ["465AC1A06741EE64"]
 			hide_dependent_lines: true
 			id: "563D1D95955D05BE"
 			rewards: [{
@@ -1533,6 +1539,7 @@
 			y: -30.75d
 		}
 		{
+			dependencies: ["465AC1A06741EE64"]
 			hide_dependent_lines: true
 			id: "42A28E53B47EEB3F"
 			rewards: [{
@@ -4255,7 +4262,7 @@
 			y: -25.0d
 		}
 		{
-			hide_dependency_lines: true
+			dependencies: ["2821AC6F81CC2814"]
 			id: "46F2452AC2187D3C"
 			shape: "rhexagon"
 			size: 3.0d
@@ -4351,6 +4358,7 @@
 			y: -29.0d
 		}
 		{
+			dependencies: ["465AC1A06741EE64"]
 			id: "1057FB71616CADBF"
 			rewards: [
 				{
@@ -4394,6 +4402,7 @@
 			y: -29.0d
 		}
 		{
+			dependencies: ["465AC1A06741EE64"]
 			id: "6AE78F4A3D7A6E79"
 			rewards: [
 				{
@@ -4437,6 +4446,7 @@
 			y: -28.0d
 		}
 		{
+			dependencies: ["465AC1A06741EE64"]
 			id: "4D049D3802AEB3B4"
 			rewards: [
 				{
@@ -4480,6 +4490,7 @@
 			y: -28.0d
 		}
 		{
+			dependencies: ["465AC1A06741EE64"]
 			id: "61B47D4585CA6149"
 			rewards: [
 				{
@@ -5489,6 +5500,484 @@
 			title: "&l&cDestabilized Redstone"
 			x: -0.5d
 			y: -37.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "21A03C6FFD86A150"
+			shape: "rhexagon"
+			tasks: [{
+				id: "63318E2FCC3C55A6"
+				item: "productivebees:sugarbag_honeycomb"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "54587AA31110C61C"
+			shape: "rhexagon"
+			tasks: [{
+				id: "3FBF5A8399DAE353"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "3D8A8F8C8620699E"
+			shape: "rhexagon"
+			tasks: [{
+				id: "73BFADC48A8FBD6E"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "45C31F3194D6928D"
+			shape: "rhexagon"
+			tasks: [
+				{
+					id: "344C0797C02834DD"
+					item: "productivebees:upgrade_breeding"
+					type: "item"
+				}
+				{
+					id: "1096BEBC9FB3DE8A"
+					item: "productivebees:upgrade_not_babee"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "44E08FD628936F3C"
+			shape: "rhexagon"
+			tasks: [{
+				id: "2167DCAB11F29524"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "5934EC5C56E55C83"
+			shape: "rhexagon"
+			tasks: [{
+				id: "785E7938C93470C7"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -37.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "3377A6456B82C655"
+			shape: "rhexagon"
+			tasks: [{
+				id: "2CCC105C961AA8F3"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "5BF2C9262ECF500D"
+			shape: "rhexagon"
+			tasks: [{
+				id: "197D4CF9A224A434"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -33.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "01BED97CC1B51F84"
+			shape: "rhexagon"
+			tasks: [{
+				id: "51D424A61716BE58"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "709E7AD7299735E6"
+			shape: "rhexagon"
+			tasks: [{
+				id: "614E8625430F9E7C"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -37.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "2D0C0C4CC7AA37EF"
+			shape: "rhexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1908ED7DDEAEA1A6"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "28C5C6E4C9E96EBD"
+			shape: "rhexagon"
+			tasks: [{
+				id: "4BF09268809DA916"
+				item: {
+					Count: 1b
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"7C3B74FDF91EC44C"
+				"77B09C964C8DE130"
+				"7A59D2AC4824AF1F"
+				"01935A05AFE1BCC8"
+				"2D098D67F6C094D1"
+			]
+			id: "4579D102BC1FB1CB"
+			shape: "rhexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3B0C09152BBAA12A"
+				item: {
+					Count: 1b
+					id: "productivebees:honey_treat"
+					tag: {
+						productivebees_gene_stack: [
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "weather_tolerance"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "temper"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "productivity"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "endurance"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "behavior"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 2
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Maxed Genes Honey Treat"
+			x: -14.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "7C3B74FDF91EC44C"
+			shape: "rhexagon"
+			tasks: [{
+				id: "466495902F16762C"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "weather_tolerance"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Weather Tolerance"
+			x: -14.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "7A59D2AC4824AF1F"
+			shape: "rhexagon"
+			tasks: [{
+				id: "1A32DBF3DC799723"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "endurance"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Endurance"
+			x: -13.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "77B09C964C8DE130"
+			shape: "rhexagon"
+			tasks: [{
+				id: "70AB130BDF847874"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "behavior"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Behavior"
+			x: -13.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "01935A05AFE1BCC8"
+			shape: "rhexagon"
+			tasks: [{
+				id: "1129A843100615C1"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "productivity"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Productivity"
+			x: -15.0d
+			y: -33.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "2D098D67F6C094D1"
+			shape: "rhexagon"
+			tasks: [{
+				id: "30FA776C62A34EE8"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "temper"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Temper"
+			x: -13.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "3E4FC2D91B359127"
+			shape: "rhexagon"
+			tasks: [{
+				id: "3FB4A1A7FD4E4EEE"
+				item: {
+					Count: 1b
+					id: "productivebees:bee_nest_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "12562A24D427838D"
+			shape: "rhexagon"
+			tasks: [{
+				id: "4BBE64A440255B4A"
+				item: {
+					Count: 1b
+					id: "productivebees:treat_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "1C800626D179A297"
+			shape: "rhexagon"
+			tasks: [{
+				id: "28F1FF873362E6C8"
+				item: "productivebees:jar_oak"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "02D89F1D74AC4450"
+			shape: "rhexagon"
+			tasks: [{
+				id: "3526EE329F64D598"
+				item: "productivebees:feeder"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "64B847F83852B718"
+			shape: "rhexagon"
+			tasks: [{
+				id: "3E1F1119527D77BD"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "361B62E0BD85603F"
+			shape: "rhexagon"
+			tasks: [{
+				id: "63E3ADCD651D3758"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["361B62E0BD85603F"]
+			id: "15415C9DD2B89C33"
+			shape: "rhexagon"
+			tasks: [{
+				id: "3BA69A95603B1E0B"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["15415C9DD2B89C33"]
+			id: "6C77531CFCF5A457"
+			shape: "rhexagon"
+			tasks: [{
+				id: "4F6D5EADBDFFE067"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			hide_text_until_complete: false
+			id: "0D6BFA783636A5A2"
+			shape: "rhexagon"
+			tasks: [{
+				id: "4B6B6B67A3EAFE45"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "06B11DCEEBC9716B"
+			shape: "rhexagon"
+			tasks: [{
+				id: "5F9D33E6645624AE"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "1D510561BB7D5499"
+			shape: "rhexagon"
+			tasks: [{
+				id: "613E1154B1DA87AD"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -22.0d
 		}
 	]
 	title: " &l&6♦ &rProductive Bees"

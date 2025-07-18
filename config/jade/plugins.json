@@ -46,19 +46,8 @@
     "mob_spawner": true,
     "redstone": true
   },
-  "tombstone": {
-    "graves": true
-  },
   "entangled": {
     "entangled_block_component": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
   },
   "immersiveengineering": {
     "hemp": true,
@@ -72,17 +61,11 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "apotheosis": {
-    "ench": true
-  },
   "botania_editor": {
     "botania_spreader": true,
     "botania_spreader_advanced": true,
     "botania_mana": true,
     "botania_flower": true
-  },
-  "lootr": {
-    "info": true
   },
   "custommachinery": {
     "machine_component_provider": true
@@ -99,15 +82,6 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "productivebees": {
-    "solitary_nest": true,
-    "jar": true,
-    "bee_attributes": true,
-    "productive_bee": true
-  },
-  "modularrouters": {
-    "router": true
-  },
   "extendedcrafting": {
     "elite_auto_table": true,
     "ender_crafter": true,
@@ -123,12 +97,6 @@
     "advanced_auto_table": true,
     "compressor": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -139,14 +107,11 @@
     "energy": true,
     "tooltip_renderer": true
   },
-  "mysticalagradditions": {
-    "infused_farmland": true
-  },
   "pipez": {
     "pipe": true
   },
-  "twilightforest": {
-    "quest_ram_wool": true
+  "appliedcooking": {
+    "kitchen_station": true
   },
   "reliquary": {
     "pedestal": true,
@@ -167,6 +132,58 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "securitycraft": {
+    "showowner": true,
+    "showmodules": true,
+    "showpasswords": true,
+    "info": true,
+    "showcustomname": true
+  },
+  "tombstone": {
+    "graves": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "apotheosis": {
+    "ench": true
+  },
+  "lootr": {
+    "info": true
+  },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "bee_attributes": true,
+    "productive_bee": true
+  },
+  "modularrouters": {
+    "router": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

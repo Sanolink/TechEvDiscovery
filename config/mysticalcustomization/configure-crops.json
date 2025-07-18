@@ -18,7 +18,35 @@
         "enabled": false
     },
     "mysticalagriculture:inferium": {
-        "tier": "mysticalagriculture:elemental"
+        "tier": "mysticalagriculture:elemental",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:inferium\"}}"
+        }
+    },
+    "mysticalagriculture:air": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:aeric\"}}"
+        }
+    },
+    "mysticalagriculture:earth": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:geotic\"}}"
+        }
+    },
+    "mysticalagriculture:water": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:aquatic\"}}"
+        }
+    },
+    "mysticalagriculture:fire": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:magmatic\"}}"
+        }
     },
     "mysticalagriculture:ice": {
         "tier": "mysticalagriculture:1"
@@ -59,77 +87,231 @@
     "mysticalagriculture:wood": {
         "tier": "mysticalagriculture:1"
     },
+    "mysticalagriculture:coal": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:coal\"}}"
+        }
+    },
+    "mysticalagriculture:iron": {
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:iron\"}}"
+        }
+    },
+    "mysticalagriculture:sulfur": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:sulfur\"}}"
+        }
+    },
+    "mysticalagriculture:aluminum": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:aluminum\"}}"
+        }
+    },
+    "mysticalagriculture:saltpeter": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:niter\"}}"
+        }
+    },
+    "mysticalagriculture:nickel": {
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:nickel\"}}"
+        }
+    },
     "mysticalagriculture:prismarine": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:prismarine\"}}"
+        }
     },
     "mysticalagriculture:lapis_lazuli": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:lapis\"}}"
+        }
     },
     "mysticalagriculture:obsidian": {
-    "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:obsidian\"}}"
+        }
     },
     "mysticalagriculture:rabbit": {
         "tier": "mysticalagriculture:2"
     },
     "mysticalagriculture:glowstone": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:glowing\"}}"
+        }
     },
     "mysticalagriculture:redstone": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:redstone\"}}"
+        }
     },
     "mysticalagriculture:lead": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:lead\"}}"
+        }
     },
     "mysticalagriculture:zinc": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:zinc\"}}"
+        }
     },
     "mysticalagriculture:gold": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:gold\"}}"
+        }
     },
     "mysticalagriculture:copper": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:copper\"}}"
+        }
     },
     "mysticalagriculture:osmium": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:osmium\"}}"
+        }
     },
     "mysticalagriculture:uranium": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:radioactive\"}}"
+        }
     },
     "mysticalagriculture:silver": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:silver\"}}"
+        }
     },
     "mysticalagriculture:tin": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:tin\"}}"
+        }
     },
     "mysticalagriculture:platinum": {
-        "tier": "mysticalagriculture:2"
+        "tier": "mysticalagriculture:2",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:platinum\"}}"
+        }
     },
     "mysticalagriculture:knightmetal": {
-        "tier": "mysticalagriculture:3"
+        "tier": "mysticalagriculture:3",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:knightmetal\"}}"
+        }
+    },
+    "mysticalagriculture:nether_quartz": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:crystalline\"}}"
+        }
+    },
+    "mysticalagriculture:steeleaf": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:steeleaf\"}}"
+        }
+    },
+    "mysticalagriculture:ironwood": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:ironwood\"}}"
+        }
+    },
+    "mysticalagriculture:certus_quartz": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:spacial\"}}"
+        }
     },
     "mysticalagriculture:fiery_ingot": {
-        "tier": "mysticalagriculture:3"
+        "tier": "mysticalagriculture:3",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:fiery\"}}"
+        }
     },
     "mysticalagriculture:hop_graphite": {
-        "tier": "mysticalagriculture:3"
+        "tier": "mysticalagriculture:3",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:hop_graphite\"}}"
+        }
     },
     "mysticalagriculture:ruby": {
-        "tier": "mysticalagriculture:3"
+        "tier": "mysticalagriculture:3",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:ruby\"}}"
+        }
     },
     "mysticalagriculture:silicon": {
-        "tier": "mysticalagriculture:3"
+        "tier": "mysticalagriculture:3",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:silicon\"}}"
+        }
     },
     "mysticalagriculture:experience": {
-        "tier": "mysticalagriculture:3"
+        "tier": "mysticalagriculture:3",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:experience\"}}"
+        }
     },
     "mysticalagriculture:sapphire": {
-        "tier": "mysticalagriculture:3"
+        "tier": "mysticalagriculture:3",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:sapphire\"}}"
+        }
     },
     "mysticalagriculture:amethyst": {
-        "tier": "mysticalagriculture:3"
+        "tier": "mysticalagriculture:3",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:amethyst\"}}"
+        }
     },
     "mysticalagriculture:apatite": {
-        "tier": "mysticalagriculture:3"
+        "tier": "mysticalagriculture:3",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:apatite\"}}"
+        }
     },
     "mysticalagriculture:turtle": {
         "tier": "mysticalagriculture:3"
@@ -144,13 +326,97 @@
         "tier": "mysticalagriculture:3"
     },
     "mysticalagriculture:bronze": {
-        "tier": "mysticalagriculture:4"
+        "tier": "mysticalagriculture:4",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:bronze\"}}"
+        }
     },
     "mysticalagriculture:brass": {
-        "tier": "mysticalagriculture:4"
+        "tier": "mysticalagriculture:4",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:brass\"}}"
+        }
     },
     "mysticalagriculture:manasteel": {
-        "tier": "mysticalagriculture:4"
+        "tier": "mysticalagriculture:4",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:manasteel\"}}"
+        }
+    },
+    "mysticalagriculture:steel": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:steel\"}}"
+        }
+    },
+    "mysticalagriculture:constantan": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:constantan\"}}"
+        }
+    },
+    "mysticalagriculture:invar": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:invar\"}}"
+        }
+    },
+    "mysticalagriculture:signalum": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:signalum\"}}"
+        }
+    },
+    "mysticalagriculture:lumium": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:lumium\"}}"
+        }
+    },
+    "mysticalagriculture:fluorite": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:fluorite\"}}"
+        }
+    },
+    "mysticalagriculture:refined_glowstone": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:refined_glowstone\"}}"
+        }
+    },
+    "mysticalagriculture:refined_obsidian": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:refined_obsidian\"}}"
+        }
+    },
+    "mysticalagriculture:compressed_iron": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:compressed_iron\"}}"
+        }
+    },
+    "mysticalagriculture:energized_steel": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:energized_steel\"}}"
+        }
+    },
+    "mysticalagriculture:blazing_crystal": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:blazing_crystal\"}}"
+        }
+    },
+    "mysticalagriculture:electrum": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:electrum\"}}"
+        }
     },
     "mysticalagriculture:creeper": {
         "tier": "mysticalagriculture:4"
@@ -162,10 +428,72 @@
         "tier": "mysticalagriculture:4"
     },
     "mysticalagriculture:elementium": {
-        "tier": "mysticalagriculture:5"
+        "tier": "mysticalagriculture:5",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:elementium\"}}"
+        }
     },
     "mysticalagriculture:fluix": {
-        "tier": "mysticalagriculture:5"
+        "tier": "mysticalagriculture:5",
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:fluix\"}}"
+        }
+    },
+    "mysticalagriculture:diamond": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:diamond\"}}"
+        }
+    },
+    "mysticalagriculture:emerald": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:emerald\"}}"
+        }
+    },
+    "mysticalagriculture:netherite": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:netherite\"}}"
+        }
+    },
+    "mysticalagriculture:iridium": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:iridium\"}}"
+        }
+    },
+    "mysticalagriculture:enderium": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:enderium\"}}"
+        }
+    },
+    "mysticalagriculture:terrasteel": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:terrasteel\"}}"
+        }
+    },
+    "mysticalagriculture:niotic_crystal": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:niotic_crystal\"}}"
+        }
+    },
+    "mysticalagriculture:spirited_crystal": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:spirited_crystal\"}}"
+        }
+    },
+    "mysticalagriculture:uraninite": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:uraninite\"}}"
+        }
     },
     "mysticalagriculture:basalz": {
         "tier": "mysticalagriculture:5"
@@ -178,5 +506,29 @@
     },
     "mysticalagriculture:blitz": {
         "tier": "mysticalagriculture:5"
+    },
+    "mysticalagradditions:nether_star": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:starry\"}}"
+        }
+    },
+    "mysticalagradditions:dragon_egg": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:draconic\"}}"
+        }
+    },
+    "mysticalagradditions:gaia_spirit": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:gaia\"}}"
+        }
+    },
+    "mysticalagradditions:nitro_crystal": {
+        "ingredient": {
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": "{EntityTag:{type:\"productivebees:nitro_crystal\"}}"
+        }
     }
 }

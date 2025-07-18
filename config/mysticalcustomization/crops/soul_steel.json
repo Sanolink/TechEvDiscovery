@@ -1,9 +1,10 @@
 {
     "name": "Soul Steel",
-    "type": "resource",
+    "type": "mysticalagriculture:resource",
     "tier": "mysticalagriculture:3",
     "ingredient": {
-      "item": "minecraft:air"
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:spirit\"}}"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower/soul_steel_flower",

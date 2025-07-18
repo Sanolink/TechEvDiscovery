@@ -1,9 +1,10 @@
 {
     "name": "Plastic",
-    "type": "resource",
+    "type": "mysticalagriculture:resource",
     "tier": "mysticalagriculture:5",
     "ingredient": {
-      "item": "minecraft:air"
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:plastic\"}}"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower/plastic_flower",

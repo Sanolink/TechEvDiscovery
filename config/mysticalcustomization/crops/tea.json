@@ -1,9 +1,10 @@
 {
     "name": "Tea",
-    "type": "resource",
+    "type": "mysticalagriculture:resource",
     "tier": "mysticalagriculture:3",
     "ingredient": {
-      "item": "minecraft:air"
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:tea\"}}"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower/tea_flower",

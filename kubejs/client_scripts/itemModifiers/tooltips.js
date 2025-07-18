@@ -27,25 +27,26 @@ ItemEvents.tooltip(event => {
 
     //Honeycombs Tiers
     ['productivebees:configurable_honeycomb', 'productivebees:spawn_egg_configurable_bee', 'productivebees:configurable_comb'].forEach(category => {
-    event.addAdvanced(category, (item, advanced, text) => {
-        let nbt = item.nbt
-        if (!nbt) return
+        event.addAdvanced(category, (item, advanced, text) => {
+            let nbt = item.nbt
+            if (!nbt) return
 
-        let type = nbt?.EntityTag?.type
-        if (!type) return
+            let type = nbt?.EntityTag?.type
+            if (!type) return
 
-        let mat = type.replace("productivebees:", "")
-        
-        let tier = combTier.getTier(mat)
-        if (tier) {
-            text.add(1, Text.of(`Tier: ${combTier.getColor(tier)}`))
-        } else {
-            text.add(1, Text.of(`Tier: §l§7Optional`))
-        }
-    })})
+            let mat = type.replace("productivebees:", "")
+
+            let tier = combTier.getTier(mat)
+            if (tier) {
+                text.add(1, Text.of(`§7Tier: ${combTier.getColor(tier)}`))
+            } else {
+                text.add(1, Text.of(`§7Tier: Optional`))
+            }
+        })
+    })
 
     function combTierTooltip(initem, tier) {
-        event.addAdvanced(initem, (item, advanced, text) => {text.add(1, `Tier: ${combTier.getColor(tier)}`)})
+        event.addAdvanced(initem, (item, advanced, text) => { text.add(1, `§7Tier: ${combTier.getColor(tier)}`) })
     }
 
     combTierTooltip('productivebees:spawn_egg_rancher_bee', 2)
@@ -58,13 +59,17 @@ ItemEvents.tooltip(event => {
     combTierTooltip('productivebees:spawn_egg_creeper_bee', 4)
     combTierTooltip('productivebees:honeycomb_powdery', 4)
     combTierTooltip('productivebees:comb_powdery', 4)
-    
+
     combTierTooltip('productivebees:honeycomb_ghostly', 4)
     combTierTooltip('productivebees:comb_ghostly', 4)
-    
+
     combTierTooltip('productivebees:honeycomb_ultimate', 7)
     combTierTooltip('productivebees:comb_ultimate', 7)
 
+    //Mystical Inferium Farmland Tier
+    event.addAdvanced('mysticalagriculture:inferium_farmland', (item, advanced, text) => {
+        text.set(1, Text.of(`§7Tier: §eElemental`))
+    })
     //Blue Skies
     event.add('blue_skies:blue_journal', "§l§fThe §bGatekeeper §fis §CDISABLED")
     event.add('blue_skies:zeal_lighter', "§l§fThe §bGatekeeper §fis §CDISABLED")
@@ -72,14 +77,14 @@ ItemEvents.tooltip(event => {
 
     //Lost Soul
     event.add('forbidden_arcanus:soul', "§l§fRight-click on a block to summon a §bLost Soul")
-    
+
     //Create Tooltips (Located in Create Lang)
     const ItemsCreateTooltips = [
         'create:chromatic_compound',
         'create:netherite_sandpaper'
     ].forEach(id => {
         $TooltipModifier.REGISTRY.registerDeferred(
-          id, (item) => new $ItemDescription( item, $Palette.STANDARD_CREATE)
+            id, (item) => new $ItemDescription(item, $Palette.STANDARD_CREATE)
         )
     });
 })

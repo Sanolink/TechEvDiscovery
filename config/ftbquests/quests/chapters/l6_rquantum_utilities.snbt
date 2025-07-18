@@ -16,7 +16,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["52A74AFD3A6CAF3A"]
@@ -28,7 +28,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			id: "2F57CAAED7EDB0A0"
@@ -41,8 +41,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			id: "19F1068675B5DC6B"
@@ -51,8 +51,8 @@
 				item: "entangled:item"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			id: "09375F56A5CAA6E8"
@@ -124,8 +124,8 @@
 				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: -5.0d
+			y: -5.0d
 		}
 		{
 			id: "7FB863F0381150F4"
@@ -134,8 +134,8 @@
 				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.0d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
 			id: "6AFBF33E68B0F1D6"
@@ -144,8 +144,123 @@
 				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["463D067FC6CE93B7"]
+			id: "4E057967D9AF8A5B"
+			tasks: [{
+				id: "254E86877E9F7344"
+				item: {
+					Count: 1b
+					id: "tardis_refined:tardis_key"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "5DFB3C0266A170EF"
+			tasks: [{
+				id: "46218C92DB97323D"
+				item: "tardis_refined:root_plant"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["463D067FC6CE93B7"]
+			id: "5409B5209FED0429"
+			tasks: [{
+				id: "47D1272B4F8F5728"
+				item: "tardis_refined:landing_pad"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5DFB3C0266A170EF"]
+			id: "0397979D1DA6C245"
+			tasks: [{
+				id: "09A8F0836FF086C2"
+				item: "tardis_refined:terraformer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["463D067FC6CE93B7"]
+			id: "079365D602528842"
+			tasks: [{
+				id: "3B4FDBE38CB3345C"
+				item: "tardis_refined:flight_detector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0397979D1DA6C245"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tardis_refined:item/root_shell_door"
+				}
+			}
+			id: "463D067FC6CE93B7"
+			tasks: [{
+				id: "2EF18311A13C27C3"
+				title: "a"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["463D067FC6CE93B7"]
+			id: "317E788067993004"
+			tasks: [
+				{
+					id: "0F2C3AB44617CEEE"
+					item: "tardis_refined:console_configuration"
+					type: "item"
+				}
+				{
+					id: "606E390C56E23E05"
+					item: "tardis_refined:pattern_manipulator"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["463D067FC6CE93B7"]
+			id: "0E754961D96BB070"
+			tasks: [{
+				id: "0EB34490DFE539C4"
+				item: "tardis_refined:drill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "070CAAE23670991E"
+			tasks: [{
+				id: "3FCAE646B054976B"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
 		}
 	]
 	title: " &l&6♦ &rQuantum Utilities"

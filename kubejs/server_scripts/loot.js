@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.2         (_____)
+(_____)         Last Modification : 1.3.10        (_____)
 
 */
 
@@ -224,4 +224,6 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:coal_coke', 'thermal:coal_coke'], 'immersiveengineering:coal_coke')
     replaceLT(['#forge:bitumen', 'immersivepetroleum:bitumen'], 'thermal:bitumen')
     replaceLT(['#forge:slag', 'immersivepetroleum:slag'], 'thermal:slag')
+    replaceLT(['#forge:storage_blocks/carrot', 'quark:carrot_crate', 'thermal:carrot_block'], 'farmersdelight:carrot_crate')
+    replaceLT(['#forge:storage_blocks/gunpowder', 'quark:gunpowder_sack'], 'thermal:gunpowder_block')
 })

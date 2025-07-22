@@ -59,7 +59,7 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "{{player.name}} on Minecraft is currently lazy"
+		description = "{{player.name}} is currently lazy"
 		#The second line of text under the app name
 		state = "Chilling in the menu"
 		#The Asset ID or URLs of images to randomly use for the large image
@@ -92,7 +92,7 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "{{player.name}} on Minecraft is looking for a server"
+		description = "{{player.name}} is looking for a server"
 		#The second line of text under the app name
 		state = "Searching for friends"
 		#The Asset ID or URLs of images to randomly use for the large image
@@ -125,7 +125,7 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "{{player.name}} on Minecraft is looking for a Realm"
+		description = "{{player.name}} is looking for a Realm"
 		#The second line of text under the app name
 		state = "Browsing Realms"
 		#The Asset ID or URLs of images to randomly use for the large image
@@ -158,7 +158,7 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "{{player.name}} on Minecraft is joining a game"
+		description = "{{player.name}} is joining a game"
 		#The second line of text under the app name
 		state = "Joining Game"
 		#The Asset ID or URLs of images to randomly use for the large image
@@ -366,7 +366,7 @@
 			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 			type = "PLAYING"
 			#The first line of text under the app name
-			description = "{{player.name}} on Minecraft is in The Overworld"
+			description = "{{player.name}} is in The Overworld"
 			#The second line of text under the app name
 			state = ""
 			#The Asset ID or URLs of images to randomly use for the large image
@@ -398,7 +398,7 @@
 			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 			type = "PLAYING"
 			#The first line of text under the app name
-			description = "{{player.name}} on Minecraft is in The Nether"
+			description = "{{player.name}} is in The Nether"
 			#The second line of text under the app name
 			state = ""
 			#The Asset ID or URLs of images to randomly use for the large image
@@ -430,7 +430,7 @@
 			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 			type = "PLAYING"
 			#The first line of text under the app name
-			description = "{{player.name}} on Minecraft is in The End"
+			description = "{{player.name}} is in The End"
 			#The second line of text under the app name
 			state = ""
 			#The Asset ID or URLs of images to randomly use for the large image

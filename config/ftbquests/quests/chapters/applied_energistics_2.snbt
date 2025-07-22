@@ -1191,6 +1191,17 @@
 			dependencies: ["4FC82082EE9F4CC3"]
 			hide_dependency_lines: true
 			id: "64755A73751631C5"
+			rewards: [{
+				id: "1773B7E3AED0685B"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "packagedauto:guide"
+					}
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{

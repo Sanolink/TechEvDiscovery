@@ -180,6 +180,20 @@
 			x: 1.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["6036A88041F3C3E2"]
+			icon: "create_new_age:radioactive_thorium"
+			id: "7FDD7770E05AA980"
+			shape: "gear"
+			tasks: [{
+				id: "203E89B024FDE8C0"
+				title: "Farmer's Life"
+				type: "checkmark"
+			}]
+			title: "&lCreate [New Age]"
+			x: 1.5d
+			y: 5.0d
+		}
 	]
 	subtitle: ["&lFirst Discovery"]
 	title: " &l&e♦ &rChapter 1"

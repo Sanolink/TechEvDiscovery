@@ -222,6 +222,66 @@
 			x: 11.0d
 			y: -2.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create_new_age:textures/gui/icon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create_new_age:item/radioactive_thorium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.214285714285708d
+			y: -3.482142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create_new_age:item/overcharged_diamond"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.785714285714285d
+			y: -8.482142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create_new_age:item/diamond_coil"
+			rotation: 15.0d
+			width: 1.0d
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/create/new_age_reactor.png"
+			rotation: 0.0d
+			width: 5.684454756380511d
+			x: 19.516351784333224d
+			y: -8.30357142857143d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -2570,7 +2630,601 @@
 			x: -3.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["7FDD7770E05AA980"]
+			description: [
+				"&a&lEnergizer&r is the main machine of Create: New Age."
+				""
+				"This machine charges materials."
+				""
+				"Materials that optimize energy production."
+			]
+			hide_dependency_lines: true
+			id: "421192515BDB2DBC"
+			rewards: [{
+				id: "737E7D06AF60F70B"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.75d
+			tasks: [{
+				id: "4B8E3E3B866B9E58"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			title: "&lCreate [New Age]"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5DC9F34F21F6E574"]
+			id: "2BFFAE9ED1AE4F58"
+			rewards: [{
+				id: "356E746DE3DC43C4"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Generation: &b60 °T/s&r"
+			tasks: [{
+				id: "73FD8A5B692B57EA"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			description: ["&a&lSolar Plate&r produces heat during the day."]
+			id: "5DC9F34F21F6E574"
+			rewards: [{
+				id: "4B32221B5EDA929D"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Generation: &b20 °T/s&r"
+			tasks: [{
+				id: "42D7FE05E65DDDE8"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			id: "724B353EC9F400BC"
+			rewards: [{
+				id: "45671D6002AF361D"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Speed: &b16⚡/t/10RPM&r | Storage: &b100K⚡&r"
+			tasks: [{
+				id: "4A1C19BE80D9E195"
+				item: "create_new_age:energiser_t2"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["724B353EC9F400BC"]
+			id: "57B0F31B8DB99980"
+			rewards: [{
+				id: "7C7C494F4DFA33A7"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Speed: &b64⚡/t/10RPM&r | Storage: &b1M⚡&r"
+			tasks: [{
+				id: "2734C60179752E03"
+				item: "create_new_age:energiser_t3"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			description: ["&a&lElectrical connectors&r are used to connect various devices with electricity."]
+			id: "1EC7F0198BA5235A"
+			rewards: [{
+				id: "5CE411F40B066128"
+				item: "create_new_age:electrical_connector"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73C4C44412DD368B"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			title: "&lElectrical Connectors"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			description: ["&a&lHeat Pipes&r can be used to transfer Heat."]
+			hide_dependency_lines: true
+			id: "52DB32047A0D8BEB"
+			rewards: [{
+				count: 2
+				id: "5BF82FF0E4D3D594"
+				item: "create_new_age:heat_pipe"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "02B8248FCBDF8BB4"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			description: ["&a&lMotors&r transform electric energy into kinetic energy."]
+			id: "40A799D48BB3E3AF"
+			rewards: [{
+				id: "7CF7B0678CB2B5A3"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Gen: &b512 SU&r | Storage: &b16K⚡&r | Max Speed: &b128 RPM&r"
+			tasks: [{
+				id: "2D94F6808145F4F2"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["40A799D48BB3E3AF"]
+			id: "48B1AA213C89059D"
+			rewards: [{
+				id: "2C2F3F6B7FE70270"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Gen: &b2048 SU&r | Storage: &b64K⚡&r | Max Speed: &b256 RPM&r"
+			tasks: [{
+				id: "3D2C052AEC40A205"
+				item: "create_new_age:advanced_motor"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48B1AA213C89059D"]
+			id: "71B69DCE759BC289"
+			rewards: [{
+				id: "4A6599229ABBB7E1"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Gen: &b8192 SU&r | Storage: &b128K⚡&r | Max Speed: &b256 RPM&r"
+			tasks: [{
+				id: "241B613149DEFB36"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["40A799D48BB3E3AF"]
+			description: ["&a&lMotor Extensions&r improve motors by increasing their stress capacity, but proportionally increase power consumption."]
+			id: "6B4E2773234D7F62"
+			rewards: [{
+				id: "732D507E073B1315"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Stress Cap Multiplier: &b200%&r | Additional Storage: &b64K⚡&r"
+			tasks: [{
+				id: "3E376A1C9A38DD6A"
+				item: "create_new_age:basic_motor_extension"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71B69DCE759BC289"]
+			id: "6CFD61115C7B04B9"
+			rewards: [{
+				id: "08D3F3433F003E80"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Stress Cap Multiplier: &b800%&r | Additional Storage: &b256K⚡&r"
+			tasks: [{
+				id: "06935AACBEF87348"
+				item: "create_new_age:advanced_motor_extension"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			description: [
+				"&a&lBrush Generator&r is the first power source you can make with Create: New Age"
+				""
+				"You can increase power production by using stronger &b&lMagnets&r."
+			]
+			icon: "create_new_age:generator_coil"
+			id: "3A635621C9349DE3"
+			rewards: [{
+				count: 2
+				id: "3AC44DF0DB86C872"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "7C46AFC6CD642135"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+				{
+					id: "6F854386EF7D9530"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+			]
+			title: "&lBrush Generator"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A635621C9349DE3"]
+			id: "1BEF98A9B2377C4D"
+			rewards: [{
+				count: 4
+				id: "67B19AF815F375DF"
+				item: "create_new_age:magnetite_block"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Magnetic Force: &b1"
+			tasks: [{
+				id: "002F8254565F8ABD"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BEF98A9B2377C4D"]
+			id: "1D153803B5FA3664"
+			rewards: [{
+				count: 2
+				id: "58E7F5820106B4CF"
+				item: "create_new_age:redstone_magnet"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Magnetic Force: &b2"
+			tasks: [{
+				id: "30BDC9146590D4ED"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D153803B5FA3664"]
+			id: "444265C1B411D943"
+			rewards: [{
+				count: 2
+				id: "3BBB86CF7F9FEA02"
+				item: "create_new_age:layered_magnet"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Magnetic Force: &b4"
+			tasks: [{
+				id: "7733E406E3659D5D"
+				item: "create_new_age:layered_magnet"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["444265C1B411D943"]
+			id: "0327BA3F30CA4570"
+			rewards: [{
+				count: 2
+				id: "7BA8F434ADDA8A81"
+				item: "create_new_age:fluxuated_magnetite"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Magnetic Force: &b8"
+			tasks: [{
+				id: "2459BAB11AA40292"
+				item: "create_new_age:fluxuated_magnetite"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0327BA3F30CA4570"]
+			id: "08F709275469C2BB"
+			rewards: [{
+				count: 2
+				id: "7D0387AD39DF5706"
+				item: "create_new_age:netherite_magnet"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Magnetic Force: &b24"
+			tasks: [{
+				id: "24144B7FB705EA8A"
+				item: "create_new_age:netherite_magnet"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			description: ["&a&lHeat Pumps&r pump heat forward."]
+			hide_dependency_lines: true
+			id: "7C21C3E452D2760E"
+			rewards: [{
+				id: "1FDC87580740FF20"
+				item: "create_new_age:heat_pump"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "041FE4C1D6CA8418"
+				item: "create_new_age:heat_pump"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			description: ["&a&lStirling Engines&r transform heat into kinetic energy."]
+			hide_dependency_lines: true
+			id: "323B5D8AA5286016"
+			rewards: [{
+				id: "52327A7C1D7E8CA2"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6132E774F1870906"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			description: [
+				"&a&lThorium&r is the main ore of Create: New Age."
+				""
+				"This new material is useful to make fuel for the &b&lNuclear Reactor&r."
+			]
+			id: "3DC400B8D173D550"
+			rewards: [{
+				count: 8
+				id: "71FDD86813BE1236"
+				item: "create_new_age:thorium"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "773E8ADB7795812A"
+				item: "create_new_age:thorium"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DC400B8D173D550"]
+			id: "4B419BD8AE69772D"
+			rewards: [{
+				count: 2
+				id: "390934E506147880"
+				item: "create_new_age:nuclear_fuel"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CCD020009056A8C"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			description: ["&a&lBoiler Heater&r acts the same way as a &b&lBlaze Burner&r, however it uses heat insted of burnable fuel"]
+			hide_dependency_lines: true
+			id: "00133C30DB3BFC3A"
+			rewards: [{
+				id: "36DBFE58A914C82F"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36C6BEC6F77330B8"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1EC7F0198BA5235A"]
+			description: [
+				"&a&lWires&r complement electrical connectors."
+				""
+				"There are different tiers : "
+				"&nCopper&r : 1024 ⚡/t"
+				"&nOvercharged Iron&r : 2048 ⚡/t"
+				"&nOvercharged Gold&r : 4096 ⚡/t"
+				"&nOvercharged Diamond&r : 8192 ⚡/t"
+			]
+			id: "0FA01BC2864A4517"
+			rewards: [{
+				count: 2
+				id: "3E874A34B2892FD5"
+				item: "create_new_age:overcharged_diamond_wire"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "281E1A647DE6302F"
+					item: "create_new_age:copper_wire"
+					type: "item"
+				}
+				{
+					id: "4861CA4FD3785EAA"
+					item: "create_new_age:overcharged_iron_wire"
+					type: "item"
+				}
+				{
+					id: "623C285585A58602"
+					item: "create_new_age:overcharged_golden_wire"
+					type: "item"
+				}
+				{
+					id: "098FD90D11EB522A"
+					item: "create_new_age:overcharged_diamond_wire"
+					type: "item"
+				}
+			]
+			title: "&lWires"
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["421192515BDB2DBC"]
+			id: "43570BB65F92412F"
+			rewards: [{
+				id: "63A163C402872112"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1878C4FE7CC65139"
+					item: "create_new_age:overcharged_iron"
+					type: "item"
+				}
+				{
+					id: "391BD488F64F6366"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+				{
+					id: "7E5C28D1DEDB0F5A"
+					item: "create_new_age:overcharged_diamond"
+					type: "item"
+				}
+			]
+			title: "&lOvercharged Materials"
+			x: 16.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4B419BD8AE69772D"]
+			description: [
+				"&a&lNuclear Reactor&r is a great way to generate large amounts of heat. As it's a fully modulable machine."
+				"{image:techev:textures/misc/quests/create/new_age_reactor.png width:122 height:86 align:1}"
+				"&a&lReactor Rod&r is the main component of a nuclear reactor, which allow for nuclear reaction to take place."
+				""
+				"&a&lReactor Fuel Inserter&r allows you to insert fuel inside the reactor"
+				""
+				"&a&lReactor Heat Vent&r collects heat from the reactor and distribute it to connected pipes."
+				""
+				"The nuclear reactor emits &4&ldeadly&r radiation, you can encase the reactor with &a&lCasing/Glass&r to avoid this."
+				""
+				"Last thing to know is that you must have something using the heat or you'll have a &4&lMeltdown&r, so be careful !"
+			]
+			icon: "create_new_age:reactor_rod"
+			id: "2696B44AAD12D02A"
+			rewards: [{
+				count: 2
+				id: "17F451466FBF3A17"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1A55D058A9224FA8"
+					item: "create_new_age:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "198B86988E55F720"
+					item: "create_new_age:reactor_rod"
+					type: "item"
+				}
+				{
+					id: "4C0399F4F2EFDC1B"
+					item: "create_new_age:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "2CDF4B3149737F07"
+					item: "create_new_age:reactor_fuel_acceptor"
+					type: "item"
+				}
+				{
+					id: "4ECAAD5EDE4B2D2A"
+					item: "create_new_age:reactor_heat_vent"
+					type: "item"
+				}
+			]
+			title: "&lNuclear Reactor"
+			x: 19.25d
+			y: -6.0d
+		}
 	]
 	subtitle: ["From Gears to Greatness: The Art of Automation"]
-	title: " &l&e♦ &rCreate"
+	title: " &l&e♦ &rCreate + [New Age]"
 }

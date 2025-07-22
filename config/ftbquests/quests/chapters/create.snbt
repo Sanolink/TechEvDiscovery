@@ -255,8 +255,8 @@
 			image: "create_new_age:item/overcharged_diamond"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.785714285714285d
-			y: -8.482142857142854d
+			x: 15.5d
+			y: -8.5d
 		}
 		{
 			click: ""
@@ -2631,7 +2631,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7FDD7770E05AA980"]
+			dependencies: ["603BA6BD3B6DEC67"]
 			description: [
 				"&a&lEnergizer&r is the main machine of Create: New Age."
 				""
@@ -2639,7 +2639,6 @@
 				""
 				"Materials that optimize energy production."
 			]
-			hide_dependency_lines: true
 			id: "421192515BDB2DBC"
 			rewards: [{
 				id: "737E7D06AF60F70B"
@@ -2647,16 +2646,15 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "pentagon"
-			size: 1.75d
+			shape: "hexagon"
+			subtitle: "Speed: &b4⚡/t/10RPM&r | Storage: &b10K⚡&r"
 			tasks: [{
 				id: "4B8E3E3B866B9E58"
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
-			title: "&lCreate [New Age]"
 			x: 16.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5DC9F34F21F6E574"]
@@ -2677,7 +2675,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["421192515BDB2DBC"]
+			dependencies: ["603BA6BD3B6DEC67"]
 			description: ["&a&lSolar Plate&r produces heat during the day."]
 			id: "5DC9F34F21F6E574"
 			rewards: [{
@@ -2710,8 +2708,8 @@
 				item: "create_new_age:energiser_t2"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -6.0d
+			x: 16.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["724B353EC9F400BC"]
@@ -2729,10 +2727,10 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["421192515BDB2DBC"]
+			dependencies: ["603BA6BD3B6DEC67"]
 			description: ["&a&lElectrical connectors&r are used to connect various devices with electricity."]
 			id: "1EC7F0198BA5235A"
 			rewards: [{
@@ -2773,7 +2771,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["421192515BDB2DBC"]
+			dependencies: ["603BA6BD3B6DEC67"]
 			description: ["&a&lMotors&r transform electric energy into kinetic energy."]
 			id: "40A799D48BB3E3AF"
 			rewards: [{
@@ -2865,7 +2863,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["421192515BDB2DBC"]
+			dependencies: ["603BA6BD3B6DEC67"]
 			description: [
 				"&a&lBrush Generator&r is the first power source you can make with Create: New Age"
 				""
@@ -3031,7 +3029,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["421192515BDB2DBC"]
+			dependencies: ["603BA6BD3B6DEC67"]
 			description: [
 				"&a&lThorium&r is the main ore of Create: New Age."
 				""
@@ -3164,8 +3162,8 @@
 				}
 			]
 			title: "&lOvercharged Materials"
-			x: 16.5d
-			y: -8.0d
+			x: 17.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4B419BD8AE69772D"]
@@ -3223,6 +3221,33 @@
 			title: "&lNuclear Reactor"
 			x: 19.25d
 			y: -6.0d
+		}
+		{
+			dependencies: ["7FDD7770E05AA980"]
+			description: [
+				"In this pack, &a&lReactor Casing&r is the base of almost all machines of Create: New Age."
+				""
+				"I suggest you to make the energizer first to optimize its recipe."
+			]
+			hide_dependency_lines: true
+			id: "603BA6BD3B6DEC67"
+			rewards: [{
+				count: 2
+				id: "542AB5D26E3EC68E"
+				item: "create_new_age:reactor_casing"
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.75d
+			tasks: [{
+				id: "10DD6167356B5B42"
+				item: "create_new_age:reactor_casing"
+				type: "item"
+			}]
+			title: "&lCreate [New Age]"
+			x: 16.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["From Gears to Greatness: The Art of Automation"]

@@ -763,7 +763,10 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["2696B44AAD12D02A"]
+			dependencies: [
+				"2696B44AAD12D02A"
+				"74C9143F2AE3BB45"
+			]
 			icon: "create_new_age:reactor_rod"
 			id: "6957B0B6E890A661"
 			rewards: [{

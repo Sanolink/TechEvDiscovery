@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[{"tag":"forge:ingots/silver"}],"energy":51200,"input":{"item":"create_new_age:overcharged_gold"},"results":[{"base_ingredient":{"tag":"forge:ingots/electrum"},"count":2}],"time":100}

@@ -226,6 +226,8 @@ ServerEvents.recipes(e => {
     ['#forge:slag', 'immersiveengineering:slag'].forEach(I => {replaceIO(I, 'thermal:slag')});
     ['pneumaticcraft:wheat_flour'].forEach(I => {replaceIO(I, 'create:wheat_flour')});
     ['create:dough'].forEach(I => {replaceIO(I, 'farmersdelight:wheat_dough')});
+    ['quark:carrot_crate', 'thermal:carrot_block'].forEach(I => {replaceIO(I, 'farmersdelight:carrot_crate')});
+    ['quark:gunpowder_sack'].forEach(I => {replaceIO(I, 'thermal:gunpowder_block')});
 
     //Remove CRAFTING Repetitive Recipes
     e.remove({ output: '#forge:storage_blocks/brass', type: 'minecraft:crafting_shaped', mod: "create" })
@@ -275,6 +277,12 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'skilltree:copper_ingot'})
     e.remove({ id: 'quark:building/crafting/compressed/charcoal_block'})
     e.remove({ id: 'quark:building/crafting/compressed/charcoal_block_uncompress'})
+    e.remove({ id: 'quark:building/crafting/compressed/gunpowder_sack'})
+    e.remove({ id: 'quark:building/crafting/compressed/gunpowder_sack_uncompress'})
+    e.remove({ id: 'quark:building/crafting/compressed/carrot_crate'})
+    e.remove({ id: 'thermal:storage/carrot_block'})
+    e.remove({ id: 'thermal:storage/carrot_from_block'})
+    e.remove({ id: 'quark:building/crafting/compressed/carrot_crate_uncompress'})
     e.remove({ id: 'ad_astra:recipes/steel_ingot_from_nuggets'})
     e.remove({ id: 'ad_astra:recipes/steel_ingot'})
     e.remove({ id: 'ad_astra:recipes/steel_block'})

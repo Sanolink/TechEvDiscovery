@@ -52,4 +52,10 @@ StartupEvents.registry('fluid', e => {
       .displayName('Resonant Fluix')
       .stillTexture('ae2:fluid/resonant_fluix_still')
       .flowingTexture('ae2:fluid/resonant_fluix_flow')
+
+    e.create('mysticalagradditions:molten_insanium')  
+      .color(0x50007B)
+      .displayName('Molten Insanium')
+      .stillTexture('mysticalagradditions:block/molten_still')
+      .flowingTexture('mysticalagradditions:block/molten_flowing')
   })

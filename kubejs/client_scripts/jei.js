@@ -238,6 +238,8 @@ JEIEvents.hideItems(event => {
         'thermal:signalum_block',
         'thermal:tin_block', 'mekanism:block_tin',
         'quark:charcoal_block', 'mekanism:block_charcoal',
+        'quark:carrot_crate', 'thermal:carrot_block',
+        'quark:gunpowder_sack',
 
         //Wires
         'createaddition:copper_wire',

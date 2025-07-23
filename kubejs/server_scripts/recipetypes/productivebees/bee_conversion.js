@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
         { result: "tea", item: "create:builders_tea" }
     ]
     const ImperiumBased = [
-        { result: "creeper_bee", item: "quark:gunpowder_sack" },
+        { result: "creeper_bee", item: "thermal:gunpowder_block" },
         { result: "silky", item: "minecraft:cobweb" },
         { result: "bronze", item: "alltheores:bronze_block" },
         { result: "brass", item: "alltheores:brass_block" },

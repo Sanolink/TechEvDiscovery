@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.3.10        (_____)
 
 */
 
@@ -141,7 +141,21 @@ ServerEvents.recipes(event => {
                 Filling(FluidWithCount("minecraft:water", 250)),
                 Deploying("#forge:plates/copper")
             ])
-        }
+        },
+        // Reactor Casing
+        {
+            id: "reactor_casing",
+            input: [parseIngredient("ae2:smooth_sky_stone_block")],
+            output: [parseIngredient("create_new_age:reactor_casing")],
+            transition: "create_new_age:incomplete_casing",
+            sequence: makeSequence("create_new_age:incomplete_casing", [
+                Deploying("#forge:plates/cast_iron"),
+                Deploying("#forge:plates/cast_iron"),
+                Deploying("#forge:plates/cast_iron"),
+                Deploying("#forge:plates/cast_iron"),
+                Pressing()
+            ])
+        },
     ]
 
    //General Sequenced Assembly Function

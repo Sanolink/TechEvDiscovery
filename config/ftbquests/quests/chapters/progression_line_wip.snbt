@@ -247,12 +247,12 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Create Addons\"."
+			subtitle: "Finish the Main Quest of \"Create [Addons]\"."
 			tasks: [{
 				id: "4D79485F9CD731CF"
 				type: "checkmark"
 			}]
-			title: "&lCreate Addons"
+			title: "&lCreate [Addons]"
 			x: 8.25d
 			y: 3.0d
 		}
@@ -781,6 +781,30 @@
 				type: "checkmark"
 			}]
 			title: "&lSpirit"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"2696B44AAD12D02A"
+				"74C9143F2AE3BB45"
+			]
+			icon: "create_new_age:reactor_rod"
+			id: "6957B0B6E890A661"
+			rewards: [{
+				id: "33CF5D7FD281F685"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Create [New Age]\"."
+			tasks: [{
+				id: "5BFD96AB3DA4D8E6"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "&lCreate [New Age]"
 			x: 3.0d
 			y: 1.5d
 		}

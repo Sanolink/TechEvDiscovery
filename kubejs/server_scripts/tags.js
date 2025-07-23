@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.3.10        (_____)
 
 */
 
@@ -246,7 +246,10 @@ ServerEvents.tags('item', e => {
         'create:brass_sheet',
         'createaddition:zinc_sheet',
         'create:dough',
-        'immersiveengineering:slag'
+        'immersiveengineering:slag',
+        'quark:carrot_crate',
+        'thermal:carrot_block',
+        'quark:gunpowder_sack'
     ].forEach(item => {e.removeAllTagsFrom(item)})
 
     /**********************ADD****************************/

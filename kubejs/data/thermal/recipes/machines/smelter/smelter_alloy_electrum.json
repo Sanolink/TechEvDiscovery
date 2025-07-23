@@ -4,10 +4,7 @@
     {
       "value": [
         {
-          "tag": "forge:ingots/gold"
-        },
-        {
-          "tag": "forge:dusts/gold"
+          "item": "create_new_age:overcharged_gold"
         }
       ],
       "count": 1

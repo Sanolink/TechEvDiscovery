@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.9         (_____)
+(_____)         Last Modification : 1.3.10        (_____)
 
 */
 
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
         }
         recipes.push(
             {
-                id: `${modID}_${beg}${end}`,
+                id: `${modID}/${beg}${end}`,
                 input: parseIngredient(`${modID}:${beg}${end}`),
                 result: ChanceOrCountItem(outputPlanks, 6),
                 secondaries: [

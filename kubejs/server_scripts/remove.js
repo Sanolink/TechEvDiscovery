@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.9         (_____)
+(_____)         Last Modification : 1.3.10        (_____)
 
 */
 
@@ -119,6 +119,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coke_block'})
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coal_coke'})
     event.remove({ id: 'create:milling/compat/ae2/sky_stone_block'})
+    event.remove({ id: 'create_new_age:shapeless/energiser_t1'})
     event.remove({ input: 'minecraft:tuff', type: 'create:crushing' })
     event.remove({ input: 'minecraft:diamond', type: 'create:crushing' })
     event.remove({ input: '#forge:ingots/steel', type: 'create:crushing' })

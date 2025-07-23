@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -40,6 +40,36 @@ ServerEvents.recipes(event => {
             id : 'psimetal_block',
             output : parseIngredient('psi:psimetal_block'),
             ingredients : FluidWithCount('psi:destabilized_psimetal', 900)
+        },
+        {
+            id : 'inferium_essence',
+            output : parseIngredient('mysticalagriculture:inferium_essence'),
+            ingredients : [FluidWithCount("mysticalagradditions:molten_inferium", 250), parseIngredient('mysticalagriculture:fertilized_essence')] 
+        },
+        {
+            id : 'prudentium_essence',
+            output : parseIngredient('mysticalagriculture:prudentium_essence'),
+            ingredients : [FluidWithCount("mysticalagradditions:molten_prudentium", 250), parseIngredient('mysticalagriculture:fertilized_essence')] 
+        },
+        {
+            id : 'tertium_essence',
+            output : parseIngredient('mysticalagriculture:tertium_essence'),
+            ingredients : [FluidWithCount("mysticalagradditions:molten_tertium", 250), parseIngredient('mysticalagriculture:fertilized_essence')] 
+        },
+        {
+            id : 'imperium_essence',
+            output : parseIngredient('mysticalagriculture:imperium_essence'),
+            ingredients : [FluidWithCount("mysticalagradditions:molten_imperium", 250), parseIngredient('mysticalagriculture:fertilized_essence')] 
+        },
+        {
+            id : 'supremium_essence',
+            output : parseIngredient('mysticalagriculture:supremium_essence'),
+            ingredients : [FluidWithCount("mysticalagradditions:molten_supremium", 250), parseIngredient('mysticalagriculture:fertilized_essence')] 
+        },
+        {
+            id : 'insanium_essence',
+            output : parseIngredient('mysticalagradditions:insanium_essence'),
+            ingredients : [FluidWithCount("mysticalagradditions:molten_insanium", 250), parseIngredient('mysticalagriculture:fertilized_essence')] 
         }
     ]
 

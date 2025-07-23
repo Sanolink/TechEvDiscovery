@@ -76,6 +76,31 @@ ServerEvents.recipes(event => {
             ],
             output: [parseIngredient("create:copper_alloy")]
         },
+        {
+            id: "fusion_prudentium",
+            input: [parseIngredient("#matc:prudentium"), FluidWithCount("mysticalagradditions:molten_prudentium", 250), FluidWithCount("mysticalagradditions:molten_inferium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_prudentium", 500)]
+        },
+        {
+            id: "fusion_tertium",
+            input: [parseIngredient("#matc:tertium"), FluidWithCount("mysticalagradditions:molten_tertium", 250), FluidWithCount("mysticalagradditions:molten_prudentium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_tertium", 500)]
+        },
+        {
+            id: "fusion_imperium",
+            input: [parseIngredient("#matc:imperium"), FluidWithCount("mysticalagradditions:molten_imperium", 250), FluidWithCount("mysticalagradditions:molten_tertium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_imperium", 500)]
+        },
+        {
+            id: "fusion_supremium",
+            input: [parseIngredient("#matc:supremium"), FluidWithCount("mysticalagradditions:molten_supremium", 250), FluidWithCount("mysticalagradditions:molten_imperium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_supremium", 500)]
+        },
+        {
+            id: "fusion_insanium",
+            input: [parseIngredient("mysticalagriculture:master_infusion_crystal"), FluidWithCount("mysticalagradditions:molten_insanium", 250), FluidWithCount("mysticalagradditions:molten_supremium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_insanium", 500)]
+        },
         //Heated Recipes
         {
             id: "pewter_blend",
@@ -107,6 +132,42 @@ ServerEvents.recipes(event => {
                 parseIngredient("forbidden_arcanus:arcane_crystal_dust"), parseIngredient("forbidden_arcanus:arcane_crystal_dust"), parseIngredient("forbidden_arcanus:arcane_crystal_dust")
             ],
             output: [FluidWithCount("botania:synthetic_mana_diamond", 1000)],
+        },
+        {
+            id: "molten_inferium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:inferium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_inferium", 250)]
+        },
+        {
+            id: "molten_prudentium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:prudentium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_prudentium", 250)]
+        },
+        {
+            id: "molten_tertium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:tertium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_tertium", 250)]
+        },
+        {
+            id: "molten_imperium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:imperium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_imperium", 250)]
+        },
+        {
+            id: "molten_supremium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:supremium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_supremium", 250)]
+        },
+        {
+            id: "molten_insanium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagradditions:insanium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_insanium", 250)]
         },
         //Superheated Recipes
         {

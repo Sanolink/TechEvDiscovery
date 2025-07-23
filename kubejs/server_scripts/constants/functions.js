@@ -123,3 +123,8 @@ function TagToItem(tag) {
 function BeeConfigurableComb(type) {
     return NBTItem("productivebees:configurable_honeycomb", {"EntityTag": {"type": `productivebees:${type}`}})
 }
+
+//Mystical Soul
+function MysticalSoul(type, count) {
+    return { type: type, souls: count }
+}

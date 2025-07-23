@@ -295,6 +295,10 @@ ServerEvents.tags('item', e => {
     e.add('lychee:lightning_fire_immune', 'powah:steel_energized')
     e.add('psi:psimetal_assemblies', ['psi:cad_assembly_psimetal', 'psi:cad_assembly_ivory_psimetal', 'psi:cad_assembly_ebony_psimetal'])
     e.add('industrialforegoing:sludge_containors', ['industrialforegoing:sludge_bucket', 'industrialforegoing:sludge_bottle'])
+    e.add('matc:inferium', ["matc:prudentium_crystal", "matc:tertium_crystal", "matc:imperium_crystal", "matc:supremium_crystal"])
+    e.add('matc:prudentium', ["matc:tertium_crystal", "matc:imperium_crystal", "matc:supremium_crystal"])
+    e.add('matc:tertium', ["matc:imperium_crystal", "matc:supremium_crystal"])
+    e.add('matc:imperium', ["matc:supremium_crystal"])
 
     // Common Tags
     e.add('forge:raw_materials', 'ad_astra:raw_nephryx')

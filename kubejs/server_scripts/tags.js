@@ -270,7 +270,8 @@ ServerEvents.tags('item', e => {
         'mysticalagriculture:graphite_seeds',
         'mysticalagriculture:tungsten_seeds',
         'mysticalagriculture:titanium_seeds',
-        'mysticalagriculture:chrome_seeds'
+        'mysticalagriculture:chrome_seeds',
+        'productivebees:honey_bucket'
     ].forEach(item => {e.removeAllTagsFrom(item)})
 
     /**********************ADD****************************/

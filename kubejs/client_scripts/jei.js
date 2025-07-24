@@ -19,6 +19,8 @@
 
 const $ProductiveBeesJeiPlugin = Java.loadClass("cy.jdkdigital.productivebees.integrations.jei.ProductiveBeesJeiPlugin")
 const $BeeIngredient = Java.loadClass("cy.jdkdigital.productivebees.integrations.jei.ingredients.BeeIngredient")
+const $FluidStack = Java.loadClass("net.minecraftforge.fluids.FluidStack");
+const $ForgeTypes = Java.loadClass('mezz.jei.api.forge.ForgeTypes');
 
 JEIEvents.hideCustom(event => {
     let beeToRemove = [
@@ -44,6 +46,7 @@ JEIEvents.hideCustom(event => {
             }
         })
     })
+    event.get($ForgeTypes.FLUID_STACK).hide(new $FluidStack(Fluid.of('productivebees:honey').getFluid(), 1000, 'compound'))
 })
 
 JEIEvents.hideItems(event => {
@@ -317,24 +320,24 @@ JEIEvents.hideItems(event => {
         'productivebees:spawn_egg_reed_bee',
         'productivebees:spawn_egg_sweat_bee',
         'productivebees:spawn_egg_blue_banded_bee',
-        'productivebees:spawn_egg_nomad_bee'
+        'productivebees:spawn_egg_nomad_bee',
+        'productivebees:honey_bucket'
     ])
 })
 
 JEIEvents.hideFluids(event => {
-    event.hide('cofh_core:honey'),
-    event.hide('productivebees:honey'),
-    event.hide('createaddition:seed_oil'),
-    event.hide('immersiveengineering:biodiesel'),
-    event.hide('immersivepetroleum:diesel'),
-    event.hide('immersivepetroleum:gasoline'),
-    event.hide('immersivepetroleum:kerosene'),
-    event.hide('immersivepetroleum:lubricant'),
-    event.hide('pneumaticcraft:ethanol'),
-    event.hide('pneumaticcraft:oil'),
-    event.hide('pneumaticcraft:vegetable_oil'),
-    event.hide('thermal:crude_oil'),
-    event.hide('thermal:creosote'),
+    event.hide('cofh_core:honey')
+    event.hide('createaddition:seed_oil')
+    event.hide('immersiveengineering:biodiesel')
+    event.hide('immersivepetroleum:diesel')
+    event.hide('immersivepetroleum:gasoline')
+    event.hide('immersivepetroleum:kerosene')
+    event.hide('immersivepetroleum:lubricant')
+    event.hide('pneumaticcraft:ethanol')
+    event.hide('pneumaticcraft:oil')
+    event.hide('pneumaticcraft:vegetable_oil')
+    event.hide('thermal:crude_oil')
+    event.hide('thermal:creosote')
     event.hide('ad_astra:oil')
 })
 

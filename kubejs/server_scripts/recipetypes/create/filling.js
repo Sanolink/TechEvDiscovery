@@ -50,6 +50,12 @@ ServerEvents.recipes(event => {
             output: [parseIngredient('industrialforegoing:sludge_bottle')],
             input: [parseIngredient('minecraft:glass_bottle')],
             fluid: FluidWithCount("industrialforegoing:sludge", 250)
+        },
+        {
+            id: "honey_treat",
+            output: [parseIngredient('productivebees:honey_treat')],
+            input: [parseIngredient('minecraft:honeycomb')],
+            fluid: FluidWithCount("create:honey", 250)
         }
     ]
 

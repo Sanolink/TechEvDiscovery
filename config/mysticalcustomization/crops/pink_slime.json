@@ -4,7 +4,7 @@
     "tier": "mysticalagriculture:4",
     "ingredient": {
       "item": "mysticalagriculture:soul_jar",
-      "nbt": "{Souls:10000.0d,Type:\"mysticalcustomization:pink_slime\"}"
+      "nbt": "{Souls:1000.0d,Type:\"mysticalcustomization:pink_slime\"}"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower/pink_slime_flower",

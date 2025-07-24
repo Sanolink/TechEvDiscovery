@@ -4,7 +4,7 @@
     "tier": "mysticalagriculture:5",
     "ingredient": {
       "item": "mysticalagriculture:soul_jar",
-      "nbt": "{Souls:10000.0d,Type:\"mysticalcustomization:echo\"}"
+      "nbt": "{Souls:1000.0d,Type:\"mysticalcustomization:echo\"}"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower/echo_flower",

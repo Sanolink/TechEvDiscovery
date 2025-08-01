@@ -17,10 +17,12 @@
 
 */
 
-StartupEvents.registry("mekanism:infuse_type", e => {
+const $InfuseType = Java.loadClass('mekanism.api.chemical.infuse.InfuseType')
+const $InfuseTypeBuilder = Java.loadClass('mekanism.api.chemical.infuse.InfuseTypeBuilder')
 
-    e.create("mekaevolution:radiance").color(0xC6C846).texture('mekanism:infuse_types/base').displayName("Radiance")
-    e.create("mekaevolution:thermonuclear").color(0xE54B4C).texture('mekanism:infuse_types/base').displayName("Thermonuclear")
-    e.create("mekaevolution:shining").texture('mekaevolution:infuse_type/shining').displayName("Shining")
-    e.create("mekaevolution:spectrum").texture('mekaevolution:infuse_type/spectrum').displayName("Spectrum")
+StartupEvents.registry('mekanism:infuse_type', event => {
+    event.createCustom('mekaevolution:radiance', () => new $InfuseType($InfuseTypeBuilder.builder().color(0xC6C846)))
+    event.createCustom('mekaevolution:thermonuclear', () => new $InfuseType($InfuseTypeBuilder.builder().color(0xE54B4C)))
+    event.createCustom('mekaevolution:shining', () => new $InfuseType($InfuseTypeBuilder.builder('mekaevolution:infuse_type/shining')))
+    event.createCustom('mekaevolution:spectrum', () => new $InfuseType($InfuseTypeBuilder.builder('mekaevolution:infuse_type/spectrum')))
 })

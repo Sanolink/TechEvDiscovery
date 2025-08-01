@@ -1,0 +1,60 @@
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.4.0         (_____)
+
+*/
+
+ServerEvents.recipes(event => {
+    
+    //Recipes 
+    const recipes = [
+        {
+            id: "alloy/radiance",
+            chemicalInput: MekaInfuseType("mekaevolution:radiance", 40),
+            itemInput: parseIngredient('mekanism:alloy_atomic'),
+            output: parseIngredient('mekaevolution:alloy_radiance')
+        },
+        {
+            id: "alloy/thermonuclear",
+            chemicalInput: MekaInfuseType("mekaevolution:thermonuclear", 40),
+            itemInput: parseIngredient('mekaevolution:alloy_radiance'),
+            output: parseIngredient('mekaevolution:alloy_thermonuclear')
+        },
+        {
+            id: "alloy/shining",
+            chemicalInput: MekaInfuseType("mekaevolution:shining", 80),
+            itemInput: parseIngredient('mekaevolution:alloy_thermonuclear'),
+            output: parseIngredient('mekaevolution:alloy_shining')
+        },
+        {
+            id: "alloy/spectrum",
+            chemicalInput: MekaInfuseType("mekaevolution:spectrum", 80),
+            itemInput: parseIngredient('mekaevolution:alloy_shining'),
+            output: parseIngredient('mekaevolution:alloy_spectrum')
+        },
+    ]
+
+    //General Metallurgic Infusing Function
+    recipes.forEach(recipe => {
+        let json = {
+            type: 'mekanism:metallurgic_infusing',
+            chemicalInput: recipe.chemicalInput,
+            itemInput: { "ingredient": recipe.itemInput },
+            output: recipe.output
+        }
+        event.custom(json).id(`mekanism:metallurgic_infusing/${recipe.id}`)
+    })
+})

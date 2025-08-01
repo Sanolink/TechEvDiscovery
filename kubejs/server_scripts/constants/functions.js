@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -127,4 +127,14 @@ function BeeConfigurableComb(type) {
 //Mystical Soul
 function MysticalSoul(type, count) {
     return { type: type, souls: count }
+}
+
+//Infuse Type
+function MekaInfuseType(type, amount) {
+    return { infuse_type: type, amount: amount }
+}
+
+//Gas
+function MekaGas(type, amount) {
+    return { gas: type, amount: amount }
 }

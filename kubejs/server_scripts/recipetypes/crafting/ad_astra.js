@@ -32,10 +32,52 @@ ServerEvents.recipes(event => {
                 C: 'pneumaticcraft:compressed_iron_gear',
                 D: 'thermal_extra:upgrade_augment'
             }
+        },
+        //Nephryx
+        {
+            output: 'ad_astra:raw_nephryx_block',
+            pattern: ["NNN", "NNN", "NNN"],
+            key: {
+                N: 'ad_astra:raw_nephryx'
+            }
+        },
+        {
+            output: 'ad_astra:nephryx_block',
+            pattern: ["NNN", "NNN", "NNN"],
+            key: {
+                N: 'ad_astra:nephryx_ingot'
+            }
+        },
+        {
+            output: 'ad_astra:nephryx_ingot',
+            pattern: ["NNN", "NNN", "NNN"],
+            key: {
+                N: 'ad_astra:nephryx_nugget'
+            }
+        }
+    ]
+
+    const shapeless = [
+        //Nephryx
+        {
+            output: '9x ad_astra:raw_nephryx',
+            input: 'ad_astra:raw_nephryx_block'
+        },
+        {
+            output: '9x ad_astra:nephryx_ingot',
+            input: 'ad_astra:nephryx_block'
+        },
+        {
+            output: '9x ad_astra:nephryx_nugget',
+            input: 'ad_astra:nephryx_ingot'
         }
     ]
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.output)
+    })
+
+    shapeless.forEach((recipe) => {
+        event.shapeless(recipe.output, recipe.input).id(recipe.output.split(":")[1])
     })
  })

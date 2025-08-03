@@ -97,6 +97,10 @@ StartupEvents.registry('item', e => {
     BasicItem('mekaevolution:enriched_thermonuclear', "Enriched Thermonuclear")
     
     BasicItem('mekanism:pellet_hypermatter', "§3Hypermatter Pellet")
+    BasicItem('mekanism:dust_refined_glowstone', "Refined Glowstone Dust")
+    BasicItem('mekanism:enriched_ionium', "Enriched Ionium")
+    BasicItem('mekanism:enriched_iridium', "Enriched Iridium")
+    BasicItem('mekanism:crystal_hypernitro', "Hypernitro Crystal")
 
     BasicItem('mysticalagriculture:ultimate_essence', "Ultimate Essence").texture("mysticalagriculture/item/essence/ultimate_essence")
 

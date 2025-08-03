@@ -136,5 +136,5 @@ function MekaInfuseType(type, amount) {
 
 //Gas
 function MekaGas(type, amount) {
-    return { gas: type, amount: amount }
+    return { gas: type, chemicalType: "gas", amount: amount }
 }

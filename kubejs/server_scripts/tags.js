@@ -305,7 +305,7 @@ ServerEvents.tags('item', e => {
     e.add('forge:raw_materials', 'ad_astra:raw_nephryx')
     e.add('forge:ingots', 'ad_astra:nephryx_ingot')
     e.add('forge:nuggets', 'ad_astra:nephryx_nugget')
-    e.add('forge:dusts', 'alltheores:netherite_dust')
+    e.add('forge:dusts', 'alltheores:netherite_dust', 'ad_astra:desh_dust', 'ad_astra:ostrum_dust', 'ad_astra:calorite_dust')
     e.add('forge:plates', 'botania:elementium_plate', 'ad_astra:nephryx_plate')
     e.add('forge:gears', 'botania:elementium_gear', 'ad_astra:nephryx_gear', 'ad_astra:desh_gear', 'ad_astra:ostrum_gear', 'ad_astra:calorite_gear')
     e.add('forge:rods', 'ad_astra:nephryx_rod', 'ad_astra:desh_rod', 'ad_astra:ostrum_rod', 'ad_astra:calorite_rod')
@@ -317,6 +317,9 @@ ServerEvents.tags('item', e => {
     e.add('forge:ingots/nephryx', 'ad_astra:nephryx_ingot')
     e.add('forge:nuggets/nephryx', 'ad_astra:nephryx_nugget')
     e.add('forge:dusts/netherite', 'alltheores:netherite_dust')
+    e.add('forge:dusts/desh', 'ad_astra:desh_dust')
+    e.add('forge:dusts/ostrum', 'ad_astra:ostrum_dust')
+    e.add('forge:dusts/calorite', 'ad_astra:calorite_dust')
     e.add('forge:plates/elementium', 'botania:elementium_plate')
     e.add('forge:plates/nephryx', 'ad_astra:nephryx_plate')
     e.add('forge:rods/nephryx', 'ad_astra:nephryx_rod')
@@ -350,6 +353,56 @@ ServerEvents.tags('item', e => {
             e.add(`forge:soil_tier/${tier}`, `#forge:soil_tier/${tierNext}`)
         } else if (!farmlandNext) { break }
     }
+})
+
+ServerEvents.tags("block", e => {
+
+    /********************DISABLE**************************/
+    const DISABLED_BLOCKS = [
+        'eidolon:silver_block',
+        'immersiveengineering:storage_silver',
+        'thermal:silver_block',
+        'iceandfire:silver_block',
+        'occultism:silver_block',
+        'darkerdepths:silver_block',
+        'immersiveengineering:storage_lead',
+        'eidolon:lead_block',
+        'thermal:lead_block',
+        'mekanism:block_lead',
+        'mekanism:block_charcoal',
+        'quark:charcoal_block',
+        'thermal:tin_block',
+        'mekanism:block_tin',
+        'immersiveengineering:storage_nickel',
+        'thermal:nickel_block',
+        'thermal:bronze_block',
+        'mekanism:block_bronze',
+        'immersiveengineering:storage_steel',
+        'mekanism:block_steel',
+        'ad_astra:steel_block',
+        'immersiveengineering:storage_constantan',
+        'thermal:constantan_block',
+        'immersiveengineering:storage_electrum',
+        'thermal:electrum_block',
+        'immersiveengineering:storage_uranium',
+        'mekanism:block_uranium',
+        'create:zinc_block',
+        'mekanism:block_osmium',
+        'immersiveengineering:storage_aluminum',
+        'create:brass_block',
+        'thermal:coal_coke_block',
+        'thermal:invar_block',
+        'thermal:enderium_block',
+        'thermal:signalum_block',
+        'thermal:lumium_block',
+        'iceandfire:sapphire_block',
+        'quark:gunpowder_sack',
+        'thermal:carrot_block',
+        'quark:carrot_crate',
+        'mekanism:uranium_ore',
+        'mekanism:deepslate_uranium_ore'
+    ].forEach(block => {e.removeAllTagsFrom(block)})
+    
 })
 
 ServerEvents.tags("fluid", e => {

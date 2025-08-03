@@ -287,6 +287,8 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'ad_astra:recipes/steel_ingot'})
     e.remove({ id: 'ad_astra:recipes/steel_block'})
     e.remove({ id: 'ad_astra:recipes/steel_nugget'})
+    e.remove({ id: 'mekanism:storage_blocks/charcoal'})
+    e.remove({ id: 'mekanism:charcoal'})
 
     const RAW_BLOCKS_IE = ['alltheores:raw_aluminum_block', 'alltheores:raw_zinc_block', 'alltheores:raw_lead_block', 'alltheores:raw_silver_block', 'alltheores:raw_nickel_block', 'alltheores:raw_uranium_block']
     const BLOCKS_IE = ['alltheores:silver_block', 'alltheores:lead_block', 'alltheores:steel_block', 'alltheores:electrum_block', 'alltheores:constantan_block', 'alltheores:uranium_block', 'alltheores:nickel_block', 'alltheores:aluminum_block']

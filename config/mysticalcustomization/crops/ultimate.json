@@ -3,8 +3,7 @@
     "type": "mysticalagriculture:resource",
     "tier": "mysticalcustomization:ultimate",
     "ingredient": {
-      "item": "productivebees:configurable_honeycomb",
-      "nbt": "{EntityTag:{type:\"productivebees:ultimate\"}}"
+      "item": "productivebees:honeycomb_ultimate"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower/ultimate_flower",

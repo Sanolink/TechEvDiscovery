@@ -45,6 +45,18 @@ ServerEvents.recipes(event => {
             itemInput: parseIngredient('mekaevolution:alloy_shining'),
             output: parseIngredient('mekaevolution:alloy_spectrum')
         },
+        {
+            id: "dust/from_glowstone_dust",
+            chemicalInput: MekaInfuseType("mekanism:ionium", 10),
+            itemInput: parseIngredient('minecraft:glowstone_dust'),
+            output: parseIngredient('mekanism:dust_refined_glowstone')
+        },
+        {
+            id: "steel_casing",
+            chemicalInput: MekaInfuseType("mekanism:carbon", 40),
+            itemInput: parseIngredient('thermal:machine_frame'),
+            output: parseIngredient('mekanism:steel_casing')
+        },
     ]
 
     //General Metallurgic Infusing Function

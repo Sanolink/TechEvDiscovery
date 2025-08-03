@@ -20,7 +20,15 @@
 ServerEvents.recipes(event => {
 
     //Recipes  
-    compressing("diamond_plate_from_compressing_diamond_gem", "forge:gems/diamond", "alltheores:diamond_plate", 1)
+    compressing("diamond_plate_from_compressing_diamond_gem", "#forge:gems/diamond", "alltheores:diamond_plate", 1)
+    compressing("cast_iron_plate_from_compressing_cast_iron_ingot", "createdeco:cast_iron_ingot", "createdeco:cast_iron_sheet", 1)
+    compressing("overcharged_iron_plate_from_compressing_overcharged_iron", "create_new_age:overcharged_iron", "create_new_age:overcharged_iron_sheet", 1)
+    compressing("overcharged_gold_plate_from_compressing_overcharged_gold", "create_new_age:overcharged_gold", "create_new_age:overcharged_golden_sheet", 1)
+    compressing("rose_quartz_plate_from_compressing_polished_rose_quartz", "create:polished_rose_quartz", "create_things_and_misc:rose_quartz_sheet", 1)
+    compressing("experience_plate_from_compressing_experience_nugget", "create:experience_nugget", "create_things_and_misc:experience_sheet", 1)
+    compressing("blue_quartz_plate_from_compressing_polished_blue_quartz", "create:polished_blue_quartz", "create_things_and_misc:blue_quartz_sheet", 1)
+    compressing("psi_quartz_plate_from_compressing_polished_psi_quartz", "create:polished_psi_quartz", "create_things_and_misc:psi_quartz_sheet", 1)
+    compressing("source_quartz_plate_from_compressing_polished_source_quartz", "create:polished_source_quartz", "create_things_and_misc:source_quartz_sheet", 1)
 
     var CompressingPlates = [
         'alltheores:aluminum_plate',
@@ -56,7 +64,7 @@ ServerEvents.recipes(event => {
     ].forEach(plate => {
         let mat = plate.split(":")[1].replace("_plate", "")
         let id = mat + "_plate_from_compressing_" + mat + "_ingot"
-        let input = "forge:ingots/" + mat
+        let input = "#forge:ingots/" + mat
         compressing(id, input, plate, 1)
         }
     );
@@ -65,7 +73,7 @@ ServerEvents.recipes(event => {
     function compressing(id, input, output, count) {
         let recipe = {
             type: "ad_astra:compressing",
-            input: { tag: input},
+            input: parseIngredient(input),
             output: {
                 id: output,
                 count: count

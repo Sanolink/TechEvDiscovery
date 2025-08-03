@@ -157,7 +157,11 @@ ServerEvents.recipes(event => {
         'iesnium',
         'manasteel',
         'terrasteel',
-        'elementium'
+        'elementium',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach((mat) => {
         recipes.push(
             {

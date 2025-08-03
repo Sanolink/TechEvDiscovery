@@ -27,9 +27,19 @@ ServerEvents.recipes(event => {
             output: MekaInfuseType("mekaevolution:radiance", 80)
         },
         {
+            id: "radiance/from_dust",
+            input: parseIngredient('mekanism:dust_refined_glowstone'),
+            output: MekaInfuseType("mekaevolution:radiance", 10)
+        },
+        {
             id: "thermonuclear/from_enriched",
             input: parseIngredient('mekaevolution:enriched_thermonuclear'),
             output: MekaInfuseType("mekaevolution:thermonuclear", 80)
+        },
+        {
+            id: "thermonuclear/from_crystal",
+            input: parseIngredient('mekanism:crystal_hypernitro'),
+            output: MekaInfuseType("mekaevolution:thermonuclear", 10)
         },
         {
             id: "shining/from_enriched",
@@ -41,6 +51,26 @@ ServerEvents.recipes(event => {
             input: parseIngredient('mekaevolution:enriched_spectrum'),
             output: MekaInfuseType("mekaevolution:spectrum", 80)
         },
+        {
+            id: "ionium/from_dust",
+            input: parseIngredient('mekanism:dust_lithium'),
+            output: MekaInfuseType("mekanism:ionium", 10)
+        },
+        {
+            id: "ionium/from_enriched",
+            input: parseIngredient('mekanism:enriched_ionium'),
+            output: MekaInfuseType("mekanism:ionium", 80)
+        },
+        {
+            id: "iridium/from_dust",
+            input: parseIngredient('alltheores:iridium_dust'),
+            output: MekaInfuseType("mekanism:iridium", 10)
+        },
+        {
+            id: "iridium/from_enriched",
+            input: parseIngredient('mekanism:enriched_iridium'),
+            output: MekaInfuseType("mekanism:iridium", 80)
+        }
     ]
 
     //General Infusion Cnversion Function

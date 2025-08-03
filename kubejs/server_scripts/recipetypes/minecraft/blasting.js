@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -25,6 +25,16 @@ ServerEvents.recipes(event => {
             id: 'raw_andesite_alloy',
             in: 'create:raw_andesite_alloy',
             out: 'create:andesite_alloy'
+        },
+        {
+            id: 'mercury_nephryx_ore',
+            in: 'ad_astra:mercury_nephryx_ore',
+            out: 'ad_astra:nephryx_ingot'
+        },
+        {
+            id: 'raw_nephryx',
+            in: 'ad_astra:raw_nephryx',
+            out: 'ad_astra:nephryx_ingot'
         }
     ]
 

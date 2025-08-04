@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -65,7 +65,11 @@ ServerEvents.recipes(event => {
         "uranium",
         "aluminum",
         "iesnium",
-        "steel"
+        "steel",
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -83,7 +87,11 @@ ServerEvents.recipes(event => {
         {main: "uranium", dust: 'alltheores:uranium_dust', secdust: 'alltheores:lead_dust'},
         {main: "iridium", dust: 'alltheores:iridium_dust', secdust: 'alltheores:uranium_dust'},
         {main: "zinc", dust: 'alltheores:zinc_dust', secdust: 'alltheores:copper_dust', excludeore: true},
-        {main: "iesnium", dust: 'occultism:iesnium_dust'}
+        {main: "iesnium", dust: 'occultism:iesnium_dust'},
+        {main: "desh", dust: 'ad_astra:desh_dust'},
+        {main: "ostrum", dust: 'ad_astra:ostrum_dust'},
+        {main: "calorite", dust: 'ad_astra:calorite_dust'},
+        {main: "nephryx", dust: 'ad_astra:nephryx_dust'}
     ].forEach((mat) => {
         recipes.push(
             {
@@ -119,7 +127,11 @@ ServerEvents.recipes(event => {
         "dragonsteel",
         "prismalium",
         "melodium",
-        "stellarium"
+        "stellarium",
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach((mat) => {
         recipes.push(
             {

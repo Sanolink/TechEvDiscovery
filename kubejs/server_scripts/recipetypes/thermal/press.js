@@ -161,7 +161,16 @@ ServerEvents.recipes(event => {
         'desh',
         'ostrum',
         'calorite',
-        'nephryx'
+        'nephryx',
+        'refined_glowstone',
+        'refined_obsidian',
+        'the_ultimate',
+        'crystaltine',
+        'enhanced_ender_ingot',
+        'ender_ingot',
+        'enhanced_redstone_ingot',
+        'redstone_ingot',
+        'black_iron'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -191,6 +200,45 @@ ServerEvents.recipes(event => {
         )
     });
     
+    const MysticalIngotsPackingUnpacking = [
+        'soulium',
+        'awakened_supremium',
+        'supremium',
+        'imperium',
+        'tertium',
+        'prudentium',
+        'inferium',
+        'prosperity',
+        'insanium'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_nugget_packing`,
+                output: parseIngredient(TagToItem(`#forge:ingots/${mat}`)),
+                ingredients: [ChanceOrCountTag(`#forge:nuggets/${mat}`, 9), parseIngredient('thermal:press_packing_3x3_die')],
+                energy: 400
+            },
+            {
+                id: `${mat}_packing`,
+                output: parseIngredient(TagToItem(`#forge:storage_blocks/${mat}_ingot`)),
+                ingredients: [ChanceOrCountTag(`#forge:ingots/${mat}`, 9), parseIngredient('thermal:press_packing_3x3_die')],
+                energy: 400
+            },
+            {
+                id: `${mat}_unpacking`,
+                output: ChanceOrCountItem(TagToItem(`#forge:ingots/${mat}`), 9),
+                ingredients: [parseIngredient(`#forge:storage_blocks/${mat}_ingot`), parseIngredient('thermal:press_unpacking_die')],
+                energy: 400
+            },
+            {
+                id: `${mat}_nugget_unpacking`,
+                output: ChanceOrCountItem(TagToItem(`#forge:nuggets/${mat}`), 9),
+                ingredients: [parseIngredient(`#forge:ingots/${mat}`), parseIngredient('thermal:press_unpacking_die')],
+                energy: 400
+            }
+        )
+    });
+
     // Ingots -> Gears
     const IngotsToGears = [
         "compressed_iron",

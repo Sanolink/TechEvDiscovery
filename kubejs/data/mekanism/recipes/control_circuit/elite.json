@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "D": {
+            "tag": "forge:plates/diamond"
+        },
+        "P": {
+            "item": "create:positron_tube"
+        },
+        "A": {
+            "tag": "mekanism:alloys/reinforced"
+        },
+        "C": {
+            "tag": "forge:circuits/advanced"
+        }
+    },
+    "pattern": [
+        "DPD",
+        "ACA",
+        "DPD"
+    ],
+    "result": {
+        "item": "mekanism:elite_control_circuit"
+    }
+}

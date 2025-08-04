@@ -111,6 +111,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'constructionwand:diamond_wand', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'constructionwand:infinity_wand', type: 'minecraft:crafting_shaped' })
 
+    //Cooking For Blockheads
+    event.remove({ id: 'cookingforblockheads:sink'})
+
     //Create
     event.remove({ id: 'create:smoking/bread'})
     event.remove({ id: 'create:smelting/bread'})
@@ -216,8 +219,16 @@ ServerEvents.recipes(event => {
     //Industrial Foregoing
     event.remove({ id: 'ad_astra_giselle_addon:compat/industrialforegoing/laser_drill_fluid/oil'})
     
+    //Just Another Void Dimension
+    event.remove({ id: 'javd:portal_block'})
+    
     //Mekanism 
     event.remove({ id: 'mekanism:metallurgic_infuser'})
+    event.remove({ id: 'mekaevolution:absolute_control_circuit'})
+    event.remove({ id: 'mekaevolution:supreme_control_circuit'})
+    event.remove({ id: 'mekaevolution:cosmic_control_circuit'})
+    event.remove({ id: 'mekanism:processing/bronze/ingot/from_infusing'})
+    event.remove({ id: 'mekanism:steel_casing'})
 
     //Minecraft
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
@@ -365,6 +376,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'productivebees:honey_bucket_to_honey_block'})
     event.remove({ id: 'productivebees:honey_bucket_from_block'})
     event.remove({ id: 'productivebees:honey_bucket'})
+    event.remove({ id: 'productivebees:powered_centrifuge/thermal'})
     event.remove({ type: "productivebees:bee_spawning"})
     event.remove({ type: "productivebees:bee_fishing"})
     event.remove({ type: "productivebees:bee_breeding"})
@@ -392,6 +404,10 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'storagenetwork:crafting_remote', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'storagenetwork:master', type: 'minecraft:crafting_shaped' })
 
+    // Tardis Refined 
+
+    event.remove({id: 'tardis_refined:terraformer'})
+    
     //Thermal Series 
     event.remove({ input: 'thermal:earth_charge', output: '#forge:dusts', not: {output: '#forge:dusts/prismarine'}})
     event.remove({ id: 'thermal:earth_charge/ender_pearl_dust_from_ender_pearl'})

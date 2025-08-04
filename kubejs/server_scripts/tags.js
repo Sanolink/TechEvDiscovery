@@ -314,6 +314,7 @@ ServerEvents.tags('item', e => {
     e.add('forge:raw_materials/nephryx', 'ad_astra:raw_nephryx')
     e.add('forge:raw_materials/elementium', "mythicbotany:raw_elementium")
     e.add('forge:storage_blocks/raw_elementium', "mythicbotany:raw_elementium_block")
+    e.add('forge:storage_blocks/insanium_ingot', "mysticalagradditions:insanium_ingot_block")
     e.add('forge:ingots/nephryx', 'ad_astra:nephryx_ingot')
     e.add('forge:nuggets/nephryx', 'ad_astra:nephryx_nugget')
     e.add('forge:dusts/netherite', 'alltheores:netherite_dust')

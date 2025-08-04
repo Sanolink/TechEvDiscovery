@@ -40,8 +40,43 @@ ServerEvents.recipes(event => {
             id: "enriched_iridium",
             input: parseIngredient('alltheores:iridium_dust'),
             output: parseIngredient('mekanism:enriched_iridium'),
-        }
+        },
+        {
+            id: `iridium_dust_from_ore`,
+            input: parseIngredient(`#forge:ores/iridium`),
+            output: ChanceOrCountItem(TagToItem(`#forge:dusts/iridium`), 2),
+        },
+        {
+            id: `iridium_dust_from_raw`,
+            input: ChanceOrCountTag(`#forge:raw_materials/iridium`, 3),
+            output: ChanceOrCountItem(TagToItem(`#forge:dusts/iridium`), 4),
+        },
     ]
+
+    const RawMat_OresToDusts = [ 
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `${mat}_dust_from_ore`,
+                input: parseIngredient(`#forge:ores/${mat}`),
+                output: ChanceOrCountItem(TagToItem(`#forge:dusts/${mat}`), 2),
+            },
+            {
+                id: `${mat}_dust_from_raw`,
+                input: ChanceOrCountTag(`#forge:raw_materials/${mat}`, 3),
+                output: ChanceOrCountItem(TagToItem(`#forge:dusts/${mat}`), 4),
+            },
+            {
+                id: `${mat}_dust_from_raw_block`,
+                input: parseIngredient(`#forge:storage_blocks/raw_${mat}`),
+                output: ChanceOrCountItem(TagToItem(`#forge:dusts/${mat}`), 12),
+            }
+        )
+    })
 
     //General Enriching Function
     recipes.forEach(recipe => {

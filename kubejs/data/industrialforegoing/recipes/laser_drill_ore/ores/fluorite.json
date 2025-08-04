@@ -1,0 +1,54 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ores/fluorite"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "industrialforegoing:laser_drill_ore",
+        "catalyst": {
+          "item": "industrialforegoing:laser_lens8"
+        },
+        "output": {
+          "tag": "forge:ores/fluorite"
+        },
+        "pointer": 0,
+        "rarity": [
+          {
+            "blacklist": {},
+            "depth_max": 30,
+            "depth_min": 15,
+            "weight": 6,
+            "whitelist": {
+              "type": "minecraft:worldgen/biome",
+              "values": [
+                "ad_astra:glacio_ice_peaks",
+                "ad_astra:glacio_snowy_barrens"
+              ]
+            }
+          },
+          {
+            "blacklist": {},
+            "depth_max": 255,
+            "depth_min": 0,
+            "weight": 1,
+            "whitelist": {
+              "type": "minecraft:worldgen/biome",
+              "values": [
+                "ad_astra:glacio_ice_peaks",
+                "ad_astra:glacio_snowy_barrens"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -259,8 +259,18 @@
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "5B5B819C0286205D"
+			tasks: [{
+				id: "09DC45FDCB2C30C5"
+				item: "javd:portal_block"
+				type: "item"
+			}]
 			x: -3.0d
-			y: 1.0d
+			y: -2.5d
 		}
 	]
 	title: " &l&6♦ &rQuantum Utilities"

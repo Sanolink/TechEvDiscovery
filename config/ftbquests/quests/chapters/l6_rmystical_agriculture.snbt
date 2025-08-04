@@ -136,10 +136,10 @@
 			dependencies: ["7C39130F147E2134"]
 			id: "6508B1690933CD15"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "5A130D55143BA33C"
 				item: "mysticalagriculture:tertium_essence"
-				random_bonus: 8
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "square"
@@ -158,10 +158,10 @@
 			dependencies: ["6508B1690933CD15"]
 			id: "02517C7458288B0C"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "1FAE263E6A0C2AF9"
 				item: "mysticalagriculture:imperium_essence"
-				random_bonus: 8
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "square"
@@ -180,10 +180,10 @@
 			dependencies: ["02517C7458288B0C"]
 			id: "3730968CF8D42E5B"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "7621A6723A01FB41"
 				item: "mysticalagriculture:supremium_essence"
-				random_bonus: 8
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "square"
@@ -202,10 +202,10 @@
 			dependencies: ["3730968CF8D42E5B"]
 			id: "1BEBDF2C609583F6"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "39A4605CA0A95478"
 				item: "mysticalagradditions:insanium_essence"
-				random_bonus: 8
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "square"
@@ -3981,10 +3981,10 @@
 			dependencies: ["2F78F2577A0E3D55"]
 			id: "7C39130F147E2134"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "11FB16150874FA0B"
 				item: "mysticalagriculture:prudentium_essence"
-				random_bonus: 8
+				random_bonus: 4
 				type: "item"
 			}]
 			shape: "square"

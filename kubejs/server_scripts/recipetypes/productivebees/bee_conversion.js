@@ -20,7 +20,14 @@
 ServerEvents.recipes(event => {
 
     //Recipes
-    let recipes = []
+    let recipes = [
+            {
+                id: "wasted_radioactive_2",
+                source: "supremium",
+                result: "wasted_radioactive",
+                item: "mekanism:pellet_plutonium"
+            }
+    ]
 
     const ProsperityBased = [
         { result: "inferium", item: "mysticalagriculture:inferium_block" },
@@ -204,7 +211,7 @@ ServerEvents.recipes(event => {
             result: `productivebees:${recipe.result}`,
             item: item
         }
-        event.custom(json).id(`productivebees:bee_conversion/${recipe.result}`)
+        event.custom(json).id(`productivebees:bee_conversion/${recipe.id || recipe.result}`)
     })
 
 })

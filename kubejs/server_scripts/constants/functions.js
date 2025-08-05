@@ -82,6 +82,10 @@ function BeeChanceIngredient(ingredient, chance) {
     return { item: parseIngredient(ingredient), chance: chance }
 }
 
+function BotanyChanceIngredient(ingredient, chance) {
+    return { output: parseIngredient(ingredient), chance: chance}
+}
+
 //Chance And Count
 function ChanceAndCountItem(item, chance, count) {
     return { item: item, chance: chance, count: count }

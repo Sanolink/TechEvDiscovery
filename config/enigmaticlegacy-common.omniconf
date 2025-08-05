@@ -34,7 +34,7 @@
     B:AstralBreakerEnabled=true
 
     # Whether or not Astral Dust should be enabled. [default: true, synchronized: yes]
-    B:AstralDustEnabled=true
+    B:AstralDustEnabled=false
 
     # Whether or not Astral Potato should be enabled. [default: true, synchronized: yes]
     B:AstralPotatoEnabled=true

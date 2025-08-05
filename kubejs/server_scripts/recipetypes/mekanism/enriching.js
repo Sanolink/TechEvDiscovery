@@ -42,6 +42,41 @@ ServerEvents.recipes(event => {
             output: parseIngredient('mekanism:enriched_iridium'),
         },
         {
+            id: "enriched_shining",
+            input: parseIngredient('mekanism:antispark_dust'),
+            output: parseIngredient('mekaevolution:enriched_shining'),
+        },
+        {
+            id: "enriched_lapis_lazuli",
+            input: parseIngredient('minecraft:lapis_lazuli'),
+            output: parseIngredient('mekanism:enriched_lapis_lazuli'),
+        },
+        {
+            id: "enriched_psimetal",
+            input: parseIngredient('psi:psimetal'),
+            output: parseIngredient('mekanism:enriched_psimetal'),
+        },
+        {
+            id: "enriched_source",
+            input: parseIngredient('ars_nouveau:source_gem'),
+            output: parseIngredient('mekanism:enriched_source'),
+        },
+        {
+            id: "polished_blue_quartz",
+            input: parseIngredient('create:blue_quartz'),
+            output: parseIngredient('create:polished_blue_quartz'),
+        },
+        {
+            id: "polished_psi_quartz",
+            input: parseIngredient('create:psi_quartz'),
+            output: parseIngredient('create:polished_psi_quartz'),
+        },
+        {
+            id: "polished_source_quartz",
+            input: parseIngredient('create:source_quartz'),
+            output: parseIngredient('create:polished_source_quartz'),
+        },
+        {
             id: `iridium_dust_from_ore`,
             input: parseIngredient(`#forge:ores/iridium`),
             output: ChanceOrCountItem(TagToItem(`#forge:dusts/iridium`), 2),

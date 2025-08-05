@@ -86,6 +86,7 @@ StartupEvents.registry('item', e => {
     BasicItem('hostilenetworks:undergarden_prediction', "Generalized Undergarden Prediction")
 
     BasicItem('industrialforegoing:sludge_bottle', "Sludge Bottle")
+    BasicItem('industrialforegoing:laser_lens16', "Astral Laser Lens")
 
     BasicItem('mekaevolution:alloy_radiance', "§aRadiance Alloy")
     BasicItem('mekaevolution:alloy_shining', "§3Shining Alloy")
@@ -100,7 +101,11 @@ StartupEvents.registry('item', e => {
     BasicItem('mekanism:dust_refined_glowstone', "Refined Glowstone Dust")
     BasicItem('mekanism:enriched_ionium', "Enriched Ionium")
     BasicItem('mekanism:enriched_iridium', "Enriched Iridium")
+    BasicItem('mekanism:enriched_lapis_lazuli', "Enriched Lapis Lazuli")
+    BasicItem('mekanism:enriched_psimetal', "Enriched Psimetal")
+    BasicItem('mekanism:enriched_source', "Enriched Source")
     BasicItem('mekanism:crystal_hypernitro', "Hypernitro Crystal")
+    BasicItem('mekanism:antispark_dust', "Antispark Dust")
 
     BasicItem('mysticalagriculture:ultimate_essence', "Ultimate Essence").texture("mysticalagriculture/item/essence/ultimate_essence")
 

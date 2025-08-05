@@ -49,6 +49,11 @@ ServerEvents.recipes(event => {
         values: biomes.undergarden
     };
 
+    const orbitBiomes = {
+        type:'minecraft:worldgen/biome',
+        values: ['ad_astra:orbit']
+    }
+
 
     //Recipes
     const recipes = [
@@ -379,6 +384,21 @@ ServerEvents.recipes(event => {
                     depth_min: 0,
                     weight: 1,
                     whitelist: undergardenBiomes
+                }
+            ]
+        },
+        //Astral Dust
+        {
+            id: "astral_dust",
+            catalyst: laserLens.astral,
+            output: "enigmaticlegacy:astral_dust",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: orbitBiomes
                 }
             ]
         }

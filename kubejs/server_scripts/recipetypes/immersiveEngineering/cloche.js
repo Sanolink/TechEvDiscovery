@@ -20,7 +20,15 @@
 ServerEvents.recipes(event => {
 
     //Recipes
-    let recipes = []
+    let recipes = [
+        {
+            input: parseIngredient('naturesaura:end_flower'),
+            output: [parseIngredient('naturesaura:end_flower')],
+            soil: parseIngredient('minecraft:end_stone'),
+            time: 480,
+            render: { type: 'generic', block: 'naturesaura:end_flower'}
+        }
+    ]
 
     mysticalCrops.enabled.forEach(cropName => {
         let crop = CropRegistryInstance.getCropByName(cropName)

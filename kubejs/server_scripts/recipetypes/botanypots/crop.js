@@ -49,7 +49,19 @@ ServerEvents.recipes(event => {
     })
 
     //Recipes
-    let recipes = []
+    let recipes = [
+        {
+            id: `naturesaura/end_flower`,
+            seed: parseIngredient('naturesaura:end_flower'),
+            categories: ["end_stone"],
+            growthTicks: 1200,
+            display: {
+                type: 'botanypots:aging',
+                block: 'naturesaura:end_flower'
+            },
+            drops: BotanyChanceIngredient('naturesaura:end_flower', 1)
+        }
+    ]
     
     //Mystical Crops
     for (const seed of mysticalCrops.enabled) {

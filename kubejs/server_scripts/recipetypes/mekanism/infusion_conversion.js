@@ -42,6 +42,11 @@ ServerEvents.recipes(event => {
             output: MekaInfuseType("mekaevolution:thermonuclear", 10)
         },
         {
+            id: "shining/from_dust",
+            input: parseIngredient('mekanism:antispark_dust'),
+            output: MekaInfuseType("mekaevolution:shining", 10)
+        },
+        {
             id: "shining/from_enriched",
             input: parseIngredient('mekaevolution:enriched_shining'),
             output: MekaInfuseType("mekaevolution:shining", 80)
@@ -70,6 +75,36 @@ ServerEvents.recipes(event => {
             id: "iridium/from_enriched",
             input: parseIngredient('mekanism:enriched_iridium'),
             output: MekaInfuseType("mekanism:iridium", 80)
+        },
+        {
+            id: "lapis_lazuli/from_gem",
+            input: parseIngredient('minecraft:lapis_lazuli'),
+            output: MekaInfuseType("mekanism:lapis_lazuli", 10)
+        },
+        {
+            id: "lapis_lazuli/from_enriched",
+            input: parseIngredient('mekanism:enriched_lapis_lazuli'),
+            output: MekaInfuseType("mekanism:lapis_lazuli", 80)
+        },
+        {
+            id: "psimetal/from_ingot",
+            input: parseIngredient('psi:psimetal'),
+            output: MekaInfuseType("mekanism:psimetal", 10)
+        },
+        {
+            id: "psimetal/from_enriched",
+            input: parseIngredient('mekanism:enriched_psimetal'),
+            output: MekaInfuseType("mekanism:psimetal", 80)
+        },
+        {
+            id: "source/from_gem",
+            input: parseIngredient('ars_nouveau:source_gem'),
+            output: MekaInfuseType("mekanism:source", 10)
+        },
+        {
+            id: "source/from_enriched",
+            input: parseIngredient('mekanism:enriched_source'),
+            output: MekaInfuseType("mekanism:source", 80)
         }
     ]
 

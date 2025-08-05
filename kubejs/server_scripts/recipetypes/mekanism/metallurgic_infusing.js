@@ -57,6 +57,24 @@ ServerEvents.recipes(event => {
             itemInput: parseIngredient('thermal:machine_frame'),
             output: parseIngredient('mekanism:steel_casing')
         },
+        {
+            id: "blue_quartz",
+            chemicalInput: MekaInfuseType("mekanism:lapis_lazuli", 10),
+            itemInput: parseIngredient('minecraft:quartz'),
+            output: parseIngredient('create:blue_quartz')
+        },
+        {
+            id: "psi_quartz",
+            chemicalInput: MekaInfuseType("mekanism:psimetal", 10),
+            itemInput: parseIngredient('minecraft:quartz'),
+            output: parseIngredient('create:psi_quartz')
+        },
+        {
+            id: "source_quartz",
+            chemicalInput: MekaInfuseType("mekanism:source", 10),
+            itemInput: parseIngredient('minecraft:quartz'),
+            output: parseIngredient('create:source_quartz')
+        }
     ]
 
     //General Metallurgic Infusing Function

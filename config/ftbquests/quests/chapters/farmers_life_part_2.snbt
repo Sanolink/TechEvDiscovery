@@ -2574,16 +2574,8 @@
 			}]
 			shape: "square"
 			tasks: [{
-				icon: "botanypots:terracotta_botany_pot"
-				id: "04ADA2B41ACB2E02"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "botanypots:basic_botany_pots"
-					}
-				}
-				title: "Any #botanypots:basic_botany_pots"
+				id: "78240B0F93C1062A"
+				item: "botanypots:terracotta_botany_pot"
 				type: "item"
 			}]
 			title: "&lBotany Pot"

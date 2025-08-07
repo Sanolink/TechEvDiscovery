@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -25,6 +25,7 @@ ServerEvents.recipes(event => {
     CreateQuartz("blue")
     CreateQuartz("source")
     CreateQuartz("psi")
+    CreateQuartz("antimatter")
 
     function CreateQuartz(type) {
         recipes.push(

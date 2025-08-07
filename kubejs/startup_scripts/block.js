@@ -42,6 +42,9 @@ StartupEvents.registry('block', e => {
     BasicBlock('create:psi_quartz_block', "Block Of Psi Quartz").soundType("deepslate").property(BlockProperties.AXIS).placementState(event => event.set(BlockProperties.AXIS, event.clickedFace.axis)).hardness(1.5).tagBlock("mineable/pickaxe").requiresTool(true)
     BasicBlock('create:psi_quartz_tiles', "Psi Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     BasicBlock('create:small_psi_quartz_tiles', "Small Psi Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
+    BasicBlock('create:antimatter_quartz_block', "Block Of Antimatter Quartz").soundType("deepslate").property(BlockProperties.AXIS).placementState(event => event.set(BlockProperties.AXIS, event.clickedFace.axis)).hardness(1.5).tagBlock("mineable/pickaxe").requiresTool(true)
+    BasicBlock('create:antimatter_quartz_tiles', "Antimatter Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
+    BasicBlock('create:small_antimatter_quartz_tiles', "Small Antimatter Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     
     BasicBlock('immersiveengineering:hop_graphite_block', "Block of HOP Graphite").soundType(SoundType.METAL).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/hop_graphite").requiresTool(true)
     

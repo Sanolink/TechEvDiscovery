@@ -52,6 +52,11 @@ ServerEvents.recipes(event => {
             output: MekaInfuseType("mekaevolution:shining", 80)
         },
         {
+            id: "spectrum/from_essence",
+            input: parseIngredient('mysticalagriculture:ultimate_essence'),
+            output: MekaInfuseType("mekaevolution:spectrum", 10)
+        },
+        {
             id: "spectrum/from_enriched",
             input: parseIngredient('mekaevolution:enriched_spectrum'),
             output: MekaInfuseType("mekaevolution:spectrum", 80)

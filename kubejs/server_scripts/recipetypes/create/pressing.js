@@ -56,6 +56,12 @@ ServerEvents.recipes(event => {
             id: "psi_quartz_sheet",
             input: [parseIngredient("create:polished_psi_quartz")],
             output: [parseIngredient("create_things_and_misc:psi_quartz_sheet")]
+        },
+        //Antimatter Quartz Plate
+        {
+            id: "antimatter_quartz_sheet",
+            input: [parseIngredient("create:polished_antimatter_quartz")],
+            output: [parseIngredient("create_things_and_misc:antimatter_quartz_sheet")]
         }
     ]
     

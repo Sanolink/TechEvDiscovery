@@ -233,6 +233,24 @@ ServerEvents.recipes(event => {
     basicComb("steeleaf", 'twilightforest:steeleaf_ingot')
     basicComb("turtle", 'minecraft:scute')
 
+    function fluidEssence(essence, fluid) {
+        recipes.push(
+            {
+                id: essence.replace(":", "/"),
+                input: [parseIngredient(essence)],
+                output: [FluidWithCount(fluid, 100)]
+            }
+        )
+    }
+
+    fluidEssence('mysticalagriculture:chocolate_essence', "create:chocolate")
+    fluidEssence('mysticalagriculture:destabilized_redstone_essence', "thermal:redstone")
+    fluidEssence('mysticalagriculture:energized_glowstone_essence', "thermal:glowstone")
+    fluidEssence('mysticalagriculture:oil_essence', "immersivepetroleum:crudeoil")
+    fluidEssence('mysticalagriculture:pink_slime_essence', "industrialforegoing:pink_slime")
+    fluidEssence('mysticalagriculture:resonant_ender_essence', "thermal:ender")
+    fluidEssence('mysticalagriculture:tea_essence', "create:tea")
+
     //General Mixing Function
     recipes.forEach(recipe => {
         let json = {

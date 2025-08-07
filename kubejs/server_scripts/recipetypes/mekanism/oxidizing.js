@@ -25,10 +25,15 @@ ServerEvents.recipes(event => {
             id: "hypermatter",
             input: parseIngredient("mekanism:pellet_hypermatter"),
             output: MekaGas("mekanism:hypermatter", 1000)
+        },
+        {
+            id: "essence_wasted_radioactive",
+            input: parseIngredient("mysticalagriculture:wasted_radioactive_essence"),
+            output: MekaGas("mekanism:nuclear_waste", 500)
         }
     ]
 
-    //General Oxydizing Function
+    //General Oxidizing Function
     recipes.forEach(recipe => {
         let json = {
             type: 'mekanism:oxidizing',

@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -83,5 +83,11 @@ const biomes = {
         'undergarden:smog_spires',
         'undergarden:veil_mushroom_bog',
         'undergarden:wigglewood_forest'
-    ]
+    ],
+    ad_astra: {
+        glacio: [
+            'ad_astra:glacio_ice_peaks',
+            'ad_astra:glacio_snowy_barrens'
+        ]
+    }
 }

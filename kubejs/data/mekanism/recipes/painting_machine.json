@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "mekanism:dye_base"
+        },
+        "A": {
+            "item": "pneumaticcraft:plastic"
+        },
+        "C": {
+            "tag": "forge:circuits/basic"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "ACA",
+        "#X#",
+        "ACA"
+    ],
+    "result": {
+        "item": "mekanism:painting_machine"
+    }
+}

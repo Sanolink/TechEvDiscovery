@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "create:fluid_pipe"
+        },
+        "R": {
+            "item": "alltheores:steel_plate"
+        },
+        "S": {
+            "item": "alltheores:steel_gear"
+        },
+        "T": {
+            "item": "mekanism:basic_control_circuit"
+        }
+    },
+    "pattern": [
+        "RTR",
+        "S#S",
+        "RTR"
+    ],
+    "result": {
+        "count": 8,
+        "item": "mekanism:basic_mechanical_pipe"
+    }
+}

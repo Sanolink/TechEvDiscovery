@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:mek_data",
+  "key": {
+    "A": {
+      "item": "mekaevolution:alloy_thermonuclear"
+    },
+    "E": {
+      "item": "mekaevolution:absolute_energy_cube"
+    },
+    "T": {
+      "item": "mekanism:energy_tablet"
+    },
+    "I": {
+      "item": "mekanism:ingot_refined_glowstone"
+    }
+  },
+  "pattern": [
+    "ATA",
+    "IEI",
+    "ATA"
+  ],
+  "result": {
+    "item": "mekaevolution:supreme_energy_cube"
+  }
+}

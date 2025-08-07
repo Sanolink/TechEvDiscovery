@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "mekaevolution:alloy_shining"
+    },
+    "P": {
+      "item": "mekaevolution:supreme_mechanical_pipe"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PAP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "item": "mekaevolution:cosmic_mechanical_pipe"
+  }
+}

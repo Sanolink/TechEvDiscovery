@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "angelring:resonant_angel_ring"
+        },
+        "A": {
+            "item": "mekaevolution:alloy_spectrum"
+        },
+        "E": {
+            "item": "mekanism:ultimate_induction_provider"
+        },
+        "H": {
+            "item": "create_things_and_misc:antimatter_quartz_sheet"
+        },
+        "P": {
+            "item": "mekanism:module_jetpack_unit"
+        }
+    },
+    "pattern": [
+        "A#A",
+        "EPE",
+        "HHH"
+    ],
+    "result": {
+        "item": "mekanism:module_gravitational_modulating_unit"
+    }
+}

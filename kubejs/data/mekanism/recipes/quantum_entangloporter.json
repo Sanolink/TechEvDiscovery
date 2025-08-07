@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {
+            "item": "mekaevolution:alloy_shining"
+        },
+        "C": {
+            "item": "mekaevolution:cosmic_control_circuit"
+        },
+        "I": {
+            "tag": "forge:ingots/refined_obsidian"
+        },
+        "T": {
+            "item": "mekanism:teleportation_core"
+        }
+    },
+    "pattern": [
+        "ICI",
+        "ATA",
+        "ICI"
+    ],
+    "result": {
+        "item": "mekanism:quantum_entangloporter"
+    }
+}

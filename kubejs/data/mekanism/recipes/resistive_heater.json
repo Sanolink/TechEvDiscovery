@@ -1,0 +1,28 @@
+{
+    "type": "mekanism:mek_data",
+    "key": {
+        "E": {
+            "item": "thermal:rf_potato"
+        },
+        "I": {
+            "item": "alltheores:tin_plate"
+        },
+        "R": {
+            "item": "mekanism:basic_thermodynamic_conductor"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        },
+        "S": {
+            "item": "pneumaticcraft:heat_sink"
+        }
+    },
+    "pattern": [
+        "ISI",
+        "RXR",
+        "IEI"
+    ],
+    "result": {
+        "item": "mekanism:resistive_heater"
+    }
+}

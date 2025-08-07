@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:mek_data",
+  "key": {
+    "#": {
+      "item": "mekaevolution:alloy_spectrum"
+    },
+    "I": {
+      "tag": "forge:ingots/lead"
+    },
+    "P": {
+      "item": "mekaevolution:qio_drive_cosmic"
+    }
+  },
+  "pattern": [
+    "IPI",
+    "P#P",
+    "IPI"
+  ],
+  "result": {
+    "item": "mekaevolution:qio_drive_infinite"
+  }
+}

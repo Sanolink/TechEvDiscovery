@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:mek_data",
+  "key": {
+    "A": {
+      "item": "mekaevolution:alloy_spectrum"
+    },
+    "E": {
+      "item": "mekaevolution:cosmic_energy_cube"
+    },
+    "T": {
+      "item": "mekanism:energy_tablet"
+    },
+    "I": {
+      "item": "mekanism:antispark_dust"
+    }
+  },
+  "pattern": [
+    "ATA",
+    "IEI",
+    "ATA"
+  ],
+  "result": {
+    "item": "mekaevolution:infinite_energy_cube"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {
+            "item": "thermal:quartz_gear"
+        },
+        "C": {
+            "tag": "forge:circuits/ultimate"
+        },
+        "I": {
+            "item": "mekanism:alloy_atomic"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "IAI",
+        "CXC",
+        "IAI"
+    ],
+    "result": {
+        "item": "mekanism:chemical_crystallizer"
+    }
+}

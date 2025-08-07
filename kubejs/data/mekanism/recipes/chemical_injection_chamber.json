@@ -1,0 +1,25 @@
+{
+    "type": "mekanism:mek_data",
+    "key": {
+        "#": {
+            "item": "mekanism:purification_chamber"
+        },
+        "A": {
+            "item": "mekaevolution:alloy_radiance"
+        },
+        "C": {
+            "item": "mekaevolution:absolute_control_circuit"
+        },
+        "I": {
+            "item": "alltheores:gold_gear"
+        }
+    },
+    "pattern": [
+        "ACA",
+        "I#I",
+        "ACA"
+    ],
+    "result": {
+        "item": "mekanism:chemical_injection_chamber"
+    }
+}

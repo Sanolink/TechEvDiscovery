@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "mekanism:dictionary"
+        },
+        "C": {
+            "tag": "forge:circuits/elite"
+        },
+        "G": {
+            "tag": "forge:glass_panes"
+        },
+        "P": {
+            "item": "mekanism:steel_casing"
+        },
+        "S": {
+            "item": "mekanism:alloy_reinforced"
+        }
+    },
+    "pattern": [
+        "SGS",
+        "CPC",
+        "S#S"
+    ],
+    "result": {
+        "item": "mekanism:oredictionificator"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "C": {
+            "item": "mekanism:advanced_control_circuit"
+        },
+        "I": {
+            "item": "thermal:rf_coil"
+        },
+        "J": {
+            "item": "thermalendergy:vibrating_core"
+        },
+        "R": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        }
+    },
+    "pattern": [
+        "RIR",
+        "ACA",
+        "RJR"
+    ],
+    "result": {
+        "item": "mekanism:energy_tablet"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "mekanism:mek_data",
+    "key": {
+        "C": {
+            "item": "mekaevolution:absolute_control_circuit"
+        },
+        "I": {
+            "item": "alltheores:lead_gear"
+        },
+        "R": {
+            "item": "alltheores:lead_rod"
+        },
+        "T": {
+            "item": "mekanism:basic_chemical_tank"
+        }
+    },
+    "pattern": [
+        "IRI",
+        "CTC",
+        "IRI"
+    ],
+    "result": {
+        "item": "mekanism:isotopic_centrifuge"
+    }
+}

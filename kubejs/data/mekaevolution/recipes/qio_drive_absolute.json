@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:mek_data",
+  "key": {
+    "#": {
+      "item": "mekaevolution:alloy_radiance"
+    },
+    "I": {
+      "tag": "forge:ingots/lead"
+    },
+    "P": {
+      "item": "mekanism:qio_drive_supermassive"
+    }
+  },
+  "pattern": [
+    "IPI",
+    "P#P",
+    "IPI"
+  ],
+  "result": {
+    "item": "mekaevolution:qio_drive_absolute"
+  }
+}

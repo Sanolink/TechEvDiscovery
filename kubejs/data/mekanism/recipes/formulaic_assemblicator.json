@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "mekanism:crafting_formula"
+        },
+        "C": {
+            "tag": "forge:circuits/elite"
+        },
+        "P": {
+            "item": "minecraft:crafting_table"
+        },
+        "S": {
+            "item": "mekanism:alloy_reinforced"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "SPS",
+        "CXC",
+        "S#S"
+    ],
+    "result": {
+        "item": "mekanism:formulaic_assemblicator"
+    }
+}

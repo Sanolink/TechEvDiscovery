@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {
+            "item": "mekanism:ultimate_control_circuit"
+        },
+        "C": {
+            "item": "mekanism:electrolytic_core"
+        },
+        "O": {
+            "item": "mekanism:alloy_atomic"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "OAO",
+        "XCX",
+        "OAO"
+    ],
+    "result": {
+        "item": "mekanismgenerators:gas_burning_generator"
+    }
+}

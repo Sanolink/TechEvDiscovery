@@ -300,7 +300,8 @@ ServerEvents.tags('item', e => {
     e.add('matc:prudentium', ["matc:tertium_crystal", "matc:imperium_crystal", "matc:supremium_crystal"])
     e.add('matc:tertium', ["matc:imperium_crystal", "matc:supremium_crystal"])
     e.add('matc:imperium', ["matc:supremium_crystal"])
-
+    e.add('industrialforegoing:basic_laser_lens', [laserLens.black, laserLens.blue, laserLens.brown, laserLens.cyan, laserLens.gray, laserLens.green, laserLens.light_blue, laserLens.light_gray, laserLens.lime, laserLens.magenta, laserLens.orange, laserLens.pink, laserLens.purple, laserLens.red, laserLens.white, laserLens.yellow])
+    
     // Common Tags
     e.add('forge:raw_materials', 'ad_astra:raw_nephryx')
     e.add('forge:ingots', 'ad_astra:nephryx_ingot')

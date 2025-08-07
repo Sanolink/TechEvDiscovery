@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -48,6 +48,11 @@ ServerEvents.recipes(event => {
         type: 'minecraft:worldgen/biome',
         values: biomes.undergarden
     };
+
+    const glacioBiomes = {
+        type:'minecraft:worldgen/biome',
+        values: biomes.ad_astra.glacio
+    }
 
     const orbitBiomes = {
         type:'minecraft:worldgen/biome',
@@ -384,6 +389,102 @@ ServerEvents.recipes(event => {
                     depth_min: 0,
                     weight: 1,
                     whitelist: undergardenBiomes
+                }
+            ]
+        },
+        //Nephryx
+        {
+            id: "nephryx",
+            catalyst: laserLens.green,
+            output: "ad_astra:raw_nephryx",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 80,
+                    depth_min: 0,
+                    weight: 10,
+                    whitelist: glacioBiomes
+                }
+            ]
+        },
+        //Prosperity
+        {
+            id: "prosperity",
+            catalyst: laserLens.light_blue,
+            output: "#forge:ores/prosperity",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 80,
+                    depth_min: 0,
+                    weight: 10,
+                    whitelist: glacioBiomes
+                }
+            ]
+        },
+        //Pendorite
+        {
+            id: "pendorite",
+            catalyst: laserLens.purple,
+            output: "byg:raw_pendorite",
+            rarity: [
+                {
+                    blacklist: endBiomes,
+                    depth_max: 28,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: {}
+                },
+                {
+                    blacklist: endBiomes,
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: {}
+                }
+            ]
+        },
+        //Ametrine
+        {
+            id: "ametrine",
+            catalyst: laserLens.pink,
+            output: "byg:ametrine_ore",
+            rarity: [
+                {
+                    blacklist: endBiomes,
+                    depth_max: 28,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: {}
+                },
+                {
+                    blacklist: endBiomes,
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: {}
+                }
+            ]
+        },
+        //Emeraldite
+        {
+            id: "emeraldite",
+            catalyst: laserLens.green,
+            output: "byg:emeraldite_ore",
+            rarity: [
+                {
+                    blacklist: endBiomes,
+                    depth_max: 28,
+                    depth_min: 5,
+                    weight: 8,
+                    whitelist: {}
+                },
+                {
+                    blacklist: endBiomes,
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: {}
                 }
             ]
         },

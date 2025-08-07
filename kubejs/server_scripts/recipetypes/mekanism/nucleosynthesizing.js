@@ -26,6 +26,12 @@ ServerEvents.recipes(event => {
             gasInput: MekaGas("mekanism:antimatter", 200),
             itemInput: parseIngredient('enigmaticlegacy:astral_dust'),
             output: parseIngredient('mekanism:antispark_dust')
+        },
+        {
+            id: "antimatter_quartz",
+            gasInput: MekaGas("mekanism:antimatter", 1000),
+            itemInput: parseIngredient('minecraft:quartz'),
+            output: parseIngredient('create:antimatter_quartz')
         }
     ]
 

@@ -49,6 +49,7 @@ StartupEvents.postInit(event => {
         'create_things_and_misc:blue_quartz_sheet',
         'create_things_and_misc:source_quartz_sheet',
         'create_things_and_misc:psi_quartz_sheet',
+        'create_things_and_misc:antimatter_quartz_sheet',
         'create_things_and_misc:experience_sheet',
         'create_new_age:overcharged_iron_sheet',
         'create_new_age:overcharged_golden_sheet',

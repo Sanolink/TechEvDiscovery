@@ -91,6 +91,13 @@ ServerEvents.recipes(event => {
             input: parseIngredient("create:polished_psi_quartz"),
             mold: "immersiveengineering:mold_plate"
         },
+        //Antimatter Quartz Plate
+        {
+            id: "plate_antimatter_quartz",
+            output: parseIngredient("create_things_and_misc:antimatter_quartz_sheet"),
+            input: parseIngredient("create:polished_antimatter_quartz"),
+            mold: "immersiveengineering:mold_plate"
+        },
         //Diamond Gear
         {
             id: "gear_diamond",

@@ -47,6 +47,11 @@ ServerEvents.recipes(event => {
             output: parseIngredient('mekaevolution:enriched_shining'),
         },
         {
+            id: "enriched_spectrum",
+            input: parseIngredient('mysticalagriculture:ultimate_essence'),
+            output: parseIngredient('mekaevolution:enriched_spectrum'),
+        },
+        {
             id: "enriched_lapis_lazuli",
             input: parseIngredient('minecraft:lapis_lazuli'),
             output: parseIngredient('mekanism:enriched_lapis_lazuli'),
@@ -75,6 +80,11 @@ ServerEvents.recipes(event => {
             id: "polished_source_quartz",
             input: parseIngredient('create:source_quartz'),
             output: parseIngredient('create:polished_source_quartz'),
+        },
+        {
+            id: "polished_antimatter_quartz",
+            input: parseIngredient('create:antimatter_quartz'),
+            output: parseIngredient('create:polished_antimatter_quartz'),
         },
         {
             id: `iridium_dust_from_ore`,

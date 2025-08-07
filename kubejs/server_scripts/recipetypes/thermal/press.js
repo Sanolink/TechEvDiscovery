@@ -57,6 +57,11 @@ ServerEvents.recipes(event => {
             ingredients: parseIngredient('create:polished_psi_quartz')
         },
         {
+            id: "antimatter_quartz_to_plate",
+            output: parseIngredient(TagToItem('create_things_and_misc:antimatter_quartz_sheet')),
+            ingredients: parseIngredient('create:polished_antimatter_quartz')
+        },
+        {
             id: "prismalium_nugget_packing",
             output: parseIngredient(TagToItem("#forge:ingots/prismalium")),
             ingredients: [ChanceOrCountTag("#forge:nuggets/prismalium", 9), parseIngredient('thermal:press_packing_3x3_die')],

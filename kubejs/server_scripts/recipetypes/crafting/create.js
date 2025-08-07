@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
     Quartz("blue", "create:positron_tube")
     Quartz("source", "create:source_tube")
     Quartz("psi", "create:psi_tube")
+    Quartz("antimatter", "create:antiproton_tube")
 
     function Quartz(type, tube) {
         //Create Tubes

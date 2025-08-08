@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IDI",
+        "IHI",
+        "IMI"
+    ],
+    "key": {
+        "H": {
+            "item": "minecraft:hay_block"
+        },
+        "I": {
+            "tag": "forge:ingots/iron"
+        },
+        "M": {
+            "item": "mysticalagriculture:machine_frame"
+        },
+        "D": {
+            "item": "minecraft:daylight_detector"
+        }
+    },
+    "result": {
+        "item": "productivebees:incubator"
+    }
+}

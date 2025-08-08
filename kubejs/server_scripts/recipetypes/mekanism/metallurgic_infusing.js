@@ -74,6 +74,12 @@ ServerEvents.recipes(event => {
             chemicalInput: MekaInfuseType("mekanism:source", 10),
             itemInput: parseIngredient('minecraft:quartz'),
             output: parseIngredient('create:source_quartz')
+        },
+        {
+            id: "luminessence",
+            chemicalInput: MekaInfuseType("mekaevolution:radiance", 10),
+            itemInput: parseIngredient('mysticalagriculture:inferium_essence'),
+            output: parseIngredient('extendedcrafting:luminessence')
         }
     ]
 

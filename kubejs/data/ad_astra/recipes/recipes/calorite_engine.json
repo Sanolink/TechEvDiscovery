@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "engines",
+  "key": {
+    "/": {
+      "item": "ad_astra:calorite_gear"
+    },
+    "#": {
+      "tag": "ad_astra_platform:calorite_plates"
+    },
+    "E": {
+      "item": "ad_astra:ostrum_engine"
+    },
+    "C": {
+      "item": "mekaevolution:supreme_control_circuit"
+    },
+    "F": {
+      "item": "ad_astra:engine_fan"
+    }
+  },
+  "pattern": [
+    " / ",
+    "#E#",
+    "CFC"
+  ],
+  "result": {
+    "item": "ad_astra:calorite_engine"
+  }
+}

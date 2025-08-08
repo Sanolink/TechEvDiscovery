@@ -142,3 +142,8 @@ function MekaInfuseType(type, amount) {
 function MekaGas(type, amount) {
     return { gas: type, chemicalType: "gas", amount: amount }
 }
+
+//Pigment
+function MekaPigment(type, amount) {
+    return { pigment: type, chemicalType: "pigment", amount: amount }
+}

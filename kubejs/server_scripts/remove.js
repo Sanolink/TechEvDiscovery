@@ -31,6 +31,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ad_astra:recipes/compressor'})
     event.remove({ id: 'ad_astra:recipes/iron_rod'})
 
+    //Angel Ring
+    event.remove({ id: 'angelring:energetic_angel_ring'})
+    event.remove({ id: 'angelring:diamond_ring'})
+    
     //Applied Energistics + Addons
     event.remove({ id: 'ae2:network/cells/view_cell'})
     event.remove({ id: 'ae2:network/cells/item_storage_cell_1k'})
@@ -87,6 +91,7 @@ ServerEvents.recipes(event => {
 
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})
+    event.remove({ id: 'supplementaries:soap_clean_botanypots_terracotta_botany_pot'})
 
     //CoinsJE
     event.remove({ id: 'coinsje:blasting/copper_ingot_to_copper_coin' })
@@ -146,6 +151,12 @@ ServerEvents.recipes(event => {
 
     //Eidolon
     event.remove({ output: 'eidolon:pewter_blend', type: 'minecraft:crafting_shapeless' })
+
+    //Extended Crafting
+    event.remove({ id: 'extendedcrafting:redstone_ingot'})
+    event.remove({ id: 'extendedcrafting:ender_ingot'})
+    event.remove({ id: 'extendedcrafting:black_iron_ingot'})
+    event.remove({ id: 'extendedcrafting:luminessence'})
 
     //Farmer's Delight
     event.remove({ output: 'farmersdelight:iron_knife'})
@@ -223,7 +234,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'javd:portal_block'})
     
     //Mekanism 
-    event.remove({ id: 'mekanism:metallurgic_infuser'})
     event.remove({ id: 'mekaevolution:absolute_control_circuit'})
     event.remove({ id: 'mekaevolution:supreme_control_circuit'})
     event.remove({ id: 'mekaevolution:cosmic_control_circuit'})
@@ -306,7 +316,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'naturalist:cooked_egg_from_smoking' })
 
     //Occultism
-    event.remove({ id: 'undergarden:catalyst'})
+    event.remove({ id: 'occultism:miner/ores/prosperity_ore'})
     
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})
@@ -377,6 +387,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'productivebees:honey_bucket_from_block'})
     event.remove({ id: 'productivebees:honey_bucket'})
     event.remove({ id: 'productivebees:powered_centrifuge/thermal'})
+    event.remove({ id: 'minecraft:beehive'})
     event.remove({ type: "productivebees:bee_spawning"})
     event.remove({ type: "productivebees:bee_fishing"})
     event.remove({ type: "productivebees:bee_breeding"})
@@ -447,6 +458,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_electrum_dust'})
     event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
     
+    //Undergarden
+    event.remove({ id: 'undergarden:catalyst'})
+
     //Time In A Bottle
     event.remove({ id: 'tiab:time_in_a_bottle'})
 

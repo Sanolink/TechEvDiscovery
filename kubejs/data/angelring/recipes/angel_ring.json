@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "FXF",
+        "GEG",
+        "NGN"
+    ],
+    "key": {
+        "F": {
+            "item": "mysticalagriculture:flight_augment"
+        },
+        "E": {
+            "item": "angelring:diamond_ring"
+        },
+        "G": {
+            "item": "extendedcrafting:luminessence_block"
+        },
+        "X": {
+            "item": "botania:flight_tiara"
+        },
+        "N": {
+            "item": "extendedcrafting:flux_star"
+        }
+    },
+    "result": {
+        "item": "angelring:angel_ring",
+        "count": 1
+    }
+}

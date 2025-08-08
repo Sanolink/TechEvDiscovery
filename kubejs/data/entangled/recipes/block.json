@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "DCD",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:enhanced_redstone_ingot"
+    },
+    "B": {
+      "item": "extendedcrafting:black_iron_block"
+    },
+    "C": {
+      "item": "mekanism:quantum_entangloporter"
+    },
+    "D": {
+      "item": "ae2:quantum_entangled_singularity"
+    }
+  },
+  "result": {
+    "item": "entangled:block"
+  }
+}

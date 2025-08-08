@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#G#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    "G": {
+      "item": "psi:psigem"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:prosperity_gemstone"
+  }
+}

@@ -54,6 +54,33 @@ ServerEvents.recipes(event => {
             key: {
                 N: 'ad_astra:nephryx_nugget'
             }
+        },
+        {
+            output: 'ad_astra:desh_rocket_nose_cone',
+            pattern: ["P", "N", "G"],
+            key: {
+                P: 'ad_astra:desh_plate',
+                N: 'ad_astra:rocket_nose_cone',
+                G: 'ad_astra:desh_gear'
+            }
+        },
+        {
+            output: 'ad_astra:ostrum_rocket_nose_cone',
+            pattern: ["P", "N", "G"],
+            key: {
+                P: 'ad_astra:ostrum_plate',
+                N: 'ad_astra:desh_rocket_nose_cone',
+                G: 'ad_astra:ostrum_gear'
+            }
+        },
+        {
+            output: 'ad_astra:calorite_rocket_nose_cone',
+            pattern: ["P", "N", "G"],
+            key: {
+                P: 'ad_astra:calorite_plate',
+                N: 'ad_astra:ostrum_rocket_nose_cone',
+                G: 'ad_astra:calorite_gear'
+            }
         }
     ]
 

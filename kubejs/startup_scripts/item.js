@@ -45,6 +45,9 @@ StartupEvents.registry('item', e => {
     BasicItem('ad_astra:ostrum_gear', "Ostrum Gear")
     BasicItem('ad_astra:ostrum_rod', "Ostrum Rod")
     BasicItem('ad_astra:raw_nephryx', "Raw Nephryx")
+    BasicItem('ad_astra:desh_rocket_nose_cone', "Desh Rocket Nose Cone")
+    BasicItem('ad_astra:ostrum_rocket_nose_cone', "Ostrum Rocket Nose Cone")
+    BasicItem('ad_astra:calorite_rocket_nose_cone', "Calorite Rocket Nose Cone")
 
     BasicItem('ae2:cosmic_processor', "Cosmic Processor")
     BasicItem('ae2:elemental_processor_press', "Inscriber Elemental Press")

@@ -5,208 +5,507 @@
 	group: "7C12EC759EE02863"
 	icon: "angelring:angel_ring"
 	id: "3FDB296086D3A6D8"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tardis_refined:textures/particle/silver/l_silver_sym_02.png"
+			rotation: -15.0d
+			width: 1.0d
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:item/quantum_entangled_singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/extendedcrafting/flux_crafter.png"
+			rotation: 0.0d
+			width: 3.6194029850746263d
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/extendedcrafting/ender_crafter.png"
+			rotation: 0.0d
+			width: 3.315052508751459d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/tardis_refined/tardis.png"
+			rotation: 0.0d
+			width: 1.9170403587443945d
+			x: 6.257639819641085d
+			y: 0.9464285714285694d
+		}
+	]
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "6D0DEF7C9DEE0B74"
+		linked_quest: "38E10806192CDF7E"
+		shape: "circle"
+		x: 3.5d
+		y: -0.5d
+	}]
 	quests: [
 		{
+			dependencies: ["30269A7AC0A8AE0B"]
+			description: [
+				"The &eAngel Ring&r grants &eCreative Flight&r."
+				""
+				"As long as it’s in your inventory, you can fly just like in Creative mode but will &cdrain a bit of your XP&r."
+			]
 			id: "52A74AFD3A6CAF3A"
+			rewards: [{
+				id: "0ADF221B2183977D"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&l&2[XP] &7Creative Flight"
 			tasks: [{
 				id: "2CCEA8234D4ED859"
 				item: "angelring:angel_ring"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			title: "&lAngel Ring"
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["52A74AFD3A6CAF3A"]
+			description: ["An enhanced version of the &eAngel Ring&r, not draining the XP, but &eRF&r."]
 			id: "11A703891734B3CD"
+			rewards: [{
+				count: 2
+				id: "68C07318641D3578"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "octagon"
+			size: 1.5d
+			subtitle: "&l&6[RF] &7Creative Flight"
 			tasks: [{
 				id: "589B9175752B7979"
 				item: "angelring:resonant_angel_ring"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.5d
+			title: "&lResonant Angel Ring"
+			x: 4.5d
+			y: 1.75d
 		}
 		{
+			dependencies: ["30269A7AC0A8AE0B"]
+			description: [
+				"The &eEntangled Block&r acts as a &eremote access point&r for another block."
+				""
+				"Useful if you want the same &eblock&r to exist in &etwo locations&r at the same time."
+			]
+			icon: {
+				Count: 1b
+				id: "entangled:block"
+				tag: { }
+			}
 			id: "2F57CAAED7EDB0A0"
-			tasks: [{
-				id: "5BADCC2F5A0D7173"
-				item: {
-					Count: 1b
-					id: "entangled:block"
-					tag: { }
+			rewards: [{
+				id: "2F086140C34B181B"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "5BADCC2F5A0D7173"
+					item: {
+						Count: 1b
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: -0.5d
+				{
+					id: "60174AAA65EB6DB0"
+					item: "entangled:item"
+					type: "item"
+				}
+			]
+			title: "&lEntangled Block"
+			x: 1.5d
+			y: 1.0d
 		}
 		{
-			id: "19F1068675B5DC6B"
-			tasks: [{
-				id: "17BDDFA89064A29D"
-				item: "entangled:item"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -1.5d
-		}
-		{
+			dependencies: ["30269A7AC0A8AE0B"]
+			description: [
+				"You can &espeed up&r the recipe by using alternators placed &ewithin a 4 block radius&r."
+				""
+				"{image:techev:textures/misc/quests/extendedcrafting/ender_crafter.png width:94 height:85 align:1}"
+			]
+			icon: "extendedcrafting:ender_crafter"
 			id: "09375F56A5CAA6E8"
-			tasks: [{
-				id: "6AB4FEB9B871B3F9"
-				item: "extendedcrafting:ender_crafter"
+			rewards: [{
+				id: "1753533FE035F5A4"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
+			shape: "square"
+			tasks: [
+				{
+					id: "6AB4FEB9B871B3F9"
+					item: "extendedcrafting:ender_crafter"
+					type: "item"
+				}
+				{
+					id: "3E4989F6BBC150FF"
+					item: "extendedcrafting:ender_alternator"
+					type: "item"
+				}
+			]
+			title: "&lEnder Crafting"
+			x: 1.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["30269A7AC0A8AE0B"]
+			description: [
+				"You can &espeed up&r the recipe by using alternators placed &ewithin a 4 block radius&r."
+				""
+				"{image:techev:textures/misc/quests/extendedcrafting/flux_crafter.png width:97 height:88 align:1}"
+			]
+			icon: "extendedcrafting:flux_crafter"
 			id: "4A7CF98F57F95A5A"
-			tasks: [{
-				id: "0B44DA6A579EB261"
-				item: "extendedcrafting:flux_crafter"
+			rewards: [{
+				id: "61389F04B87E0C59"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			shape: "square"
+			tasks: [
+				{
+					id: "0B44DA6A579EB261"
+					item: "extendedcrafting:flux_crafter"
+					type: "item"
+				}
+				{
+					id: "280C05527A549686"
+					item: "extendedcrafting:flux_alternator"
+					type: "item"
+				}
+			]
+			title: "&lFlux Crafting"
+			x: 7.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["30269A7AC0A8AE0B"]
 			id: "2F54CEDE5F5BAB82"
+			rewards: [{
+				id: "27B23D06E510CCDA"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l[3x3]"
 			tasks: [{
 				id: "0F90E50F8763D7CA"
 				item: "extendedcrafting:basic_table"
 				type: "item"
 			}]
-			x: 1.5d
+			title: "&lBasic Crafting Table"
+			x: 3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2F54CEDE5F5BAB82"]
 			id: "562D3049B9DF5C4B"
+			rewards: [{
+				id: "2940BA9A2B7DBDF4"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&e[5x5]"
 			tasks: [{
 				id: "3333CC9A771A15DC"
 				item: "extendedcrafting:advanced_table"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.5d
+			title: "&l&eAdvanced Crafting Table"
+			x: 4.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["562D3049B9DF5C4B"]
+			dependencies: ["52AF4D54465B2B2F"]
 			id: "02DB202690A267FB"
+			rewards: [{
+				id: "041A7095074D2DF2"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&2[9x9]"
 			tasks: [{
 				id: "7B0C63B3A5AAA81F"
 				item: "extendedcrafting:ultimate_table"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.5d
+			title: "&l&2Ultimate Crafting Table"
+			x: 6.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["02DB202690A267FB"]
+			dependencies: ["562D3049B9DF5C4B"]
 			id: "52AF4D54465B2B2F"
+			rewards: [{
+				id: "7483D37801C3829A"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&b[7x7]"
 			tasks: [{
 				id: "2A9D83451B5F77B6"
 				item: "extendedcrafting:elite_table"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			title: "&l&bElite Crafting Table"
+			x: 5.0d
+			y: -3.0d
 		}
 		{
+			dependencies: [
+				"38E10806192CDF7E"
+				"30269A7AC0A8AE0B"
+			]
 			id: "5854BA6F44D1CB10"
+			rewards: [{
+				id: "707364AE356051AE"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&l&55x &7[Base Speed | Base Output]"
 			tasks: [{
 				id: "787A39F44E78C8CA"
 				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			title: "&lElite Hopper Botany Pot"
+			x: 2.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["5854BA6F44D1CB10"]
 			id: "7FB863F0381150F4"
+			rewards: [{
+				count: 2
+				id: "27A5BE7BF45B3B7B"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&l&610x &7[Base Speed | Base Output]"
 			tasks: [{
 				id: "2532E9809CA56D03"
 				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			id: "6AFBF33E68B0F1D6"
-			tasks: [{
-				id: "7A3832B82C0ACB1E"
-				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -5.0d
+			title: "&lUltra Hopper Botany Pot"
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["463D067FC6CE93B7"]
+			description: [
+				"The &eGrowth Drill&r can mine &eGrowth Stone&r to extend the &eTARDIS area&r."
+				""
+				"{image:techev:textures/misc/quests/tardis_refined/growth_drill.png width:256 height:133 align:1 fit:true}"
+			]
 			id: "4E057967D9AF8A5B"
-			tasks: [{
-				id: "254E86877E9F7344"
-				item: {
-					Count: 1b
-					id: "tardis_refined:tardis_key"
-					tag: { }
-				}
+			rewards: [{
+				id: "1F2DA3E3FDB7E781"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			shape: "gear"
+			tasks: [{
+				id: "229858F4BE52D1CB"
+				item: "tardis_refined:drill"
+				type: "item"
+			}]
+			title: "&lGrowth Drill"
+			x: 9.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["30269A7AC0A8AE0B"]
+			description: [
+				""
+				"To get a TARDIS, you'll need to find a &eRoot Plant&r."
+				""
+				"Root Plants spawn naturally in &9Oceans &e(Y= -20 : 50)&r"
+				""
+				"{image:techev:textures/misc/quests/tardis_refined/root_plant.png width:256 height:133 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				"I can suggest you to search Root Plants with &eNight Vision is deep oceans&r, here's a look of one from exterior."
+				""
+				"{image:techev:textures/misc/quests/tardis_refined/locate_root_plant.png width:256 height:133 align:1}"
+			]
 			id: "5DFB3C0266A170EF"
+			rewards: [{
+				id: "211A7B32F5195791"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&lFind the Root !"
 			tasks: [{
 				id: "46218C92DB97323D"
 				item: "tardis_refined:root_plant"
 				type: "item"
 			}]
-			x: 1.0d
+			title: "&lT.A.R.D.I.S"
+			x: 5.5d
 			y: -0.5d
 		}
 		{
-			dependencies: ["463D067FC6CE93B7"]
-			id: "5409B5209FED0429"
-			tasks: [{
-				id: "47D1272B4F8F5728"
-				item: "tardis_refined:landing_pad"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 2.5d
-		}
-		{
 			dependencies: ["5DFB3C0266A170EF"]
+			description: [
+				"First, plant and grow the &eroot&r on top of a &emagma block&r."
+				""
+				"{image:techev:textures/misc/quests/tardis_refined/root_plant_grow.png width:256 height:133 align:1 fit:true}"
+				""
+				"Next, use &eshears&r to open the &eentrance&r."
+				""
+				"{image:techev:textures/misc/quests/tardis_refined/shear_the_entrance.png width:256 height:138 align:1 fit:true}"
+				""
+				"Finally, &eterraform&r the area by building the &eTerraformer multiblock&r structure."
+				""
+				"{image:techev:textures/misc/quests/tardis_refined/terraformer_structure.png width:232 height:137 align:1 fit:true}"
+			]
 			id: "0397979D1DA6C245"
-			tasks: [{
-				id: "09A8F0836FF086C2"
-				item: "tardis_refined:terraformer"
+			rewards: [{
+				id: "3864E4AC582CF66A"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			shape: "circle"
+			subtitle: "&lGrow your T.A.R.D.I.S"
+			tasks: [
+				{
+					id: "09A8F0836FF086C2"
+					item: "tardis_refined:terraformer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6B7EC072A6102210"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "78BACEF0D7181027"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			title: "&lTerraformer"
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["463D067FC6CE93B7"]
+			description: ["You can call your &eTARDIS&r to a &elanding pad&r using a &eTARDIS Key&r."]
 			id: "079365D602528842"
-			tasks: [{
-				id: "3B4FDBE38CB3345C"
-				item: "tardis_refined:flight_detector"
+			rewards: [{
+				id: "7817845B006E2FE5"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			shape: "gear"
+			tasks: [
+				{
+					id: "358ECCE4B68B3195"
+					item: "tardis_refined:landing_pad"
+					type: "item"
+				}
+				{
+					id: "41117CB8AEA79609"
+					item: {
+						Count: 1b
+						id: "tardis_refined:tardis_key"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&lCall the TARDIS"
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0397979D1DA6C245"]
+			description: [
+				"Welcome ! You've just stepped inside the &e&lGreatest Time Travel Machine&r, and you're the pilot."
+				""
+				"Use the &econsole&r to control the TARDIS. "
+				"First, enter the destination's &ecoordinates and dimension&r."
+				"Then activate the &e&lThrottle&r."
+				""
+				"The TARDIS can go &e&lAnywhere and Anytime&r... within reason."
+				""
+				"&7- The TARDIS cannot travel to the End if an Ender Dragon is still alive."
+				"&7- The TARDIS cannot exceed the world’s boundaries, neither above nor below."
+				"&7- The TARDIS cannot land on the Nether roof."
+				""
+				"{image:techev:textures/misc/quests/tardis_refined/tardis.png width:71 height:112 align:1}"
+				""
+				"During flight, &cturbulence&r may cause controls to become misaligned. You might hear warning sounds when this happens, &eparticles&r will also appear on the affected control."
+				"To fix it, &einteract with the control&r until the particles disappear, restoring proper function."
+			]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -215,17 +514,34 @@
 				}
 			}
 			id: "463D067FC6CE93B7"
+			shape: "circle"
+			subtitle: "&lPilot the T.A.R.D.I.S"
 			tasks: [{
 				id: "2EF18311A13C27C3"
 				title: "a"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 1.0d
+			title: "&lTime And Relative Dimension In Space"
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["463D067FC6CE93B7"]
+			description: [
+				"The &eConsole Configurator&r can change the &eappearance&r of the console."
+				""
+				"The &ePattern Manipulator&r can switch between different &eappearance variants&r."
+				""
+				"The &eFlight Detector&r emits &eredstone&r when the &eTARDIS&r is in flight."
+			]
 			id: "317E788067993004"
+			rewards: [{
+				id: "23111C3BC980BBD7"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "0F2C3AB44617CEEE"
@@ -237,41 +553,113 @@
 					item: "tardis_refined:pattern_manipulator"
 					type: "item"
 				}
+				{
+					id: "6153466D7F55502E"
+					item: "tardis_refined:flight_detector"
+					type: "item"
+				}
 			]
-			x: 3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["463D067FC6CE93B7"]
-			id: "0E754961D96BB070"
-			tasks: [{
-				id: "0EB34490DFE539C4"
-				item: "tardis_refined:drill"
-				type: "item"
-			}]
-			x: 2.0d
+			title: "&lConsole Configurator and Detector"
+			x: 8.5d
 			y: 1.5d
 		}
 		{
+			dependencies: ["30269A7AC0A8AE0B"]
 			id: "070CAAE23670991E"
+			rewards: [{
+				id: "28C3D7BAAABAD336"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "&l[Infinite &9Water&7]"
 			tasks: [{
 				id: "3FCAE646B054976B"
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			title: "&lSink"
+			x: 0.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["30269A7AC0A8AE0B"]
 			id: "5B5B819C0286205D"
+			rewards: [{
+				id: "178394C7F26AB895"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "09DC45FDCB2C30C5"
 				item: "javd:portal_block"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			title: "&lJust Another Void Dimension"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"562D3049B9DF5C4B"
+				"3529A0DB7D4269CD"
+			]
+			description: [
+				"&b&lChromatic&r is one of the components of &4&lTechevium&r."
+				""
+				"&7A prismatic crystal infused with the energy of rifts and realms. It resonates with the frequency of other dimensions, serving as a bridge between worlds. Those attuned to Chromatic can harness the unstable forces of alternate realities."
+			]
+			id: "0F86755CE3BE2113"
+			rewards: [{
+				count: 3
+				id: "31899DBAAE2B7670"
+				item: "coinsje:diamond_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&lTechevium [Part 1]"
+			tasks: [{
+				id: "03832FB652E1B2F9"
+				item: "techev_additions:chromatic"
+				type: "item"
+			}]
+			title: "&b&lThe Chromatic"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30269A7AC0A8AE0B"]
+			description: ["{image:techev:textures/misc/quests/extendedcrafting/combination.png width:78 height:68 align:1 fit:true}"]
+			icon: "extendedcrafting:crafting_core"
+			id: "2C81B4717F596FBD"
+			rewards: [{
+				id: "7978E3D9EB394B76"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "6A23947BCDB69313"
+					item: "extendedcrafting:crafting_core"
+					type: "item"
+				}
+				{
+					id: "24A4C24D2310E319"
+					item: "extendedcrafting:pedestal"
+					type: "item"
+				}
+			]
+			title: "&lCombination Crafting"
+			x: 4.5d
+			y: -1.5d
 		}
 	]
+	subtitle: ["Bend space, time, and reality itself"]
 	title: " &l&6♦ &rQuantum Utilities"
 }

@@ -123,7 +123,7 @@
 			image: "techev:textures/misc/quests/mekanism/induction_matrix.png"
 			rotation: 0.0d
 			width: 4.289897510980966d
-			x: -1.5d
+			x: -2.5d
 			y: 5.0d
 		}
 		{
@@ -148,7 +148,7 @@
 			rotation: 0.0d
 			width: 5.55886736214605d
 			x: -4.5d
-			y: -9.5d
+			y: -8.0d
 		}
 		{
 			click: ""
@@ -183,7 +183,7 @@
 			image: "techev:textures/misc/quests/mekanism/fusion_reactor.png"
 			rotation: 0.0d
 			width: 5.044091710758377d
-			x: 9.0d
+			x: 8.5d
 			y: -12.5d
 		}
 		{
@@ -195,7 +195,7 @@
 			image: "techev:textures/misc/quests/mekanism/boiler.png"
 			rotation: 0.0d
 			width: 4.802306425041186d
-			x: 17.5d
+			x: 18.0d
 			y: -7.5d
 		}
 		{
@@ -207,7 +207,7 @@
 			image: "techev:textures/misc/quests/mekanism/turbine.png"
 			rotation: 0.0d
 			width: 4.815686274509804d
-			x: 20.5d
+			x: 21.0d
 			y: -3.0d
 		}
 		{
@@ -242,42 +242,69 @@
 		{
 			dependencies: ["4F433C61B8E99CBC"]
 			id: "0C8559661FCAAB42"
+			rewards: [{
+				id: "699B81FE49326305"
+				item: "mekanism:alloy_infused"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7D4EEB731AF087A1"
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
+			title: "&l&cInfused Alloy"
 			x: 1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0C8559661FCAAB42"]
 			id: "49A816C1CE69EC86"
+			rewards: [{
+				id: "2547BC21C686B89D"
+				item: "mekanism:alloy_reinforced"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "120DBDF1B5978438"
 				item: "mekanism:alloy_reinforced"
 				type: "item"
 			}]
+			title: "&l&3Reinforced Alloy"
 			x: 4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["49A816C1CE69EC86"]
 			id: "1FE6BE82576440A7"
+			rewards: [{
+				id: "7501DF1B6A1D2A5F"
+				item: "mekanism:alloy_atomic"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1C2F89FC65BB2F5F"
 				item: "mekanism:alloy_atomic"
 				type: "item"
 			}]
+			title: "&l&5Atomic Alloy"
 			x: 6.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4F433C61B8E99CBC"]
 			id: "4B74533FD2980B27"
+			rewards: [{
+				id: "33962DD15105BC32"
+				item: "mekanism:basic_control_circuit"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "521FF81492ED9408"
@@ -293,12 +320,19 @@
 				"4B74533FD2980B27"
 			]
 			id: "26BEBD167BC2DEB1"
+			rewards: [{
+				id: "237766C7F56AB4BF"
+				item: "mekanism:advanced_control_circuit"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5993912730A37B13"
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
+			title: "&l&cAdvanced Control Circuit"
 			x: 1.5d
 			y: -5.0d
 		}
@@ -308,12 +342,19 @@
 				"26BEBD167BC2DEB1"
 			]
 			id: "6EC89B2EC90249C8"
+			rewards: [{
+				id: "1EB7657771A7B7A1"
+				item: "mekanism:elite_control_circuit"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4F1A41F4E07C0E36"
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
+			title: "&l&3Elite Control Circuit"
 			x: 4.0d
 			y: -5.0d
 		}
@@ -323,12 +364,19 @@
 				"6EC89B2EC90249C8"
 			]
 			id: "376A92629360D14E"
+			rewards: [{
+				id: "518CD2844BAAFA44"
+				item: "mekanism:ultimate_control_circuit"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "28EB185B0A669945"
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
+			title: "&l&5Ultimate Control Circuit"
 			x: 6.5d
 			y: -5.0d
 		}
@@ -339,12 +387,19 @@
 				"5D3103914AC6D89E"
 			]
 			id: "6886152537828A96"
+			rewards: [{
+				id: "4B8985C085084D1A"
+				item: "mekaevolution:absolute_control_circuit"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "60D73AF417C0784A"
 				item: "mekaevolution:absolute_control_circuit"
 				type: "item"
 			}]
+			title: "&l&eAbsolute Control Circuit"
 			x: 9.0d
 			y: -5.0d
 		}
@@ -355,12 +410,19 @@
 				"5D3103914AC6D89E"
 			]
 			id: "1BCE8791A63FC03E"
+			rewards: [{
+				id: "5256C3D6E68A16C0"
+				item: "mekaevolution:supreme_control_circuit"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "55C174FC53DF2268"
 				item: "mekaevolution:supreme_control_circuit"
 				type: "item"
 			}]
+			title: "&l&4Supreme Control Circuit"
 			x: 11.5d
 			y: -5.0d
 		}
@@ -370,12 +432,19 @@
 				"1BCE8791A63FC03E"
 			]
 			id: "57E73AE92FE78DF6"
+			rewards: [{
+				id: "0FB5304850207825"
+				item: "mekaevolution:cosmic_control_circuit"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "616DFF679F2D9AE0"
 				item: "mekaevolution:cosmic_control_circuit"
 				type: "item"
 			}]
+			title: "&l&dCosmic Control Circuit"
 			x: 14.0d
 			y: -5.0d
 		}
@@ -385,6 +454,12 @@
 				"57E73AE92FE78DF6"
 			]
 			id: "579C643804E863A8"
+			rewards: [{
+				id: "2827B8B664C0662B"
+				item: "mekaevolution:infinite_control_circuit"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -392,78 +467,137 @@
 				item: "mekaevolution:infinite_control_circuit"
 				type: "item"
 			}]
+			title: "&l&6Infinite Control Circuit"
 			x: 16.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1FE6BE82576440A7"]
 			id: "0CDF3D10FF6F8C08"
+			rewards: [{
+				id: "34610F81CB59FA81"
+				item: "mekaevolution:alloy_radiance"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2676CF97F0C8FCF6"
 				item: "mekaevolution:alloy_radiance"
 				type: "item"
 			}]
+			title: "&l&eRadiance Alloy"
 			x: 9.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0CDF3D10FF6F8C08"]
 			id: "03810042A147E6F2"
+			rewards: [{
+				id: "3AFD4BD30911888B"
+				item: "mekaevolution:alloy_thermonuclear"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "49DA466E106274EF"
 				item: "mekaevolution:alloy_thermonuclear"
 				type: "item"
 			}]
+			title: "&l&4Thermonuclear Alloy"
 			x: 11.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["03810042A147E6F2"]
 			id: "39FF469B93193AA5"
+			rewards: [{
+				id: "4FF3A84DF4253BA9"
+				item: "mekaevolution:alloy_shining"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0E4DDED01775C816"
 				item: "mekaevolution:alloy_shining"
 				type: "item"
 			}]
+			title: "&l&dShining Alloy"
 			x: 14.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["39FF469B93193AA5"]
 			id: "0A4A5ABF35268DC0"
+			rewards: [{
+				id: "0CAF7F203916C59A"
+				item: "mekaevolution:alloy_spectrum"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3D16AFAE9A8D25C8"
 				item: "mekaevolution:alloy_spectrum"
 				type: "item"
 			}]
+			title: "&l&6Spectrum Alloy"
 			x: 16.5d
 			y: -3.5d
 		}
 		{
+			dependencies: ["57E73AE92FE78DF6"]
+			description: [
+				"&7Superpowered Tools that can mine extremely fast."
+				""
+				"- The Atomic Disassembler mines one block at a time."
+				"- The Plasma Pickaxe mines in 3x3."
+			]
+			hide_dependency_lines: true
 			id: "61222FA32DEB3923"
-			shape: "rsquare"
-			tasks: [{
-				id: "367FF648122B117A"
-				item: "mekanism:atomic_disassembler"
+			rewards: [{
+				id: "2BF47B9D8E40EFB6"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
 				type: "item"
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "367FF648122B117A"
+					item: "mekanism:atomic_disassembler"
+					type: "item"
+				}
+				{
+					id: "75233A1DC5DB7E91"
+					item: "mekaevolution:plasma_pickaxe"
+					type: "item"
+				}
+			]
+			title: "&lAtomic Tools"
 			x: 19.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4F433C61B8E99CBC"]
+			description: ["&7A sturdy, steel-based casing used as a foundation for machinery."]
 			id: "2BCFF27924585ACE"
-			shape: "square"
+			rewards: [{
+				id: "76C1C5D9924006B1"
+				item: "mekanism:steel_casing"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				id: "1A34D2816AA21268"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
+			title: "&l&7Steel Casing"
 			x: -3.0d
 			y: -3.5d
 		}
@@ -471,12 +605,19 @@
 			dependencies: ["4F433C61B8E99CBC"]
 			hide_dependency_lines: true
 			id: "5AB16943CF8CE932"
+			rewards: [{
+				id: "0936E6EB661CB6FB"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Increases speed of machinery"
 			tasks: [{
 				id: "1B7C3197E8A47D1A"
 				item: "mekanism:upgrade_speed"
 				type: "item"
 			}]
+			title: "&lSpeed Upgrade"
 			x: -3.5d
 			y: 0.0d
 		}
@@ -484,12 +625,19 @@
 			dependencies: ["4F433C61B8E99CBC"]
 			hide_dependency_lines: true
 			id: "796F2AB723F00ECA"
+			rewards: [{
+				id: "31BA42F27823BEC9"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Increases the efficiency of gas-using machinery"
 			tasks: [{
 				id: "0129D3A6D72A99E7"
 				item: "mekanism:upgrade_energy"
 				type: "item"
 			}]
+			title: "&lEnergy Upgrade"
 			x: -2.5d
 			y: 0.0d
 		}
@@ -497,12 +645,19 @@
 			dependencies: ["4F433C61B8E99CBC"]
 			hide_dependency_lines: true
 			id: "0AA605EC5A2E2645"
+			rewards: [{
+				id: "253414A90D8C813F"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Separates heavy water from regular water"
 			tasks: [{
 				id: "6482ED4796132CAB"
 				item: "mekanism:upgrade_filter"
 				type: "item"
 			}]
+			title: "&lFilter Upgrade"
 			x: -3.5d
 			y: 2.0d
 		}
@@ -510,12 +665,19 @@
 			dependencies: ["4F433C61B8E99CBC"]
 			hide_dependency_lines: true
 			id: "4896E8D1585C3203"
+			rewards: [{
+				id: "632B79E226924385"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Reduces noise generated by machinery"
 			tasks: [{
 				id: "03CF1D80860756F4"
 				item: "mekanism:upgrade_muffling"
 				type: "item"
 			}]
+			title: "&lMuffling Upgrade"
 			x: -2.5d
 			y: 1.0d
 		}
@@ -523,12 +685,19 @@
 			dependencies: ["4F433C61B8E99CBC"]
 			hide_dependency_lines: true
 			id: "029C14077CCC759A"
+			rewards: [{
+				id: "3AE4C66508EAB96C"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Increases the efficiency of gas-using machinery"
 			tasks: [{
 				id: "58404C2C0EF90C74"
 				item: "mekanism:upgrade_gas"
 				type: "item"
 			}]
+			title: "&lGas Upgrade"
 			x: -3.5d
 			y: 1.0d
 		}
@@ -536,12 +705,19 @@
 			dependencies: ["4F433C61B8E99CBC"]
 			hide_dependency_lines: true
 			id: "2B978AE056CE8366"
+			rewards: [{
+				id: "3F25AACA9CCE1542"
+				item: "mekanism:upgrade_anchor"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Keeps a machine's chunk loaded"
 			tasks: [{
 				id: "5E57B1B43BE08263"
 				item: "mekanism:upgrade_anchor"
 				type: "item"
 			}]
+			title: "&lAnchor Upgrade"
 			x: -2.5d
 			y: 2.0d
 		}
@@ -549,323 +725,581 @@
 			dependencies: ["4F433C61B8E99CBC"]
 			hide_dependency_lines: true
 			id: "4575749411DD0762"
+			rewards: [{
+				id: "396AC2207E7153B1"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
 			shape: "square"
+			subtitle: "Generates stone or cobblestone as needed"
 			tasks: [{
 				id: "419795F4FFACD8DD"
 				item: "mekanism:upgrade_stone_generator"
 				type: "item"
 			}]
+			title: "&lStone Generator Upgrade"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5D3103914AC6D89E"]
+			description: ["&7A machine used to infuse various materials into (generally) metals to create metal alloys and other compounds."]
 			id: "4F433C61B8E99CBC"
+			rewards: [{
+				id: "759C8E5AA45FB8D9"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
+			subtitle: "&l&e[Tiered]"
 			tasks: [{
 				id: "6A3FACA957DC9FAE"
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
+			title: "&lMetallurgic Infuser"
 			x: -1.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1BCE8791A63FC03E"]
+			description: ["&7A highly-advanced, filter-based, auto-miner that can mine whatever block you tell it to within a 32 block (max) radius."]
 			id: "7260676B88D5083C"
+			rewards: [{
+				id: "1C1E244E75CAAFAD"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "0E14B47CAE5DDA96"
 				item: "mekanism:digital_miner"
 				type: "item"
 			}]
+			title: "&lDigital Miner"
 			x: 11.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["6886152537828A96"]
+			description: ["&7A fairly advanced machine used to compress osmium into various dusts in order to create their ingot counterparts."]
 			id: "7F08C73E810549F0"
+			rewards: [{
+				id: "2E7F51B134634493"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&e[Tiered]"
 			tasks: [{
 				id: "21BE927C56DEC91A"
 				item: "mekanism:osmium_compressor"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -8.0d
+			title: "&lOsmium Compressor"
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A simple machine used to enrich ores into two of their dust counterparts, as well as perform many other operations."]
 			hide_dependent_lines: true
 			id: "126B9D502CE27576"
+			rewards: [{
+				id: "1D5D7F066B4D97E3"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&e[Tiered]"
 			tasks: [{
 				id: "6CA397B8DC26DC88"
 				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
+			title: "&lEnrichment Chamber"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6EC89B2EC90249C8"]
+			description: ["&7A machine used to combine items together. For example, raw ores and cobblestone to form their ore counterparts."]
 			id: "0809D2FE2CE892A8"
+			rewards: [{
+				id: "54AE9C52D1100A23"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&e[Tiered]"
 			tasks: [{
 				id: "27609431BEA2E01F"
 				item: "mekanism:combiner"
 				type: "item"
 			}]
+			title: "&lCombiner"
 			x: 4.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["26BEBD167BC2DEB1"]
+			description: ["&7A machine used to crush ingots into their dust counterparts, as well as perform many other operations."]
 			id: "2C2365F622D09C32"
+			rewards: [{
+				id: "76B2B3D8CB8AE1B3"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&e[Tiered]"
 			tasks: [{
 				id: "6BCB434D2C8F7105"
 				item: "mekanism:crusher"
 				type: "item"
 			}]
+			title: "&lCrusher"
 			x: 1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6886152537828A96"]
+			description: ["&7An advanced machine capable of processing ores into three clumps, serving as the initial stage of 300% ore processing."]
 			id: "329B4927DBCDAC9C"
+			rewards: [{
+				id: "7F14F44DC1119DB3"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&e[Tiered]"
 			tasks: [{
 				id: "5C43D37A09C9C897"
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
+			title: "&lPurification Chamber"
 			x: 9.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A simple machine that serves as a Mekanism-based furnace that runs off of energy."]
 			id: "79C79E1A594EFD48"
+			rewards: [{
+				id: "42D41480A32C0A4B"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&e[Tiered]"
 			tasks: [{
 				id: "78C1D806205EE341"
 				item: "mekanism:energized_smelter"
 				type: "item"
 			}]
+			title: "&lEnergized Smelter"
 			x: -0.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["376A92629360D14E"]
+			description: ["&7A machine capable of converting gases into their fluid form and vice versa."]
 			id: "5C8994D36FDDA309"
+			rewards: [{
+				id: "62AF1F6D6A43FD74"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "757348CAF03924A8"
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
+			title: "&lRotary Condensentrator"
 			x: 6.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6886152537828A96"]
+			description: ["&7A machine capable of oxidizing solid materials into gas phase."]
 			id: "66BD31DD5FD87F28"
+			rewards: [{
+				id: "03B266FBCF8AA2FC"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "05DF30BA6112F1DE"
 				item: "mekanism:chemical_oxidizer"
 				type: "item"
 			}]
+			title: "&lChemical Oxidizer"
 			x: 8.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["6886152537828A96"]
+			description: ["&7A machine that produces a new gas by infusing two others."]
 			id: "03F809FD039C2B09"
+			rewards: [{
+				id: "7A10069081CB65FC"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "1976FF832E185C65"
 				item: "mekanism:chemical_infuser"
 				type: "item"
 			}]
+			title: "&lChemical Infuser"
 			x: 10.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["6886152537828A96"]
+			description: ["&7An elite machine capable of processing ores into four shards, serving as the initial stage of 400% ore processing."]
 			id: "71CCDABD9164F3AF"
+			rewards: [{
+				id: "05EB4A435034676C"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&e[Tiered]"
 			tasks: [{
 				id: "33D4D3826400D034"
 				item: "mekanism:chemical_injection_chamber"
 				type: "item"
 			}]
+			title: "&lChemical Injection Chamber"
 			x: 9.5d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["376A92629360D14E"]
+			description: ["&7A machine that uses the process of electrolysis to split apart a certain gas into two different gases."]
 			id: "54E420914CA6156A"
+			rewards: [{
+				id: "55214D7CE5F04292"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "72969AB7EA476CCE"
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -8.0d
+			title: "&lElectrolytic Separator"
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A machine used to process logs and other wood-based items more efficiently, as well as to obtain sawdust."]
 			id: "49302CB1AF4481DB"
+			rewards: [{
+				id: "41B56B4D0D9F7FEF"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&l&e[Tiered]"
 			tasks: [{
 				id: "7E7A2B3A8FF45CA7"
 				item: "mekanism:precision_sawmill"
 				type: "item"
 			}]
+			title: "&lPrecision Sawmill"
 			x: -1.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6886152537828A96"]
+			description: ["&7An ultimate machine used to chemically dissolve all impurities of an ore, leaving an unprocessed slurry behind."]
 			id: "37F3F5B229F62F94"
+			rewards: [{
+				id: "7184F1549371BDD7"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "71D591563378BADA"
 				item: "mekanism:chemical_dissolution_chamber"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -7.0d
+			title: "&lChemical Dissolution Chamber"
+			x: 9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1BCE8791A63FC03E"]
+			description: ["&7An ultimate machine that cleans unprocessed slurry and prepares it for crystallization."]
 			id: "05752A871FF11212"
+			rewards: [{
+				id: "472E427949A03936"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "74A2E595E494183D"
 				item: "mekanism:chemical_washer"
 				type: "item"
 			}]
+			title: "&lChemical Washer"
 			x: 12.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["376A92629360D14E"]
+			description: ["&7An ultimate machine used to crystallize purified ore slurry into ore crystals."]
 			id: "6A935379BEB0404F"
+			rewards: [{
+				id: "612CE1F43B8A9BDD"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "45D4AC6B6C87FFE0"
 				item: "mekanism:chemical_crystallizer"
 				type: "item"
 			}]
+			title: "&lChemical Cystallizer"
 			x: 6.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6EC89B2EC90249C8"]
+			description: [
+				"&7A machine that uses seismic vibrations to provide information on differing layers of the world."
+				""
+				"Used with &lSeismic Reader&r : "
+				""
+				"&7A portable machine that uses seismic vibrations to provide information on differing layers of the world."
+			]
 			id: "558E3E477BA61E49"
-			tasks: [{
-				id: "3B9D8E763F7D63DB"
+			rewards: [{
+				id: "15AA416D7194EB53"
 				item: "mekanism:seismic_vibrator"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.0d
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3B9D8E763F7D63DB"
+					item: "mekanism:seismic_vibrator"
+					type: "item"
+				}
+				{
+					id: "103349CEC964B6CB"
+					item: "mekanism:seismic_reader"
+					type: "item"
+				}
+			]
+			title: "&lSeismic Vibrator"
+			x: 3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6886152537828A96"]
+			description: ["&7An advanced machine that processes a solid, liquid and gaseous mixture and creates both a gaseous and solid product."]
 			id: "60C3ABAC3DE5405C"
+			rewards: [{
+				id: "4AC210E825E15C54"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "12650DC968B0CB11"
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.0d
+			title: "&lPressurized Reaction Chamber"
+			x: 9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6886152537828A96"]
+			description: ["&7A machine with one single purpose: to spin its contents really, REALLY fast."]
 			id: "0DB2A051763F8144"
+			rewards: [{
+				id: "2E214F82EFC75986"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "5AEC116663A31CF7"
 				item: "mekanism:isotopic_centrifuge"
 				type: "item"
 			}]
+			title: "&lIsotopic Centrifuge"
 			x: 8.5d
 			y: -9.0d
 		}
 		{
+			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A machine that is capable of processing any foods into non-dangerous, easily-digestible Nutritional Paste."]
+			hide_dependency_lines: true
 			id: "41E80173DA51C5B7"
+			rewards: [{
+				id: "063680DBAEA7CCEF"
+				item: "mekanism:canteen"
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [{
 				id: "0832D38380F821D9"
 				item: "mekanism:nutritional_liquifier"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 1.5d
+			x: 17.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["26BEBD167BC2DEB1"]
+			description: ["&7A tool used to change the settings of blocks."]
+			hide_dependency_lines: true
 			id: "16D0C4D210A47943"
+			rewards: [{
+				id: "4D06AA8C1B8FF6A9"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "3235C897AB1AB36E"
 				item: "mekanism:configurator"
 				type: "item"
 			}]
+			title: "&lConfigurator"
 			x: 19.5d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"16D0C4D210A47943"
-				"61222FA32DEB3923"
+			dependencies: ["61222FA32DEB3923"]
+			description: [
+				"&7An upgradable tool that mines extremely quickly."
+				""
+				"&eRemember to configure your 'Module Tweaker' keybinding to control this tool."
 			]
 			hide_dependent_lines: true
 			id: "71AE3DBCAD2D24B6"
+			rewards: [{
+				count: 2
+				id: "396E75A419E58BAC"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "21C726A0E2851631"
 				item: "mekanism:meka_tool"
 				type: "item"
 			}]
+			title: "&lMeka-Tool"
 			x: 19.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A machine used to extract pigments from blocks and items."]
 			id: "020BE3DABC9C480A"
+			rewards: [{
+				id: "72D07BB5F1BAC238"
+				item: "mekanism:pigment_extractor"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "4EA5297A73887D2C"
 				item: "mekanism:pigment_extractor"
 				type: "item"
 			}]
+			title: "&lPigment Extractor"
 			x: -1.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["020BE3DABC9C480A"]
+			description: ["&7A sturdy machine capable of mixing two pigments together to produce a new pigment."]
 			id: "35A553116150B69B"
+			rewards: [{
+				id: "0A0E62B38C668D9E"
+				item: "mekanism:pigment_mixer"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "45B1C708DCF11A48"
 				item: "mekanism:pigment_mixer"
 				type: "item"
 			}]
+			title: "&lPigment Mixer"
 			x: 0.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["020BE3DABC9C480A"]
+			description: ["&7A machine used to color blocks and items via a careful application of a stored pigment."]
 			id: "5F111D061045426E"
+			rewards: [{
+				id: "5B89D9F6B46A5D4A"
+				item: "mekanism:painting_machine"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "60BE5F22F381BCCA"
 				item: "mekanism:painting_machine"
 				type: "item"
 			}]
+			title: "&lPainting Machine"
 			x: -2.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["489B1B2FDB95C4EE"]
+			description: [
+				"&7A barrel that can be used to 'safely' store radioactive waste."
+				""
+				"&4&lWARNING: breaking this barrel will release its contents into the atmosphere, making the entire zone irradiated."
+			]
 			id: "505CA0036A45EA4C"
+			rewards: [{
+				id: "06B8AC6A9066EAA7"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
 			shape: "gear"
+			subtitle: "Decay Rate: 0.05mB/t"
 			tasks: [{
 				id: "483F4FFE6E02C951"
 				item: "mekanism:radioactive_waste_barrel"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -14.5d
+			x: 3.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["489B1B2FDB95C4EE"]
+			description: ["&7A cosy suit that protects you from radiation damage."]
 			id: "4425D5265A10563C"
+			rewards: [{
+				id: "53A77A3AE9202DCB"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -890,11 +1324,23 @@
 				}
 			]
 			x: 3.5d
-			y: -13.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["4F433C61B8E99CBC"]
 			id: "23D832724218836F"
+			rewards: [
+				{
+					id: "0FD6E6E18A63FD3B"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "1C04027990273010"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4B6C26EDD6161C9B"
@@ -907,6 +1353,7 @@
 					type: "item"
 				}
 			]
+			title: "&lBasic Induction Cells"
 			x: -1.0d
 			y: 2.5d
 		}
@@ -916,6 +1363,18 @@
 				"0C8559661FCAAB42"
 			]
 			id: "25CBC393B837EE51"
+			rewards: [
+				{
+					id: "644734519FFC4EC7"
+					item: "mekanism:advanced_induction_cell"
+					type: "item"
+				}
+				{
+					id: "356084FAA0EF35CB"
+					item: "mekanism:advanced_induction_provider"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3796CF2BC4F2D794"
@@ -928,6 +1387,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&cAdvanced Induction Cells"
 			x: 1.5d
 			y: 2.5d
 		}
@@ -937,6 +1397,18 @@
 				"49A816C1CE69EC86"
 			]
 			id: "351F55BF1B6C450D"
+			rewards: [
+				{
+					id: "0FF1CE0C3206A3D4"
+					item: "mekanism:elite_induction_cell"
+					type: "item"
+				}
+				{
+					id: "7E55BEDDB05B08AE"
+					item: "mekanism:elite_induction_provider"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4FA3696FDEF84C74"
@@ -949,6 +1421,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&3Elite Induction Cells"
 			x: 4.0d
 			y: 2.5d
 		}
@@ -958,6 +1431,18 @@
 				"1FE6BE82576440A7"
 			]
 			id: "02DDC73C5A6B707C"
+			rewards: [
+				{
+					id: "41FD7803B12E1467"
+					item: "mekanism:ultimate_induction_cell"
+					type: "item"
+				}
+				{
+					id: "3F86F8889E01568A"
+					item: "mekanism:ultimate_induction_provider"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "00608EB1B7C42FC2"
@@ -970,49 +1455,76 @@
 					type: "item"
 				}
 			]
+			title: "&l&5Ultimate Induction Cells"
 			x: 6.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["2BCFF27924585ACE"]
+			dependencies: ["4F433C61B8E99CBC"]
+			description: ["&7A cardboard box that is used for easily transporting a block containing items."]
 			id: "7331F7248E8BC267"
+			rewards: [{
+				id: "70804FD8875C5EF0"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "1DA04A1C3CF12BBC"
 				item: "mekanism:cardboard_box"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["2BCFF27924585ACE"]
+			dependencies: ["1FE6BE82576440A7"]
+			description: ["&7A little robot that can do tasks for you."]
+			hide_dependency_lines: true
 			id: "532EE7475DA99267"
 			rewards: [{
 				id: "59F3B8AFD4718CD3"
 				item: "mekanism:chargepad"
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "A New Best Friend ! "
 			tasks: [{
 				id: "7408C414C1BBFE25"
 				item: "mekanism:robit"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: 18.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["376A92629360D14E"]
+			description: ["&7An advanced workbench capable of installing and removing modules from modular equipment (i.e. MekaSuit!)"]
+			hide_dependency_lines: true
 			id: "39E08E98D352008B"
+			rewards: [{
+				id: "6D4416C943B113F1"
+				item: "mekanism:module_base"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [{
 				id: "63FB410A66CF88EF"
 				item: "mekanism:modification_station"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 4.5d
+			x: 17.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B9D3A4904A2AFC8"]
 			id: "76D26EAD06E479AA"
+			rewards: [{
+				id: "7B8791CA0EF87B2A"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "435A614BCAF47849"
@@ -1025,6 +1537,11 @@
 		{
 			dependencies: ["597499D80EC059A9"]
 			id: "10E026D6F09F4237"
+			rewards: [{
+				id: "4DF50A833BD5FFFF"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "61A94BD61A03B041"
@@ -1037,6 +1554,11 @@
 		{
 			dependencies: ["597499D80EC059A9"]
 			id: "6A6DFC383B92F219"
+			rewards: [{
+				id: "13CF172C2B8495ED"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "5398C9BDF4EA84FE"
@@ -1049,6 +1571,11 @@
 		{
 			dependencies: ["31B7E36FEB2ED94E"]
 			id: "0D2FD9D7E33CB1B6"
+			rewards: [{
+				id: "12FC72CB4191F138"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "2284A4770105B00F"
@@ -1069,6 +1596,11 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "0CF3DE53193A8D5C"
+			rewards: [{
+				id: "1620F8F2CFDF6F2F"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "2F2CD734288631E1"
@@ -1088,6 +1620,11 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "3F64B99BA88AC428"
+			rewards: [{
+				id: "6058C9F4A0F6C365"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "1C8CEE15FE21B996"
@@ -1107,6 +1644,11 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "76559E70E296AE9B"
+			rewards: [{
+				id: "2A31DEFC18D1D7D4"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "64E14B8B3ACC36B5"
@@ -1126,6 +1668,11 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "40248677C83F9D00"
+			rewards: [{
+				id: "65F67392B6E39D6A"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "1FC386E4876AE6D1"
@@ -1138,6 +1685,11 @@
 		{
 			dependencies: ["4B9D3A4904A2AFC8"]
 			id: "1C73E3E4B51E03A3"
+			rewards: [{
+				id: "3C705D7DD64C43B4"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "631169643AC6E283"
@@ -1150,6 +1702,11 @@
 		{
 			dependencies: ["4B9D3A4904A2AFC8"]
 			id: "1E11967ADBB3F2CB"
+			rewards: [{
+				id: "71E4E274AD56D021"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "2AD543C89C417F13"
@@ -1162,6 +1719,11 @@
 		{
 			dependencies: ["4B9D3A4904A2AFC8"]
 			id: "156A8B16004AE2B5"
+			rewards: [{
+				id: "6C7D9D668F9724AF"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "4B011D7E0EB96CC5"
@@ -1174,6 +1736,11 @@
 		{
 			dependencies: ["4B9D3A4904A2AFC8"]
 			id: "13709C6FC374C923"
+			rewards: [{
+				id: "03F8E0415A869B1A"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "3FC6C9561E15559D"
@@ -1186,6 +1753,11 @@
 		{
 			dependencies: ["597499D80EC059A9"]
 			id: "2919C11D0CA5C73C"
+			rewards: [{
+				id: "4DA28CF0EDD362E8"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "529D686AA47E5112"
@@ -1198,6 +1770,11 @@
 		{
 			dependencies: ["597499D80EC059A9"]
 			id: "06866A165EF253BD"
+			rewards: [{
+				id: "25186660E4B75F30"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "0D19DF480F0F87A9"
@@ -1210,7 +1787,13 @@
 		{
 			dependencies: ["597499D80EC059A9"]
 			id: "32C399C14886E9CD"
+			rewards: [{
+				id: "5E4D953A0AAB2F27"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
+			subtitle: "&cConflicts with: &7Gravitational Modulating Unit"
 			tasks: [{
 				id: "45D378AABAC67CEE"
 				item: "mekanism:module_jetpack_unit"
@@ -1222,6 +1805,11 @@
 		{
 			dependencies: ["597499D80EC059A9"]
 			id: "1951B11853043D9A"
+			rewards: [{
+				id: "662BCF38E7B3DB42"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "172D0635B1F71C1A"
@@ -1234,7 +1822,13 @@
 		{
 			dependencies: ["597499D80EC059A9"]
 			id: "55C3B6A26F4BD8BC"
+			rewards: [{
+				id: "233D05E7282CFD8C"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
+			subtitle: "&cConflicts with: &7Jetpack Unit"
 			tasks: [{
 				id: "5DD8996A77303CCF"
 				item: "mekanism:module_gravitational_modulating_unit"
@@ -1246,6 +1840,11 @@
 		{
 			dependencies: ["597499D80EC059A9"]
 			id: "532D26639B7FB378"
+			rewards: [{
+				id: "7D66DBA14CE7F325"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "5E5E23D7CEEABCA8"
@@ -1258,6 +1857,11 @@
 		{
 			dependencies: ["2D0B804F6119D12F"]
 			id: "5F07F83DE7A7A660"
+			rewards: [{
+				id: "374106286699D524"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "2AE56FE28198302E"
@@ -1270,6 +1874,11 @@
 		{
 			dependencies: ["2D0B804F6119D12F"]
 			id: "4A7A2A3A21E1915F"
+			rewards: [{
+				id: "7F4EAF11AB72C069"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "395926A93D8D002A"
@@ -1282,6 +1891,11 @@
 		{
 			dependencies: ["2D0B804F6119D12F"]
 			id: "5E0DDF0EC22D5330"
+			rewards: [{
+				id: "2CDCAB4E98E288B0"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "5B64D80937E8D2BD"
@@ -1294,6 +1908,11 @@
 		{
 			dependencies: ["2D0B804F6119D12F"]
 			id: "5AF2E533CAC0F7C9"
+			rewards: [{
+				id: "0E0B2468FE68571A"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "3D6FA469F682BA8D"
@@ -1306,6 +1925,11 @@
 		{
 			dependencies: ["31B7E36FEB2ED94E"]
 			id: "261BEB364E00F647"
+			rewards: [{
+				id: "19629E625A546B00"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "33E26C368B3B88C1"
@@ -1318,6 +1942,11 @@
 		{
 			dependencies: ["31B7E36FEB2ED94E"]
 			id: "34444880BA770F33"
+			rewards: [{
+				id: "3EE6D686EB2579C7"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "3F8DB11DB581727B"
@@ -1330,6 +1959,11 @@
 		{
 			dependencies: ["31B7E36FEB2ED94E"]
 			id: "69A86FA0BC7CAFCC"
+			rewards: [{
+				id: "446EE9D9FB003109"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "49D66DA6118D9D94"
@@ -1342,6 +1976,11 @@
 		{
 			dependencies: ["4B9D3A4904A2AFC8"]
 			id: "7C711B3C02B0B326"
+			rewards: [{
+				id: "7A6376ACE378D1EB"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "1C97DBB08F01150C"
@@ -1354,6 +1993,11 @@
 		{
 			dependencies: ["2D0B804F6119D12F"]
 			id: "10D7600C2FD3E1CD"
+			rewards: [{
+				id: "03F283551C7567C1"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "57D63CF800A69224"
@@ -1366,6 +2010,11 @@
 		{
 			dependencies: ["4B9D3A4904A2AFC8"]
 			id: "193BD7104BD0870A"
+			rewards: [{
+				id: "14CAB8F5FCDE77F6"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "662B5481424A6221"
@@ -1378,7 +2027,13 @@
 		{
 			dependencies: ["71AE3DBCAD2D24B6"]
 			id: "0B4014711C3AC905"
+			rewards: [{
+				id: "19FFDC2E75584BE0"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
+			subtitle: "&cConflicts with: &7Farming / Shearing Unit"
 			tasks: [{
 				id: "62D49D4F96F6448E"
 				item: "mekanism:module_teleportation_unit"
@@ -1390,6 +2045,11 @@
 		{
 			dependencies: ["71AE3DBCAD2D24B6"]
 			id: "08C0F7F3B9AECFD6"
+			rewards: [{
+				id: "52EE9BF6713373B6"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "790825A7C3B06884"
@@ -1402,6 +2062,11 @@
 		{
 			dependencies: ["71AE3DBCAD2D24B6"]
 			id: "3CB2C6EFBBC063D1"
+			rewards: [{
+				id: "3A17F341B0D7B496"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "46ECD848B6F2CEEB"
@@ -1414,7 +2079,13 @@
 		{
 			dependencies: ["71AE3DBCAD2D24B6"]
 			id: "0F964EFA8C12A2A1"
+			rewards: [{
+				id: "4D426F32785A6A62"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
+			subtitle: "&cConflicts with: &7Silk Touch Unit"
 			tasks: [{
 				id: "65B3311FB09E2256"
 				item: "mekanism:module_fortune_unit"
@@ -1426,7 +2097,13 @@
 		{
 			dependencies: ["71AE3DBCAD2D24B6"]
 			id: "0B6BEE2FD88EDE1A"
+			rewards: [{
+				id: "2B1B6A0F627C8589"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
+			subtitle: "&cConflicts with: &7Ore Refinement Unit"
 			tasks: [{
 				id: "07D74226C68FF44B"
 				item: "mekanism:module_silk_touch_unit"
@@ -1438,7 +2115,13 @@
 		{
 			dependencies: ["71AE3DBCAD2D24B6"]
 			id: "7F16762B21884198"
+			rewards: [{
+				id: "0734FAB222A16207"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
+			subtitle: "&cConflicts with: &7Teleportation / Farming Unit"
 			tasks: [{
 				id: "7DE418BA5B6AE7AE"
 				item: "mekanism:module_shearing_unit"
@@ -1450,7 +2133,13 @@
 		{
 			dependencies: ["71AE3DBCAD2D24B6"]
 			id: "25F0429C875A7C3B"
+			rewards: [{
+				id: "77955D3F19DC75A0"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
+			subtitle: "&cConflicts with: &7Teleportation / Shearing Unit"
 			tasks: [{
 				id: "674407BA79F60C70"
 				item: "mekanism:module_farming_unit"
@@ -1462,6 +2151,11 @@
 		{
 			dependencies: ["71AE3DBCAD2D24B6"]
 			id: "5E4812787992BCCB"
+			rewards: [{
+				id: "09DFDFB12552480C"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "55FCA1246712FC19"
@@ -1474,6 +2168,11 @@
 		{
 			dependencies: ["71AE3DBCAD2D24B6"]
 			id: "55BE4D1B2D674A7A"
+			rewards: [{
+				id: "3168E67AE44C1D24"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "5EE96BEE81920108"
@@ -1487,13 +2186,20 @@
 			dependencies: ["66A16DC4A7F9078E"]
 			hide_dependent_lines: true
 			id: "256130B9223F0401"
+			rewards: [{
+				id: "097E17B845F26892"
+				item: "mekaevolution:enriched_shining"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "0EB3910E6B574D90"
 				item: "mekaevolution:enriched_shining"
 				type: "item"
 			}]
+			title: "&l&dEnriched Shining"
 			x: 12.75d
 			y: -4.25d
 		}
@@ -1501,46 +2207,91 @@
 			dependencies: ["34255F57CBA3D7C1"]
 			hide_dependent_lines: true
 			id: "66A16DC4A7F9078E"
+			rewards: [{
+				id: "6C3D81BE6E5D8408"
+				item: "mekaevolution:enriched_thermonuclear"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "105781D5FA414F17"
 				item: "mekaevolution:enriched_thermonuclear"
 				type: "item"
 			}]
+			title: "&l&4Enriched Thermonuclear"
 			x: 10.25d
 			y: -4.25d
 		}
 		{
 			dependencies: ["4F433C61B8E99CBC"]
 			id: "4CCD2E4FD3623C62"
+			rewards: [
+				{
+					count: 8
+					id: "7AB679CC375528E2"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "58E04AD6A11BC030"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4A985080E2DFAA05"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7D9AB549E48EDB42"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7E34BDCCA23AB8F2"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
+					count: 8L
 					id: "17096CEB53816B62"
 					item: "mekanism:basic_universal_cable"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "705EFA25FE5AFA73"
 					item: "mekanism:basic_logistical_transporter"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "5E91D684D95C6E6F"
 					item: "mekanism:basic_mechanical_pipe"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "360424B64DF55777"
 					item: "mekanism:basic_pressurized_tube"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "131B542EE060C895"
 					item: "mekanism:basic_thermodynamic_conductor"
 					type: "item"
 				}
 			]
+			title: "&lBasic Cables"
 			x: -1.0d
 			y: -0.5d
 		}
@@ -1550,33 +2301,71 @@
 				"0C8559661FCAAB42"
 			]
 			id: "59B15B94E3930171"
+			rewards: [
+				{
+					count: 8
+					id: "3D65E0122982F566"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "572BDFAA0299FFD5"
+					item: "mekanism:advanced_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6349497C296F77C3"
+					item: "mekanism:advanced_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "46286FC9971AC8DC"
+					item: "mekanism:advanced_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "00611A201D90D442"
+					item: "mekanism:advanced_thermodynamic_conductor"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
+					count: 8L
 					id: "7B7D915705E6F2A6"
 					item: "mekanism:advanced_universal_cable"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "42C42BC67B443BA2"
 					item: "mekanism:advanced_logistical_transporter"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "17ACC4274023D038"
 					item: "mekanism:advanced_mechanical_pipe"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "0BAD32BD755BEE2A"
 					item: "mekanism:advanced_pressurized_tube"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "1F740A4DC8891C44"
 					item: "mekanism:advanced_thermodynamic_conductor"
 					type: "item"
 				}
 			]
+			title: "&l&cAdvanced Cables"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -1586,33 +2375,71 @@
 				"49A816C1CE69EC86"
 			]
 			id: "518F0F4800C5BA6B"
+			rewards: [
+				{
+					count: 8
+					id: "10F627A108C6E3FB"
+					item: "mekanism:elite_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "298377C380A5518C"
+					item: "mekanism:elite_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "680A73426FCA699F"
+					item: "mekanism:elite_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6958D36EBC86403F"
+					item: "mekanism:elite_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5D047FD58D886AC5"
+					item: "mekanism:elite_thermodynamic_conductor"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
+					count: 8L
 					id: "13FD731381514900"
 					item: "mekanism:elite_universal_cable"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "4EC6634A8AA2FBF5"
 					item: "mekanism:elite_logistical_transporter"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "2A236BF893271179"
 					item: "mekanism:elite_mechanical_pipe"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "6609077BBE3F4340"
 					item: "mekanism:elite_pressurized_tube"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "373EDCC69EF2715D"
 					item: "mekanism:elite_thermodynamic_conductor"
 					type: "item"
 				}
 			]
+			title: "&l&3Elite Cables"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -1622,33 +2449,71 @@
 				"1FE6BE82576440A7"
 			]
 			id: "35FE2D07A7BE54EF"
+			rewards: [
+				{
+					count: 8
+					id: "761DE2E211D89E80"
+					item: "mekanism:ultimate_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7C5F0C07C1AF6051"
+					item: "mekanism:ultimate_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6FB3417DF7F8E058"
+					item: "mekanism:ultimate_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6A1D282E68C48815"
+					item: "mekanism:ultimate_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5F3C116CEC12232B"
+					item: "mekanism:ultimate_thermodynamic_conductor"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
+					count: 8L
 					id: "188255F8B5AA1C15"
 					item: "mekanism:ultimate_universal_cable"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "48CFE1E6D526D941"
 					item: "mekanism:ultimate_logistical_transporter"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "2738E8D550DA0C1A"
 					item: "mekanism:ultimate_mechanical_pipe"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "1BA6070828A2CC19"
 					item: "mekanism:ultimate_pressurized_tube"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "4FB02D5134DCA7E4"
 					item: "mekanism:ultimate_thermodynamic_conductor"
 					type: "item"
 				}
 			]
+			title: "&l&5Ultimate Cables"
 			x: 6.5d
 			y: -0.5d
 		}
@@ -1658,23 +2523,47 @@
 				"0CDF3D10FF6F8C08"
 			]
 			id: "4E469E222E44A4CD"
+			rewards: [
+				{
+					count: 8
+					id: "577D16039A0908A8"
+					item: "mekaevolution:absolute_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "346CC2B491BBDCA5"
+					item: "mekaevolution:absolute_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "33797E9D3564B0BC"
+					item: "mekaevolution:absolute_mechanical_pipe"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
+					count: 8L
 					id: "74F1121F38035E30"
 					item: "mekaevolution:absolute_universal_cable"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "05587FC51E87A64B"
 					item: "mekaevolution:absolute_logistical_transporter"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "319A1AD28089E488"
 					item: "mekaevolution:absolute_mechanical_pipe"
 					type: "item"
 				}
 			]
+			title: "&l&eAbsolute Cables"
 			x: 9.0d
 			y: -0.5d
 		}
@@ -1684,23 +2573,47 @@
 				"03810042A147E6F2"
 			]
 			id: "6439BBF67FF93261"
+			rewards: [
+				{
+					count: 8
+					id: "0794B88BDFBC615C"
+					item: "mekaevolution:supreme_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6F33E4651AD30C91"
+					item: "mekaevolution:supreme_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22CAE496DD6B35D5"
+					item: "mekaevolution:supreme_mechanical_pipe"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
+					count: 8L
 					id: "4961D7F992625B76"
 					item: "mekaevolution:supreme_universal_cable"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "178271EB42751E54"
 					item: "mekaevolution:supreme_logistical_transporter"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "43FBF0239B9D7C2B"
 					item: "mekaevolution:supreme_mechanical_pipe"
 					type: "item"
 				}
 			]
+			title: "&l&4Supreme Cables"
 			x: 11.5d
 			y: -0.5d
 		}
@@ -1710,23 +2623,47 @@
 				"39FF469B93193AA5"
 			]
 			id: "43FAECB51680DF18"
+			rewards: [
+				{
+					count: 8
+					id: "2200DC394C70FD74"
+					item: "mekaevolution:cosmic_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "015DB248FF99FB89"
+					item: "mekaevolution:cosmic_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "534AD758321E08F5"
+					item: "mekaevolution:cosmic_mechanical_pipe"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
+					count: 8L
 					id: "46A19AB7D97E43F6"
 					item: "mekaevolution:cosmic_universal_cable"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "77E1E100407316E1"
 					item: "mekaevolution:cosmic_logistical_transporter"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "3431853ED8DB308B"
 					item: "mekaevolution:cosmic_mechanical_pipe"
 					type: "item"
 				}
 			]
+			title: "&l&dCosmic Cables"
 			x: 14.0d
 			y: -0.5d
 		}
@@ -1736,29 +2673,59 @@
 				"0A4A5ABF35268DC0"
 			]
 			id: "50F04DA2C0174C84"
+			rewards: [
+				{
+					count: 8
+					id: "5940109B509EBBF7"
+					item: "mekaevolution:infinite_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0B4A7EB08A685D1E"
+					item: "mekaevolution:infinite_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7DC0AE7271D438E4"
+					item: "mekaevolution:infinite_mechanical_pipe"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
+					count: 8L
 					id: "2A9BAF0992C90385"
 					item: "mekaevolution:infinite_universal_cable"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "3D8E6305F6F97350"
 					item: "mekaevolution:infinite_logistical_transporter"
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "0C68BA74EC60101B"
 					item: "mekaevolution:infinite_mechanical_pipe"
 					type: "item"
 				}
 			]
+			title: "&l&6Infinite Cables"
 			x: 16.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4B74533FD2980B27"]
+			description: ["&7An installer used to upgrade Machines to their Basic Tier."]
 			id: "6885EC7F7BAB3EAF"
+			rewards: [{
+				id: "2382247AF9FA355D"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "525C7DFCE6D20596"
@@ -1766,11 +2733,17 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["26BEBD167BC2DEB1"]
+			description: ["&7An installer used to upgrade Machines to their Advanced Tier."]
 			id: "5C02072F7C11D456"
+			rewards: [{
+				id: "6C62A26A3194BE51"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "07D29342A5125AEA"
@@ -1778,11 +2751,17 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6EC89B2EC90249C8"]
+			description: ["&7An installer used to upgrade Machines to their Elite Tier."]
 			id: "767F6E7AEF191E4C"
+			rewards: [{
+				id: "052B60286A1929CF"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "1546C6796839AD77"
@@ -1790,11 +2769,17 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["376A92629360D14E"]
+			description: ["&7An installer used to upgrade Machines to their Ultimate Tier."]
 			id: "63AB638C5BBA948D"
+			rewards: [{
+				id: "53CE7E32E8DC5CA1"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "0A858AF5238FC273"
@@ -1802,11 +2787,23 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4F433C61B8E99CBC"]
 			id: "7294885068B42B16"
+			rewards: [
+				{
+					id: "2D63215266CD97D0"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "550BDD36B7EFF239"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5EA6B6E58CA6B6AE"
@@ -1819,6 +2816,7 @@
 					type: "item"
 				}
 			]
+			title: "&lBasic Tanks"
 			x: -1.0d
 			y: 1.0d
 		}
@@ -1828,6 +2826,18 @@
 				"7294885068B42B16"
 			]
 			id: "250DBDA5B4297DC0"
+			rewards: [
+				{
+					id: "55EDF4F14177FC91"
+					item: "mekanism:advanced_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "44147CB26192F664"
+					item: "mekanism:advanced_chemical_tank"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "034F9B8091922AA8"
@@ -1840,6 +2850,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&cAdvanced Tanks"
 			x: 1.5d
 			y: 1.0d
 		}
@@ -1849,6 +2860,18 @@
 				"250DBDA5B4297DC0"
 			]
 			id: "1B9F6B5429E694B7"
+			rewards: [
+				{
+					id: "7D4E0B2AD9FA7D10"
+					item: "mekanism:elite_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "76E70678A457D139"
+					item: "mekanism:elite_chemical_tank"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "40DF1896C5665D2E"
@@ -1861,6 +2884,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&3Elite Tanks"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -1870,6 +2894,18 @@
 				"1B9F6B5429E694B7"
 			]
 			id: "41921923B4938A2A"
+			rewards: [
+				{
+					id: "48D04B285353162A"
+					item: "mekanism:ultimate_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "279F86690E4F4741"
+					item: "mekanism:ultimate_chemical_tank"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "00E9DD72CFE8C1F1"
@@ -1882,196 +2918,796 @@
 					type: "item"
 				}
 			]
+			title: "&l&5Ultimate Tanks"
 			x: 6.5d
 			y: 1.0d
 		}
 		{
+			dependencies: ["2B43CC807E31FEF7"]
+			description: [
+				"&lThe Thermal Evaporation Plant&r is used to evaporate one fluid into another."
+				""
+				"{image:techev:textures/misc/quests/mekanism/tep_.png width:74 height:134 align:1}"
+				""
+				"It is made up of three parts :"
+				""
+				"- Thermal Evaporation Controller"
+				"&7The controller for a Thermal Evaporation Plant, acting as the master block of the structure. Only one of these should be placed on a multiblock"
+				""
+				"- Thermal Evaporation Valve"
+				"&7A valve that can be placed on a Thermal Evaporation Plant multiblock, allowing for fluids to be inserted and extracted via external piping."
+				""
+				"- Thermal Evaporation Block"
+				"&7A copper-alloyed casing used in the structure of a Thermal Evaporation Plant, using its advanced material to conduct the great amounts of heat necessary for processing."
+			]
+			icon: "mekanism:thermal_evaporation_controller"
 			id: "5BC699263ABC76CA"
-			tasks: [{
-				id: "4411749FE99698FF"
-				item: "mekanism:thermal_evaporation_controller"
+			rewards: [{
+				count: 2
+				id: "4F0805F98F6EAA8C"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
-			x: -5.5d
+			shape: "square"
+			tasks: [
+				{
+					id: "4411749FE99698FF"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7AE15D184ADD8411"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "41C2CF2B0EEAA484"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+			]
+			title: "&lThermal Evaporation Plant"
+			x: -3.0d
 			y: -6.5d
 		}
 		{
+			dependencies: ["22C23491C12E6F8F"]
+			description: [
+				"&lThe Supercritical Phase Shifter&r converts polonium into Antimatter using enormous amounts of energy."
+				""
+				"{image:techev:textures/misc/quests/mekanism/sps.png width:166 height:168 align:1}"
+				""
+				"It is made up of three parts :"
+				""
+				"- SPS Casing"
+				"&7Reinforced casing capable of resisting intense chemical and thermal effects from phase-shifting reactions."
+				""
+				"- SPS Port"
+				"&7A port used for the transfer of energy and substances in the Supercritical Phase Shifter."
+				""
+				"- Supercharged Coil"
+				"&7Used in SPS to supply large quantities of energy. Must be attached to a SPS Port."
+			]
+			icon: "mekanism:supercharged_coil"
 			id: "16124E5424E7A302"
-			tasks: [{
-				id: "162E8FAC8B24222E"
-				item: "mekanism:sps_casing"
+			rewards: [{
+				count: 2
+				id: "7022425CF340D36B"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
-			x: 13.5d
-			y: -12.0d
+			shape: "square"
+			tasks: [
+				{
+					count: 60L
+					id: "336A2CB84CF3B7C3"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "34C5B00F34CC5C88"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "3E9A771A2526FE9A"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 123L
+					id: "0475F5DD4792F6AB"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "&lSupercritical Phase Shifter"
+			x: 11.5d
+			y: -11.0d
 		}
 		{
+			dependencies: ["6A5A091DE174BFFB"]
+			description: [
+				"&lThe Fission Reactor&r generates a lot of heat from fissile fuel and produces nuclear waste."
+				""
+				"{image:techev:textures/misc/quests/mekanism/fission_reactor.png width:116 height:126 align:1}"
+				""
+				""
+				"It is made up of five parts :"
+				""
+				"- Fission Reactor Casing"
+				"&7Lead-infused steel casing used to create a Fission Reactor. Mostly heat-resistant, mostly radiation-resistant, and mostly safe!"
+				""
+				"- Fission Reactor Port"
+				"&7A port which can be placed on a Fission Reactor multiblock to transfer coolant, fuel, and waste."
+				""
+				"- Fission Reactor Logic Adapter"
+				"&7A block that can be used to monitor or control the Fission Reactor with redstone."
+				""
+				"- Fission Fuel Assembly"
+				"&7A cluster of fuel rods used to house fission fuel within a Fission Reactor. These can be stacked on top of each other."
+				""
+				"- Control Rod Assembly"
+				"&7A collection of control rods used to halt a fission chain reaction. Placed on top of a tower of Fission Fuel Assemblies."
+			]
+			icon: "mekanismgenerators:control_rod_assembly"
 			id: "489B1B2FDB95C4EE"
-			tasks: [{
-				id: "0E3687899D52C569"
-				item: "mekanismgenerators:fission_reactor_casing"
+			rewards: [{
+				count: 2
+				id: "28B0A5976596A7C9"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 24L
+					id: "0E3687899D52C569"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "78E0B71363C9A40D"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "34895564B6520236"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "75973487F0A5A4CE"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "20A2708598D697D9"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6079A8956195CD28"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "&lFission Reactor"
 			x: 2.5d
 			y: -13.5d
 		}
 		{
+			dependencies: ["195C15F13D9A10B2"]
+			description: [
+				"&lThe Fusion Reactor&r generates a LOT of energy from a D-T Fuel Reaction."
+				"You can output the energy directly, or you can produce heat to supply a Turbine, which will produce four times more energy."
+				""
+				"{image:techev:textures/misc/quests/mekanism/fusion_reactor.png width:114 height:114 align:1}"
+				""
+				"It is made up of five parts :"
+				""
+				"- Fusion Reactor Controller"
+				"&7The controlling block for the entire Fusion Reactor structure."
+				""
+				"- Fusion Reactor Frame"
+				"&7Reinforced framing that can be used in the Fusion Reactor multiblock."
+				""
+				"- Fusion Reactor Port"
+				"&7A block of reinforced framing that is capable of managing both the gas and energy transfer of the Fusion Reactor."
+				""
+				"- Fusion Reactor Logic Adapter"
+				"&7A block that can be used to allow basic monitoring of a reactor using redstone."
+				""
+				"- Laser Focus Matrix"
+				"&7A panel of Fusion Reactor Glass that is capable of absorbing optical energy and thereby heating up the Fusion Reactor."
+			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
 			id: "6D29BCCA77499D81"
-			tasks: [{
-				id: "19AC14AE6FD06016"
-				item: "mekanismgenerators:fusion_reactor_frame"
+			rewards: [{
+				count: 2
+				id: "410191C9CF2F8009"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
-			x: 9.5d
-			y: -14.5d
+			shape: "square"
+			tasks: [
+				{
+					id: "13A655B7D06E7B87"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "2C6059E6E624307D"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1B4C29F8E947A511"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "71EDD4BAD9F95A84"
+					item: "mekanismgenerators:fusion_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "14C7FDB0DA234021"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "3A60ADEC40755E45"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "&lFusion Reactor"
+			x: 7.0d
+			y: -13.5d
 		}
 		{
+			dependencies: ["6E3EA56646FF8351"]
+			description: [
+				"&lThe Industrial Turbine&r takes steam, outputs water and large quantities of energy."
+				""
+				"{image:techev:textures/misc/quests/mekanism/turbine.png width:61 height:102 align:1}"
+				""
+				"It is made up of eight parts :"
+				""
+				"- Turbine Casing"
+				"&7Pressure-resistant casing used in the creation of an Industrial Turbine."
+				""
+				"- Turbine Valve"
+				"&7A type of Turbine Casing that includes a port for the transfer of energy and steam."
+				""
+				"- Turbine Vent"
+				"&7A type of Turbine Casing with an integrated vent for the release of steam. These should be placed on the level of or above the turbine's Rotational Complex."
+				""
+				"- Rotational Complex"
+				"&7A connector that is placed on the highest Turbine Rotor of an Industrial Turbine to carry kinetic energy into its Electromagnetic Coils."
+				""
+				"- Turbine Rotor"
+				"&7The steel rod that is used to house Turbine Blades within an Industrial Turbine."
+				""
+				"- Pressure Disperser"
+				"&7A block used to disperse steam throughout a multiblock structure. These should form a gapless, horizontal plane in order to properly control steam flow."
+				""
+				"- Electromagnetic Coil"
+				"&7A block that converts kinetic energy from a Rotational Complex into usable electricity. These can be placed in any arrangement above your Rotational Complex, as long as they are all touching each other and the complex itself."
+				""
+				"- Saturating Condenser"
+				"&7A block that condenses steam processed by an Industrial Turbine into reusable water. These can be placed in any arrangement above your rotational complex.\","
+			]
+			icon: "mekanismgenerators:turbine_vent"
 			id: "68C65880AF360633"
-			tasks: [{
-				id: "6166D16BAC032974"
-				item: "mekanismgenerators:turbine_casing"
+			rewards: [{
+				count: 2
+				id: "6B0DD3F71F42ADB2"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
-			x: 22.0d
-			y: -6.0d
+			shape: "square"
+			tasks: [
+				{
+					count: 44L
+					id: "6166D16BAC032974"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "58B075A04DAB169A"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7F53E86C699B32DC"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "73A1A5A677853F17"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					id: "6C775E60E3A985CE"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5B348EE8E8E190A6"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "796FA313BFDC283E"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "4C20533E7439317A"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "035115D92474FF03"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "60B2B0B5BC79ACB2"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "&lIndustrial Turbine"
+			x: 19.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["381FBC4736B2EABB"]
+			description: [
+				"&lThe Induction Matrix&r stores the energy in the Induction Cells placed inside it."
+				""
+				"{image:techev:textures/misc/quests/mekanism/induction_matrix.png width:116 height:136 align:1}"
+				""
+				"It is made up of four parts :"
+				""
+				"- Induction Casing"
+				"&7A type of energy-resistant casing used in the creation of an Energized Induction Matrix multiblock."
+				""
+				"- Induction Port"
+				"&7A port that can be placed on an Energized Induction Matrix multiblock, allowing for energy to be inserted from and output to external cabling."
+				""
+				"- Induction Cell"
+				"&7A highly conductive energy capacitor capable of storing massive amounts of energy in a single block. Housed in an Energized Induction Matrix to expand the multiblock's energy storage."
+				""
+				"- Induction Provider"
+				"&7An advanced complex of coolant systems, conductors and transformers capable of expanding the Energized Induction Matrix's maximum rate of energy transfer."
+			]
+			icon: "mekanism:induction_casing"
 			id: "6697CC55E920C7DC"
-			tasks: [{
-				id: "50EDF011A96AB3E2"
-				item: "mekanism:induction_casing"
+			rewards: [{
+				count: 2
+				id: "05DCBA2EFE1F7D9F"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
-			x: 0.5d
+			shape: "square"
+			tasks: [
+				{
+					count: 20L
+					id: "50EDF011A96AB3E2"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "799CFE1492373906"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A3353EB8591B22B"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "&lInduction Matrix"
+			x: -0.5d
 			y: 4.5d
 		}
 		{
+			dependencies: ["017BF5D792A28D4A"]
+			description: [
+				"&lThe Thermoelectric Boiler&r takes in water and outputs steam using energy. It can also be used to cool superheated sodium."
+				" "
+				"{image:techev:textures/misc/quests/mekanism/boiler.png width:116 height:120 align:1}"
+				""
+				"It is made up of four parts :"
+				""
+				"- Boiler Casing"
+				"&7A pressure-resistant, dense casing used in the creation of a Thermoelectric Boiler multiblock."
+				""
+				"- Boiler Valve"
+				"&7A valve that can be placed on a Thermoelectric Boiler multiblock, allowing for the insertion of energy and water along with the extraction of produced steam."
+				""
+				"- Pressure Disperser"
+				"&7A block used to disperse steam throughout a multiblock structure. These should form a gapless, horizontal plane in order to properly control steam flow."
+				""
+				"- Superheating Element"
+				"&7A modular, somewhat dangerous radiator that is capable of emitting massive amounts of heat to its surroundings."
+			]
+			icon: "mekanism:pressure_disperser"
 			id: "339FC0B6E7114623"
-			tasks: [{
-				id: "041357E02A801B17"
-				item: "mekanism:boiler_casing"
+			rewards: [{
+				count: 2
+				id: "384102807937033F"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
-			x: 18.0d
-			y: -9.5d
+			shape: "square"
+			tasks: [
+				{
+					count: 24L
+					id: "041357E02A801B17"
+					item: "mekanism:boiler_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02D49A3D811A68E7"
+					item: "mekanism:boiler_valve"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "583160B63209D3FB"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					id: "10C8908586A09727"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "009D9E7C9DBE85ED"
+					item: "mekanism:superheating_element"
+					type: "item"
+				}
+			]
+			title: "&lThermoelectric Boiler"
+			x: 16.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1BCE8791A63FC03E"]
+			description: [
+				"The QIO is an Applied Energistics Like system"
+				""
+				"It is made of multiple parts :"
+				""
+				"- The Drive Array."
+				"&7The foundation of any Quantum Item Orchestration system. QIO Drives are stored here."
+				""
+				"-The Dashboard &e(Can be Portable)"
+				"&7A placeable monitor used to access an Quantum Item Orchestration system's contents."
+				""
+				"- A QIO-linked item export unit."
+				"&7Place on a block and export contents from your QIO system to the block."
+				""
+				"- A QIO-linked item import unit."
+				"&7Place on a block and import its contents to your QIO system."
+				""
+				"- A QIO-linked redstone adapter."
+				"&7Use to monitor your QIO system's contents."
+			]
+			icon: "mekanism:qio_drive_array"
 			id: "4424DB7368132811"
-			tasks: [{
-				id: "7F8CE9DE2F3A8130"
-				item: "mekanism:qio_drive_array"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5CDA5AE959D70E59"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "3EE0CECE7FC72C5A"
+					item: "mekanism:qio_drive_supermassive"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&l[QIO]"
+			tasks: [
+				{
+					id: "7F8CE9DE2F3A8130"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "06829B553305B572"
+					item: "mekanism:qio_drive_base"
+					type: "item"
+				}
+				{
+					id: "6293CBD929912806"
+					item: "mekanism:portable_qio_dashboard"
+					type: "item"
+				}
+				{
+					id: "52D3E10B4D86DD7D"
+					item: "mekanism:qio_dashboard"
+					type: "item"
+				}
+				{
+					id: "51182689596780EB"
+					item: "mekanism:qio_importer"
+					type: "item"
+				}
+				{
+					id: "0E8BD42410862BB3"
+					item: "mekanism:qio_exporter"
+					type: "item"
+				}
+				{
+					id: "3CD3DFDE95E76A8D"
+					item: "mekanism:qio_redstone_adapter"
+					type: "item"
+				}
+			]
+			title: "&lQuantum Item Orchestration"
 			x: 11.0d
 			y: -7.0d
 		}
 		{
+			dependencies: ["60007E311F28CF59"]
+			description: [
+				"&lThe Dynamic Tank&r stores large quantitities of fluids."
+				""
+				"{image:techev:textures/misc/quests/mekanism/dynamic_tank.png width:122 height:154 align:1}"
+				""
+				"It is made up of two parts :"
+				""
+				"- Dynamic Tank"
+				"&7The casing used in the Dynamic Tank multiblock, a structure capable of storing great amounts of fluid and chemicals."
+				""
+				"- Dynamic Valve"
+				"&7A valve that can be placed on a Dynamic Tank multiblock, allowing for fluids and chemicals to be inserted and extracted via external piping."
+			]
+			icon: "mekanism:dynamic_tank"
 			id: "60CE721D1CA7D48F"
-			tasks: [{
-				id: "79D576376D95EA77"
-				item: "mekanism:dynamic_tank"
+			rewards: [{
+				count: 2
+				id: "069CE78CC27F06B7"
+				item: "coinsje:iron_coin"
+				random_bonus: 2
 				type: "item"
 			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 20L
+					id: "79D576376D95EA77"
+					item: "mekanism:dynamic_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5D8AA0E868CAF3A4"
+					item: "mekanism:dynamic_valve"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7530ACE418F19EC9"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "&lDynamic Tank"
 			x: 3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1BCE8791A63FC03E"]
+			description: ["&7A machine which uses bits of antimatter and mass amounts of energy to atomically transmute various resources."]
 			id: "74A497C6705B9E77"
+			rewards: [{
+				id: "0F55FF78BB927768"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			shape: "square"
 			tasks: [{
 				id: "49EDFBF3F8FBD0EC"
 				item: "mekanism:antiprotonic_nucleosynthesizer"
 				type: "item"
 			}]
+			title: "&lAntiprotonic Nucleosynthesizer"
 			x: 11.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["57E73AE92FE78DF6"]
+			description: ["&7A highly-advanced block capable of transmitting any practical resource across long distances and dimensions."]
 			id: "768DFFFB1B42D162"
+			rewards: [{
+				id: "6152F3E5FB66CA4A"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "50C814183EAAE07A"
 				item: "mekanism:quantum_entangloporter"
 				type: "item"
 			}]
+			title: "&lQuantum Entangloporter"
 			x: 14.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6886152537828A96"]
+			description: ["&7A machine that directs the neutron radiation of the sun into its internal reservoir, allowing for the slow creation of various isotopes."]
 			id: "7B06182221B48964"
+			rewards: [{
+				id: "31DFCFC2016C1310"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "5A8F2D27930DE625"
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
+			title: "&lSolar Neutron Activator"
 			x: 9.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["6EC89B2EC90249C8"]
+			description: ["&7A machine used to unify and translate between various items and blocks using item tags."]
 			id: "10AFE1BEA5A4873F"
+			rewards: [{
+				id: "26ACF0FF764BD487"
+				item: "mekanism:oredictionificator"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "27B48512DFCA0181"
 				item: "mekanism:oredictionificator"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -7.0d
+			title: "&lOredictionificator"
+			x: 4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A condensed, coiled resistor capable of converting electrical energy directly into heat energy."]
 			id: "04F80E2E87EF3A0C"
+			rewards: [{
+				id: "361A24150F063C30"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "7C5D9E76FB24B760"
 				item: "mekanism:resistive_heater"
 				type: "item"
 			}]
+			title: "&lResistive Heater"
 			x: -1.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["6EC89B2EC90249C8"]
+			description: ["&7A machine that uses energy to rapidly craft items and blocks from Crafting Formulas. Doubles as an advanced crafting bench."]
 			id: "072C827BED3A559D"
-			tasks: [{
-				id: "3EBE4A64872A18D5"
+			rewards: [{
+				id: "3A52D47202AAB319"
 				item: "mekanism:formulaic_assemblicator"
 				type: "item"
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3EBE4A64872A18D5"
+					item: "mekanism:formulaic_assemblicator"
+					type: "item"
+				}
+				{
+					id: "2B109662A29757BF"
+					item: "mekanism:crafting_formula"
+					type: "item"
+				}
+			]
+			title: "&lFormulaic Assemblicator"
 			x: 4.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A machine that is capable of producing large quantities of heat energy by burning combustible items."]
 			id: "501D8518C9EF7086"
+			rewards: [{
+				id: "58903E04E92D6287"
+				item: "mekanism:fuelwood_heater"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "1ADD6763EA65C958"
 				item: "mekanism:fuelwood_heater"
 				type: "item"
 			}]
+			title: "&lFuelwood Heater"
 			x: -0.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["57E73AE92FE78DF6"]
+			description: ["&7A machine that prevents areas of the world from disappearing when not observed."]
 			id: "370891675812F748"
+			rewards: [{
+				id: "0EC5B1F32BE13E9A"
+				item: "mekanism:dimensional_stabilizer"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&lChunk Loader"
 			tasks: [{
 				id: "1CB07CF51BB9C141"
 				item: "mekanism:dimensional_stabilizer"
 				type: "item"
 			}]
+			title: "&lDimensional Stabilizer"
 			x: 13.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["4F433C61B8E99CBC"]
 			id: "55E81423C3A0A227"
+			rewards: [{
+				id: "2F2436A40A55876B"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AC79D8E5B8FBE84"
 				item: "mekanism:basic_energy_cube"
 				type: "item"
 			}]
+			title: "&lBasic Energy Cube"
 			x: -1.0d
 			y: -2.0d
 		}
@@ -2081,11 +3717,17 @@
 				"0C8559661FCAAB42"
 			]
 			id: "089C1DA55418E71F"
+			rewards: [{
+				id: "5CE7FF098A1C9AA8"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CC27C5225BE017C"
 				item: "mekanism:advanced_energy_cube"
 				type: "item"
 			}]
+			title: "&l&cAdvanced Energy Cube"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -2095,11 +3737,17 @@
 				"49A816C1CE69EC86"
 			]
 			id: "4F3F37F30CE09BF3"
+			rewards: [{
+				id: "0F6ED7459AD99FBA"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D55F655289B3791"
 				item: "mekanism:elite_energy_cube"
 				type: "item"
 			}]
+			title: "&l&3Elite Energy Cube"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -2109,11 +3757,17 @@
 				"1FE6BE82576440A7"
 			]
 			id: "6053DE56302E3F59"
+			rewards: [{
+				id: "19972A278769FBD7"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63A245F7C849E5B3"
 				item: "mekanism:ultimate_energy_cube"
 				type: "item"
 			}]
+			title: "&l&5Ultimate Energy Cube"
 			x: 6.5d
 			y: -2.0d
 		}
@@ -2123,11 +3777,17 @@
 				"0CDF3D10FF6F8C08"
 			]
 			id: "243329C79329A15E"
+			rewards: [{
+				id: "17D59BE390221F2D"
+				item: "mekaevolution:absolute_energy_cube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F259CE460E8C378"
 				item: "mekaevolution:absolute_energy_cube"
 				type: "item"
 			}]
+			title: "&l&eAbsolute Energy Cube"
 			x: 9.0d
 			y: -2.0d
 		}
@@ -2137,11 +3797,17 @@
 				"03810042A147E6F2"
 			]
 			id: "24947C0621860186"
+			rewards: [{
+				id: "5574E21EAF45D88D"
+				item: "mekaevolution:supreme_energy_cube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17D89FA5D734D705"
 				item: "mekaevolution:supreme_energy_cube"
 				type: "item"
 			}]
+			title: "&l&4Supreme Energy Cube"
 			x: 11.5d
 			y: -2.0d
 		}
@@ -2151,11 +3817,17 @@
 				"39FF469B93193AA5"
 			]
 			id: "3B3AA90453B5B23B"
+			rewards: [{
+				id: "78F01C9388E6DB8A"
+				item: "mekaevolution:cosmic_energy_cube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B0602A9E72BCBB0"
 				item: "mekaevolution:cosmic_energy_cube"
 				type: "item"
 			}]
+			title: "&l&dCosmic Energy Cube"
 			x: 14.0d
 			y: -2.0d
 		}
@@ -2165,72 +3837,128 @@
 				"0A4A5ABF35268DC0"
 			]
 			id: "2FED07F35A6E80A2"
+			rewards: [{
+				id: "79246B1D5393C744"
+				item: "mekaevolution:infinite_energy_cube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "12A7A4201F5A39F7"
 				item: "mekaevolution:infinite_energy_cube"
 				type: "item"
 			}]
+			title: "&l&6Infinite Energy Cube"
 			x: 16.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A generator that uses the heat of lava or other burnable resources to produce energy."]
 			id: "1D87B7773357DA0D"
+			rewards: [{
+				id: "2B7CF22C8F38360C"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "70B0FBEF78645106"
 				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
+			title: "&lHeat Generator"
 			x: -1.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["376A92629360D14E"]
+			description: ["&7A generator that harnesses the varying molecular gases to produce energy."]
 			id: "5FEF5A06E6F8A90B"
+			rewards: [{
+				id: "2687E3926533BCF7"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "5AFE51938416DABB"
 				item: "mekanismgenerators:gas_burning_generator"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.0d
+			title: "&lGas-Burning Generator"
+			x: 6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["26BEBD167BC2DEB1"]
+			description: ["&7A generator that burns organic materials of the world to produce energy."]
 			id: "3224FA81E5B2D99F"
+			rewards: [{
+				id: "07222F3D8635CBC2"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "23CCCC00C5C89EE2"
 				item: "mekanismgenerators:bio_generator"
 				type: "item"
 			}]
+			title: "&lBio-Generator"
 			x: 1.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["26BEBD167BC2DEB1"]
+			description: ["&7An advanced generator that directly absorbs the sun's rays with little loss to produce energy."]
 			id: "6D1A0FB45BBC537C"
+			rewards: [{
+				id: "2722864398622EBB"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "7B746F2AF1E44C48"
 				item: "mekanismgenerators:advanced_solar_generator"
 				type: "item"
 			}]
+			title: "&lAdvanced Solar Generator"
 			x: 2.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["26BEBD167BC2DEB1"]
+			description: ["&7A generator that uses the strength of the wind to produce energy, with greater efficiency at higher levels."]
 			id: "70AC5C67E011CB15"
+			rewards: [{
+				id: "137A622942D6AC98"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "5F0B58A3E1E152BD"
 				item: "mekanismgenerators:wind_generator"
 				type: "item"
 			}]
+			title: "&lWind Generator"
 			x: 1.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["57E73AE92FE78DF6"]
+			description: [
+				"&7A machine capable of teleporting players to various locations defined by another teleporter. &eIt can also be portable."
+				"{image:techev:textures/misc/quests/mekanism/teleporter.png width:59 height:101 align:1}"
+			]
 			id: "3F1E8EC682C34FDF"
+			rewards: [{
+				id: "495CE9057E109307"
+				item: "mekanism:teleporter"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "587AC915038BE8AF"
@@ -2242,24 +3970,46 @@
 					item: "mekanism:teleporter_frame"
 					type: "item"
 				}
+				{
+					id: "621F26F80F087643"
+					item: "mekanism:portable_teleporter"
+					type: "item"
+				}
 			]
+			title: "&lTeleporter"
 			x: 14.0d
 			y: -7.0d
 		}
 		{
-			dependencies: ["2BCFF27924585ACE"]
+			dependencies: ["6EC89B2EC90249C8"]
+			description: ["&7A central control hub for managing the security of all your owned machinery."]
+			hide_dependency_lines: true
 			id: "7E90C88250AD09C1"
+			rewards: [{
+				id: "66DDD1C9B306F48D"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [{
 				id: "76F734E9DFA89EC8"
 				item: "mekanism:security_desk"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: 18.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["2BCFF27924585ACE"]
+			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A 54-slot chest / barrel that can be opened anywhere- even from your own inventory."]
 			id: "082F0532D87890B2"
+			rewards: [{
+				id: "4F71D1BEDBE98FE2"
+				item: "mekanism:personal_chest"
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "60C3F723EBD55AF7"
@@ -2272,20 +4022,27 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -5.0d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3FB4BC08E58A2863"]
 			hide_dependent_lines: true
 			id: "34255F57CBA3D7C1"
+			rewards: [{
+				id: "25A50C6C80AD6186"
+				item: "mekaevolution:enriched_radiance"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "187647B43F8714A6"
 				item: "mekaevolution:enriched_radiance"
 				type: "item"
 			}]
+			title: "&l&eEnriched Radiance"
 			x: 7.75d
 			y: -4.25d
 		}
@@ -2293,26 +4050,41 @@
 			dependencies: ["0DCC24DD7B0CA309"]
 			hide_dependent_lines: true
 			id: "3FB4BC08E58A2863"
+			rewards: [{
+				id: "23D6512E0CE27850"
+				item: "mekanism:enriched_refined_obsidian"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "163E22616A4C3247"
 				item: "mekanism:enriched_refined_obsidian"
 				type: "item"
 			}]
+			title: "&l&5Enriched Obsidian"
 			x: 5.25d
 			y: -4.25d
 		}
 		{
 			dependencies: ["078A71DE2841F51C"]
+			hide_dependent_lines: true
 			id: "0DCC24DD7B0CA309"
+			rewards: [{
+				id: "44BBC283C3D47F1A"
+				item: "mekanism:enriched_diamond"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "65FD091A20CE28C6"
 				item: "mekanism:enriched_diamond"
 				type: "item"
 			}]
+			title: "&l&3Enriched Diamond"
 			x: 2.75d
 			y: -4.25d
 		}
@@ -2320,73 +4092,245 @@
 			dependencies: ["126B9D502CE27576"]
 			hide_dependent_lines: true
 			id: "078A71DE2841F51C"
+			rewards: [{
+				id: "67763FDAB9DBF0FC"
+				item: "mekanism:enriched_redstone"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "67F400751FE12002"
 				item: "mekanism:enriched_redstone"
 				type: "item"
 			}]
+			title: "&l&cEnriched Redstone"
 			x: 0.25d
 			y: -4.25d
 		}
 		{
 			dependencies: ["256130B9223F0401"]
 			id: "3876BB210746B5FF"
+			rewards: [{
+				id: "2F532328F4F59C61"
+				item: "mekaevolution:enriched_spectrum"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "18765195CB26492F"
 				item: "mekaevolution:enriched_spectrum"
 				type: "item"
 			}]
+			title: "&l&6Enriched Spectrum"
 			x: 15.25d
 			y: -4.25d
 		}
 		{
+			dependencies: ["579C643804E863A8"]
+			hide_dependency_lines: true
 			id: "4B9D3A4904A2AFC8"
+			rewards: [{
+				id: "244D34F81720D169"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "4798F70DC6486597"
 				item: "mekanism:mekasuit_helmet"
 				type: "item"
 			}]
+			title: "&lMekaSuit Helmet"
 			x: 16.5d
 			y: 1.5d
 		}
 		{
+			dependencies: ["579C643804E863A8"]
+			hide_dependency_lines: true
 			id: "597499D80EC059A9"
+			rewards: [{
+				id: "40C9890559B2FEA6"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "27E2A07F849754B4"
 				item: "mekanism:mekasuit_bodyarmor"
 				type: "item"
 			}]
+			title: "&lMekaSuit Bodyarmor"
 			x: 16.5d
 			y: 2.5d
 		}
 		{
+			dependencies: ["579C643804E863A8"]
+			hide_dependency_lines: true
 			id: "2D0B804F6119D12F"
+			rewards: [{
+				id: "0249220C115D6D51"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "7384EE93AE43FF00"
 				item: "mekanism:mekasuit_pants"
 				type: "item"
 			}]
+			title: "&lMekaSuit Pants"
 			x: 16.5d
 			y: 3.5d
 		}
 		{
+			dependencies: ["579C643804E863A8"]
+			hide_dependency_lines: true
 			id: "31B7E36FEB2ED94E"
+			rewards: [{
+				id: "481374558A4B6ABC"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "670DE9F828B9B031"
 				item: "mekanism:mekasuit_boots"
 				type: "item"
 			}]
+			title: "&lMekaSuit Boots"
 			x: 16.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["4B74533FD2980B27"]
+			description: ["&7A tool that copies the configuration of one machine and transfers it to another."]
+			id: "2BE54B1C3EE553F6"
+			rewards: [{
+				id: "6ADA547F2ACD31A0"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "70DDD48EDBF92A29"
+				item: "mekanism:configuration_card"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4F433C61B8E99CBC"]
+			hide_dependency_lines: true
+			id: "017BF5D792A28D4A"
+			shape: "gear"
+			tasks: [{
+				id: "46431B9AFCEAFF0A"
+				title: "Ready ? "
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4F433C61B8E99CBC"]
+			hide_dependency_lines: true
+			id: "22C23491C12E6F8F"
+			shape: "gear"
+			tasks: [{
+				id: "22F4535739BF1A88"
+				title: "Ready ?"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4F433C61B8E99CBC"]
+			hide_dependency_lines: true
+			id: "195C15F13D9A10B2"
+			shape: "gear"
+			tasks: [{
+				id: "5A42C10887F25367"
+				title: "Ready ? "
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4F433C61B8E99CBC"]
+			hide_dependency_lines: true
+			id: "6A5A091DE174BFFB"
+			shape: "gear"
+			tasks: [{
+				id: "49D887EF3B4B6261"
+				title: "Ready ? "
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4F433C61B8E99CBC"]
+			hide_dependency_lines: true
+			id: "2B43CC807E31FEF7"
+			shape: "gear"
+			tasks: [{
+				id: "77E9789B5F0FC430"
+				title: "Ready ? "
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["23D832724218836F"]
+			id: "381FBC4736B2EABB"
+			shape: "gear"
+			tasks: [{
+				id: "736E3637DD745D7A"
+				title: "Ready ? "
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F433C61B8E99CBC"]
+			hide_dependency_lines: true
+			id: "60007E311F28CF59"
+			shape: "gear"
+			tasks: [{
+				id: "66C90487856B6BCE"
+				title: "Ready ? "
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F433C61B8E99CBC"]
+			hide_dependency_lines: true
+			id: "6E3EA56646FF8351"
+			shape: "gear"
+			tasks: [{
+				id: "64C9DA8397E21A72"
+				title: "Ready ? "
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: -4.5d
+		}
 	]
+	subtitle: ["Harness fission, fusion and antimatter"]
 	title: " &l&6♦ &rMekanism"
 }

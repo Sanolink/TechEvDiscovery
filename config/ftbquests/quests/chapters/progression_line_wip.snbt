@@ -849,8 +849,8 @@
 		}
 		{
 			dependencies: [
-				"11A703891734B3CD"
 				"6BF612431ADBCFF4"
+				"0F86755CE3BE2113"
 			]
 			icon: "techev_additions:chromatic"
 			id: "6C50363D14D24786"

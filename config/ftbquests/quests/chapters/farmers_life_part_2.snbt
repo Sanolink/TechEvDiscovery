@@ -2598,10 +2598,8 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				icon: "botanypots:terracotta_hopper_botany_pot"
-				id: "2CD481C9F3C200A0"
+				id: "6942778E2852787D"
 				item: "botanypots:terracotta_hopper_botany_pot"
-				title: "Any #botanypots:hopper_botany_pots"
 				type: "item"
 			}]
 			title: "&lHopper Botany Pot"

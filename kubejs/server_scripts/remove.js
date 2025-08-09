@@ -138,6 +138,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:milling/compat/ae2/fluix_crystal'})
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coke_block'})
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coal_coke'})
+    event.remove({ id: 'create:mechanical_crafting/ascended_flight_ring'})
     event.remove({ id: 'create:milling/compat/ae2/sky_stone_block'})
     event.remove({ id: 'create_new_age:shapeless/energiser_t1'})
     event.remove({ input: 'minecraft:tuff', type: 'create:crushing' })
@@ -415,7 +416,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'storagenetwork:crafting_remote', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'storagenetwork:master', type: 'minecraft:crafting_shaped' })
 
-    // Tardis Refined 
+    //Tardis Refined 
 
     event.remove({id: 'tardis_refined:terraformer'})
     
@@ -457,6 +458,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_constantan_dust'})
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_electrum_dust'})
     event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
+    
+    //Torchmaster
+    event.remove({ id: 'torchmaster:megatorch'})
     
     //Undergarden
     event.remove({ id: 'undergarden:catalyst'})

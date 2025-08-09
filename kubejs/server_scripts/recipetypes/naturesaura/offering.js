@@ -26,6 +26,12 @@ ServerEvents.recipes(event => {
             input: parseIngredient('#industrialforegoing:basic_laser_lens'),
             start_item: parseIngredient('naturesaura:calling_spirit'),
             output: parseIngredient('industrialforegoing:laser_lens16')
+        },
+        {
+            id: 'megatorch',
+            input: parseIngredient('reliquary:interdiction_torch'),
+            start_item: parseIngredient('naturesaura:calling_spirit'),
+            output: parseIngredient('torchmaster:megatorch')
         }
     ]
 

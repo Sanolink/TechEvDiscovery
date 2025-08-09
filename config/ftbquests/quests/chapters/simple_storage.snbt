@@ -1617,7 +1617,7 @@
 				item: "sophisticatedstorage:pickup_upgrade"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -1655,62 +1655,8 @@
 				item: "sophisticatedstorage:advanced_pickup_upgrade"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["76D97374D2010CBC"]
-			id: "1593349AFDC28DDA"
-			rewards: [{
-				id: "5F91E0FAB076CE0A"
-				item: "sophisticatedstorage:xp_pump_upgrade"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "7E1D985AC0E4A967"
-				item: "sophisticatedstorage:xp_pump_upgrade"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1DD865CC7E5E5DA3"]
-			id: "76D97374D2010CBC"
-			rewards: [{
-				id: "71DE896740E8EE36"
-				item: "sophisticatedstorage:advanced_pump_upgrade"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "4F0281E47CEA92B8"
-				item: "sophisticatedstorage:advanced_pump_upgrade"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F505CBC07BF0C52"]
-			id: "1DD865CC7E5E5DA3"
-			rewards: [{
-				id: "574929C044CFD7B4"
-				item: "sophisticatedstorage:pump_upgrade"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "606F448FFE12DAA5"
-				item: "sophisticatedstorage:pump_upgrade"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.5d
 		}
 		{
 			dependencies: ["2F505CBC07BF0C52"]
@@ -1727,7 +1673,7 @@
 				item: "sophisticatedstorage:filter_upgrade"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -1745,7 +1691,7 @@
 				item: "sophisticatedstorage:advanced_filter_upgrade"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -1763,7 +1709,7 @@
 				item: "sophisticatedstorage:magnet_upgrade"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -1781,7 +1727,7 @@
 				item: "sophisticatedstorage:advanced_magnet_upgrade"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -1835,7 +1781,7 @@
 				item: "sophisticatedstorage:compacting_upgrade"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -1853,7 +1799,7 @@
 				item: "sophisticatedstorage:advanced_compacting_upgrade"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -2041,7 +1987,7 @@
 				item: "sophisticatedstorage:stonecutter_upgrade"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -2059,7 +2005,7 @@
 				item: "sophisticatedstorage:jukebox_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{

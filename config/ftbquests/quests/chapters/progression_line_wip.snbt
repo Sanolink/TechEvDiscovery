@@ -230,15 +230,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"509461C4B7CFE7C8"
-				"05F4963ECFBC8E9A"
-			]
-			icon: {
-				Count: 1b
-				id: "create_sa:flamethrower"
-				tag: { }
-			}
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: "balancedflight:flight_anchor"
 			id: "0A43A2A87CBE5983"
 			rewards: [{
 				id: "2408FD0CB3E08FA0"
@@ -859,13 +852,7 @@
 				"11A703891734B3CD"
 				"6BF612431ADBCFF4"
 			]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "angelring:items/resonant_angel_ring"
-				}
-			}
+			icon: "techev_additions:chromatic"
 			id: "6C50363D14D24786"
 			rewards: [{
 				id: "44FE17787D891A57"

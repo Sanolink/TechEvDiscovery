@@ -226,6 +226,7 @@ ServerEvents.tags('item', e => {
     /*********************OTHERS**************************/
     e.remove('pneumaticcraft:upgrade_components', 'minecraft:lapis_lazuli')
     e.remove('forbidden_arcanus:clibano/creates_soul_fire', 'forbidden_arcanus:soul')
+    e.remove('forge:ores_in_ground/stone', 'mekanism:osmium_ore', 'mekanism:tin_ore', 'immersiveengineering:ore_aluminum', 'immersiveengineering:ore_lead', 'immersiveengineering:ore_silver', 'immersiveengineering:ore_nickel', 'immersiveengineering:ore_uranium', 'create:zinc_ore', 'eidolon:lead_ore', 'eidolon:silver_ore', 'mekanism:uranium_ore', 'mekanism:lead_ore', 'mekanism:fluorite_ore')
 
     /********************DISABLE**************************/
     const DISABLED_ITEMS = [

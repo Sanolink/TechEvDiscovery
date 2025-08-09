@@ -24,6 +24,11 @@ ServerEvents.recipes(event => {
         values: biomes.minecraft.end
     };
 
+    const netherBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.minecraft.nether
+    };
+
     const everbrightBiomes = {
         type: 'minecraft:worldgen/biome',
         values: biomes.blue_skies.everbright
@@ -429,18 +434,18 @@ ServerEvents.recipes(event => {
             output: "byg:raw_pendorite",
             rarity: [
                 {
-                    blacklist: endBiomes,
-                    depth_max: 28,
-                    depth_min: 5,
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 56,
                     weight: 8,
-                    whitelist: {}
+                    whitelist: netherBiomes
                 },
                 {
-                    blacklist: endBiomes,
+                    blacklist: {},
                     depth_max: 255,
                     depth_min: 0,
                     weight: 1,
-                    whitelist: {}
+                    whitelist: netherBiomes
                 }
             ]
         },
@@ -451,18 +456,18 @@ ServerEvents.recipes(event => {
             output: "byg:ametrine_ore",
             rarity: [
                 {
-                    blacklist: endBiomes,
-                    depth_max: 28,
-                    depth_min: 5,
+                    blacklist: {},
+                    depth_max: 228,
+                    depth_min: 180,
                     weight: 8,
-                    whitelist: {}
+                    whitelist: endBiomes
                 },
                 {
-                    blacklist: endBiomes,
+                    blacklist: {},
                     depth_max: 255,
                     depth_min: 0,
                     weight: 1,
-                    whitelist: {}
+                    whitelist: endBiomes
                 }
             ]
         },
@@ -473,18 +478,40 @@ ServerEvents.recipes(event => {
             output: "byg:emeraldite_ore",
             rarity: [
                 {
-                    blacklist: endBiomes,
+                    blacklist: {},
                     depth_max: 28,
                     depth_min: 5,
                     weight: 8,
-                    whitelist: {}
+                    whitelist: netherBiomes
                 },
                 {
-                    blacklist: endBiomes,
+                    blacklist: {},
                     depth_max: 255,
                     depth_min: 0,
                     weight: 1,
-                    whitelist: {}
+                    whitelist: netherBiomes
+                }
+            ]
+        },
+        //Anthracite
+        {
+            id: "anthracite",
+            catalyst: laserLens.black,
+            output: "byg:anthracite_ore",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 68,
+                    depth_min: 12,
+                    weight: 8,
+                    whitelist: netherBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: netherBiomes
                 }
             ]
         },

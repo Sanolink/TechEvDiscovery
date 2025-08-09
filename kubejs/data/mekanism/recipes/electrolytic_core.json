@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "alltheores:enderium_dust"
+        },
+        "A": {
+            "tag": "mekanism:alloys/atomic"
+        },
+        "C": {
+            "item": "immersiveengineering:component_electronic_adv"
+        },
+        "I": {
+            "item": "alltheores:signalum_dust"
+        },
+        "O": {
+            "tag": "forge:dusts/osmium"
+        }
+    },
+    "pattern": [
+        "AOA",
+        "IC#",
+        "AOA"
+    ],
+    "result": {
+        "item": "mekanism:electrolytic_core"
+    }
+}

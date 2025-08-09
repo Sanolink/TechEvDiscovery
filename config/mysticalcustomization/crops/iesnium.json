@@ -1,0 +1,14 @@
+{
+    "name": "Iesnium",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:iesnium\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/iesnium_flower",
+      "essence": "mysticalagriculture:item/essence/iesnium_essence",
+      "seeds": "mysticalagriculture:item/seeds/iesnium_seeds"
+    }
+  }

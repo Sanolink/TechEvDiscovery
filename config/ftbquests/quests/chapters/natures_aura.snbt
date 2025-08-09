@@ -841,7 +841,7 @@
 			description: [
 				"You can find &l&5Roses of Oblivion&r in the End after killing the Ender Dragon."
 				""
-				"{image:techev:textures/misc/quests/blue_skies/rose_of_oblivion.png width:130 height:67 align:1 fit:true}"
+				"{image:techev:textures/misc/quests/naturesaura/rose_of_oblivion.png width:130 height:67 align:1 fit:true}"
 			]
 			hide_dependency_lines: true
 			id: "17BCA9859BA0CAD6"

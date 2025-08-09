@@ -397,7 +397,7 @@
 			dev: false
 			height: 3.5d
 			hover: ["&l&6>> &fAge 5 : Shop"]
-			image: "techev_additions:item/techevium"
+			image: "ae2:item/singularity"
 			rotation: 0.0d
 			width: 3.5d
 			x: 16.0d
@@ -409,7 +409,7 @@
 			dev: false
 			height: 3.5d
 			hover: ["&lCurrently in Work"]
-			image: "ftblibrary:icons/security_private"
+			image: "techev_additions:item/techevium"
 			rotation: 0.0d
 			width: 3.5d
 			x: 16.0d
@@ -420,6 +420,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0F8C4C01C5E75A8B"]
 			hide_dependent_lines: true
 			icon: "reliquary:fortune_coin"
 			id: "4628EDDBF7E3E2BE"
@@ -891,7 +892,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4628EDDBF7E3E2BE"]
+			dependencies: [
+				"4628EDDBF7E3E2BE"
+				"0F8C4C01C5E75A8B"
+			]
 			description: [
 				"This page is still in &nBETA&r."
 				""
@@ -1250,9 +1254,8 @@
 			size: 2.0d
 			tasks: [{
 				consume_items: true
-				count: 3L
 				id: "5672BD2CC77699EF"
-				item: "coinsje:diamond_coin"
+				item: "coinsje:gold_coin_pile"
 				type: "item"
 			}]
 			title: "&l&aEternal Stella"

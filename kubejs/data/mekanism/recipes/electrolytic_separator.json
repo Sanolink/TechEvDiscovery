@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": {
+            "item": "immersiveengineering:component_electronic"
+        },
+        "#": {
+            "item": "mekanism:electrolytic_core"
+        },
+        "A": {
+            "tag": "mekanism:alloys/atomic"
+        },
+        "I": {
+            "item": "alltheores:osmium_gear"
+        },
+        "R": {
+            "item": "mekanism:ultimate_control_circuit"
+        }
+    },
+    "pattern": [
+        "CRC",
+        "A#A",
+        "IRI"
+    ],
+    "result": {
+        "item": "mekanism:electrolytic_separator"
+    }
+}

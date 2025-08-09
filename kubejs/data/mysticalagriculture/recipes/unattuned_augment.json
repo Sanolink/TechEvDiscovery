@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SIS",
+    "SIS",
+    "SIS"
+  ],
+  "key": {
+    "I": {
+      "item": "psi:psimetal"
+    },
+    "S": {
+      "item": "mysticalagriculture:prosperity_shard"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:unattuned_augment"
+  }
+}

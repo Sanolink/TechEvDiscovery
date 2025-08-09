@@ -1,0 +1,14 @@
+{
+    "primaryColor": "#dc5af8",
+    "secondaryColor": "#804f40",
+    "flowerTag": "forge:storage_blocks/elementium",
+    "invulnerability": [
+        "mekanism.radiation"
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botania"
+        }
+    ]
+}

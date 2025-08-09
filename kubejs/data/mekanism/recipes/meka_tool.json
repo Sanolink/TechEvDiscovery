@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "mekanism:electrolytic_core"
+        },
+        "A": {
+            "item": "mekanism:pellet_polonium"
+        },
+        "C": {
+            "item": "mekanism:hdpe_sheet"
+        },
+        "E": {
+            "item": "mekanism:basic_induction_cell"
+        },
+        "P": {
+            "item": "mekanism:atomic_disassembler"
+        },
+        "Q": {
+            "item": "mekaevolution:plasma_pickaxe"
+        },
+        "o": {
+            "item": "mekaevolution:infinite_control_circuit"
+        }
+    },
+    "pattern": [
+        "CoC",
+        "P#Q",
+        "AEA"
+    ],
+    "result": {
+        "item": "mekanism:meka_tool"
+    }
+}

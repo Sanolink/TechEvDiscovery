@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -27,6 +27,22 @@ ServerEvents.recipes(event => {
             catalyst: laserLens.white,
             entity: "forbidden_arcanus:lost_soul",
             output: IndustrialFluidWithCount("forbidden_arcanus:liquid_soul", 200),
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 256,
+                    depth_min: -64,
+                    weight: 8,
+                    whitelist: {}
+                }
+            ]
+        },
+        //Echoplasm
+        {
+            id: "echoplasm",
+            catalyst: laserLens.blue,
+            entity: "minecraft:warden",
+            output: IndustrialFluidWithCount("industrialforegoing:echoplasm", 50),
             rarity: [
                 {
                     blacklist: {},

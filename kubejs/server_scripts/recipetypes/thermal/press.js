@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -55,6 +55,11 @@ ServerEvents.recipes(event => {
             id: "psi_quartz_to_plate",
             output: parseIngredient(TagToItem('create_things_and_misc:psi_quartz_sheet')),
             ingredients: parseIngredient('create:polished_psi_quartz')
+        },
+        {
+            id: "antimatter_quartz_to_plate",
+            output: parseIngredient(TagToItem('create_things_and_misc:antimatter_quartz_sheet')),
+            ingredients: parseIngredient('create:polished_antimatter_quartz')
         },
         {
             id: "prismalium_nugget_packing",
@@ -108,7 +113,11 @@ ServerEvents.recipes(event => {
         'horizonite',
         'elementium',
         'cloggrum',
-        'froststeel'
+        'froststeel',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -153,7 +162,20 @@ ServerEvents.recipes(event => {
         'iesnium',
         'manasteel',
         'terrasteel',
-        'elementium'
+        'elementium',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx',
+        'refined_glowstone',
+        'refined_obsidian',
+        'the_ultimate',
+        'crystaltine',
+        'enhanced_ender_ingot',
+        'ender_ingot',
+        'enhanced_redstone_ingot',
+        'redstone_ingot',
+        'black_iron'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -183,6 +205,45 @@ ServerEvents.recipes(event => {
         )
     });
     
+    const MysticalIngotsPackingUnpacking = [
+        'soulium',
+        'awakened_supremium',
+        'supremium',
+        'imperium',
+        'tertium',
+        'prudentium',
+        'inferium',
+        'prosperity',
+        'insanium'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_nugget_packing`,
+                output: parseIngredient(TagToItem(`#forge:ingots/${mat}`)),
+                ingredients: [ChanceOrCountTag(`#forge:nuggets/${mat}`, 9), parseIngredient('thermal:press_packing_3x3_die')],
+                energy: 400
+            },
+            {
+                id: `${mat}_packing`,
+                output: parseIngredient(TagToItem(`#forge:storage_blocks/${mat}_ingot`)),
+                ingredients: [ChanceOrCountTag(`#forge:ingots/${mat}`, 9), parseIngredient('thermal:press_packing_3x3_die')],
+                energy: 400
+            },
+            {
+                id: `${mat}_unpacking`,
+                output: ChanceOrCountItem(TagToItem(`#forge:ingots/${mat}`), 9),
+                ingredients: [parseIngredient(`#forge:storage_blocks/${mat}_ingot`), parseIngredient('thermal:press_unpacking_die')],
+                energy: 400
+            },
+            {
+                id: `${mat}_nugget_unpacking`,
+                output: ChanceOrCountItem(TagToItem(`#forge:nuggets/${mat}`), 9),
+                ingredients: [parseIngredient(`#forge:ingots/${mat}`), parseIngredient('thermal:press_unpacking_die')],
+                energy: 400
+            }
+        )
+    });
+
     // Ingots -> Gears
     const IngotsToGears = [
         "compressed_iron",
@@ -194,7 +255,11 @@ ServerEvents.recipes(event => {
         "osmium",
         "iridium",
         "aluminum",
-        "elementium"
+        "elementium",
+        "desh",
+        "ostrum",
+        "calorite",
+        "nephryx"
     ].forEach((ingot) => {
         recipes.push(
             {
@@ -216,7 +281,8 @@ ServerEvents.recipes(event => {
         "iridium",
         "aluminum",
         "elementium",
-        "cast_iron"
+        "cast_iron",
+        "nephryx"
     ].forEach((ingot) => {
         recipes.push(
             {
@@ -250,7 +316,11 @@ ServerEvents.recipes(event => {
         'lumium',
         'signalum',
         'constantan',
-        'brass'
+        'brass',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach((mat) => {
         recipes.push(
             {

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "ae2:logic_processor"
+    },
+    "B": {
+      "item": "pneumaticcraft:assembly_platform"
+    },
+    "C": {
+      "item": "thermal:machine_crafter"
+    },
+    "L": {
+      "item": "pneumaticcraft:assembly_controller"
+    },
+    "R": {
+      "item": "powah:dielectric_casing"
+    },
+    "T": {
+      "item": "create:mechanical_arm"
+    }
+  },
+  "pattern": [
+    "TLT",
+    "#C#",
+    "RBR"
+  ],
+  "result": {
+    "item": "ad_astra:nasa_workbench"
+  }
+}

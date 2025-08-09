@@ -1,0 +1,14 @@
+{
+    "name": "Supremium",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:supremium\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/supremium_flower",
+      "seeds": "mysticalagriculture:item/seeds/supremium_seeds"
+    },
+    "essence": "mysticalagriculture:supremium_essence"
+  }

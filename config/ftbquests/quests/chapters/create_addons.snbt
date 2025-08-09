@@ -344,34 +344,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"76757835951E1310"
-				"1AF30D6CF9698E69"
-				"26F4FB950E84A8A1"
-				"72ED97E1F4157B09"
-			]
-			id: "05F4963ECFBC8E9A"
-			rewards: [{
-				id: "77B4EF14AAD0BDB5"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				id: "584A99D82388D0E3"
-				item: {
-					Count: 1b
-					id: "create_sa:flamethrower"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "&4&lFlamethrower"
-			x: -7.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["76757835951E1310"]
 			id: "44B7C4336266F0A3"
 			rewards: [{
@@ -694,6 +666,32 @@
 			}]
 			x: -6.0d
 			y: -2.5d
+		}
+		{
+			dependencies: [
+				"72ED97E1F4157B09"
+				"26F4FB950E84A8A1"
+				"76757835951E1310"
+				"1AF30D6CF9698E69"
+			]
+			id: "019D4C056AB911B3"
+			rewards: [{
+				id: "2062F7DBBA4DF9D1"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&lEarly Creative Flight"
+			tasks: [{
+				id: "4B00188DB71C9021"
+				item: "balancedflight:flight_anchor"
+				type: "item"
+			}]
+			title: "&lFlight Anchor"
+			x: -7.0d
+			y: -1.5d
 		}
 	]
 	subtitle: ["When Precision Meets Potential"]

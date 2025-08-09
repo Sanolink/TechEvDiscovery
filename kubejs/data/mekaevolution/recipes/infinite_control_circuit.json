@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:mek_data",
+  "key": {
+    "A": {
+      "item": "create:antiproton_tube"
+    },
+    "C": {
+      "item": "mekaevolution:cosmic_control_circuit"
+    },
+    "S": {
+      "item": "mekaevolution:alloy_spectrum"
+    },
+    "H": {
+      "item": "create_things_and_misc:antimatter_quartz_sheet"
+    }
+  },
+  "pattern": [
+    "HAH",
+    "SCS",
+    "HAH"
+  ],
+  "result": {
+    "item": "mekaevolution:infinite_control_circuit"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {
+            "item": "mekaevolution:alloy_shining"
+        },
+        "C": {
+            "item": "mekaevolution:cosmic_control_circuit"
+        },
+        "D": {
+            "item": "mekanism:steel_casing"
+        },
+        "I": {
+            "tag": "forge:ingots/refined_obsidian"
+        }
+    },
+    "pattern": [
+        "ICI",
+        "ADA",
+        "ICI"
+    ],
+    "result": {
+        "item": "mekanism:dimensional_stabilizer"
+    }
+}

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -77,13 +77,47 @@ ServerEvents.recipes(event => {
         "dragonsteel",
         "prismalium",
         "melodium",
-        "stellarium"
+        "stellarium",
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach((mat) => {
         recipes.push(
             {
                 id: `${mat}_dust_from_ingot`,
                 output: parseIngredient(`#forge:dusts/${mat}`),
                 input: parseIngredient(`#forge:ingots/${mat}`),
+            }
+        )
+    });
+
+    const RawToDusts = [
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_dust_from_raw`,
+                output: ChanceOrCountTag(`#forge:dusts/${mat}`, 2),
+                input: parseIngredient(`#forge:raw_materials/${mat}`),
+            }
+        )
+    });
+
+    const OresToDusts = [
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_dust_from_ore`,
+                output: ChanceOrCountTag(`#forge:dusts/${mat}`, 2),
+                input: parseIngredient(`#forge:ores/${mat}`),
             }
         )
     });

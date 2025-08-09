@@ -1,0 +1,14 @@
+{
+    "name": "Peridot",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:peridot\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/peridot_flower",
+      "essence": "mysticalagriculture:item/essence/peridot_essence",
+      "seeds": "mysticalagriculture:item/seeds/peridot_seeds"
+    }
+  }

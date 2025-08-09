@@ -1,0 +1,14 @@
+{
+    "name": "Tertium",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:tertium\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/tertium_flower",
+      "seeds": "mysticalagriculture:item/seeds/tertium_seeds"
+    },
+    "essence": "mysticalagriculture:tertium_essence"
+  }

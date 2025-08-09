@@ -1,0 +1,144 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_rchapter_5"
+	group: "0EBC8803CE24B703"
+	icon: "ae2:singularity"
+	id: "46241183D943E707"
+	order_index: 5
+	quest_links: [
+		{
+			id: "60B892EE69AE2237"
+			linked_quest: "6BF612431ADBCFF4"
+			shape: "pentagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "42D3DFAFE3C2BD6E"
+			linked_quest: "54D89EA890C7FE6C"
+			x: -0.75d
+			y: 3.75d
+		}
+		{
+			id: "69ACE080CDC9E28C"
+			linked_quest: "52AE0927E34A22CF"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "65B78F7F06EC9952"
+			linked_quest: "19410DF7CB138BC2"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "23EEA31ED17BCD05"
+			linked_quest: "1BCE8791A63FC03E"
+			x: 0.25d
+			y: 3.75d
+		}
+		{
+			id: "1DB8D9ECE075DAEB"
+			linked_quest: "0F86755CE3BE2113"
+			shape: "octagon"
+			size: 1.5d
+			x: 1.5d
+			y: 6.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"6F64D9A367C073CD"
+				"0F86755CE3BE2113"
+			]
+			icon: "techev_additions:techevium"
+			id: "4E7356179682035C"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Soon, in 1.5.0 !"
+			tasks: [{
+				id: "7CB895CC1AE88B28"
+				title: "WIP : Age 4"
+				type: "checkmark"
+			}]
+			title: "&lAge 6 : WIP"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6BF612431ADBCFF4"]
+			icon: "ad_astra:earth_globe"
+			id: "6F9E580941C61B9B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "522EC3D8417BC5C1"
+				type: "checkmark"
+			}]
+			title: "&lAd Astra"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19410DF7CB138BC2"]
+			icon: "mekanism:alloy_atomic"
+			id: "5D3103914AC6D89E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "74F998942D7BEA2F"
+				type: "checkmark"
+			}]
+			title: "&lMekanism"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A187165637C4238"]
+			icon: "mysticalagriculture:inferium_essence"
+			id: "3529A0DB7D4269CD"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3D2B12CBEAB6D737"
+				type: "checkmark"
+			}]
+			title: "&lMystical Agriculture"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["52AE0927E34A22CF"]
+			icon: "productivebees:upgrade_comb_block"
+			id: "1A187165637C4238"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "21815BCB6BF3AB64"
+				type: "checkmark"
+			}]
+			title: "&lProductive Bees"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D3103914AC6D89E"]
+			icon: "angelring:angel_ring"
+			id: "30269A7AC0A8AE0B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7BAB5458D55B06B9"
+				type: "checkmark"
+			}]
+			title: "&lQuantum Utilities"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["&lCosmic Supremacy"]
+	title: " &l&6♦ &rChapter 5"
+}

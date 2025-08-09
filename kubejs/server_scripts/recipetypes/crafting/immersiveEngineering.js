@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -78,13 +78,30 @@ ServerEvents.recipes(event => {
                 B:'minecraft:blue_dye',
                 P:'minecraft:paper',
             }
-        }
+        },
+        {
+            id: "immersiveengineering:hop_graphite_block",
+            output: 'immersiveengineering:hop_graphite_block',
+            pattern: ["III", "III", "III"],
+            key: {
+                I: 'immersiveengineering:ingot_hop_graphite'
+            }
+        },
+    ]
+
+    const shapeless = [
+        {
+            output: '9x immersiveengineering:ingot_hop_graphite',
+            input: 'immersiveengineering:hop_graphite_block'
+        },
     ]
 
     recipes.forEach(recipe => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id)
     })
 
-
+    shapeless.forEach((recipe) => {
+        event.shapeless(recipe.output, recipe.input).id(recipe.output.split(":")[1])
+    })
 
 })

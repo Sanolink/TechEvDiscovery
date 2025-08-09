@@ -1,0 +1,8 @@
+{
+    "primaryColor": "#529856",
+    "secondaryColor": "#2E5430",
+    "particleColor": "#7AB77D",
+    "beeTexture": "productivebees:textures/entity/bee/geotic/bee",
+    "renderer": "translucent_with_center",
+    "flowerTag": "productivebees:flowers/quarry"
+}

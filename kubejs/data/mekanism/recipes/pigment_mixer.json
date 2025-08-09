@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "tag": "forge:dyes"
+        },
+        "A": {
+            "item": "pneumaticcraft:plastic"
+        },
+        "C": {
+            "item": "mekanism:basic_control_circuit"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "ACA",
+        "#X#",
+        "ACA"
+    ],
+    "result": {
+        "item": "mekanism:pigment_mixer"
+    }
+}

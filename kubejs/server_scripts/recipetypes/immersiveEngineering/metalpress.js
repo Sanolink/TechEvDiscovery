@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -91,6 +91,13 @@ ServerEvents.recipes(event => {
             input: parseIngredient("create:polished_psi_quartz"),
             mold: "immersiveengineering:mold_plate"
         },
+        //Antimatter Quartz Plate
+        {
+            id: "plate_antimatter_quartz",
+            output: parseIngredient("create_things_and_misc:antimatter_quartz_sheet"),
+            input: parseIngredient("create:polished_antimatter_quartz"),
+            mold: "immersiveengineering:mold_plate"
+        },
         //Diamond Gear
         {
             id: "gear_diamond",
@@ -140,6 +147,27 @@ ServerEvents.recipes(event => {
             input: IEChanceOrCountIngredient("#forge:gems/quartz", 4),
             mold: "immersiveengineering:mold_gear"
         },
+        //Desh Gear
+        {
+            id: "gear_desh",
+            output: parseIngredient("#forge:gears/desh"),
+            input: IEChanceOrCountIngredient("#forge:ingots/desh", 4),
+            mold: "immersiveengineering:mold_gear"
+        },
+        //Ostrum Gear
+        {
+            id: "gear_ostrum",
+            output: parseIngredient("#forge:gears/ostrum"),
+            input: IEChanceOrCountIngredient("#forge:ingots/ostrum", 4),
+            mold: "immersiveengineering:mold_gear"
+        },
+        //Calorite Gear
+        {
+            id: "gear_calorite",
+            output: parseIngredient("#forge:gears/calorite"),
+            input: IEChanceOrCountIngredient("#forge:ingots/calorite", 4),
+            mold: "immersiveengineering:mold_gear"
+        },
         //Spell Bullet
         {
             id: "spell_bullet",
@@ -162,7 +190,8 @@ ServerEvents.recipes(event => {
         "soul_infused",
         "stellarium",
         "twinite",
-        "elementium"
+        "elementium",
+        "nephryx"
     ].forEach(ingot => {
         recipes.push(
             //Special Ingots Plates
@@ -187,7 +216,11 @@ ServerEvents.recipes(event => {
         'iridium',
         'enderium',
         'lumium',
-        'signalum'
+        'signalum',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ].forEach(mat => {
         recipes.push(
             {

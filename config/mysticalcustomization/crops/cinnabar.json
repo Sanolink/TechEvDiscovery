@@ -1,0 +1,14 @@
+{
+    "name": "Cinnabar",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:cinnabar\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/cinnabar_flower",
+      "essence": "mysticalagriculture:item/essence/cinnabar_essence",
+      "seeds": "mysticalagriculture:item/seeds/cinnabar_seeds"
+    }
+  }

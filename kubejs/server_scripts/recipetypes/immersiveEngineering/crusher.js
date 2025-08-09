@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
     //Recipes 
     let recipes = [
         {
-            id : 'raw_cuperzinate',
+            id: 'raw_cuperzinate',
             input: parseIngredient('techev_additions:raw_cuperzinate'),
             output: parseIngredient('create:crushed_raw_copper'),
             secondaries: [
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
             ]
         },
         {
-            id : 'raw_auricargentum',
+            id: 'raw_auricargentum',
             input: parseIngredient('techev_additions:raw_auricargentum'),
             output: parseIngredient('create:crushed_raw_gold'),
             secondaries: [
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
             ]
         },
         {
-            id : 'raw_uratinumal',
+            id: 'raw_uratinumal',
             input: parseIngredient('techev_additions:raw_uratinumal'),
             output: parseIngredient('create:crushed_raw_uranium'),
             secondaries: [
@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
             ]
         },
         {
-            id : 'raw_leadosnite',
+            id: 'raw_leadosnite',
             input: parseIngredient('techev_additions:raw_leadosnite'),
             output: parseIngredient('create:crushed_raw_lead'),
             secondaries: [
@@ -58,29 +58,29 @@ ServerEvents.recipes(event => {
             ]
         },
         {
-            id : 'netherite_armor_recycling',
+            id: 'netherite_armor_recycling',
             input: parseIngredient('#forge:armor/netherite'),
             output: IEChanceOrCountIngredient('createdeco:netherite_nugget', 4),
             secondaries: [IEChanceOrCountIngredient('createdeco:netherite_nugget', 0.8)]
         },
         {
-            id : 'obsidian',
+            id: 'obsidian',
             input: parseIngredient('minecraft:obsidian'),
             output: parseIngredient('create:powdered_obsidian'),
             secondaries: [IEChanceOrCountIngredient('minecraft:obsidian', 0.75)]
         },
         {
-            id : 'soul_sand',
+            id: 'soul_sand',
             input: parseIngredient('minecraft:soul_sand'),
             output: parseIngredient('thermal_extra:soul_sand_dust')
         },
         {
-            id : 'ender_pearl',
+            id: 'ender_pearl',
             input: parseIngredient('minecraft:ender_pearl'),
             output: parseIngredient('thermal:ender_pearl_dust')
         },
         {
-            id : 'sky_stone',
+            id: 'sky_stone',
             input: parseIngredient('ae2:sky_stone_block'),
             output: parseIngredient('ae2:sky_dust')
         }
@@ -98,7 +98,29 @@ ServerEvents.recipes(event => {
         'signalum',
         'soul_infused',
         'stellarium',
-        'twinite'
+        'twinite',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ]
+    const RawDusts = [
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ]
+    const RawBlocksDusts = [
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ]
+    const OresDusts = [
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
     ]
     const gemsDusts = [
         'amethyst',
@@ -118,22 +140,52 @@ ServerEvents.recipes(event => {
     ]
     ingotsDusts.forEach(type => {
         recipes.push(
-        {
-            id : `${type}_dust`,
-            input: parseIngredient(`#forge:ingots/${type}`),
-            output: parseIngredient(`#forge:dusts/${type}`)
-        }
-    )})
+            {
+                id: `${type}_dust`,
+                input: parseIngredient(`#forge:ingots/${type}`),
+                output: parseIngredient(`#forge:dusts/${type}`)
+            }
+        )
+    })
+    RawDusts.forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_dust_from_raw`,
+                input: parseIngredient(`#forge:raw_materials/${mat}`),
+                output: parseIngredient(`#forge:dusts/${mat}`),
+                secondaries: [IEChanceOrCountIngredient(`#forge:dusts/${mat}`, 0.3333)],
+            }
+        )
+    });
+    RawBlocksDusts.forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_dust_from_raw_block`,
+                input: parseIngredient(`#forge:storage_blocks/raw_${mat}`),
+                output: IEChanceOrCountIngredient(`#forge:dusts/${mat}`, 12),
+            }
+        )
+    });
+    OresDusts.forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_dust_from_ore`,
+                input: parseIngredient(`#forge:ores/${mat}`),
+                output: IEChanceOrCountIngredient(`#forge:dusts/${mat}`, 2),
+            }
+        )
+    });
     gemsDusts.forEach(type => {
         recipes.push(
-        {
-            id : `${type}_dust`,
-            input: parseIngredient(`#forge:gems/${type}`),
-            output: parseIngredient(`#forge:dusts/${type}`)
-        }
-    )})
+            {
+                id: `${type}_dust`,
+                input: parseIngredient(`#forge:gems/${type}`),
+                output: parseIngredient(`#forge:dusts/${type}`)
+            }
+        )
+    })
 
-   //General Crusher Function
+    //General Crusher Function
     recipes.forEach(recipe => {
         let json = {
             type: 'immersiveengineering:crusher',

@@ -1,0 +1,22 @@
+{
+    "type": "mekanism:combining",
+    "extraInput":
+    {
+        "ingredient":
+        {
+            "item": "ad_astra:glacio_cobblestone"
+        }
+    },
+    "mainInput":
+    {
+        "amount": 14,
+        "ingredient":
+        {
+            "tag": "forge:dusts/fluorite"
+        }
+    },
+    "output":
+    {
+        "item": "mekanism:fluorite_ore"
+    }
+}

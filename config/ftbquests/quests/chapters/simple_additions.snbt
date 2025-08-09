@@ -3874,25 +3874,15 @@
 		{
 			dependencies: ["0806ADC61C8653A7"]
 			description: [
-				"&l&4Apotheosis Spawners are disabled for now. 1.4.0 will rework them."
-				""
 				"You can use different materials to upgrade a spawner (check JEI for details)."
+				"Most of these ingredients are unlocked in next Ages though."
 			]
 			id: "2D8031EFE3A960D5"
-			rewards: [
-				{
-					count: 4
-					id: "6786A07A50F96B52"
-					item: "minecraft:sugar"
-					random_bonus: 12
-					type: "item"
-				}
-				{
-					id: "71D0304F1F617B32"
-					item: "minecraft:comparator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "51FE29529FE47EC7"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
 			subtitle: "Dropped by Silk Touch"
 			tasks: [{
 				id: "3EB337B064DAF751"

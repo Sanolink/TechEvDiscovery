@@ -1,0 +1,14 @@
+{
+    "name": "Alfsteel",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:alfsteel\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/alfsteel_flower",
+      "essence": "mysticalagriculture:item/essence/alfsteel_essence",
+      "seeds": "mysticalagriculture:item/seeds/alfsteel_seeds"
+    }
+  }

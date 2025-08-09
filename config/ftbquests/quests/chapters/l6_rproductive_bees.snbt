@@ -1,0 +1,6419 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_rproductive_bees"
+	group: "7C12EC759EE02863"
+	icon: "productivebees:upgrade_comb_block"
+	id: "22734DEB7618B2B7"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/mysticalagriculture/title_prudentium.png"
+			rotation: -30.0d
+			width: 6.440251572327044d
+			x: -14.0d
+			y: -32.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/mysticalagriculture/title_tertium.png"
+			rotation: -30.0d
+			width: 4.427631578947368d
+			x: -10.5d
+			y: -38.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/mysticalagriculture/title_imperium.png"
+			rotation: 30.0d
+			width: 5.069306930693069d
+			x: 0.5d
+			y: -38.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/mysticalagriculture/title_supremium.png"
+			rotation: 30.0d
+			width: 6.15015015015015d
+			x: 4.0d
+			y: -32.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/mysticalagriculture/title_insanium.png"
+			rotation: 30.0d
+			width: 5.069306930693069d
+			x: 0.5d
+			y: -26.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/mysticalagriculture/title_inferium.png"
+			rotation: -30.0d
+			width: 4.911270983213429d
+			x: -10.5d
+			y: -26.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/productivebees/title_productivebees.png"
+			order: -1
+			rotation: 0.0d
+			width: 20.235843549328663d
+			x: -5.5d
+			y: -41.5854735152488d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 24.847882454624028d
+			hover: [ ]
+			image: "techev:textures/misc/quests/productivebees/bee_cell.png"
+			order: -2
+			rotation: 0.0d
+			width: 25.9d
+			x: -4.999999999999986d
+			y: -29.484403424291074d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1A187165637C4238"
+				"465AC1A06741EE64"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "0EF3BDFA5090C605"
+			rewards: [
+				{
+					id: "0385ECD7AAD4ECA0"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "341980757C5D54F9"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 2.0d
+			subtitle: "&lTier: &e[Elemental]"
+			tasks: [{
+				id: "783BEC56E394C2C0"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:inferium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aInferium Comb"
+			x: -8.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["0EF3BDFA5090C605"]
+			hide_dependent_lines: true
+			id: "52983B2FD444977B"
+			rewards: [
+				{
+					count: 8
+					id: "11BC96A410DD72DF"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:prudentium"
+							}
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "47D82D15BA7BBC32"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 2.0d
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "4727EBB5FB4887B7"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prudentium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&2Prudentium Comb"
+			x: -12.0d
+			y: -29.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			hide_dependent_lines: true
+			id: "7832174211890E7D"
+			rewards: [
+				{
+					count: 8
+					id: "53D25EC2AB220D8F"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:tertium"
+							}
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1F2013961C97FCC3"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 2.0d
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "0D10E9332174A695"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tertium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Tertium Comb"
+			x: -8.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "10D0624EC6B3E281"
+			rewards: [
+				{
+					count: 8
+					id: "6273F5404301F09F"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:imperium"
+							}
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C744751F702932A"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 2.0d
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "13A7D9975666AFDB"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:imperium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Imperium Comb"
+			x: -1.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "3EAC9F4839A0B988"
+			rewards: [
+				{
+					count: 8
+					id: "1B6C4627086E5B31"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:supremium"
+							}
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3AB3823E34DCED8E"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 2.0d
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "34E418F4D4A6E855"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:supremium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Supremium Comb"
+			x: 2.0d
+			y: -29.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "2821AC6F81CC2814"
+			rewards: [
+				{
+					count: 8
+					id: "4D2D6C31B20927A9"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:insanium"
+							}
+						}
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E077D8DDD448A43"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 2.0d
+			subtitle: "&lTier: &5[6]"
+			tasks: [{
+				id: "45A96A799722B392"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:insanium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&5Insanium Comb"
+			x: -1.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "332BB41FB991B999"
+			rewards: [
+				{
+					count: 16
+					id: "5CEDC83420A00A56"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:coal"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "06E72CAAE2CBCB11"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "6F5E70DBD7B17398"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:coal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Coal"
+			x: -9.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["2821AC6F81CC2814"]
+			id: "4E607A9487F9C054"
+			rewards: [
+				{
+					count: 16
+					id: "75087E87D950F30D"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:draconic"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "3C22A243FF2B4AAD"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &5[6]"
+			tasks: [{
+				id: "33DA40237C591A4E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:draconic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Draconic"
+			x: 0.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["2821AC6F81CC2814"]
+			id: "02E617795CEFECCE"
+			rewards: [
+				{
+					count: 16
+					id: "7DDB0F5579690080"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:nitro_crystal"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "0F7AC91E9C33CDC1"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &5[6]"
+			tasks: [{
+				id: "4D16D8FDBB2C9DB2"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nitro_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&cNitro Crystal"
+			x: -3.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "7B26FBF39A2D2EDE"
+			rewards: [
+				{
+					count: 16
+					id: "02EB0E4C3726A018"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:emerald"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2242D3A7A99F12AD"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "2208D0FE8A727163"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:emerald"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&2Emerald"
+			x: 1.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "40053918508CE729"
+			rewards: [
+				{
+					count: 16
+					id: "154FEC32CA114DF9"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:diamond"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "259C2DD1553C6DA0"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "4A17D607459FB42A"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:diamond"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&bDiamond"
+			x: 4.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "2BAD8DA3AB14810C"
+			rewards: [
+				{
+					count: 16
+					id: "435341A7C7ACC427"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:uraninite"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "24A44F182889A2D5"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "5CBC134E5ADBB11E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:uraninite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aUraninite"
+			x: -0.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "4ADBA1741B2F4537"
+			rewards: [
+				{
+					count: 16
+					id: "6107AEB1FF7A0BAD"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:netherite"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1FF0B01307B43BCD"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "20826528A7032CB0"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:netherite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Ancient"
+			x: 1.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "2235EA23DBA6C760"
+			rewards: [
+				{
+					count: 16
+					id: "278D1A873DA01EC6"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:iridium"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "06A35B0C38A03AD0"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "65A0738392499CDA"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iridium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lIridium"
+			x: 2.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "1C2F35FD0CBA3B88"
+			rewards: [
+				{
+					count: 16
+					id: "14DB740D9639708D"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:platinum"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "29C0DA3869FB9F10"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "7F1103B8E132D7F4"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:platinum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&bPlatinum"
+			x: -13.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "3A0F7AACFB2789C9"
+			rewards: [
+				{
+					count: 16
+					id: "71CB19E85F5CAE62"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:terrasteel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "4C92A517CFB6F6A6"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "2794054C2304612E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:terrasteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aTerrasteel"
+			x: -0.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "1F7EE28F48F92C1D"
+			rewards: [
+				{
+					count: 16
+					id: "73E1075BBFEF04DA"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:enderium"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1C042585D7743F68"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "21B92F3451C5C22B"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:enderium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Enderium"
+			x: 0.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "6052A73B310B1CD9"
+			rewards: [
+				{
+					count: 16
+					id: "1917DC3CA640A2B3"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:spirited_crystal"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2F25EA10ED8FCFCF"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "194BBD5594329CCF"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:spirited_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aSpirited Crystal"
+			x: 0.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "12DC22CBC2C0A201"
+			rewards: [
+				{
+					count: 16
+					id: "4E6F8E66D60142A0"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:niotic_crystal"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "77A2087BBD2D477A"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "014119F0A32911DF"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:niotic_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&bNiotic Crystal"
+			x: 3.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "42C9E8CAF433F788"
+			rewards: [
+				{
+					count: 16
+					id: "11F807F644723C80"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:withered"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "3995AFC3423DF055"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "4E6E1FAD22806A6A"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:withered"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Withered"
+			x: -1.5d
+			y: -38.5d
+		}
+		{
+			dependencies: ["1A187165637C4238"]
+			description: [
+				"In this pack, &eProductive Bees&r has been completely reworked to incorporate a progression system linked to &eMystical Agriculture&r."
+				""
+				"&eCombs&r are used to craft the corresponding &eMystical Agriculture&r seed."
+				""
+				"The &ecombination&r of all seeds essences from a tier will allow you to move on to the &enext bee tier&r. "
+			]
+			hide_dependent_lines: true
+			id: "465AC1A06741EE64"
+			rewards: [{
+				count: 4
+				id: "303E5D3086AAEF1E"
+				item: "productivebees:sturdy_bee_cage"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4075E212CFE9F599"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			title: "&lProductive Bees"
+			x: -5.0d
+			y: -27.25d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "1BF5B30175C09438"
+			rewards: [
+				{
+					count: 16
+					id: "0646C91B4521EE70"
+					item: "productivebees:honeycomb_ghostly"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "62DEAA9142B35850"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "15568B8777F95F90"
+				item: "productivebees:honeycomb_ghostly"
+				type: "item"
+			}]
+			title: "&lGhostly"
+			x: -0.5d
+			y: -38.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "2E6849A7BE9B01AF"
+			rewards: [
+				{
+					count: 16
+					id: "7044AA0E82022AFD"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:blazing"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "68C72E87077DFED5"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "2CE79CD32041C4B0"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Blazing"
+			x: 0.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "374B934DAE2B62A9"
+			rewards: [
+				{
+					count: 16
+					id: "2D7E3745417BD3A7"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:ender"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "604126464088F4B0"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "07C6FFD1D966E3C2"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Ender"
+			x: -3.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "65B8A9BDF307D34E"
+			rewards: [
+				{
+					count: 16
+					id: "3F4D2EA5E847C53A"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:fiery"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2BBF2641C9A7EC74"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "7C399777630A769E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fiery"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Fiery Ingot"
+			x: -7.5d
+			y: -34.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "0BDA52E9755CBB86"
+			rewards: [
+				{
+					count: 16
+					id: "268C8B3AA2C0C075"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:compressed_iron"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "0664E7FB6091E0C3"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "5876247CAE60D844"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:compressed_iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Compressed Steel"
+			x: -4.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "016AF47E1D5FABBB"
+			rewards: [
+				{
+					count: 16
+					id: "6E155491F910A8DD"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:refined_obsidian"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "3496940788462191"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "5CB8FDCD34187958"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_obsidian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&5Refined Obsidian"
+			x: -2.5d
+			y: -34.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "73369561B5A19A2C"
+			rewards: [
+				{
+					count: 16
+					id: "39F75542DE3111B1"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:knightmetal"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1D5EE7EB555A23C3"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "3F82270CC1BEEE7A"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:knightmetal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aKnightmetal"
+			x: -7.5d
+			y: -33.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "3B5005DD68F596C5"
+			rewards: [
+				{
+					count: 16
+					id: "1C1D38EE63CE17AF"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:fluorite"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "31BCC16956A56A10"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "11128EC8D46B56D4"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluorite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lFluorite"
+			x: -4.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "04EDF5C20E39B766"
+			rewards: [
+				{
+					count: 16
+					id: "5DC06A70BB3B2C24"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:refined_glowstone"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "18BD95DA85925E23"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "43D104FD94B81287"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_glowstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&eRefined Glowstone"
+			x: -1.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "5A610B247A680551"
+			rewards: [
+				{
+					count: 16
+					id: "464CC09ABBE3659A"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:elementium"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "40D279B437B95092"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "047DAD53F07B8FA6"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:elementium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&dElementium"
+			x: 4.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["2821AC6F81CC2814"]
+			id: "067B128F2E6CB1F2"
+			rewards: [
+				{
+					count: 16
+					id: "3A75139E85AC3D5A"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:starry"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "0F2268041B25EA60"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &5[6]"
+			tasks: [{
+				id: "1C307198D69E8713"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:starry"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lNether Star"
+			x: -3.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["2821AC6F81CC2814"]
+			id: "52DF77C4D5F21B3C"
+			rewards: [
+				{
+					count: 16
+					id: "2EA1AB5247309B12"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:gaia"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "16F2060A3BB6B184"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &5[6]"
+			tasks: [{
+				id: "74D567F7EA1CCC6C"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gaia"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&dGaia Spirit"
+			x: 0.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			hide_dependent_lines: true
+			id: "563D1D95955D05BE"
+			rewards: [
+				{
+					count: 16
+					id: "57F27D60D9F3EB9D"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:prosperity"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "66677A3BEFFC7738"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &e[Elemental]"
+			tasks: [{
+				id: "0DA2D62CEEEE7826"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prosperity"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lProsperiBee"
+			x: -3.0d
+			y: -30.75d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			hide_dependent_lines: true
+			id: "42A28E53B47EEB3F"
+			rewards: [
+				{
+					count: 16
+					id: "1351AE8EEAAB16FD"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:soulium"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6E1CAB78AE99683F"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &e[Elemental]"
+			tasks: [{
+				id: "37418D9E9E07D867"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:soulium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lSoulium"
+			x: -7.0d
+			y: -30.75d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "7FD9FEBF1D958410"
+			rewards: [
+				{
+					count: 16
+					id: "665140E935855D2D"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:osmium"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "20027F931427F8DE"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "367AE10076C9FBF0"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:osmium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&3Osmium"
+			x: -11.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "3BD9D7EF364BFA06"
+			rewards: [
+				{
+					count: 16
+					id: "1DE0FACE37AEF914"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:lumium"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "647F43F2D33B213F"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "02B4ED84C0CE45BF"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lumium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&eLumium"
+			x: -3.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "560F26ACB8079B27"
+			rewards: [
+				{
+					count: 16
+					id: "7E61ED63047A4999"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:hop_graphite"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "0FB67FE7A5B996FF"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "1AE9E09EA01DC02F"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hop_graphite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7HOP Graphite"
+			x: -6.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "5535A83CFC63CBC6"
+			rewards: [
+				{
+					count: 16
+					id: "40F112FCAE5FDFBB"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:sapphire"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "7388CBD3A59CC52B"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "29CAC7E8E5F817AA"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sapphire"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Sapphire"
+			x: -7.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "3DA1132423542A2C"
+			rewards: [
+				{
+					count: 16
+					id: "4EF32F739325B1AB"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:signalum"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "0110D0820F227442"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "4AC5E766C69C7FC2"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:signalum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&cSignalum"
+			x: -2.5d
+			y: -37.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "151E84516991A6E9"
+			rewards: [
+				{
+					count: 16
+					id: "7D4AFCA4C3EB0D52"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:radioactive"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "5EA1AF01446CAE6D"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "2A783BCB33D85A7C"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:radioactive"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&2Radioactive"
+			x: -14.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "41203793714D65CA"
+			rewards: [
+				{
+					count: 16
+					id: "427866F266D05AC8"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:ruby"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "039BA8399BA3B67F"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "6F2D9D20F743D026"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ruby"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&cRuBee"
+			x: -11.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "376436B0BFDD38AE"
+			rewards: [
+				{
+					count: 16
+					id: "2A4D263FE41B5122"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:electrum"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "405A438C3E340E86"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "3DB3A5110F78A07B"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:electrum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&eElectrum"
+			x: -0.5d
+			y: -34.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "6738EF10E38AC398"
+			rewards: [
+				{
+					count: 16
+					id: "15509BF73A432D95"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:invar"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "7F5445316C207FF7"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "7FA239A1BC12DBDF"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:invar"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&3Invar"
+			x: 1.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "045AA9EA1DB91880"
+			rewards: [
+				{
+					count: 16
+					id: "4B0D3C85AD8A3CA5"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:nickel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "61BEC0CAB0F18805"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "7EA4D468F19DFE2A"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nickel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lNickel"
+			x: -11.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "47169C26E490C218"
+			rewards: [
+				{
+					count: 16
+					id: "65010EDD571685F7"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:constantan"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "0D49D63EA51ED20D"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "6CA005520653826B"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:constantan"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Constantan"
+			x: 0.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "5734DDBCA469F23D"
+			rewards: [
+				{
+					count: 16
+					id: "7DA4488DE65435D5"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:blazing_crystal"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "79D11199DA1DC17E"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "5155244479D7AECB"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Blazing Crystal"
+			x: -3.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "55CD3831B6B45006"
+			rewards: [
+				{
+					count: 16
+					id: "3CCC37C2DE8A7CED"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:steel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2947744D79E18810"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "5F9ED35ECD761D24"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Steel"
+			x: -1.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "7C83071A51C41B16"
+			rewards: [
+				{
+					count: 16
+					id: "22FD6D3A8D895636"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:fluix"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "49CA329BFC751BDC"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "36DA9730BBA9BB9E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluix"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&5Fluix"
+			x: 3.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "62EAEFC77538E01C"
+			rewards: [
+				{
+					count: 16
+					id: "3A85D711A4AAA8B2"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:energized_steel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "38966773E576F0F3"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "6429DB8103ABB233"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:energized_steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lEnergized Steel"
+			x: 0.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "0773E95CA925BD05"
+			rewards: [
+				{
+					count: 16
+					id: "352C85F51BDF67B3"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:gold"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "33B30DF2AF3195EE"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "5A2A801DAAAA751B"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Gold"
+			x: -9.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "47B0C2EBD2E1DEFD"
+			rewards: [
+				{
+					count: 16
+					id: "6F15BA766C7C22D3"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:experience"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "39E5F33CACAF98A0"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "2659DE8B5CB5C7C2"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:experience"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aExperience"
+			x: -9.5d
+			y: -33.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "33AED72B2166322C"
+			rewards: [
+				{
+					count: 16
+					id: "6FF77CEBF9D68EF5"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:lapis"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6FAE5FB4E95C60EA"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "0AC900EEA9F83BE5"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Lapis"
+			x: -10.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "612D4A1EB7C900ED"
+			rewards: [
+				{
+					count: 16
+					id: "2F3B713D6E8FC21D"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:rabbit"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "66FD9A223FA2A121"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "4304F1528FBFE3B8"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:rabbit"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lRabbit"
+			x: -12.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "282098D87534C443"
+			rewards: [
+				{
+					count: 16
+					id: "149B04D5BF617895"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:blitz"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2CCE8B46532AA0C3"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "6B7C595DDD73797A"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blitz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lBitzBee"
+			x: 3.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "70412643B63B9B61"
+			rewards: [
+				{
+					count: 16
+					id: "356D803CDF1E08B2"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:basalz"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "061212E06CBFE252"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "0FD73D2DEBA1AF2D"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:basalz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7BazBee"
+			x: 2.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "0F834CF53426C95E"
+			rewards: [
+				{
+					count: 16
+					id: "35CBA961EA30DEED"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:blizz"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1BE010C102DA7C0B"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "72DFBF29485C0A9D"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blizz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&bBizBee"
+			x: 1.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "28C9E58232CD3B62"
+			rewards: [
+				{
+					count: 16
+					id: "00D3820DE9AF7B62"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:zombie"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "15384423FD162819"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "373D7D2CE264165C"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zombie"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&2ZomBee"
+			x: -7.5d
+			y: -38.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "331C4FB5509E6F7A"
+			rewards: [
+				{
+					count: 16
+					id: "3951E69E0C96616C"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:skeletal"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "28977198EE954593"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "417A094A9EE7E0FB"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:skeletal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lSkeletal"
+			x: -6.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "790E0537464922BE"
+			rewards: [
+				{
+					count: 16
+					id: "444223E529913C14"
+					item: "productivebees:honeycomb_powdery"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "11CA304BC3BCAE6E"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "0402AD5E9A38713C"
+				item: "productivebees:honeycomb_powdery"
+				type: "item"
+			}]
+			title: "&lPowdery"
+			x: 0.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "2785A01F28E877D5"
+			rewards: [
+				{
+					count: 16
+					id: "4E5A7A3216F6CA2E"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:silky"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "43FA4B46D0809728"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "71D667B5BD998BDC"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silky"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Silky"
+			x: -2.5d
+			y: -38.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "5FBB55587A2944F6"
+			rewards: [
+				{
+					count: 16
+					id: "6A6F6F2F8E0CF422"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:silver"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "723C9137A1A18E3A"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "563B551C7538E721"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silver"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lSilver"
+			x: -14.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "66927F7E3DD68BB9"
+			rewards: [
+				{
+					count: 16
+					id: "5868D98490B9A00F"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:lead"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1C69A987C5C25688"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "3AA0AADE239F5A7E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lead"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Lead"
+			x: -13.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "67C1F9F4FABC0E45"
+			rewards: [
+				{
+					count: 16
+					id: "20811BEBF969AE05"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:zinc"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "461370CA0C492249"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "61DADD91AD65E88F"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zinc"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Zinc"
+			x: -13.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "1C1F771E5E768C1D"
+			rewards: [
+				{
+					count: 16
+					id: "0A8B5E431A8E2958"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:brass"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "7CC778A4FEBB83B9"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "69FFE71E64E1A58A"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brass"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Brass"
+			x: -4.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "61E0D146B133893D"
+			rewards: [
+				{
+					count: 16
+					id: "393698B98520BA67"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:tin"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "5FDD1321E7E812A9"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "753F6EA6BADF10F0"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tin"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&3Tin"
+			x: -12.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "6336B4884640F654"
+			rewards: [
+				{
+					count: 16
+					id: "064307C20D927E56"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:bronze"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6005627FF903B44A"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "2CA51E59DF879725"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Bronze"
+			x: -0.5d
+			y: -33.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "230F6CF5F89706FE"
+			rewards: [
+				{
+					count: 16
+					id: "3661F9894DB6E5DD"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:ironwood"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6ECAF95F6AEEDB5A"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "20A7EBE6408171E5"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ironwood"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Ironwood"
+			x: -8.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "2F2FCD190B693B53"
+			rewards: [
+				{
+					count: 16
+					id: "2BFF910607A319D7"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:manasteel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2DAB33E905770ACE"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "43E3DCA8E2491D51"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:manasteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Manasteel"
+			x: 0.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "4440B90C80330D47"
+			rewards: [
+				{
+					count: 16
+					id: "0DFD178E874A1219"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:steeleaf"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2A775587ED08754D"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "46EA626BA16871FC"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:steeleaf"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aSteeleaf"
+			x: -8.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "71102586623D62C7"
+			rewards: [
+				{
+					count: 16
+					id: "10F1997A5D07F091"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:prismarine"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "558EEDD9C4C234ED"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "1251F32F30A6CBAA"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prismarine"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&3Prismarine"
+			x: -13.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "6268F1C1C719C34D"
+			rewards: [
+				{
+					count: 16
+					id: "351BEE1BA9D6215B"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:spacial"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "00CE378A7923A6A7"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "66B5909CC3649DD4"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:spacial"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lSpatial"
+			x: -10.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "40DF4DD44FEAF2A5"
+			rewards: [
+				{
+					count: 16
+					id: "61496CEAC89F0905"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:redstone"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "3661FE69DD855FEF"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "2248CF4C24C5C0B8"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Redstone"
+			x: -12.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "606C9F5A4ABAC4C9"
+			rewards: [
+				{
+					count: 16
+					id: "17DB2B22F5413D30"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:obsidian"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "60A3F69745BCDAE9"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "77323ACE9DD6DE21"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:obsidian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Obsidian"
+			x: -9.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "4F62CEA52DF2B709"
+			rewards: [
+				{
+					count: 16
+					id: "2B4EF5201083B6EF"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:crystalline"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "4897C67CEA05A687"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "5082EF3506EB3D07"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crystalline"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lCrystalline"
+			x: -6.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "3B060D2B18A9B11C"
+			rewards: [
+				{
+					count: 16
+					id: "26E2E10FD9E1E229"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:iron"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "633D9D93CB0E8F18"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "18D3F83C56A153BF"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&7Iron"
+			x: -10.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "6A78C0CEBF30A376"
+			rewards: [
+				{
+					count: 16
+					id: "2D441B9FC909B2CA"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:glowing"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "484BD1CFAA483025"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "467447BB6BA9625D"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:glowing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Glowing"
+			x: -14.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "3125BCB7D58A1C81"
+			rewards: [
+				{
+					count: 16
+					id: "1EB6E0B515E6AD74"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:copper"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "15E4CF4A7C0ED87C"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "2421DCFB51D46FAA"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Copper"
+			x: -14.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "0BD3AA6D4FD40819"
+			rewards: [
+				{
+					count: 16
+					id: "346D527EE58CDCBC"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:amethyst"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "64D8ED139FF10E78"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "1F3E9A68E4F6A6B0"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:amethyst"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&5Amethyst"
+			x: -9.5d
+			y: -34.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "744A6817E50525CB"
+			rewards: [
+				{
+					count: 16
+					id: "65D3F010C03A35DD"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:apatite"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "47002B9B6C7B578A"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "51DEA989CAB3FB2F"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:apatite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&bApatite"
+			x: -10.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "4E78B14DDF6F4694"
+			rewards: [
+				{
+					count: 16
+					id: "59399A5D84955D75"
+					item: "minecraft:honeycomb"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2537A04D0DCB18A2"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "5B3B4FDB3C91E0C5"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			title: "&l&6Honey"
+			x: -12.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "36B3BA3D602990C9"
+			rewards: [
+				{
+					count: 16
+					id: "154D16B7384010E0"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:niter"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "70ADD0425553235C"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "7CD41F6E823310B6"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:niter"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lNiter"
+			x: -13.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "0AE070456E32C31B"
+			rewards: [
+				{
+					count: 16
+					id: "72CC34D66478300C"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:silicon"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "12858220750EAF92"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "4263A87B9A4FEBB7"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silicon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lSilicon"
+			x: -10.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "0E45B000A7642D85"
+			rewards: [
+				{
+					count: 16
+					id: "0A843F95F69C5BB8"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:aluminum"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6513BFC05207FB69"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "7716C7173EB95E6F"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:aluminum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lAluminum"
+			x: -10.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "2B5D1833EA9D7F60"
+			rewards: [
+				{
+					count: 16
+					id: "14D9FAD69D2B1612"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:sulfur"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6BA27C3A55DC45BB"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "52B49CAE458A3962"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sulfur"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&eSulfur"
+			x: -11.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "2640BDB52798A2B9"
+			rewards: [
+				{
+					count: 16
+					id: "682092A1C51814FD"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:fishy"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "7F61A157E4E0843D"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "2ECA877A54E8DD9B"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fishy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lFishy"
+			x: -10.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "61D0095A6E2DACBC"
+			rewards: [
+				{
+					count: 16
+					id: "7A9B36FEB0796099"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:turtle"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "57CFEA8029E56061"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "3A6818C890335147"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:turtle"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aTurtle"
+			x: -8.5d
+			y: -38.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "4B37B1926A90ED57"
+			rewards: [
+				{
+					count: 16
+					id: "6471A4AB825C64E4"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:piggy"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "5E1D5C6D0CBF0C16"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "2BEFB71402E6FE63"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:piggy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&dPiggy"
+			x: -14.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "344A95C6B7958CFC"
+			rewards: [
+				{
+					count: 16
+					id: "03419E6079D238B9"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:squid"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "37D7200FC4070E6E"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "68586502D157D896"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:squid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Squid"
+			x: -9.5d
+			y: -38.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "4237028A5A8ACE98"
+			rewards: [
+				{
+					count: 16
+					id: "65AEA2A174F6AB9E"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:chicken"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "228799FFB4EE6E61"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "27FD1F29D444909C"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:chicken"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lChicken"
+			x: -10.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "0D9331A89673DFA9"
+			rewards: [
+				{
+					count: 16
+					id: "7CDD83EDCA166A0C"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:sheep"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "63DACC361D0E69E3"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "4CBB74C6A8394972"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sheep"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lSheep"
+			x: -13.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["52983B2FD444977B"]
+			id: "295F35AC3B6E1DB4"
+			rewards: [
+				{
+					count: 16
+					id: "715D8BD65E6C871B"
+					item: "productivebees:honeycomb_milky"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "4C2EBAAD8174C435"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &a[2]"
+			tasks: [{
+				id: "49ED2DF082DAC07A"
+				item: "productivebees:honeycomb_milky"
+				type: "item"
+			}]
+			title: "&lMilky"
+			x: -11.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "4508D557F38A8BCF"
+			rewards: [
+				{
+					count: 16
+					id: "39324D1AFC2E395A"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:slimy"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "46499E4C544F1D5F"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "65862B2C763D3036"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:slimy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aSlime"
+			x: -8.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["0EF3BDFA5090C605"]
+			id: "10DAC315C320AEC7"
+			rewards: [
+				{
+					count: 16
+					id: "533C24BB62923D0B"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:magmatic"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1DEE52F629B79DA5"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &e[Elemental]"
+			tasks: [{
+				id: "75AC79BB73FAD35C"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:magmatic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Magmatic"
+			x: -7.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["0EF3BDFA5090C605"]
+			id: "072DEF065965ABEB"
+			rewards: [
+				{
+					count: 16
+					id: "47DEEFB22C449517"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:aquatic"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2FA5C289FDC53B0F"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &e[Elemental]"
+			tasks: [{
+				id: "17874E337421889D"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:aquatic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Aquatic"
+			x: -10.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["0EF3BDFA5090C605"]
+			id: "0CB5583775637871"
+			rewards: [
+				{
+					count: 16
+					id: "2267DCD3EA7D9900"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:geotic"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "302CDAE732D05325"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &e[Elemental]"
+			tasks: [{
+				id: "6C469E4DD4F52524"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:geotic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aGeotic"
+			x: -7.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0EF3BDFA5090C605"]
+			id: "4C1F70ED32ED681B"
+			rewards: [
+				{
+					count: 16
+					id: "1D0BDC892DDAF7E2"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:aeric"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "23DE3C09D4197C46"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			subtitle: "&lTier: &e[Elemental]"
+			tasks: [{
+				id: "509EE50200382A5D"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:aeric"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&eAeric"
+			x: -10.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["2821AC6F81CC2814"]
+			id: "46F2452AC2187D3C"
+			rewards: [
+				{
+					id: "19B0FD1C80D9F103"
+					item: "productivebees:honeycomb_ultimate"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2517664EAA9213A2"
+					item: "coinsje:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 3.0d
+			subtitle: "&lTier: &f[&1U&3l&2t&ai&em&6a&4t&5e&f]"
+			tasks: [{
+				id: "7633D39C59FFCF60"
+				item: "productivebees:honeycomb_ultimate"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -29.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			hide_dependent_lines: true
+			id: "237211A921055E34"
+			rewards: [{
+				count: 8
+				id: "28608883D0240211"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:awakened_supremium"
+						}
+					}
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "573034BA2BD82814"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:awakened_supremium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Awakened Supremium"
+			x: 2.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "4BEF467ED6BD1105"
+			rewards: [
+				{
+					count: 16
+					id: "44B845D8BA7FB34E"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:nephryx"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "2B341F21DDB7B503"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "372D293EE017C782"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nephryx"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aNephryx"
+			x: 3.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "1057FB71616CADBF"
+			rewards: [
+				{
+					count: 16
+					id: "76B0F1CB1F344211"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:ametrine"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "5A1FFB78665FDFA1"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: [Optional]"
+			tasks: [{
+				id: "13B9035BD0DAA340"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ametrine"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lAmetrine"
+			x: -7.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "6AE78F4A3D7A6E79"
+			rewards: [
+				{
+					count: 16
+					id: "7ACAF03D7AD724B0"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:grave"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "7838C8E23FA7078C"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: [Optional]"
+			tasks: [{
+				id: "622371A9312E495F"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:grave"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lGrave's"
+			x: -6.5d
+			y: -28.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "4D049D3802AEB3B4"
+			rewards: [
+				{
+					count: 16
+					id: "26B2AC409196E2DA"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:nickel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "38C74EE5D7EFE126"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: [Optional]"
+			tasks: [{
+				id: "1B7B8E3CB5B82AF2"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pendorite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lPendorite"
+			x: -3.5d
+			y: -28.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "61B47D4585CA6149"
+			rewards: [
+				{
+					count: 16
+					id: "4436290F1F49810B"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:emeraldite"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "646F4B55175CE49D"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: [Optional]"
+			tasks: [{
+				id: "06BF9433DF3A094C"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:emeraldite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lEmeraldite"
+			x: -3.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "1BFF68C519252683"
+			rewards: [
+				{
+					count: 16
+					id: "0B71FC3D29F79439"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:sculk"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "4ACD3DCA8A40AC8F"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "477BEC36E7FF582E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sculk"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9Sculk"
+			x: 4.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "30C6480C35A51F31"
+			rewards: [
+				{
+					count: 16
+					id: "74F4C4D85E2DB237"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:cinnabar"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "014E41A403DBCAAC"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "7970BF76A5E3CB14"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:cinnabar"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&cCinnabar"
+			x: -6.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "267395316063703B"
+			rewards: [
+				{
+					count: 16
+					id: "1D2388A68C9DE3A8"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:spirit"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "61CDA28ED540F867"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "7475AEA22B960A14"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:spirit"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&bSpirit"
+			x: -7.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "73A8972634F4FD45"
+			rewards: [
+				{
+					count: 16
+					id: "34F97FCD566F3E6C"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:arcane"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "19B0A560C7F4D136"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "254F055C61D71016"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&5Arcane"
+			x: -7.5d
+			y: -37.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "76500DF2AD68D437"
+			rewards: [
+				{
+					count: 16
+					id: "0F8AA66B02ACEFA2"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:ice_dragonsteel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1E232846D6C7A677"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "368EBFF2C45E27CF"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ice_dragonsteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&bIce Dragonsteel"
+			x: 4.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "74DA881B399B9300"
+			rewards: [
+				{
+					count: 16
+					id: "5D6FE991806FC8B9"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:alfsteel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "12DD34818B8ADC9D"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "4BBB1A09C4BF19EE"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:alfsteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Alfsteel"
+			x: 4.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "607004F0B09B3EAC"
+			rewards: [
+				{
+					count: 16
+					id: "35DDB20BF6520115"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:ostrum"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6FE89934DCA6B45D"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "2AAA6DDEFA784F5E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ostrum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lOstrum"
+			x: 1.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "78DC853828C92BA1"
+			rewards: [
+				{
+					count: 16
+					id: "31AAB1BD61FFC1BF"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:iesnium"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "68172A49A302762C"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "156AD7D45C93B236"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iesnium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&3Iesnium"
+			x: 0.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "2E9437652A0D93C0"
+			rewards: [
+				{
+					count: 16
+					id: "61C95F27E4F0D7AE"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:peridot"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "07C7820D62D77483"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "4AE4FD2A187AAA5C"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:peridot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&aPeridot"
+			x: -11.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "56A55B7C60E61490"
+			rewards: [
+				{
+					count: 16
+					id: "3F4C459A448098A8"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:desh"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "4142C02498AB9256"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "07B99151A522103E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:desh"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Desh"
+			x: 1.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "7B3BA63EF8CF2E55"
+			rewards: [
+				{
+					count: 16
+					id: "6C37EEBB46CD77EC"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:calorite"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "3035572BE9B79403"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "1A0DD6EAEF33AFC7"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:calorite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&cCalorite"
+			x: 3.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "0AD81E26CE192886"
+			rewards: [
+				{
+					count: 16
+					id: "78A71EF12DD10BCC"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:lightning_dragonsteel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "34D199215589B1C2"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "593676573E056391"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lightning_dragonsteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&5Lightning Dragonsteel"
+			x: 3.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "5338356D63504511"
+			rewards: [
+				{
+					count: 16
+					id: "24FCAE29A4A32CF0"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:fire_dragonsteel"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6BB2BCA2572EDC90"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "504FB068F288FE06"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fire_dragonsteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&cFire Dragonsteel"
+			x: -0.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "3F25FE92280E1AD6"
+			rewards: [
+				{
+					count: 16
+					id: "32B191468F6351FF"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:wasted_radioactive"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "47809C06A9E0D82D"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "6599277234818311"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:wasted_radioactive"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&2Wasted Radioactive"
+			x: 1.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["3EAC9F4839A0B988"]
+			id: "356A70D735ABC02A"
+			rewards: [
+				{
+					count: 16
+					id: "35F3B60EC7500061"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:plastic"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6DA238EFA6FF4349"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &c[5]"
+			tasks: [{
+				id: "72D10BE00D80901E"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:plastic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lPlastic"
+			x: 2.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "4AEC433A10E13AAB"
+			rewards: [
+				{
+					count: 16
+					id: "0C49C155D54BD01C"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:chocolate"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "71D4A0CC0F1E0DBF"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "468E86F2ED59C462"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:chocolate"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lChoco"
+			x: -6.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "207E4F596F7500EC"
+			rewards: [
+				{
+					count: 16
+					id: "19BAE8C5AF8EBF5F"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:tea"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "78F6F5578C8D6047"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "0B4EAC23532D1F0D"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tea"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lTea"
+			x: -9.5d
+			y: -37.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "0315D2F4FDACDEE9"
+			rewards: [
+				{
+					count: 16
+					id: "3CC246A0B370C782"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:energized_glowstone"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "5D55729126F9A5F5"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "068CA8E872AE2BE5"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:energized_glowstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&6Energized Glowstone"
+			x: -2.5d
+			y: -33.0d
+		}
+		{
+			dependencies: ["7832174211890E7D"]
+			id: "2C47A94632B22884"
+			rewards: [
+				{
+					count: 16
+					id: "038CDFB2008730AB"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:oily"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "7CAFBF659F847FB6"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &6[3]"
+			tasks: [{
+				id: "32EFAA4273659D0F"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:oily"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lOily"
+			x: -11.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "241C38142FD8698D"
+			rewards: [
+				{
+					count: 16
+					id: "6F1F294C025DF328"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:pink_slimy"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "1170C5AF654BCF64"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "0F7D3CDF4C7B6342"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pink_slimy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&dPink Slimy"
+			x: -1.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "5BEFFB5B7E407A6F"
+			rewards: [
+				{
+					count: 16
+					id: "0A4D52C0CD9B37C4"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:resonant_ender"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "0F5FD3C80B89CCF0"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "5687858F654605A1"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:resonant_ender"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&lResonant Ender"
+			x: -3.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["10D0624EC6B3E281"]
+			id: "2721C5CF7A78B305"
+			rewards: [
+				{
+					count: 16
+					id: "620881E703C98C03"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:destabilized_redstone"
+							}
+						}
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "7F7DE4F4B01A4523"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			subtitle: "&lTier: &b[4]"
+			tasks: [{
+				id: "149AE2D38801F72F"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:destabilized_redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&cDestabilized Redstone"
+			x: -0.5d
+			y: -37.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "21A03C6FFD86A150"
+			rewards: [
+				{
+					count: 16
+					id: "559EEE3D24E00ABF"
+					item: "productivebees:sugarbag_honeycomb"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "57FC615B0605F772"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			tasks: [{
+				id: "63318E2FCC3C55A6"
+				item: "productivebees:sugarbag_honeycomb"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "54587AA31110C61C"
+			rewards: [{
+				id: "379998F42EC99517"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "3FBF5A8399DAE353"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "3D8A8F8C8620699E"
+			rewards: [{
+				id: "013117556F7761EE"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "73BFADC48A8FBD6E"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "45C31F3194D6928D"
+			rewards: [
+				{
+					id: "16A5EF4727930C29"
+					item: "productivebees:upgrade_breeding"
+					type: "item"
+				}
+				{
+					id: "6B56E1F67D2DE95D"
+					item: "productivebees:upgrade_not_babee"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			tasks: [
+				{
+					id: "344C0797C02834DD"
+					item: "productivebees:upgrade_breeding"
+					type: "item"
+				}
+				{
+					id: "1096BEBC9FB3DE8A"
+					item: "productivebees:upgrade_not_babee"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "44E08FD628936F3C"
+			rewards: [{
+				id: "215CFF4C58765735"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "2167DCAB11F29524"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "5934EC5C56E55C83"
+			rewards: [{
+				id: "3C35FC3D4AAECE11"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "785E7938C93470C7"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -37.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "3377A6456B82C655"
+			rewards: [{
+				id: "5B9312891788E5C5"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "2CCC105C961AA8F3"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "5BF2C9262ECF500D"
+			rewards: [{
+				id: "6A2B150BB78F3D6F"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "197D4CF9A224A434"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -33.5d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "01BED97CC1B51F84"
+			rewards: [{
+				id: "1C936D79942AB67C"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "51D424A61716BE58"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["2D0C0C4CC7AA37EF"]
+			id: "709E7AD7299735E6"
+			rewards: [{
+				id: "4A181CF848097C62"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "614E8625430F9E7C"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -37.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "2D0C0C4CC7AA37EF"
+			rewards: [{
+				id: "3FE7E02F4038B659"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1908ED7DDEAEA1A6"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			description: ["The nest locator can help you find &eforeign nests&r."]
+			id: "28C5C6E4C9E96EBD"
+			rewards: [{
+				id: "7F4D8B4DEE2284F8"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "4BF09268809DA916"
+				item: {
+					Count: 1b
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"7C3B74FDF91EC44C"
+				"77B09C964C8DE130"
+				"7A59D2AC4824AF1F"
+				"01935A05AFE1BCC8"
+				"2D098D67F6C094D1"
+			]
+			id: "4579D102BC1FB1CB"
+			rewards: [{
+				id: "0694CC78C5CE4D92"
+				item: {
+					Count: 1b
+					id: "productivebees:honey_treat"
+					tag: {
+						productivebees_gene_stack: [
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "weather_tolerance"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "temper"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "productivity"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "endurance"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "behavior"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 2
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rhexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3B0C09152BBAA12A"
+				item: {
+					Count: 1b
+					id: "productivebees:honey_treat"
+					tag: {
+						productivebees_gene_stack: [
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "weather_tolerance"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "temper"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "productivity"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "endurance"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "behavior"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 2
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Maxed Genes Honey Treat"
+			x: -14.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "7C3B74FDF91EC44C"
+			rewards: [{
+				id: "77914A6AEC550C15"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "weather_tolerance"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 2
+					}
+				}
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "466495902F16762C"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "weather_tolerance"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Weather Tolerance"
+			x: -14.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "7A59D2AC4824AF1F"
+			rewards: [{
+				id: "43DD79E2CD397A9E"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "endurance"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 3
+					}
+				}
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "1A32DBF3DC799723"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "endurance"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Endurance"
+			x: -13.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "77B09C964C8DE130"
+			rewards: [{
+				id: "1D0811EB308B3CC9"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "behavior"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 2
+					}
+				}
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "70AB130BDF847874"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "behavior"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Behavior"
+			x: -13.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "01935A05AFE1BCC8"
+			rewards: [{
+				id: "725563972BA4DD6F"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "productivity"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 3
+					}
+				}
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "1129A843100615C1"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "productivity"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Productivity"
+			x: -15.0d
+			y: -33.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "2D098D67F6C094D1"
+			rewards: [{
+				id: "204347774C1D4C41"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "temper"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "30FA776C62A34EE8"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "temper"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gene: Temper"
+			x: -13.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			description: ["The Bee Nest Helmet makes bees &epassive&r against you and summons &eKamikaz Bees&r if you're attacked."]
+			id: "3E4FC2D91B359127"
+			rewards: [{
+				id: "1F91B496207C7469"
+				item: {
+					Count: 1b
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:kamikaz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "3FB4A1A7FD4E4EEE"
+				item: {
+					Count: 1b
+					id: "productivebees:bee_nest_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			description: ["The Treat on a stick let you ride &eBumble Bees&r."]
+			id: "12562A24D427838D"
+			rewards: [{
+				id: "0AB6B95D1E39B6A1"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "4BBE64A440255B4A"
+				item: {
+					Count: 1b
+					id: "productivebees:treat_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "1C800626D179A297"
+			rewards: [{
+				id: "0A407D897C985082"
+				item: "productivebees:jar_oak"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "28F1FF873362E6C8"
+				item: "productivebees:jar_oak"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			description: ["Feeding slab is used to &efeed the bees&r inside a hive equipped with a &esimulator upgrade&r."]
+			id: "02D89F1D74AC4450"
+			rewards: [{
+				id: "4FEEFEA48A8E33FE"
+				item: "productivebees:feeder"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "3526EE329F64D598"
+				item: "productivebees:feeder"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "64B847F83852B718"
+			rewards: [{
+				id: "1A09CA6F5071B55D"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "3E1F1119527D77BD"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "361B62E0BD85603F"
+			rewards: [{
+				id: "3B87E984012F15B9"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "63E3ADCD651D3758"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["361B62E0BD85603F"]
+			id: "15415C9DD2B89C33"
+			rewards: [{
+				id: "161D3E91C56F56B0"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "3BA69A95603B1E0B"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["15415C9DD2B89C33"]
+			id: "6C77531CFCF5A457"
+			rewards: [{
+				id: "21E74D425956057D"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "4F6D5EADBDFFE067"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			hide_text_until_complete: false
+			id: "0D6BFA783636A5A2"
+			rewards: [{
+				id: "6E7D092AF1741146"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "4B6B6B67A3EAFE45"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "06B11DCEEBC9716B"
+			rewards: [{
+				id: "1C35F5D07EC0DEFB"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "5F9D33E6645624AE"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "1D510561BB7D5499"
+			rewards: [{
+				id: "462F9C94F3144945"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "613E1154B1DA87AD"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "193C251BA8F71CB9"
+			rewards: [
+				{
+					id: "5301974746E19A88"
+					item: "productivebees:advanced_oak_beehive"
+					type: "item"
+				}
+				{
+					id: "5BAE9B025D7458CB"
+					item: "productivebees:expansion_box_oak"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5B13ACCEE45868B0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:advanced_beehives"
+						}
+					}
+					title: "Any #productivebees:advanced_beehives"
+					type: "item"
+				}
+				{
+					id: "71DD6A3BE234373B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:expansion_boxes"
+						}
+					}
+					title: "Any #productivebees:expansion_boxes"
+					type: "item"
+				}
+			]
+			title: "&lAdvanced Beehive"
+			x: -14.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "73602117A744A5A3"
+			rewards: [{
+				id: "1AF18CEE19903301"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "5C6EE41099A2CEA8"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "648D400F71A3D4A9"
+			rewards: [{
+				id: "663A01F783951CF6"
+				item: "productivebees:breeding_chamber"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "0F473F1B5736B336"
+				item: "productivebees:breeding_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -25.0d
+		}
+	]
+	subtitle: ["The sweetest source of endless materials"]
+	title: " &l&6♦ &rProductive Bees"
+}

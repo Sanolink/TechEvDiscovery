@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "I I",
+        "IGI",
+        "IMI"
+    ],
+    "key": {
+        "I": {
+            "tag": "forge:ingots/iron"
+        },
+        "M": {
+            "item": "mysticalagriculture:machine_frame"
+        },
+        "G": {
+            "item": "minecraft:grindstone"
+        }
+    },
+    "result": {
+        "item": "productivebees:centrifuge"
+    }
+}

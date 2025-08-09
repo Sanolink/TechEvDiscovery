@@ -1,0 +1,14 @@
+{
+    "name": "Destabilized Redstone",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:destabilized_redstone\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/destabilized_redstone_flower",
+      "essence": "mysticalagriculture:item/essence/destabilized_redstone_essence",
+      "seeds": "mysticalagriculture:item/seeds/destabilized_redstone_seeds"
+    }
+  }

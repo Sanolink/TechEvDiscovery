@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "ad_astra:desh_plate"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "I": {
+      "item": "ad_astra:desh_ingot"
+    }
+  },
+  "pattern": [
+    "#I#",
+    "#F#",
+    "#I#"
+  ],
+  "result": {
+    "item": "ad_astra:coal_generator"
+  }
+}

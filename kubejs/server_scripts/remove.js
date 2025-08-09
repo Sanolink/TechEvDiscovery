@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.10        (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -24,7 +24,18 @@ ServerEvents.recipes(event => {
     event.remove({ output: '#forge:gears', mod: 'alltheores'})
     event.remove({ output: '#forge:dusts', mod: 'alltheores', type: "crafting_shapeless"})
 
-    //Applied Energistics 
+    //Ad Astra
+    event.remove([{ output: 'ad_astra:hammer'}, { input: 'ad_astra:hammer'}])
+    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_blasting_mercury_iron_ore'})
+    event.remove({ id: 'ad_astra:recipes/iron_ingot_from_smelting_mercury_iron_ore'})
+    event.remove({ id: 'ad_astra:recipes/compressor'})
+    event.remove({ id: 'ad_astra:recipes/iron_rod'})
+
+    //Angel Ring
+    event.remove({ id: 'angelring:energetic_angel_ring'})
+    event.remove({ id: 'angelring:diamond_ring'})
+    
+    //Applied Energistics + Addons
     event.remove({ id: 'ae2:network/cells/view_cell'})
     event.remove({ id: 'ae2:network/cells/item_storage_cell_1k'})
     event.remove({ id: 'ae2:network/cells/item_storage_cell_4k'})
@@ -80,6 +91,7 @@ ServerEvents.recipes(event => {
 
     //Botany Pots
     event.remove({ output: '#botanypots:all_botany_pots'})
+    event.remove({ id: 'supplementaries:soap_clean_botanypots_terracotta_botany_pot'})
 
     //CoinsJE
     event.remove({ id: 'coinsje:blasting/copper_ingot_to_copper_coin' })
@@ -104,6 +116,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'constructionwand:diamond_wand', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'constructionwand:infinity_wand', type: 'minecraft:crafting_shaped' })
 
+    //Cooking For Blockheads
+    event.remove({ id: 'cookingforblockheads:sink'})
+
     //Create
     event.remove({ id: 'create:smoking/bread'})
     event.remove({ id: 'create:smelting/bread'})
@@ -112,12 +127,18 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc'})
     event.remove({ id: 'create:mixing/andesite_alloy'})
     event.remove({ id: 'create:mixing/andesite_alloy_from_zinc'})
+    event.remove({ id: 'create:pressing/desh_ingot'})
+    event.remove({ id: 'create:pressing/ostrum_ingot'})
+    event.remove({ id: 'create:pressing/calorite_ingot'})
+    event.remove({ id: 'createaddition:pressing/steel_ingot'})
     event.remove({ id: 'create:compat/byg/crushing/lignite_ore'})
+    event.remove({ id: 'create:crushing/mercury_iron_ore'})
     event.remove({ id: 'create:milling/compat/ae2/certus_quartz'})
     event.remove({ id: 'create:milling/compat/ae2/ender_pearl'})
     event.remove({ id: 'create:milling/compat/ae2/fluix_crystal'})
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coke_block'})
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coal_coke'})
+    event.remove({ id: 'create:mechanical_crafting/ascended_flight_ring'})
     event.remove({ id: 'create:milling/compat/ae2/sky_stone_block'})
     event.remove({ id: 'create_new_age:shapeless/energiser_t1'})
     event.remove({ input: 'minecraft:tuff', type: 'create:crushing' })
@@ -131,6 +152,12 @@ ServerEvents.recipes(event => {
 
     //Eidolon
     event.remove({ output: 'eidolon:pewter_blend', type: 'minecraft:crafting_shapeless' })
+
+    //Extended Crafting
+    event.remove({ id: 'extendedcrafting:redstone_ingot'})
+    event.remove({ id: 'extendedcrafting:ender_ingot'})
+    event.remove({ id: 'extendedcrafting:black_iron_ingot'})
+    event.remove({ id: 'extendedcrafting:luminessence'})
 
     //Farmer's Delight
     event.remove({ output: 'farmersdelight:iron_knife'})
@@ -170,6 +197,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:squeezer/graphite_dust'})
     event.remove({ id: 'immersiveengineering:refinery/acetaldehyde'})
     event.remove({ id: 'immersiveengineering:blueprint/graphite_electrode'})
+    event.remove({ id: 'immersiveengineering:crafting/paper_from_sawdust'})
     event.remove({ id: 'immersiveengineering:smelting/slag_glass'})
     event.remove({ id: 'immersiveengineering:sawmill/acacia_log'})
     event.remove({ id: 'immersiveengineering:sawmill/birch_log'})
@@ -200,6 +228,19 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersivepetroleum:hydrotreater/ethylene_plastic'})
     event.remove({ id: 'immersivepetroleum:arcfurnace/steel'})
 
+    //Industrial Foregoing
+    event.remove({ id: 'ad_astra_giselle_addon:compat/industrialforegoing/laser_drill_fluid/oil'})
+    
+    //Just Another Void Dimension
+    event.remove({ id: 'javd:portal_block'})
+    
+    //Mekanism 
+    event.remove({ id: 'mekaevolution:absolute_control_circuit'})
+    event.remove({ id: 'mekaevolution:supreme_control_circuit'})
+    event.remove({ id: 'mekaevolution:cosmic_control_circuit'})
+    event.remove({ id: 'mekanism:processing/bronze/ingot/from_infusing'})
+    event.remove({ id: 'mekanism:steel_casing'})
+
     //Minecraft
     event.remove({ output: 'minecraft:fishing_rod', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'minecraft:enchanted_golden_apple', type: 'minecraft:crafting_shaped' })
@@ -207,13 +248,76 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'minecraft:cookie' })
     event.remove({ id: 'minecraft:decorations/decorated_pot_simple' })
 
+    //Mystical Agriculture + Addons
+    event.remove({ id: 'mysticalagradditions:nether_prosperity_shard_smelted'})
+    event.remove({ id: 'mysticalagradditions:end_prosperity_shard_smelted'})
+    event.remove({ id: 'mysticalagradditions:end_inferium_smelted'})
+    event.remove({ id: 'mysticalagradditions:nether_inferium_smelted'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/rubber'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/mithril'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/graphite'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/tungsten'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/titanium'})
+    event.remove({ id: 'botanypots:mysticalagriculture/crop/chrome'})
+    event.remove({ id: 'mysticalagriculture:prudentium_essence_uncraft'})
+    event.remove({ id: 'mysticalagriculture:tertium_essence_uncraft'})
+    event.remove({ id: 'mysticalagriculture:imperium_essence_uncraft'})
+    event.remove({ id: 'mysticalagriculture:supremium_essence_uncraft'})
+    event.remove({ id: 'mysticalagradditions:insanium_essence_uncraft'})
+    event.remove({ id: 'mysticalagriculture:prudentium_block_combine'})
+    event.remove({ id: 'mysticalagriculture:tertium_block_combine'})
+    event.remove({ id: 'mysticalagriculture:imperium_block_combine'})
+    event.remove({ id: 'mysticalagriculture:supremium_block_combine'})
+    event.remove({ id: 'mysticalagradditions:insanium_block_combine'})
+    event.remove({ id: 'matc:prudentium_essence'})
+    event.remove({ id: 'matc:tertium_essence'})
+    event.remove({ id: 'matc:imperium_essence'})
+    event.remove({ id: 'matc:supremium_essence'})
+    event.remove({ id: 'matc:insanium_essence'})
+    event.remove({ id: 'mysticalagriculture:inferium_seeds'})
+    event.remove({ id: 'mysticalagriculture:souls/cod'})
+    event.remove({ id: 'mysticalagriculture:souls/basalz_rod'})
+    event.remove({ id: 'mysticalagriculture:souls/string'})
+    event.remove({ id: 'mysticalagriculture:souls/beef'})
+    event.remove({ id: 'mysticalagriculture:souls/creeper_head'})
+    event.remove({ id: 'mysticalagriculture:souls/leather'})
+    event.remove({ id: 'mysticalagriculture:souls/blitz_rod'})
+    event.remove({ id: 'mysticalagriculture:souls/blaze_rod'})
+    event.remove({ id: 'mysticalagriculture:souls/blizz_rod'})
+    event.remove({ id: 'mysticalagriculture:souls/scute'})
+    event.remove({ id: 'mysticalagriculture:souls/zombie_head'})
+    event.remove({ id: 'mysticalagriculture:souls/ender_pearl'})
+    event.remove({ id: 'mysticalagriculture:souls/coal'})
+    event.remove({ id: 'mysticalagriculture:souls/porkchop'})
+    event.remove({ id: 'mysticalagriculture:souls/arrow'})
+    event.remove({ id: 'mysticalagriculture:souls/egg'})
+    event.remove({ id: 'mysticalagriculture:souls/gunpowder'})
+    event.remove({ id: 'mysticalagriculture:souls/skeleton_skull'})
+    event.remove({ id: 'mysticalagriculture:souls/rabbit_hide'})
+    event.remove({ id: 'mysticalagriculture:souls/mutton'})
+    event.remove({ id: 'mysticalagriculture:souls/feather'})
+    event.remove({ id: 'mysticalagriculture:souls/pufferfish'})
+    event.remove({ id: 'mysticalagriculture:souls/bone'})
+    event.remove({ id: 'mysticalagriculture:souls/ink_sac'})
+    event.remove({ id: 'mysticalagriculture:souls/chicken'})
+    event.remove({ id: 'mysticalagriculture:souls/salmon'})
+    event.remove({ id: 'mysticalagriculture:souls/rabbit'})
+    event.remove({ id: 'mysticalagriculture:souls/slime_ball'})
+    event.remove({ id: 'mysticalagriculture:souls/rabbit_foot'})
+    event.remove({ id: 'mysticalagriculture:souls/wither_skeleton_skull'})
+    event.remove({ id: 'mysticalagriculture:souls/tropical_fish'})
+    event.remove({ id: 'mysticalagriculture:souls/rotten_flesh'})
+    event.remove({ id: 'mysticalagriculture:souls/wool'})
+    event.remove({ id: 'mysticalagriculture:souls/ghast_tear'})
+    event.remove({ id: 'mysticalagriculture:souls/spider_eye'})
+    
     //Naturalist
     event.remove({ id: 'naturalist:cooked_egg_from_campfire_cooking' })
     event.remove({ id: 'naturalist:cooked_egg' })
     event.remove({ id: 'naturalist:cooked_egg_from_smoking' })
 
     //Occultism
-    event.remove({ id: 'undergarden:catalyst'})
+    event.remove({ id: 'occultism:miner/ores/prosperity_ore'})
     
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})
@@ -230,6 +334,66 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'powah:crafting/cable_spirited_2'})
     event.remove({ id: 'powah:crafting/cable_nitro_2'})
     
+    //Productive Bees
+    event.remove({ id: 'productivebees:create/obsidian_dust_to_obsidian'})
+    event.remove({ id: 'productivebees:create/mixing/ingots/honeycomb_soulsteel'})
+    event.remove({ id: 'productivebees:create/mixing/pneumaticcraft/honeycomb_oily'})
+    event.remove({ id: 'productivebees:create/mixing/honeycomb_frosty'})
+    event.remove({ id: 'productivebees:create/mixing/shroom/honeycomb_red_shroom'})
+    event.remove({ id: 'productivebees:create/mixing/shroom/honeycomb_warped'})
+    event.remove({ id: 'productivebees:create/mixing/shroom/honeycomb_crimson'})
+    event.remove({ id: 'productivebees:create/mixing/shroom/honeycomb_brown_shroom'})
+    event.remove({ id: 'productivebees:centrifuge/shroom/honeycomb_warped'})
+    event.remove({ id: 'productivebees:centrifuge/shroom/honeycomb_brown_shroom'})
+    event.remove({ id: 'productivebees:centrifuge/shroom/honeycomb_red_shroom'})
+    event.remove({ id: 'productivebees:centrifuge/honeycomb_frosty'})
+    event.remove({ id: 'productivebees:centrifuge/shroom/honeycomb_crimson'})
+    event.remove({ id: 'productivebees:centrifuge/dusts/comb_blazing'})
+    event.remove({ id: 'productivebees:bottler/miners_tea'})
+    event.remove({ id: 'productivebees:spirit/spirit_bee'})
+    event.remove({ id: 'productivebees:cofh/shaped/redstone_bee_to_destabilized_redstone_bee'})
+    event.remove({ id: 'productivebees:cofh/machine/smelter/redstone_bee_to_destabilized_redstone_bee'})
+    event.remove({ id: 'productivebees:mysticalagriculture/insanium_bee'})
+    event.remove({ id: 'productivebees:botania/terrasteel_bee'})
+    event.remove({ id: 'productivebees:mythicbotany/terrasteel_bee'})
+    event.remove({ id: 'productivebees:pneumaticcraft/compressed_iron_bee'})
+    event.remove({ id: 'productivebees:mysticalagriculture/imperium_bee'})
+    event.remove({ id: 'productivebees:cofh/shaped/blaze_bee_to_basaltz_bee'})
+    event.remove({ id: 'productivebees:cofh/machine/smelter/blaze_bee_to_basaltz_bee'})
+    event.remove({ id: 'productivebees:mysticalagriculture/awakened_supremium_bee'})
+    event.remove({ id: 'productivebees:cofh/shaped/ender_bee_to_resonant_ender_bee'})
+    event.remove({ id: 'productivebees:cofh/machine/smelter/ender_bee_to_resonant_ender_bee'})
+    event.remove({ id: 'productivebees:cofh/shaped/blaze_bee_to_blizz_bee'})
+    event.remove({ id: 'productivebees:cofh/machine/chiller/blaze_bee_to_blizz_bee'})
+    event.remove({ id: 'productivebees:powah/energized_steel_bee'})
+    event.remove({ id: 'productivebees:botania/elementium_bee'})
+    event.remove({ id: 'productivebees:occultism/iesnium_bee'})
+    event.remove({ id: 'productivebees:botania/mana_bee'})
+    event.remove({ id: 'productivebees:botania/manasteel_bee'})
+    event.remove({ id: 'productivebees:mythicbotany/alfsteel_bee'})
+    event.remove({ id: 'productivebees:powah/nitro_crystal_bee'})
+    event.remove({ id: 'productivebees:mysticalagriculture/supremium_bee'})
+    event.remove({ id: 'productivebees:powah/niotic_crystal_bee'})
+    event.remove({ id: 'productivebees:mysticalagriculture/tertium_bee'})
+    event.remove({ id: 'productivebees:powah/blazing_crystal_bee'})
+    event.remove({ id: 'productivebees:cofh/shaped/blaze_bee_to_blitz_bee'})
+    event.remove({ id: 'productivebees:cofh/machine/smelter/blaze_bee_to_blitz_bee'})
+    event.remove({ id: 'productivebees:ars_nouveau/arcane_bee'})
+    event.remove({ id: 'productivebees:honey_treat_from_block'})
+    event.remove({ id: 'productivebees:honey_treat'})
+    event.remove({ id: 'productivebees:cofh/machine/chiller/honey_to_honey_block'})
+    event.remove({ id: 'productivebees:cofh/machine/bottler/honey_bottle'})
+    event.remove({ id: 'thermal:bottler_bucket'})
+    event.remove({ id: 'productivebees:honey_bucket_to_honey_block'})
+    event.remove({ id: 'productivebees:honey_bucket_from_block'})
+    event.remove({ id: 'productivebees:honey_bucket'})
+    event.remove({ id: 'productivebees:powered_centrifuge/thermal'})
+    event.remove({ id: 'minecraft:beehive'})
+    event.remove({ type: "productivebees:bee_spawning"})
+    event.remove({ type: "productivebees:bee_fishing"})
+    event.remove({ type: "productivebees:bee_breeding"})
+    event.remove({ type: "productivebees:bee_conversion"})
+
     //Psi 
     event.remove({ id: 'psi:gold_to_psimetal_assembly_upgrade'})
     event.remove({ id: 'psi:cad_assembly_psimetal'})
@@ -252,6 +416,10 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'storagenetwork:crafting_remote', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'storagenetwork:master', type: 'minecraft:crafting_shaped' })
 
+    //Tardis Refined 
+
+    event.remove({id: 'tardis_refined:terraformer'})
+    
     //Thermal Series 
     event.remove({ input: 'thermal:earth_charge', output: '#forge:dusts', not: {output: '#forge:dusts/prismarine'}})
     event.remove({ id: 'thermal:earth_charge/ender_pearl_dust_from_ender_pearl'})
@@ -291,6 +459,12 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_electrum_dust'})
     event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
     
+    //Torchmaster
+    event.remove({ id: 'torchmaster:megatorch'})
+    
+    //Undergarden
+    event.remove({ id: 'undergarden:catalyst'})
+
     //Time In A Bottle
     event.remove({ id: 'tiab:time_in_a_bottle'})
 

@@ -1,0 +1,14 @@
+{
+    "name": "Lightning Dragonsteel",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:lightning_dragonsteel\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/dragonsteel_lightning_flower",
+      "essence": "mysticalagriculture:item/essence/dragonsteel_lightning_essence",
+      "seeds": "mysticalagriculture:item/seeds/dragonsteel_lightning_seeds"
+    }
+  }

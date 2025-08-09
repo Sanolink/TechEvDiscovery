@@ -1,0 +1,14 @@
+{
+    "name": "Calorite",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:calorite\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/calorite_flower",
+      "essence": "mysticalagriculture:item/essence/calorite_essence",
+      "seeds": "mysticalagriculture:item/seeds/calorite_seeds"
+    }
+  }

@@ -321,7 +321,13 @@ JEIEvents.hideItems(event => {
         'productivebees:spawn_egg_sweat_bee',
         'productivebees:spawn_egg_blue_banded_bee',
         'productivebees:spawn_egg_nomad_bee',
-        'productivebees:honey_bucket'
+        'productivebees:honey_bucket',
+        'mysticalagriculture:infusion_crystal',
+        'angelring:energetic_angel_ring',
+        'sophisticatedstorage:pump_upgrade',
+        'sophisticatedstorage:advanced_pump_upgrade',
+        'sophisticatedstorage:xp_pump_upgrade',
+        'balancedflight:ascended_flight_ring'
     ])
 })
 

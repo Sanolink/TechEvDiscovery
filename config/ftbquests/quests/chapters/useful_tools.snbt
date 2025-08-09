@@ -82,8 +82,8 @@
 				}
 			]
 			title: "&f&lEnder Storage"
-			x: 0.0d
-			y: 5.0d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["734126CF0607FDF9"]
@@ -553,6 +553,25 @@
 			}]
 			x: -3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["734126CF0607FDF9"]
+			id: "55A1FD5EC3DD4E3C"
+			rewards: [{
+				id: "6F30F3C9EE05B1B4"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "&lPrevents mobs from spawning."
+			tasks: [{
+				id: "04943CABA0F2306B"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Powerful Gadgets, Endless Possibilities"]

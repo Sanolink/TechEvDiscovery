@@ -233,6 +233,12 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "53F4A27E5674C446"
+			rewards: [{
+				id: "60CA2762FACD1B54"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "751C63D555019DAA"
 				item: {
@@ -253,6 +259,12 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "652C6246E31BA6A4"
+			rewards: [{
+				id: "5C482552FF4780CA"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "13C102EDD2B2F29B"
 				item: {
@@ -273,6 +285,12 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "45D303090473CEAA"
+			rewards: [{
+				id: "7540F8CC5D0C6A0B"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DA4142ABC72C5FE"
 				item: {
@@ -296,6 +314,12 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1893958B84FE9CA6"
+			rewards: [{
+				id: "43F3F1ED9A3EFCAE"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "49CC73C31ECEFC62"
 				item: {
@@ -314,45 +338,76 @@
 		{
 			dependencies: ["18C40C1A8D19173F"]
 			id: "771129A6BDE866B5"
+			rewards: [{
+				count: 4
+				id: "63BF2AE3B92574F5"
+				item: "ad_astra:desh_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C53BBBD69EEC9A3"
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
+			title: "&l&6Desh"
 			x: 1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4AA258BECF79E59E"]
 			id: "2BE006CA5C18A60E"
+			rewards: [{
+				count: 4
+				id: "02E6B5FD319E0D18"
+				item: "ad_astra:ostrum_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
 				id: "053E4B6CAFC3D0BF"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
+			title: "&l&5Ostrum"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["53A2C940E775FCC1"]
 			id: "7839C56763766E23"
+			rewards: [{
+				count: 4
+				id: "0AF72FEBDBB76E81"
+				item: "ad_astra:calorite_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A9102437FEF39D0"
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
+			title: "&l&4Calorite"
 			x: 7.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["6F9E580941C61B9B"]
+			hide_dependent_lines: true
 			id: "60DFB9A6A02619E3"
+			rewards: [{
+				id: "082F8F2571964C36"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "75369B3841CF451A"
-				item: "ad_astra:earth_globe"
-				type: "item"
+				dimension: "minecraft:overworld"
+				icon: "ad_astra:earth_globe"
+				id: "3CCA8F30EE20E773"
+				type: "dimension"
 			}]
 			title: "&lPer Aspera Ad Astra"
 			x: -2.5d
@@ -361,12 +416,18 @@
 		{
 			dependencies: ["53F4A27E5674C446"]
 			id: "18C40C1A8D19173F"
+			rewards: [{
+				id: "3CF47D0D287C9B76"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "71BD3E214AD09737"
-				item: "ad_astra:moon_globe"
-				type: "item"
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "79F5DA2E730F76AF"
+				type: "dimension"
 			}]
 			title: "&l&7One Small Step"
 			x: 0.5d
@@ -375,12 +436,18 @@
 		{
 			dependencies: ["652C6246E31BA6A4"]
 			id: "4AA258BECF79E59E"
+			rewards: [{
+				id: "12A14C92020B77A1"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "75F85C512C2B8F86"
-				item: "ad_astra:mars_globe"
-				type: "item"
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "0E80C38536167704"
+				type: "dimension"
 			}]
 			title: "&l&6Far From Home"
 			x: 3.5d
@@ -389,12 +456,18 @@
 		{
 			dependencies: ["45D303090473CEAA"]
 			id: "53A2C940E775FCC1"
+			rewards: [{
+				id: "5B883AA64E3EC8B9"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "367A12D1133DE3B3"
-				item: "ad_astra:venus_globe"
-				type: "item"
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "49AC2ADDD3A3554F"
+				type: "dimension"
 			}]
 			title: "&l&4No Way Home"
 			x: 6.5d
@@ -408,20 +481,33 @@
 				"1BCE8791A63FC03E"
 			]
 			id: "54D89EA890C7FE6C"
+			rewards: [{
+				id: "33E1F2F16F4342CA"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "0A140F3B4D823045"
-				item: "ad_astra:glacio_globe"
-				type: "item"
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "1F36C41A11EE1136"
+				type: "dimension"
 			}]
 			title: "&l&5Interstellar"
 			x: 9.5d
 			y: -5.0d
 		}
 		{
+			dependencies: ["60DFB9A6A02619E3"]
 			id: "68FC9326E0B6FBDF"
-			shape: "square"
+			rewards: [{
+				id: "33D2680DB4AA3E91"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				id: "48270CA70C3D442E"
@@ -434,31 +520,51 @@
 				}
 				type: "item"
 			}]
+			title: "&lRover"
 			x: 10.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["60DFB9A6A02619E3"]
 			id: "489B5D460575FAC6"
+			rewards: [{
+				id: "54CAE21149736EE0"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
 			tasks: [{
 				id: "404C66445DF31CB9"
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["60DFB9A6A02619E3"]
 			id: "46C799470884AF33"
+			rewards: [{
+				id: "65B696A7823DE70A"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4896361557FE39CC"
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["60DFB9A6A02619E3"]
 			id: "24D50446AC1EB1BD"
+			rewards: [{
+				id: "44648410D78A4EAD"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -466,78 +572,120 @@
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
+			title: "&lNasa Workbench"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["60DFB9A6A02619E3"]
 			id: "573A302DFF939617"
-			tasks: [{
-				id: "5A031E25669D6BDF"
+			rewards: [{
+				id: "107B4488A346277E"
 				item: "ad_astra_giselle_addon:gravity_normalizer"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			id: "3788E95A811110DB"
 			tasks: [{
-				id: "04F7197687F4DA2C"
-				item: "ad_astra_giselle_addon:fuel_loader"
+				id: "5A031E25669D6BDF"
+				item: "ad_astra_giselle_addon:gravity_normalizer"
 				type: "item"
 			}]
 			x: 2.5d
 			y: 0.0d
 		}
 		{
-			id: "5571EB0F63195E44"
-			tasks: [{
-				id: "6B8A27A77925EEC5"
-				item: "ad_astra_giselle_addon:rocket_sensor"
+			dependencies: ["60DFB9A6A02619E3"]
+			id: "3788E95A811110DB"
+			rewards: [{
+				id: "7D88A621217B5A51"
+				item: "ad_astra_giselle_addon:fuel_loader"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["24D50446AC1EB1BD"]
-			id: "53EDAD3F4C96550B"
 			tasks: [{
-				id: "26CF45B83477ACA5"
-				item: "ad_astra_giselle_addon:automation_nasa_workbench"
+				id: "04F7197687F4DA2C"
+				item: "ad_astra_giselle_addon:fuel_loader"
 				type: "item"
 			}]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["60DFB9A6A02619E3"]
+			id: "5571EB0F63195E44"
+			rewards: [{
+				id: "16BB01BC9EF899ED"
+				item: "ad_astra_giselle_addon:rocket_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8A27A77925EEC5"
+				item: "ad_astra_giselle_addon:rocket_sensor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24D50446AC1EB1BD"]
+			id: "53EDAD3F4C96550B"
+			rewards: [{
+				id: "22704471D329BEC7"
+				item: "ad_astra_giselle_addon:automation_nasa_workbench"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26CF45B83477ACA5"
+				item: "ad_astra_giselle_addon:automation_nasa_workbench"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60DFB9A6A02619E3"]
 			id: "008E98DF0C747E99"
+			rewards: [{
+				id: "536F0413094AF6C1"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "74EB6A1A075C60C9"
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["60DFB9A6A02619E3"]
 			id: "784E1ABAFD6789DE"
+			rewards: [{
+				id: "3C66D42D1FB63274"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
 			tasks: [{
 				id: "27820EE5B0C3F4BC"
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19410DF7CB138BC2"]
 			id: "65531A748E8FBA13"
+			rewards: [{
+				id: "22AA74E47A634871"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
 			tasks: [{
 				id: "718A5FCB53BC357C"
 				item: "ad_astra:compressor"
 				type: "item"
 			}]
+			title: "&l&2Cosmic Compressor"
 			x: 8.5d
 			y: -3.0d
 		}
@@ -547,23 +695,37 @@
 				"6F9E580941C61B9B"
 			]
 			id: "19410DF7CB138BC2"
+			rewards: [{
+				count: 4
+				id: "2D5752817925BD69"
+				item: "ad_astra:nephryx_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
 				id: "34FA7DEC6DABA51A"
 				item: "ad_astra:nephryx_ingot"
 				type: "item"
 			}]
+			title: "&l&2Nephryx"
 			x: 7.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["45D303090473CEAA"]
 			id: "30D0FC02EB3F160D"
+			rewards: [{
+				id: "15B847DD1EC09EFB"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "08E67A3581B00F88"
-				item: "ad_astra:mercury_globe"
-				type: "item"
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "6A2B162413242DCA"
+				type: "dimension"
 			}]
 			title: "&l&4Solar Crucible"
 			x: 6.5d
@@ -572,15 +734,89 @@
 		{
 			dependencies: ["54D89EA890C7FE6C"]
 			id: "52AE0927E34A22CF"
+			rewards: [{
+				count: 4
+				id: "02D8703E4645BBED"
+				item: "mysticalagriculture:prosperity_shard"
+				random_bonus: 4
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "1D4CE0C7838CFFB9"
 				item: "mysticalagriculture:prosperity_shard"
 				type: "item"
 			}]
+			title: "&l&bProsperity"
 			x: 10.5d
 			y: -6.5d
 		}
+		{
+			dependencies: ["60DFB9A6A02619E3"]
+			id: "30FC2A8D518E1451"
+			rewards: [{
+				id: "21BE8A75367917D1"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD786934A198CF5"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60DFB9A6A02619E3"]
+			id: "39A4B552B2585F9F"
+			rewards: [{
+				id: "35910093852AE3B4"
+				item: "ad_astra:solar_panel"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "59AA65503E2CA982"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60DFB9A6A02619E3"]
+			id: "300BAE1EF40C1A89"
+			rewards: [{
+				id: "1616A0F3759CD225"
+				item: "ad_astra:energizer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "121B04CD258E1F0D"
+				item: "ad_astra:energizer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60DFB9A6A02619E3"]
+			id: "3097AD6FBAD793E7"
+			rewards: [{
+				id: "72CBA0B8E29EE5FA"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "454748B316AAD2E4"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
 	]
+	subtitle: ["Reach for the stars and beyond"]
 	title: " &l&6♦ &rAd Astra"
 }

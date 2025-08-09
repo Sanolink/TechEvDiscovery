@@ -18,34 +18,41 @@
 		{
 			id: "42D3DFAFE3C2BD6E"
 			linked_quest: "54D89EA890C7FE6C"
-			x: -1.0d
-			y: 4.0d
+			x: -0.75d
+			y: 3.75d
 		}
 		{
 			id: "69ACE080CDC9E28C"
 			linked_quest: "52AE0927E34A22CF"
-			x: 0.0d
-			y: 4.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			id: "65B78F7F06EC9952"
 			linked_quest: "19410DF7CB138BC2"
 			x: 0.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			id: "23EEA31ED17BCD05"
 			linked_quest: "1BCE8791A63FC03E"
-			x: -0.5d
-			y: 3.0d
+			x: 0.25d
+			y: 3.75d
+		}
+		{
+			id: "1DB8D9ECE075DAEB"
+			linked_quest: "0F86755CE3BE2113"
+			shape: "octagon"
+			size: 1.5d
+			x: 1.5d
+			y: 6.0d
 		}
 	]
 	quests: [
 		{
 			dependencies: [
 				"6F64D9A367C073CD"
-				"1A187165637C4238"
-				"3529A0DB7D4269CD"
+				"0F86755CE3BE2113"
 			]
 			icon: "techev_additions:techevium"
 			id: "4E7356179682035C"
@@ -73,7 +80,7 @@
 			}]
 			title: "&lAd Astra"
 			x: -1.0d
-			y: 1.75d
+			y: 2.0d
 		}
 		{
 			dependencies: ["19410DF7CB138BC2"]
@@ -86,11 +93,11 @@
 				type: "checkmark"
 			}]
 			title: "&lMekanism"
-			x: 1.0d
-			y: 3.5d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["52AE0927E34A22CF"]
+			dependencies: ["1A187165637C4238"]
 			icon: "mysticalagriculture:inferium_essence"
 			id: "3529A0DB7D4269CD"
 			shape: "gear"
@@ -100,7 +107,7 @@
 				type: "checkmark"
 			}]
 			title: "&lMystical Agriculture"
-			x: -1.5d
+			x: 0.0d
 			y: 5.25d
 		}
 		{
@@ -114,35 +121,22 @@
 				type: "checkmark"
 			}]
 			title: "&lProductive Bees"
-			x: 1.5d
-			y: 5.25d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5D3103914AC6D89E"]
 			icon: "angelring:angel_ring"
 			id: "30269A7AC0A8AE0B"
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "7BAB5458D55B06B9"
 				type: "checkmark"
 			}]
 			title: "&lQuantum Utilities"
 			x: 1.5d
-			y: 2.25d
-		}
-		{
-			dependencies: ["30269A7AC0A8AE0B"]
-			id: "453B253CE24E2C72"
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				id: "77BC25694077D7BF"
-				item: "techev_additions:chromatic"
-				type: "item"
-			}]
-			title: "&b&lChromatic"
-			x: 1.5d
-			y: 0.75d
+			y: 1.5d
 		}
 	]
 	subtitle: ["&lCosmic Supremacy"]

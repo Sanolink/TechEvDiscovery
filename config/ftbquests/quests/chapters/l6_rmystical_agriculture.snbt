@@ -108,6 +108,13 @@
 	quests: [
 		{
 			dependencies: ["3529A0DB7D4269CD"]
+			description: [
+				"In this pack, &eMystical Agriculture&r has been completely reworked to incorporate a progression system linked to &eProductive Bees&r."
+				""
+				"You'll need first to get combs from &eProductive Bees&r to craft the corresponding seed."
+				""
+				"The &ecombination&r of all seeds essences from a tier will allow you to move on to the &enext bee tier&r."
+			]
 			id: "2F78F2577A0E3D55"
 			rewards: [{
 				id: "337B1C73290F39D8"
@@ -135,13 +142,22 @@
 		{
 			dependencies: ["7C39130F147E2134"]
 			id: "6508B1690933CD15"
-			rewards: [{
-				count: 4
-				id: "5A130D55143BA33C"
-				item: "mysticalagriculture:tertium_essence"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "5A130D55143BA33C"
+					item: "mysticalagriculture:tertium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "35F40E971BC7FB7E"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			subtitle: "&lTier: &6[3]"
@@ -157,13 +173,22 @@
 		{
 			dependencies: ["6508B1690933CD15"]
 			id: "02517C7458288B0C"
-			rewards: [{
-				count: 4
-				id: "1FAE263E6A0C2AF9"
-				item: "mysticalagriculture:imperium_essence"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "1FAE263E6A0C2AF9"
+					item: "mysticalagriculture:imperium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "62708603ED7C10E1"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			subtitle: "&lTier: &b[4]"
@@ -179,13 +204,22 @@
 		{
 			dependencies: ["02517C7458288B0C"]
 			id: "3730968CF8D42E5B"
-			rewards: [{
-				count: 4
-				id: "7621A6723A01FB41"
-				item: "mysticalagriculture:supremium_essence"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "7621A6723A01FB41"
+					item: "mysticalagriculture:supremium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2F217987A6217327"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			subtitle: "&lTier: &c[5]"
@@ -201,13 +235,22 @@
 		{
 			dependencies: ["3730968CF8D42E5B"]
 			id: "1BEBDF2C609583F6"
-			rewards: [{
-				count: 4
-				id: "39A4605CA0A95478"
-				item: "mysticalagradditions:insanium_essence"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "39A4605CA0A95478"
+					item: "mysticalagradditions:insanium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1F62FABF8A4D81C2"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			subtitle: "&lTier: &5[6]"
@@ -3385,6 +3428,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "&lTier: &e[1]"
 			tasks: [
 				{
 					id: "1C5C8AC1E1A61EAC"
@@ -3431,11 +3475,13 @@
 					type: "item"
 				}
 			]
+			title: "&l&aInferium Stuff"
 			x: 13.5d
 			y: -14.25d
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
+			description: ["&eWatering Can&r can grow up nearby crops faster."]
 			hide_dependency_lines: true
 			id: "59C4310D3BB81C5E"
 			rewards: [{
@@ -3446,6 +3492,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Area: &e3x3"
 			tasks: [{
 				id: "60A065CEE418F43A"
 				item: {
@@ -3458,6 +3505,7 @@
 				}
 				type: "item"
 			}]
+			title: "&l&aInferium Watering Can"
 			x: 12.5d
 			y: -14.25d
 		}
@@ -3472,6 +3520,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "&lTier: &a[2]"
 			tasks: [
 				{
 					id: "177B9941FA912379"
@@ -3518,6 +3567,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&2Prudentium Stuff"
 			x: 13.5d
 			y: -13.25d
 		}
@@ -3532,6 +3582,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Area: &a5x5"
 			tasks: [{
 				id: "1DF925455A626850"
 				item: {
@@ -3544,6 +3595,7 @@
 				}
 				type: "item"
 			}]
+			title: "&l&2Prudentium Watering Can"
 			x: 12.5d
 			y: -13.25d
 		}
@@ -3558,6 +3610,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "&lTier: &6[3]"
 			tasks: [
 				{
 					id: "04DC7F1B15C270E1"
@@ -3604,6 +3657,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&6Tertium Stuff"
 			x: 13.5d
 			y: -12.25d
 		}
@@ -3618,6 +3672,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Area: &67x7"
 			tasks: [{
 				id: "4B1BBA82628187BF"
 				item: {
@@ -3630,6 +3685,7 @@
 				}
 				type: "item"
 			}]
+			title: "&l&6Tertium Watering Can"
 			x: 12.5d
 			y: -12.25d
 		}
@@ -3644,6 +3700,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "&lTier: &b[4]"
 			tasks: [
 				{
 					id: "6D675720E307A7D5"
@@ -3690,6 +3747,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&9Imperium Stuff"
 			x: 13.5d
 			y: -11.25d
 		}
@@ -3704,6 +3762,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Area: &b9x9"
 			tasks: [{
 				id: "432F13CA60850011"
 				item: {
@@ -3716,6 +3775,7 @@
 				}
 				type: "item"
 			}]
+			title: "&l&9Imperium Watering Can"
 			x: 12.5d
 			y: -11.25d
 		}
@@ -3730,6 +3790,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "&lTier: &c[5]"
 			tasks: [
 				{
 					id: "2FFB3852DE3FD427"
@@ -3776,6 +3837,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&4Supremium Stuff"
 			x: 13.5d
 			y: -10.25d
 		}
@@ -3790,6 +3852,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Area: &c11x11"
 			tasks: [{
 				id: "391571744EF8F5E7"
 				item: {
@@ -3802,6 +3865,7 @@
 				}
 				type: "item"
 			}]
+			title: "&l&4Supremium Watering Can"
 			x: 12.5d
 			y: -10.25d
 		}
@@ -3816,6 +3880,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Area: &515x15"
 			tasks: [{
 				id: "162919F7D0772D4B"
 				item: {
@@ -3828,6 +3893,7 @@
 				}
 				type: "item"
 			}]
+			title: "&l&5Insanium Watering Can"
 			x: 12.5d
 			y: -8.25d
 		}
@@ -3842,6 +3908,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "&lTier: &5[6]"
 			tasks: [
 				{
 					id: "6BEB4819506B3F7F"
@@ -3888,6 +3955,7 @@
 					type: "item"
 				}
 			]
+			title: "&l&5Insanium Stuff"
 			x: 13.5d
 			y: -8.25d
 		}
@@ -3902,6 +3970,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Area: &c13x13"
 			tasks: [{
 				id: "2599E829A0A1E0ED"
 				item: {
@@ -3914,6 +3983,7 @@
 				}
 				type: "item"
 			}]
+			title: "&l&4Awakened Supremium Watering Can"
 			x: 12.5d
 			y: -9.25d
 		}
@@ -3928,6 +3998,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "&lTier: &c[Awakened]"
 			tasks: [
 				{
 					id: "29B737ABA23B1E58"
@@ -3974,19 +4045,29 @@
 					type: "item"
 				}
 			]
+			title: "&l&4Awakened Supremium Stuff"
 			x: 13.5d
 			y: -9.25d
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
 			id: "7C39130F147E2134"
-			rewards: [{
-				count: 4
-				id: "11FB16150874FA0B"
-				item: "mysticalagriculture:prudentium_essence"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "11FB16150874FA0B"
+					item: "mysticalagriculture:prudentium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "280731DD117D12AE"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			subtitle: "&lTier: &a[2]"
@@ -4001,11 +4082,14 @@
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
+			description: [
+				"The &eInfusion Altar&r is used to craft &eevery&r Mystical Agriculture seed."
+				"{image:techev:textures/misc/quests/mysticalagriculture/infusion_altar.png width:84 height:76 align:1 fit:true}"
+			]
 			id: "4A469846E0B8A90B"
 			rewards: [{
-				id: "646171DBACF4F116"
-				item: "mysticalagriculture:infusion_pedestal"
-				random_bonus: 3
+				id: "2F158BCE0CB690E7"
+				item: "minecraft:stone_button"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -4017,16 +4101,23 @@
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "1A1EA277332CA805"
 					item: "mysticalagriculture:infusion_pedestal"
 					type: "item"
 				}
 			]
+			title: "&lInfusion Altar"
 			x: -8.5d
 			y: -18.5d
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
+			description: [
+				"The &eMaster Infusion Crystal&r is the &6Final&r Infusion Crystal."
+				""
+				"&eInfusion crystals&r can transform an essence to the next tier easily, but &ca bit of essence is lost in the process."
+			]
 			id: "09B6851B276E3DE2"
 			rewards: [{
 				count: 4
@@ -4042,16 +4133,20 @@
 				item: "mysticalagriculture:master_infusion_crystal"
 				type: "item"
 			}]
+			title: "&lMaster Infusion Crystal"
 			x: -7.0d
 			y: -19.0d
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
+			description: [
+				"The &eAwakening Altar&r is used to awaken &4&lSupremium&r made tools."
+				"{image:techev:textures/misc/quests/mysticalagriculture/awakening_altar.png width:84 height:73 align:1 fit:true}"
+			]
 			id: "46B232F636B0C098"
 			rewards: [{
-				id: "30B7CE0F9B21D89C"
-				item: "mysticalagriculture:awakening_pedestal"
-				random_bonus: 3
+				id: "37BF9F285B74476D"
+				item: "minecraft:stone_button"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -4063,16 +4158,25 @@
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "68A1D1D9ACACADBF"
 					item: "mysticalagriculture:awakening_pedestal"
 					type: "item"
 				}
+				{
+					count: 4L
+					id: "60ABF2D2199E550C"
+					item: "mysticalagriculture:essence_vessel"
+					type: "item"
+				}
 			]
+			title: "&lAwakening Altar"
 			x: -5.5d
 			y: -18.5d
 		}
 		{
 			dependencies: ["2F78F2577A0E3D55"]
+			description: ["The &eTinkering Table&r is used to apply &eAugments&r to Mystical Tools and Stuff"]
 			hide_dependency_lines: true
 			id: "44F1561B95D09870"
 			rewards: [{
@@ -4089,6 +4193,7 @@
 				item: "mysticalagriculture:tinkering_table"
 				type: "item"
 			}]
+			title: "&lTinkering Table"
 			x: 13.0d
 			y: -15.5d
 		}
@@ -4110,6 +4215,7 @@
 				item: "mysticalagriculture:soulium_seed_base"
 				type: "item"
 			}]
+			title: "&lSoulium Seed Base"
 			x: 11.0d
 			y: -11.25d
 		}
@@ -4132,6 +4238,7 @@
 				item: "mysticalagriculture:prosperity_seed_base"
 				type: "item"
 			}]
+			title: "&lProsperity Seed Base"
 			x: -4.5d
 			y: -11.25d
 		}
@@ -4242,6 +4349,19 @@
 			]
 			hide_dependency_lines: true
 			id: "3DC73E5443307ED5"
+			rewards: [
+				{
+					id: "69FD3F8D55E15631"
+					item: "mysticalagriculture:ultimate_essence"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E54931827760DAD"
+					item: "coinsje:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.5d
 			subtitle: "&lTier: &f[&1U&3l&2t&ai&em&6a&4t&5e&f]"
@@ -4995,5 +5115,6 @@
 			y: -8.0d
 		}
 	]
+	subtitle: ["Grow every ore you’ll ever need"]
 	title: " &l&6♦ &rMystical Agriculture"
 }

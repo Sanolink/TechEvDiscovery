@@ -420,6 +420,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0F8C4C01C5E75A8B"]
 			hide_dependent_lines: true
 			icon: "reliquary:fortune_coin"
 			id: "4628EDDBF7E3E2BE"
@@ -891,7 +892,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4628EDDBF7E3E2BE"]
+			dependencies: [
+				"4628EDDBF7E3E2BE"
+				"0F8C4C01C5E75A8B"
+			]
 			description: [
 				"This page is still in &nBETA&r."
 				""

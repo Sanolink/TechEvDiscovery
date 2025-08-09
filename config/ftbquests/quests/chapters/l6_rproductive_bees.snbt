@@ -116,17 +116,26 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "0EF3BDFA5090C605"
-			rewards: [{
-				id: "23155069FD613C5E"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "mysticalagriculture:guide"
+			rewards: [
+				{
+					id: "0385ECD7AAD4ECA0"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "341980757C5D54F9"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			size: 2.0d
 			subtitle: "&lTier: &e[Elemental]"
@@ -151,21 +160,30 @@
 			dependencies: ["0EF3BDFA5090C605"]
 			hide_dependent_lines: true
 			id: "52983B2FD444977B"
-			rewards: [{
-				count: 8
-				id: "11BC96A410DD72DF"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:prudentium"
+			rewards: [
+				{
+					count: 8
+					id: "11BC96A410DD72DF"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:prudentium"
+							}
 						}
 					}
+					random_bonus: 8
+					type: "item"
 				}
-				random_bonus: 8
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "47D82D15BA7BBC32"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			size: 2.0d
 			subtitle: "&lTier: &a[2]"
@@ -190,21 +208,30 @@
 			dependencies: ["52983B2FD444977B"]
 			hide_dependent_lines: true
 			id: "7832174211890E7D"
-			rewards: [{
-				count: 8
-				id: "53D25EC2AB220D8F"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:tertium"
+			rewards: [
+				{
+					count: 8
+					id: "53D25EC2AB220D8F"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:tertium"
+							}
 						}
 					}
+					random_bonus: 8
+					type: "item"
 				}
-				random_bonus: 8
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "1F2013961C97FCC3"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			size: 2.0d
 			subtitle: "&lTier: &6[3]"
@@ -230,21 +257,30 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "10D0624EC6B3E281"
-			rewards: [{
-				count: 8
-				id: "6273F5404301F09F"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:imperium"
+			rewards: [
+				{
+					count: 8
+					id: "6273F5404301F09F"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:imperium"
+							}
 						}
 					}
+					random_bonus: 8
+					type: "item"
 				}
-				random_bonus: 8
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "4C744751F702932A"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			size: 2.0d
 			subtitle: "&lTier: &b[4]"
@@ -270,21 +306,30 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "3EAC9F4839A0B988"
-			rewards: [{
-				count: 8
-				id: "1B6C4627086E5B31"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:supremium"
+			rewards: [
+				{
+					count: 8
+					id: "1B6C4627086E5B31"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:supremium"
+							}
 						}
 					}
+					random_bonus: 8
+					type: "item"
 				}
-				random_bonus: 8
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "3AB3823E34DCED8E"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			size: 2.0d
 			subtitle: "&lTier: &c[5]"
@@ -310,21 +355,30 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "2821AC6F81CC2814"
-			rewards: [{
-				count: 8
-				id: "4D2D6C31B20927A9"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:insanium"
+			rewards: [
+				{
+					count: 8
+					id: "4D2D6C31B20927A9"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:insanium"
+							}
 						}
 					}
+					random_bonus: 8
+					type: "item"
 				}
-				random_bonus: 8
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "5E077D8DDD448A43"
+					item: "coinsje:iron_coin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			size: 2.0d
 			subtitle: "&lTier: &5[6]"
@@ -965,6 +1019,13 @@
 		}
 		{
 			dependencies: ["1A187165637C4238"]
+			description: [
+				"In this pack, &eProductive Bees&r has been completely reworked to incorporate a progression system linked to &eMystical Agriculture&r."
+				""
+				"&eCombs&r are used to craft the corresponding &eMystical Agriculture&r seed."
+				""
+				"The &ecombination&r of all seeds essences from a tier will allow you to move on to the &enext bee tier&r. "
+			]
 			hide_dependent_lines: true
 			id: "465AC1A06741EE64"
 			rewards: [{
@@ -1503,21 +1564,28 @@
 			dependencies: ["465AC1A06741EE64"]
 			hide_dependent_lines: true
 			id: "563D1D95955D05BE"
-			rewards: [{
-				count: 16
-				id: "57F27D60D9F3EB9D"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:prosperity"
+			rewards: [
+				{
+					count: 16
+					id: "57F27D60D9F3EB9D"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:prosperity"
+							}
 						}
 					}
+					random_bonus: 16
+					type: "item"
 				}
-				random_bonus: 16
-				type: "item"
-			}]
+				{
+					id: "66677A3BEFFC7738"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			size: 1.5d
 			subtitle: "&lTier: &e[Elemental]"
@@ -1542,21 +1610,28 @@
 			dependencies: ["465AC1A06741EE64"]
 			hide_dependent_lines: true
 			id: "42A28E53B47EEB3F"
-			rewards: [{
-				count: 16
-				id: "1351AE8EEAAB16FD"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:soulium"
+			rewards: [
+				{
+					count: 16
+					id: "1351AE8EEAAB16FD"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:soulium"
+							}
 						}
 					}
+					random_bonus: 16
+					type: "item"
 				}
-				random_bonus: 16
-				type: "item"
-			}]
+				{
+					id: "6E1CAB78AE99683F"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			size: 1.5d
 			subtitle: "&lTier: &e[Elemental]"
@@ -4264,6 +4339,19 @@
 		{
 			dependencies: ["2821AC6F81CC2814"]
 			id: "46F2452AC2187D3C"
+			rewards: [
+				{
+					id: "19B0FD1C80D9F103"
+					item: "productivebees:honeycomb_ultimate"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2517664EAA9213A2"
+					item: "coinsje:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			size: 3.0d
 			subtitle: "&lTier: &f[&1U&3l&2t&ai&em&6a&4t&5e&f]"
@@ -5504,6 +5592,20 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "21A03C6FFD86A150"
+			rewards: [
+				{
+					count: 16
+					id: "559EEE3D24E00ABF"
+					item: "productivebees:sugarbag_honeycomb"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "57FC615B0605F772"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			tasks: [{
 				id: "63318E2FCC3C55A6"
@@ -5516,6 +5618,11 @@
 		{
 			dependencies: ["2D0C0C4CC7AA37EF"]
 			id: "54587AA31110C61C"
+			rewards: [{
+				id: "379998F42EC99517"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "3FBF5A8399DAE353"
@@ -5528,6 +5635,11 @@
 		{
 			dependencies: ["2D0C0C4CC7AA37EF"]
 			id: "3D8A8F8C8620699E"
+			rewards: [{
+				id: "013117556F7761EE"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "73BFADC48A8FBD6E"
@@ -5540,6 +5652,18 @@
 		{
 			dependencies: ["2D0C0C4CC7AA37EF"]
 			id: "45C31F3194D6928D"
+			rewards: [
+				{
+					id: "16A5EF4727930C29"
+					item: "productivebees:upgrade_breeding"
+					type: "item"
+				}
+				{
+					id: "6B56E1F67D2DE95D"
+					item: "productivebees:upgrade_not_babee"
+					type: "item"
+				}
+			]
 			shape: "rhexagon"
 			tasks: [
 				{
@@ -5559,6 +5683,11 @@
 		{
 			dependencies: ["2D0C0C4CC7AA37EF"]
 			id: "44E08FD628936F3C"
+			rewards: [{
+				id: "215CFF4C58765735"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "2167DCAB11F29524"
@@ -5571,6 +5700,11 @@
 		{
 			dependencies: ["2D0C0C4CC7AA37EF"]
 			id: "5934EC5C56E55C83"
+			rewards: [{
+				id: "3C35FC3D4AAECE11"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "785E7938C93470C7"
@@ -5583,6 +5717,11 @@
 		{
 			dependencies: ["2D0C0C4CC7AA37EF"]
 			id: "3377A6456B82C655"
+			rewards: [{
+				id: "5B9312891788E5C5"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "2CCC105C961AA8F3"
@@ -5595,6 +5734,11 @@
 		{
 			dependencies: ["2D0C0C4CC7AA37EF"]
 			id: "5BF2C9262ECF500D"
+			rewards: [{
+				id: "6A2B150BB78F3D6F"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "197D4CF9A224A434"
@@ -5607,6 +5751,11 @@
 		{
 			dependencies: ["2D0C0C4CC7AA37EF"]
 			id: "01BED97CC1B51F84"
+			rewards: [{
+				id: "1C936D79942AB67C"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "51D424A61716BE58"
@@ -5619,6 +5768,11 @@
 		{
 			dependencies: ["2D0C0C4CC7AA37EF"]
 			id: "709E7AD7299735E6"
+			rewards: [{
+				id: "4A181CF848097C62"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "614E8625430F9E7C"
@@ -5631,6 +5785,11 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "2D0C0C4CC7AA37EF"
+			rewards: [{
+				id: "3FE7E02F4038B659"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			size: 1.5d
 			tasks: [{
@@ -5643,7 +5802,13 @@
 		}
 		{
 			dependencies: ["465AC1A06741EE64"]
+			description: ["The nest locator can help you find &eforeign nests&r."]
 			id: "28C5C6E4C9E96EBD"
+			rewards: [{
+				id: "7F4D8B4DEE2284F8"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "4BF09268809DA916"
@@ -5666,6 +5831,63 @@
 				"2D098D67F6C094D1"
 			]
 			id: "4579D102BC1FB1CB"
+			rewards: [{
+				id: "0694CC78C5CE4D92"
+				item: {
+					Count: 1b
+					id: "productivebees:honey_treat"
+					tag: {
+						productivebees_gene_stack: [
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "weather_tolerance"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "temper"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "productivity"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "endurance"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 3
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:gene"
+								tag: {
+									productivebees_gene_attribute: "behavior"
+									productivebees_gene_purity: 100
+									productivebees_gene_value: 2
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
 			shape: "rhexagon"
 			size: 1.5d
 			tasks: [{
@@ -5732,6 +5954,19 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "7C3B74FDF91EC44C"
+			rewards: [{
+				id: "77914A6AEC550C15"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "weather_tolerance"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 2
+					}
+				}
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "466495902F16762C"
@@ -5753,6 +5988,19 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "7A59D2AC4824AF1F"
+			rewards: [{
+				id: "43DD79E2CD397A9E"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "endurance"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 3
+					}
+				}
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "1A32DBF3DC799723"
@@ -5774,6 +6022,19 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "77B09C964C8DE130"
+			rewards: [{
+				id: "1D0811EB308B3CC9"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "behavior"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 2
+					}
+				}
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "70AB130BDF847874"
@@ -5795,6 +6056,19 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "01935A05AFE1BCC8"
+			rewards: [{
+				id: "725563972BA4DD6F"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "productivity"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 3
+					}
+				}
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "1129A843100615C1"
@@ -5816,6 +6090,19 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "2D098D67F6C094D1"
+			rewards: [{
+				id: "204347774C1D4C41"
+				item: {
+					Count: 1b
+					id: "productivebees:gene"
+					tag: {
+						productivebees_gene_attribute: "temper"
+						productivebees_gene_purity: 100
+						productivebees_gene_value: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "30FA776C62A34EE8"
@@ -5836,7 +6123,21 @@
 		}
 		{
 			dependencies: ["465AC1A06741EE64"]
+			description: ["The Bee Nest Helmet makes bees &epassive&r against you and summons &eKamikaz Bees&r if you're attacked."]
 			id: "3E4FC2D91B359127"
+			rewards: [{
+				id: "1F91B496207C7469"
+				item: {
+					Count: 1b
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:kamikaz"
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "3FB4A1A7FD4E4EEE"
@@ -5854,7 +6155,13 @@
 		}
 		{
 			dependencies: ["465AC1A06741EE64"]
+			description: ["The Treat on a stick let you ride &eBumble Bees&r."]
 			id: "12562A24D427838D"
+			rewards: [{
+				id: "0AB6B95D1E39B6A1"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "4BBE64A440255B4A"
@@ -5873,6 +6180,11 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "1C800626D179A297"
+			rewards: [{
+				id: "0A407D897C985082"
+				item: "productivebees:jar_oak"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "28F1FF873362E6C8"
@@ -5884,7 +6196,13 @@
 		}
 		{
 			dependencies: ["465AC1A06741EE64"]
+			description: ["Feeding slab is used to &efeed the bees&r inside a hive equipped with a &esimulator upgrade&r."]
 			id: "02D89F1D74AC4450"
+			rewards: [{
+				id: "4FEEFEA48A8E33FE"
+				item: "productivebees:feeder"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "3526EE329F64D598"
@@ -5897,6 +6215,11 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "64B847F83852B718"
+			rewards: [{
+				id: "1A09CA6F5071B55D"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "3E1F1119527D77BD"
@@ -5909,6 +6232,11 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "361B62E0BD85603F"
+			rewards: [{
+				id: "3B87E984012F15B9"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "63E3ADCD651D3758"
@@ -5921,6 +6249,11 @@
 		{
 			dependencies: ["361B62E0BD85603F"]
 			id: "15415C9DD2B89C33"
+			rewards: [{
+				id: "161D3E91C56F56B0"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "3BA69A95603B1E0B"
@@ -5933,6 +6266,11 @@
 		{
 			dependencies: ["15415C9DD2B89C33"]
 			id: "6C77531CFCF5A457"
+			rewards: [{
+				id: "21E74D425956057D"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "4F6D5EADBDFFE067"
@@ -5946,6 +6284,11 @@
 			dependencies: ["465AC1A06741EE64"]
 			hide_text_until_complete: false
 			id: "0D6BFA783636A5A2"
+			rewards: [{
+				id: "6E7D092AF1741146"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "4B6B6B67A3EAFE45"
@@ -5958,6 +6301,11 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "06B11DCEEBC9716B"
+			rewards: [{
+				id: "1C35F5D07EC0DEFB"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "5F9D33E6645624AE"
@@ -5970,6 +6318,11 @@
 		{
 			dependencies: ["465AC1A06741EE64"]
 			id: "1D510561BB7D5499"
+			rewards: [{
+				id: "462F9C94F3144945"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
 			shape: "rhexagon"
 			tasks: [{
 				id: "613E1154B1DA87AD"
@@ -5979,6 +6332,88 @@
 			x: 3.0d
 			y: -22.0d
 		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "193C251BA8F71CB9"
+			rewards: [
+				{
+					id: "5301974746E19A88"
+					item: "productivebees:advanced_oak_beehive"
+					type: "item"
+				}
+				{
+					id: "5BAE9B025D7458CB"
+					item: "productivebees:expansion_box_oak"
+					type: "item"
+				}
+			]
+			shape: "rhexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5B13ACCEE45868B0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:advanced_beehives"
+						}
+					}
+					title: "Any #productivebees:advanced_beehives"
+					type: "item"
+				}
+				{
+					id: "71DD6A3BE234373B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:expansion_boxes"
+						}
+					}
+					title: "Any #productivebees:expansion_boxes"
+					type: "item"
+				}
+			]
+			title: "&lAdvanced Beehive"
+			x: -14.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "73602117A744A5A3"
+			rewards: [{
+				id: "1AF18CEE19903301"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "5C6EE41099A2CEA8"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["465AC1A06741EE64"]
+			id: "648D400F71A3D4A9"
+			rewards: [{
+				id: "663A01F783951CF6"
+				item: "productivebees:breeding_chamber"
+				type: "item"
+			}]
+			shape: "rhexagon"
+			tasks: [{
+				id: "0F473F1B5736B336"
+				item: "productivebees:breeding_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -25.0d
+		}
 	]
+	subtitle: ["The sweetest source of endless materials"]
 	title: " &l&6♦ &rProductive Bees"
 }

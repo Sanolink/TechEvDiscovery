@@ -1577,8 +1577,8 @@
 				item: "apotheosis:beeshelf"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.0d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2A108B7110B86D76"]
@@ -1955,7 +1955,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["7683CB7CBAAAF017"]
+			dependencies: ["71310706657288F9"]
+			hide_dependency_lines: true
 			id: "371734C16F96BF8B"
 			rewards: [{
 				id: "09170F833D9FD77A"
@@ -2738,6 +2739,125 @@
 			title: "&l&dR&9a&bi&cn&eb&9o&dw &dC&9o&ba&cl"
 			x: -5.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["71310706657288F9"]
+			id: "4499A36E4DA5F07C"
+			rewards: [{
+				id: "369EB95F08CBA708"
+				item: "apotheosis:dormant_deepshelf"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "281D8CD564D89C4C"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4499A36E4DA5F07C"]
+			id: "586AC403AA0FE4BC"
+			rewards: [{
+				id: "41E08250307F3F08"
+				item: "apotheosis:deepshelf"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7287CC3D65048F5D"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["586AC403AA0FE4BC"]
+			id: "3CAE94ED6680AA31"
+			rewards: [{
+				id: "34C8BF47FF81653C"
+				item: "apotheosis:echoing_deepshelf"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "57F57BC473AB0274"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["586AC403AA0FE4BC"]
+			id: "0E2FE29D195F79EE"
+			rewards: [{
+				id: "3D53E52DA9C24CD8"
+				item: "apotheosis:soul_touched_deepshelf"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "49A6CB591EB5F6B1"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3CAE94ED6680AA31"]
+			id: "611756FA59F7AB4E"
+			rewards: [{
+				id: "64C316CE6B210D9B"
+				item: "apotheosis:echoing_sculkshelf"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "17A4311FE22B7E4D"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0E2FE29D195F79EE"]
+			id: "603F77DD18C26C39"
+			rewards: [{
+				id: "7F2A9095BF77BA65"
+				item: "apotheosis:soul_touched_sculkshelf"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "793A7432774408D8"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71310706657288F9"]
+			id: "3597C6EF76106F0A"
+			rewards: [{
+				id: "1401F678F75B0664"
+				item: "apotheosis:stoneshelf"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "68E4D65A4FA868E1"
+				item: "apotheosis:stoneshelf"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
 		}
 	]
 	subtitle: ["Tracks of sand! Lands of ice! Water that burns!"]

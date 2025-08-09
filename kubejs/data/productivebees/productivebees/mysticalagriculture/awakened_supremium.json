@@ -1,0 +1,16 @@
+{
+    "primaryColor": "#d08412",
+    "secondaryColor": "#a60b0a",
+    "particleColor": "#c86911",
+    "size": 0.8,
+    "flowerBlock": "mysticalagriculture:awakened_supremium_block",
+    "invulnerability": [
+        "mekanism.radiation"
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

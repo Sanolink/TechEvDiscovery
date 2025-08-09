@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "mekaevolution:alloy_radiance"
+    },
+    "B": {
+      "item": "mekanism:pellet_hypermatter"
+    },
+    "P": {
+      "item": "mekanism:energy_tablet"
+    },
+    "C": {
+      "item": "mysticaladaptations:insanium_pickaxe"
+    },
+    "D": {
+      "item": "mekanism:hdpe_stick"
+    }
+  },
+  "pattern": [
+    "APA",
+    "BCB",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekaevolution:plasma_pickaxe"
+  }
+}

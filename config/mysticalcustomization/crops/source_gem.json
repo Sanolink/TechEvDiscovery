@@ -1,0 +1,14 @@
+{
+    "name": "Source Gem",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:arcane\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/source_gem_flower",
+      "essence": "mysticalagriculture:item/essence/source_gem_essence",
+      "seeds": "mysticalagriculture:item/seeds/source_gem_seeds"
+    }
+  }

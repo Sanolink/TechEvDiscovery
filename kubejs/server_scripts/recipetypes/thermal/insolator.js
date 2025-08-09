@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -27,6 +27,24 @@ ServerEvents.recipes(event => {
             result: ThermalChanceItem("naturesaura:end_flower", 2)
         }
     ]
+
+    mysticalCrops.enabled.forEach(cropName => {
+        let crop = CropRegistryInstance.getCropByName(cropName)
+        recipes.push(
+            {
+                id: `essence_${cropName}`,
+                ingredient: parseIngredient(crop.getSeedsItem().getId()),
+                result: [ 
+                    ThermalChanceItem(crop.getEssenceItem().getId(), 1 + SecondarySeedChance),
+                    {
+                      item: crop.getSeedsItem().getId(),
+                      chance: crop.getTier().hasSecondarySeedDrop() ? (1 + SecondarySeedChance) : 1,
+                      locked: true
+                    }
+                ]
+            }
+        )
+    })
 
    //General Insolator Function
     recipes.forEach(recipe => {

@@ -1,0 +1,14 @@
+{
+    "name": "Awakened Supremium",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:awakened_supremium\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/awakened_supremium_flower",
+      "seeds": "mysticalagriculture:item/seeds/awakened_supremium_seeds"
+    },
+    "essence": "mysticalagriculture:awakened_supremium_essence"
+  }

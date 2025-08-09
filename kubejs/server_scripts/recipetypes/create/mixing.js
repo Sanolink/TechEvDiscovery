@@ -13,11 +13,28 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
 ServerEvents.recipes(event => {
+
+
+    //Replace
+    event.forEachRecipe({ type: "create:mixing" }, recipe => {
+        let results = recipe.json.get("results")
+        results.forEach((/** @type {Internal.JsonObject} */ result) => {
+            if (result.has("fluid") && result.get("fluid").getAsString() == "productivebees:honey") {
+                result.add("fluid", "create:honey");
+                if (recipe.getId() != "productivebees:create/mixing/honeycomb") {
+                    result.add("amount", 50);
+                }
+            }
+            if (recipe.getId().includes("honeycomb")) {
+                result.remove("chance")
+            }
+        })
+    })
 
     //Recipes 
     const recipes = [
@@ -59,6 +76,31 @@ ServerEvents.recipes(event => {
             ],
             output: [parseIngredient("create:copper_alloy")]
         },
+        {
+            id: "fusion_prudentium",
+            input: [parseIngredient("#matc:prudentium"), FluidWithCount("mysticalagradditions:molten_prudentium", 250), FluidWithCount("mysticalagradditions:molten_inferium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_prudentium", 500)]
+        },
+        {
+            id: "fusion_tertium",
+            input: [parseIngredient("#matc:tertium"), FluidWithCount("mysticalagradditions:molten_tertium", 250), FluidWithCount("mysticalagradditions:molten_prudentium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_tertium", 500)]
+        },
+        {
+            id: "fusion_imperium",
+            input: [parseIngredient("#matc:imperium"), FluidWithCount("mysticalagradditions:molten_imperium", 250), FluidWithCount("mysticalagradditions:molten_tertium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_imperium", 500)]
+        },
+        {
+            id: "fusion_supremium",
+            input: [parseIngredient("#matc:supremium"), FluidWithCount("mysticalagradditions:molten_supremium", 250), FluidWithCount("mysticalagradditions:molten_imperium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_supremium", 500)]
+        },
+        {
+            id: "fusion_insanium",
+            input: [parseIngredient("mysticalagriculture:master_infusion_crystal"), FluidWithCount("mysticalagradditions:molten_insanium", 250), FluidWithCount("mysticalagradditions:molten_supremium", 750)],
+            output: [FluidWithCount("mysticalagradditions:molten_insanium", 500)]
+        },
         //Heated Recipes
         {
             id: "pewter_blend",
@@ -91,6 +133,42 @@ ServerEvents.recipes(event => {
             ],
             output: [FluidWithCount("botania:synthetic_mana_diamond", 1000)],
         },
+        {
+            id: "molten_inferium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:inferium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_inferium", 250)]
+        },
+        {
+            id: "molten_prudentium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:prudentium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_prudentium", 250)]
+        },
+        {
+            id: "molten_tertium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:tertium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_tertium", 250)]
+        },
+        {
+            id: "molten_imperium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:imperium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_imperium", 250)]
+        },
+        {
+            id: "molten_supremium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagriculture:supremium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_supremium", 250)]
+        },
+        {
+            id: "molten_insanium",
+            heat: 'heated',
+            input: [parseIngredient("mysticalagradditions:insanium_essence")],
+            output: [FluidWithCount("mysticalagradditions:molten_insanium", 250)]
+        },
         //Superheated Recipes
         {
             id: "molten_redstone",
@@ -118,7 +196,62 @@ ServerEvents.recipes(event => {
         }
     ]
 
-   //General Mixing Function
+    function basicComb(combType, result) {
+        recipes.push(
+            {
+                id: `productivebees/honeycomb_${combType}`,
+                heat: 'heated',
+                input: [BeeConfigurableComb(combType)],
+                output: [parseIngredient(result), FluidWithCount("create:honey", 50), parseIngredient('productivebees:wax')]
+            }
+        )
+    }
+
+    basicComb("fluix", 'ae2:fluix_crystal')
+    basicComb("peridot", 'alltheores:peridot')
+    basicComb("desh", 'ad_astra:desh_ingot')
+    basicComb("ostrum", 'ad_astra:ostrum_ingot')
+    basicComb("calorite", 'ad_astra:calorite_ingot')
+    basicComb("platinum", 'alltheores:platinum_ingot')
+    basicComb("fluorite", 'mekanism:fluorite_gem')
+    basicComb("ametrine", 'byg:ametrine_gems')
+    basicComb("aeric", 'botania:ender_air_bottle')
+    basicComb("aquatic", 'minecraft:snowball')
+    basicComb("chicken", 'minecraft:chicken')
+    basicComb("fiery", 'twilightforest:fiery_ingot')
+    basicComb("fishy", 'minecraft:pufferfish')
+    basicComb("gaia", 'botania:life_essence')
+    basicComb("geotic", 'minecraft:clay_ball')
+    basicComb("hop_graphite", 'immersiveengineering:ingot_hop_graphite')
+    basicComb("ironwood", 'twilightforest:ironwood_ingot')
+    basicComb("knightmetal", 'twilightforest:knightmetal_ingot')
+    basicComb("nephryx", 'ad_astra:nephryx_ingot')
+    basicComb("piggy", 'minecraft:porkchop')
+    basicComb("rabbit", 'minecraft:rabbit_foot')
+    basicComb("sheep", 'minecraft:mutton')
+    basicComb("squid", 'minecraft:ink_sac')
+    basicComb("steeleaf", 'twilightforest:steeleaf_ingot')
+    basicComb("turtle", 'minecraft:scute')
+
+    function fluidEssence(essence, fluid) {
+        recipes.push(
+            {
+                id: essence.replace(":", "/"),
+                input: [parseIngredient(essence)],
+                output: [FluidWithCount(fluid, 100)]
+            }
+        )
+    }
+
+    fluidEssence('mysticalagriculture:chocolate_essence', "create:chocolate")
+    fluidEssence('mysticalagriculture:destabilized_redstone_essence', "thermal:redstone")
+    fluidEssence('mysticalagriculture:energized_glowstone_essence', "thermal:glowstone")
+    fluidEssence('mysticalagriculture:oil_essence', "immersivepetroleum:crudeoil")
+    fluidEssence('mysticalagriculture:pink_slime_essence', "industrialforegoing:pink_slime")
+    fluidEssence('mysticalagriculture:resonant_ender_essence', "thermal:ender")
+    fluidEssence('mysticalagriculture:tea_essence', "create:tea")
+
+    //General Mixing Function
     recipes.forEach(recipe => {
         let json = {
             type: 'create:mixing',

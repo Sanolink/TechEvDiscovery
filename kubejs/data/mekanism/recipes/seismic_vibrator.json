@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "immersivepetroleum:seismic_survey"
+        },
+        "C": {
+            "tag": "forge:circuits/elite"
+        },
+        "I": {
+            "item": "mekanism:alloy_reinforced"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        },
+        "S": {
+            "item": "mekanism:seismic_reader"
+        }
+    },
+    "pattern": [
+        "I#I",
+        "CXC",
+        "ISI"
+    ],
+    "result": {
+        "item": "mekanism:seismic_vibrator"
+    }
+}

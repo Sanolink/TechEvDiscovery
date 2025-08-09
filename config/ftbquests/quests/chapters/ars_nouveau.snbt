@@ -3593,11 +3593,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "16D014BBCF8B1D52"
-					item: "ars_nouveau:dull_trinket"
-					type: "item"
-				}
-				{
 					id: "5DD435BF634D03CE"
 					item: "ars_nouveau:amulet_of_mana_boost"
 					type: "item"
@@ -3623,11 +3618,6 @@
 			}]
 			shape: "square"
 			tasks: [
-				{
-					id: "4F94411ACCB4A4E7"
-					item: "ars_nouveau:ring_of_potential"
-					type: "item"
-				}
 				{
 					id: "068B30E79EA11FE6"
 					item: "ars_nouveau:ring_of_lesser_discount"
@@ -3660,11 +3650,6 @@
 			}]
 			shape: "square"
 			tasks: [
-				{
-					id: "0506B61636AEA801"
-					item: "ars_nouveau:mundane_belt"
-					type: "item"
-				}
 				{
 					id: "29396E2B1C18316A"
 					item: "ars_nouveau:belt_of_levitation"

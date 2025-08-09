@@ -1,0 +1,14 @@
+{
+    "name": "Imperium",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:imperium\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/imperium_flower",
+      "seeds": "mysticalagriculture:item/seeds/imperium_seeds"
+    },
+    "essence": "mysticalagriculture:imperium_essence"
+  }

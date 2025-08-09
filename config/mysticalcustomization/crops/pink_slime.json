@@ -1,0 +1,14 @@
+{
+    "name": "Pink Slime",
+    "type": "mysticalagriculture:mob",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "mysticalagriculture:soul_jar",
+      "nbt": "{Souls:1000.0d,Type:\"mysticalcustomization:pink_slime\"}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/pink_slime_flower",
+      "essence": "mysticalagriculture:item/essence/pink_slime_essence",
+      "seeds": "mysticalagriculture:item/seeds/pink_slime_seeds"
+    }
+  }

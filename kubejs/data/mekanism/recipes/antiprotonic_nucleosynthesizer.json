@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "mekaevolution:alloy_thermonuclear"
+        },
+        "A": {
+            "tag": "forge:pellets/antimatter"
+        },
+        "C": {
+            "item": "mekaevolution:supreme_control_circuit"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "#C#",
+        "AXA",
+        "#C#"
+    ],
+    "result": {
+        "item": "mekanism:antiprotonic_nucleosynthesizer"
+    }
+}

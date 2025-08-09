@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "S": {
+            "tag": "forge:plates/shellite"
+        },
+        "T": {
+            "item": "create:source_tube"
+        },
+        "A": {
+            "tag": "mekanism:alloys/atomic"
+        },
+        "C": {
+            "tag": "forge:circuits/elite"
+        }
+    },
+    "pattern": [
+        "STS",
+        "ACA",
+        "STS"
+    ],
+    "result": {
+        "item": "mekanism:ultimate_control_circuit"
+    }
+}

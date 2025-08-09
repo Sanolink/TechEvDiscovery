@@ -1,0 +1,14 @@
+{
+    "name": "Prudentium",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:2",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:prudentium\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/prudentium_flower",
+      "seeds": "mysticalagriculture:item/seeds/prudentium_seeds"
+    },
+    "essence": "mysticalagriculture:prudentium_essence"
+  }

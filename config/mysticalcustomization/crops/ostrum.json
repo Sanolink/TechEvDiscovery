@@ -1,0 +1,14 @@
+{
+    "name": "Ostrum",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:ostrum\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/ostrum_flower",
+      "essence": "mysticalagriculture:item/essence/ostrum_essence",
+      "seeds": "mysticalagriculture:item/seeds/ostrum_seeds"
+    }
+  }

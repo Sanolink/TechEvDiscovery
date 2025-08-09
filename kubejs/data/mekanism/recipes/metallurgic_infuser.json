@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "minecraft:blast_furnace"
+        },
+        "I": {
+            "item": "pneumaticcraft:plastic"
+        },
+        "O": {
+            "item": "mekanism:steel_casing"
+        },
+        "R": {
+            "item": "mekanism:basic_control_circuit"
+        }
+    },
+    "pattern": [
+        "I#I",
+        "ROR",
+        "I#I"
+    ],
+    "result": {
+        "item": "mekanism:metallurgic_infuser"
+    }
+}

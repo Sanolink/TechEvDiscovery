@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -29,8 +29,30 @@ StartupEvents.registry('item', e => {
       return e.create(id).displayName(displayName)
     }
 
+    BasicItem('ad_astra:calorite_dust', "Calorite Dust")
+    BasicItem('ad_astra:calorite_gear', "Calorite Gear")
+    BasicItem('ad_astra:calorite_rod', "Calorite Rod")
+    BasicItem('ad_astra:desh_dust', "Desh Dust")
+    BasicItem('ad_astra:desh_gear', "Desh Gear")
+    BasicItem('ad_astra:desh_rod', "Desh Rod")
+    BasicItem('ad_astra:nephryx_dust', "Nephryx Dust")
+    BasicItem('ad_astra:nephryx_gear', "Nephryx Gear")
+    BasicItem('ad_astra:nephryx_ingot', "Nephryx Ingot")
+    BasicItem('ad_astra:nephryx_nugget', "Nephryx Nugget")
+    BasicItem('ad_astra:nephryx_plate', "Nephryx Plate")
+    BasicItem('ad_astra:nephryx_rod', "Nephryx Rod")
+    BasicItem('ad_astra:ostrum_dust', "Ostrum Dust")
+    BasicItem('ad_astra:ostrum_gear', "Ostrum Gear")
+    BasicItem('ad_astra:ostrum_rod', "Ostrum Rod")
+    BasicItem('ad_astra:raw_nephryx', "Raw Nephryx")
+    BasicItem('ad_astra:desh_rocket_nose_cone', "Desh Rocket Nose Cone")
+    BasicItem('ad_astra:ostrum_rocket_nose_cone', "Ostrum Rocket Nose Cone")
+    BasicItem('ad_astra:calorite_rocket_nose_cone', "Calorite Rocket Nose Cone")
+
+    BasicItem('ae2:cosmic_processor', "Cosmic Processor")
     BasicItem('ae2:elemental_processor_press', "Inscriber Elemental Press")
     BasicItem('ae2:elemental_processor', "Elemental Processor")
+    BasicItem('ae2:printed_cosmic_processor', "Printed Cosmic Circuit")
     BasicItem('ae2:printed_elemental_processor', "Printed Elemental Circuit")
 
     BasicItem('botania:elementium_gear', "Elementium Gear")
@@ -44,27 +66,62 @@ StartupEvents.registry('item', e => {
     BasicItem('create_things_and_misc:blue_quartz_sheet', "Blue Quartz Plate").texture('create_things_and_misc:items/blue_quartz_sheet')
     BasicItem('create_things_and_misc:psi_quartz_sheet', "Psi Quartz Plate").texture('create_things_and_misc:items/psi_quartz_sheet')
     BasicItem('create_things_and_misc:source_quartz_sheet', "Source Quartz Plate").texture('create_things_and_misc:items/source_quartz_sheet')
-
-    BasicItem('create:blue_quartz', "Blue Quartz")
+    BasicItem('create_things_and_misc:antimatter_quartz_sheet', "Antimatter Quartz Plate").texture('create_things_and_misc:items/antimatter_quartz_sheet')
+    
+    BasicItem('create:raw_andesite_alloy', "Raw Andesite Alloy")
     BasicItem('create:brass_alloy', "Brass Alloy")
     BasicItem('create:copper_alloy', "Copper Alloy")
+    BasicItem('create:crushed_raw_desh', "Crushed Desh Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:crushed_raw_ostrum', "Crushed Ostrum Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:crushed_raw_calorite', "Crushed Calorite Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:crushed_raw_nephryx', "Crushed Nephryx Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:blue_quartz', "Blue Quartz")
     BasicItem('create:polished_blue_quartz', "Polished Blue Quartz")
-    BasicItem('create:polished_psi_quartz', "Polished Psi Quartz")
-    BasicItem('create:polished_source_quartz', "Polished Source Quartz")
     BasicItem('create:positron_tube', "Positron Tube")
     BasicItem('create:psi_quartz', "Psi Quartz")
+    BasicItem('create:polished_psi_quartz', "Polished Psi Quartz")
     BasicItem('create:psi_tube', "Psi Tube")
-    BasicItem('create:raw_andesite_alloy', "Raw Andesite Alloy")
     BasicItem('create:source_quartz', "Source Quartz")
+    BasicItem('create:polished_source_quartz', "Polished Source Quartz")
     BasicItem('create:source_tube', "Source Tube")
+    BasicItem('create:antimatter_quartz', "Antimatter Quartz")
+    BasicItem('create:antiproton_tube', "Antiproton Tube")
+    BasicItem('create:polished_antimatter_quartz', "Polished Antimatter Quartz")
 
     BasicItem('hostilenetworks:blue_skies_prediction', "Generalized Blue Skies Prediction")
     BasicItem('hostilenetworks:inert_data_model', "Inert Model Framework")
     BasicItem('hostilenetworks:undergarden_prediction', "Generalized Undergarden Prediction")
 
     BasicItem('industrialforegoing:sludge_bottle', "Sludge Bottle")
+    BasicItem('industrialforegoing:laser_lens16', "Astral Laser Lens")
+
+    BasicItem('mekaevolution:alloy_radiance', "§aRadiance Alloy")
+    BasicItem('mekaevolution:alloy_shining', "§3Shining Alloy")
+    BasicItem('mekaevolution:alloy_spectrum', "§5Spectrum Alloy")
+    BasicItem('mekaevolution:alloy_thermonuclear', "§4Thermonuclear Alloy")
+    BasicItem('mekaevolution:enriched_radiance', "Enriched Radiance")
+    BasicItem('mekaevolution:enriched_shining', "Enriched Shining")
+    BasicItem('mekaevolution:enriched_spectrum', "Enriched Spectrum")
+    BasicItem('mekaevolution:enriched_thermonuclear', "Enriched Thermonuclear")
+    
+    BasicItem('mekanism:pellet_hypermatter', "§3Hypermatter Pellet")
+    BasicItem('mekanism:dust_refined_glowstone', "Refined Glowstone Dust")
+    BasicItem('mekanism:enriched_ionium', "Enriched Ionium")
+    BasicItem('mekanism:enriched_iridium', "Enriched Iridium")
+    BasicItem('mekanism:enriched_lapis_lazuli', "Enriched Lapis Lazuli")
+    BasicItem('mekanism:enriched_psimetal', "Enriched Psimetal")
+    BasicItem('mekanism:enriched_source', "Enriched Source")
+    BasicItem('mekanism:crystal_hypernitro', "Hypernitro Crystal")
+    BasicItem('mekanism:antispark_dust', "Antispark Dust")
+
+    BasicItem('mysticalagriculture:ultimate_essence', "Ultimate Essence").texture("mysticalagriculture/item/essence/ultimate_essence")
 
     BasicItem('minecraft:diamond_nugget', "Diamond Nugget")
+    
+    BasicItem('productivebees:honeycomb_safenium', "Safenium Comb")
+    BasicItem('productivebees:honeycomb_sudentium', "Sudentium Comb")
+    BasicItem('productivebees:honeycomb_impertium', "Impertium Comb")
+    BasicItem('productivebees:honeycomb_ultimate', "Ultimate Comb")
 
     BasicItem('thermal:ender_servo', "Ender Servo")
     BasicItem('thermal:press_rod_die', "Rodworking Die")

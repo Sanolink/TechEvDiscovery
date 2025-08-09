@@ -1,0 +1,14 @@
+{
+    "name": "Nephryx",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:nephryx\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/nephryx_flower",
+      "essence": "mysticalagriculture:item/essence/nephryx_essence",
+      "seeds": "mysticalagriculture:item/seeds/nephryx_seeds"
+    }
+  }

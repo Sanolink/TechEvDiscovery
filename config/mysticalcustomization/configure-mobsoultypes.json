@@ -1,0 +1,62 @@
+{
+  "mysticalagriculture:pig": {
+    "souls": 1000
+  },
+  "mysticalagriculture:chicken": {
+    "souls": 1000
+  },
+  "mysticalagriculture:cow": {
+    "souls": 1000
+  },
+  "mysticalagriculture:sheep": {
+    "souls": 1000
+  },
+  "mysticalagriculture:squid": {
+    "souls": 1000
+  },
+  "mysticalagriculture:fish": {
+    "souls": 1000
+  },
+  "mysticalagriculture:slime": {
+    "souls": 1000
+  },
+  "mysticalagriculture:turtle": {
+    "souls": 1000
+  },
+  "mysticalagriculture:zombie": {
+    "souls": 1000
+  },
+  "mysticalagriculture:skeleton": {
+    "souls": 1000
+  },
+  "mysticalagriculture:creeper": {
+    "souls": 1000
+  },
+  "mysticalagriculture:spider": {
+    "souls": 1000
+  },
+  "mysticalagriculture:rabbit": {
+    "souls": 1000
+  },
+  "mysticalagriculture:blaze": {
+    "souls": 1000
+  },
+  "mysticalagriculture:ghast": {
+    "souls": 1000
+  },
+  "mysticalagriculture:enderman": {
+    "souls": 1000
+  },
+  "mysticalagriculture:wither_skeleton": {
+    "souls": 1000
+  },
+  "mysticalagriculture:blizz": {
+    "souls": 1000
+  },
+  "mysticalagriculture:blitz": {
+    "souls": 1000
+  },
+  "mysticalagriculture:basalz": {
+    "souls": 1000
+  }
+}

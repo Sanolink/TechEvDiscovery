@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IDI",
+        "IHI",
+        "IMI"
+    ],
+    "key": {
+        "H": {
+            "tag": "forge:workbenches"
+        },
+        "I": {
+            "tag": "forge:ingots/iron"
+        },
+        "M": {
+            "item": "mysticalagriculture:machine_frame"
+        },
+        "D": {
+            "item": "minecraft:comparator"
+        }
+    },
+    "result": {
+        "item": "productivebees:gene_indexer"
+    }
+}

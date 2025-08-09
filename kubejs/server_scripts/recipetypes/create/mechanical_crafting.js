@@ -98,6 +98,29 @@ ServerEvents.recipes(event => {
                 C: 'thermal:enderium_coin',
             }
         },
+        {
+            id: "diamond_ring",
+            output: parseIngredient("angelring:diamond_ring"),
+            shape: [
+                "  LCCCL  ",
+                " LCPDPCL ",
+                "LCR   RCL",
+                "CP     PC",
+                "CD  H  DC",
+                "CP     PC",
+                "LCR   RCL",
+                " LCPDPCL ",
+                "  LCCCL  ",
+            ],
+            key: {
+                L: 'mekanism:pellet_plutonium', 
+                C: 'extendedcrafting:crystaltine_ingot',
+                D: 'botania:mana_diamond',
+                R: 'alltheores:diamond_rod',
+                P: 'alltheores:diamond_plate',
+                H: 'techev_additions:chromatic',
+            }
+        },
     ]
 
     //General Mechanical Crafting Function

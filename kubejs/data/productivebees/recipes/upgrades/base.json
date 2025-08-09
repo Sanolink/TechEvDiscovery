@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SES",
+        "ATA",
+        "SDS"
+    ],
+    "key": {
+        "E": {
+            "tag": "forge:gems/emerald"
+        },
+        "D": {
+            "tag": "forge:gems/diamond"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "A": {
+            "item": "mekanism:alloy_infused"
+        },
+        "T": {
+            "item": "productivebees:honey_treat"
+        }
+    },
+    "result": {
+        "item": "productivebees:upgrade_base"
+    }
+}

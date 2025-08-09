@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "pneumaticcraft:pressure_tube"
+        },
+        "R": {
+            "item": "alltheores:steel_plate"
+        },
+        "S": {
+            "item": "alltheores:steel_gear"
+        },
+        "T": {
+            "item": "mekanism:basic_control_circuit"
+        }
+    },
+    "pattern": [
+        "RTR",
+        "S#S",
+        "RTR"
+    ],
+    "result": {
+        "count": 8,
+        "item": "mekanism:basic_pressurized_tube"
+    }
+}

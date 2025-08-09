@@ -1,0 +1,14 @@
+{
+    "name": "Echo",
+    "type": "mysticalagriculture:mob",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "mysticalagriculture:soul_jar",
+      "nbt": "{Souls:1000.0d,Type:\"mysticalcustomization:echo\"}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/echo_flower",
+      "essence": "mysticalagriculture:item/essence/echo_essence",
+      "seeds": "mysticalagriculture:item/seeds/echo_seeds"
+    }
+  }

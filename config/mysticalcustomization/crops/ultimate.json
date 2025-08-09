@@ -1,0 +1,14 @@
+{
+    "name": "Ultimate",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalcustomization:ultimate",
+    "ingredient": {
+      "item": "productivebees:honeycomb_ultimate"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/ultimate_flower",
+      "essence": "mysticalagriculture:item/essence/ultimate_essence",
+      "seeds": "mysticalagriculture:item/seeds/ultimate_seeds"
+    },
+    "essence": "mysticalagriculture:ultimate_essence"
+  }

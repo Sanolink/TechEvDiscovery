@@ -1,0 +1,22 @@
+{
+  "entity.productivebees.fiery_bee": "Fiery Bee",
+  "entity.productivebees.knightmetal_bee": "Knightmetal Bee",
+  "entity.productivebees.ironwood_bee": "Ironwood Bee",
+  "entity.productivebees.nephryx_bee": "Nephryx Bee",
+  "entity.productivebees.hop_graphite_bee": "HOP Graphite Bee",
+  "entity.productivebees.pink_slimy_bee": "Pink Slimy Bee",
+  "entity.productivebees.chicken_bee": "Chicken Bee",
+  "entity.productivebees.fishy_bee": "Fishy Bee",
+  "entity.productivebees.turtle_bee": "Turtle Bee",
+  "entity.productivebees.piggy_bee": "Piggy Bee",
+  "entity.productivebees.steeleaf_bee": "Steeleaf Bee",
+  "entity.productivebees.aeric_bee": "Aeric Bee",
+  "entity.productivebees.gaia_bee": "Gaia Bee",
+  "entity.productivebees.aquatic_bee": "Aquatic Bee",
+  "entity.productivebees.geotic_bee": "Geotic Bee",
+  "entity.productivebees.squid_bee": "Squid Bee",
+  "entity.productivebees.sheep_bee": "Sheep Bee",
+  "entity.productivebees.rabbit_bee": "Rabbit Bee",
+  "productivebees.ingredient.description.wasted_radioactive_bee": "Wasted radioactive bees don't pollinate on any flower, instead they absorb radiation from their surroundings.",
+  "entity.productivebees.compressed_iron_bee": "Compressed Steel Bee"
+}

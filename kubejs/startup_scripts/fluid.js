@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
@@ -52,4 +52,20 @@ StartupEvents.registry('fluid', e => {
       .displayName('Resonant Fluix')
       .stillTexture('ae2:fluid/resonant_fluix_still')
       .flowingTexture('ae2:fluid/resonant_fluix_flow')
+
+    e.create('mysticalagradditions:molten_insanium')  
+      .color(0x50007B)
+      .displayName('Molten Insanium')
+      .stillTexture('mysticalagradditions:block/molten_still')
+      .flowingTexture('mysticalagradditions:block/molten_flowing')
+
+    e.create('industrialforegoing:echoplasm')
+      .displayName('Echoplasm')
+      .stillTexture('industrialforegoing:blocks/fluids/echoplasm_still')
+      .flowingTexture('industrialforegoing:blocks/fluids/echoplasm_flow')
+
+    e.create('mekanism:hyperphasium')
+      .displayName('Liquid Hyperphasium')
+      .thinTexture(0x6976C7)
+
   })

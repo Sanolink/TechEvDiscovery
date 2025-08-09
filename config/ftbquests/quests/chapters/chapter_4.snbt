@@ -82,23 +82,30 @@
 				id: "2C6A3F03E254C57D"
 				type: "checkmark"
 			}]
-			title: "&lApplied Energestics 2"
+			title: "&lApplied Energistics 2"
 			x: 1.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6F64D9A367C073CD"]
-			icon: "techev_additions:techevium"
+			icon: "ae2:singularity"
 			id: "6BF612431ADBCFF4"
+			rewards: [{
+				count: 3
+				id: "421572774F25363A"
+				item: "coinsje:gold_coin"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Soon, in 1.4.0 !"
+			subtitle: "Welcome to Age 5 !"
 			tasks: [{
 				id: "323A795F677FF661"
 				title: "WIP : Age 4"
 				type: "checkmark"
 			}]
-			title: "&lAge 5 : WIP"
+			title: "&l&6Cosmic Supremacy"
 			x: 0.0d
 			y: 7.0d
 		}

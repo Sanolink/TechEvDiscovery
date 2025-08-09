@@ -1,0 +1,36 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBBBBA",
+    "CDEFEDC",
+    "CDEGEDC",
+    "ABBBBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "occultism:iesnium_ingot"
+    },
+    "B": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "C": {
+      "item": "thermalendergy:prismalium_ingot"
+    },
+    "D": {
+      "item": "thermalendergy:stellarium_ingot"
+    },
+    "E": {
+      "item": "thermalendergy:melodium_ingot"
+    },
+    "F": {
+      "item": "extendedcrafting:ender_star"
+    },
+    "G": {
+      "item": "extendedcrafting:flux_star"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:crystaltine_ingot",
+    "count": 4
+  }
+}

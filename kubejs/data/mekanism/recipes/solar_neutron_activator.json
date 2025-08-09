@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "mekanism:hdpe_sheet"
+        },
+        "A": {
+            "item": "mekaevolution:alloy_radiance"
+        },
+        "C": {
+            "item": "mekaevolution:absolute_control_circuit"
+        },
+        "I": {
+            "item": "alltheores:bronze_gear"
+        },
+        "P": {
+            "item": "alltheores:bronze_plate"
+        },
+        "X": {
+            "item": "mekanism:steel_casing"
+        }
+    },
+    "pattern": [
+        "A#A",
+        "CXC",
+        "IPI"
+    ],
+    "result": {
+        "item": "mekanism:solar_neutron_activator"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "mekanism:mek_data",
+    "key": {
+        "#": {
+            "item": "mekanism:dynamic_tank"
+        },
+        "A": {
+            "item": "mekaevolution:alloy_radiance"
+        },
+        "C": {
+            "item": "mekaevolution:absolute_control_circuit"
+        },
+        "P": {
+            "tag": "mekanism:personal_storage"
+        },
+        "T": {
+            "item": "mekanism:basic_chemical_tank"
+        }
+    },
+    "pattern": [
+        "ACA",
+        "P#T",
+        "ACA"
+    ],
+    "result": {
+        "item": "mekanism:chemical_oxidizer"
+    }
+}

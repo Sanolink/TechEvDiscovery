@@ -1,0 +1,13 @@
+{
+    "primaryColor": "#fff8e3",
+    "secondaryColor": "#bfb595",
+    "renderer": "default_foliage",
+    "size": 0.5,
+    "createComb": false,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botania"
+        }
+    ]
+}

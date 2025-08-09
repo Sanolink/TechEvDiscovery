@@ -1,0 +1,14 @@
+{
+	"type": "apotheosis:spawner_modifier",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "spawner"
+	}],
+	"mainhand": {
+		"item": "mekaevolution:infinite_control_circuit"
+	},
+	"stat_changes": [{
+		"id": "ignore_conditions",
+		"value": true
+	}]
+}

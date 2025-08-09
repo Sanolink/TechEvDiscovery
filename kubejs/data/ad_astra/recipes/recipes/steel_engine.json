@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "engines",
+  "key": {
+    "/": {
+      "item": "alltheores:steel_gear"
+    },
+    "#": {
+      "tag": "ad_astra_platform:steel_plates"
+    },
+    "E": {
+      "item": "ad_astra:engine_frame"
+    },
+    "F": {
+      "item": "ad_astra:engine_fan"
+    }
+  },
+  "pattern": [
+    " / ",
+    "#E#",
+    " F "
+  ],
+  "result": {
+    "item": "ad_astra:steel_engine"
+  }
+}

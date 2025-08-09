@@ -13,14 +13,14 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.0         (_____)
 
 */
 
 ServerEvents.recipes(event => {
 
     //Recipes 
-    const recipes = [
+    let recipes = [
         //Crushing Tuff
         {
             id: "tuff_recycling",
@@ -46,6 +46,56 @@ ServerEvents.recipes(event => {
             ]
         }
     ]
+
+    crushedAdAstra("desh", "moon")
+    crushedAdAstra("ostrum", "mars")
+    crushedAdAstra("calorite", "venus")
+    crushedAdAstra("nephryx", "mercury")
+
+    function crushedAdAstra(material, planet) {
+        recipes.push(
+            {
+                id: TagToItem(`#forge:raw_materials/${material}`).split(":")[1],
+                input: [parseIngredient(`#forge:raw_materials/${material}`)],
+                output: [
+                    parseIngredient(`create:crushed_raw_${material}`),
+                    ChanceOrCountItem("create:experience_nugget", 0.75)
+                ]
+            },
+            {
+                id: TagToItem(`#forge:storage_blocks/raw_${material}`).split(":")[1],
+                input: [parseIngredient(`#forge:storage_blocks/raw_${material}`)],
+                output: [
+                    ChanceOrCountItem(`create:crushed_raw_${material}`, 9),
+                    ChanceAndCountItem("create:experience_nugget", 0.75, 9)
+                ]
+            },
+            {
+                id: `${planet}_${material}_ore`,
+                input: [parseIngredient(`ad_astra:${planet}_${material}_ore`)],
+                output: [
+                    parseIngredient(`create:crushed_raw_${material}`),
+                    ChanceOrCountItem(`create:crushed_raw_${material}`, 0.75),
+                    ChanceOrCountItem("create:experience_nugget", 0.75),
+                    ChanceOrCountItem(`ad_astra:${planet}_cobblestone`, 0.12)
+                ]
+            }
+        )
+        if (Item.exists(`ad_astra:deepslate_${material}_ore`)) {
+            recipes.push(
+                {
+                    id: `deepslate_${material}_ore`,
+                    input: [parseIngredient(`ad_astra:deepslate_${material}_ore`)],
+                    output: [
+                        ChanceOrCountItem(`create:crushed_raw_${material}`, 2),
+                        ChanceOrCountItem(`create:crushed_raw_${material}`, 0.75),
+                        ChanceOrCountItem("create:experience_nugget", 0.75),
+                        ChanceOrCountItem("minecraft:cobbled_deepslate", 0.12)
+                    ]
+                }
+            )
+        }
+    }
 
     //General Crushing Function
     recipes.forEach(recipe => {

@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "IG",
+    "DC"
+  ],
+  "key": {
+    "I": {
+      "item": "nethersdelight:magma_gelatin"
+    },
+    "G": {
+      "item": "minecraft:gravel"
+    },
+    "D": {
+      "item": "farmersdelight:rich_soil"
+    },
+    "C": {
+      "item": "ars_nouveau:fire_essence"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:fire_agglomeratio"
+  }
+}

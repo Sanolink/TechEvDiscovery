@@ -1,0 +1,14 @@
+{
+    "name": "Resonant Ender",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:resonant_ender\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/resonant_ender_flower",
+      "essence": "mysticalagriculture:item/essence/resonant_ender_essence",
+      "seeds": "mysticalagriculture:item/seeds/resonant_ender_seeds"
+    }
+  }

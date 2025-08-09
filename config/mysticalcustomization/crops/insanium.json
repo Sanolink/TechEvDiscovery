@@ -1,0 +1,14 @@
+{
+    "name": "Insanium",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:insanium\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/insanium_flower",
+      "seeds": "mysticalagriculture:item/seeds/insanium_seeds"
+    },
+    "essence": "mysticalagradditions:insanium_essence"
+  }

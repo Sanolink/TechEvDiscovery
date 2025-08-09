@@ -1,0 +1,14 @@
+{
+    "name": "Fire Dragonsteel",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:fire_dragonsteel\"}}"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower/dragonsteel_fire_flower",
+      "essence": "mysticalagriculture:item/essence/dragonsteel_fire_essence",
+      "seeds": "mysticalagriculture:item/seeds/dragonsteel_fire_seeds"
+    }
+  }

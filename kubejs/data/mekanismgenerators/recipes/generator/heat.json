@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": {
+            "item": "alltheores:copper_gear"
+        },
+        "F": {
+            "item": "minecraft:furnace"
+        },
+        "I": {
+            "item": "alltheores:silver_gear"
+        },
+        "T": {
+            "item": "alltheores:tin_plate"
+        },
+        "O": {
+            "item": "alltheores:osmium_rod"
+        },
+        "W": {
+            "item": "mekanism:basic_control_circuit"
+        }
+    },
+    "pattern": [
+        "ITI",
+        "WOW",
+        "CFC"
+    ],
+    "result": {
+        "item": "mekanismgenerators:heat_generator"
+    }
+}

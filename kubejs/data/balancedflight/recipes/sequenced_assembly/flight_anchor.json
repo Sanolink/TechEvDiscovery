@@ -1,0 +1,114 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:beacon"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "balancedflight:flight_anchor"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:beacon"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:beacon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:beacon"
+        },
+        {
+          "item": "create_sa:steam_engine"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:beacon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:beacon"
+        },
+        {
+          "item": "create_sa:heat_engine"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:beacon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:beacon"
+        },
+        {
+          "item": "create_sa:hydraulic_engine"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:beacon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:beacon"
+        },
+        {
+          "item": "create_things_and_misc:vibration_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:beacon"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:beacon"
+        },
+        {
+          "item": "minecraft:dragon_egg"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:beacon"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:beacon"
+  }
+}

@@ -159,7 +159,8 @@
     "semiblock": true
   },
   "apotheosis": {
-    "ench": true
+    "ench": true,
+    "spawner": true
   },
   "lootr": {
     "info": true

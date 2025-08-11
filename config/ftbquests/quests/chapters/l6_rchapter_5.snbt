@@ -54,17 +54,17 @@
 				"6F64D9A367C073CD"
 				"0F86755CE3BE2113"
 			]
-			icon: "techev_additions:techevium"
+			icon: "extendedcrafting:ultimate_singularity"
 			id: "4E7356179682035C"
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Soon, in 1.5.0 !"
+			subtitle: "Welcome to Age 6 !"
 			tasks: [{
 				id: "7CB895CC1AE88B28"
 				title: "WIP : Age 4"
 				type: "checkmark"
 			}]
-			title: "&lAge 6 : WIP"
+			title: "&l&4Philosophic Ascent"
 			x: 0.0d
 			y: 7.0d
 		}

@@ -327,7 +327,8 @@ JEIEvents.hideItems(event => {
         'sophisticatedstorage:pump_upgrade',
         'sophisticatedstorage:advanced_pump_upgrade',
         'sophisticatedstorage:xp_pump_upgrade',
-        'balancedflight:ascended_flight_ring'
+        'balancedflight:ascended_flight_ring',
+        'mysticalagradditions:dragon_scale'
     ])
 })
 

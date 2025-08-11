@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.1         (_____)
 
 */
 
@@ -70,6 +70,7 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('mysticalagriculture:inferium_farmland', (item, advanced, text) => {
         text.set(1, Text.of(`§7Tier: §eElemental`))
     })
+
     //Blue Skies
     event.add('blue_skies:blue_journal', "§l§fThe §bGatekeeper §fis §CDISABLED")
     event.add('blue_skies:zeal_lighter', "§l§fThe §bGatekeeper §fis §CDISABLED")
@@ -77,6 +78,20 @@ ItemEvents.tooltip(event => {
 
     //Lost Soul
     event.add('forbidden_arcanus:soul', "§l§fRight-click on a block to summon a §bLost Soul")
+
+    //TechEv Items
+    global.TechEvItems.forEach(id => {
+        event.addAdvanced(id, (item, advanced, text) => {
+            text.add(1, "§6✦ [TechEv Addition]")
+        })
+    })
+
+    //TechEv Blocks
+    global.TechEvBlocks.forEach(id => {
+        event.addAdvanced(id, (item, advanced, text) => {
+            text.add(1, "§6✦ [TechEv Addition]")
+        })
+    })
 
     //Create Tooltips (Located in Create Lang)
     const ItemsCreateTooltips = [

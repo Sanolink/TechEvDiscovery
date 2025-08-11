@@ -73,7 +73,7 @@
 				item: "ars_nouveau:glyph_phantom_block"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
@@ -101,7 +101,7 @@
 				item: "ars_nouveau:glyph_wither"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -6.5d
 		}
 		{
@@ -129,7 +129,7 @@
 				item: "ars_nouveau:glyph_fortune"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
@@ -214,7 +214,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1D90232FE9461C96"]
@@ -241,7 +241,7 @@
 				item: "ars_nouveau:glyph_summon_wolves"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -269,7 +269,7 @@
 				item: "ars_nouveau:glyph_name"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -297,7 +297,7 @@
 				item: "ars_nouveau:glyph_dampen"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -325,7 +325,7 @@
 				item: "ars_nouveau:glyph_gravity"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -353,7 +353,7 @@
 				item: "ars_nouveau:glyph_firework"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -381,7 +381,7 @@
 				item: "ars_nouveau:glyph_split"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: -5.5d
 		}
 		{
@@ -437,7 +437,7 @@
 				item: "ars_nouveau:glyph_crush"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
@@ -493,7 +493,7 @@
 				item: "ars_nouveau:glyph_conjure_water"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -521,7 +521,7 @@
 				item: "ars_nouveau:glyph_lightning"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -4.5d
 		}
 		{
@@ -577,7 +577,7 @@
 				item: "ars_nouveau:glyph_smelt"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -662,7 +662,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1D90232FE9461C96"]
@@ -689,7 +689,7 @@
 				item: "ars_nouveau:glyph_amplify"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: 0.5d
 		}
 		{
@@ -717,7 +717,7 @@
 				item: "ars_nouveau:glyph_bounce"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -773,7 +773,7 @@
 				item: "ars_nouveau:glyph_glide"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -6.5d
 		}
 		{
@@ -829,7 +829,7 @@
 				item: "ars_nouveau:glyph_fangs"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -6.5d
 		}
 		{
@@ -861,7 +861,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3E4B4A385E51ABCC"]
+			dependencies: ["1D90232FE9461C96"]
 			id: "5DEE3C51D5DAB0DC"
 			rewards: [
 				{
@@ -885,8 +885,8 @@
 				item: "ars_nouveau:glyph_fell"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1D90232FE9461C96"]
@@ -913,8 +913,8 @@
 				item: "ars_nouveau:glyph_sensitive"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1D90232FE9461C96"]
@@ -941,7 +941,7 @@
 				item: "ars_nouveau:glyph_redstone_signal"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -1053,7 +1053,7 @@
 				item: "ars_nouveau:glyph_interact"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -1193,7 +1193,7 @@
 				item: "ars_nouveau:glyph_summon_steed"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -1249,7 +1249,7 @@
 				item: "ars_nouveau:glyph_aoe"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -1277,8 +1277,8 @@
 				item: "ars_nouveau:glyph_decelerate"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3E4B4A385E51ABCC"]
@@ -1305,7 +1305,7 @@
 				item: "ars_nouveau:glyph_extend_time"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -1333,8 +1333,8 @@
 				item: "ars_nouveau:glyph_orbit"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.5d
+			x: 4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3E4B4A385E51ABCC"]
@@ -1389,7 +1389,7 @@
 				item: "ars_nouveau:glyph_summon_undead"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
@@ -1417,7 +1417,7 @@
 				item: "ars_nouveau:glyph_rune"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -1473,7 +1473,7 @@
 				item: "ars_nouveau:glyph_explosion"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -3.0d
 		}
 		{
@@ -1529,7 +1529,7 @@
 				item: "ars_nouveau:glyph_wind_shear"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -1557,7 +1557,7 @@
 				item: "ars_nouveau:glyph_sense_magic"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
@@ -1614,7 +1614,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3E4B4A385E51ABCC"]
@@ -1641,7 +1641,7 @@
 				item: "ars_nouveau:glyph_slowfall"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -1669,8 +1669,8 @@
 				item: "ars_nouveau:glyph_extract"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1D90232FE9461C96"]
@@ -1697,7 +1697,7 @@
 				item: "ars_nouveau:glyph_delay"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -1725,7 +1725,7 @@
 				item: "ars_nouveau:glyph_cold_snap"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -1753,7 +1753,7 @@
 				item: "ars_nouveau:glyph_summon_decoy"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -1781,7 +1781,7 @@
 				item: "ars_nouveau:glyph_infuse"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -1809,7 +1809,7 @@
 				item: "ars_nouveau:glyph_hex"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -4.5d
 		}
 		{
@@ -1837,8 +1837,8 @@
 				item: "ars_nouveau:glyph_underfoot"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6A3019BD8AF4ECF8"]
@@ -4039,7 +4039,7 @@
 				item: "ars_nouveau:glyph_wall"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -4.5d
 		}
 		{
@@ -4352,7 +4352,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1D90232FE9461C96"]
@@ -4379,7 +4379,7 @@
 				item: "ars_nouveau:glyph_randomize"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: 2.5d
 		}
 	]

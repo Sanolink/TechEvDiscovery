@@ -571,7 +571,7 @@
 	"Sponges Better" = true
 	"Sign Editing" = true
 	"Simple Harvest" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	"Shulker Packing" = true
 
 	[tweaks.gold_tools_have_fortune]

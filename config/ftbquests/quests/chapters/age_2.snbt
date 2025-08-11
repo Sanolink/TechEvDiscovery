@@ -161,16 +161,16 @@
 			id: "17B36047F8DFB1DD"
 			rewards: [{
 				id: "0FCDA76DE34C1D40"
-				item: "alltheores:brass_dust"
+				item: "create:brass_alloy"
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "7A649C267C8CF028"
-				item: "alltheores:brass_dust"
+				item: "create:brass_alloy"
 				type: "item"
 			}]
-			title: "&lBrass Dust"
+			title: "&lBrass Alloy"
 			x: 2.5d
 			y: 3.0d
 		}

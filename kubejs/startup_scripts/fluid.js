@@ -13,59 +13,58 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.1         (_____)
 
 */
 
-
 StartupEvents.registry('fluid', e => {
 
-    e.create("create:molten_lapis")
-      .displayName("Molten Lapis")
-      .thickTexture(0x345ec3)
-      
-    e.create("create:molten_source")
-      .displayName("Molten Source")
-      .thickTexture(0xcc66ff)
+    //Basic Fluids
+    function BasicFluid(id, displayName) {
+      global.TechEvItems.push(`${id}_bucket`)
+      return e.create(id).displayName(displayName)
+    }
 
-    e.create('hostilenetworks:polymer_clay')
-      .displayName('Liquid Polymer Clay')
-      .stillTexture('hostilenetworks:fluid/polymer_clay_still')
-      .flowingTexture('hostilenetworks:fluid/polymer_clay_flow')
+    function ThickFluid(id, displayName, color) {
+      return BasicFluid(id, displayName).thickTexture(color)
+    }
 
-    e.create('botania:synthetic_mana_diamond')
-      .displayName('Synthetic Mana Diamond')
-      .stillTexture('botania:fluid/synthetic_mana_diamond_still')
-      .flowingTexture('botania:fluid/synthetic_mana_diamond_flow')
+    function ThinFluid(id, displayName, color) {
+      return BasicFluid(id, displayName).thinTexture(color)
+    }
 
-    e.create('psi:destabilized_psimetal')
-      .displayName('Destabilized Psimetal')
-      .stillTexture('psi:fluid/destabilized_psimetal_still')
-      .flowingTexture('psi:fluid/destabilized_psimetal_flow')
+    function FlowingFluid(id, displayName, still, flow) {
+      return BasicFluid(id, displayName).stillTexture(still).flowingTexture(flow)
+    }
 
-    e.create('forbidden_arcanus:liquid_soul')
-      .displayName('Liquid Soul')
-      .stillTexture('forbidden_arcanus:fluid/liquid_soul_still')
-      .flowingTexture('forbidden_arcanus:fluid/liquid_soul_flow')
+    // Thick Fluids
+    ThickFluid('create:molten_lapis', 'Molten Lapis', 0x345ec3)
 
-    e.create('ae2:resonant_fluix')
-      .displayName('Resonant Fluix')
-      .stillTexture('ae2:fluid/resonant_fluix_still')
-      .flowingTexture('ae2:fluid/resonant_fluix_flow')
+    ThickFluid('create:molten_source', 'Molten Source', 0xcc66ff)
 
-    e.create('mysticalagradditions:molten_insanium')  
-      .color(0x50007B)
-      .displayName('Molten Insanium')
-      .stillTexture('mysticalagradditions:block/molten_still')
-      .flowingTexture('mysticalagradditions:block/molten_flowing')
+    // Thin Fluids
+    ThinFluid('mekanism:hyperphasium', 'Liquid Hyperphasium', 0x6976C7)
 
-    e.create('industrialforegoing:echoplasm')
-      .displayName('Echoplasm')
-      .stillTexture('industrialforegoing:blocks/fluids/echoplasm_still')
-      .flowingTexture('industrialforegoing:blocks/fluids/echoplasm_flow')
+    // Flowing Fluids
+    FlowingFluid('hostilenetworks:polymer_clay', 'Liquid Polymer Clay',
+      'hostilenetworks:fluid/polymer_clay_still', 'hostilenetworks:fluid/polymer_clay_flow')
 
-    e.create('mekanism:hyperphasium')
-      .displayName('Liquid Hyperphasium')
-      .thinTexture(0x6976C7)
+    FlowingFluid('botania:synthetic_mana_diamond', 'Synthetic Mana Diamond',
+      'botania:fluid/synthetic_mana_diamond_still','botania:fluid/synthetic_mana_diamond_flow')
+
+    FlowingFluid('psi:destabilized_psimetal', 'Destabilized Psimetal',
+      'psi:fluid/destabilized_psimetal_still', 'psi:fluid/destabilized_psimetal_flow')
+
+    FlowingFluid('forbidden_arcanus:liquid_soul', 'Liquid Soul',
+      'forbidden_arcanus:fluid/liquid_soul_still', 'forbidden_arcanus:fluid/liquid_soul_flow')
+
+    FlowingFluid('ae2:resonant_fluix', 'Resonant Fluix',
+      'ae2:fluid/resonant_fluix_still', 'ae2:fluid/resonant_fluix_flow')
+
+    FlowingFluid('mysticalagradditions:molten_insanium', 'Molten Insanium',
+      'mysticalagradditions:block/molten_still', 'mysticalagradditions:block/molten_flowing').color(0x50007B)
+
+    FlowingFluid('industrialforegoing:echoplasm', 'Echoplasm',
+      'industrialforegoing:blocks/fluids/echoplasm_still', 'industrialforegoing:blocks/fluids/echoplasm_flow')
 
   })

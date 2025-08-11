@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.1         (_____)
 
 */
 
@@ -26,6 +26,7 @@ StartupEvents.registry('item', e => {
 
     //Basic Items
     function BasicItem(id, displayName) {
+      global.TechEvItems.push(id)
       return e.create(id).displayName(displayName)
     }
 
@@ -131,6 +132,7 @@ StartupEvents.registry('item', e => {
     
     //Sequenced Assembly Items
     function SequencedAssemblyItem(id, displayName) {
+      global.TechEvItems.push(id)
       return e.createCustom(id, () => new $SequencedAssemblyItem(new $ItemProperties())).displayName(displayName)
     }
 
@@ -147,6 +149,7 @@ StartupEvents.registry('item', e => {
 
     //Sand Paper Items
     function SandPaperItem(id, displayName, durability) {
+      global.TechEvItems.push(id)
       return e.createCustom(id, () => new $SandPaperItem(new $ItemProperties().defaultDurability(durability))).displayName(displayName).tag("create:sandpaper")
     }
 

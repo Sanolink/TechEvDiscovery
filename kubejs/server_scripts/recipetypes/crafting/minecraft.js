@@ -1,5 +1,21 @@
-//Code By SanoLink For TechEV - Discovery
-//Last Modification : 1.1.2
+/* 
+ _____                                             _____ 
+( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+ |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
+ |   |  _____         _     _____        ______    |   | 
+ |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
+ |   |   | |/ _ \/ __| '_ \|  _| \ \ / /  \ \ \ \  |   | 
+ |   |   | |  __/ (__| | | | |___ \ V /   / / / /  |   | 
+ |   |  _|_|\___|\___|_| |_|_____| \_/   /_/_/_/   |   | 
+ |   | |  _ \(_)___  ___ _____   _____ _ __ _   _  |   | 
+ |   | | | | | / __|/ __/ _ \ \ / / _ \ '__| | | | |   | 
+ |   | | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | |   | 
+ |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
+ |   |                                      |___/  |   | 
+ |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
+(_____)         Last Modification : 1.4.1         (_____)
+
+*/
 
 ServerEvents.recipes(event => {
 
@@ -23,23 +39,19 @@ ServerEvents.recipes(event => {
                 G: "minecraft:gold_block",
                 A: "minecraft:golden_apple"
             }
-        }
-    ]
-
-    const shapeless = [
+        },
         //Dragon Egg
-        {   
+        {
             output: "minecraft:dragon_egg",
-            count: "",
-            input: ["quark:dragon_scale", "#forge:eggs"]
+            pattern: [" D ", "DED", "DDD"],
+            key: {
+                D: "forbidden_arcanus:dragon_scale",
+                E: "#forge:eggs",
+            }
         }
     ]
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.output)
-    })
-
-    shapeless.forEach((recipe) => {
-        event.shapeless(recipe.count + recipe.output, recipe.input).id(recipe.output)
     })
 })

@@ -97,6 +97,9 @@
     "advanced_auto_table": true,
     "compressor": true
   },
+  "projecte": {
+    "emc_provider": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -157,6 +160,9 @@
     "redstone": true,
     "camo": true,
     "semiblock": true
+  },
+  "mcjtylib": {
+    "jadeaddons": true
   },
   "apotheosis": {
     "ench": true,

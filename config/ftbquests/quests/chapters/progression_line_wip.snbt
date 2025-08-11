@@ -28,7 +28,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 25.5d
-			y: -8.5d
+			y: -14.5d
 		}
 		{
 			click: ""
@@ -95,6 +95,19 @@
 			x: 25.5d
 			y: -3.0d
 		}
+		{
+			click: ""
+			color: 16711680
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
+			rotation: -90.0d
+			width: 3.25d
+			x: 25.5d
+			y: -9.0d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -148,6 +161,14 @@
 			size: 3.0d
 			x: 25.5d
 			y: -6.0d
+		}
+		{
+			id: "2B8A84CF404AE83B"
+			linked_quest: "5A7EB6BEA837C5F0"
+			shape: "octagon"
+			size: 3.0d
+			x: 25.5d
+			y: -12.0d
 		}
 	]
 	quests: [

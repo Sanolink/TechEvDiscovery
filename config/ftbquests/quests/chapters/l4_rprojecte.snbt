@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l4_rprojecte"
+	group: "3818CF066B02A8FF"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "6A150C4C54400269"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&4♦ &rProjectE"
+}

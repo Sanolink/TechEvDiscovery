@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l4_rftb_industrial_contraptions"
+	group: "3818CF066B02A8FF"
+	icon: "ftbic:iridium_circuit"
+	id: "61E6211CFB2A5E68"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&4♦ &rFTB Industrial Contraptions"
+}

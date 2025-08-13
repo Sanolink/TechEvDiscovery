@@ -16,11 +16,11 @@
     }
   ],
   "textures": {
-    "particle": "custommachinery:block/machines/psi_infuser_top",
-    "down": "custommachinery:block/machines/psi_infuser_bottom",
-    "up": "custommachinery:block/machines/psi_infuser_top",
-    "east": "custommachinery:block/machines/psi_infuser_side",
-    "west": "custommachinery:block/machines/psi_infuser_side",
-    "south": "custommachinery:block/machines/psi_infuser_side"
+    "particle": "custommachinery:block/machine/psi_infuser_top",
+    "down": "custommachinery:block/machine/psi_infuser_bottom",
+    "up": "custommachinery:block/machine/psi_infuser_top",
+    "east": "custommachinery:block/machine/psi_infuser_side",
+    "west": "custommachinery:block/machine/psi_infuser_side",
+    "south": "custommachinery:block/machine/psi_infuser_side"
   }
 }

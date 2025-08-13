@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.2         (_____)
 
 */
 
@@ -57,6 +57,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ae2:network/cells/fluid_cell_housing'})
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz'})
     event.remove({ id: 'ae2:network/blocks/controller'})
+    event.remove({ id: 'ae2:transform/fluix_crystals'})
 
     //Aquaculture
     event.remove({ output: 'aquaculture:neptunium_fillet_knife', type: 'minecraft:crafting_shaped' })
@@ -322,6 +323,7 @@ ServerEvents.recipes(event => {
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})
     event.remove({ id: 'pneumaticcraft:block_heat_properties/immersiveengineering/uranium'})
+    event.remove({ id: 'pneumaticcraft:assembly/pressure_chamber_valve_assembly/advanced_pressure_tube'})
 
     //Powah 
     event.remove({ id: 'powah:crafting/dielectric_paste'})

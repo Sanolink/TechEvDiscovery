@@ -1,8 +1,8 @@
 {
   "name": "PSI Infuser",
   "appearance": {
-    "block": "custommachinery:machines/psi_infuser_idle",
-    "item": "custommachinery:machines/psi_infuser_idle",
+    "block": "custommachinery:machine/psi_infuser_idle",
+    "item": "custommachinery:machine/psi_infuser_idle",
     "ambient_sound": "",
     "interaction_sound": "minecraft:stone",
     "light": 0,
@@ -14,7 +14,7 @@
     "requires_tool": true,
     "shape": [[0, 0, 0, 1, 1, 1]],
     "running": {
-      "block": "custommachinery:machines/psi_infuser_running",
+      "block": "custommachinery:machine/psi_infuser_running",
       "ambient_sound": "thermal:block.machine_smelter",
       "light": 10
     }

@@ -1,0 +1,13 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "type": "pneumaticcraft:stacked_item",
+    "count": 4,
+    "item": "pneumaticcraft:reinforced_pressure_tube"
+  },
+  "program": "laser",
+  "result": {
+    "count": 4,
+    "item": "pneumaticcraft:advanced_pressure_tube"
+  }
+}

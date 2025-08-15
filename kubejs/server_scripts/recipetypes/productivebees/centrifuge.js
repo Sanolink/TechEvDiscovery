@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.3         (_____)
 
 */
 
@@ -53,6 +53,9 @@ ServerEvents.recipes(event => {
             newOutputs.push(BeeFluidWithCount("create:honey", 50))
             recipe.json.add("outputs", newOutputs);
         }
+
+        event.remove({ id: recipe.getId() });
+        event.custom(recipe.json).id(recipe.getId());
     })
 
     //Recipes 

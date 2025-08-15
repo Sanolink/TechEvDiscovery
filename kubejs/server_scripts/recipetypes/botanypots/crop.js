@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.3         (_____)
 
 */
 
@@ -45,6 +45,9 @@ ServerEvents.recipes(event => {
             recipe.json.add('categories', [newCategory])
             recipe.json.add('drops', newDrops)
             parsedSeed.push(seedName)
+            
+            event.remove({ id: recipe.getId() });
+            event.custom(recipe.json).id(recipe.getId());
         }
     })
 

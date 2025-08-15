@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.2         (_____)
+(_____)         Last Modification : 1.4.3         (_____)
 
 */
 
@@ -78,7 +78,6 @@ ServerEvents.recipes(event => {
 
     //Baubley Heart Canisters
     event.remove({ id: 'bhc:heart_amulet'})
-    event.remove({ id: 'bhc:soul_heart_amulet'})
 
     //Blue Skies
     event.remove({ id: 'blue_skies:zeal_lighter'})

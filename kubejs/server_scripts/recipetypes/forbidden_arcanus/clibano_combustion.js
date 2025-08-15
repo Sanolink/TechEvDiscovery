@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.3         (_____)
 
 */
 
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
             id: "obsidian_ingot",
             cooking_time: 100,
             experience: 0.35,
-            ingredient: {item: "forbidden_arcanus:obsidian_with_iron"},
+            ingredient: parseIngredient("forbidden_arcanus:obsidian_with_iron"),
             result: "forbidden_arcanus:obsidian_ingot"
         },
         {
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
             cooking_time: 150,
             experience: 1.0,
             fire_type: "soul_fire",
-            ingredient: {item: "alltheores:steel_ingot"},
+            ingredient: parseIngredient("alltheores:steel_ingot"),
             result: "spirit:soul_steel_ingot"
         },
         {
@@ -41,8 +41,40 @@ ServerEvents.recipes(event => {
             cooking_time: 150,
             experience: 1.0,
             fire_type: "soul_fire",
-            ingredient: {item: "alltheores:steel_block"},
+            ingredient: parseIngredient("alltheores:steel_block"),
             result: "spirit:soul_steel_block"
+        },
+        {
+            id: "soul_glass",
+            cooking_time: 150,
+            experience: 1.0,
+            fire_type: "soul_fire",
+            ingredient: parseIngredient("minecraft:tinted_glass"),
+            result: "spirit:soul_glass"
+        },
+        {
+            id: "soul_slate",
+            cooking_time: 150,
+            experience: 1.0,
+            fire_type: "soul_fire",
+            ingredient: parseIngredient("minecraft:deepslate"),
+            result: "spirit:soul_slate"
+        },
+        {
+            id: "soul_powder",
+            cooking_time: 150,
+            experience: 1.0,
+            fire_type: "soul_fire",
+            ingredient: parseIngredient("minecraft:glowstone_dust"),
+            result: ChanceOrCountItem("spirit:soul_powder", 2)
+        },
+        {
+            id: "soul_powder_block",
+            cooking_time: 150,
+            experience: 1.0,
+            fire_type: "soul_fire",
+            ingredient: parseIngredient("minecraft:glowstone"),
+            result: ChanceOrCountItem("spirit:soul_powder", 8)
         }
         
     ]

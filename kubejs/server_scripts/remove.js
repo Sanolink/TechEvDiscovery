@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.3         (_____)
+(_____)         Last Modification : 1.4.4         (_____)
 
 */
 
@@ -125,6 +125,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crafting/materials/rose_quartz'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc'})
+    event.remove({ id: 'create:crafting/materials/electron_tube'})
     event.remove({ id: 'create:mixing/andesite_alloy'})
     event.remove({ id: 'create:mixing/andesite_alloy_from_zinc'})
     event.remove({ id: 'create:pressing/desh_ingot'})

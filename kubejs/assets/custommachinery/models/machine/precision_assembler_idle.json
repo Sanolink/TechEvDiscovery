@@ -1,0 +1,6 @@
+{
+  "parent": "custommachinery:machine/precision_assembler_base",
+  "textures": {
+    "north": "custommachinery:block/machine/precision_assembler_idle"
+  }
+}

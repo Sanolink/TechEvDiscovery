@@ -1,0 +1,8 @@
+{
+  "block.precision_assembler": {
+    "subtitle": "subtitles.custommachinery.block.precision_assembler",
+    "sounds": [
+      "custommachinery:block/precision_assembler"
+    ]
+  }
+}

@@ -166,16 +166,16 @@
 			rewards: [{
 				count: 2
 				id: "4E93F5E95DA65F07"
-				item: "alltheores:steel_ingot"
+				item: "pneumaticcraft:ingot_iron_compressed"
 				random_bonus: 4
 				type: "item"
 			}]
 			tasks: [{
 				id: "0FF643CA7D414DF0"
-				item: "alltheores:steel_ingot"
+				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			title: "&l&7Steel"
+			title: "&l&7Compressed Steel"
 			x: 1.0d
 			y: 1.5d
 		}

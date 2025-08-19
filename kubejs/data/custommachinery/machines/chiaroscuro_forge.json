@@ -1,0 +1,111 @@
+{
+  "name": "Chiaroscuro Forge",
+  "appearance": {
+    "block": "custommachinery:machine/chiaroscuro_forge_idle",
+    "item": "custommachinery:machine/chiaroscuro_forge_idle",
+    "ambient_sound": "",
+    "interaction_sound": "create:refined_radiance_casing",
+    "light": 0,
+    "color": 16777215,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": ["minecraft:mineable/pickaxe", "minecraft:mineable/axe"],
+    "mining_level": "",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "custommachinery:machine/chiaroscuro_forge_running",
+      "ambient_sound": "thermal:block.machine_crucible",
+      "light": 10
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "id": "tank",
+      "capacity": 4000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 182,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/chiaroscuro_forge/gui.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:text",
+      "text": {"text": "Chiaroscuro Forge", "color": "#3f3c5d", "bold": true},
+      "height": 7,
+      "x": 47,
+      "y": 8
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": "custommachinery:textures/gui/base_inventory.png",
+      "x": 10,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/base_slot.png",
+      "id": "input",
+      "x": 28,
+      "y": 53
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/base_slot.png",
+      "id": "output",
+      "x": 136,
+      "y": 53
+    },
+    {
+      "type": "custommachinery:fluid",
+      "texture": "custommachinery:textures/gui/chiaroscuro_forge/tank_storage.png",
+      "id": "tank",
+      "x": 64,
+      "y": 46
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/chiaroscuro_forge/progress_empty.png",
+      "texture_filled": "custommachinery:textures/gui/chiaroscuro_forge/progress_filled.png",
+      "x": 36,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/chiaroscuro_forge/fuel_empty.png",
+      "texture_filled": "custommachinery:textures/gui/chiaroscuro_forge/fuel_filled.png",
+      "direction": "bottom",
+      "x": 66,
+      "y": 29
+    },
+    {
+      "type": "custommachinery:dump",
+      "texture": "custommachinery:textures/gui/dump.png",
+      "texture_hovered": "custommachinery:textures/gui/dump_hovered.png",
+      "tanks": "tank",
+      "x": 119,
+      "y": 65
+    }
+  ],
+  "jei": [],
+  "catalysts": []
+}

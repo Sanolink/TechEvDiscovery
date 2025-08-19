@@ -18,7 +18,7 @@
           "item": "minecraft:beacon"
         },
         {
-          "item": "create:precision_mechanism"
+          "item": "create_sa:heat_engine"
         }
       ],
       "results": [
@@ -50,7 +50,7 @@
           "item": "minecraft:beacon"
         },
         {
-          "item": "create_sa:heat_engine"
+          "item": "create_sa:hydraulic_engine"
         }
       ],
       "results": [
@@ -66,7 +66,7 @@
           "item": "minecraft:beacon"
         },
         {
-          "item": "create_sa:hydraulic_engine"
+          "item": "createqol:chiaroscuro_actuator"
         }
       ],
       "results": [

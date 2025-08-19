@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.1         (_____)
+(_____)         Last Modification : 1.4.4         (_____)
 
 */
 
@@ -68,7 +68,6 @@ StartupEvents.registry('item', e => {
     BasicItem('create_things_and_misc:psi_quartz_sheet', "Psi Quartz Plate").texture('create_things_and_misc:items/psi_quartz_sheet')
     BasicItem('create_things_and_misc:source_quartz_sheet', "Source Quartz Plate").texture('create_things_and_misc:items/source_quartz_sheet')
     BasicItem('create_things_and_misc:antimatter_quartz_sheet', "Antimatter Quartz Plate").texture('create_things_and_misc:items/antimatter_quartz_sheet')
-    
     BasicItem('create:raw_andesite_alloy', "Raw Andesite Alloy")
     BasicItem('create:brass_alloy', "Brass Alloy")
     BasicItem('create:copper_alloy', "Copper Alloy")
@@ -76,19 +75,26 @@ StartupEvents.registry('item', e => {
     BasicItem('create:crushed_raw_ostrum', "Crushed Ostrum Ore").tag("create:crushed_raw_materials")
     BasicItem('create:crushed_raw_calorite', "Crushed Calorite Ore").tag("create:crushed_raw_materials")
     BasicItem('create:crushed_raw_nephryx', "Crushed Nephryx Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:electron_shell', "Electron Shell")
     BasicItem('create:blue_quartz', "Blue Quartz")
     BasicItem('create:polished_blue_quartz', "Polished Blue Quartz")
+    BasicItem('create:positron_shell', "Positron Shell")
     BasicItem('create:positron_tube', "Positron Tube")
     BasicItem('create:psi_quartz', "Psi Quartz")
     BasicItem('create:polished_psi_quartz', "Polished Psi Quartz")
+    BasicItem('create:psi_shell', "Psi Shell")
     BasicItem('create:psi_tube', "Psi Tube")
     BasicItem('create:source_quartz', "Source Quartz")
     BasicItem('create:polished_source_quartz', "Polished Source Quartz")
+    BasicItem('create:source_shell', "Source Shell")
     BasicItem('create:source_tube', "Source Tube")
     BasicItem('create:antimatter_quartz', "Antimatter Quartz")
-    BasicItem('create:antiproton_tube', "Antiproton Tube")
     BasicItem('create:polished_antimatter_quartz', "Polished Antimatter Quartz")
+    BasicItem('create:antiproton_shell', "Antiproton Shell")
+    BasicItem('create:antiproton_tube', "Antiproton Tube")
 
+    BasicItem('createqol:chiaroscuro_actuator', "Chiaroscuro Actuator").rarity("rare")
+    
     BasicItem('hostilenetworks:blue_skies_prediction', "Generalized Blue Skies Prediction")
     BasicItem('hostilenetworks:inert_data_model', "Inert Model Framework")
     BasicItem('hostilenetworks:undergarden_prediction', "Generalized Undergarden Prediction")
@@ -139,6 +145,8 @@ StartupEvents.registry('item', e => {
     SequencedAssemblyItem('bhc:incomplete_heart_amulet', "Incomplete Heart Amulet")
 
     SequencedAssemblyItem('create:incomplete_copper_alloy', "Incomplete Copper Alloy")
+    
+    SequencedAssemblyItem('createqol:incomplete_chiaroscuro_actuator', "Incomplete Chiaroscuro Actuator")
 
     SequencedAssemblyItem('immersiveengineering:incomplete_hammer', "Incomplete Engineer's Hammer")
     SequencedAssemblyItem('immersiveengineering:incomplete_wirecutter', "Incomplete Engineer's Wire Cutters")

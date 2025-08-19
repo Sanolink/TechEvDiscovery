@@ -514,11 +514,19 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "7E4C1EA716C0EDE2"
-				item: "pneumaticcraft:refinery"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7E4C1EA716C0EDE2"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "328082F61745C65C"
+					item: "pneumaticcraft:refinery_output"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -7.0d
 		}

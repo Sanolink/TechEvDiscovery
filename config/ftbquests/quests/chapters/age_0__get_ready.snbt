@@ -392,6 +392,18 @@
 			x: 2.5d
 			y: -4.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createqol:item/chiaroscuro_actuator"
+			rotation: 10.0d
+			width: 1.0d
+			x: 5.5d
+			y: -3.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

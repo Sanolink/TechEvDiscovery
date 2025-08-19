@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.1         (_____)
+(_____)         Last Modification : 1.4.4         (_____)
 
 */
 
@@ -78,6 +78,21 @@ ItemEvents.tooltip(event => {
 
     //Lost Soul
     event.add('forbidden_arcanus:soul', "§l§fRight-click on a block to summon a §bLost Soul")
+
+    //Custom Machinery Multiblocks
+    let multiblocks = [
+        'custommachinery:precision_assembler',
+        'custommachinery:chiaroscuro_forge'
+    ]
+
+    event.addAdvanced('custommachinery:custom_machine_item', (item, advanced, text) => {
+        if (!item.nbt) return
+        let machine = item.nbt.getString("machine")
+        if (multiblocks.includes(machine)) {
+            text.set(1, "§fUse §c§l[Schematicannon] §fto build this Multiblock!")
+        }
+    })
+
 
     //TechEv Items
     global.TechEvItems.forEach(id => {

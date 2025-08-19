@@ -13,26 +13,36 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.4         (_____)
 
 */
 
 ServerEvents.recipes(event => {
     
     //Recipes
-    let recipes = []
+    let recipes = [
+            {
+            output: "create:electron_shell",
+            pattern: [" Q ", " Q ", " P "],
+            key: {
+                Q: "create:polished_rose_quartz",
+                P: "#forge:plates/iron"
+            }
+        },
+    ]
+
     let shapeless = []
 
-    Quartz("blue", "create:positron_tube")
-    Quartz("source", "create:source_tube")
-    Quartz("psi", "create:psi_tube")
-    Quartz("antimatter", "create:antiproton_tube")
+    Quartz("blue", "create:positron_shell")
+    Quartz("source", "create:source_shell")
+    Quartz("psi", "create:psi_shell")
+    Quartz("antimatter", "create:antiproton_shell")
 
-    function Quartz(type, tube) {
-        //Create Tubes
+    function Quartz(type, shell) {
+        //Create Shells
         recipes.push(
             {
-                output: tube,
+                output: shell,
                 pattern: ["I", "I", "P"],
                 key: {
                     I: "create:polished_" + type + "_quartz",

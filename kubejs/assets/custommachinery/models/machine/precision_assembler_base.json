@@ -1,0 +1,26 @@
+{
+  "loader": "thermal:reconfigurable",
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": {"texture": "#down", "cullface": "down"},
+        "up": {"texture": "#up", "cullface": "up"},
+        "north": {"texture": "#north", "cullface": "north"},
+        "south": {"texture": "#south", "cullface": "south"},
+        "west": {"texture": "#west", "cullface": "west"},
+        "east": {"texture": "#east", "cullface": "east"}
+      }
+    }
+  ],
+  "textures": {
+    "particle": "custommachinery:block/machine/precision_assembler_idle",
+    "down": "create:block/andesite_casing",
+    "up": "create:block/andesite_casing",
+    "east": "create:block/andesite_casing",
+    "west": "create:block/andesite_casing",
+    "south": "create:block/andesite_casing"
+  }
+}

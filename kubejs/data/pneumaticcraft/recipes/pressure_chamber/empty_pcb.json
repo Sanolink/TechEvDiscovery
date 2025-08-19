@@ -4,12 +4,12 @@
     {
       "type": "pneumaticcraft:stacked_item",
       "count": 2,
-      "item": "minecraft:redstone_torch"
+      "item": "immersiveengineering:wirecoil_redstone"
     },
     {
       "type": "pneumaticcraft:stacked_item",
       "count": 3,
-      "tag": "forge:nuggets/gold"
+      "item": "createaddition:gold_wire"
     },
     {
       "item": "immersiveengineering:circuit_board"
@@ -18,7 +18,6 @@
   "pressure": 1.5,
   "results": [
     {
-      "count": 3,
       "item": "pneumaticcraft:empty_pcb"
     }
   ]

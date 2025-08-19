@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "A": {
+      "item": "createqol:chiaroscuro_actuator"
+    },
+    "I": {
+      "tag": "pneumaticcraft:reinforced_stone_bricks"
+    },
+    "T": {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  },
+  "pattern": [
+    "III",
+    "IAT",
+    "IFI"
+  ],
+  "result": {
+    "item": "pneumaticcraft:air_compressor"
+  }
+}

@@ -139,6 +139,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:milling/compat/ae2/fluix_crystal'})
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coke_block'})
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coal_coke'})
+    event.remove({ id: 'createaddition:crafting/large_connector_gold'})
     event.remove({ id: 'create:mechanical_crafting/ascended_flight_ring'})
     event.remove({ id: 'create:milling/compat/ae2/sky_stone_block'})
     event.remove({ id: 'create_new_age:shapeless/energiser_t1'})

@@ -156,6 +156,21 @@ ServerEvents.recipes(event => {
                 Pressing()
             ])
         },
+        // Chiaroscuro Actuator
+        {
+            id: "chiaroscuro_actuator",
+            input: [parseIngredient("createqol:incomplete_chiaroscuro_actuator")],
+            output: [parseIngredient("createqol:chiaroscuro_actuator")],
+            loops: 3,
+            transition: "createqol:incomplete_chiaroscuro_actuator",
+            sequence: makeSequence("createqol:incomplete_chiaroscuro_actuator", [
+                Deploying("createaddition:large_connector"),
+                Deploying("pneumaticcraft:compressed_iron_gear"),
+                Pressing()
+            ])
+        }
+    ]
+
     function createTubes(type) {
         recipes.push(
             {

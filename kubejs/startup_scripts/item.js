@@ -93,6 +93,8 @@ StartupEvents.registry('item', e => {
     BasicItem('create:antiproton_shell', "Antiproton Shell")
     BasicItem('create:antiproton_tube', "Antiproton Tube")
 
+    BasicItem('createqol:chiaroscuro_actuator', "Chiaroscuro Actuator").rarity("rare")
+    
     BasicItem('hostilenetworks:blue_skies_prediction', "Generalized Blue Skies Prediction")
     BasicItem('hostilenetworks:inert_data_model', "Inert Model Framework")
     BasicItem('hostilenetworks:undergarden_prediction', "Generalized Undergarden Prediction")
@@ -143,6 +145,8 @@ StartupEvents.registry('item', e => {
     SequencedAssemblyItem('bhc:incomplete_heart_amulet', "Incomplete Heart Amulet")
 
     SequencedAssemblyItem('create:incomplete_copper_alloy', "Incomplete Copper Alloy")
+    
+    SequencedAssemblyItem('createqol:incomplete_chiaroscuro_actuator', "Incomplete Chiaroscuro Actuator")
 
     SequencedAssemblyItem('immersiveengineering:incomplete_hammer', "Incomplete Engineer's Hammer")
     SequencedAssemblyItem('immersiveengineering:incomplete_wirecutter', "Incomplete Engineer's Wire Cutters")

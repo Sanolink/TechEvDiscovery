@@ -6,7 +6,7 @@
 	witheringSoulChance = 0.35
 	#The amount of Dragon Scales that an Ender Dragon will drop when killed.
 	#Range: 0 ~ 64
-	dragonScalesAmount = 8
+	dragonScalesAmount = 0
 	#Can tier 6 crops be fertilized using Mystical Fertilizer or Fertilized Essence?
 	fertilizableTier6Crops = false
 	#The duration of each Essence Apples effects in seconds.

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "INI",
+    "NRN",
+    "INI"
+  ],
+  "key": {
+    "N": {
+      "item": "thermal:invar_coin"
+    },
+    "I": {
+      "item": "alltheores:iron_gear"
+    },
+    "R": {
+      "item": "mekanism:basic_control_circuit"
+    }
+  },
+  "result": {
+    "item": "pipez:basic_upgrade",
+    "count": 1
+  }
+}

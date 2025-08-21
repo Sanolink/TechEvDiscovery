@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.5         (_____)
 
 */
 
@@ -57,6 +57,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ae2:network/cells/fluid_cell_housing'})
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz'})
     event.remove({ id: 'ae2:network/blocks/controller'})
+    event.remove({ id: 'ae2:transform/fluix_crystals'})
 
     //Aquaculture
     event.remove({ output: 'aquaculture:neptunium_fillet_knife', type: 'minecraft:crafting_shaped' })
@@ -77,7 +78,6 @@ ServerEvents.recipes(event => {
 
     //Baubley Heart Canisters
     event.remove({ id: 'bhc:heart_amulet'})
-    event.remove({ id: 'bhc:soul_heart_amulet'})
 
     //Blue Skies
     event.remove({ id: 'blue_skies:zeal_lighter'})
@@ -125,6 +125,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crafting/materials/rose_quartz'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy'})
     event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc'})
+    event.remove({ id: 'create:crafting/materials/electron_tube'})
     event.remove({ id: 'create:mixing/andesite_alloy'})
     event.remove({ id: 'create:mixing/andesite_alloy_from_zinc'})
     event.remove({ id: 'create:pressing/desh_ingot'})
@@ -138,6 +139,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:milling/compat/ae2/fluix_crystal'})
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coke_block'})
     event.remove({ id: 'createaddition:compat/immersiveengineering/crushing/coal_coke'})
+    event.remove({ id: 'createaddition:crafting/large_connector_gold'})
     event.remove({ id: 'create:mechanical_crafting/ascended_flight_ring'})
     event.remove({ id: 'create:milling/compat/ae2/sky_stone_block'})
     event.remove({ id: 'create_new_age:shapeless/energiser_t1'})
@@ -321,7 +323,9 @@ ServerEvents.recipes(event => {
     
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})
+    event.remove({ id: 'pneumaticcraft:printed_circuit_board'})
     event.remove({ id: 'pneumaticcraft:block_heat_properties/immersiveengineering/uranium'})
+    event.remove({ id: 'pneumaticcraft:assembly/pressure_chamber_valve_assembly/advanced_pressure_tube'})
 
     //Powah 
     event.remove({ id: 'powah:crafting/dielectric_paste'})

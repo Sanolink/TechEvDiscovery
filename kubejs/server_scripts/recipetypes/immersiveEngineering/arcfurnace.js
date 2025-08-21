@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.5         (_____)
 
 */
 
@@ -34,6 +34,24 @@ ServerEvents.recipes(event => {
             input: parseIngredient('thermal:slag'),
             output: [parseIngredient('immersiveengineering:slag_glass')],
             energy: 25600
+        },
+        {
+            id: 'basic_microship',
+            input: parseIngredient('immersiveengineering:component_electronic'),
+            additives: [parseIngredient('create:refined_radiance'), parseIngredient('alltheores:uranium_plate'), parseIngredient('alltheores:invar_dust'), IEChanceOrCountIngredient('minecraft:gold_nugget', 4)],
+            output: [parseIngredient('pneumaticcraft:basic_microchip')],
+        },
+        {
+            id: 'advanced_microship',
+            input: parseIngredient('immersiveengineering:material_component_oscillating'),
+            additives: [parseIngredient('create:shadow_steel'), parseIngredient('alltheores:platinum_plate'), parseIngredient('alltheores:constantan_dust'), IEChanceOrCountIngredient('minecraft:gold_nugget', 4)],
+            output: [parseIngredient('pneumaticcraft:advanced_microchip')],
+        },
+        {
+            id: 'processing_microship',
+            input: parseIngredient('immersiveengineering:component_electronic_adv'),
+            additives: [parseIngredient('createqol:shadow_radiance'), parseIngredient('thermal:netherite_plate'), parseIngredient('occultism:iesnium_dust'), IEChanceOrCountIngredient('minecraft:gold_nugget', 4)],
+            output: [parseIngredient('pneumaticcraft:processing_microchip')],
         }
     ]
 

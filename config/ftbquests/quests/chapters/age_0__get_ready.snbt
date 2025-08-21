@@ -392,6 +392,54 @@
 			x: 2.5d
 			y: -4.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createqol:item/chiaroscuro_actuator"
+			rotation: 10.0d
+			width: 1.0d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/processing_printed_circuit_board"
+			rotation: 15.0d
+			width: 1.0d
+			x: 6.035714285714285d
+			y: -4.785714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "immersiveengineering:item/material_component_oscillating"
+			rotation: 22.0d
+			width: 1.0d
+			x: 3.5357142857142847d
+			y: -0.021428571428565135d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/processing_microchip"
+			rotation: -10.0d
+			width: 1.0d
+			x: -3.142857142857146d
+			y: -6.23571428571428d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

@@ -70,6 +70,17 @@ ServerEvents.recipes(event => {
                 IEChanceOrCountIngredient('ae2:quartz_glass', 2)
             ],
             blueprint: "appliedComponents"
+        },
+        {
+            id: "material_component_oscillating",
+            output: parseIngredient('immersiveengineering:material_component_oscillating'),
+            inputs: [
+                parseIngredient('#forge:treated_wood_slab'),
+                parseIngredient('minecraft:amethyst_shard'),
+                parseIngredient('minecraft:redstone'),
+                parseIngredient('immersiveengineering:wire_lead')
+            ],
+            blueprint: "components"
         }
     ]
 

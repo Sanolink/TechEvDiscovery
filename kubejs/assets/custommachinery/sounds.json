@@ -1,0 +1,8 @@
+{
+  "block.circuit_etcher": {
+    "subtitle": "subtitles.custommachinery.block.circuit_etcher",
+    "sounds": [
+      "custommachinery:block/circuit_etcher"
+    ]
+  }
+}

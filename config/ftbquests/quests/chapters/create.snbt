@@ -801,7 +801,7 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -819,8 +819,8 @@
 				item: "create:rose_quartz"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["384D3A9F4DA0DE5A"]
@@ -939,16 +939,16 @@
 			id: "7773EFBE2772C5E6"
 			rewards: [{
 				id: "08168967E602D720"
-				item: "create:electron_tube"
+				item: "create:electron_shell"
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "0E2E6DD40B0AC1F3"
-				item: "create:electron_tube"
+				item: "create:electron_shell"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -2188,8 +2188,8 @@
 				title: "Sand Paper"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["00B4B4A82BFEA5A8"]
@@ -2558,8 +2558,8 @@
 		{
 			dependencies: [
 				"413CACA1028F158C"
-				"7773EFBE2772C5E6"
 				"437330C57BA2C14D"
+				"67BF2148AE7C9C50"
 			]
 			id: "1BEE5DF7C1FD4A66"
 			rewards: [{
@@ -3248,6 +3248,122 @@
 			title: "&lCreate [New Age]"
 			x: 16.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["0B6C02F1BC7A7FFF"]
+			description: [
+				"&l&6Precision Assembler&r is a multiblock used for meticulous crafts."
+				""
+				"{image:techev:textures/misc/quests/create/precision_assembler.png width:68 height:66 align:1 fit:true}"
+			]
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "custommachinery:precision_assembler"
+				}
+			}
+			id: "00558488952F4B6C"
+			rewards: [{
+				id: "4D2DC6E65B2C2061"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Use &c&l[Schematicannon] &rto build this Multiblock!"
+			tasks: [
+				{
+					id: "6E619D97734F335B"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:precision_assembler"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "42655DA3232293F8"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "4D19C471238CDFFB"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "2D8FE1B9A29BC195"
+					item: "create:framed_glass"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "63D44FC42E2CBDFB"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6ED70EE1DC274E1E"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "66785110EB2D0A06"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "49C4AD011212F97F"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03661D4AC145A299"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39BE84D62D31F1F5"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					id: "3F5F9268700181C0"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "&lPrecision Assembler"
+			x: 12.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7773EFBE2772C5E6"]
+			id: "67BF2148AE7C9C50"
+			rewards: [{
+				id: "2215AAE88F926E1C"
+				item: "create:electron_tube"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B2F18E89582D697"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["From Gears to Greatness: The Art of Automation"]

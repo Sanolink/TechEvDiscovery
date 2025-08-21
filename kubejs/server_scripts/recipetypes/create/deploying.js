@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.3         (_____)
 
 */
 
@@ -26,14 +26,6 @@ ServerEvents.recipes(event => {
             input : [
                 parseIngredient('psi:cad_assembly_iron'),
                 parseIngredient('alltheores:gold_gear')
-            ]
-        },
-        {
-            id: "soul_heart_amulet",
-            output : [parseIngredient('bhc:soul_heart_amulet')],
-            input : [
-                parseIngredient('bhc:heart_amulet'),
-                parseIngredient('bhc:soul_heart_crystal')
             ]
         }
     ]

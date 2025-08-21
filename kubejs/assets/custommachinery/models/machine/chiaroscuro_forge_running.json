@@ -1,0 +1,6 @@
+{
+  "parent": "custommachinery:machine/chiaroscuro_forge_base",
+  "textures": {
+    "north": "custommachinery:block/machine/chiaroscuro_forge_running"
+  }
+}

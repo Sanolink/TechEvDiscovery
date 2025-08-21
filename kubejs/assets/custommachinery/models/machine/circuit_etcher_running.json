@@ -1,0 +1,6 @@
+{
+  "parent": "custommachinery:machine/circuit_etcher_base",
+  "textures": {
+    "north": "custommachinery:block/machine/circuit_etcher_running"
+  }
+}

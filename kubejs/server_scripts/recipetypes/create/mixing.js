@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.4         (_____)
 
 */
 
@@ -34,6 +34,8 @@ ServerEvents.recipes(event => {
                 result.remove("chance")
             }
         })
+        event.remove({ id: recipe.getId() });
+        event.custom(recipe.json).id(recipe.getId());
     })
 
     //Recipes 
@@ -171,7 +173,7 @@ ServerEvents.recipes(event => {
         },
         //Superheated Recipes
         {
-            id: "molten_redstone",
+            id: "destabilized_redstone",
             heat: 'superheated',
             input: [parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone"), parseIngredient("minecraft:redstone")],
             output: [FluidWithCount("thermal:redstone", 200)]
@@ -193,6 +195,18 @@ ServerEvents.recipes(event => {
             heat: 'superheated',
             input: [parseIngredient("psi:psimetal"), parseIngredient("psi:psimetal")],
             output: [FluidWithCount("psi:destabilized_psimetal", 200)]
+        },
+        {
+            id: "energized_glowstone",
+            heat: 'superheated',
+            input: [parseIngredient("minecraft:glowstone_dust"), parseIngredient("minecraft:glowstone_dust"), parseIngredient("minecraft:glowstone_dust"), parseIngredient("minecraft:glowstone_dust")],
+            output: [FluidWithCount("thermal:glowstone", 250)]
+        },
+        {
+            id: "resonant_ender",
+            heat: 'superheated',
+            input: [parseIngredient("minecraft:ender_pearl"), parseIngredient("minecraft:ender_pearl"), parseIngredient("minecraft:ender_pearl"), parseIngredient("minecraft:ender_pearl")],
+            output: [FluidWithCount("thermal:ender", 250)]
         }
     ]
 

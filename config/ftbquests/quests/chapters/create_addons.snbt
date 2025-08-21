@@ -57,12 +57,24 @@
 			x: -10.5d
 			y: -4.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "createqol:item/shadow_radiance"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.0d
+			y: 1.0d
+		}
 	]
 	order_index: 3
 	quest_links: [{
 		id: "2FA46F9A68FF650F"
 		linked_quest: "38E10806192CDF7E"
-		x: -7.0d
+		x: -8.0d
 		y: 1.5d
 	}]
 	quests: [
@@ -83,7 +95,7 @@
 				type: "item"
 			}]
 			title: "&lVibration Mechanism"
-			x: -7.0d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -161,7 +173,7 @@
 				item: "create_things_and_misc:radar"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 1.0d
 		}
 		{
@@ -178,7 +190,7 @@
 				item: "create_things_and_misc:brass_speaker"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: 1.0d
 		}
 		{
@@ -413,8 +425,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["167A43E3881916B0"]
@@ -438,8 +450,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4A4B2D534D4FF6DA"]
@@ -464,8 +476,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["712C7F296DA947A6"]
@@ -489,8 +501,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: 1.5d
+			x: -10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["57291992365E62D3"]
@@ -514,8 +526,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 0.5d
+			x: -11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4A4B2D534D4FF6DA"]
@@ -540,8 +552,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -0.5d
+			x: -11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4A4B2D534D4FF6DA"]
@@ -673,6 +685,7 @@
 				"26F4FB950E84A8A1"
 				"76757835951E1310"
 				"1AF30D6CF9698E69"
+				"5A60D63770DF2D2F"
 			]
 			id: "019D4C056AB911B3"
 			rewards: [{
@@ -692,6 +705,69 @@
 			title: "&lFlight Anchor"
 			x: -7.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["5A60D63770DF2D2F"]
+			description: [
+				"&l&6Chiaroscuro Forge&r is a multiblock used to automate the production of &l&5Shadow Steel&r and &l&eRefined Radiance&r."
+				"{image:techev:textures/misc/quests/create/chiaroscuro_forge.png width:150 height:150 align:1}"
+			]
+			id: "031EF3BE7F5450DA"
+			rewards: [{
+				id: "07083E8A80EB906B"
+				item: "createqol:shadow_radiance"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Use &c&l[Schematicannon] &rto build this Multiblock!"
+			tasks: [
+				{
+					id: "118BFC8F546DC04F"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:chiaroscuro_forge"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "6040CD985A349364"
+					item: "create:refined_radiance_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3FB78647FC58983A"
+					item: "create:shadow_steel_casing"
+					type: "item"
+				}
+			]
+			title: "&lChiaroscuro Forge"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A4B2D534D4FF6DA"]
+			id: "5A60D63770DF2D2F"
+			rewards: [{
+				id: "1B50E74C020C2B45"
+				item: "createqol:chiaroscuro_actuator"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "0639E1A019F09D16"
+				item: "createqol:chiaroscuro_actuator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["When Precision Meets Potential"]

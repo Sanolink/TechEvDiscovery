@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NCN",
+    "RUR",
+    "NCN"
+  ],
+  "key": {
+    "N": {
+      "item": "thermal:netherite_gear"
+    },
+    "R": {
+      "item": "thermal_extra:dragonsteel_coin"
+    },
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "U": {
+      "item": "pipez:advanced_upgrade"
+    }
+  },
+  "result": {
+    "item": "pipez:ultimate_upgrade",
+    "count": 1
+  }
+}

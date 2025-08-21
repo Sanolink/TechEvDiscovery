@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.1         (_____)
 
 */
 
@@ -21,6 +21,7 @@ StartupEvents.registry('block', e => {
 
     //Basic Blocks
     function BasicBlock(id, displayName) {
+      global.TechEvBlocks.push(id)
       return e.create(id).displayName(displayName)
     }
 

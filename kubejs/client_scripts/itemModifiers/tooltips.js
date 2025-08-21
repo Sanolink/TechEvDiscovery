@@ -82,7 +82,8 @@ ItemEvents.tooltip(event => {
     //Custom Machinery Multiblocks
     let multiblocks = [
         'custommachinery:precision_assembler',
-        'custommachinery:chiaroscuro_forge'
+        'custommachinery:chiaroscuro_forge',
+        'custommachinery:circuit_etcher'
     ]
 
     event.addAdvanced('custommachinery:custom_machine_item', (item, advanced, text) => {

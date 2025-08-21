@@ -746,6 +746,7 @@
 					type: "item"
 				}
 			]
+			title: "&lChiaroscuro Forge"
 			x: -6.0d
 			y: 1.5d
 		}

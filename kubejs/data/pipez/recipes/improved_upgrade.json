@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "RUR",
+    "GCG"
+  ],
+  "key": {
+    "U": {
+      "item": "pipez:basic_upgrade"
+    },
+    "G": {
+      "item": "alltheores:gold_gear"
+    },
+    "R": {
+      "item": "thermal:electrum_coin"
+    },
+    "C": {
+      "item": "mekanism:advanced_control_circuit"
+    }
+  },
+  "result": {
+    "item": "pipez:improved_upgrade",
+    "count": 1
+  }
+}

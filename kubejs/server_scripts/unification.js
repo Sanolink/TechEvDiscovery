@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.3         (_____)
 
 */
 
@@ -51,179 +51,179 @@ ServerEvents.recipes(e => {
     ['thermal:deepslate_tin_ore', 'mekanism:deepslate_tin_ore'].forEach(I => {replaceIO(I, 'alltheores:deepslate_tin_ore')});
 
     //Raw Materials
-    ['#forge:raw_materials/aluminum', 'immersiveengineering:raw_aluminum'].forEach(I => {replaceIO(I, 'alltheores:raw_aluminum')});
-    ['#forge:raw_materials/lead', 'eidolon:raw_lead', 'immersiveengineering:raw_lead', 'thermal:raw_lead', 'mekanism:raw_lead'].forEach(I => {replaceIO(I, 'alltheores:raw_lead')});
-    ['#forge:raw_materials/nickel', 'immersiveengineering:raw_nickel', 'alltheores:raw_nickel', 'thermal:raw_nickel'].forEach(I => {replaceIO(I, 'alltheores:raw_nickel')});
-    ['#forge:raw_materials/osmium', 'mekanism:raw_osmium'].forEach(I => {replaceIO(I, 'alltheores:raw_osmium')});
-    ['#forge:raw_materials/silver', 'eidolon:raw_silver', 'immersiveengineering:raw_silver', 'darkerdepths:raw_silver', 'occultism:raw_silver', 'thermal:raw_silver'].forEach(I => {replaceIO(I, 'alltheores:raw_silver')});
-    ['#forge:raw_materials/tin', 'thermal:raw_tin', 'mekanism:raw_tin'].forEach(I => {replaceIO(I, 'alltheores:raw_tin')});
-    ['#forge:raw_materials/uranium', 'immersiveengineering:raw_uranium', 'mekanism:raw_uranium'].forEach(I => {replaceIO(I, 'alltheores:raw_uranium')});
-    ['#forge:raw_materials/zinc', 'create:raw_zinc'].forEach(I => {replaceIO(I, 'alltheores:raw_zinc')});
+    ['immersiveengineering:raw_aluminum'].forEach(I => {replaceIO(I, 'alltheores:raw_aluminum')});
+    ['eidolon:raw_lead', 'immersiveengineering:raw_lead', 'thermal:raw_lead', 'mekanism:raw_lead'].forEach(I => {replaceIO(I, 'alltheores:raw_lead')});
+    ['immersiveengineering:raw_nickel', 'alltheores:raw_nickel', 'thermal:raw_nickel'].forEach(I => {replaceIO(I, 'alltheores:raw_nickel')});
+    ['mekanism:raw_osmium'].forEach(I => {replaceIO(I, 'alltheores:raw_osmium')});
+    ['eidolon:raw_silver', 'immersiveengineering:raw_silver', 'darkerdepths:raw_silver', 'occultism:raw_silver', 'thermal:raw_silver'].forEach(I => {replaceIO(I, 'alltheores:raw_silver')});
+    ['thermal:raw_tin', 'mekanism:raw_tin'].forEach(I => {replaceIO(I, 'alltheores:raw_tin')});
+    ['immersiveengineering:raw_uranium', 'mekanism:raw_uranium'].forEach(I => {replaceIO(I, 'alltheores:raw_uranium')});
+    ['create:raw_zinc'].forEach(I => {replaceIO(I, 'alltheores:raw_zinc')});
 
     //Raw Storage Blocks
-    ['#forge:storage_blocks/raw_aluminum', 'immersiveengineering:raw_block_aluminum'].forEach(I => {replaceIO(I, 'alltheores:raw_aluminum_block')});
-    ['#forge:storage_blocks/raw_lead', 'eidolon:raw_lead_block', 'immersiveengineering:raw_block_lead', 'thermal:raw_lead_block', 'mekanism:block_raw_lead'].forEach(I => {replaceIO(I, 'alltheores:raw_lead_block')});
-    ['#forge:storage_blocks/raw_nickel', 'immersiveengineering:raw_block_nickel', 'thermal:raw_nickel_block'].forEach(I => {replaceIO(I, 'alltheores:raw_nickel_block')});
-    ['#forge:storage_blocks/raw_osmium', 'mekanism:block_raw_osmium'].forEach(I => {replaceIO(I, 'alltheores:raw_osmium_block')});
-    ['#forge:storage_blocks/raw_silver', 'eidolon:raw_silver_block', 'immersiveengineering:raw_block_silver', 'darkerdepths:raw_silver_block', 'thermal:raw_silver_block'].forEach(I => {replaceIO(I, 'alltheores:raw_silver_block')});
-    ['#forge:storage_blocks/raw_tin', 'thermal:raw_tin_block', 'mekanism:block_raw_tin'].forEach(I => {replaceIO(I, 'alltheores:raw_tin_block')});
-    ['#forge:storage_blocks/raw_uranium', 'immersiveengineering:raw_block_uranium', 'mekanism:block_raw_uranium'].forEach(I => {replaceIO(I, 'alltheores:raw_uranium_block')});
-    ['#forge:storage_blocks/raw_zinc', 'create:raw_zinc_block'].forEach(I => {replaceIO(I, 'alltheores:raw_zinc_block')});
+    ['immersiveengineering:raw_block_aluminum'].forEach(I => {replaceIO(I, 'alltheores:raw_aluminum_block')});
+    ['eidolon:raw_lead_block', 'immersiveengineering:raw_block_lead', 'thermal:raw_lead_block', 'mekanism:block_raw_lead'].forEach(I => {replaceIO(I, 'alltheores:raw_lead_block')});
+    ['immersiveengineering:raw_block_nickel', 'thermal:raw_nickel_block'].forEach(I => {replaceIO(I, 'alltheores:raw_nickel_block')});
+    ['mekanism:block_raw_osmium'].forEach(I => {replaceIO(I, 'alltheores:raw_osmium_block')});
+    ['eidolon:raw_silver_block', 'immersiveengineering:raw_block_silver', 'darkerdepths:raw_silver_block', 'thermal:raw_silver_block'].forEach(I => {replaceIO(I, 'alltheores:raw_silver_block')});
+    ['thermal:raw_tin_block', 'mekanism:block_raw_tin'].forEach(I => {replaceIO(I, 'alltheores:raw_tin_block')});
+    ['immersiveengineering:raw_block_uranium', 'mekanism:block_raw_uranium'].forEach(I => {replaceIO(I, 'alltheores:raw_uranium_block')});
+    ['create:raw_zinc_block'].forEach(I => {replaceIO(I, 'alltheores:raw_zinc_block')});
 
     //Ingots
-    ['#forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_ingot')});
-    ['#forge:ingots/brass', 'create:brass_ingot'].forEach(I => {replaceIO(I, 'alltheores:brass_ingot')});
-    ['#forge:ingots/bronze', 'thermal:bronze_ingot', 'mekanism:ingot_bronze'].forEach(I => {replaceIO(I, 'alltheores:bronze_ingot')});
-    ['#forge:ingots/constantan', 'immersiveengineering:ingot_constantan', 'thermal:constantan_ingot'].forEach(I => {replaceIO(I, 'alltheores:constantan_ingot')});
-    ['#forge:ingots/electrum', 'immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot', 'thermal:electrum_ingot'].forEach(I => {replaceIO(I, 'alltheores:electrum_ingot')});
-    ['#forge:ingots/enderium', 'thermal:enderium_ingot'].forEach(I => {replaceIO(I, 'alltheores:enderium_ingot')});
-    ['#forge:ingots/invar', 'thermal:invar_ingot'].forEach(I => {replaceIO(I, 'alltheores:invar_ingot')});
-    ['#forge:ingots/lead', 'eidolon:lead_ingot', 'immersiveengineering:ingot_lead', 'thermal:lead_ingot', 'mekanism:ingot_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_ingot')});
-    ['#forge:ingots/lumium', 'thermal:lumium_ingot'].forEach(I => {replaceIO(I, 'alltheores:lumium_ingot')});
-    ['#forge:ingots/nickel', 'immersiveengineering:ingot_nickel', 'thermal:nickel_ingot'].forEach(I => {replaceIO(I, 'alltheores:nickel_ingot')});
-    ['#forge:ingots/osmium', 'mekanism:ingot_osmium'].forEach(I => {replaceIO(I, 'alltheores:osmium_ingot')});
-    ['#forge:ingots/signalum', 'thermal:signalum_ingot'].forEach(I => {replaceIO(I, 'alltheores:signalum_ingot')});
-    ['#forge:ingots/silver', 'eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot', 'iceandfire:silver_ingot', 'occultism:silver_ingot', 'thermal:silver_ingot'].forEach(I => {replaceIO(I, 'alltheores:silver_ingot')});
-    ['#forge:ingots/steel', 'immersiveengineering:ingot_steel', 'ad_astra:steel_ingot', 'mekanism:ingot_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_ingot')});
-    ['#forge:ingots/tin', 'thermal:tin_ingot', 'mekanism:ingot_tin'].forEach(I => {replaceIO(I, 'alltheores:tin_ingot')});
-    ['#forge:ingots/uranium', 'immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_ingot')});
-    ['#forge:ingots/zinc', 'create:zinc_ingot'].forEach(I => {replaceIO(I, 'alltheores:zinc_ingot')});
+    ['immersiveengineering:ingot_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_ingot')});
+    ['create:brass_ingot'].forEach(I => {replaceIO(I, 'alltheores:brass_ingot')});
+    ['thermal:bronze_ingot', 'mekanism:ingot_bronze'].forEach(I => {replaceIO(I, 'alltheores:bronze_ingot')});
+    ['immersiveengineering:ingot_constantan', 'thermal:constantan_ingot'].forEach(I => {replaceIO(I, 'alltheores:constantan_ingot')});
+    ['immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot', 'thermal:electrum_ingot'].forEach(I => {replaceIO(I, 'alltheores:electrum_ingot')});
+    ['thermal:enderium_ingot'].forEach(I => {replaceIO(I, 'alltheores:enderium_ingot')});
+    ['thermal:invar_ingot'].forEach(I => {replaceIO(I, 'alltheores:invar_ingot')});
+    ['eidolon:lead_ingot', 'immersiveengineering:ingot_lead', 'thermal:lead_ingot', 'mekanism:ingot_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_ingot')});
+    ['thermal:lumium_ingot'].forEach(I => {replaceIO(I, 'alltheores:lumium_ingot')});
+    ['immersiveengineering:ingot_nickel', 'thermal:nickel_ingot'].forEach(I => {replaceIO(I, 'alltheores:nickel_ingot')});
+    ['mekanism:ingot_osmium'].forEach(I => {replaceIO(I, 'alltheores:osmium_ingot')});
+    ['thermal:signalum_ingot'].forEach(I => {replaceIO(I, 'alltheores:signalum_ingot')});
+    ['eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot', 'iceandfire:silver_ingot', 'occultism:silver_ingot', 'thermal:silver_ingot'].forEach(I => {replaceIO(I, 'alltheores:silver_ingot')});
+    ['immersiveengineering:ingot_steel', 'ad_astra:steel_ingot', 'mekanism:ingot_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_ingot')});
+    ['thermal:tin_ingot', 'mekanism:ingot_tin'].forEach(I => {replaceIO(I, 'alltheores:tin_ingot')});
+    ['immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_ingot')});
+    ['create:zinc_ingot'].forEach(I => {replaceIO(I, 'alltheores:zinc_ingot')});
         
     //Plates
-    ['#forge:plates/aluminum', 'immersiveengineering:plate_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_plate')});
-    ['#forge:plates/brass', 'create:brass_sheet'].forEach(I => {replaceIO(I, 'alltheores:brass_plate')});
-    ['#forge:plates/bronze', 'thermal:bronze_plate'].forEach(I => {replaceIO(I, 'alltheores:bronze_plate')});
-    ['#forge:plates/constantan', 'immersiveengineering:plate_constantan', 'thermal:constantan_plate'].forEach(I => {replaceIO(I, 'alltheores:constantan_plate')});
-    ['#forge:plates/copper', 'immersiveengineering:plate_copper', 'create:copper_sheet', 'thermal:copper_plate'].forEach(I => {replaceIO(I, 'alltheores:copper_plate')});
-    ['#forge:plates/electrum', 'immersiveengineering:plate_electrum', 'createaddition:electrum_sheet', 'thermal:electrum_plate'].forEach(I => {replaceIO(I, 'alltheores:electrum_plate')});
-    ['#forge:plates/enderium', 'thermal:enderium_plate'].forEach(I => {replaceIO(I, 'alltheores:enderium_plate')});
-    ['#forge:plates/gold', 'create:golden_sheet', 'immersiveengineering:plate_gold', 'thermal:gold_plate'].forEach(I => {replaceIO(I, 'alltheores:gold_plate')});
-    ['#forge:plates/invar', 'thermal:invar_plate'].forEach(I => {replaceIO(I, 'alltheores:invar_plate')});
-    ['#forge:plates/iron', 'create:iron_sheet', 'immersiveengineering:plate_iron', 'thermal:iron_plate', 'ad_astra:iron_plate'].forEach(I => {replaceIO(I, 'alltheores:iron_plate')});
-    ['#forge:plates/lead', 'immersiveengineering:plate_lead', 'thermal:lead_plate'].forEach(I => {replaceIO(I, 'alltheores:lead_plate')});
-    ['#forge:plates/lumium', 'thermal:lumium_plate'].forEach(I => {replaceIO(I, 'alltheores:lumium_plate')});
-    ['#forge:plates/netherite', 'createdeco:netherite_sheet'].forEach(I => {replaceIO(I, 'thermal:netherite_plate')});
-    ['#forge:plates/nickel', 'immersiveengineering:plate_nickel', 'thermal:nickel_plate'].forEach(I => {replaceIO(I, 'alltheores:nickel_plate')});
-    ['#forge:plates/signalum', 'thermal:signalum_plate'].forEach(I => {replaceIO(I, 'alltheores:signalum_plate')});
-    ['#forge:plates/silver', 'immersiveengineering:plate_silver', 'thermal:silver_plate'].forEach(I => {replaceIO(I, 'alltheores:silver_plate')});
-    ['#forge:plates/steel', 'immersiveengineering:plate_steel', 'ad_astra:steel_plate'].forEach(I => {replaceIO(I, 'alltheores:steel_plate')});
-    ['#forge:plates/tin', 'thermal:tin_plate'].forEach(I => {replaceIO(I, 'alltheores:tin_plate')});
-    ['#forge:plates/uranium', 'immersiveengineering:plate_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_plate')});
-    ['#forge:plates/zinc', 'createdeco:zinc_sheet', 'createaddition:zinc_sheet'].forEach(I => {replaceIO(I, 'alltheores:zinc_plate')});
+    ['immersiveengineering:plate_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_plate')});
+    ['create:brass_sheet'].forEach(I => {replaceIO(I, 'alltheores:brass_plate')});
+    ['thermal:bronze_plate'].forEach(I => {replaceIO(I, 'alltheores:bronze_plate')});
+    ['immersiveengineering:plate_constantan', 'thermal:constantan_plate'].forEach(I => {replaceIO(I, 'alltheores:constantan_plate')});
+    ['immersiveengineering:plate_copper', 'create:copper_sheet', 'thermal:copper_plate'].forEach(I => {replaceIO(I, 'alltheores:copper_plate')});
+    ['immersiveengineering:plate_electrum', 'createaddition:electrum_sheet', 'thermal:electrum_plate'].forEach(I => {replaceIO(I, 'alltheores:electrum_plate')});
+    ['thermal:enderium_plate'].forEach(I => {replaceIO(I, 'alltheores:enderium_plate')});
+    ['create:golden_sheet', 'immersiveengineering:plate_gold', 'thermal:gold_plate'].forEach(I => {replaceIO(I, 'alltheores:gold_plate')});
+    ['thermal:invar_plate'].forEach(I => {replaceIO(I, 'alltheores:invar_plate')});
+    ['create:iron_sheet', 'immersiveengineering:plate_iron', 'thermal:iron_plate', 'ad_astra:iron_plate'].forEach(I => {replaceIO(I, 'alltheores:iron_plate')});
+    ['immersiveengineering:plate_lead', 'thermal:lead_plate'].forEach(I => {replaceIO(I, 'alltheores:lead_plate')});
+    ['thermal:lumium_plate'].forEach(I => {replaceIO(I, 'alltheores:lumium_plate')});
+    ['createdeco:netherite_sheet'].forEach(I => {replaceIO(I, 'thermal:netherite_plate')});
+    ['immersiveengineering:plate_nickel', 'thermal:nickel_plate'].forEach(I => {replaceIO(I, 'alltheores:nickel_plate')});
+    ['thermal:signalum_plate'].forEach(I => {replaceIO(I, 'alltheores:signalum_plate')});
+    ['immersiveengineering:plate_silver', 'thermal:silver_plate'].forEach(I => {replaceIO(I, 'alltheores:silver_plate')});
+    ['immersiveengineering:plate_steel', 'ad_astra:steel_plate'].forEach(I => {replaceIO(I, 'alltheores:steel_plate')});
+    ['thermal:tin_plate'].forEach(I => {replaceIO(I, 'alltheores:tin_plate')});
+    ['immersiveengineering:plate_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_plate')});
+    ['createdeco:zinc_sheet', 'createaddition:zinc_sheet'].forEach(I => {replaceIO(I, 'alltheores:zinc_plate')});
     
     //Gears
-    ['#forge:gears/bronze', 'thermal:bronze_gear'].forEach(I => {replaceIO(I, 'alltheores:bronze_gear')});
-    ['#forge:gears/constantan', 'thermal:constantan_gear'].forEach(I => {replaceIO(I, 'alltheores:constantan_gear')});
-    ['#forge:gears/copper', 'thermal:copper_gear'].forEach(I => {replaceIO(I, 'alltheores:copper_gear')});
-    ['#forge:gears/diamond', 'industrialforegoing:diamond_gear', 'thermal:diamond_gear'].forEach(I => {replaceIO(I, 'alltheores:diamond_gear')});
-    ['#forge:gears/electrum', 'thermal:electrum_gear'].forEach(I => {replaceIO(I, 'alltheores:electrum_gear')});
-    ['#forge:gears/enderium', 'thermal:enderium_gear'].forEach(I => {replaceIO(I, 'alltheores:enderium_gear')});
-    ['#forge:gears/gold', 'industrialforegoing:gold_gear', 'thermal:gold_gear'].forEach(I => {replaceIO(I, 'alltheores:gold_gear')});
-    ['#forge:gears/invar', 'thermal:invar_gear'].forEach(I => {replaceIO(I, 'alltheores:invar_gear')});
-    ['#forge:gears/iron', 'industrialforegoing:iron_gear', 'thermal:iron_gear'].forEach(I => {replaceIO(I, 'alltheores:iron_gear')});
-    ['#forge:gears/lead', 'thermal:lead_gear'].forEach(I => {replaceIO(I, 'alltheores:lead_gear')});
-    ['#forge:gears/lumium', 'thermal:lumium_gear'].forEach(I => {replaceIO(I, 'alltheores:lumium_gear')});
-    ['#forge:gears/nickel', 'thermal:nickel_gear'].forEach(I => {replaceIO(I, 'alltheores:nickel_gear')});
-    ['#forge:gears/signalum', 'thermal:signalum_gear'].forEach(I => {replaceIO(I, 'alltheores:signalum_gear')});
-    ['#forge:gears/silver', 'thermal:silver_gear'].forEach(I => {replaceIO(I, 'alltheores:silver_gear')});
-    ['#forge:gears/tin', 'thermal:tin_gear'].forEach(I => {replaceIO(I, 'alltheores:tin_gear')});
+    ['thermal:bronze_gear'].forEach(I => {replaceIO(I, 'alltheores:bronze_gear')});
+    ['thermal:constantan_gear'].forEach(I => {replaceIO(I, 'alltheores:constantan_gear')});
+    ['thermal:copper_gear'].forEach(I => {replaceIO(I, 'alltheores:copper_gear')});
+    ['industrialforegoing:diamond_gear', 'thermal:diamond_gear'].forEach(I => {replaceIO(I, 'alltheores:diamond_gear')});
+    ['thermal:electrum_gear'].forEach(I => {replaceIO(I, 'alltheores:electrum_gear')});
+    ['thermal:enderium_gear'].forEach(I => {replaceIO(I, 'alltheores:enderium_gear')});
+    ['industrialforegoing:gold_gear', 'thermal:gold_gear'].forEach(I => {replaceIO(I, 'alltheores:gold_gear')});
+    ['thermal:invar_gear'].forEach(I => {replaceIO(I, 'alltheores:invar_gear')});
+    ['industrialforegoing:iron_gear', 'thermal:iron_gear'].forEach(I => {replaceIO(I, 'alltheores:iron_gear')});
+    ['thermal:lead_gear'].forEach(I => {replaceIO(I, 'alltheores:lead_gear')});
+    ['thermal:lumium_gear'].forEach(I => {replaceIO(I, 'alltheores:lumium_gear')});
+    ['thermal:nickel_gear'].forEach(I => {replaceIO(I, 'alltheores:nickel_gear')});
+    ['thermal:signalum_gear'].forEach(I => {replaceIO(I, 'alltheores:signalum_gear')});
+    ['thermal:silver_gear'].forEach(I => {replaceIO(I, 'alltheores:silver_gear')});
+    ['thermal:tin_gear'].forEach(I => {replaceIO(I, 'alltheores:tin_gear')});
     
     //Rods
-    ['#forge:rods/aluminum', 'immersiveengineering:stick_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_rod')});
-    ['#forge:rods/brass', 'createaddition:brass_rod'].forEach(I => {replaceIO(I, 'alltheores:brass_rod')});
-    ['#forge:rods/copper', 'createaddition:copper_rod'].forEach(I => {replaceIO(I, 'alltheores:copper_rod')});
-    ['#forge:rods/electrum', 'createaddition:electrum_rod'].forEach(I => {replaceIO(I, 'alltheores:electrum_rod')});
-    ['#forge:rods/gold', 'createaddition:gold_rod'].forEach(I => {replaceIO(I, 'alltheores:gold_rod')});
-    ['#forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron', 'ad_astra:iron_rod'].forEach(I => {replaceIO(I, 'alltheores:iron_rod')});
-    ['#forge:rods/steel', 'immersiveengineering:stick_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_rod')});
+    ['immersiveengineering:stick_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_rod')});
+    ['createaddition:brass_rod'].forEach(I => {replaceIO(I, 'alltheores:brass_rod')});
+    ['createaddition:copper_rod'].forEach(I => {replaceIO(I, 'alltheores:copper_rod')});
+    ['createaddition:electrum_rod'].forEach(I => {replaceIO(I, 'alltheores:electrum_rod')});
+    ['createaddition:gold_rod'].forEach(I => {replaceIO(I, 'alltheores:gold_rod')});
+    ['createaddition:iron_rod', 'immersiveengineering:stick_iron', 'ad_astra:iron_rod'].forEach(I => {replaceIO(I, 'alltheores:iron_rod')});
+    ['immersiveengineering:stick_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_rod')});
     
     //Nuggets
-    ['#forge:nuggets/aluminum', 'immersiveengineering:nugget_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_nugget')});
-    ['#forge:nuggets/brass', 'create:brass_nugget'].forEach(I => {replaceIO(I, 'alltheores:brass_nugget')});
-    ['#forge:nuggets/bronze', 'thermal:bronze_nugget', 'mekanism:nugget_bronze'].forEach(I => {replaceIO(I, 'alltheores:bronze_nugget')});
-    ['#forge:nuggets/constantan', 'immersiveengineering:nugget_constantan', 'thermal:constantan_nugget'].forEach(I => {replaceIO(I, 'alltheores:constantan_nugget')});
-    ['#forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget', 'skilltree:copper_nugget'].forEach(I => {replaceIO(I, 'alltheores:copper_nugget')});
-    ['#forge:nuggets/electrum', 'createaddition:electrum_nugget', 'immersiveengineering:nugget_electrum', 'thermal:electrum_nugget'].forEach(I => {replaceIO(I, 'alltheores:electrum_nugget')});
-    ['#forge:nuggets/enderium', 'thermal:enderium_nugget'].forEach(I => {replaceIO(I, 'alltheores:enderium_nugget')});
-    ['#forge:nuggets/invar', 'thermal:invar_nugget'].forEach(I => {replaceIO(I, 'alltheores:invar_nugget')});
-    ['#forge:nuggets/lead', 'eidolon:lead_nugget', 'immersiveengineering:nugget_lead', 'thermal:lead_nugget', 'mekanism:nugget_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_nugget')});
-    ['#forge:nuggets/lumium', 'thermal:lumium_nugget'].forEach(I => {replaceIO(I, 'alltheores:lumium_nugget')});
-    ['#forge:nuggets/netherite', 'thermal:netherite_nugget'].forEach(I => {replaceIO(I, 'createdeco:netherite_nugget')});
-    ['#forge:nuggets/nickel', 'immersiveengineering:nugget_nickel', 'thermal:nickel_nugget'].forEach(I => {replaceIO(I, 'alltheores:nickel_nugget')});
-    ['#forge:nuggets/osmium', 'mekanism:nugget_osmium'].forEach(I => {replaceIO(I, 'alltheores:osmium_nugget')});
-    ['#forge:nuggets/signalum', 'thermal:signalum_nugget'].forEach(I => {replaceIO(I, 'alltheores:signalum_nugget')});
-    ['#forge:nuggets/silver', 'eidolon:silver_nugget', 'immersiveengineering:nugget_silver', 'iceandfire:silver_nugget', 'occultism:silver_nugget', 'thermal:silver_nugget'].forEach(I => {replaceIO(I, 'alltheores:silver_nugget')});
-    ['#forge:nuggets/steel', 'immersiveengineering:nugget_steel', 'ad_astra:steel_nugget', 'mekanism:nugget_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_nugget')});
-    ['#forge:nuggets/tin', 'thermal:tin_nugget', 'mekanism:nugget_tin'].forEach(I => {replaceIO(I, 'alltheores:tin_nugget')});
-    ['#forge:nuggets/uranium', 'immersiveengineering:nugget_uranium', 'mekanism:nugget_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_nugget')});
-    ['#forge:nuggets/zinc', 'create:zinc_nugget'].forEach(I => {replaceIO(I, 'alltheores:zinc_nugget')});
+    ['immersiveengineering:nugget_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_nugget')});
+    ['create:brass_nugget'].forEach(I => {replaceIO(I, 'alltheores:brass_nugget')});
+    ['thermal:bronze_nugget', 'mekanism:nugget_bronze'].forEach(I => {replaceIO(I, 'alltheores:bronze_nugget')});
+    ['immersiveengineering:nugget_constantan', 'thermal:constantan_nugget'].forEach(I => {replaceIO(I, 'alltheores:constantan_nugget')});
+    ['create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget', 'skilltree:copper_nugget'].forEach(I => {replaceIO(I, 'alltheores:copper_nugget')});
+    ['createaddition:electrum_nugget', 'immersiveengineering:nugget_electrum', 'thermal:electrum_nugget'].forEach(I => {replaceIO(I, 'alltheores:electrum_nugget')});
+    ['thermal:enderium_nugget'].forEach(I => {replaceIO(I, 'alltheores:enderium_nugget')});
+    ['thermal:invar_nugget'].forEach(I => {replaceIO(I, 'alltheores:invar_nugget')});
+    ['eidolon:lead_nugget', 'immersiveengineering:nugget_lead', 'thermal:lead_nugget', 'mekanism:nugget_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_nugget')});
+    ['thermal:lumium_nugget'].forEach(I => {replaceIO(I, 'alltheores:lumium_nugget')});
+    ['thermal:netherite_nugget'].forEach(I => {replaceIO(I, 'createdeco:netherite_nugget')});
+    ['immersiveengineering:nugget_nickel', 'thermal:nickel_nugget'].forEach(I => {replaceIO(I, 'alltheores:nickel_nugget')});
+    ['mekanism:nugget_osmium'].forEach(I => {replaceIO(I, 'alltheores:osmium_nugget')});
+    ['thermal:signalum_nugget'].forEach(I => {replaceIO(I, 'alltheores:signalum_nugget')});
+    ['eidolon:silver_nugget', 'immersiveengineering:nugget_silver', 'iceandfire:silver_nugget', 'occultism:silver_nugget', 'thermal:silver_nugget'].forEach(I => {replaceIO(I, 'alltheores:silver_nugget')});
+    ['immersiveengineering:nugget_steel', 'ad_astra:steel_nugget', 'mekanism:nugget_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_nugget')});
+    ['thermal:tin_nugget', 'mekanism:nugget_tin'].forEach(I => {replaceIO(I, 'alltheores:tin_nugget')});
+    ['immersiveengineering:nugget_uranium', 'mekanism:nugget_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_nugget')});
+    ['create:zinc_nugget'].forEach(I => {replaceIO(I, 'alltheores:zinc_nugget')});
 
     //Dusts
-    ['#forge:dusts/aluminum', 'immersiveengineering:dust_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_dust')});
-    ['#forge:dusts/bronze', 'thermal:bronze_dust', 'mekanism:dust_bronze'].forEach(I => {replaceIO(I, 'alltheores:bronze_dust')});
-    ['#forge:dusts/constantan', 'immersiveengineering:dust_constantan', 'thermal:constantan_dust'].forEach(I => {replaceIO(I, 'alltheores:constantan_dust')});
-    ['#forge:dusts/copper', 'immersiveengineering:dust_copper', 'occultism:copper_dust', 'thermal:copper_dust', 'mekanism:dust_copper'].forEach(I => {replaceIO(I, 'alltheores:copper_dust')});
-    ['#forge:dusts/diamond', 'createaddition:diamond_grit', 'thermal:diamond_dust', 'mekanism:dust_diamond'].forEach(I => {replaceIO(I, 'alltheores:diamond_dust')});
-    ['#forge:dusts/electrum', 'immersiveengineering:dust_electrum', 'thermal:electrum_dust'].forEach(I => {replaceIO(I, 'alltheores:electrum_dust')});
-    ['#forge:dusts/emerald', 'mekanism:dust_emerald'].forEach(I => {replaceIO(I, 'thermal:emerald_dust')});
-    ['#forge:dusts/ender_pearl', 'ae2:ender_dust'].forEach(I => {replaceIO(I, 'thermal:ender_pearl_dust')});
-    ['#forge:dusts/enderium', 'thermal:enderium_dust'].forEach(I => {replaceIO(I, 'alltheores:enderium_dust')});
-    ['#forge:dusts/gold', 'immersiveengineering:dust_gold', 'occultism:gold_dust', 'thermal:gold_dust', 'mekanism:dust_gold'].forEach(I => {replaceIO(I, 'alltheores:gold_dust')});
-    ['#forge:dusts/invar', 'thermal:invar_dust'].forEach(I => {replaceIO(I, 'alltheores:invar_dust')});
-    ['#forge:dusts/iron', 'immersiveengineering:dust_iron', 'occultism:iron_dust', 'thermal:iron_dust', 'mekanism:dust_iron'].forEach(I => {replaceIO(I, 'alltheores:iron_dust')});
-    ['#forge:dusts/lapis', 'mekanism:dust_lapis_lazuli'].forEach(I => {replaceIO(I, 'thermal:lapis_dust')});
-    ['#forge:dusts/lead', 'immersiveengineering:dust_lead', 'thermal:lead_dust', 'mekanism:dust_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_dust')});
-    ['#forge:dusts/lumium', 'thermal:lumium_dust'].forEach(I => {replaceIO(I, 'alltheores:lumium_dust')});
-    ['#forge:dusts/netherite', 'thermal:netherite_dust', 'mekanism:dust_netherite'].forEach(I => {replaceIO(I, 'alltheores:netherite_dust')});
-    ['#forge:dusts/nickel', 'immersiveengineering:dust_nickel', 'thermal:nickel_dust'].forEach(I => {replaceIO(I, 'alltheores:nickel_dust')});
-    ['#forge:dusts/obsidian', 'occultism:obsidian_dust', 'mekanism:dust_obsidian'].forEach(I => {replaceIO(I, 'create:powdered_obsidian')});
-    ['#forge:dusts/osmium', 'mekanism:dust_osmium'].forEach(I => {replaceIO(I, 'alltheores:osmium_dust')});
-    ['#forge:dusts/quartz', 'mekanism:dust_quartz'].forEach(I => {replaceIO(I, 'thermal:quartz_dust')});
-    ['#forge:dusts/signalum', 'thermal:signalum_dust'].forEach(I => {replaceIO(I, 'alltheores:signalum_dust')});
-    ['#forge:dusts/silver', 'immersiveengineering:dust_silver', 'occultism:silver_dust', 'thermal:silver_dust'].forEach(I => {replaceIO(I, 'alltheores:silver_dust')});
-    ['#forge:dusts/steel', 'immersiveengineering:dust_steel', 'mekanism:dust_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_dust')});
-    ['#forge:dusts/sulfur', 'immersiveengineering:dust_sulfur', 'eidolon:sulfur', 'mekanism:dust_sulfur'].forEach(I => {replaceIO(I, 'thermal:sulfur_dust')});
-    ['#forge:dusts/tin', 'thermal:tin_dust', 'mekanism:dust_tin'].forEach(I => {replaceIO(I, 'alltheores:tin_dust')});
-    ['#forge:dusts/uranium', 'immersiveengineering:dust_uranium', 'mekanism:dust_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_dust')});
+    ['immersiveengineering:dust_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_dust')});
+    ['thermal:bronze_dust', 'mekanism:dust_bronze'].forEach(I => {replaceIO(I, 'alltheores:bronze_dust')});
+    ['immersiveengineering:dust_constantan', 'thermal:constantan_dust'].forEach(I => {replaceIO(I, 'alltheores:constantan_dust')});
+    ['immersiveengineering:dust_copper', 'occultism:copper_dust', 'thermal:copper_dust', 'mekanism:dust_copper'].forEach(I => {replaceIO(I, 'alltheores:copper_dust')});
+    ['createaddition:diamond_grit', 'thermal:diamond_dust', 'mekanism:dust_diamond'].forEach(I => {replaceIO(I, 'alltheores:diamond_dust')});
+    ['immersiveengineering:dust_electrum', 'thermal:electrum_dust'].forEach(I => {replaceIO(I, 'alltheores:electrum_dust')});
+    ['mekanism:dust_emerald'].forEach(I => {replaceIO(I, 'thermal:emerald_dust')});
+    ['ae2:ender_dust'].forEach(I => {replaceIO(I, 'thermal:ender_pearl_dust')});
+    ['thermal:enderium_dust'].forEach(I => {replaceIO(I, 'alltheores:enderium_dust')});
+    ['immersiveengineering:dust_gold', 'occultism:gold_dust', 'thermal:gold_dust', 'mekanism:dust_gold'].forEach(I => {replaceIO(I, 'alltheores:gold_dust')});
+    ['thermal:invar_dust'].forEach(I => {replaceIO(I, 'alltheores:invar_dust')});
+    ['immersiveengineering:dust_iron', 'occultism:iron_dust', 'thermal:iron_dust', 'mekanism:dust_iron'].forEach(I => {replaceIO(I, 'alltheores:iron_dust')});
+    ['mekanism:dust_lapis_lazuli'].forEach(I => {replaceIO(I, 'thermal:lapis_dust')});
+    ['immersiveengineering:dust_lead', 'thermal:lead_dust', 'mekanism:dust_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_dust')});
+    ['thermal:lumium_dust'].forEach(I => {replaceIO(I, 'alltheores:lumium_dust')});
+    ['thermal:netherite_dust', 'mekanism:dust_netherite'].forEach(I => {replaceIO(I, 'alltheores:netherite_dust')});
+    ['immersiveengineering:dust_nickel', 'thermal:nickel_dust'].forEach(I => {replaceIO(I, 'alltheores:nickel_dust')});
+    ['occultism:obsidian_dust', 'mekanism:dust_obsidian'].forEach(I => {replaceIO(I, 'create:powdered_obsidian')});
+    ['mekanism:dust_osmium'].forEach(I => {replaceIO(I, 'alltheores:osmium_dust')});
+    ['mekanism:dust_quartz'].forEach(I => {replaceIO(I, 'thermal:quartz_dust')});
+    ['thermal:signalum_dust'].forEach(I => {replaceIO(I, 'alltheores:signalum_dust')});
+    ['immersiveengineering:dust_silver', 'occultism:silver_dust', 'thermal:silver_dust'].forEach(I => {replaceIO(I, 'alltheores:silver_dust')});
+    ['immersiveengineering:dust_steel', 'mekanism:dust_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_dust')});
+    ['immersiveengineering:dust_sulfur', 'eidolon:sulfur', 'mekanism:dust_sulfur'].forEach(I => {replaceIO(I, 'thermal:sulfur_dust')});
+    ['thermal:tin_dust', 'mekanism:dust_tin'].forEach(I => {replaceIO(I, 'alltheores:tin_dust')});
+    ['immersiveengineering:dust_uranium', 'mekanism:dust_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_dust')});
     ['immersiveengineering:dust_wood', 'mekanism:sawdust'].forEach(I => {replaceIO(I, 'thermal:sawdust')});
     
     //Blocks
-    ['#forge:storage_blocks/aluminum', 'immersiveengineering:storage_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_block')});
-    ['#forge:storage_blocks/brass', 'create:brass_block'].forEach(I => {replaceIO(I, 'alltheores:brass_block')});
-    ['#forge:storage_blocks/bronze', 'thermal:bronze_block', 'mekanism:block_bronze'].forEach(I => {replaceIO(I, 'alltheores:bronze_block')});
-    ['#forge:storage_blocks/charcoal', 'quark:charcoal_block', 'mekanism:block_charcoal'].forEach(I => {replaceIO(I, 'thermal:charcoal_block')});
-    ['#forge:storage_blocks/coal_coke', 'thermal:coal_coke_block'].forEach(I => {replaceIO(I, 'immersiveengineering:coke')});
-    ['#forge:storage_blocks/constantan', 'immersiveengineering:storage_constantan', 'thermal:constantan_block'].forEach(I => {replaceIO(I, 'alltheores:constantan_block')});
-    ['#forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum', 'thermal:electrum_block'].forEach(I => {replaceIO(I, 'alltheores:electrum_block')});
-    ['#forge:storage_blocks/enderium', 'thermal:enderium_block'].forEach(I => {replaceIO(I, 'alltheores:enderium_block')});
-    ['#forge:storage_blocks/invar', 'thermal:invar_block'].forEach(I => {replaceIO(I, 'alltheores:invar_block')});
-    ['#forge:storage_blocks/lead', 'immersiveengineering:storage_lead', 'eidolon:lead_block', 'thermal:lead_block', 'mekanism:block_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_block')});
-    ['#forge:storage_blocks/lumium', 'thermal:lumium_block'].forEach(I => {replaceIO(I, 'alltheores:lumium_block')});
-    ['#forge:storage_blocks/nickel', 'immersiveengineering:storage_nickel', 'thermal:nickel_block'].forEach(I => {replaceIO(I, 'alltheores:nickel_block')});
-    ['#forge:storage_blocks/osmium', 'mekanism:block_osmium'].forEach(I => {replaceIO(I, 'alltheores:osmium_block')});
-    ['#forge:storage_blocks/sapphire', 'iceandfire:sapphire_block'].forEach(I => {replaceIO(I, 'alltheores:sapphire_block')});
-    ['#forge:storage_blocks/signalum', 'thermal:signalum_block'].forEach(I => {replaceIO(I, 'alltheores:signalum_block')});
-    ['#forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block', 'iceandfire:silver_block', 'occultism:silver_block', 'thermal:silver_block'].forEach(I => {replaceIO(I, 'alltheores:silver_block')});
-    ['#forge:storage_blocks/steel', 'immersiveengineering:storage_steel', 'ad_astra:steel_block', 'mekanism:block_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_block')});
-    ['#forge:storage_blocks/tin', 'thermal:tin_block', 'mekanism:block_tin'].forEach(I => {replaceIO(I, 'alltheores:tin_block')});
-    ['#forge:storage_blocks/uranium', 'immersiveengineering:storage_uranium', 'mekanism:block_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_block')});
-    ['#forge:storage_blocks/zinc', 'create:zinc_block'].forEach(I => {replaceIO(I, 'alltheores:zinc_block')});
+    ['immersiveengineering:storage_aluminum'].forEach(I => {replaceIO(I, 'alltheores:aluminum_block')});
+    ['create:brass_block'].forEach(I => {replaceIO(I, 'alltheores:brass_block')});
+    ['thermal:bronze_block', 'mekanism:block_bronze'].forEach(I => {replaceIO(I, 'alltheores:bronze_block')});
+    ['quark:charcoal_block', 'mekanism:block_charcoal'].forEach(I => {replaceIO(I, 'thermal:charcoal_block')});
+    ['thermal:coal_coke_block'].forEach(I => {replaceIO(I, 'immersiveengineering:coke')});
+    ['immersiveengineering:storage_constantan', 'thermal:constantan_block'].forEach(I => {replaceIO(I, 'alltheores:constantan_block')});
+    ['immersiveengineering:storage_electrum', 'thermal:electrum_block'].forEach(I => {replaceIO(I, 'alltheores:electrum_block')});
+    ['thermal:enderium_block'].forEach(I => {replaceIO(I, 'alltheores:enderium_block')});
+    ['thermal:invar_block'].forEach(I => {replaceIO(I, 'alltheores:invar_block')});
+    ['immersiveengineering:storage_lead', 'eidolon:lead_block', 'thermal:lead_block', 'mekanism:block_lead'].forEach(I => {replaceIO(I, 'alltheores:lead_block')});
+    ['thermal:lumium_block'].forEach(I => {replaceIO(I, 'alltheores:lumium_block')});
+    ['immersiveengineering:storage_nickel', 'thermal:nickel_block'].forEach(I => {replaceIO(I, 'alltheores:nickel_block')});
+    ['mekanism:block_osmium'].forEach(I => {replaceIO(I, 'alltheores:osmium_block')});
+    ['iceandfire:sapphire_block'].forEach(I => {replaceIO(I, 'alltheores:sapphire_block')});
+    ['thermal:signalum_block'].forEach(I => {replaceIO(I, 'alltheores:signalum_block')});
+    ['immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block', 'iceandfire:silver_block', 'occultism:silver_block', 'thermal:silver_block'].forEach(I => {replaceIO(I, 'alltheores:silver_block')});
+    ['immersiveengineering:storage_steel', 'ad_astra:steel_block', 'mekanism:block_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_block')});
+    ['thermal:tin_block', 'mekanism:block_tin'].forEach(I => {replaceIO(I, 'alltheores:tin_block')});
+    ['immersiveengineering:storage_uranium', 'mekanism:block_uranium'].forEach(I => {replaceIO(I, 'alltheores:uranium_block')});
+    ['create:zinc_block'].forEach(I => {replaceIO(I, 'alltheores:zinc_block')});
 
     //Wires
-    ['#forge:wires/copper', 'createaddition:copper_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_copper')});
-    ['#forge:wires/electrum', 'createaddition:electrum_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_electrum')});
+    ['createaddition:copper_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_copper')});
+    ['createaddition:electrum_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_electrum')});
     
     //Gems
-    ['#forge:gems/sapphire', 'iceandfire:sapphire_gem', 'thermal:sapphire'].forEach(I => {replaceIO(I, 'alltheores:sapphire')});
-    ['#forge:gems/ruby', 'thermal:ruby'].forEach(I => {replaceIO(I, 'alltheores:ruby')});
+    ['iceandfire:sapphire_gem', 'thermal:sapphire'].forEach(I => {replaceIO(I, 'alltheores:sapphire')});
+    ['thermal:ruby'].forEach(I => {replaceIO(I, 'alltheores:ruby')});
     
     //Others
-    ['#forge:crops/rice', 'sushigocrafting:rice'].forEach(I => {replaceIO(I, 'farmersdelight:rice')});
+    ['sushigocrafting:rice'].forEach(I => {replaceIO(I, 'farmersdelight:rice')});
     ['bhc:wither_bone'].forEach(I => {replaceIO(I, 'iceandfire:witherbone')});
-    ['#forge:plastic', 'industrialforegoing:plastic'].forEach(I => {replaceIO(I, 'pneumaticcraft:plastic')});
-    ['#forge:coal_coke', 'thermal:coal_coke'].forEach(I => {replaceIO(I, 'immersiveengineering:coal_coke')});
-    ['#forge:bitumen', 'immersivepetroleum:bitumen'].forEach(I => {replaceIO(I, 'thermal:bitumen')});
-    ['#forge:slag', 'immersiveengineering:slag'].forEach(I => {replaceIO(I, 'thermal:slag')});
+    ['industrialforegoing:plastic'].forEach(I => {replaceIO(I, 'pneumaticcraft:plastic')});
+    ['thermal:coal_coke'].forEach(I => {replaceIO(I, 'immersiveengineering:coal_coke')});
+    ['immersivepetroleum:bitumen'].forEach(I => {replaceIO(I, 'thermal:bitumen')});
+    ['immersiveengineering:slag'].forEach(I => {replaceIO(I, 'thermal:slag')});
     ['pneumaticcraft:wheat_flour'].forEach(I => {replaceIO(I, 'create:wheat_flour')});
     ['create:dough'].forEach(I => {replaceIO(I, 'farmersdelight:wheat_dough')});
     ['quark:carrot_crate', 'thermal:carrot_block'].forEach(I => {replaceIO(I, 'farmersdelight:carrot_crate')});

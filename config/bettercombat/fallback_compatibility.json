@@ -99,7 +99,7 @@
       "weapon_attributes": "bettercombat:cutlass"
     },
     {
-      "item_id_regex": "sword|blade",
+      "item_id_regex": "sword|blade|morgan|clarent|caliburn",
       "weapon_attributes": "bettercombat:sword"
     }
   ]

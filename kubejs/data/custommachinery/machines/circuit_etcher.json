@@ -1,0 +1,139 @@
+{
+  "name": "Circuit Etcher",
+  "appearance": {
+    "block": "custommachinery:machine/circuit_etcher_idle",
+    "item": "custommachinery:machine/circuit_etcher_running",
+    "ambient_sound": "",
+    "interaction_sound": "pneumaticcraft:pressure_chamber_wall",
+    "light": 0,
+    "color": 16777215,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": ["minecraft:mineable/pickaxe"],
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "custommachinery:machine/circuit_etcher_running",
+      "ambient_sound": "custommachinery:block.circuit_etcher",
+      "light": 10
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 182,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/circuit_etcher/gui.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/circuit_etcher/assembly.png",
+      "x": 10,
+      "y": 17,
+      "jei": true
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/circuit_etcher/display.png",
+      "x": 70,
+      "y": 48,
+      "tooltips": "This machine needs Assembly Program: Drill & Laser on the Display Shelf",
+      "jei": true
+    },
+    {
+      "type": "custommachinery:text",
+      "text": {"text": "Circuit Etcher", "color": "#393433", "bold": true},
+      "height": 7,
+      "x": 6,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/base_slot.png",
+      "id": "input",
+      "x": 82,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/base_slot.png",
+      "id": "input1",
+      "x": 37,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/base_slot.png",
+      "id": "input2",
+      "x": 55,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/base_slot.png",
+      "id": "input3",
+      "x": 55,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/base_slot.png",
+      "id": "output",
+      "x": 127,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": "custommachinery:textures/gui/base_inventory.png",
+      "x": 10,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/base_progress_empty.png",
+      "texture_filled": "custommachinery:textures/gui/base_progress_filled.png",
+      "x": 101,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 126,
+      "y": 5
+    }
+  ],
+  "jei": [],
+  "catalysts": []
+}

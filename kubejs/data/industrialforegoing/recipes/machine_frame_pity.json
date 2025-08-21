@@ -20,10 +20,13 @@
             "item": "immersiveengineering:component_steel"
           },
           "C": {
-            "item": "pneumaticcraft:printed_circuit_board"
+            "item": "pneumaticcraft:module_expansion_card"
           },
           "P": {
             "item": "pneumaticcraft:plastic"
+          },
+          "G": {
+            "item": "alltheores:brass_gear"
           },
           "W": {
             "tag": "minecraft:logs"
@@ -31,8 +34,8 @@
         },
         "pattern": [
           "WPW",
-          "SCS",
-          "WPW"
+          "GCG",
+          "WSW"
         ],
         "result": {
           "item": "industrialforegoing:machine_frame_pity"

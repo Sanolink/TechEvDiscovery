@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.1         (_____)
 
 */
 
@@ -327,7 +327,8 @@ JEIEvents.hideItems(event => {
         'sophisticatedstorage:pump_upgrade',
         'sophisticatedstorage:advanced_pump_upgrade',
         'sophisticatedstorage:xp_pump_upgrade',
-        'balancedflight:ascended_flight_ring'
+        'balancedflight:ascended_flight_ring',
+        'mysticalagradditions:dragon_scale'
     ])
 })
 
@@ -365,6 +366,7 @@ JEIEvents.addItems(event => {
     event.add([
         'minecraft:dragon_egg',
         'create:netherite_sandpaper',
+        'minecraft:powder_snow_bucket',
         Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"molds"}'),

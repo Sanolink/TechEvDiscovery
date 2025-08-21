@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.5         (_____)
 
 */
 
@@ -26,6 +26,7 @@ StartupEvents.registry('item', e => {
 
     //Basic Items
     function BasicItem(id, displayName) {
+      global.TechEvItems.push(id)
       return e.create(id).displayName(displayName)
     }
 
@@ -67,7 +68,6 @@ StartupEvents.registry('item', e => {
     BasicItem('create_things_and_misc:psi_quartz_sheet', "Psi Quartz Plate").texture('create_things_and_misc:items/psi_quartz_sheet')
     BasicItem('create_things_and_misc:source_quartz_sheet', "Source Quartz Plate").texture('create_things_and_misc:items/source_quartz_sheet')
     BasicItem('create_things_and_misc:antimatter_quartz_sheet', "Antimatter Quartz Plate").texture('create_things_and_misc:items/antimatter_quartz_sheet')
-    
     BasicItem('create:raw_andesite_alloy', "Raw Andesite Alloy")
     BasicItem('create:brass_alloy', "Brass Alloy")
     BasicItem('create:copper_alloy', "Copper Alloy")
@@ -75,22 +75,31 @@ StartupEvents.registry('item', e => {
     BasicItem('create:crushed_raw_ostrum', "Crushed Ostrum Ore").tag("create:crushed_raw_materials")
     BasicItem('create:crushed_raw_calorite', "Crushed Calorite Ore").tag("create:crushed_raw_materials")
     BasicItem('create:crushed_raw_nephryx', "Crushed Nephryx Ore").tag("create:crushed_raw_materials")
+    BasicItem('create:electron_shell', "Electron Shell")
     BasicItem('create:blue_quartz', "Blue Quartz")
     BasicItem('create:polished_blue_quartz', "Polished Blue Quartz")
+    BasicItem('create:positron_shell', "Positron Shell")
     BasicItem('create:positron_tube', "Positron Tube")
     BasicItem('create:psi_quartz', "Psi Quartz")
     BasicItem('create:polished_psi_quartz', "Polished Psi Quartz")
+    BasicItem('create:psi_shell', "Psi Shell")
     BasicItem('create:psi_tube', "Psi Tube")
     BasicItem('create:source_quartz', "Source Quartz")
     BasicItem('create:polished_source_quartz', "Polished Source Quartz")
+    BasicItem('create:source_shell', "Source Shell")
     BasicItem('create:source_tube', "Source Tube")
     BasicItem('create:antimatter_quartz', "Antimatter Quartz")
-    BasicItem('create:antiproton_tube', "Antiproton Tube")
     BasicItem('create:polished_antimatter_quartz', "Polished Antimatter Quartz")
+    BasicItem('create:antiproton_shell', "Antiproton Shell")
+    BasicItem('create:antiproton_tube', "Antiproton Tube")
 
+    BasicItem('createqol:chiaroscuro_actuator', "Chiaroscuro Actuator").rarity("rare")
+    
     BasicItem('hostilenetworks:blue_skies_prediction', "Generalized Blue Skies Prediction")
     BasicItem('hostilenetworks:inert_data_model', "Inert Model Framework")
     BasicItem('hostilenetworks:undergarden_prediction', "Generalized Undergarden Prediction")
+
+    BasicItem('immersiveengineering:material_component_oscillating', "Oscillating Component")
 
     BasicItem('industrialforegoing:sludge_bottle', "Sludge Bottle")
     BasicItem('industrialforegoing:laser_lens16', "Astral Laser Lens")
@@ -123,6 +132,12 @@ StartupEvents.registry('item', e => {
     BasicItem('productivebees:honeycomb_impertium', "Impertium Comb")
     BasicItem('productivebees:honeycomb_ultimate', "Ultimate Comb")
 
+    BasicItem('pneumaticcraft:basic_microchip', "Basic Microchip")
+    BasicItem('pneumaticcraft:advanced_microchip', "Advanced Microchip")
+    BasicItem('pneumaticcraft:processing_microchip', "Processing Microchip")
+    BasicItem('pneumaticcraft:advanced_printed_circuit_board', "Advanced PCB")
+    BasicItem('pneumaticcraft:processing_printed_circuit_board', "Processing PCB")
+
     BasicItem('thermal:ender_servo', "Ender Servo")
     BasicItem('thermal:press_rod_die', "Rodworking Die")
 
@@ -131,12 +146,15 @@ StartupEvents.registry('item', e => {
     
     //Sequenced Assembly Items
     function SequencedAssemblyItem(id, displayName) {
+      global.TechEvItems.push(id)
       return e.createCustom(id, () => new $SequencedAssemblyItem(new $ItemProperties())).displayName(displayName)
     }
 
     SequencedAssemblyItem('bhc:incomplete_heart_amulet', "Incomplete Heart Amulet")
 
     SequencedAssemblyItem('create:incomplete_copper_alloy', "Incomplete Copper Alloy")
+    
+    SequencedAssemblyItem('createqol:incomplete_chiaroscuro_actuator', "Incomplete Chiaroscuro Actuator")
 
     SequencedAssemblyItem('immersiveengineering:incomplete_hammer', "Incomplete Engineer's Hammer")
     SequencedAssemblyItem('immersiveengineering:incomplete_wirecutter', "Incomplete Engineer's Wire Cutters")
@@ -147,6 +165,7 @@ StartupEvents.registry('item', e => {
 
     //Sand Paper Items
     function SandPaperItem(id, displayName, durability) {
+      global.TechEvItems.push(id)
       return e.createCustom(id, () => new $SandPaperItem(new $ItemProperties().defaultDurability(durability))).displayName(displayName).tag("create:sandpaper")
     }
 

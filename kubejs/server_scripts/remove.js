@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.4         (_____)
+(_____)         Last Modification : 1.4.5         (_____)
 
 */
 
@@ -323,6 +323,7 @@ ServerEvents.recipes(event => {
     
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})
+    event.remove({ id: 'pneumaticcraft:printed_circuit_board'})
     event.remove({ id: 'pneumaticcraft:block_heat_properties/immersiveengineering/uranium'})
     event.remove({ id: 'pneumaticcraft:assembly/pressure_chamber_valve_assembly/advanced_pressure_tube'})
 

@@ -8,7 +8,7 @@
             "tag": "mekanism:alloys/atomic"
         },
         "C": {
-            "item": "immersiveengineering:component_electronic_adv"
+            "item": "pneumaticcraft:processing_printed_circuit_board"
         },
         "I": {
             "item": "alltheores:signalum_dust"

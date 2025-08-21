@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.4         (_____)
+(_____)         Last Modification : 1.4.5         (_____)
 
 */
 
@@ -99,6 +99,8 @@ StartupEvents.registry('item', e => {
     BasicItem('hostilenetworks:inert_data_model', "Inert Model Framework")
     BasicItem('hostilenetworks:undergarden_prediction', "Generalized Undergarden Prediction")
 
+    BasicItem('immersiveengineering:material_component_oscillating', "Oscillating Component")
+
     BasicItem('industrialforegoing:sludge_bottle', "Sludge Bottle")
     BasicItem('industrialforegoing:laser_lens16', "Astral Laser Lens")
 
@@ -129,6 +131,12 @@ StartupEvents.registry('item', e => {
     BasicItem('productivebees:honeycomb_sudentium', "Sudentium Comb")
     BasicItem('productivebees:honeycomb_impertium', "Impertium Comb")
     BasicItem('productivebees:honeycomb_ultimate', "Ultimate Comb")
+
+    BasicItem('pneumaticcraft:basic_microchip', "Basic Microchip")
+    BasicItem('pneumaticcraft:advanced_microchip', "Advanced Microchip")
+    BasicItem('pneumaticcraft:processing_microchip', "Processing Microchip")
+    BasicItem('pneumaticcraft:advanced_printed_circuit_board', "Advanced PCB")
+    BasicItem('pneumaticcraft:processing_printed_circuit_board', "Processing PCB")
 
     BasicItem('thermal:ender_servo', "Ender Servo")
     BasicItem('thermal:press_rod_die', "Rodworking Die")

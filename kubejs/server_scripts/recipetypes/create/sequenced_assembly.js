@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.4         (_____)
+(_____)         Last Modification : 1.4.5         (_____)
 
 */
 
@@ -50,6 +50,13 @@ ServerEvents.recipes(event => {
             parseIngredient(transition),
             fluid
         ],
+        results: [parseIngredient(transition)]
+    })
+
+    const Energising = energy => transition => ({
+        type: 'create_new_age:energising',
+        ingredients : [parseIngredient(transition)],
+        energy_needed: energy,
         results: [parseIngredient(transition)]
     })
 
@@ -167,6 +174,21 @@ ServerEvents.recipes(event => {
                 Deploying("createaddition:large_connector"),
                 Deploying("pneumaticcraft:compressed_iron_gear"),
                 Pressing()
+            ])
+        },
+        // PCB
+        {
+            id: "printed_circuit_board",
+            input: [parseIngredient("pneumaticcraft:unassembled_pcb")],
+            output: [parseIngredient("pneumaticcraft:printed_circuit_board")],
+            loops: 2,
+            transition: "pneumaticcraft:unassembled_pcb",
+            sequence: makeSequence("pneumaticcraft:unassembled_pcb", [
+                Filling(FluidWithCount("pneumaticcraft:etching_acid", 125)),
+                Deploying("pneumaticcraft:basic_microchip"),
+                Deploying("pneumaticcraft:transistor"),
+                Deploying("pneumaticcraft:capacitor"),
+                Energising(5000)
             ])
         }
     ]

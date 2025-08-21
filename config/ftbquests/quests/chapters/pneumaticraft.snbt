@@ -368,11 +368,6 @@
 					item: "pneumaticcraft:assembly_program_laser"
 					type: "item"
 				}
-				{
-					id: "0706A1A5674283AC"
-					item: "pneumaticcraft:assembly_program_drill_laser"
-					type: "item"
-				}
 			]
 			title: "Assembly Programs"
 			x: 11.0d
@@ -1235,6 +1230,114 @@
 			}]
 			x: 4.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["1480F78E6B58A186"]
+			description: [
+				"&l&6Circuit Etcher&r is a multiblock used to craft &l&2Printed Circuits&r."
+				"{image:techev:textures/misc/quests/pneumaticcraft/circuit_etcher.png width:132 height:133 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "custommachinery:circuit_etcher"
+				}
+			}
+			id: "3E027CCDDC59463A"
+			rewards: [{
+				id: "3DBDC4B568F41B78"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "66B9230CB81B49B6"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:circuit_etcher"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "1859430DA5079BD0"
+					item: "pneumaticcraft:smooth_plastic_brick_gray"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "514B9E039C190816"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "0BB8640B84C1E4E5"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "16DD61324C805923"
+					item: "pneumaticcraft:drill_pipe"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1B066FB5EE3E3DE4"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					id: "744F4C686BDACD62"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "3637A67BF86577FD"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "53A29EAAC71C7F0A"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "0E7D4B1459F6ED0F"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "2930F8497A4E1399"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "586F9D80709ABE9B"
+					item: "pneumaticcraft:display_shelf"
+					type: "item"
+				}
+				{
+					id: "56013DC236E964D7"
+					item: "pneumaticcraft:wall_lamp_inverted_red"
+					type: "item"
+				}
+				{
+					id: "559912148F9838E2"
+					item: "pneumaticcraft:assembly_program_drill_laser"
+					type: "item"
+				}
+			]
+			title: "&lCircuit Etcher"
+			x: 12.75d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Harnessing the Invisible Force: Air as Power"]

@@ -13,10 +13,10 @@
 			height: 3.0d
 			hover: [ ]
 			image: "techev:textures/misc/quests/progression.png"
-			rotation: 0.0d
+			rotation: -15.0d
 			width: 20.959044368600683d
-			x: 12.5d
-			y: -6.0d
+			x: 10.5d
+			y: -10.0d
 		}
 		{
 			click: ""
@@ -27,86 +27,110 @@
 			image: "pneumaticcraft:item/wip"
 			rotation: 0.0d
 			width: 2.0d
-			x: 25.5d
-			y: -14.5d
+			x: 27.0d
+			y: -11.0d
 		}
 		{
 			click: ""
 			color: 15335168
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 0.8d
 			hover: [ ]
 			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
-			rotation: 0.0d
-			width: 3.25d
-			x: 4.5d
-			y: 0.0d
+			rotation: -20.0d
+			width: 2.6d
+			x: 2.35d
+			y: -0.7d
 		}
 		{
 			click: ""
 			color: 130816
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 0.8d
 			hover: [ ]
 			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
-			rotation: 0.0d
-			width: 3.25d
-			x: 10.5d
-			y: 0.0d
+			rotation: -20.0d
+			width: 2.6d
+			x: 6.85d
+			y: -2.2d
 		}
 		{
 			click: ""
 			color: 65526
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 0.8d
 			hover: [ ]
 			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
-			rotation: 0.0d
-			width: 3.25d
-			x: 16.5d
-			y: 0.0d
+			rotation: -20.0d
+			width: 2.6d
+			x: 11.35d
+			y: -3.7d
 		}
 		{
 			click: ""
 			color: 15270143
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 0.8d
 			hover: [ ]
 			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
-			rotation: 0.0d
-			width: 3.25d
-			x: 22.5d
-			y: 0.0d
+			rotation: -20.0d
+			width: 2.6d
+			x: 15.85d
+			y: -5.2d
 		}
 		{
 			click: ""
 			color: 16550912
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 0.8d
 			hover: [ ]
 			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
-			rotation: -90.0d
-			width: 3.25d
-			x: 25.5d
-			y: -3.0d
+			rotation: -20.0d
+			width: 2.6d
+			x: 20.35d
+			y: -6.7d
 		}
 		{
 			click: ""
 			color: 16711680
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 0.8d
 			hover: [ ]
 			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
-			rotation: -90.0d
-			width: 3.25d
-			x: 25.5d
-			y: -9.0d
+			rotation: -20.0d
+			width: 2.6d
+			x: 24.85d
+			y: -8.2d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.8d
+			hover: [ ]
+			image: "minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_a.png"
+			rotation: -20.0d
+			width: 2.6d
+			x: -2.2d
+			y: 0.8d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/wip"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: -0.5d
 		}
 	]
 	order_index: 0
@@ -116,7 +140,7 @@
 			linked_quest: "74C9143F2AE3BB45"
 			shape: "octagon"
 			size: 3.0d
-			x: 1.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -124,8 +148,8 @@
 			linked_quest: "509461C4B7CFE7C8"
 			shape: "octagon"
 			size: 3.0d
-			x: 7.5d
-			y: 0.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			id: "1667AE50A435100B"
@@ -133,8 +157,8 @@
 			shape: "octagon"
 			size: 3.0d
 			title: "&lAtomic Pressure"
-			x: 13.5d
-			y: 0.0d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			icon: "cataclysm:monstrous_eye"
@@ -142,8 +166,8 @@
 			linked_quest: "63894331FBB6B6DA"
 			shape: "octagon"
 			size: 3.0d
-			x: 19.5d
-			y: 0.0d
+			x: 13.5d
+			y: -4.5d
 		}
 		{
 			icon: "ae2:singularity"
@@ -151,24 +175,24 @@
 			linked_quest: "6BF612431ADBCFF4"
 			shape: "octagon"
 			size: 3.0d
-			x: 25.5d
-			y: 0.0d
+			x: 18.0d
+			y: -6.0d
 		}
 		{
 			id: "7BEF2722FF59A04F"
 			linked_quest: "4E7356179682035C"
 			shape: "octagon"
 			size: 3.0d
-			x: 25.5d
-			y: -6.0d
+			x: 22.5d
+			y: -7.5d
 		}
 		{
 			id: "2B8A84CF404AE83B"
 			linked_quest: "5A7EB6BEA837C5F0"
 			shape: "octagon"
 			size: 3.0d
-			x: 25.5d
-			y: -12.0d
+			x: 27.0d
+			y: -9.0d
 		}
 	]
 	quests: [
@@ -199,8 +223,8 @@
 				type: "checkmark"
 			}]
 			title: "&lExploring World"
-			x: -0.75d
-			y: 0.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -223,7 +247,7 @@
 				type: "checkmark"
 			}]
 			title: "&lFarmer's Life"
-			x: 0.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -247,8 +271,8 @@
 				type: "checkmark"
 			}]
 			title: "&lCreate"
-			x: 3.0d
-			y: -1.5d
+			x: 0.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["509461C4B7CFE7C8"]
@@ -267,8 +291,8 @@
 				type: "checkmark"
 			}]
 			title: "&lCreate [Addons]"
-			x: 8.25d
-			y: 3.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -290,8 +314,8 @@
 				type: "checkmark"
 			}]
 			title: "&lImmersive Engineering"
-			x: 9.0d
-			y: 1.5d
+			x: 3.75d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -313,8 +337,8 @@
 				type: "checkmark"
 			}]
 			title: "&lSimple Storage"
-			x: 6.75d
-			y: 3.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -336,8 +360,8 @@
 				type: "checkmark"
 			}]
 			title: "&lFarmer's Life | Part 2"
-			x: 9.0d
-			y: -1.5d
+			x: 5.25d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -359,8 +383,8 @@
 				type: "checkmark"
 			}]
 			title: "&lTwilight Forest"
-			x: 6.0d
-			y: 1.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -382,8 +406,8 @@
 				type: "checkmark"
 			}]
 			title: "&lLittle Additions"
-			x: 7.5d
-			y: -2.25d
+			x: 4.5d
+			y: 0.75d
 		}
 		{
 			dependencies: [
@@ -406,7 +430,7 @@
 			}]
 			title: "&lArs Nouveau"
 			x: 6.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -429,7 +453,7 @@
 				type: "checkmark"
 			}]
 			title: "&lEidolon"
-			x: 0.0d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -452,8 +476,8 @@
 				type: "checkmark"
 			}]
 			title: "&lPneumaticCraft"
-			x: 14.25d
-			y: 3.0d
+			x: 8.25d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -475,8 +499,8 @@
 				type: "checkmark"
 			}]
 			title: "&lNature's Aura"
-			x: 12.75d
-			y: 3.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -498,8 +522,8 @@
 				type: "checkmark"
 			}]
 			title: "&lBlue Skies"
-			x: 12.0d
-			y: 1.5d
+			x: 10.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -521,7 +545,7 @@
 				type: "checkmark"
 			}]
 			title: "&lIndustrial Foregoing"
-			x: 15.0d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
@@ -544,8 +568,8 @@
 				type: "checkmark"
 			}]
 			title: "&lOccultism"
-			x: 15.0d
-			y: 1.5d
+			x: 9.75d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -571,8 +595,8 @@
 				type: "checkmark"
 			}]
 			title: "&lForbidden And Arcanus"
-			x: 12.0d
-			y: -1.5d
+			x: 7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -598,8 +622,8 @@
 				type: "checkmark"
 			}]
 			title: "&lUseful Tools"
-			x: 13.5d
-			y: -2.25d
+			x: 9.0d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -627,8 +651,8 @@
 				type: "checkmark"
 			}]
 			title: "&lThe Undergarden"
-			x: 18.0d
-			y: 1.5d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -650,8 +674,8 @@
 				type: "checkmark"
 			}]
 			title: "&lBotania"
-			x: 18.75d
-			y: 3.0d
+			x: 12.75d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -673,8 +697,8 @@
 				type: "checkmark"
 			}]
 			title: "&lThermal Series"
-			x: 20.25d
-			y: 3.0d
+			x: 15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -696,8 +720,8 @@
 				type: "checkmark"
 			}]
 			title: "&lApplied Energistics 2"
-			x: 21.0d
-			y: 1.5d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -725,8 +749,8 @@
 				type: "checkmark"
 			}]
 			title: "&lPsi"
-			x: 18.0d
-			y: -1.5d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -748,8 +772,8 @@
 				type: "checkmark"
 			}]
 			title: "&lPowah"
-			x: 21.0d
-			y: -1.5d
+			x: 14.25d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -771,7 +795,7 @@
 				type: "checkmark"
 			}]
 			title: "&lCompact Addons"
-			x: 19.5d
+			x: 13.5d
 			y: -2.25d
 		}
 		{
@@ -795,8 +819,8 @@
 				type: "checkmark"
 			}]
 			title: "&lSpirit"
-			x: 1.5d
-			y: 2.25d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -819,8 +843,8 @@
 				type: "checkmark"
 			}]
 			title: "&lCreate [New Age]"
-			x: 3.0d
-			y: 1.5d
+			x: 0.0d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -842,8 +866,8 @@
 				type: "checkmark"
 			}]
 			title: "&lMekanism"
-			x: 24.0d
-			y: 1.5d
+			x: 16.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -865,8 +889,8 @@
 				type: "checkmark"
 			}]
 			title: "&lProductive Bees"
-			x: 26.25d
-			y: 2.25d
+			x: 17.25d
+			y: -3.75d
 		}
 		{
 			dependencies: [
@@ -888,8 +912,8 @@
 				type: "checkmark"
 			}]
 			title: "&lApplied Energistics 2"
-			x: 24.0d
-			y: -1.5d
+			x: 18.0d
+			y: -8.25d
 		}
 		{
 			dependencies: [
@@ -911,8 +935,8 @@
 				type: "checkmark"
 			}]
 			title: "&lMystical Agriculture"
-			x: 27.75d
-			y: 0.75d
+			x: 18.75d
+			y: -3.75d
 		}
 		{
 			dependencies: [
@@ -934,8 +958,125 @@
 				type: "checkmark"
 			}]
 			title: "&lAd Astra"
-			x: 27.0d
-			y: -1.5d
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E7356179682035C"]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "074CFEB35F0546BC"
+			rewards: [{
+				id: "2F996CEC14751515"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"ProjectE\"."
+			tasks: [{
+				id: "78D3A147476C7DCC"
+				type: "checkmark"
+			}]
+			title: "&lProjectE"
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E7356179682035C"]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "13066F53B22F865B"
+			rewards: [{
+				id: "0A0AFE447B3C36C4"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Ad Astra\"."
+			tasks: [{
+				id: "0B80D88F7DBFD0F4"
+				type: "checkmark"
+			}]
+			title: "&lAd Astra"
+			x: 23.25d
+			y: -9.75d
+		}
+		{
+			dependencies: ["4E7356179682035C"]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "1D98BCCFFB678BAC"
+			rewards: [{
+				id: "5071E7A946ECA014"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"Alchemistry / ChemLib\"."
+			tasks: [{
+				id: "5146351E87B6095A"
+				type: "checkmark"
+			}]
+			title: "&lAlchemistry / ChemLib"
+			x: 24.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E7356179682035C"]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "0539B924F0517E3B"
+			rewards: [{
+				id: "4D26F6B213B0F4C3"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"RFTools\"."
+			tasks: [{
+				id: "5835D301AE98545A"
+				type: "checkmark"
+			}]
+			title: "&lRFTools"
+			x: 21.75d
+			y: -9.75d
+		}
+		{
+			dependencies: ["4E7356179682035C"]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "3FFF6AF1CA87837D"
+			rewards: [{
+				id: "524ADC64FC198234"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish the Main Quest of \"FTB Industrial Contraptions\"."
+			tasks: [{
+				id: "103E6037C30D7181"
+				type: "checkmark"
+			}]
+			title: "&lFTB Industrial Contraptions"
+			x: 22.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["0F8C4C01C5E75A8B"]
+			dependency_requirement: "all_started"
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "3D74EFD924952F78"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Soon, In 1.6.0 !"
+			tasks: [{
+				id: "1FCA93D83C7C93D3"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "&lPre-Age : WIP"
+			x: -4.5d
+			y: 1.5d
 		}
 	]
 	title: " &l♠ &r&lAchievements"

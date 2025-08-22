@@ -405,11 +405,25 @@
 		}
 		{
 			click: ""
+			color: 7748289
 			corner: false
 			dev: false
 			height: 3.5d
-			hover: ["&lCurrently in Work"]
-			image: "techev_additions:item/techevium"
+			hover: ["&l&4>> &fAge 6 : Shop"]
+			image: "extendedcrafting:item/singularity"
+			rotation: 0.0d
+			width: 3.5d
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			color: 0
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: [ ]
+			image: "extendedcrafting:item/singularity_overlay"
 			rotation: 0.0d
 			width: 3.5d
 			x: 16.0d

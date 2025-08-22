@@ -5,8 +5,483 @@
 	group: "3818CF066B02A8FF"
 	icon: "rftoolsbase:dimensionalshard"
 	id: "310158789998BC45"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "0BF8EE1B7D432339"
+			tasks: [{
+				id: "21470A14D6BCE512"
+				item: "rftoolsbase:dimensionalshard"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3DB8C6996F423F69"
+				"0BF8EE1B7D432339"
+			]
+			id: "29F81B08C675C873"
+			tasks: [
+				{
+					id: "5E86AD380ED1C67D"
+					item: "rftoolsbase:infused_diamond"
+					type: "item"
+				}
+				{
+					id: "30A9D5563C84B4E6"
+					item: "rftoolsbase:infused_enderpearl"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "0E1F9C87F154854A"
+			tasks: [{
+				id: "3BAEB42A78EB0040"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "73A932BF83909604"
+			tasks: [{
+				id: "38D7477C4FB0615C"
+				item: "rftoolsutility:spawner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "40154DF9336EADAB"
+			tasks: [{
+				id: "79202610A7B10B1D"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "2B804D94A56AD706"
+			tasks: [{
+				id: "625DBE996101D942"
+				item: "rftoolsutility:destination_analyzer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "54FE2140F88E747E"
+			tasks: [{
+				id: "72D51CE222621A4A"
+				item: "rftoolsutility:dialing_device"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "48EC8EC38600435B"
+			tasks: [{
+				id: "091DD73ED69D26A6"
+				item: "rftoolsutility:screen_controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "01D412427B24441D"
+			tasks: [{
+				id: "62495805F92D7001"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "11B6988B1D99321C"
+			tasks: [
+				{
+					id: "310BD567590A8FBA"
+					item: "rftoolspower:blazing_generator"
+					type: "item"
+				}
+				{
+					id: "59D1759D05F911BB"
+					item: "rftoolspower:blazing_agitator"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "530C70924C29F920"
+			tasks: [{
+				id: "0C564092E7A81222"
+				item: "rftoolspower:blazing_infuser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "380D72D7BD0FFCC6"
+			tasks: [{
+				id: "09C2EF1A77138767"
+				item: "rftoolspower:coalgenerator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			id: "015466BE6C5AC942"
+			tasks: [{
+				id: "074CF93109D58329"
+				item: "rftoolsdim:dimension_builder"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "63FDE65C45520C81"
+			tasks: [{
+				id: "44A464C8D9557ED9"
+				item: "rftoolsdim:dimension_editor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "02ADF285D71BA86B"
+			tasks: [{
+				id: "7B544162B2B48AFA"
+				item: "rftoolsdim:enscriber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "06982E7CF5FDD609"
+			tasks: [{
+				id: "2ABD1654656F6C73"
+				item: "rftoolsdim:dimlet_workbench"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "05B3BEF7AA75DE72"
+			tasks: [{
+				id: "1DD5F22E172D3ABF"
+				item: "rftoolsdim:knowledge_holder"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "715F482DE2D08470"
+			tasks: [
+				{
+					id: "66362BE71A4E3A25"
+					item: "rftoolsdim:block_absorber"
+					type: "item"
+				}
+				{
+					id: "21435F969EB34B3C"
+					item: "rftoolsdim:fluid_absorber"
+					type: "item"
+				}
+				{
+					id: "197D2CEFD6DC7C9C"
+					item: "rftoolsdim:biome_absorber"
+					type: "item"
+				}
+				{
+					id: "5DE628E1861051D1"
+					item: "rftoolsdim:structure_absorber"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "7762C7741F144C02"
+			tasks: [{
+				id: "092E13D472749A9F"
+				item: "rftoolsdim:researcher"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "27D3670B0E831D45"
+			tasks: [
+				{
+					id: "6233C32C90582C52"
+					item: "rftoolsdim:part_energy_0"
+					type: "item"
+				}
+				{
+					id: "4917163A23DFA8A5"
+					item: "rftoolsdim:part_energy_1"
+					type: "item"
+				}
+				{
+					id: "203CD0A947057468"
+					item: "rftoolsdim:part_energy_2"
+					type: "item"
+				}
+				{
+					id: "497360E3401E28EF"
+					item: "rftoolsdim:part_energy_3"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "3D38AC9655FF0842"
+			tasks: [
+				{
+					id: "1C09763E97DD3BCE"
+					item: "rftoolsdim:part_memory_0"
+					type: "item"
+				}
+				{
+					id: "2F9122B28E81C616"
+					item: "rftoolsdim:part_memory_1"
+					type: "item"
+				}
+				{
+					id: "2582EE9B03ECFAD7"
+					item: "rftoolsdim:part_memory_2"
+					type: "item"
+				}
+				{
+					id: "3C539ADE2433FEE2"
+					item: "rftoolsdim:part_memory_3"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "713BB0D35EA31952"
+			tasks: [{
+				id: "09EB47D04631D1D4"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "1B77163E69523652"
+			tasks: [{
+				id: "5B88C3374BEED663"
+				item: "rftoolsdim:sky_dimlet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "579CCDD5D98A1A9D"
+			tasks: [{
+				id: "29E5B06A0AF8EB62"
+				item: "rftoolsdim:tag_dimlet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			id: "6B7FE14A6DDCC6BD"
+			tasks: [
+				{
+					id: "798DB49628D641A5"
+					item: "rftoolsdim:common_lost_knowledge"
+					type: "item"
+				}
+				{
+					id: "080A0E37B65C644A"
+					item: "rftoolsdim:uncommon_lost_knowledge"
+					type: "item"
+				}
+				{
+					id: "31EE827F2A3B1ADE"
+					item: "rftoolsdim:rare_lost_knowledge"
+					type: "item"
+				}
+				{
+					id: "50FE7547C1553536"
+					item: "rftoolsdim:legendary_lost_knowledge"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "78A608BFECC641AD"
+			tasks: [
+				{
+					id: "7D6075739755E484"
+					item: "rftoolsdim:common_essence"
+					type: "item"
+				}
+				{
+					id: "537B8044B684A024"
+					item: "rftoolsdim:rare_essence"
+					type: "item"
+				}
+				{
+					id: "199DF338C1CD337F"
+					item: "rftoolsdim:legendary_essence"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "523F72AA7D927A79"
+			tasks: [{
+				id: "5C9233D95DBB61FF"
+				item: "rftoolsdim:time_dimlet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "7EDB0C9A5AC824CA"
+			tasks: [{
+				id: "5295E94DF92332CF"
+				item: "rftoolsdim:fluid_dimlet"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "0281FAEF4D26BDF5"
+			tasks: [{
+				id: "57B6F1EA71719136"
+				item: "rftoolsdim:block_dimlet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			id: "21C46A1C3EB5B54E"
+			tasks: [{
+				id: "5D8FCFD02BBA9D07"
+				item: "rftoolsdim:empty_dimension_tab"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "34BD3EB301A42F05"
+			tasks: [{
+				id: "2FE64701AAA41CB5"
+				item: "rftoolspower:blazing_rod"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "55C094347CEE3A81"
+			tasks: [
+				{
+					id: "1F74CCF487B70641"
+					item: "rftoolspower:dimensionalcell_simple"
+					type: "item"
+				}
+				{
+					id: "3E0BB8846A839401"
+					item: "rftoolspower:dimensionalcell_advanced"
+					type: "item"
+				}
+				{
+					id: "6E6C724A92BA8743"
+					item: "rftoolspower:dimensionalcell"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			id: "7A5C32000B8A1F19"
+			tasks: [
+				{
+					id: "3DB0AA711356739C"
+					item: "rftoolspower:pearl_injector"
+					type: "item"
+				}
+				{
+					id: "2D7723A8EE1232FD"
+					item: "rftoolspower:endergenic"
+					type: "item"
+				}
+				{
+					id: "16C3FFF952F81C8A"
+					item: "rftoolspower:ender_monitor"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			id: "35251AFB20819943"
+			tasks: [
+				{
+					id: "3E4345FDA128A967"
+					item: "rftoolspower:cell1"
+					type: "item"
+				}
+				{
+					id: "195DFCFF562FBDBF"
+					item: "rftoolspower:cell2"
+					type: "item"
+				}
+				{
+					id: "2F3FB22EAED0270A"
+					item: "rftoolspower:cell3"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -8.0d
+		}
+	]
 	title: " &l&4♦ &rRFTools"
 }

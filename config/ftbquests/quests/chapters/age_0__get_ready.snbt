@@ -73,18 +73,6 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "techev_additions:item/techevium"
-			rotation: -12.0d
-			width: 1.0d
-			x: 4.5d
-			y: -3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
 			image: "create:item/brass_alloy"
 			rotation: 10.0d
 			width: 1.0d
@@ -440,6 +428,18 @@
 			x: -3.142857142857146d
 			y: -6.23571428571428d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "techev_additions:item/tellurite"
+			rotation: 15.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -661,7 +661,7 @@
 				"• &l&5Evolium"
 				"A rare essence drawn from the fabric of arcane energy. Mysterious and volatile, Evolium represents raw magic in its purest form. It responds to willpower and ritual, empowering those who seek control over the supernatural."
 				""
-				"When these three forces are united, the result is the &l&6Techevium&r — an alloy beyond comprehension, said to defy the laws of nature and reshape existence itself."
+				"When these three forces are united, the result is the &l&4Techevium&r — an alloy beyond comprehension, said to defy the laws of nature and reshape existence itself."
 				""
 				"Those who master it hold the key to transcend the limits of reality itself."
 			]
@@ -719,5 +719,5 @@
 		}
 	]
 	subtitle: ["&lWelcome !"]
-	title: "&l&fAge 0 : Getting started"
+	title: "&l&f[Getting Started]"
 }

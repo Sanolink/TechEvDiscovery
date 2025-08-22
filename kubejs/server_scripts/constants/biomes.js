@@ -53,12 +53,7 @@ const biomes = {
             'byg:sythian_torrids',
             'byg:wailing_garth',
             'byg:warped_desert',
-            'byg:weeping_mire',
-            'biomesoplenty:crystalline_chasm',
-            'biomesoplenty:erupting_inferno',
-            'biomesoplenty:undergrowth',
-            'biomesoplenty:visceral_heap',
-            'biomesoplenty:withered_abyss'
+            'byg:weeping_mire'
         ]
     },
     blue_skies: {

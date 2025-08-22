@@ -837,8 +837,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00395A3728B3CE94"]
-			hide_dependency_lines: true
+			dependencies: ["0C447C37E78E4207"]
 			id: "02E59B2DD0CB5AA3"
 			rewards: [{
 				id: "5E65C32A5567B631"
@@ -1252,6 +1251,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Use &c&l[Schematicannon] &rto build this Multiblock!"
 			tasks: [
 				{
 					id: "66B9230CB81B49B6"

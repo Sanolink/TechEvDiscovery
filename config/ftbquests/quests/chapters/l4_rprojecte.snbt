@@ -12,8 +12,258 @@
 		tag: { }
 	}
 	id: "6A150C4C54400269"
-	order_index: 0
+	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "5185EE4056AE835A"
+			tasks: [{
+				id: "2FAA9AFB5CAF68FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5185EE4056AE835A"]
+			id: "12C1DC705AD8B5BB"
+			tasks: [{
+				id: "67316B859E57D68E"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12C1DC705AD8B5BB"]
+			id: "6273CFCBA105C044"
+			tasks: [{
+				id: "266234B20D6CA4DA"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "323F1D78201A8A4D"
+			tasks: [{
+				id: "1F95F629714C0DDA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:watch_of_flowing_time"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "055D683255924DE4"
+			tasks: [{
+				id: "4971983F8E946F62"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_ein"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			id: "2B6EDC958C5FD0B5"
+			tasks: [{
+				id: "464D9D3119F5307C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "projecte:alchemical_bags"
+					}
+				}
+				title: "Any #projecte:alchemical_bags"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "7CFF7E9C9FACF325"
+			tasks: [{
+				id: "05FE2A60B44F5896"
+				item: "projecte:collector_mk1"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CFF7E9C9FACF325"]
+			id: "4E8E4DF1F754D80D"
+			tasks: [{
+				id: "2546524D098F3C0A"
+				item: "projecte:collector_mk2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E8E4DF1F754D80D"]
+			id: "6F1B11F676DA5BD7"
+			tasks: [{
+				id: "2CBAEBFCE729C44C"
+				item: "projecte:collector_mk3"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			id: "3895F8C7A180F533"
+			tasks: [{
+				id: "73A1AB883149FDBB"
+				item: "projecte:dm_helmet"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "4D1C3EDBCEFED8A9"
+			tasks: [{
+				id: "7CA200BDCC92368F"
+				item: "projecte:rm_helmet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			id: "579722803AA436B3"
+			tasks: [{
+				id: "2E7720E8CD44FE1A"
+				item: "projecte:gem_helmet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12C1DC705AD8B5BB"]
+			id: "6A7628B3B08CAFD2"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "5F194C6DA8A6C435"
+				item: "projecte:tome"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["055D683255924DE4"]
+			id: "280963A9142C654F"
+			tasks: [{
+				id: "26B09CDC5810985D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_zwei"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["280963A9142C654F"]
+			id: "726D418FA80D9DFC"
+			tasks: [{
+				id: "732C78CFABB9475B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_drei"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["726D418FA80D9DFC"]
+			id: "425076B06A3A9C22"
+			tasks: [{
+				id: "3BB4BE5463349BEE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_vier"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["425076B06A3A9C22"]
+			id: "633712B709C899D5"
+			tasks: [{
+				id: "4811C61709DD14AA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_sphere"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["633712B709C899D5"]
+			id: "694A572BA99FEE14"
+			tasks: [{
+				id: "4DD09ABAC130E112"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+	]
 	title: " &l&4♦ &rProjectE"
 }

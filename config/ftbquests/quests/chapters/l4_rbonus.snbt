@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l4_rbonus"
+	group: "3818CF066B02A8FF"
+	id: "619C4E9C93BDBCF8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3667CE4E474D459A"
+			tasks: [{
+				id: "5B02F18785E304DC"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "1B9F5E5B7D136C72"
+			tasks: [{
+				id: "30539A13723C721B"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "4F0A225845544742"
+			tasks: [{
+				id: "781688190C26C38A"
+				item: {
+					Count: 1b
+					id: "regen:fobwatch"
+					tag: {
+						Damage: 0
+						is_gold: 1b
+						is_open: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+	]
+	title: " &l&4♦ &rBonus"
+}

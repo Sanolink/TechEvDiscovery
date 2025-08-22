@@ -110,6 +110,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "projectexpansion": {
+    "provider": true
+  },
   "pipez": {
     "pipe": true
   },

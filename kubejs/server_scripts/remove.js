@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.5         (_____)
+(_____)         Last Modification : 1.4.7         (_____)
 
 */
 
@@ -151,6 +151,12 @@ ServerEvents.recipes(event => {
     event.remove([{ type: 'minecraft:blasting', input: '#create:crushed_raw_materials' }])
     event.remove([{ type: 'minecraft:smelting', input: '#create:crushed_raw_materials' }])
     event.remove([{ type:'create:splashing', input: '#create:crushed_raw_materials'}])
+
+    //Dragonseeker
+    event.remove({ id: 'dragonseeker:dragonseeker'})
+    event.remove({ id: 'dragonseeker:legendary_dragonseeker_fire'})
+    event.remove({ id: 'dragonseeker:legendary_dragonseeker_ice'})
+    event.remove({ id: 'dragonseeker:legendary_dragonseeker_lightning'})
 
     //Eidolon
     event.remove({ output: 'eidolon:pewter_blend', type: 'minecraft:crafting_shapeless' })

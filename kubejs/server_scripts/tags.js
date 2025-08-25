@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.7         (_____)
 
 */
 
@@ -302,6 +302,7 @@ ServerEvents.tags('item', e => {
     e.add('matc:tertium', ["matc:imperium_crystal", "matc:supremium_crystal"])
     e.add('matc:imperium', ["matc:supremium_crystal"])
     e.add('industrialforegoing:basic_laser_lens', [laserLens.black, laserLens.blue, laserLens.brown, laserLens.cyan, laserLens.gray, laserLens.green, laserLens.light_blue, laserLens.light_gray, laserLens.lime, laserLens.magenta, laserLens.orange, laserLens.pink, laserLens.purple, laserLens.red, laserLens.white, laserLens.yellow])
+    e.add('iceandfire:dragonsteels', ['iceandfire:dragonsteel_fire_ingot', 'iceandfire:dragonsteel_ice_ingot', 'iceandfire:dragonsteel_lightning_ingot'])
     
     // Common Tags
     e.add('forge:raw_materials', 'ad_astra:raw_nephryx')

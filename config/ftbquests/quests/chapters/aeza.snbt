@@ -36,23 +36,11 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "iceandfire:textures/item/dragon_stick_fire.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
 			image: "ftbchunks:textures/faces/iceandfire/lightning_dragon.png"
 			rotation: -90.0d
 			width: 1.0d
 			x: 0.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			click: ""
@@ -64,7 +52,7 @@
 			rotation: -90.0d
 			width: 1.0d
 			x: -1.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			click: ""
@@ -76,7 +64,7 @@
 			rotation: -90.0d
 			width: 1.0d
 			x: 1.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			click: ""
@@ -2348,7 +2336,9 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["3A05787442F3C4E5"]
+			dependencies: ["36A4FEBCF4D6CA63"]
+			description: ["{image:techev:textures/misc/quests/iceandfire/fire_forge.png width:104 height:100 align:1}"]
+			icon: "iceandfire:dragonforge_fire_core"
 			id: "199835F650A25B83"
 			rewards: [{
 				id: "14CC5190F403976D"
@@ -2357,17 +2347,42 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [{
-				id: "2E3F8AC09430B6EF"
-				item: "iceandfire:dragonsteel_fire_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 17L
+					id: "7F09EBD329D6B891"
+					item: "iceandfire:dragonforge_fire_brick"
+					type: "item"
+				}
+				{
+					id: "22D0B044F94747BE"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					id: "1EE880D2DB51AD9B"
+					item: "iceandfire:dragonforge_fire_input"
+					type: "item"
+				}
+				{
+					id: "6529C01062021320"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+					type: "item"
+				}
+				{
+					id: "01236D4E34025042"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+			]
 			title: "&l&cFire Dragonsteel"
 			x: -1.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["3A05787442F3C4E5"]
+			dependencies: ["2E9DC1322250F273"]
+			description: ["{image:techev:textures/misc/quests/iceandfire/lightning_forge.png width:104 height:100 align:1}"]
+			icon: "iceandfire:dragonforge_lightning_core"
 			id: "2E848FC154E769E4"
 			rewards: [{
 				id: "73B22C7A65CD46BE"
@@ -2376,17 +2391,42 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [{
-				id: "1078FF67AA941992"
-				item: "iceandfire:dragonsteel_lightning_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 17L
+					id: "17ABEC867B6972E7"
+					item: "iceandfire:dragonforge_lightning_brick"
+					type: "item"
+				}
+				{
+					id: "7F13631F89C00905"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					id: "7325090AF41D66DD"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					id: "76AA3BCEFDF755EE"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+					type: "item"
+				}
+				{
+					id: "3292CEC4F3632789"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+			]
 			title: "&l&5Lightning Dragonsteel"
 			x: 0.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["3A05787442F3C4E5"]
+			dependencies: ["6D93868FDC5A4C75"]
+			description: ["{image:techev:textures/misc/quests/iceandfire/ice_forge.png width:104 height:100 align:1}"]
+			icon: "iceandfire:dragonforge_ice_core"
 			id: "6DE89924E00A64F3"
 			rewards: [{
 				id: "0550184D3005BCF4"
@@ -2395,14 +2435,37 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [{
-				id: "1D58BC1821F27CC4"
-				item: "iceandfire:dragonsteel_ice_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 17L
+					id: "21356B94B5B0A682"
+					item: "iceandfire:dragonforge_ice_brick"
+					type: "item"
+				}
+				{
+					id: "75C1E1A0B86B2D6F"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					id: "54582C174440BBD7"
+					item: "iceandfire:dragonforge_ice_input"
+					type: "item"
+				}
+				{
+					id: "1D0BA7A9AC94A2D1"
+					item: "iceandfire:dragonforge_ice_core_disabled"
+					type: "item"
+				}
+				{
+					id: "626F0A65FF1F4563"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+			]
 			title: "&l&bIce Dragonsteel"
 			x: 1.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2D686E6C43E4C7F0"]
@@ -2858,6 +2921,168 @@
 			}]
 			x: 5.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["3A05787442F3C4E5"]
+			description: [
+				"&7The Dragonseeker helps you to find nearby dragons."
+				""
+				"Upgrading it improve its durability and increase the sound made when a dragon is detected."
+				""
+				"&cTake note that the basic Dragonseeker is not infallible."
+				""
+				"Its &d\"Godly\"&r variant can also give exact coordinates of these."
+			]
+			id: "090D877822F7800A"
+			rewards: [{
+				id: "08D08B1C9DAA5102"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "68803507BDCE63B2"
+				item: {
+					Count: 1b
+					id: "dragonseeker:dragonseeker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A05787442F3C4E5"]
+			id: "36A4FEBCF4D6CA63"
+			rewards: [{
+				id: "21B2E1CA9E1D95A0"
+				item: "iceandfire:fire_dragon_blood"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "0BB4A0E97F247BAE"
+					item: "iceandfire:fire_dragon_blood"
+					type: "item"
+				}
+				{
+					id: "61629FB980A83B8C"
+					item: "iceandfire:fire_dragon_flesh"
+					type: "item"
+				}
+				{
+					id: "65EAC1ECE60FEA28"
+					item: "iceandfire:fire_dragon_heart"
+					type: "item"
+				}
+				{
+					id: "728BA2E92415DA07"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:scales/dragon/fire"
+						}
+					}
+					title: "Any Fire Dragon Scales"
+					type: "item"
+				}
+			]
+			title: "&l&cFire Dragon Materials"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A05787442F3C4E5"]
+			id: "2E9DC1322250F273"
+			rewards: [{
+				id: "5FA9ACFD391A0340"
+				item: "iceandfire:lightning_dragon_blood"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "6D885A8EDE0E8E07"
+					item: "iceandfire:lightning_dragon_blood"
+					type: "item"
+				}
+				{
+					id: "772EF6E803C57C9E"
+					item: "iceandfire:lightning_dragon_flesh"
+					type: "item"
+				}
+				{
+					id: "485882E806F3CB46"
+					item: "iceandfire:lightning_dragon_heart"
+					type: "item"
+				}
+				{
+					id: "35AE9F42E09914D5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:scales/dragon/lightning"
+						}
+					}
+					title: "Any Lightning Dragon Scales"
+					type: "item"
+				}
+			]
+			title: "&l&5Lightning Dragon Materials"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3A05787442F3C4E5"]
+			id: "6D93868FDC5A4C75"
+			rewards: [{
+				id: "048606AA4117A533"
+				item: "iceandfire:ice_dragon_blood"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5DCED2EA603FA267"
+					item: "iceandfire:ice_dragon_blood"
+					type: "item"
+				}
+				{
+					id: "7216A2D1F047148D"
+					item: "iceandfire:ice_dragon_flesh"
+					type: "item"
+				}
+				{
+					id: "6C9393891C374D47"
+					item: "iceandfire:ice_dragon_heart"
+					type: "item"
+				}
+				{
+					id: "1D727E54F85A5B92"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:scales/dragon/ice"
+						}
+					}
+					title: "Any Ice Dragon Scales"
+					type: "item"
+				}
+			]
+			title: "&l&bIce Dragon Materials"
+			x: 1.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tracks of sand! Lands of ice! Water that burns!"]

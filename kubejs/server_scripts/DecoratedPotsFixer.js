@@ -13,21 +13,11 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.8         (_____)
+(_____)         Last Modification : 1.4.7         (_____)
 
 */
 
 // TO REMOVE When Cataclysm fixes the method of looting Decorated Pots
-MoreJSEvents.structureLoad(event => {
-    event.forEachPalettes(palette => {
-        palette.removeIf(blockData => {
-            if (blockData.id === "minecraft:decorated_pot") {
-                return true;
-            }
-            return false;
-        });
-    });
-});
 
 BlockEvents.leftClicked('minecraft:decorated_pot', event => {
     event.player.tell(Text.red('This block currently has a bug, please do not use it!'))

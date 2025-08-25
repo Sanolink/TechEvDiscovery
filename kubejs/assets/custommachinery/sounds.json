@@ -1,4 +1,11 @@
 {
+  "block.precision_assembler": {
+    "subtitle": "subtitles.custommachinery.block.precision_assembler",
+    "sounds": [
+      "custommachinery:block/precision_assembler"
+    ]
+  },
+  
   "block.circuit_etcher": {
     "subtitle": "subtitles.custommachinery.block.circuit_etcher",
     "sounds": [

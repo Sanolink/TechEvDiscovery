@@ -1566,8 +1566,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 3.5d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -1666,8 +1666,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 3.5d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5EB4453CF55EE48B"]
@@ -7086,6 +7086,153 @@
 			]
 			x: -1.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["5EB4453CF55EE48B"]
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:fire_dragon"
+					}
+				}
+			}
+			id: "05ACB93191FD56BF"
+			rewards: [{
+				id: "5077AB0BCEC2F38B"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "45D7526100DE04CB"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:fire_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "634EE6019445E436"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:prediction"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:fire_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5EB4453CF55EE48B"]
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:lightning_dragon"
+					}
+				}
+			}
+			id: "71E1F2E01F89FCDB"
+			rewards: [{
+				id: "5F5E73929A4433D5"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "4560E3F9B84626C0"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:lightning_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52792BDEF2DE1BA4"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:prediction"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:lightning_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5EB4453CF55EE48B"]
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:ice_dragon"
+					}
+				}
+			}
+			id: "56A6A0CAED87A604"
+			rewards: [{
+				id: "6540FC61FD4333C4"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "6F6CAE925BA2A4E3"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:ice_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "641A7FBA397AAE3A"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:prediction"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:ice_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Tiny Worlds, Deadly Networks"]

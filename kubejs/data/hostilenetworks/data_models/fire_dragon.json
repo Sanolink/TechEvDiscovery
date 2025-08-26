@@ -1,0 +1,75 @@
+{
+	"type": "iceandfire:fire_dragon",
+	"name": "entity.iceandfire.fire_dragon",
+	"name_color": "0x830808",
+	"gui_scale": 2,
+	"gui_x_offset": 0,
+	"gui_y_offset": -0.1,
+	"gui_z_offset": 0,
+	"sim_cost": 4096,
+	"input": {
+		"item": "hostilenetworks:empty_prediction"
+	},
+	"base_drop": {
+		"item": "hostilenetworks:overworld_prediction"
+	},
+	"trivia": "hostilenetworks.trivia.fire_dragon",
+	"fabricator_drops": [
+		{
+			"item": "iceandfire:dragonscales_red",
+			"count": 16
+		},
+		{
+			"item": "iceandfire:dragonscales_green",
+			"count": 16
+		},
+		{
+			"item": "iceandfire:dragonscales_bronze",
+			"count": 16
+		},
+		{
+			"item": "iceandfire:dragonscales_gray",
+			"count": 16
+		},
+		{
+			"item": "iceandfire:fire_dragon_blood",
+			"count": 4
+		},
+		{
+			"item": "iceandfire:fire_dragon_flesh",
+			"count": 4
+		},
+		{
+			"item": "iceandfire:fire_dragon_heart",
+			"count": 1
+		},
+		{
+			"item": "iceandfire:dragonegg_red",
+			"count": 1
+		},
+		{
+			"item": "iceandfire:dragonegg_green",
+			"count": 1
+		},
+		{
+			"item": "iceandfire:dragonegg_bronze",
+			"count": 1
+		},
+		{
+			"item": "iceandfire:dragonegg_gray",
+			"count": 1
+		},
+		{
+			"item": "iceandfire:dragonbone",
+			"count": 24
+		},
+		{
+			"item": "iceandfire:dragon_skull_fire",
+			"nbt": "{DragonAge:75,Stage:4}",
+			"count": 1
+		}
+	],
+	"data_per_kill": [
+		3, 12, 30, 45
+	]
+}

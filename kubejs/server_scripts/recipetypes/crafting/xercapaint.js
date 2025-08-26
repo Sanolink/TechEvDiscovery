@@ -17,21 +17,25 @@
 
 */
 
-// TO REMOVE When Cataclysm fixes the method of looting Decorated Pots
+ServerEvents.recipes(event => {
 
-BlockEvents.leftClicked('minecraft:decorated_pot', event => {
-    event.player.tell(Text.red('This block currently has a bug, please do not use it!'))
-    event.cancel()
-    event.block.set('minecraft:air')
-})
+    //Recipes
+    const recipes = [
+        //Palette
+        {
+            output: 'xercapaint:item_palette',
+            pattern: [" S ", "SBS", " S "],
+            key: {
+                S: 'minecraft:oak_slab',
+                B: 'minecraft:brush'
+            }
+        }
+    ]
 
-BlockEvents.rightClicked('minecraft:decorated_pot', event => {
-    event.player.tell(Text.red('This block currently has a bug, please do not use it!'))
-    event.cancel()
-    event.block.set('minecraft:air')
-})
+    recipes.forEach(recipe => {
+        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.output)
+    })
 
-BlockEvents.broken('minecraft:decorated_pot', event => {
-    event.cancel()
-    event.block.set('minecraft:air')
+
+
 })

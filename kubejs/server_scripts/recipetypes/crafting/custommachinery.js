@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.4         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -42,6 +42,19 @@ ServerEvents.recipes(event => {
                 H: "blue_skies:horizonite_forge",
                 A: "createqol:chiaroscuro_actuator"
             },
+            },
+        {
+            id: "custommachinery:soul_harvester",
+            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:soul_harvester"}'),
+            pattern: ["WRW", "CSC", "FPF"],
+            key: {
+                W: "eidolon:warped_sprouts",
+                R: "eidolon:reaper_scythe",
+                C: "eidolon:crimson_gem",
+                S: "eidolon:smooth_stone_arch",
+                F: "eidolon:fungus_sprouts",
+                P: "create:precision_mechanism"
+        },
         }
     ]
 

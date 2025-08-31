@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -69,7 +69,8 @@ ServerEvents.recipes(event => {
         'desh',
         'ostrum',
         'calorite',
-        'nephryx'
+        'nephryx',
+        'arcane_gold'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -131,7 +132,8 @@ ServerEvents.recipes(event => {
         'desh',
         'ostrum',
         'calorite',
-        'nephryx'
+        'nephryx',
+        'arcane_gold'
     ].forEach((mat) => {
         recipes.push(
             {

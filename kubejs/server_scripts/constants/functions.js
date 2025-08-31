@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -74,8 +74,13 @@ function IEChanceOrCountIngredient(str, ChanceOrCount) {
     }
 }
 
-function ThermalChanceItem(item, chance) {
-    return { item: item, chance: chance }
+function ThermalChanceItem(item, chance, locked) {
+    if (!locked) {
+        return { item: item, chance: chance }
+    } else {
+        return { item: item, chance: chance, locked: true }
+    }
+
 }
 
 function BeeChanceIngredient(ingredient, chance) {

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.3         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -63,6 +63,20 @@ ServerEvents.recipes(event => {
                 block: 'naturesaura:end_flower'
             },
             drops: BotanyChanceIngredient('naturesaura:end_flower', 1)
+        },
+        {
+            id: `nethersdelight/propelplant_cane`,
+            seed: parseIngredient('nethersdelight:propelplant_cane'),
+            categories: ["crimson_nylium"],
+            growthTicks: 1200,
+            display: {
+                type: 'botanypots:aging',
+                block: 'nethersdelight:propelplant_berry_stem'
+            },
+            drops: [
+                BotanyChanceIngredient('nethersdelight:propelpearl', 1),
+                BotanyChanceIngredient('nethersdelight:propelplant_cane', 0.1)
+            ]
         }
     ]
     

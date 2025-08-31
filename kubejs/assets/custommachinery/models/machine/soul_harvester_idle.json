@@ -1,0 +1,6 @@
+{
+  "parent": "custommachinery:machine/soul_harvester_base",
+  "textures": {
+    "north": "custommachinery:block/machine/soul_harvester_idle"
+  }
+}

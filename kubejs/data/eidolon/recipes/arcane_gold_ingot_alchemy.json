@@ -1,0 +1,24 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "forbidden_arcanus:arcane_crystal" },
+        { "item": "eidolon:soul_shard" },
+        { "item": "eidolon:soul_shard" }
+      ]
+    },
+    {
+      "items": [
+        { "tag": "forge:ingots/gold" },
+        { "tag": "forge:ingots/gold" },
+        { "tag": "forge:ingots/gold" },
+        { "tag": "forge:ingots/gold" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:arcane_gold_ingot",
+    "count": 4
+  }
+}

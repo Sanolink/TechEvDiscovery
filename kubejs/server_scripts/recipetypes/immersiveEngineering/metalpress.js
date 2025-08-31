@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -191,7 +191,8 @@ ServerEvents.recipes(event => {
         "stellarium",
         "twinite",
         "elementium",
-        "nephryx"
+        "nephryx",
+        "arcane_gold"
     ].forEach(ingot => {
         recipes.push(
             //Special Ingots Plates

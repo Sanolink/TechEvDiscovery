@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -22,11 +22,28 @@ ServerEvents.recipes(event => {
     //Recipes
     let recipes = [
         {
+            id: "naturesaura/end_flower",
             input: parseIngredient('naturesaura:end_flower'),
             output: [parseIngredient('naturesaura:end_flower')],
             soil: parseIngredient('minecraft:end_stone'),
             time: 480,
             render: { type: 'generic', block: 'naturesaura:end_flower'}
+        },
+        {
+            id: "nethersdelight/propelplant_cane",
+            input: parseIngredient('nethersdelight:propelplant_cane'),
+            output: [IEChanceOrCountIngredient('nethersdelight:propelpearl', 2), parseIngredient('nethersdelight:propelplant_cane')],
+            soil: parseIngredient('minecraft:crimson_nylium'),
+            time: 480,
+            render: { type: 'generic', block: "nethersdelight:propelplant_berry_stem" }
+        },
+        {
+            id: "forbidden_arcanus/nipa",
+            input: parseIngredient('forbidden_arcanus:nipa'),
+            output: [IEChanceOrCountIngredient('forbidden_arcanus:arcane_crystal_dust_speck', 2), parseIngredient('forbidden_arcanus:nipa')],
+            soil: parseIngredient('minecraft:dirt'),
+            time: 480,
+            render: { type: 'generic', block: "forbidden_arcanus:nipa" }
         }
     ]
 

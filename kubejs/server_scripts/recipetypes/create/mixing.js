@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.4         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -112,6 +112,16 @@ ServerEvents.recipes(event => {
                 parseIngredient("alltheores:lead_ingot")
             ],
             output: [ChanceOrCountItem('eidolon:pewter_blend', 2)],
+        },
+        {
+            id: "arcane_gold_ingot",
+            heat: 'heated',
+            input: [
+                parseIngredient("forbidden_arcanus:arcane_crystal"),
+                parseIngredient("eidolon:soul_shard"), parseIngredient("eidolon:soul_shard"),
+                parseIngredient("minecraft:gold_ingot"), parseIngredient("minecraft:gold_ingot"), parseIngredient("minecraft:gold_ingot"), parseIngredient("minecraft:gold_ingot")
+            ],
+            output: [ChanceOrCountItem('eidolon:arcane_gold_ingot', 4)],
         },
         {
             id: "polymer_clay",

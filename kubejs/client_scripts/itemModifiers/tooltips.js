@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.4         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -83,7 +83,8 @@ ItemEvents.tooltip(event => {
     let multiblocks = [
         'custommachinery:precision_assembler',
         'custommachinery:chiaroscuro_forge',
-        'custommachinery:circuit_etcher'
+        'custommachinery:circuit_etcher',
+        'custommachinery:soul_harvester'
     ]
 
     event.addAdvanced('custommachinery:custom_machine_item', (item, advanced, text) => {

@@ -1,0 +1,110 @@
+{
+  "name": "Soul Harvester",
+  "appearance": {
+    "block": "custommachinery:machine/soul_harvester_idle",
+    "item": "custommachinery:machine/soul_harvester_running",
+    "ambient_sound": "",
+    "interaction_sound": "eidolon:smooth_stone_arch",
+    "light": 0,
+    "color": 16777215,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_stone_tool",
+    "requires_tool": true,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "custommachinery:machine/soul_harvester_running",
+      "ambient_sound": "thermal:block.machine_crucible",
+      "light": 10
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 182,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/gui.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/soul_harvester/deco.png",
+      "x": 60,
+      "y": 31,
+      "jei": true
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/soul_harvester/left_deco.png",
+      "x": 30,
+      "y": 34,
+      "tooltips": "This machine needs Unholy Symbol on left Stone Hand",
+      "jei": true
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/soul_harvester/right_deco.png",
+      "x": 126,
+      "y": 34,
+      "tooltips": "This machine needs Holy Symbol on right Stone Hand",
+      "jei": true
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/soul_harvester/center_deco.png",
+      "x": 80,
+      "y": 37,
+      "tooltips": "This machine needs Lesser Soul Gem on Brazier",
+      "jei": true
+    },
+    {
+      "type": "custommachinery:text",
+      "text": {"text": "Soul Harvester", "color": "#515151", "bold": true},
+      "height": 7,
+      "x": 6,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": "custommachinery:textures/gui/base_inventory.png",
+      "x": 10,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/soul_harvester/soul_shard_slot.png",
+      "id": "output",
+      "x": 82,
+      "y": 12
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/soul_harvester/left_progress_empty.png",
+      "texture_filled": "custommachinery:textures/gui/soul_harvester/left_progress_filled.png",
+      "x": 42,
+      "y": 13
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/soul_harvester/right_progress_empty.png",
+      "texture_filled": "custommachinery:textures/gui/soul_harvester/right_progress_filled.png",
+      "direction": "left",
+      "x": 103,
+      "y": 13
+    }
+  ],
+  "jei": [],
+  "catalysts": []
+}

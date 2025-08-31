@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "tag": "forge:plates/gold"
+    "item": "eidolon:arcane_gold_plate"
   },
   "loops": 3,
   "results": [

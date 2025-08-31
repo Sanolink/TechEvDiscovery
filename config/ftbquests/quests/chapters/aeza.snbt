@@ -1167,42 +1167,20 @@
 		}
 		{
 			dependencies: ["51D008F70C308163"]
-			description: ["Build a Full Beacon."]
+			description: ["Build a full Netherite Beacon and offer it a Netherite Ingot to maximise its level and range."]
 			icon: "minecraft:beacon"
 			id: "456F832A24AA4E4A"
 			rewards: [
 				{
-					count: 4
-					id: "6DA4E9674E2E7F44"
-					item: "minecraft:diamond_block"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					count: 4
-					id: "21DDAC8F17335D48"
-					item: "minecraft:emerald_block"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					count: 4
-					id: "291D0D0AF1D8C0EA"
-					item: "minecraft:gold_block"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					count: 4
-					id: "1570275E503D8BEC"
-					item: "minecraft:iron_block"
-					random_bonus: 4
-					type: "item"
-				}
-				{
 					id: "1816E5D3928E089B"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+				{
+					id: "06345DCA79F9C9CE"
+					item: "coinsje:gold_coin"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -1215,7 +1193,7 @@
 				id: "290BB319192FAA42"
 				type: "advancement"
 			}]
-			title: "Full Beacon"
+			title: "&lThe Ultimate Beacon"
 			x: 9.0d
 			y: -2.25d
 		}

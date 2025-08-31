@@ -10,18 +10,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "eidolon:item/soul_shard"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "eidolon:item/unholy_symbol"
@@ -341,12 +329,13 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "11A229B5B50CE412"
 				item: "eidolon:raven_cloak"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.75d
 			y: 3.0d
 		}
 		{
@@ -649,8 +638,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.0d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0BA9C673E72FFAAA"]
@@ -717,6 +706,7 @@
 				item: "eidolon:wicked_weave"
 				type: "item"
 			}]
+			title: "Wicked Weaves"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -832,8 +822,126 @@
 					type: "item"
 				}
 			]
+			title: "Warlock's Stuff"
 			x: 4.0d
-			y: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42AD9FF048D3E4B7"]
+			description: [
+				"&l&6Soul Harvester&r is a multiblock used to automate the production of &l&5Soul Shards&r."
+				"{image:techev:textures/misc/quests/eidolon/soul_harvester.png width:134 height:128 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "custommachinery:soul_harvester"
+				}
+			}
+			id: "475E2080BE251372"
+			rewards: [{
+				id: "02CD1B042788BC3A"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Use &c&l[Schematicannon] &rto build this Multiblock!"
+			tasks: [
+				{
+					id: "4FAD4A24B384C886"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:soul_harvester"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "0CB4891F871E3D34"
+					item: "eidolon:smooth_stone_tiles_stairs"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "06FD443CBF7BD244"
+					item: "eidolon:elder_pillar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "05E563B25BE34FB9"
+					item: "eidolon:polished_planks"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "59B915E00464E423"
+					item: "eidolon:magic_candlestick"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "475E51F411B17F0A"
+					item: "eidolon:obelisk"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1BD57E3BB4B05FCB"
+					item: "eidolon:plinth"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5FCFA9538414A459"
+					item: "eidolon:unholy_effigy"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "31499046F223DDA9"
+					item: "eidolon:smooth_stone_tiles"
+					type: "item"
+				}
+				{
+					id: "0AC5661C7DAC2BB3"
+					item: "eidolon:shadow_gem_block"
+					type: "item"
+				}
+				{
+					id: "493DC850DDC4322C"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+				{
+					id: "078E80E672A58F8C"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					id: "0BF8970838A19F16"
+					item: "eidolon:unholy_symbol"
+					type: "item"
+				}
+				{
+					id: "7D9161E379B0D8AB"
+					item: "eidolon:holy_symbol"
+					type: "item"
+				}
+				{
+					id: "41AFBEDBE5A1B337"
+					item: "eidolon:lesser_soul_gem"
+					type: "item"
+				}
+			]
+			title: "&lSoul Harvester"
+			x: -3.75d
+			y: 3.0d
 		}
 	]
 	subtitle: ["Forgotten Rituals, Forbidden Power"]

@@ -42,7 +42,19 @@ ServerEvents.recipes(event => {
                 H: "blue_skies:horizonite_forge",
                 A: "createqol:chiaroscuro_actuator"
             },
+        },
+        {
+            id: "custommachinery:circuit_etcher",
+            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:circuit_etcher"}'),
+            pattern: ["WGW", "ECE", "WPW"],
+            key: {
+                W: "pneumaticcraft:pressure_chamber_wall",
+                G: "pneumaticcraft:pressure_gauge",
+                E: "ad_astra:engine_fan",
+                C: "pneumaticcraft:assembly_controller",
+                P: "pneumaticcraft:pressure_chamber_interface"
             },
+        },
         {
             id: "custommachinery:soul_harvester",
             output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:soul_harvester"}'),
@@ -54,7 +66,7 @@ ServerEvents.recipes(event => {
                 S: "eidolon:smooth_stone_arch",
                 F: "eidolon:fungus_sprouts",
                 P: "create:precision_mechanism"
-        },
+            },
         }
     ]
 

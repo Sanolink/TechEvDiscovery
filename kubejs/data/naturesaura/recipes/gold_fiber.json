@@ -7,7 +7,7 @@
     ],
     "key": {
         "N": {
-            "tag": "forge:dusts/gold"
+            "tag": "forge:dusts/arcane_gold"
         },
         "G": {
             "item": "minecraft:grass"

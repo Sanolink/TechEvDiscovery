@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -25,6 +25,22 @@ ServerEvents.recipes(event => {
             id: "end_flower",
             ingredient: parseIngredient("naturesaura:end_flower"),
             result: ThermalChanceItem("naturesaura:end_flower", 2)
+        },
+        {
+            id: "propelpearl",
+            ingredient: parseIngredient("nethersdelight:propelplant_cane"),
+            result: [
+                ThermalChanceItem("nethersdelight:propelpearl", 1.1),
+                ThermalChanceItem("nethersdelight:propelplant_cane", 1.1, true)
+            ]
+        },
+        {
+            id: "arcane_crystal_dust_speck",
+            ingredient: parseIngredient("forbidden_arcanus:nipa"),
+            result: [
+                ThermalChanceItem("forbidden_arcanus:arcane_crystal_dust_speck", 1.1),
+                ThermalChanceItem("forbidden_arcanus:nipa", 1.01, true)
+            ]
         }
     ]
 
@@ -36,11 +52,7 @@ ServerEvents.recipes(event => {
                 ingredient: parseIngredient(crop.getSeedsItem().getId()),
                 result: [ 
                     ThermalChanceItem(crop.getEssenceItem().getId(), 1 + SecondarySeedChance),
-                    {
-                      item: crop.getSeedsItem().getId(),
-                      chance: crop.getTier().hasSecondarySeedDrop() ? (1 + SecondarySeedChance) : 1,
-                      locked: true
-                    }
+                    ThermalChanceItem(crop.getSeedsItem().getId(), crop.getTier().hasSecondarySeedDrop() ? (1 + SecondarySeedChance) : 1, true)
                 ]
             }
         )

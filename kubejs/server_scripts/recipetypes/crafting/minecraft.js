@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.1         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -47,6 +47,24 @@ ServerEvents.recipes(event => {
             key: {
                 D: "forbidden_arcanus:dragon_scale",
                 E: "#forge:eggs",
+            }
+        },
+        //Crimson Nylium
+        {
+            output: "minecraft:crimson_nylium",
+            pattern: [" F ", "FNF", " F "],
+            key: {
+                N: "minecraft:netherrack",
+                F: "minecraft:crimson_fungus",
+            }
+        },
+        //Warped Nylium
+        {
+            output: "minecraft:warped_nylium",
+            pattern: [" F ", "FNF", " F "],
+            key: {
+                N: "minecraft:netherrack",
+                F: "minecraft:warped_fungus",
             }
         }
     ]

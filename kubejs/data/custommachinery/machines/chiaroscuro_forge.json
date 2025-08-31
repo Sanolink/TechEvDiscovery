@@ -44,7 +44,7 @@
     },
     {
       "type": "custommachinery:texture",
-      "texture": "custommachinery:textures/gui/chiaroscuro_forge/gui.png",
+      "texture": "custommachinery:textures/gui/gui.png",
       "x": 0,
       "y": 0
     },

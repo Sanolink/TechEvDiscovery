@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.5         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -94,6 +94,10 @@ StartupEvents.registry('item', e => {
     BasicItem('create:antiproton_tube', "Antiproton Tube")
 
     BasicItem('createqol:chiaroscuro_actuator', "Chiaroscuro Actuator").rarity("rare")
+
+    BasicItem('eidolon:arcane_gold_plate', "Arcane Gold Plate")
+    BasicItem('eidolon:arcane_gold_gear', "Arcane Gold Gear")
+    BasicItem('eidolon:arcane_gold_dust', "Arcane Gold Dust")
     
     BasicItem('hostilenetworks:blue_skies_prediction', "Generalized Blue Skies Prediction")
     BasicItem('hostilenetworks:inert_data_model', "Inert Model Framework")

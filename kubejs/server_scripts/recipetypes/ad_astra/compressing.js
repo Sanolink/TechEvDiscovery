@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.8         (_____)
 
 */
 
@@ -61,7 +61,8 @@ ServerEvents.recipes(event => {
         'thermal_extra:twinite_plate',
         'thermal_extra:dragonsteel_plate',
         'botania:elementium_plate',
-        'ad_astra:nephryx_plate'
+        'ad_astra:nephryx_plate',
+        'eidolon:arcane_gold_plate'
     ].forEach(plate => {
         let mat = plate.split(":")[1].replace("_plate", "")
         let id = mat + "_plate_from_compressing_" + mat + "_ingot"

@@ -7,6 +7,151 @@
 	id: "61E6211CFB2A5E68"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "3F35FFC023B6542A"
+			tasks: [{
+				id: "29F795555A06120D"
+				item: "ftbic:lv_cable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F35FFC023B6542A"]
+			id: "7EA3DCC778031059"
+			tasks: [{
+				id: "067AA473413BD98C"
+				item: "ftbic:mv_cable"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7EA3DCC778031059"]
+			id: "75C20396517F0E77"
+			tasks: [{
+				id: "0C584B5BDE0B92A3"
+				item: "ftbic:hv_cable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75C20396517F0E77"]
+			id: "09B0717CACB9E9F9"
+			tasks: [{
+				id: "1046E2839AE5AE29"
+				item: "ftbic:ev_cable"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09B0717CACB9E9F9"]
+			id: "37B82D0FEDD018E9"
+			tasks: [{
+				id: "1D3B6CAC9F46EEF5"
+				item: "ftbic:iv_cable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "495D87F028AA6165"
+			tasks: [{
+				id: "59BC21FB9D084FA5"
+				item: "ftbic:machine_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "1368C642EDAA80D6"
+			tasks: [{
+				id: "14334E640CF6A0D0"
+				item: "ftbic:advanced_machine_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "48D1F8B6AEBECA28"
+			tasks: [{
+				id: "1C4538D9FEFB2970"
+				item: "ftbic:electronic_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48D1F8B6AEBECA28"]
+			id: "7F60296A193669C0"
+			tasks: [{
+				id: "7007C3A598F9CD8B"
+				item: "ftbic:advanced_circuit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7F60296A193669C0"]
+			id: "7776DFCBA9582F78"
+			tasks: [{
+				id: "671DC06D37E781EB"
+				item: "ftbic:iridium_circuit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			icon: "ftbic:quarry"
+			id: "3134F9D3CFA6FE0E"
+			tasks: [
+				{
+					id: "43C5592AA174A32D"
+					item: "ftbic:quarry"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "22E77E46ABCC114E"
+					item: "ftbic:landmark"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			icon: "ftbic:pump"
+			id: "3B7042A0E15AF3CF"
+			tasks: [
+				{
+					id: "653F3C410778B664"
+					item: "ftbic:pump"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0F3E0BEA894ACD20"
+					item: "ftbic:landmark"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.5d
+		}
+	]
 	title: " &l&4♦ &rFTB Industrial Contraptions"
 }

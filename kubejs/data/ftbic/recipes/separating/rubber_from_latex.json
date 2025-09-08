@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:separating",
+  "inputItems": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "thermal:rubber"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 3,
+      "item": "thermal:cured_rubber"
+    }
+  ]
+}

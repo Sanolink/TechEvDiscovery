@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:extruding",
+  "inputItems": [
+    {
+      "count": 64,
+      "ingredient": {
+        "tag": "forge:plates/iron"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 16,
+      "item": "alltheores:iron_gear"
+    }
+  ]
+}

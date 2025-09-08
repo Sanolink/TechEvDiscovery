@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 64,
+      "ingredient": {
+        "item": "minecraft:charcoal"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "mekanism:dust_charcoal"
+    }
+  ]
+}

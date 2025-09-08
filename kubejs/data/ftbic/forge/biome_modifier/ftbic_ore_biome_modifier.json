@@ -1,0 +1,6 @@
+{
+  "type": "ftbic:ore_biome_modifiers",
+  "biome_blacklist": "#ftbic:ore_spawn_blacklist",
+  "features": [],
+  "generation_stage": "UNDERGROUND_ORES"
+}

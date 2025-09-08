@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 64,
+      "ingredient": {
+        "tag": "forge:ender_pearls"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "thermal:ender_pearl_dust"
+    }
+  ]
+}

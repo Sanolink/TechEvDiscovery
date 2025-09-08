@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:extruding",
+  "inputItems": [
+    {
+      "count": 64,
+      "ingredient": {
+        "tag": "forge:plates/iridium"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 16,
+      "item": "alltheores:iridium_gear"
+    }
+  ]
+}

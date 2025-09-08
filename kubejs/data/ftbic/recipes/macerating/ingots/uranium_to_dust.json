@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 64,
+      "ingredient": {
+        "tag": "forge:ingots/uranium"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "alltheores:uranium_dust"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 64,
+      "ingredient": {
+        "tag": "forge:gems/diamond"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "alltheores:diamond_dust"
+    }
+  ]
+}

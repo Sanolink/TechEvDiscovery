@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -25,37 +25,40 @@ ServerEvents.tags('item', e => {
 
     /*********************UNIFICATION*********************/
     //Ores
-    e.remove('forge:ores/aluminum', 'immersiveengineering:ore_aluminum')
-    e.remove('forge:ores/lead', 'eidolon:lead_ore', 'immersiveengineering:ore_lead', 'thermal:lead_ore', 'mekanism:lead_ore')
+    e.remove('forge:ores/aluminum', 'immersiveengineering:ore_aluminum', 'ftbic:aluminum_ore')
+    e.remove('forge:ores/iridium', 'ftbic:iridium_ore')
+    e.remove('forge:ores/lead', 'eidolon:lead_ore', 'immersiveengineering:ore_lead', 'thermal:lead_ore', 'mekanism:lead_ore', 'ftbic:lead_ore')
     e.remove('forge:ores/nickel', 'immersiveengineering:ore_nickel', 'thermal:nickel_ore')
     e.remove('forge:ores/osmium', 'mekanism:osmium_ore')
     e.remove('forge:ores/ruby', 'thermal:ruby_ore')
     e.remove('forge:ores/sapphire', 'iceandfire:sapphire_ore', 'thermal:sapphire_ore')
     e.remove('forge:ores/silver', 'eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore', 'occultism:silver_ore', 'thermal:silver_ore')
-    e.remove('forge:ores/tin', 'thermal:tin_ore', 'mekanism:tin_ore')
-    e.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium', 'mekanism:uranium_ore')
-    e.remove('forge:ores/zinc', 'create:zinc_ore')
+    e.remove('forge:ores/tin', 'thermal:tin_ore', 'mekanism:tin_ore', 'ftbic:tin_ore')
+    e.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium', 'mekanism:uranium_ore', 'ftbic:uranium_ore')
+    e.remove('forge:ores/zinc', 'create:zinc_ore', 'regen:zinc_ore')
     
     //Deepslate Ores
-    e.remove('forge:ores/aluminum', 'immersiveengineering:deepslate_ore_aluminum')
-    e.remove('forge:ores/lead', 'eidolon:deep_lead_ore', 'immersiveengineering:deepslate_ore_lead', 'thermal:deepslate_lead_ore', 'mekanism:deepslate_lead_ore')
+    e.remove('forge:ores/aluminum', 'immersiveengineering:deepslate_ore_aluminum', 'ftbic:deepslate_aluminum_ore')
+    e.remove('forge:ores/iridium', 'ftbic:deepslate_iridium_ore')
+    e.remove('forge:ores/lead', 'eidolon:deep_lead_ore', 'immersiveengineering:deepslate_ore_lead', 'thermal:deepslate_lead_ore', 'mekanism:deepslate_lead_ore', 'ftbic:deepslate_lead_ore')
     e.remove('forge:ores/nickel', 'immersiveengineering:deepslate_ore_nickel', 'thermal:deepslate_nickel_ore')
     e.remove('forge:ores/osmium', 'mekanism:deepslate_osmium_ore')
     e.remove('forge:ores/ruby', 'thermal:deepslate_ruby_ore')
     e.remove('forge:ores/sapphire', 'iceandfire:sapphire_ore', 'thermal:deepslate_sapphire_ore')
     e.remove('forge:ores/silver', 'eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore', 'occultism:silver_ore_deepslate', 'thermal:deepslate_silver_ore')
-    e.remove('forge:ores/tin', 'thermal:deepslate_tin_ore', 'mekanism:deepslate_tin_ore')
-    e.remove('forge:ores/uranium', 'immersiveengineering:deepslate_ore_uranium', 'mekanism:deepslate_uranium_ore')
-    e.remove('forge:ores/zinc', 'create:deepslate_zinc_ore')
+    e.remove('forge:ores/tin', 'thermal:deepslate_tin_ore', 'mekanism:deepslate_tin_ore', 'ftbic:deepslate_tin_ore')
+    e.remove('forge:ores/uranium', 'immersiveengineering:deepslate_ore_uranium', 'mekanism:deepslate_uranium_ore', 'ftbic:deepslate_uranium_ore')
+    e.remove('forge:ores/zinc', 'create:deepslate_zinc_ore', 'regen:deepslate_zinc_ore')
 
     //Raw Materials
-    e.remove('forge:raw_materials/aluminum', 'immersiveengineering:raw_aluminum')
-    e.remove('forge:raw_materials/lead', 'eidolon:raw_lead', 'immersiveengineering:raw_lead', 'thermal:raw_lead', 'mekanism:raw_lead')
+    e.remove('forge:raw_materials/aluminum', 'immersiveengineering:raw_aluminum', 'ftbic:aluminum_chunk')
+    e.remove('forge:raw_materials/iridium', 'ftbic:iridium_chunk')
+    e.remove('forge:raw_materials/lead', 'eidolon:raw_lead', 'immersiveengineering:raw_lead', 'thermal:raw_lead', 'mekanism:raw_lead', 'ftbic:lead_chunk')
     e.remove('forge:raw_materials/nickel', 'immersiveengineering:raw_nickel', 'thermal:raw_nickel')
     e.remove('forge:raw_materials/osmium', 'mekanism:raw_osmium')
     e.remove('forge:raw_materials/silver', 'eidolon:raw_silver', 'immersiveengineering:raw_silver', 'darkerdepths:raw_silver', 'occultism:raw_silver', 'thermal:raw_silver')
-    e.remove('forge:raw_materials/tin', 'thermal:raw_tin', 'mekanism:raw_tin')
-    e.remove('forge:raw_materials/uranium', 'immersiveengineering:raw_uranium', 'mekanism:raw_uranium')
+    e.remove('forge:raw_materials/tin', 'thermal:raw_tin', 'mekanism:raw_tin', 'ftbic:tin_chunk')
+    e.remove('forge:raw_materials/uranium', 'immersiveengineering:raw_uranium', 'mekanism:raw_uranium', 'ftbic:uranium_chunk')
     e.remove('forge:raw_materials/zinc', 'create:raw_zinc')
     
     //Raw Storage Blocks
@@ -69,148 +72,173 @@ ServerEvents.tags('item', e => {
     e.remove('forge:storage_blocks/raw_zinc', 'create:raw_zinc_block')
 
     //Ingots
-    e.remove('forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum')
+    e.remove('forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum', 'chemlib:aluminum_ingot', 'ftbic:aluminum_ingot')
     e.remove('forge:ingots/brass', 'create:brass_ingot')
-    e.remove('forge:ingots/bronze', 'thermal:bronze_ingot', 'mekanism:ingot_bronze')
+    e.remove('forge:ingots/bronze', 'thermal:bronze_ingot', 'mekanism:ingot_bronze', 'ftbic:bronze_ingot')
     e.remove('forge:ingots/constantan', 'immersiveengineering:ingot_constantan', 'thermal:constantan_ingot')
     e.remove('forge:ingots/electrum', 'immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot', 'thermal:electrum_ingot')
-    e.remove('forge:ingots/enderium', 'thermal:enderium_ingot')
+    e.remove('forge:ingots/enderium', 'thermal:enderium_ingot', 'ftbic:enderium_ingot')
     e.remove('forge:ingots/invar', 'thermal:invar_ingot')
-    e.remove('forge:ingots/lead', 'eidolon:lead_ingot', 'immersiveengineering:ingot_lead', 'thermal:lead_ingot', 'mekanism:ingot_lead')
+    e.remove('forge:ingots/iridium', 'chemlib:iridium_ingot', 'ftbic:iridium_ingot')
+    e.remove('forge:ingots/lead', 'eidolon:lead_ingot', 'immersiveengineering:ingot_lead', 'thermal:lead_ingot', 'mekanism:ingot_lead', 'chemlib:lead_ingot', 'ftbic:lead_ingot')
     e.remove('forge:ingots/lumium', 'thermal:lumium_ingot')
-    e.remove('forge:ingots/nickel', 'immersiveengineering:ingot_nickel', 'thermal:nickel_ingot')
-    e.remove('forge:ingots/osmium', 'mekanism:ingot_osmium')
+    e.remove('forge:ingots/nickel', 'immersiveengineering:ingot_nickel', 'thermal:nickel_ingot', 'chemlib:nickel_ingot')
+    e.remove('forge:ingots/osmium', 'mekanism:ingot_osmium', 'chemlib:osmium_ingot')
+    e.remove('forge:ingots/platinum', 'chemlib:platinum_ingot')
     e.remove('forge:ingots/signalum', 'thermal:signalum_ingot')
-    e.remove('forge:ingots/silver', 'eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot', 'iceandfire:silver_ingot', 'occultism:silver_ingot', 'thermal:silver_ingot')
+    e.remove('forge:ingots/silver', 'eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot', 'iceandfire:silver_ingot', 'occultism:silver_ingot', 'thermal:silver_ingot', 'chemlib:silver_ingot')
     e.remove('forge:ingots/steel', 'immersiveengineering:ingot_steel', 'ad_astra:steel_ingot', 'mekanism:ingot_steel')
-    e.remove('forge:ingots/tin', 'thermal:tin_ingot', 'mekanism:ingot_tin')
-    e.remove('forge:ingots/uranium', 'immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium')
-    e.remove('forge:ingots/zinc', 'create:zinc_ingot')
+    e.remove('forge:ingots/tin', 'thermal:tin_ingot', 'mekanism:ingot_tin', 'chemlib:tin_ingot', 'ftbic:tin_ingot')
+    e.remove('forge:ingots/uranium', 'immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium', 'chemlib:uranium_ingot', 'ftbic:uranium_ingot')
+    e.remove('forge:ingots/zinc', 'create:zinc_ingot', 'chemlib:zinc_ingot', 'regen:zinc')
 
     //Plates
-    e.remove('forge:plates/aluminum', 'immersiveengineering:plate_aluminum')
+    e.remove('forge:plates/aluminum', 'immersiveengineering:plate_aluminum', 'ftbic:aluminum_plate')
     e.remove('forge:plates/brass', 'create:brass_sheet')
-    e.remove('forge:plates/bronze', 'thermal:bronze_plate')
+    e.remove('forge:plates/bronze', 'thermal:bronze_plate', 'ftbic:bronze_plate')
     e.remove('forge:plates/constantan', 'immersiveengineering:plate_constantan', 'thermal:constantan_plate')
-    e.remove('forge:plates/copper', 'create:copper_sheet', 'immersiveengineering:plate_copper', 'thermal:copper_plate')
+    e.remove('forge:plates/copper', 'create:copper_sheet', 'immersiveengineering:plate_copper', 'thermal:copper_plate', 'ftbic:copper_plate')
     e.remove('forge:plates/electrum', 'immersiveengineering:plate_electrum', 'createaddition:electrum_sheet', 'thermal:electrum_plate')
-    e.remove('forge:plates/enderium', 'thermal:enderium_plate')
-    e.remove('forge:plates/gold', 'create:golden_sheet', 'immersiveengineering:plate_gold', 'thermal:gold_plate')
+    e.remove('forge:plates/enderium', 'thermal:enderium_plate', 'ftbic:enderium_plate')
+    e.remove('forge:plates/gold', 'create:golden_sheet', 'immersiveengineering:plate_gold', 'thermal:gold_plate', 'ftbic:gold_plate')
     e.remove('forge:plates/invar', 'thermal:invar_plate')
-    e.remove('forge:plates/iron', 'create:iron_sheet', 'immersiveengineering:plate_iron', 'thermal:iron_plate', 'ad_astra:iron_plate')
-    e.remove('forge:plates/lead', 'immersiveengineering:plate_lead', 'thermal:lead_plate')
+    e.remove('forge:plates/iridium', 'ftbic:iridium_plate')
+    e.remove('forge:plates/iron', 'create:iron_sheet', 'immersiveengineering:plate_iron', 'thermal:iron_plate', 'ad_astra:iron_plate', 'ftbic:iron_plate')
+    e.remove('forge:plates/lead', 'immersiveengineering:plate_lead', 'thermal:lead_plate', 'ftbic:lead_plate')
     e.remove('forge:plates/lumium', 'thermal:lumium_plate')
     e.remove('forge:plates/netherite', 'createdeco:netherite_sheet')
     e.remove('forge:plates/nickel', 'immersiveengineering:plate_nickel', 'thermal:nickel_plate')
     e.remove('forge:plates/signalum', 'thermal:signalum_plate')
     e.remove('forge:plates/silver', 'immersiveengineering:plate_silver', 'thermal:silver_plate')
     e.remove('forge:plates/steel', 'immersiveengineering:plate_steel', 'ad_astra:steel_plate')
-    e.remove('forge:plates/tin', 'thermal:tin_plate')
-    e.remove('forge:plates/uranium', 'immersiveengineering:plate_uranium')
+    e.remove('forge:plates/tin', 'thermal:tin_plate', 'ftbic:tin_plate')
+    e.remove('forge:plates/uranium', 'immersiveengineering:plate_uranium', 'ftbic:uranium_plate')
     e.remove('forge:plates/zinc', 'createdeco:zinc_sheet', 'createaddition:zinc_sheet')
     
     //Gears
-    e.remove('forge:gears/bronze', 'thermal:bronze_gear')
+    e.remove('forge:gears/aluminum', 'ftbic:aluminum_gear')
+    e.remove('forge:gears/bronze', 'thermal:bronze_gear', 'ftbic:bronze_gear')
     e.remove('forge:gears/constantan', 'thermal:constantan_gear')
-    e.remove('forge:gears/copper', 'thermal:copper_gear')
+    e.remove('forge:gears/copper', 'thermal:copper_gear', 'ftbic:copper_gear')
     e.remove('forge:gears/diamond', 'industrialforegoing:diamond_gear', 'thermal:diamond_gear')
     e.remove('forge:gears/electrum', 'thermal:electrum_gear')
-    e.remove('forge:gears/enderium', 'thermal:enderium_gear')
-    e.remove('forge:gears/gold', 'industrialforegoing:gold_gear', 'thermal:gold_gear')
+    e.remove('forge:gears/enderium', 'thermal:enderium_gear', 'ftbic:enderium_gear')
+    e.remove('forge:gears/gold', 'industrialforegoing:gold_gear', 'thermal:gold_gear', 'ftbic:gold_gear')
     e.remove('forge:gears/invar', 'thermal:invar_gear')
-    e.remove('forge:gears/iron', 'industrialforegoing:iron_gear', 'thermal:iron_gear')
-    e.remove('forge:gears/lead', 'thermal:lead_gear')
+    e.remove('forge:gears/iridium', 'ftbic:iridium_gear')
+    e.remove('forge:gears/iron', 'industrialforegoing:iron_gear', 'thermal:iron_gear', 'ftbic:iron_gear')
+    e.remove('forge:gears/lead', 'thermal:lead_gear', 'ftbic:lead_gear')
     e.remove('forge:gears/lumium', 'thermal:lumium_gear')
     e.remove('forge:gears/nickel', 'thermal:nickel_gear')
     e.remove('forge:gears/signalum', 'thermal:signalum_gear')
     e.remove('forge:gears/silver', 'thermal:silver_gear')
-    e.remove('forge:gears/tin', 'thermal:tin_gear')
+    e.remove('forge:gears/tin', 'thermal:tin_gear', 'ftbic:tin_gear')
+    e.remove('forge:gears/uranium', 'ftbic:uranium_gear')
     
     //Rods
-    e.remove('forge:rods/aluminum', 'immersiveengineering:stick_aluminum')
+    e.remove('forge:rods/aluminum', 'immersiveengineering:stick_aluminum', 'ftbic:aluminum_rod')
     e.remove('forge:rods/brass', 'createaddition:brass_rod')
-    e.remove('forge:rods/copper', 'createaddition:copper_rod')
+    e.remove('forge:rods/bronze', 'ftbic:bronze_rod')
+    e.remove('forge:rods/copper', 'createaddition:copper_rod', 'ftbic:copper_rod')
     e.remove('forge:rods/electrum', 'createaddition:electrum_rod')
-    e.remove('forge:rods/gold', 'createaddition:gold_rod')
-    e.remove('forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron', 'ad_astra:iron_rod')
+    e.remove('forge:rods/enderium', 'ftbic:enderium_rod')
+    e.remove('forge:rods/gold', 'createaddition:gold_rod', 'ftbic:gold_rod')
+    e.remove('forge:rods/iridium', 'ftbic:iridium_rod')
+    e.remove('forge:rods/iron', 'createaddition:iron_rod', 'immersiveengineering:stick_iron', 'ad_astra:iron_rod', 'ftbic:iron_rod')
+    e.remove('forge:rods/lead', 'ftbic:lead_rod')
     e.remove('forge:rods/steel', 'immersiveengineering:stick_steel')
+    e.remove('forge:rods/tin', 'ftbic:tin_rod')
+    e.remove('forge:rods/uranium', 'ftbic:uranium_rod')
     
     //Nuggets
-    e.remove('forge:nuggets/aluminum', 'immersiveengineering:nugget_aluminum')
+    e.remove('forge:nuggets/aluminum', 'immersiveengineering:nugget_aluminum', 'chemlib:aluminum_nugget', 'ftbic:aluminum_nugget')
     e.remove('forge:nuggets/brass', 'create:brass_nugget')
-    e.remove('forge:nuggets/bronze', 'thermal:bronze_nugget', 'mekanism:nugget_bronze')
+    e.remove('forge:nuggets/bronze', 'thermal:bronze_nugget', 'mekanism:nugget_bronze', 'ftbic:bronze_nugget')
     e.remove('forge:nuggets/constantan', 'immersiveengineering:nugget_constantan', 'thermal:constantan_nugget')
-    e.remove('forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget', 'skilltree:copper_nugget')
+    e.remove('forge:nuggets/copper', 'create:copper_nugget', 'immersiveengineering:nugget_copper', 'iceandfire:copper_nugget', 'thermal:copper_nugget', 'skilltree:copper_nugget', 'ftbic:copper_nugget')
     e.remove('forge:nuggets/electrum', 'createaddition:electrum_nugget', 'immersiveengineering:nugget_electrum')
     e.remove('forge:nuggets/electrum', 'thermal:electrum_nugget')
-    e.remove('forge:nuggets/enderium', 'thermal:enderium_nugget')
+    e.remove('forge:nuggets/enderium', 'thermal:enderium_nugget', 'ftbic:enderium_nugget')
     e.remove('forge:nuggets/invar', 'thermal:invar_nugget')
-    e.remove('forge:nuggets/lead', 'eidolon:lead_nugget', 'immersiveengineering:nugget_lead', 'thermal:lead_nugget', 'mekanism:nugget_lead')
+    e.remove('forge:nuggets/iridium', 'chemlib:iridium_nugget', 'ftbic:iridium_nugget')
+    e.remove('forge:nuggets/lead', 'eidolon:lead_nugget', 'immersiveengineering:nugget_lead', 'thermal:lead_nugget', 'mekanism:nugget_lead', 'chemlib:lead_nugget', 'ftbic:lead_nugget')
     e.remove('forge:nuggets/lumium', 'thermal:lumium_nugget')
     e.remove('forge:nuggets/netherite', 'thermal:netherite_nugget')
-    e.remove('forge:nuggets/nickel', 'immersiveengineering:nugget_nickel', 'thermal:nickel_nugget')
-    e.remove('forge:nuggets/osmium', 'mekanism:nugget_osmium')
+    e.remove('forge:nuggets/nickel', 'immersiveengineering:nugget_nickel', 'thermal:nickel_nugget', 'chemlib:nickel_nugget')
+    e.remove('forge:nuggets/osmium', 'mekanism:nugget_osmium', 'chemlib:osmium_nugget')
+    e.remove('forge:nuggets/platinum', 'chemlib:platinum_nugget')
     e.remove('forge:nuggets/signalum', 'thermal:signalum_nugget')
-    e.remove('forge:nuggets/silver', 'eidolon:silver_nugget', 'immersiveengineering:nugget_silver', 'iceandfire:silver_nugget', 'occultism:silver_nugget', 'thermal:silver_nugget')
+    e.remove('forge:nuggets/silver', 'eidolon:silver_nugget', 'immersiveengineering:nugget_silver', 'iceandfire:silver_nugget', 'occultism:silver_nugget', 'thermal:silver_nugget', 'chemlib:silver_nugget')
     e.remove('forge:nuggets/steel', 'immersiveengineering:nugget_steel', 'ad_astra:steel_nugget', 'mekanism:nugget_steel')
-    e.remove('forge:nuggets/tin', 'thermal:tin_nugget', 'mekanism:nugget_tin')
-    e.remove('forge:nuggets/uranium', 'immersiveengineering:nugget_uranium', 'mekanism:nugget_uranium')
-    e.remove('forge:nuggets/zinc', 'create:zinc_nugget')
+    e.remove('forge:nuggets/tin', 'thermal:tin_nugget', 'mekanism:nugget_tin', 'chemlib:tin_nugget', 'ftbic:tin_nugget')
+    e.remove('forge:nuggets/uranium', 'immersiveengineering:nugget_uranium', 'mekanism:nugget_uranium', 'chemlib:uranium_nugget', 'ftbic:uranium_nugget')
+    e.remove('forge:nuggets/zinc', 'create:zinc_nugget', 'chemlib:zinc_nugget')
 
     //Dusts
-    e.remove('forge:dusts/aluminum', 'immersiveengineering:dust_aluminum')
-    e.remove('forge:dusts/bronze', 'thermal:bronze_dust', 'mekanism:dust_bronze')
+    e.remove('forge:dusts/aluminum', 'immersiveengineering:dust_aluminum', 'chemlib:aluminum_dust', 'ftbic:aluminum_dust')
+    e.remove('forge:dusts/bronze', 'thermal:bronze_dust', 'mekanism:dust_bronze', 'ftbic:bronze_dust')
+    e.remove('forge:dusts/charcoal', 'ftbic:charcoal_dust')
+    e.remove('forge:dusts/coal', 'ftbic:coal_dust')
     e.remove('forge:dusts/constantan', 'immersiveengineering:dust_constantan', 'thermal:constantan_dust')
-    e.remove('forge:dusts/copper', 'immersiveengineering:dust_copper', 'occultism:copper_dust', 'thermal:copper_dust', 'mekanism:dust_copper')
-    e.remove('forge:dusts/diamond', 'createaddition:diamond_grit', 'thermal:diamond_dust', 'mekanism:dust_diamond')
+    e.remove('forge:dusts/copper', 'immersiveengineering:dust_copper', 'occultism:copper_dust', 'thermal:copper_dust', 'mekanism:dust_copper', 'chemlib:copper_dust', 'ftbic:copper_dust')
+    e.remove('forge:dusts/diamond', 'createaddition:diamond_grit', 'thermal:diamond_dust', 'mekanism:dust_diamond', 'ftbic:diamond_dust')
     e.remove('forge:dusts/electrum', 'immersiveengineering:dust_electrum', 'thermal:electrum_dust')
+    e.remove('forge:dusts/ender', 'ftbic:ender_dust')
     e.remove('forge:dusts/ender_pearl', 'ae2:ender_dust')
-    e.remove('forge:dusts/enderium', 'thermal:enderium_dust')
+    e.remove('forge:dusts/enderium', 'thermal:enderium_dust', 'ftbic:enderium_dust')
     e.remove('forge:dusts/emerald', 'mekanism:dust_emerald')
-    e.remove('forge:dusts/gold', 'immersiveengineering:dust_gold', 'occultism:gold_dust', 'thermal:gold_dust', 'mekanism:dust_gold')
+    e.remove('forge:dusts/gold', 'immersiveengineering:dust_gold', 'occultism:gold_dust', 'thermal:gold_dust', 'mekanism:dust_gold', 'chemlib:gold_dust', 'ftbic:gold_dust')
     e.remove('forge:dusts/invar', 'thermal:invar_dust')
-    e.remove('forge:dusts/iron', 'immersiveengineering:dust_iron', 'occultism:iron_dust', 'thermal:iron_dust', 'mekanism:dust_iron')
+    e.remove('forge:dusts/iridium', 'chemlib:iridium_dust', 'ftbic:iridium_dust')
+    e.remove('forge:dusts/iron', 'immersiveengineering:dust_iron', 'occultism:iron_dust', 'thermal:iron_dust', 'mekanism:dust_iron', 'chemlib:iron_dust', 'ftbic:iron_dust')
     e.remove('forge:dusts/lapis', 'mekanism:dust_lapis_lazuli')
-    e.remove('forge:dusts/lead', 'immersiveengineering:dust_lead', 'thermal:lead_dust', 'mekanism:dust_lead')
+    e.remove('forge:dusts/lead', 'immersiveengineering:dust_lead', 'thermal:lead_dust', 'mekanism:dust_lead', 'chemlib:lead_dust', 'ftbic:lead_dust')
+    e.remove('forge:dusts/lithium', 'chemlib:lithium_dust')
     e.remove('forge:dusts/lumium', 'thermal:lumium_dust')
     e.remove('forge:dusts/netherite', 'thermal:netherite_dust', 'mekanism:dust_netherite')
-    e.remove('forge:dusts/nickel', 'immersiveengineering:dust_nickel', 'thermal:nickel_dust')
-    e.remove('forge:dusts/obsidian', 'occultism:obsidian_dust', 'mekanism:dust_obsidian')
-    e.remove('forge:dusts/osmium', 'mekanism:dust_osmium')
+    e.remove('forge:dusts/nickel', 'immersiveengineering:dust_nickel', 'thermal:nickel_dust', 'chemlib:nickel_dust')
+    e.remove('forge:dusts/obsidian', 'occultism:obsidian_dust', 'mekanism:dust_obsidian', 'ftbic:obsidian_dust')
+    e.remove('forge:dusts/osmium', 'mekanism:dust_osmium', 'chemlib:osmium_dust')
+    e.remove('forge:dusts/platinum', 'chemlib:platinum_dust')
     e.remove('forge:dusts/quartz', 'mekanism:dust_quartz')
     e.remove('forge:dusts/signalum', 'thermal:signalum_dust')
-    e.remove('forge:dusts/silver', 'immersiveengineering:dust_silver', 'occultism:silver_dust', 'thermal:silver_dust')
+    e.remove('forge:dusts/silver', 'immersiveengineering:dust_silver', 'occultism:silver_dust', 'thermal:silver_dust', 'chemlib:silver_dust')
     e.remove('forge:dusts/steel', 'immersiveengineering:dust_steel', 'mekanism:dust_steel')
-    e.remove('forge:dusts/sulfur', 'immersiveengineering:dust_sulfur', 'eidolon:sulfur', 'mekanism:dust_sulfur')
-    e.remove('forge:dusts/tin', 'thermal:tin_dust', 'mekanism:dust_tin')
-    e.remove('forge:dusts/uranium', 'immersiveengineering:dust_uranium', 'mekanism:dust_uranium')
+    e.remove('forge:dusts/sulfur', 'immersiveengineering:dust_sulfur', 'eidolon:sulfur', 'mekanism:dust_sulfur', 'chemlib:sulfur_dust')
+    e.remove('forge:dusts/tin', 'thermal:tin_dust', 'mekanism:dust_tin', 'chemlib:tin_dust', 'ftbic:tin_dust')
+    e.remove('forge:dusts/uranium', 'immersiveengineering:dust_uranium', 'mekanism:dust_uranium', 'chemlib:uranium_dust', 'ftbic:uranium_dust')
     e.remove('forge:dusts/wood', 'immersiveengineering:dust_wood', 'mekanism:sawdust')
+    e.remove('forge:dusts/zinc', 'chemlib:zinc_dust')
     
     //Blocks
-    e.remove('forge:storage_blocks/aluminum', 'immersiveengineering:storage_aluminum')
+    e.remove('forge:storage_blocks/aluminum', 'immersiveengineering:storage_aluminum', 'chemlib:aluminum_metal_block', 'ftbic:aluminum_block')
     e.remove('forge:storage_blocks/brass', 'create:brass_block')
-    e.remove('forge:storage_blocks/bronze', 'thermal:bronze_block', 'mekanism:block_bronze')
+    e.remove('forge:storage_blocks/bronze', 'thermal:bronze_block', 'mekanism:block_bronze', 'ftbic:bronze_block')
     e.remove('forge:storage_blocks/charcoal', 'quark:charcoal_block', 'mekanism:block_charcoal')
     e.remove('forge:storage_blocks/coal_coke', 'thermal:coal_coke_block')
     e.remove('forge:storage_blocks/constantan', 'immersiveengineering:storage_constantan', 'thermal:constantan_block')
     e.remove('forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum', 'thermal:electrum_block')
-    e.remove('forge:storage_blocks/enderium', 'thermal:enderium_block')
+    e.remove('forge:storage_blocks/enderium', 'thermal:enderium_block', 'ftbic:enderium_block')
     e.remove('forge:storage_blocks/invar', 'thermal:invar_block')
-    e.remove('forge:storage_blocks/lead', 'immersiveengineering:storage_lead', 'eidolon:lead_block', 'thermal:lead_block', 'mekanism:block_lead')
+    e.remove('forge:storage_blocks/iridium', 'chemlib:iridium_metal_block', 'ftbic:iridium_block')
+    e.remove('forge:storage_blocks/lead', 'immersiveengineering:storage_lead', 'eidolon:lead_block', 'thermal:lead_block', 'mekanism:block_lead', 'chemlib:lead_metal_block', 'ftbic:lead_block')
     e.remove('forge:storage_blocks/lumium', 'thermal:lumium_block')
-    e.remove('forge:storage_blocks/nickel', 'immersiveengineering:storage_nickel', 'thermal:nickel_block')
-    e.remove('forge:storage_blocks/osmium', 'mekanism:block_osmium')
+    e.remove('forge:storage_blocks/nickel', 'immersiveengineering:storage_nickel', 'thermal:nickel_block', 'chemlib:nickel_metal_block')
+    e.remove('forge:storage_blocks/osmium', 'mekanism:block_osmium', 'chemlib:osmium_metal_block')
+    e.remove('forge:storage_blocks/platinum', 'chemlib:platinum_metal_block')
     e.remove('forge:storage_blocks/sapphire', 'iceandfire:sapphire_block')
     e.remove('forge:storage_blocks/signalum', 'thermal:signalum_block')
-    e.remove('forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block', 'iceandfire:silver_block', 'occultism:silver_block', 'thermal:silver_block')
+    e.remove('forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block', 'iceandfire:silver_block', 'occultism:silver_block', 'thermal:silver_block', 'chemlib:silver_metal_block')
     e.remove('forge:storage_blocks/steel', 'immersiveengineering:storage_steel', 'ad_astra:steel_block', 'mekanism:block_steel')
-    e.remove('forge:storage_blocks/tin', 'thermal:tin_block', 'mekanism:block_tin')
-    e.remove('forge:storage_blocks/uranium', 'immersiveengineering:storage_uranium', 'mekanism:block_uranium')
-    e.remove('forge:storage_blocks/zinc', 'create:zinc_block')
+    e.remove('forge:storage_blocks/tin', 'thermal:tin_block', 'mekanism:block_tin', 'chemlib:tin_metal_block', 'ftbic:tin_block')
+    e.remove('forge:storage_blocks/uranium', 'immersiveengineering:storage_uranium', 'mekanism:block_uranium', 'chemlib:uranium_metal_block', 'ftbic:uranium_block')
+    e.remove('forge:storage_blocks/zinc', 'create:zinc_block', 'chemlib:zinc_metal_block')
 
     //Wires
-    e.remove('forge:wires/copper', 'createaddition:copper_wire')
+    e.remove('forge:wires/aluminum', 'ftbic:aluminum_wire')
+    e.remove('forge:wires/copper', 'createaddition:copper_wire', 'ftbic:copper_wire')
     e.remove('forge:wires/electrum', 'createaddition:electrum_wire')
+    e.remove('forge:wires/gold', 'ftbic:gold_wire')
     
     //Gems
     e.remove('forge:gems/sapphire', 'iceandfire:sapphire_gem', 'thermal:sapphire')
@@ -222,6 +250,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:coal_coke', 'thermal:coal_coke')
     e.remove('forge:bitumen', 'immersivepetroleum:bitumen')
     e.remove('forge:slag', 'immersivepetroleum:slag')
+    e.remove('forge:silicon', 'ftbic:silicon')
 
     /*********************OTHERS**************************/
     e.remove('pneumaticcraft:upgrade_components', 'minecraft:lapis_lazuli')
@@ -272,8 +301,74 @@ ServerEvents.tags('item', e => {
         'mysticalagriculture:tungsten_seeds',
         'mysticalagriculture:titanium_seeds',
         'mysticalagriculture:chrome_seeds',
-        'productivebees:honey_bucket'
-    ].forEach(item => {e.removeAllTagsFrom(item)})
+        'productivebees:honey_bucket',
+        'chemlib:lithium_plate',
+        'chemlib:beryllium_plate',
+        'chemlib:sodium_plate',
+        'chemlib:magnesium_plate',
+        'chemlib:aluminum_plate',
+        'chemlib:potassium_plate',
+        'chemlib:calcium_plate',
+        'chemlib:scandium_plate',
+        'chemlib:titanium_plate',
+        'chemlib:vanadium_plate',
+        'chemlib:chromium_plate',
+        'chemlib:manganese_plate',
+        'chemlib:iron_plate',
+        'chemlib:cobalt_plate',
+        'chemlib:nickel_plate',
+        'chemlib:copper_plate',
+        'chemlib:zinc_plate',
+        'chemlib:gallium_plate',
+        'chemlib:rubidium_plate',
+        'chemlib:strontium_plate',
+        'chemlib:yttrium_plate',
+        'chemlib:zirconium_plate',
+        'chemlib:niobium_plate',
+        'chemlib:molybdenum_plate',
+        'chemlib:ruthenium_plate',
+        'chemlib:rhodium_plate',
+        'chemlib:palladium_plate',
+        'chemlib:silver_plate',
+        'chemlib:cadmium_plate',
+        'chemlib:indium_plate',
+        'chemlib:tin_plate',
+        'chemlib:cesium_plate',
+        'chemlib:barium_plate',
+        'chemlib:lanthanum_plate',
+        'chemlib:cerium_plate',
+        'chemlib:praseodymium_plate',
+        'chemlib:neodymium_plate',
+        'chemlib:samarium_plate',
+        'chemlib:europium_plate',
+        'chemlib:gadolinium_plate',
+        'chemlib:terbium_plate',
+        'chemlib:dysprosium_plate',
+        'chemlib:holmium_plate',
+        'chemlib:erbium_plate',
+        'chemlib:thulium_plate',
+        'chemlib:ytterbium_plate',
+        'chemlib:lutetium_plate',
+        'chemlib:hafnium_plate',
+        'chemlib:tantalum_plate',
+        'chemlib:tungsten_plate',
+        'chemlib:rhenium_plate',
+        'chemlib:osmium_plate',
+        'chemlib:iridium_plate',
+        'chemlib:platinum_plate',
+        'chemlib:gold_plate',
+        'chemlib:thallium_plate',
+        'chemlib:lead_plate',
+        'chemlib:bismuth_plate',
+        'chemlib:polonium_plate',
+        'chemlib:francium_plate',
+        'chemlib:radium_plate',
+        'chemlib:actinium_plate',
+        'chemlib:thorium_plate',
+        'chemlib:protactinium_plate',
+        'chemlib:uranium_plate',
+        'myrtrees:latex'
+        ].forEach(item => {e.removeAllTagsFrom(item)})
 
     /**********************ADD****************************/
     e.add('botania:apothecary', ['botania:apothecary_mesa', 'botania:apothecary_taiga', 'botania:apothecary_desert', 'botania:apothecary_swamp', 'botania:apothecary_fungal', 'botania:apothecary_mountain', 'botania:apothecary_plains', 'botania:apothecary_forest', 'botania:apothecary_default', 'botania:apothecary_mossy'])
@@ -406,7 +501,34 @@ ServerEvents.tags("block", e => {
         'thermal:carrot_block',
         'quark:carrot_crate',
         'mekanism:uranium_ore',
-        'mekanism:deepslate_uranium_ore'
+        'mekanism:deepslate_uranium_ore',
+        'chemlib:iridium_metal_block',
+        'chemlib:zinc_metal_block',
+        'chemlib:aluminum_metal_block',
+        'chemlib:nickel_metal_block',
+        'chemlib:silver_metal_block',
+        'chemlib:tin_metal_block',
+        'chemlib:osmium_metal_block',
+        'chemlib:platinum_metal_block',
+        'chemlib:lead_metal_block',
+        'chemlib:uranium_metal_block',
+        'ftbic:iridium_block',
+        'ftbic:tin_block',
+        'ftbic:lead_block',
+        'ftbic:uranium_block',
+        'ftbic:aluminum_block',
+        'ftbic:enderium_block',
+        'ftbic:bronze_block',
+        'ftbic:iridium_ore',
+        'ftbic:deepslate_iridium_ore',
+        'ftbic:tin_ore',
+        'ftbic:deepslate_tin_ore',
+        'ftbic:lead_ore',
+        'ftbic:deepslate_lead_ore',
+        'ftbic:uranium_ore',
+        'ftbic:deepslate_uranium_ore',
+        'ftbic:aluminum_ore',
+        'ftbic:deepslate_aluminum_ore'
     ].forEach(block => {e.removeAllTagsFrom(block)})
     
 })

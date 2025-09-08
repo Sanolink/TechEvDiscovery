@@ -1,0 +1,20 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 1,
+      "ingredient": {
+        "tag": "forge:raw_materials/aluminum"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "alltheores:aluminum_dust"
+    },
+    {
+      "chance": 0.35,
+      "item": "alltheores:aluminum_dust"
+    }
+  ]
+}

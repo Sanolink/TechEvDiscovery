@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -52,13 +52,13 @@ ServerEvents.recipes(event => {
         {mat: "tin", sec: "minecraft:flint"},
         {mat: "uranium", sec: "byg:emeraldite_shards"},
         {mat: "lead", sec: "minecraft:coal"},
-        {mat: "aluminum"},
-        {mat: "nickel"},
-        {mat: "platinum"},
-        {mat: "desh"},
-        {mat: "ostrum"},
-        {mat: "calorite"},
-        {mat: "nephryx"}
+        {mat: "aluminum", sec: "thermal:apatite"},
+        {mat: "nickel", sec: "thermal:sulfur"},
+        {mat: "platinum", sec: "forbidden_arcanus:arcane_crystal"},
+        {mat: "desh", sec: "minecraft:diamond_nugget"},
+        {mat: "ostrum", sec: "thermal:niter"},
+        {mat: "calorite", sec: "thermal:cinnabar"},
+        {mat: "nephryx", sec: "powah:uraninite_raw"}
     ]
     //Splashing Crushed Raw 
     crushed.forEach(material => {

@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 64,
+      "ingredient": {
+        "tag": "forge:ingots/iridium"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "alltheores:iridium_dust"
+    }
+  ]
+}

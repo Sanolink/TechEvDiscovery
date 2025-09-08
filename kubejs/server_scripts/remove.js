@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -180,6 +180,17 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'forbidden_arcanus:obsidian_ingot'})
     event.remove({ id: 'forbidden_arcanus:arcane_crystal_dust'})
 
+    //FTB Industrial Contraptions
+    event.remove({ id: 'ftbic:smelting/rubber'})
+    event.remove({ id: 'ftbic:smoking/rubber'})
+    event.remove({ id: 'ftbic:shaped/enderium_dust'})
+    event.remove({ id: 'ftbic:shaped/enderium_dust_2'})
+    event.remove({ id: 'ftbic:shaped/enderium_ingot'})
+    event.remove({ id: 'ftbic:shaped/enderium_wire'})
+    event.remove({ id: 'ftbic:shaped/aluminum_wire'})
+    event.remove({ id: 'ftbic:shaped/copper_wire'})
+    event.remove({ id: 'ftbic:shaped/gold_wire'})
+
     //Functional Storage 
     event.remove({ id: 'functionalstorage:oak_drawer_alternate_x1'})
     event.remove({ id: 'functionalstorage:oak_drawer_alternate_x2'})
@@ -257,6 +268,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'minecraft:cookie' })
     event.remove({ id: 'minecraft:decorations/decorated_pot_simple' })
 
+    //Myrtrees 
+    event.remove({ id: 'myrtrees:wooden_bucket'})
+    event.remove({ id: 'myrtrees:tree_tap'})
+    
     //Mystical Agriculture + Addons
     event.remove({ id: 'mysticalagradditions:nether_prosperity_shard_smelted'})
     event.remove({ id: 'mysticalagradditions:end_prosperity_shard_smelted'})
@@ -360,6 +375,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'productivebees:centrifuge/honeycomb_frosty'})
     event.remove({ id: 'productivebees:centrifuge/shroom/honeycomb_crimson'})
     event.remove({ id: 'productivebees:centrifuge/dusts/comb_blazing'})
+    event.remove({ id: 'productivebees:centrifuge/ingots/honeycomb_bismuth_dust'})
+    event.remove({ id: 'productivebees:centrifuge/tconstruct/honeycomb_cobalt'})
+    event.remove({ id: 'productivebees:centrifuge/ingots/honeycomb_titanium_dust'})
+    event.remove({ id: 'productivebees:centrifuge/ingots/honeycomb_tungsten_dust'})
     event.remove({ id: 'productivebees:bottler/miners_tea'})
     event.remove({ id: 'productivebees:spirit/spirit_bee'})
     event.remove({ id: 'productivebees:cofh/shaped/redstone_bee_to_destabilized_redstone_bee'})

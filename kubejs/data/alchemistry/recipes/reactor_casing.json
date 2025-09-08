@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "machines",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "O": {
+      "item": "alltheores:osmium_ingot"
+    },
+    "P": {
+      "item": "alltheores:platinum_ingot"
+    }
+  },
+  "pattern": [
+    "OPO",
+    "PBP",
+    "OPO"
+  ],
+  "result": {
+    "count": 4,
+    "item": "alchemistry:reactor_casing"
+  }
+}

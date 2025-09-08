@@ -1,0 +1,20 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 1,
+      "ingredient": {
+        "tag": "forge:raw_materials/iridium"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "alltheores:iridium_dust"
+    },
+    {
+      "chance": 0.35,
+      "item": "alltheores:iridium_dust"
+    }
+  ]
+}

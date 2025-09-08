@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:rolling",
+  "inputItems": [
+    {
+      "count": 64,
+      "ingredient": {
+        "tag": "forge:ingots/aluminum"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "alltheores:aluminum_plate"
+    }
+  ]
+}

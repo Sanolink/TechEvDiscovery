@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:separating",
+  "inputItems": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "myrtrees:rubberwood_log"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "chance": 0.8,
+      "item": "thermal:rubber"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:separating",
+  "inputItems": [
+    {
+      "count": 1,
+      "ingredient": {
+        "tag": "forge:dusts/certus_quartz"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 3,
+      "item": "ae2:silicon"
+    }
+  ]
+}

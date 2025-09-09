@@ -23,10 +23,33 @@ ServerEvents.recipes(event => {
     CircuitEtcher('pneumaticcraft:printed_circuit_board', ['pneumaticcraft:advanced_microchip', 'pneumaticcraft:transistor', 'pneumaticcraft:capacitor'], 'pneumaticcraft:advanced_printed_circuit_board')
     CircuitEtcher('pneumaticcraft:advanced_printed_circuit_board', ['pneumaticcraft:processing_microchip', 'pneumaticcraft:transistor', 'pneumaticcraft:capacitor'], 'pneumaticcraft:processing_printed_circuit_board')
 
+    
     //General Circuit Etcher Function
+    let counter = 0
     function CircuitEtcher(input, inputs, output, time) {
         let recipe = event.recipes.custommachinery
             .custom_machine("custommachinery:circuit_etcher", time || 100)
+            .requireFunctionEachTick(ctx => {
+            if (counter == 10) {
+                let block = ctx.getBlock()
+                let level = block.getLevel()
+                let pos = block.getPos()
+                let facing = block.getProperties().get("facing")
+                let x = pos.x + 0.5
+                let y = pos.y + 3.0
+                let z = pos.z + 0.5
+
+                let dx = 0, dz = 0
+                if (facing == "north") { dz = 3 }
+                if (facing == "south") { dz = -3 }
+                if (facing == "west") { dx = 3 }
+                if (facing == "east") { dx = -3 }
+                
+                level.spawnParticles("create:steam_jet", true, x + dx, y, z + dz, 0.5, 1, 0.5, 20, 1)
+                counter = 0
+            } else { counter++ }
+            return ctx.success()
+        })
             .requireItem(input, "input")
             .produceItem(output)
             .requireStructure(

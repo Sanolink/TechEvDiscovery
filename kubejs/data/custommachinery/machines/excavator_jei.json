@@ -11,7 +11,7 @@
     "resistance": 3.5,
     "tool_type": "minecraft:mineable/pickaxe",
     "mining_level": "minecraft:needs_iron_tool",
-    "requires_tool": true,
+    "requires_tool": false,
     "shape": [[0, 0, 0, 1, 1, 1]]
   },
   "components": [

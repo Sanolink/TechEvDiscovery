@@ -9,9 +9,9 @@
     "color": 16777215,
     "hardness": 3.5,
     "resistance": 3.5,
-    "tool_type": ["minecraft:mineable/pickaxe"],
+    "tool_type": "minecraft:mineable/pickaxe",
     "mining_level": "minecraft:needs_iron_tool",
-    "requires_tool": true,
+    "requires_tool": false,
     "shape": [[0, 0, 0, 1, 1, 1]],
     "running": {
       "block": "custommachinery:machine/circuit_etcher_running",

@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:wheat_seeds",
+    "minecraft:cocoa_beans",
+    "minecraft:pumpkin_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:beetroot_seeds",
+    "farmersdelight:onion",
+    "farmersdelight:rice",
+    "farmersdelight:cabbage_seeds",
+    "farmersdelight:tomato_seeds",
+    "immersiveengineering:seed",
+    "supplementaries:flax_seeds",
+    "sushigocrafting:cucumber_seeds",
+    "sushigocrafting:soy_seeds",
+    "sushigocrafting:wasabi_seeds",
+    "sushigocrafting:sesame_seeds"
+  ]
+}

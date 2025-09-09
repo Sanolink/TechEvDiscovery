@@ -13,14 +13,35 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
 ServerEvents.recipes(event => {
-
+    let counter = 0
     event.recipes.custommachinery
         .custom_machine("custommachinery:soul_harvester", 100)
+        .requireFunctionEachTick(ctx => {
+            if (counter == 10) {
+                let block = ctx.getBlock()
+                let level = block.getLevel()
+                let pos = block.getPos()
+                let facing = block.getProperties().get("facing")
+                let x = pos.x + 0.5
+                let y = pos.y + 2.0
+                let z = pos.z + 0.5
+
+                let dx = 0, dz = 0
+                if (facing == "north") { dz = 2 }
+                if (facing == "south") { dz = -2 }
+                if (facing == "west") { dx = 2 }
+                if (facing == "east") { dx = -2 }
+                
+                level.spawnParticles("minecraft:soul", true, x + dx, y, z + dz, 0, 0, 0, 5, 0.05)
+                counter = 0
+            } else { counter++ }
+            return ctx.success()
+        })
         .produceItem('eidolon:soul_shard')
         .requireStructure(
             [

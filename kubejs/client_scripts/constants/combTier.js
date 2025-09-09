@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.9         (_____)
 
 */
 
@@ -152,6 +152,26 @@ const combTier = {
         "gaia",
         "nitro_crystal",
         "starry"
+    ],
+    "TechEv": [
+        "aeric",
+        "aquatic",
+        "chicken",
+        "fiery",
+        "fishy",
+        "gaia",
+        "geotic",
+        "hop_graphite",
+        "ironwood",
+        "knightmetal",
+        "nephryx",
+        "piggy",
+        "rabbit",
+        "sheep",
+        "squid",
+        "starry",
+        "steeleaf",
+        "turtle"
     ],
     getTier(mat) {
         for (let tier in this) {

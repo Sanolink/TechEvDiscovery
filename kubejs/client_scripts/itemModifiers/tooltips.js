@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.9         (_____)
 
 */
 
@@ -41,6 +41,9 @@ ItemEvents.tooltip(event => {
                 text.add(1, Text.of(`§7Tier: ${combTier.getColor(tier)}`))
             } else {
                 text.add(1, Text.of(`§7Tier: Optional`))
+            }
+            if (combTier.TechEv.includes(mat)) {
+                text.add(1, "§6✦ [TechEv Addition]")
             }
         })
     })

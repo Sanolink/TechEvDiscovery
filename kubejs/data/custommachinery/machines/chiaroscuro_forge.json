@@ -11,7 +11,7 @@
     "resistance": 3.5,
     "tool_type": ["minecraft:mineable/pickaxe", "minecraft:mineable/axe"],
     "mining_level": "",
-    "requires_tool": true,
+    "requires_tool": false,
     "shape": [[0, 0, 0, 1, 1, 1]],
     "running": {
       "block": "custommachinery:machine/chiaroscuro_forge_running",

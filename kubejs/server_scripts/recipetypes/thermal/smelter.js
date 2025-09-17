@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -86,6 +86,11 @@ ServerEvents.recipes(event => {
             outputs: parseIngredient('trashcans:ultimate_trash_can'),
             ingredients: [parseIngredient('trashcans:item_trash_can'), parseIngredient('trashcans:liquid_trash_can'), parseIngredient('trashcans:energy_trash_can')],
             energy: 4800
+        },
+        {
+            id:  "trizz_powder",
+            outputs: parseIngredient('thermal:trizz_powder'),
+            ingredients: [parseIngredient('thermal:basalz_powder'), parseIngredient('thermal:blizz_powder'), parseIngredient('thermal:blitz_powder')],
         }
     ]
     

@@ -173,4 +173,47 @@ ServerEvents.recipes(event => {
         }
         event.custom(json).id(`thermal:machines/pulverizer/pulverizer_${recipe.id}`)
     })
+
+    //Catalysts 
+    let catalysts = [
+        {
+            item: 'thermal:blitz_powder',
+            primary_mod: 1.25,
+            secondary_mod: 3.0,
+            energy_mod: 0.25,
+            min_chance: 0.20,
+            use_chance: 0.50
+        },
+        {
+            item: 'thermal:blizz_powder',
+            primary_mod: 1.25,
+            secondary_mod: 3.0,
+            energy_mod: 0.25,
+            min_chance: 0.20,
+            use_chance: 0.50
+        },
+        {
+            item: 'thermal:trizz_powder',
+            primary_mod: 3,
+            secondary_mod: 5.0,
+            energy_mod: 0.10,
+            min_chance: 0.10,
+            use_chance: 0.25
+        }
+    ]
+
+    //General Pulverizer Catalyst Function
+    catalysts.forEach(catalyst => {
+        let json = {
+            type: 'thermal:pulverizer_catalyst',
+            ingredient: { item: catalyst.item },
+            primary_mod: catalyst.primary_mod,
+            secondary_mod: catalyst.secondary_mod,
+            energy_mod: catalyst.energy_mod,
+            min_chance: catalyst.min_chance,
+            use_chance: catalyst.use_chance
+        }
+        event.custom(json).id(`thermal:machines/pulverizer/pulverizer_catalyst_${catalyst.item.split(":")[1]}`)
+    })
+
 })

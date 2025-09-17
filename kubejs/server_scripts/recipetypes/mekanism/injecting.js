@@ -58,6 +58,14 @@ ServerEvents.recipes(event => {
         )
     })
 
+    const FermentedDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'osmium', 'tin', 'lead', 'uranium', 'aluminum', 'nickel', 'platinum', 'silver', 'zinc'].forEach(mat => {
+        recipes.push({
+            id: `${mat}/shard/from_fermented_dust`,
+            chemicalInput: MekaGas("mekanism:hydrogen_chloride", 1),
+            input: MekaCountIngredient(`#industrialforegoing:fermented_dusts/${mat}`, 3),
+            output: ChanceOrCountItem(TagToItem(`#mekanism:shards/${mat}`), 8)
+        })
+    })
 
     //General Injecting Function
     recipes.forEach(recipe => {

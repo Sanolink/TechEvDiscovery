@@ -58,6 +58,23 @@ ServerEvents.recipes(event => {
         )
     })
     
+    const FermentedDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'osmium', 'tin', 'lead', 'uranium'].forEach(mat => {
+        recipes.push({
+            id: `${mat}/slurry/dirty/from_fermented_dust`,
+            gasInput: MekaGas("mekanism:sulfuric_acid", 1),
+            itemInput: MekaCountIngredient(`#industrialforegoing:fermented_dusts/${mat}`, 3),
+            output: MekaSlurry(`mekanism:dirty_${mat}`, 2000)
+        })
+    })
+
+    const ATOFermentedDusts = ['aluminum', 'nickel', 'platinum', 'silver', 'zinc'].forEach(mat => {
+        recipes.push({
+            id: `${mat}/slurry/dirty/from_fermented_dust`,
+            gasInput: MekaGas("mekanism:sulfuric_acid", 1),
+            itemInput: MekaCountIngredient(`#industrialforegoing:fermented_dusts/${mat}`, 3),
+            output: MekaSlurry(`alltheores:dirty_${mat}`, 2000)
+        })
+    })
 
     //General Dissolution Function
     recipes.forEach(recipe => {

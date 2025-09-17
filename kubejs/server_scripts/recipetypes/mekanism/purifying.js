@@ -48,6 +48,14 @@ ServerEvents.recipes(event => {
         )
     })
 
+    const FermentedDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'osmium', 'tin', 'lead', 'uranium', 'aluminum', 'nickel', 'platinum', 'silver', 'zinc'].forEach(mat => {
+        recipes.push({
+            id: `${mat}/clump/from_fermented_dust`,
+            input: MekaParseIngredient(`#industrialforegoing:fermented_dusts/${mat}`),
+            output: ChanceOrCountItem(TagToItem(`#mekanism:clumps/${mat}`), 2)
+        })
+    })
+    
     function productiveGene(attribute, input, output) {
         recipes.push({
             id: `gene_${attribute}_${input}_${output}`,

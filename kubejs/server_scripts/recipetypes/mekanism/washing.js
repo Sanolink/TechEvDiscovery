@@ -18,33 +18,27 @@
 */
 
 ServerEvents.recipes(event => {
-    
-    //Recipes 
-    const recipes = [
-        {
-            id: "hypermatter_pellet",
-            input: MekaGas("mekanism:hypermatter", 1000),
-            output: parseIngredient("mekanism:pellet_hypermatter")
-        }
-    ]
 
-    const Crystals = ['desh', 'ostrum', 'calorite', 'nephryx'].forEach(mat => {
+    //Recipes 
+    const recipes = []
+
+    const Slurries = ['desh', 'ostrum', 'calorite', 'nephryx'].forEach(mat => {
         recipes.push({
-            id: `${mat}/crystal/from_slurry`,
-            chemicalType: 'slurry',
-            input: MekaSlurry(`mekanism:clean_${mat}`, 200),
-            output: parseIngredient(`mekanism:crystal_${mat}`)
+            id: `${mat}/slurry/clean`,
+            fluidInput: FluidTagWithCount("minecraft:water", 5),
+            slurryInput: MekaSlurry(`mekanism:dirty_${mat}`, 1),
+            output: MekaSlurry(`mekanism:clean_${mat}`, 1)
         })
     })
 
-    //General Crystallizing Function
+    //General Washing Function
     recipes.forEach(recipe => {
         let json = {
-            type: 'mekanism:crystallizing',
-            chemicalType: recipe.chemicalType || 'gas',
-            input: recipe.input,
+            type: 'mekanism:washing',
+            fluidInput: recipe.fluidInput,
+            slurryInput: recipe.slurryInput,
             output: recipe.output
         }
-        event.custom(json).id(`mekanism:crystallizing/${recipe.id}`)
+        event.custom(json).id(`mekanism:washing/${recipe.id}`)
     })
 })

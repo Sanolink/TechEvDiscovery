@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -23,80 +23,88 @@ ServerEvents.recipes(event => {
     const recipes = [
         {
             id: "enriched_radiance",
-            input: parseIngredient('mekanism:dust_refined_glowstone'),
+            input: MekaParseIngredient('mekanism:dust_refined_glowstone'),
             output: parseIngredient('mekaevolution:enriched_radiance'),
         },
         {
             id: "enriched_thermonuclear",
-            input: parseIngredient('mekanism:crystal_hypernitro'),
+            input: MekaParseIngredient('mekanism:crystal_hypernitro'),
             output: parseIngredient('mekaevolution:enriched_thermonuclear'),
         },
         {
             id: "enriched_ionium",
-            input: parseIngredient('mekanism:dust_lithium'),
+            input: MekaParseIngredient('mekanism:dust_lithium'),
             output: parseIngredient('mekanism:enriched_ionium'),
         },
         {
             id: "enriched_iridium",
-            input: parseIngredient('alltheores:iridium_dust'),
+            input: MekaParseIngredient('alltheores:iridium_dust'),
             output: parseIngredient('mekanism:enriched_iridium'),
         },
         {
             id: "enriched_shining",
-            input: parseIngredient('mekanism:antispark_dust'),
+            input: MekaParseIngredient('mekanism:antispark_dust'),
             output: parseIngredient('mekaevolution:enriched_shining'),
         },
         {
             id: "enriched_spectrum",
-            input: parseIngredient('mysticalagriculture:ultimate_essence'),
+            input: MekaParseIngredient('mysticalagriculture:ultimate_essence'),
             output: parseIngredient('mekaevolution:enriched_spectrum'),
         },
         {
             id: "enriched_lapis_lazuli",
-            input: parseIngredient('minecraft:lapis_lazuli'),
+            input: MekaParseIngredient('minecraft:lapis_lazuli'),
             output: parseIngredient('mekanism:enriched_lapis_lazuli'),
         },
         {
             id: "enriched_psimetal",
-            input: parseIngredient('psi:psimetal'),
+            input: MekaParseIngredient('psi:psimetal'),
             output: parseIngredient('mekanism:enriched_psimetal'),
         },
         {
             id: "enriched_source",
-            input: parseIngredient('ars_nouveau:source_gem'),
+            input: MekaParseIngredient('ars_nouveau:source_gem'),
             output: parseIngredient('mekanism:enriched_source'),
         },
         {
             id: "polished_blue_quartz",
-            input: parseIngredient('create:blue_quartz'),
+            input: MekaParseIngredient('create:blue_quartz'),
             output: parseIngredient('create:polished_blue_quartz'),
         },
         {
             id: "polished_psi_quartz",
-            input: parseIngredient('create:psi_quartz'),
+            input: MekaParseIngredient('create:psi_quartz'),
             output: parseIngredient('create:polished_psi_quartz'),
         },
         {
             id: "polished_source_quartz",
-            input: parseIngredient('create:source_quartz'),
+            input: MekaParseIngredient('create:source_quartz'),
             output: parseIngredient('create:polished_source_quartz'),
         },
         {
             id: "polished_antimatter_quartz",
-            input: parseIngredient('create:antimatter_quartz'),
+            input: MekaParseIngredient('create:antimatter_quartz'),
             output: parseIngredient('create:polished_antimatter_quartz'),
         },
         {
             id: `iridium_dust_from_ore`,
-            input: parseIngredient(`#forge:ores/iridium`),
+            input: MekaParseIngredient(`#forge:ores/iridium`),
             output: ChanceOrCountItem(TagToItem(`#forge:dusts/iridium`), 2),
         },
         {
             id: `iridium_dust_from_raw`,
-            input: ChanceOrCountTag(`#forge:raw_materials/iridium`, 3),
+            input: MekaCountIngredient(`#forge:raw_materials/iridium`, 3),
             output: ChanceOrCountItem(TagToItem(`#forge:dusts/iridium`), 4),
         },
     ]
+
+    const DirtyDusts = ['desh', 'ostrum', 'calorite', 'nephryx'].forEach(mat => {
+        recipes.push({
+            id: `${mat}/dust/from_dirty_dust`,
+            input: MekaParseIngredient(`#mekanism:dirty_dusts/${mat}`),
+            output: parseIngredient(TagToItem(`#forge:dusts/${mat}`))
+        })
+    })
 
     const RawMat_OresToDusts = [ 
         'desh',
@@ -107,17 +115,17 @@ ServerEvents.recipes(event => {
         recipes.push(
             {
                 id: `${mat}_dust_from_ore`,
-                input: parseIngredient(`#forge:ores/${mat}`),
+                input: MekaParseIngredient(`#forge:ores/${mat}`),
                 output: ChanceOrCountItem(TagToItem(`#forge:dusts/${mat}`), 2),
             },
             {
                 id: `${mat}_dust_from_raw`,
-                input: ChanceOrCountTag(`#forge:raw_materials/${mat}`, 3),
+                input: MekaCountIngredient(`#forge:raw_materials/${mat}`, 3),
                 output: ChanceOrCountItem(TagToItem(`#forge:dusts/${mat}`), 4),
             },
             {
                 id: `${mat}_dust_from_raw_block`,
-                input: parseIngredient(`#forge:storage_blocks/raw_${mat}`),
+                input: MekaParseIngredient(`#forge:storage_blocks/raw_${mat}`),
                 output: ChanceOrCountItem(TagToItem(`#forge:dusts/${mat}`), 12),
             }
         )
@@ -127,7 +135,7 @@ ServerEvents.recipes(event => {
     recipes.forEach(recipe => {
         let json = {
             type: 'mekanism:enriching',
-            input: { "ingredient": recipe.input },
+            input: recipe.input,
             output: recipe.output
         }
         event.custom(json).id(`mekanism:enriching/${recipe.id}`)

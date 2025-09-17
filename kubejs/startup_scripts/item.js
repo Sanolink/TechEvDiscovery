@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -126,6 +126,11 @@ StartupEvents.registry('item', e => {
     BasicItem('mekanism:enriched_source', "Enriched Source")
     BasicItem('mekanism:crystal_hypernitro', "Hypernitro Crystal")
     BasicItem('mekanism:antispark_dust', "Antispark Dust")
+const CrystalsShardsClumpsDirtyDusts = ['desh', 'ostrum', 'calorite', 'nephryx'].forEach(mat => {
+      BasicItem(`mekanism:dirty_dust_${mat}`, `Dirty ${mat.charAt(0).toUpperCase() + mat.slice(1)} Dust`).tag("mekanism:dirty_dusts").tag(`mekanism:dirty_dusts/${mat}`)
+      BasicItem(`mekanism:crystal_${mat}`, `${mat.charAt(0).toUpperCase() + mat.slice(1)} Crystal`).tag("mekanism:crystals").tag(`mekanism:crystals/${mat}`)
+      BasicItem(`mekanism:shard_${mat}`, `${mat.charAt(0).toUpperCase() + mat.slice(1)} Shard`).tag("mekanism:shards").tag(`mekanism:shards/${mat}`)
+      BasicItem(`mekanism:clump_${mat}`, `${mat.charAt(0).toUpperCase() + mat.slice(1)} Clump`).tag("mekanism:clumps").tag(`mekanism:clumps/${mat}`)})
 
     BasicItem('mysticalagriculture:ultimate_essence', "Ultimate Essence").texture("mysticalagriculture/item/essence/ultimate_essence")
 

@@ -41,8 +41,8 @@ ServerEvents.recipes(event => {
         }
     ]
 
-    //Crushed Raw List to Splash
-    const crushed = [
+    //Ores List to Splash
+    const ores = [
         {mat: "zinc", sec: "#forge:gunpowder"},
         {mat: "copper", sec: "#forge:clay"},
         {mat: "gold", sec: "#forge:gems/quartz"},
@@ -60,9 +60,10 @@ ServerEvents.recipes(event => {
         {mat: "calorite"},
         {mat: "nephryx"}
     ]
-    //Splashing Crushed Raw 
-    crushed.forEach(material => {
-        if (material.sec != undefined) {recipes.push({
+    //Splashing Ores 
+    ores.forEach(material => {
+        recipes.push(
+            {
                     id: `crushed_raw_${material.mat}`,
                     input: [parseIngredient(`create:crushed_raw_${material.mat}`)],
                     output: [
@@ -70,14 +71,26 @@ ServerEvents.recipes(event => {
                         ChanceAndCountItem(TagToItem(`#forge:nuggets/${material.mat}`), 0.5, 4),
                         parseChanceOrCountIngredient(TagToItem(material.sec), 0.5)
                     ]
-                })} else {recipes.push({
-                    id: `crushed_raw_${material.mat}`,
-                    input: [parseIngredient(`create:crushed_raw_${material.mat}`)],
+            },
+            {
+                id: `fermented_dust_${material.mat}`,
+                input: [parseIngredient(`industrialforegoing:fermented_dust_${material.mat}`)],
+                output: [
+                    parseIngredient(TagToItem(`#forge:dusts/${material.mat}`)),
+                    ChanceOrCountItem(TagToItem(`#forge:dusts/${material.mat}`), 0.25),
+                    parseChanceOrCountIngredient(TagToItem(material.sec), 0.5)
+                ]
+            },
+            {
+                id: `dirty_dust_${material.mat}`,
+                input: [parseIngredient(`#mekanism:dirty_dusts/${material.mat}`)],
                     output: [
-                        ChanceOrCountItem(TagToItem(`#forge:nuggets/${material.mat}`), 9),
-                        ChanceAndCountItem(TagToItem(`#forge:nuggets/${material.mat}`), 0.5, 4)
+                    parseIngredient(TagToItem(`#forge:dusts/${material.mat}`)),
+                    ChanceOrCountItem(TagToItem(`#forge:dusts/${material.mat}`), 0.25),
+                    parseChanceOrCountIngredient(TagToItem(material.sec), 0.5)
                     ]
-                })}
+            }
+        )
     })
 
    //General Splashing Function

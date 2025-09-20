@@ -1,0 +1,18 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 6000,
+    "input": {
+        "tag": "forge:raw_materials/uranium"
+    },
+    "result": {
+        "tag": "create:crushed_raw_materials/uranium"
+    },
+    "secondaries": [
+        {
+            "chance": 0.33333334,
+            "output": {
+                "tag": "create:crushed_raw_materials/uranium"
+            }
+        }
+    ]
+}

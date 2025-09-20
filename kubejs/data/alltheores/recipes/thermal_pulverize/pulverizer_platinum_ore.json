@@ -1,0 +1,27 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/platinum"
+  },
+  "result": [
+    {
+      "item": "create:crushed_raw_platinum",
+      "chance": 2.0
+    },
+    {
+      "item": "create:crushed_raw_tin",
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:gravel",
+      "chance": 0.2
+    }
+  ],
+  "experience": 0.2,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

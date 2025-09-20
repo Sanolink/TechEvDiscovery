@@ -1,1 +1,1 @@
-{"type":"mekanism:enriching","input":{"amount":3,"ingredient":{"tag":"forge:raw_materials/lead"}},"output":{"count":4,"item":"alltheores:lead_dust"}}
+{"type":"mekanism:enriching","input":{"amount":3,"ingredient":{"tag":"forge:raw_materials/lead"}},"output":{"count":4,"item":"create:crushed_raw_lead"}}

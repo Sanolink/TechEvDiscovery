@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -82,22 +82,23 @@ ServerEvents.recipes(event => {
         )
     });
 
-    const RawMat_OresToDusts = [
-        {main: "aluminum", dust: 'alltheores:aluminum_dust', secdust: 'alltheores:osmium_dust'},
-        {main: "osmium", dust: 'alltheores:osmium_dust', secdust: 'alltheores:aluminum_dust'},
-        {main: "uranium", dust: 'alltheores:uranium_dust', secdust: 'alltheores:lead_dust'},
-        {main: "iridium", dust: 'alltheores:iridium_dust', secdust: 'alltheores:uranium_dust'},
-        {main: "zinc", dust: 'alltheores:zinc_dust', secdust: 'alltheores:copper_dust', excludeore: true},
-        {main: "iesnium", dust: 'occultism:iesnium_dust'},
-        {main: "desh", dust: 'ad_astra:desh_dust'},
-        {main: "ostrum", dust: 'ad_astra:ostrum_dust'},
-        {main: "calorite", dust: 'ad_astra:calorite_dust'},
-        {main: "nephryx", dust: 'ad_astra:nephryx_dust'}
+    const RawMat_OresToCrushed = [
+        {main: "aluminum", crushed: 'create:crushed_raw_aluminum', secCrushed: 'create:crushed_raw_osmium'},
+        {main: "osmium", crushed: 'create:crushed_raw_osmium', secCrushed: 'create:crushed_raw_aluminum'},
+        {main: "uranium", crushed: 'create:crushed_raw_uranium', secCrushed: 'create:crushed_raw_lead'},
+        {main: "iridium", crushed: 'create:crushed_raw_iridium', secCrushed: 'create:crushed_raw_uranium'},
+        {main: "zinc", crushed: 'create:crushed_raw_zinc', secCrushed: 'create:crushed_raw_copper', excludeore: true},
+        {main: "platinum", crushed: 'create:crushed_raw_platinum', secCrushed: 'create:crushed_raw_copper', excludeore: true},
+        {main: "iesnium", crushed: 'occultism:iesnium_dust'},
+        {main: "desh", crushed: 'create:crushed_raw_desh'},
+        {main: "ostrum", crushed: 'create:crushed_raw_ostrum'},
+        {main: "calorite", crushed: 'create:crushed_raw_calorite'},
+        {main: "nephryx", crushed: 'create:crushed_raw_nephryx'}
     ].forEach((mat) => {
         recipes.push(
             {
                 id: `raw_${mat.main}` ,
-                output: [ThermalChanceItem(mat.dust, 1.25), ThermalChanceItem(mat.secdust || "minecraft:air", 0.05)],
+                output: [ThermalChanceItem(mat.crushed, 1, false), ThermalChanceItem(mat.secCrushed || "minecraft:air", 0.05)],
                 ingredients: parseIngredient(`#forge:raw_materials/${mat.main}`),
                 energy: 2000
             }
@@ -106,7 +107,7 @@ ServerEvents.recipes(event => {
         recipes.push(
             {
                 id: `${mat.main}_ore`,
-                output: [ThermalChanceItem(mat.dust, 2), ThermalChanceItem(mat.secdust || "minecraft:air", 0.1), ThermalChanceItem("minecraft:gravel", 0.2)],
+                output: [ThermalChanceItem(mat.crushed, 2), ThermalChanceItem(mat.secCrushed || "minecraft:air", 0.1), ThermalChanceItem("minecraft:gravel", 0.2)],
                 ingredients: parseIngredient(`#forge:ores/${mat.main}`),
                 energy: 2000
             }

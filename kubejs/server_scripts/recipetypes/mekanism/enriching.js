@@ -116,17 +116,17 @@ ServerEvents.recipes(event => {
             {
                 id: `${mat}_dust_from_ore`,
                 input: MekaParseIngredient(`#forge:ores/${mat}`),
-                output: ChanceOrCountItem(TagToItem(`#forge:dusts/${mat}`), 2),
+                output: ChanceOrCountItem(TagToItem(`#create:crushed_raw_materials/${mat}`), 2),
             },
             {
                 id: `${mat}_dust_from_raw`,
                 input: MekaCountIngredient(`#forge:raw_materials/${mat}`, 3),
-                output: ChanceOrCountItem(TagToItem(`#forge:dusts/${mat}`), 4),
+                output: ChanceOrCountItem(TagToItem(`#create:crushed_raw_materials/${mat}`), 4),
             },
             {
                 id: `${mat}_dust_from_raw_block`,
                 input: MekaParseIngredient(`#forge:storage_blocks/raw_${mat}`),
-                output: ChanceOrCountItem(TagToItem(`#forge:dusts/${mat}`), 12),
+                output: ChanceOrCountItem(TagToItem(`#create:crushed_raw_materials/${mat}`), 12),
             }
         )
     })

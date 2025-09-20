@@ -1,1 +1,1 @@
-{"type":"mekanism:enriching","input":{"ingredient":{"tag":"forge:ores/iron"}},"output":{"count":2,"item":"alltheores:iron_dust"}}
+{"type":"mekanism:enriching","input":{"ingredient":{"tag":"forge:ores/iron"}},"output":{"count":2,"item":"create:crushed_raw_iron"}}

@@ -1,0 +1,13 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "amount": 3,
+    "ingredient": {
+      "tag": "forge:raw_materials/silver"
+    }
+  },
+  "output": {
+    "item": "create:crushed_raw_silver",
+    "count": 4
+  }
+}

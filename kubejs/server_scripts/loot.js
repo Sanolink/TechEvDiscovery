@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -212,7 +212,7 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:storage_blocks/lead', 'immersiveengineering:storage_lead', 'eidolon:lead_block', 'thermal:lead_block', 'mekanism:block_lead'], 'alltheores:lead_block')
     replaceLT(['#forge:storage_blocks/lumium', 'thermal:lumium_block'], 'alltheores:lumium_block')
     replaceLT(['#forge:storage_blocks/nickel', 'immersiveengineering:storage_nickel', 'thermal:nickel_block'], 'alltheores:nickel_block')
-    replaceLT(['#forge:storage_blocks/nickel', 'mekanism:block_osmium'], 'alltheores:osmium_block')
+    replaceLT(['#forge:storage_blocks/osmium', 'mekanism:block_osmium'], 'alltheores:osmium_block')
     replaceLT(['#forge:storage_blocks/sapphire', 'iceandfire:sapphire_block'], 'alltheores:sapphire_block')
     replaceLT(['#forge:storage_blocks/signalum', 'thermal:signalum_block'], 'alltheores:signalum_block')
     replaceLT(['#forge:storage_blocks/silver', 'immersiveengineering:storage_silver', 'eidolon:silver_block', 'darkerdepths:silver_block', 'iceandfire:silver_block', 'occultism:silver_block', 'thermal:silver_block'], 'alltheores:silver_block')

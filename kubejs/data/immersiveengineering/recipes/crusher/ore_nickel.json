@@ -1,0 +1,30 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 6000,
+    "input": {
+        "tag": "forge:ores/nickel"
+    },
+    "result": {
+        "base_ingredient": {
+            "tag": "create:crushed_raw_materials/nickel"
+        },
+        "count": 2
+    },
+    "secondaries": [
+        {
+            "chance": 0.1,
+            "conditions": [
+                {
+                    "type": "forge:not",
+                    "value": {
+                        "type": "forge:tag_empty",
+                        "tag": "create:crushed_raw_materials/platinum"
+                    }
+                }
+            ],
+            "output": {
+                "tag": "create:crushed_raw_materials/platinum"
+            }
+        }
+    ]
+}

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -105,19 +105,19 @@ ServerEvents.recipes(event => {
         'nephryx',
         'arcane_gold'
     ]
-    const RawDusts = [
+    const RawCrushed = [
         'desh',
         'ostrum',
         'calorite',
         'nephryx'
     ]
-    const RawBlocksDusts = [
+    const RawBlocksCrushed = [
         'desh',
         'ostrum',
         'calorite',
         'nephryx'
     ]
-    const OresDusts = [
+    const OresCrushed = [
         'desh',
         'ostrum',
         'calorite',
@@ -148,31 +148,31 @@ ServerEvents.recipes(event => {
             }
         )
     })
-    RawDusts.forEach((mat) => {
+    RawCrushed.forEach((mat) => {
         recipes.push(
             {
                 id: `${mat}_dust_from_raw`,
                 input: parseIngredient(`#forge:raw_materials/${mat}`),
-                output: parseIngredient(`#forge:dusts/${mat}`),
-                secondaries: [IEChanceOrCountIngredient(`#forge:dusts/${mat}`, 0.3333)],
+                output: parseIngredient(`#create:crushed_raw_materials/${mat}`),
+                secondaries: [IEChanceOrCountIngredient(`#create:crushed_raw_materials/${mat}`, 0.3333)],
             }
         )
     });
-    RawBlocksDusts.forEach((mat) => {
+    RawBlocksCrushed.forEach((mat) => {
         recipes.push(
             {
                 id: `${mat}_dust_from_raw_block`,
                 input: parseIngredient(`#forge:storage_blocks/raw_${mat}`),
-                output: IEChanceOrCountIngredient(`#forge:dusts/${mat}`, 12),
+                output: IEChanceOrCountIngredient(`#create:crushed_raw_materials/${mat}`, 12),
             }
         )
     });
-    OresDusts.forEach((mat) => {
+    OresCrushed.forEach((mat) => {
         recipes.push(
             {
                 id: `${mat}_dust_from_ore`,
                 input: parseIngredient(`#forge:ores/${mat}`),
-                output: IEChanceOrCountIngredient(`#forge:dusts/${mat}`, 2),
+                output: IEChanceOrCountIngredient(`#create:crushed_raw_materials/${mat}`, 2),
             }
         )
     });

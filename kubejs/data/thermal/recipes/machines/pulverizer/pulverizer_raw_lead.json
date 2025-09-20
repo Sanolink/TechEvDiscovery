@@ -5,11 +5,12 @@
   },
   "result": [
     {
-      "item": "alltheores:lead_dust",
-      "chance": 1.25
+      "item": "create:crushed_raw_lead",
+      "chance": 1,
+      "locked": false
     },
     {
-      "item": "alltheores:silver_dust",
+      "item": "create:crushed_raw_silver",
       "chance": 0.05
     }
   ],

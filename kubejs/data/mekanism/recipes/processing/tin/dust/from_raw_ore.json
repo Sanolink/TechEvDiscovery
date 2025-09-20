@@ -1,1 +1,1 @@
-{"type":"mekanism:enriching","input":{"amount":3,"ingredient":{"tag":"forge:raw_materials/tin"}},"output":{"count":4,"item":"alltheores:tin_dust"}}
+{"type":"mekanism:enriching","input":{"amount":3,"ingredient":{"tag":"forge:raw_materials/tin"}},"output":{"count":4,"item":"create:crushed_raw_tin"}}

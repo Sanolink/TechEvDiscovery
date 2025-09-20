@@ -1,0 +1,30 @@
+{
+    "type": "immersiveengineering:crusher",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "create:crushed_raw_materials/zinc"
+            }
+        },
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ores/zinc"
+            }
+        }
+    ],
+    "energy": 6000,
+    "input": {
+        "tag": "forge:ores/zinc"
+    },
+    "result": {
+        "base_ingredient": {
+            "tag": "create:crushed_raw_materials/zinc"
+        },
+        "count": 2
+    },
+    "secondaries": []
+}

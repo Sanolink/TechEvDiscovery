@@ -5,8 +5,9 @@
   },
   "result": [
     {
-      "item": "alltheores:tin_dust",
-      "chance": 1.25
+      "item": "create:crushed_raw_tin",
+      "chance": 1,
+      "locked": false
     },
     {
       "item": "thermal:apatite",

@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
         },
         {
             id:  "obsidian_to_dust",
-            output: [parseIngredient(TagToItem("#forge:dusts/obsidian")), ThermalChanceItem("minecraft:obsidian", 0.75)],
+            output: [parseIngredient(TagToItem("#forge:dusts/obsidian")), ThermalChanceItem("minecraft:obsidian", 0.75, true)],
             ingredients: parseIngredient("minecraft:obsidian"),
             energy: 2000
         },

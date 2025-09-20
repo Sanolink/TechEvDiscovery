@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -24,6 +24,11 @@ ServerEvents.recipes(event => {
     event.remove([{ output: '#alltheores:ore_hammers'} ,{ input: '#alltheores:ore_hammers'}])
     event.remove({ output: '#forge:gears', mod: 'alltheores'})
     event.remove({ output: '#forge:dusts', mod: 'alltheores', type: "crafting_shapeless"})
+    event.remove({ id: 'alltheores:mek_processing/aluminum/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/nickel/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/platinum/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/silver/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/zinc/ore/from_dust'})
 
     //Ad Astra
     event.remove([{ output: 'ad_astra:hammer'}, { input: 'ad_astra:hammer'}])

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -22,24 +22,37 @@ ServerEvents.recipes(event => {
     //Recipes
     const recipes = [
         {
-            id: 'raw_andesite_alloy',
             in: 'create:raw_andesite_alloy',
             out: 'create:andesite_alloy'
         },
         {
-            id: 'mercury_nephryx_ore',
             in: 'ad_astra:mercury_nephryx_ore',
             out: 'ad_astra:nephryx_ingot'
         },
         {
-            id: 'raw_nephryx',
             in: 'ad_astra:raw_nephryx',
+            out: 'ad_astra:nephryx_ingot'
+        },
+                {
+            in: 'ad_astra:desh_dust',
+            out: 'ad_astra:desh_ingot'
+        },
+        {
+            in: 'ad_astra:ostrum_dust',
+            out: 'ad_astra:ostrum_ingot'
+        },
+        {
+            in: 'ad_astra:calorite_dust',
+            out: 'ad_astra:calorite_ingot'
+        },
+        {
+            in: 'ad_astra:nephryx_dust',
             out: 'ad_astra:nephryx_ingot'
         }
     ]
 
     //General Blasting Function
     recipes.forEach((recipe) => {
-        event.blasting(recipe.out, recipe.in).id('minecraft:blasting/' + recipe.id)
+        event.blasting(recipe.out, recipe.in).id(`minecraft:blasting/${recipe.out.split(":")[1]}_blasting_from_${recipe.in.split(":")[1]}`)
     })
 })

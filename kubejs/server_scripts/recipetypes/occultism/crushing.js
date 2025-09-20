@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
         recipes.push(
             {
                 id: `${mat}_dust_from_raw`,
-                output: ChanceOrCountTag(`#forge:dusts/${mat}`, 2),
+                output: ChanceOrCountTag(`#create:crushed_raw_materials/${mat}`, 2),
                 input: parseIngredient(`#forge:raw_materials/${mat}`),
             }
         )
@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
         recipes.push(
             {
                 id: `${mat}_dust_from_ore`,
-                output: ChanceOrCountTag(`#forge:dusts/${mat}`, 2),
+                output: ChanceOrCountTag(`#create:crushed_raw_materials/${mat}`, 2),
                 input: parseIngredient(`#forge:ores/${mat}`),
             }
         )

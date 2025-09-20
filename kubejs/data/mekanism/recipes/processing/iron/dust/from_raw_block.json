@@ -1,1 +1,1 @@
-{"type":"mekanism:enriching","input":{"ingredient":{"tag":"forge:storage_blocks/raw_iron"}},"output":{"count":12,"item":"alltheores:iron_dust"}}
+{"type":"mekanism:enriching","input":{"ingredient":{"tag":"forge:storage_blocks/raw_iron"}},"output":{"count":12,"item":"create:crushed_raw_iron"}}

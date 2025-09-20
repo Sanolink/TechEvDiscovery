@@ -711,8 +711,8 @@
 				item: "thermal:machine_crafter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["78B339EFFE415891"]
@@ -871,8 +871,8 @@
 				item: "thermal:machine_insolator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["78B339EFFE415891"]
@@ -2745,6 +2745,72 @@
 			}]
 			x: 6.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["515FBCAF37A02129"]
+			id: "4D6DDB18F1435EA7"
+			rewards: [{
+				count: 8
+				id: "576852C58B76E3FA"
+				item: "thermal:trizz_powder"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.75d
+			subtitle: "&l[3x Output]"
+			tasks: [{
+				id: "6974855EF758C851"
+				item: "thermal:trizz_powder"
+				type: "item"
+			}]
+			title: "Pulverizer: Catalysts"
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["79DA75E894F8CC2C"]
+			id: "2049375191D2F586"
+			rewards: [{
+				count: 8
+				id: "5FD63FC0C9A35839"
+				item: "thermal:phytogro"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.75d
+			subtitle: "&l[3x Output]"
+			tasks: [{
+				id: "2AD6C07E46CECA70"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			title: "Phytogenic Insolator: Catalysts"
+			x: 2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["744D0694E59FEEE2"]
+			id: "16F77FCE5493497C"
+			rewards: [{
+				count: 8
+				id: "48F7A3BE39CF2D34"
+				item: "thermal:cinnabar"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.75d
+			subtitle: "&l[3x Output]"
+			tasks: [{
+				id: "42F0E63796867C58"
+				item: "thermal:cinnabar"
+				type: "item"
+			}]
+			title: "Induction Smelter: Catalysts"
+			x: 0.375d
+			y: -1.875d
 		}
 	]
 	subtitle: ["Redstone Flux in Motion: Machines and Power"]

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -23,10 +23,18 @@ ServerEvents.recipes(event => {
     const recipes = [
         {
             id: "ender_pearl/to_dust",
-            input: parseIngredient("minecraft:ender_pearl"),
+            input: MekaParseIngredient("minecraft:ender_pearl"),
             output: parseIngredient("thermal:ender_pearl_dust")
         }
     ]
+
+    const DirtyDusts = ['desh', 'ostrum', 'calorite', 'nephryx'].forEach(mat => {
+        recipes.push({
+            id: `${mat}/dirty_dust/from_clump`,
+            input: MekaParseIngredient(`#mekanism:clumps/${mat}`),
+            output: parseIngredient(`mekanism:dirty_dust_${mat}`)
+        })
+    })
 
     const IngotsToDusts = [
         'invar',
@@ -52,7 +60,7 @@ ServerEvents.recipes(event => {
         recipes.push(
             {
                 id: `${mat}/to_dust`,
-                input: parseIngredient(`#forge:ingots/${mat}`),
+                input: MekaParseIngredient(`#forge:ingots/${mat}`),
                 output: parseIngredient(TagToItem(`#forge:dusts/${mat}`))
             }
         )
@@ -70,7 +78,7 @@ ServerEvents.recipes(event => {
         recipes.push(
             {
                 id: `${mat}/to_dust`,
-                input: parseIngredient(`#forge:gems/${mat}`),
+                input: MekaParseIngredient(`#forge:gems/${mat}`),
                 output: parseIngredient(TagToItem(`#forge:dusts/${mat}`))
             }
         )
@@ -80,7 +88,7 @@ ServerEvents.recipes(event => {
     recipes.forEach(recipe => {
         let json = {
             type: 'mekanism:crushing',
-            input: { ingredient: recipe.input },
+            input: recipe.input,
             output: recipe.output
         }
         event.custom(json).id(`mekanism:crushing/${recipe.id}`)

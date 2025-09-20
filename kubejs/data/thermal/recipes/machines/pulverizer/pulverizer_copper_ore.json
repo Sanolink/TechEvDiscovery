@@ -5,11 +5,11 @@
   },
   "result": [
     {
-      "item": "alltheores:copper_dust",
+      "item": "create:crushed_raw_copper",
       "chance": 6.5
     },
     {
-      "item": "alltheores:gold_dust",
+      "item": "create:crushed_raw_gold",
       "chance": 0.1
     },
     {

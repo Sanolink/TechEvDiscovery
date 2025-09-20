@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -338,7 +338,8 @@ ServerEvents.tags('item', e => {
     e.add('forge:gears/ostrum', 'ad_astra:ostrum_gear')
     e.add('forge:gears/calorite', 'ad_astra:calorite_gear')
     e.add('forge:gears/arcane_gold', 'eidolon:arcane_gold_gear')
-
+    const CrushedRawMaterialsTags = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'zinc', 'osmium', 'platinum', 'silver', 'tin', 'lead', 'aluminum', 'uranium', 'nickel'].forEach(mat => {
+        e.add(`create:crushed_raw_materials/${mat}`, `create:crushed_raw_${mat}`)})
     const BlueSkiesMissingTags = ['aquite', 'charoite', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
         e.add(`forge:raw_materials/${mat}`, `blue_skies:raw_${mat}`)
         e.add(`forge:storage_blocks/raw_${mat}`, `blue_skies:raw_${mat}_block`)

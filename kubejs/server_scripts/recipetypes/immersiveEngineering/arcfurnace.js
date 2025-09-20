@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -55,6 +55,21 @@ ServerEvents.recipes(event => {
         }
     ]
 
+    const DustsToIngots = [
+        "iridium",
+        "desh",
+        "ostrum",
+        "calorite",
+        "nephryx"
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `dust_${mat}`,
+                input: parseIngredient(`#forge:dusts/${mat}`),
+                output: [parseIngredient(TagToItem(`#forge:ingots/${mat}`))],
+            }
+        )
+    })
    //General Arc Furnace Function
     recipes.forEach(recipe => {
         let json = {

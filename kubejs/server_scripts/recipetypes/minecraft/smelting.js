@@ -46,13 +46,14 @@ ServerEvents.recipes(event => {
         "falsite",
         "ventium",
         "horizonite",
+        "arcane_gold"
     ].forEach(mat => {
         recipes.push(
             {
                 id: `minecraft:smelting/${mat}_ingot_smelting_from_${mat}_dust`,
                 in: Item.of(`#forge:dusts/${mat}`),
                 out: Item.of(`#forge:ingots/${mat}`)
-        }
+            }
         )
     })
 

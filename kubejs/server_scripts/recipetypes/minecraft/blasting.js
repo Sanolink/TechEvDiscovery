@@ -46,6 +46,7 @@ ServerEvents.recipes(event => {
         "falsite",
         "ventium",
         "horizonite",
+        "arcane_gold"
     ].forEach(mat => {
         recipes.push(
             {

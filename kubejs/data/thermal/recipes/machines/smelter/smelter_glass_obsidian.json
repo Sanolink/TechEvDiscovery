@@ -2,27 +2,27 @@
   "type": "thermal:smelter",
   "ingredients": [
     {
-      "value": [
-        {
-          "item": "create_new_age:overcharged_gold"
-        }
-      ],
+      "tag": "forge:obsidian",
       "count": 1
     },
     {
       "value": [
         {
-          "tag": "forge:ingots/silver"
+          "tag": "forge:dusts/quartz"
         }
       ],
+      "count": 1
+    },
+    {
+      "tag": "forge:sand",
       "count": 1
     }
   ],
   "result": [
     {
-      "item": "alltheores:electrum_ingot",
+      "item": "thermal:obsidian_glass",
       "count": 2
     }
   ],
-  "energy": 3200
+  "energy": 4800
 }

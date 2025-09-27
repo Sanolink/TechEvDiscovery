@@ -4,25 +4,29 @@
     {
       "value": [
         {
-          "item": "create_new_age:overcharged_gold"
+          "tag": "forge:gems/prismarine"
         }
       ],
       "count": 1
     },
     {
+      "tag": "forge:dusts/prismarine",
+      "count": 3
+    },
+    {
       "value": [
         {
-          "tag": "forge:ingots/silver"
+          "tag": "forge:ingots/nickel"
         }
       ],
-      "count": 1
+      "count": 2
     }
   ],
   "result": [
     {
-      "item": "alltheores:electrum_ingot",
+      "item": "thermalendergy:prismalium_ingot",
       "count": 2
     }
   ],
-  "energy": 3200
+  "energy": 24000
 }

@@ -4,29 +4,29 @@
     {
       "value": [
         {
-          "tag": "forge:ingots/copper"
+          "tag": "forge:ingots/netherite"
         }
       ],
-      "count": 3
+      "count": 4
+    },
+    {
+      "tag": "forge:nether_stars",
+      "count": 1
     },
     {
       "value": [
         {
-          "tag": "forge:ingots/silver"
+          "item": "minecraft:clay_ball"
         }
       ],
-      "count": 1
-    },
-    {
-      "tag": "forge:dusts/redstone",
       "count": 4
     }
   ],
   "result": [
     {
-      "item": "alltheores:signalum_ingot",
+      "item": "thermalendergy:stellarium_ingot",
       "count": 4
     }
   ],
-  "energy": 12000
+  "energy": 64000
 }

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -70,6 +70,11 @@ ServerEvents.recipes(event => {
             id : 'insanium_essence',
             output : parseIngredient('mysticalagradditions:insanium_essence'),
             ingredients : [FluidWithCount("mysticalagradditions:molten_insanium", 250), parseIngredient('mysticalagriculture:fertilized_essence')] 
+        },
+        {
+            id : 'rubber',
+            output : parseIngredient('thermal:rubber'),
+            ingredients : FluidWithCount("thermal:latex", 250) 
         }
     ]
 

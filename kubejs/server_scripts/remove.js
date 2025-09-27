@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -473,6 +473,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_bronze_dust'})
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_constantan_dust'})
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_electrum_dust'})
+    event.remove({ id: 'thermal:rubber_from_vine'})
+    event.remove({ id: 'thermal:rubber_from_dandelion'})
     event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
     
     //Torchmaster

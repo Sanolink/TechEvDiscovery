@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.1         (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -48,6 +48,8 @@ StartupEvents.registry('block', e => {
     BasicBlock('create:small_antimatter_quartz_tiles', "Small Antimatter Quartz Tiles").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     
     BasicBlock('immersiveengineering:hop_graphite_block', "Block of HOP Graphite").soundType(SoundType.METAL).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/hop_graphite").requiresTool(true)
+    
+    BasicBlock('occultism:raw_iesnium_block', "Raw Iesnium Block").soundType(SoundType.STONE).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_iron_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/raw_iesnium").requiresTool(true)
     
     BasicBlock('productivebees:comb_ultimate', "Ultimate Comb Block").soundType(SoundType.CORAL_BLOCK).hardness(0.6).tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/honeycombs")
     

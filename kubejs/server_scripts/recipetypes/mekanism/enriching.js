@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -85,20 +85,10 @@ ServerEvents.recipes(event => {
             id: "polished_antimatter_quartz",
             input: MekaParseIngredient('create:antimatter_quartz'),
             output: parseIngredient('create:polished_antimatter_quartz'),
-        },
-        {
-            id: `iridium_dust_from_ore`,
-            input: MekaParseIngredient(`#forge:ores/iridium`),
-            output: ChanceOrCountItem(TagToItem(`#forge:dusts/iridium`), 2),
-        },
-        {
-            id: `iridium_dust_from_raw`,
-            input: MekaCountIngredient(`#forge:raw_materials/iridium`, 3),
-            output: ChanceOrCountItem(TagToItem(`#forge:dusts/iridium`), 4),
-        },
+        }
     ]
 
-    const DirtyDusts = ['desh', 'ostrum', 'calorite', 'nephryx'].forEach(mat => {
+    const DirtyDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
         recipes.push({
             id: `${mat}/dust/from_dirty_dust`,
             input: MekaParseIngredient(`#mekanism:dirty_dusts/${mat}`),
@@ -106,11 +96,19 @@ ServerEvents.recipes(event => {
         })
     })
 
-    const RawMat_OresToDusts = [ 
+    const RawOresToCrushed = [ 
         'desh',
         'ostrum',
         'calorite',
-        'nephryx'
+        'nephryx',
+        'iridium',
+        'iesnium',
+        'elementium',
+        'cloggrum',
+        'froststeel',
+        'falsite',
+        'ventium',
+        'horizonite'
     ].forEach(mat => {
         recipes.push(
             {

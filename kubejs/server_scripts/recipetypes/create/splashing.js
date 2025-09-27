@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -58,7 +58,15 @@ ServerEvents.recipes(event => {
         {mat: "desh", sec: "minecraft:diamond_nugget"},
         {mat: "ostrum", sec: "thermal:niter"},
         {mat: "calorite", sec: "thermal:cinnabar"},
-        {mat: "nephryx", sec: "powah:uraninite_raw"}
+        {mat: "nephryx", sec: "powah:uraninite_raw"},
+        {mat: "iridium", sec: "ae2:certus_quartz_crystal"},
+        {mat: "iesnium", sec: "alltheores:sapphire"},
+        {mat: "elementium", sec: "botania:dragonstone"},
+        {mat: "cloggrum", sec: "undergarden:utheric_shard"},
+        {mat: "froststeel", sec: "undergarden:regalium_crystal"},
+        {mat: "falsite", sec: "blue_skies:aquite"},
+        {mat: "ventium", sec: "blue_skies:pyrope_gem"},
+        {mat: "horizonite", sec: "blue_skies:diopside_gem"}
     ]
     //Splashing Ores 
     ores.forEach(material => {

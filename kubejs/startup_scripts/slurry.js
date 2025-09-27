@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -31,5 +31,13 @@ StartupEvents.registry('mekanism:slurry', event => {
     slurry('ostrum', 0x6C4C5C)
     slurry('calorite', 0x8B1C3C)
     slurry('nephryx', 0x2A4532)
+    slurry('iridium', 0x87ABCD)
+    slurry('iesnium', 0x345F7C)
+    slurry('elementium', 0xC543A8)
+    slurry('cloggrum', 0x645144)
+    slurry('froststeel', 0x4F5781)
+    slurry('falsite', 0x7649E0)
+    slurry('ventium', 0xB72020)
+    slurry('horizonite', 0xFF6E29)
 
 })

@@ -5,9 +5,6 @@
       "value": [
         {
           "tag": "forge:ingots/lead"
-        },
-        {
-          "tag": "forge:dusts/lead"
         }
       ],
       "count": 3
@@ -16,18 +13,12 @@
       "value": [
         {
           "tag": "forge:ingots/platinum"
-        },
-        {
-          "tag": "forge:dusts/platinum"
         }
       ],
       "count": 1
     },
     {
       "value": [
-        {
-          "tag": "forge:ender_pearls"
-        },
         {
           "tag": "forge:dusts/ender_pearl"
         }

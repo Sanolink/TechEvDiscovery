@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -93,7 +93,76 @@ ServerEvents.recipes(event => {
             ingredients: [parseIngredient('thermal:basalz_powder'), parseIngredient('thermal:blizz_powder'), parseIngredient('thermal:blitz_powder')],
         }
     ]
-    
+
+    const DustToIngot = [
+        'aluminum',
+        'osmium',
+        'platinum',
+        'uranium',
+        'zinc',
+        'iridium',
+        'netherite',
+        'steel',
+        'brass',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'elementium',
+        'arcane_gold',
+        'hop_graphite',
+        'iesnium',
+        'cloggrum',
+        'froststeel',
+        'prismalium',
+        'melodium',
+        'stellarium',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `${mat}_dust`,
+                outputs: parseIngredient(TagToItem(`#forge:ingots/${mat}`)),
+                ingredients: parseIngredient(`#forge:dusts/${mat}`)
+            }
+        )
+    })
+
+    const PlateToIngot = [
+        "aluminum",
+        "iridium",
+        "osmium",
+        "platinum",
+        "uranium",
+        "zinc",
+        "steel",
+        "brass",
+        "elementium",
+        "cast_iron",
+        "arcane_gold",
+        "prismalium",
+        "melodium",
+        "stellarium",
+        "soul_infused",
+        "shellite",
+        "twinite",
+        "dragonsteel",
+        "desh",
+        "ostrum",
+        "calorite",
+        "nephryx"
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `${mat}_plate_to_ingot`,
+                outputs: parseIngredient(TagToItem(`#forge:ingots/${mat}`)),
+                ingredients: parseIngredient(`#forge:plates/${mat}`)
+            }
+        )
+    })
+
     //General Smelter Function
     recipes.forEach(recipe => {
         let json = {

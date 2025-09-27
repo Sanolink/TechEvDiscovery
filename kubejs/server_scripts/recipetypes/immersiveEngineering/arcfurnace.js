@@ -68,6 +68,18 @@ ServerEvents.recipes(event => {
         "falsite",
         "ventium",
         "horizonite",
+        "netherite",
+        "enderium",
+        "lumium",
+        "signalum",
+        "soul_infused",
+        "shellite",
+        "twinite",
+        "dragonsteel",
+        "hop_graphite",
+        "prismalium",
+        "melodium",
+        "stellarium"
     ].forEach(mat => {
         recipes.push(
             {

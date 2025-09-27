@@ -4,5 +4,6 @@
     "particleColor": "#6767ad",
     "beeTexture": "productivebees:textures/entity/bee/aquatic/bee",
     "renderer": "translucent_with_center",
+    "waterproof": true,
     "flowerTag": "productivebees:flowers/frozen"
 }

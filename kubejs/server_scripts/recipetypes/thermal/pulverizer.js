@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -70,7 +70,13 @@ ServerEvents.recipes(event => {
         'ostrum',
         'calorite',
         'nephryx',
-        'arcane_gold'
+        'arcane_gold',
+        'elementium',
+        'cloggrum',
+        'froststeel',
+        'falsite',
+        'ventium',
+        'horizonite'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -89,11 +95,17 @@ ServerEvents.recipes(event => {
         {main: "iridium", crushed: 'create:crushed_raw_iridium', secCrushed: 'create:crushed_raw_uranium'},
         {main: "zinc", crushed: 'create:crushed_raw_zinc', secCrushed: 'create:crushed_raw_copper', excludeore: true},
         {main: "platinum", crushed: 'create:crushed_raw_platinum', secCrushed: 'create:crushed_raw_copper', excludeore: true},
-        {main: "iesnium", crushed: 'occultism:iesnium_dust'},
         {main: "desh", crushed: 'create:crushed_raw_desh'},
         {main: "ostrum", crushed: 'create:crushed_raw_ostrum'},
         {main: "calorite", crushed: 'create:crushed_raw_calorite'},
-        {main: "nephryx", crushed: 'create:crushed_raw_nephryx'}
+        {main: "nephryx", crushed: 'create:crushed_raw_nephryx'},
+        {main: "iesnium", crushed: 'create:crushed_raw_iesnium'},
+        {main: "elementium", crushed: 'create:crushed_raw_elementium'},
+        {main: "cloggrum", crushed: 'create:crushed_raw_cloggrum'},
+        {main: "froststeel", crushed: 'create:crushed_raw_froststeel'},
+        {main: "falsite", crushed: 'create:crushed_raw_falsite'},
+        {main: "ventium", crushed: 'create:crushed_raw_ventium'},
+        {main: "horizonite", crushed: 'create:crushed_raw_horizonite'}
     ].forEach((mat) => {
         recipes.push(
             {
@@ -134,7 +146,9 @@ ServerEvents.recipes(event => {
         'ostrum',
         'calorite',
         'nephryx',
-        'arcane_gold'
+        'arcane_gold',
+        'elementium',
+        'platinum'
     ].forEach((mat) => {
         recipes.push(
             {

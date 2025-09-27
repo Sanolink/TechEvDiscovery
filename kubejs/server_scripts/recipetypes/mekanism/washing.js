@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
     //Recipes 
     const recipes = []
 
-    const Slurries = ['desh', 'ostrum', 'calorite', 'nephryx'].forEach(mat => {
+    const Slurries = ['desh', 'ostrum', 'calorite', 'nephryx', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
         recipes.push({
             id: `${mat}/slurry/clean`,
             fluidInput: FluidTagWithCount("minecraft:water", 5),

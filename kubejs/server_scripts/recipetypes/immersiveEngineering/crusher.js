@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -103,25 +103,28 @@ ServerEvents.recipes(event => {
         'ostrum',
         'calorite',
         'nephryx',
-        'arcane_gold'
+        'arcane_gold',
+        'iesnium',
+        'elementium',
+        'cloggrum',
+        'froststeel',
+        'falsite',
+        'ventium',
+        'horizonite'
     ]
-    const RawCrushed = [
+    const RawOresCrushed = [
         'desh',
         'ostrum',
         'calorite',
-        'nephryx'
-    ]
-    const RawBlocksCrushed = [
-        'desh',
-        'ostrum',
-        'calorite',
-        'nephryx'
-    ]
-    const OresCrushed = [
-        'desh',
-        'ostrum',
-        'calorite',
-        'nephryx'
+        'nephryx',
+        'iridium',
+        'iesnium',
+        'elementium',
+        'cloggrum',
+        'froststeel',
+        'falsite',
+        'ventium',
+        'horizonite'
     ]
     const gemsDusts = [
         'amethyst',
@@ -148,27 +151,19 @@ ServerEvents.recipes(event => {
             }
         )
     })
-    RawCrushed.forEach((mat) => {
+    RawOresCrushed.forEach((mat) => {
         recipes.push(
             {
                 id: `${mat}_dust_from_raw`,
                 input: parseIngredient(`#forge:raw_materials/${mat}`),
                 output: parseIngredient(`#create:crushed_raw_materials/${mat}`),
                 secondaries: [IEChanceOrCountIngredient(`#create:crushed_raw_materials/${mat}`, 0.3333)],
-            }
-        )
-    });
-    RawBlocksCrushed.forEach((mat) => {
-        recipes.push(
+            },
             {
                 id: `${mat}_dust_from_raw_block`,
                 input: parseIngredient(`#forge:storage_blocks/raw_${mat}`),
                 output: IEChanceOrCountIngredient(`#create:crushed_raw_materials/${mat}`, 12),
-            }
-        )
-    });
-    OresCrushed.forEach((mat) => {
-        recipes.push(
+            },
             {
                 id: `${mat}_dust_from_ore`,
                 input: parseIngredient(`#forge:ores/${mat}`),

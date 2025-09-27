@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
         },
     ]
 
-    const DirtySlurries = ['desh', 'ostrum', 'calorite', 'nephryx'].forEach(mat => {
+    const DirtySlurries = ['desh', 'ostrum', 'calorite', 'nephryx', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
         recipes.push(
             {
                 id: `${mat}/slurry/dirty/from_ore`,
@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         )
     })
     
-    const FermentedDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'osmium', 'tin', 'lead', 'uranium'].forEach(mat => {
+    const FermentedDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'osmium', 'tin', 'lead', 'uranium', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
         recipes.push({
             id: `${mat}/slurry/dirty/from_fermented_dust`,
             gasInput: MekaGas("mekanism:sulfuric_acid", 1),

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -32,27 +32,32 @@ ServerEvents.recipes(event => {
         {
             in: 'ad_astra:raw_nephryx',
             out: 'ad_astra:nephryx_ingot'
-        },
-        {
-            in: 'ad_astra:desh_dust',
-            out: 'ad_astra:desh_ingot'
-        },
-        {
-            in: 'ad_astra:ostrum_dust',
-            out: 'ad_astra:ostrum_ingot'
-        },
-        {
-            in: 'ad_astra:calorite_dust',
-            out: 'ad_astra:calorite_ingot'
-        },
-        {
-            in: 'ad_astra:nephryx_dust',
-            out: 'ad_astra:nephryx_ingot'
         }
     ]
 
+    const DustToIngot = [
+        "desh",
+        "ostrum",
+        "calorite",
+        "nephryx",
+        "elementium",
+        "cloggrum",
+        "froststeel",
+        "falsite",
+        "ventium",
+        "horizonite",
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `minecraft:smelting/${mat}_ingot_smelting_from_${mat}_dust`,
+                in: Item.of(`#forge:dusts/${mat}`),
+                out: Item.of(`#forge:ingots/${mat}`)
+        }
+        )
+    })
+
     //General Smelting Function
     recipes.forEach((recipe) => {
-        event.smelting(recipe.out, recipe.in).id(`minecraft:blasting/${recipe.out.split(":")[1]}_smelting_from_${recipe.in.split(":")[1]}`)
+        event.smelting(recipe.out, recipe.in).id(recipe.id || `minecraft:smelting/${recipe.out.split(":")[1]}_smelting_from_${recipe.in.split(":")[1]}`)
     })
 })

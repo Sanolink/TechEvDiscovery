@@ -4,7 +4,7 @@
     {
       "value": [
         {
-          "tag": "forge:gems/amethyst"
+          "tag": "forge:dusts/amethyst"
         }
       ],
       "count": 4
@@ -17,9 +17,6 @@
       "value": [
         {
           "tag": "forge:ingots/arcane_gold"
-        },
-        {
-          "tag": "forge:dusts/arcane_gold"
         }
       ],
       "count": 2

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -60,7 +60,26 @@ ServerEvents.recipes(event => {
         "desh",
         "ostrum",
         "calorite",
-        "nephryx"
+        "nephryx",
+        "iesnium",
+        "elementium",
+        "cloggrum",
+        "froststeel",
+        "falsite",
+        "ventium",
+        "horizonite",
+        "netherite",
+        "enderium",
+        "lumium",
+        "signalum",
+        "soul_infused",
+        "shellite",
+        "twinite",
+        "dragonsteel",
+        "hop_graphite",
+        "prismalium",
+        "melodium",
+        "stellarium"
     ].forEach(mat => {
         recipes.push(
             {

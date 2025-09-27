@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
     //Recipes 
     const recipes = []
 
-    const Clumps = ['desh', 'ostrum', 'calorite', 'nephryx'].forEach(mat => {
+    const Clumps = ['desh', 'ostrum', 'calorite', 'nephryx', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
         recipes.push(
             {
                 id: `${mat}/clump/from_shard`,
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
         )
     })
 
-    const FermentedDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'osmium', 'tin', 'lead', 'uranium', 'aluminum', 'nickel', 'platinum', 'silver', 'zinc'].forEach(mat => {
+    const FermentedDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'osmium', 'tin', 'lead', 'uranium', 'aluminum', 'nickel', 'platinum', 'silver', 'zinc', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
         recipes.push({
             id: `${mat}/clump/from_fermented_dust`,
             input: MekaParseIngredient(`#industrialforegoing:fermented_dusts/${mat}`),

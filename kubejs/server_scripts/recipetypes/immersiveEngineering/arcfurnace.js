@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.12        (_____)
 
 */
 
@@ -89,6 +89,33 @@ ServerEvents.recipes(event => {
             }
         )
     })
+
+    const RawMatBlocksToIngots = [
+        'iridium',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'elementium',
+        'iesnium',
+        'cloggrum',
+        'froststeel',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `raw_block_${mat}`,
+                input: parseIngredient(`#forge:storage_blocks/raw_${mat}`),
+                output: [IEChanceOrCountIngredient((`#forge:ingots/${mat}`), 13)],
+                secondaries: [IEChanceOrCountIngredient((`#forge:ingots/${mat}`), 0.5)],
+                time: 900,
+                energy: 230400
+            }
+        )
+    })
+
    //General Arc Furnace Function
     recipes.forEach(recipe => {
         let json = {

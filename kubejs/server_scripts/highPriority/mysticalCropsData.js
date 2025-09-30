@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.12        (_____)
 
 */
 
@@ -27,6 +27,15 @@ ServerEvents.highPriorityData(event => {
         } else {
             CropTier.setSecondarySeedDrop(true)
             CropTier.setBaseSecondaryChance(SecondarySeedChance)
+        }
+    }
+
+    // Remove tint on retextured Seeds
+    let retexturedSeeds = ["aluminum", "zinc", "brass", "steel", "iridium"]
+    for (const seed of mysticalCrops.enabled) {
+        if (retexturedSeeds.includes(seed)) {
+            let crop = CropRegistryInstance.getCropByName(seed)
+            crop.setColor(-1)
         }
     }
 })

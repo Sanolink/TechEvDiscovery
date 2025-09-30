@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.12        (_____)
 
 */
 
@@ -23,24 +23,47 @@ ServerEvents.recipes(event => {
     const recipes = [
         {
             id: "ender_ingot",
-            mainInput: parseIngredient('minecraft:iron_ingot'),
-            extraInput: parseIngredient('minecraft:ender_pearl'),
+            mainInput: MekaParseIngredient('minecraft:iron_ingot'),
+            extraInput: MekaParseIngredient('minecraft:ender_pearl'),
             output: parseIngredient('extendedcrafting:ender_ingot')
         },
         {
             id: "redstone_ingot",
-            mainInput: parseIngredient('minecraft:iron_ingot'),
-            extraInput: parseIngredient('minecraft:redstone'),
+            mainInput: MekaParseIngredient('minecraft:iron_ingot'),
+            extraInput: MekaParseIngredient('minecraft:redstone'),
             output: parseIngredient('extendedcrafting:redstone_ingot')
         }
     ]
+
+    const ATORawOresToOres = [
+        'nickel',
+        'platinum',
+        'silver',
+        'zinc',
+        'iridium'
+    ].forEach(ore => {
+        recipes.push(
+            {
+                id: `${ore}/ore/from_raw`,
+                mainInput: MekaCountIngredient(`#forge:raw_materials/${ore}`, 8),
+                extraInput: MekaParseIngredient('minecraft:cobblestone'),
+                output: parseIngredient(`alltheores:${ore}_ore`)
+            },
+            {
+                id: `${ore}/ore/deepslate_from_raw`, 
+                mainInput: MekaCountIngredient(`#forge:raw_materials/${ore}`, 8),
+                extraInput: MekaParseIngredient('minecraft:cobbled_deepslate'),
+                output: parseIngredient(`alltheores:deepslate_${ore}_ore`)
+            }
+        )
+    })
 
     //General Combining Function
     recipes.forEach(recipe => {
         let json = {
             type: 'mekanism:combining',
-            mainInput: { ingredient: recipe.mainInput },
-            extraInput: { ingredient: recipe.extraInput },
+            mainInput: recipe.mainInput,
+            extraInput: recipe.extraInput,
             output: recipe.output
         }
         event.custom(json).id(`mekanism:combining/${recipe.id}`)

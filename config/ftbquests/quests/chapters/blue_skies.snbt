@@ -1214,6 +1214,7 @@
 				"30E09173A7D785C1"
 				"2EB5323374BA9EDD"
 			]
+			dependency_requirement: "one_completed"
 			description: ["{image:techev:textures/misc/quests/blue_skies/blinding_dungeon.png width:79 height:100 align:1 fit:true}"]
 			id: "61E9FE30B745E875"
 			rewards: [{

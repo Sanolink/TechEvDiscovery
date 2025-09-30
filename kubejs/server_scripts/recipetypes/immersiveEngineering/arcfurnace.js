@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.12        (_____)
 
 */
 
@@ -54,6 +54,67 @@ ServerEvents.recipes(event => {
             output: [parseIngredient('pneumaticcraft:processing_microchip')],
         }
     ]
+
+    const DustsToIngots = [
+        "iridium",
+        "desh",
+        "ostrum",
+        "calorite",
+        "nephryx",
+        "iesnium",
+        "elementium",
+        "cloggrum",
+        "froststeel",
+        "falsite",
+        "ventium",
+        "horizonite",
+        "netherite",
+        "enderium",
+        "lumium",
+        "signalum",
+        "soul_infused",
+        "shellite",
+        "twinite",
+        "dragonsteel",
+        "hop_graphite",
+        "prismalium",
+        "melodium",
+        "stellarium"
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `dust_${mat}`,
+                input: parseIngredient(`#forge:dusts/${mat}`),
+                output: [parseIngredient(TagToItem(`#forge:ingots/${mat}`))],
+            }
+        )
+    })
+
+    const RawMatBlocksToIngots = [
+        'iridium',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'elementium',
+        'iesnium',
+        'cloggrum',
+        'froststeel',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `raw_block_${mat}`,
+                input: parseIngredient(`#forge:storage_blocks/raw_${mat}`),
+                output: [IEChanceOrCountIngredient((`#forge:ingots/${mat}`), 13)],
+                secondaries: [IEChanceOrCountIngredient((`#forge:ingots/${mat}`), 0.5)],
+                time: 900,
+                energy: 230400
+            }
+        )
+    })
 
    //General Arc Furnace Function
     recipes.forEach(recipe => {

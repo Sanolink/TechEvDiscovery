@@ -412,6 +412,7 @@ ServerEvents.tags('item', e => {
     e.add('forge:raw_materials/elementium', "mythicbotany:raw_elementium")
     e.add('forge:storage_blocks/raw_elementium', "mythicbotany:raw_elementium_block")
     e.add('forge:storage_blocks/insanium_ingot', "mysticalagradditions:insanium_ingot_block")
+    e.add('forge:ores/elementium', "mythicbotany:elementium_ore")
     e.add('forge:ingots/nephryx', 'ad_astra:nephryx_ingot')
     e.add('forge:nuggets/nephryx', 'ad_astra:nephryx_nugget')
     e.add('forge:dusts/netherite', 'alltheores:netherite_dust')
@@ -433,11 +434,12 @@ ServerEvents.tags('item', e => {
     e.add('forge:gears/ostrum', 'ad_astra:ostrum_gear')
     e.add('forge:gears/calorite', 'ad_astra:calorite_gear')
     e.add('forge:gears/arcane_gold', 'eidolon:arcane_gold_gear')
-
+    const CrushedRawMaterialsTags = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'zinc', 'osmium', 'platinum', 'silver', 'tin', 'lead', 'aluminum', 'uranium', 'nickel', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
+        e.add(`create:crushed_raw_materials/${mat}`, `create:crushed_raw_${mat}`)})
     const BlueSkiesMissingTags = ['aquite', 'charoite', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
         e.add(`forge:raw_materials/${mat}`, `blue_skies:raw_${mat}`)
         e.add(`forge:storage_blocks/raw_${mat}`, `blue_skies:raw_${mat}_block`)
-    })
+        e.add(`forge:ores/${mat}`, `#blue_skies:ores/${mat}`)})
 
     // Mystical Farmlands
     let cropTiers = CropRegistryInstance.getTiers()

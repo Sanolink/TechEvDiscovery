@@ -5,9 +5,6 @@
       "value": [
         {
           "tag": "forge:ingots/iron"
-        },
-        {
-          "tag": "forge:dusts/iron"
         }
       ],
       "count": 2
@@ -16,9 +13,6 @@
       "value": [
         {
           "tag": "forge:ingots/nickel"
-        },
-        {
-          "tag": "forge:dusts/nickel"
         }
       ],
       "count": 1

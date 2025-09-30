@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -117,7 +117,8 @@ ServerEvents.recipes(event => {
         'desh',
         'ostrum',
         'calorite',
-        'nephryx'
+        'nephryx',
+        'iesnium'
     ].forEach((mat) => {
         recipes.push(
             {

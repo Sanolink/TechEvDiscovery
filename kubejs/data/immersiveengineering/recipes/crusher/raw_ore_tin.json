@@ -1,0 +1,34 @@
+{
+    "type": "immersiveengineering:crusher",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "create:crushed_raw_materials/tin"
+            }
+        },
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:raw_materials/tin"
+            }
+        }
+    ],
+    "energy": 6000,
+    "input": {
+        "tag": "forge:raw_materials/tin"
+    },
+    "result": {
+        "tag": "create:crushed_raw_materials/tin"
+    },
+    "secondaries": [
+        {
+            "chance": 0.33333334,
+            "output": {
+                "tag": "create:crushed_raw_materials/tin"
+            }
+        }
+    ]
+}

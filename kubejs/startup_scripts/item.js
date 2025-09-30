@@ -56,6 +56,11 @@ StartupEvents.registry('item', e => {
     BasicItem('ae2:printed_cosmic_processor', "Printed Cosmic Circuit")
     BasicItem('ae2:printed_elemental_processor', "Printed Elemental Circuit")
 
+    BasicItem('blue_skies:falsite_dust', "Falsite Dust").tag("forge:dusts").tag(`forge:dusts/falsite`)
+    BasicItem('blue_skies:ventium_dust', "Ventium Dust").tag("forge:dusts").tag(`forge:dusts/ventium`)
+    BasicItem('blue_skies:horizonite_dust', "Horizonite Dust").tag("forge:dusts").tag(`forge:dusts/horizonite`)
+
+    BasicItem('botania:elementium_dust', "Elementium Dust").tag("forge:dusts").tag(`forge:dusts/elementium`)
     BasicItem('botania:elementium_gear', "Elementium Gear")
     BasicItem('botania:elementium_plate', "Elementium Plate")
 
@@ -71,10 +76,8 @@ StartupEvents.registry('item', e => {
     BasicItem('create:raw_andesite_alloy', "Raw Andesite Alloy")
     BasicItem('create:brass_alloy', "Brass Alloy")
     BasicItem('create:copper_alloy', "Copper Alloy")
-    BasicItem('create:crushed_raw_desh', "Crushed Desh Ore").tag("create:crushed_raw_materials")
-    BasicItem('create:crushed_raw_ostrum', "Crushed Ostrum Ore").tag("create:crushed_raw_materials")
-    BasicItem('create:crushed_raw_calorite', "Crushed Calorite Ore").tag("create:crushed_raw_materials")
-    BasicItem('create:crushed_raw_nephryx', "Crushed Nephryx Ore").tag("create:crushed_raw_materials")
+    const CrushedOres = ['desh', 'ostrum', 'calorite', 'nephryx', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
+      BasicItem(`create:crushed_raw_${mat}`, `Crushed ${mat.charAt(0).toUpperCase() + mat.slice(1)} Ore`)})
     BasicItem('create:electron_shell', "Electron Shell")
     BasicItem('create:blue_quartz', "Blue Quartz")
     BasicItem('create:polished_blue_quartz', "Polished Blue Quartz")
@@ -109,7 +112,10 @@ StartupEvents.registry('item', e => {
 
     BasicItem('industrialforegoing:sludge_bottle', "Sludge Bottle")
     BasicItem('industrialforegoing:laser_lens16', "Astral Laser Lens")
+    const FermentedDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'zinc', 'osmium', 'platinum', 'silver', 'tin', 'lead', 'aluminum', 'uranium', 'nickel', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
+      BasicItem(`industrialforegoing:fermented_dust_${mat}`, `${mat.charAt(0).toUpperCase() + mat.slice(1)} Fermented Dust`).tag("industrialforegoing:fermented_dusts").tag(`industrialforegoing:fermented_dusts/${mat}`)})
 
+    
     BasicItem('mekaevolution:alloy_radiance', "§aRadiance Alloy")
     BasicItem('mekaevolution:alloy_shining', "§3Shining Alloy")
     BasicItem('mekaevolution:alloy_spectrum', "§5Spectrum Alloy")
@@ -128,6 +134,11 @@ StartupEvents.registry('item', e => {
     BasicItem('mekanism:enriched_source', "Enriched Source")
     BasicItem('mekanism:crystal_hypernitro', "Hypernitro Crystal")
     BasicItem('mekanism:antispark_dust', "Antispark Dust")
+    const CrystalsShardsClumpsDirtyDusts = ['desh', 'ostrum', 'calorite', 'nephryx', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
+      BasicItem(`mekanism:dirty_dust_${mat}`, `Dirty ${mat.charAt(0).toUpperCase() + mat.slice(1)} Dust`).tag("mekanism:dirty_dusts").tag(`mekanism:dirty_dusts/${mat}`)
+      BasicItem(`mekanism:crystal_${mat}`, `${mat.charAt(0).toUpperCase() + mat.slice(1)} Crystal`).tag("mekanism:crystals").tag(`mekanism:crystals/${mat}`)
+      BasicItem(`mekanism:shard_${mat}`, `${mat.charAt(0).toUpperCase() + mat.slice(1)} Shard`).tag("mekanism:shards").tag(`mekanism:shards/${mat}`)
+      BasicItem(`mekanism:clump_${mat}`, `${mat.charAt(0).toUpperCase() + mat.slice(1)} Clump`).tag("mekanism:clumps").tag(`mekanism:clumps/${mat}`)})
 
     BasicItem('mysticalagriculture:ultimate_essence', "Ultimate Essence").texture("mysticalagriculture/item/essence/ultimate_essence")
 
@@ -146,10 +157,14 @@ StartupEvents.registry('item', e => {
 
     BasicItem('thermal:ender_servo', "Ender Servo")
     BasicItem('thermal:press_rod_die', "Rodworking Die")
+    BasicItem('thermal:trizz_powder', "Trizz Powder")
 
     BasicItem('tiab:compressed_iron_bottle', "Compressed Bottle")
     BasicItem('tiab:flowing_time', "Flowing Time")
     
+    BasicItem('undergarden:cloggrum_dust', "Cloggrum Dust").tag("forge:dusts").tag(`forge:dusts/cloggrum`)
+    BasicItem('undergarden:froststeel_dust', "Froststeel Dust").tag("forge:dusts").tag(`forge:dusts/froststeel`)
+
     //Sequenced Assembly Items
     function SequencedAssemblyItem(id, displayName) {
       global.TechEvItems.push(id)

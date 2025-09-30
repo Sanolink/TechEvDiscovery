@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -28,11 +28,20 @@ ServerEvents.recipes(event => {
         }
     ]
 
+    const Crystals = ['desh', 'ostrum', 'calorite', 'nephryx', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
+        recipes.push({
+            id: `${mat}/crystal/from_slurry`,
+            chemicalType: 'slurry',
+            input: MekaSlurry(`mekanism:clean_${mat}`, 200),
+            output: parseIngredient(`mekanism:crystal_${mat}`)
+        })
+    })
+
     //General Crystallizing Function
     recipes.forEach(recipe => {
         let json = {
             type: 'mekanism:crystallizing',
-            chemicalType: 'gas',
+            chemicalType: recipe.chemicalType || 'gas',
             input: recipe.input,
             output: recipe.output
         }

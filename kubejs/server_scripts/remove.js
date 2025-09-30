@@ -24,6 +24,12 @@ ServerEvents.recipes(event => {
     event.remove([{ output: '#alltheores:ore_hammers'} ,{ input: '#alltheores:ore_hammers'}])
     event.remove({ output: '#forge:gears', mod: 'alltheores'})
     event.remove({ output: '#forge:dusts', mod: 'alltheores', type: "crafting_shapeless"})
+    event.remove({ id: 'alltheores:mek_processing/aluminum/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/nickel/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/platinum/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/silver/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/zinc/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/aluminum/ore/nether_from_raw'})
 
     //Ad Astra
     event.remove([{ output: 'ad_astra:hammer'}, { input: 'ad_astra:hammer'}])
@@ -487,6 +493,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_bronze_dust'})
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_constantan_dust'})
     event.remove({ id: 'thermal:machines/centrifuge/centrifuge_electrum_dust'})
+    event.remove({ id: 'thermal:rubber_from_vine'})
+    event.remove({ id: 'thermal:rubber_from_dandelion'})
     event.remove({ output: '#thermal:glass/hardened', type: "crafting_shapeless"})
     
     //Torchmaster

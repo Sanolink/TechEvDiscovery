@@ -602,7 +602,7 @@
 		{
 			dependencies: ["58E54139457C6DAD"]
 			description: ["{image:techev:textures/misc/quests/twilight/rainbow_lair.png width:256 height:144 align:1 fit:true}"]
-			icon: "biomesoplenty:rainbow_birch_leaves"
+			icon: "twilightforest:rainbow_oak_sapling"
 			id: "23988CBF76D04168"
 			rewards: [{
 				id: "377F5E047BCE9E16"

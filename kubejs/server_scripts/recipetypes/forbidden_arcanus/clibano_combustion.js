@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.3         (_____)
+(_____)         Last Modification : 1.4.12        (_____)
 
 */
 
@@ -81,7 +81,21 @@ ServerEvents.recipes(event => {
 
     //General Clibano Combustion Function
     recipes.forEach((recipe) => {
-        recipe.type = "forbidden_arcanus:clibano_combustion",
+        recipe.type = "forbidden_arcanus:clibano_combustion"
+        if (!recipe.residue) recipe.residue = {chance: 0, name: "nothing"}
         event.custom(recipe).id("forbidden_arcanus:clibano_combustion/" + recipe.id)
     })
+
+    //No Residue
+    event.custom(
+        {
+            type: "forbidden_arcanus:combine_residues",
+            residue_amount: 0,
+            residue_name: "nothing",
+            result: {
+                item: "minecraft:string"
+            }
+        }
+    ).id("forbidden_arcanus:combine_residues/nothing")
+
 })

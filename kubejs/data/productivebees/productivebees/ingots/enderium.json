@@ -1,22 +1,21 @@
 {
-    "primaryColor": "#daf4f5",
-    "secondaryColor": "#98b0c9",
-    "particleColor": "#daf4f5",
-    "flowerTag": "forge:storage_blocks/iridium",
-    "size": 0.8,
+    "primaryColor": "#0c5d7b",
+    "secondaryColor": "#011224",
+    "particleColor": "#0c5d7b",
+    "flowerTag": "forge:storage_blocks/enderium",
     "conditions": [
         {
             "type": "forge:not",
             "value": {
                 "type": "forge:tag_empty",
-                "tag": "forge:nuggets/iridium"
+                "tag": "forge:ingots/enderium"
             }
         },
         {
             "type": "forge:not",
             "value": {
                 "type": "forge:tag_empty",
-                "tag": "forge:storage_blocks/iridium"
+                "tag": "forge:storage_blocks/enderium"
             }
         }
     ]

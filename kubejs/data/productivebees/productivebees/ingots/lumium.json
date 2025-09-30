@@ -1,22 +1,22 @@
 {
-    "primaryColor": "#daf4f5",
-    "secondaryColor": "#98b0c9",
-    "particleColor": "#daf4f5",
-    "flowerTag": "forge:storage_blocks/iridium",
-    "size": 0.8,
+    "primaryColor": "#d6c774",
+    "secondaryColor": "#b4601c",
+    "particleColor": "#d6c774",
+    "blinding": true,
+    "flowerTag": "forge:storage_blocks/lumium",
     "conditions": [
         {
             "type": "forge:not",
             "value": {
                 "type": "forge:tag_empty",
-                "tag": "forge:nuggets/iridium"
+                "tag": "forge:ingots/lumium"
             }
         },
         {
             "type": "forge:not",
             "value": {
                 "type": "forge:tag_empty",
-                "tag": "forge:storage_blocks/iridium"
+                "tag": "forge:storage_blocks/lumium"
             }
         }
     ]

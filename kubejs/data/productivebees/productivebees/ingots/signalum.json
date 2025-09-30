@@ -1,0 +1,22 @@
+{
+    "primaryColor": "#dd1f02",
+    "secondaryColor": "#4a0100",
+    "particleColor": "#dd1f02",
+    "flowerTag": "forge:storage_blocks/signalum",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ingots/signalum"
+            }
+        },
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:storage_blocks/signalum"
+            }
+        }
+    ]
+}

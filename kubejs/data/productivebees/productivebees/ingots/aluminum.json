@@ -1,0 +1,21 @@
+{
+    "primaryColor": "#cfdfed",
+    "secondaryColor": "#9ba6c7",
+    "flowerTag": "forge:storage_blocks/aluminum",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ingots/aluminum"
+            }
+        },
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:storage_blocks/aluminum"
+            }
+        }
+    ]
+}

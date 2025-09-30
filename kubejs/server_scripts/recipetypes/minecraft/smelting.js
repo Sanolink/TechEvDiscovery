@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.12        (_____)
 
 */
 
@@ -53,6 +53,38 @@ ServerEvents.recipes(event => {
                 id: `minecraft:smelting/${mat}_ingot_smelting_from_${mat}_dust`,
                 in: Item.of(`#forge:dusts/${mat}`),
                 out: Item.of(`#forge:ingots/${mat}`)
+            }
+        )
+    })
+
+    const RawMatBlocksToIngotBlocks = [
+        'aluminum',
+        'lead',
+        'nickel',
+        'osmium',
+        'platinum',
+        'silver',
+        'tin',
+        'uranium',
+        'zinc',
+        'iridium',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'elementium',
+        'iesnium',
+        'cloggrum',
+        'froststeel',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `minecraft:smelting/${mat}_block_smelting_from_raw_${mat}_block`,
+                in: Item.of(`#forge:storage_blocks/raw_${mat}`),
+                out: Item.of(`#forge:storage_blocks/${mat}`)
             }
         )
     })

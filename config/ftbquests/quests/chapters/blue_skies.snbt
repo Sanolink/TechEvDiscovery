@@ -1214,6 +1214,7 @@
 				"30E09173A7D785C1"
 				"2EB5323374BA9EDD"
 			]
+			dependency_requirement: "one_completed"
 			description: ["{image:techev:textures/misc/quests/blue_skies/blinding_dungeon.png width:79 height:100 align:1 fit:true}"]
 			id: "61E9FE30B745E875"
 			rewards: [{
@@ -1288,7 +1289,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["0F42B1A2F905F5F7"]
+			dependencies: ["156DC55F2465DD0E"]
 			icon: "blue_skies:arachnarch_spawn_egg"
 			id: "46C454ED851B7241"
 			rewards: [{
@@ -1332,11 +1333,11 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["156DC55F2465DD0E"]
+			dependencies: ["0F42B1A2F905F5F7"]
 			icon: "blue_skies:starlit_crusher_spawn_egg"
 			id: "30CED9451C9EA563"
 			rewards: [{
@@ -1380,7 +1381,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -2.0d
 			y: 1.5d
 		}
 		{

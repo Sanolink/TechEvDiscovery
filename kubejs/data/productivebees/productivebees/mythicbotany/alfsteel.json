@@ -1,6 +1,6 @@
 {
-    "primaryColor": "#ffd238",
-    "secondaryColor": "#b77d04",
+    "primaryColor": "#eb7d00",
+    "secondaryColor": "#672c05",
     "flowerBlock": "mythicbotany:alfsteel_block",
     "invulnerability": [
         "mekanism.radiation"

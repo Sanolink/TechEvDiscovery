@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.12        (_____)
 
 */
 
@@ -112,16 +112,6 @@ ServerEvents.recipes(event => {
                 parseIngredient("alltheores:lead_ingot")
             ],
             output: [ChanceOrCountItem('eidolon:pewter_blend', 2)],
-        },
-        {
-            id: "arcane_gold_ingot",
-            heat: 'heated',
-            input: [
-                parseIngredient("forbidden_arcanus:arcane_crystal"),
-                parseIngredient("eidolon:soul_shard"), parseIngredient("eidolon:soul_shard"),
-                parseIngredient("minecraft:gold_ingot"), parseIngredient("minecraft:gold_ingot"), parseIngredient("minecraft:gold_ingot"), parseIngredient("minecraft:gold_ingot")
-            ],
-            output: [ChanceOrCountItem('eidolon:arcane_gold_ingot', 4)],
         },
         {
             id: "polymer_clay",
@@ -254,6 +244,7 @@ ServerEvents.recipes(event => {
     basicComb("rabbit", 'minecraft:rabbit_foot')
     basicComb("sheep", 'minecraft:mutton')
     basicComb("squid", 'minecraft:ink_sac')
+    basicComb("starry", 'mysticalagradditions:nether_star_shard')
     basicComb("steeleaf", 'twilightforest:steeleaf_ingot')
     basicComb("turtle", 'minecraft:scute')
 
@@ -274,6 +265,26 @@ ServerEvents.recipes(event => {
     fluidEssence('mysticalagriculture:pink_slime_essence', "industrialforegoing:pink_slime")
     fluidEssence('mysticalagriculture:resonant_ender_essence', "thermal:ender")
     fluidEssence('mysticalagriculture:tea_essence', "create:tea")
+
+    //Eidolon Crucible -> Mixing 
+    event.forEachRecipe({ type: "eidolon:crucible" }, recipe => {
+        let input = []
+        recipe.json.get("steps").forEach(step => {
+            if (step.has("items")) {
+                step.get("items").forEach(item => {
+                    input.push(item)
+                })
+            }
+        })
+        recipes.push(
+            {
+                id: recipe.getId().split(":")[1],
+                heat: "heated",
+                input: input,
+                output: [recipe.json.get("result")]
+            }
+        )
+    })
 
     //General Mixing Function
     recipes.forEach(recipe => {

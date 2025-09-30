@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.10        (_____)
 
 */
 
@@ -47,6 +47,10 @@ function parseChanceAndCountIngredient(str, chance, count) {
 
 function BeeParseIngredient(str) {
     return {item: parseIngredient(str)}
+}
+
+function MekaParseIngredient(str) {
+    return { ingredient: parseIngredient(str)}
 }
 
 //Chance Or Count
@@ -83,6 +87,10 @@ function ThermalChanceItem(item, chance, locked) {
 
 }
 
+function MekaCountIngredient(str, count) {
+    return { amount: count, ingredient: parseIngredient(str)}
+}
+
 function BeeChanceIngredient(ingredient, chance) {
     return { item: parseIngredient(ingredient), chance: chance }
 }
@@ -107,6 +115,10 @@ function IEChanceAndCountIngredient(str, chance, count) {
 //Fluid With Count
 function FluidWithCount(fluid, count) {
     return { amount: count, fluid: fluid }
+}
+
+function FluidTagWithCount(fluidTag, count) {
+    return { amount: count, tag: fluidTag }
 }
 
 function IndustrialFluidWithCount(fluid, count) {
@@ -151,4 +163,9 @@ function MekaGas(type, amount) {
 //Pigment
 function MekaPigment(type, amount) {
     return { pigment: type, chemicalType: "pigment", amount: amount }
+}
+
+//Slurry
+function MekaSlurry(type, amount) {
+    return { slurry: type, chemicalType: "slurry", amount: amount}
 }

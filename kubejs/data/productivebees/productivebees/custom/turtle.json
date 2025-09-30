@@ -1,5 +1,6 @@
 {
     "primaryColor": "#3ea241",
     "beeTexture": "productivebees:textures/entity/bee/turtle/bee",
+    "waterproof": true,
     "flowerBlock": "minecraft:sponge"
 }

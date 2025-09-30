@@ -1,0 +1,30 @@
+{
+    "type": "immersiveengineering:crusher",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "create:crushed_raw_materials/tin"
+            }
+        },
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ores/tin"
+            }
+        }
+    ],
+    "energy": 6000,
+    "input": {
+        "tag": "forge:ores/tin"
+    },
+    "result": {
+        "base_ingredient": {
+            "tag": "create:crushed_raw_materials/tin"
+        },
+        "count": 2
+    },
+    "secondaries": []
+}

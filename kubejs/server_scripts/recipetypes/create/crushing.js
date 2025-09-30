@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -51,6 +51,15 @@ ServerEvents.recipes(event => {
     crushedAdAstra("ostrum", "mars")
     crushedAdAstra("calorite", "venus")
     crushedAdAstra("nephryx", "mercury")
+
+    crushedBasic("iridium")
+    crushedBasic("iesnium")
+    crushedBasic("elementium")
+    crushedBasic("cloggrum")
+    crushedBasic("froststeel")
+    crushedBasic("falsite")
+    crushedBasic("ventium")
+    crushedBasic("horizonite")
 
     function crushedAdAstra(material, planet) {
         recipes.push(
@@ -95,6 +104,36 @@ ServerEvents.recipes(event => {
                 }
             )
         }
+    }
+
+    function crushedBasic(material) {
+        recipes.push(
+            {
+                id: TagToItem(`#forge:raw_materials/${material}`).split(":")[1],
+                input: [parseIngredient(`#forge:raw_materials/${material}`)],
+                output: [
+                    parseIngredient(`create:crushed_raw_${material}`),
+                    ChanceOrCountItem("create:experience_nugget", 0.75)
+                ]
+            },
+            {
+                id: TagToItem(`#forge:storage_blocks/raw_${material}`).split(":")[1],
+                input: [parseIngredient(`#forge:storage_blocks/raw_${material}`)],
+                output: [
+                    ChanceOrCountItem(`create:crushed_raw_${material}`, 9),
+                    ChanceAndCountItem("create:experience_nugget", 0.75, 9)
+                ]
+            },
+            {
+                id: `${material}_ore`,
+                input: [parseIngredient(`#forge:ores/${material}`)],
+                output: [
+                    parseIngredient(`create:crushed_raw_${material}`),
+                    ChanceOrCountItem(`create:crushed_raw_${material}`, 0.75),
+                    ChanceOrCountItem("create:experience_nugget", 0.75)
+                ]
+            }
+        )
     }
 
     //General Crushing Function

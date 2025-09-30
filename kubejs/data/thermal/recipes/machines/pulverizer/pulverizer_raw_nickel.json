@@ -5,11 +5,12 @@
   },
   "result": [
     {
-      "item": "alltheores:nickel_dust",
-      "chance": 1.25
+      "item": "create:crushed_raw_nickel",
+      "chance": 1,
+      "locked": false
     },
     {
-      "item": "alltheores:copper_dust",
+      "item": "create:crushed_raw_copper",
       "chance": 0.05
     }
   ],

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.11        (_____)
 
 */
 
@@ -82,7 +82,13 @@ ServerEvents.recipes(event => {
         'ostrum',
         'calorite',
         'nephryx',
-        'arcane_gold'
+        'arcane_gold',
+        'elementium',
+        'cloggrum',
+        'froststeel',
+        'falsite',
+        'ventium',
+        'horizonite'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -93,31 +99,28 @@ ServerEvents.recipes(event => {
         )
     });
 
-    const RawToDusts = [
+    const RawOresToCrushed = [
         'desh',
         'ostrum',
         'calorite',
-        'nephryx'
+        'nephryx',
+        'iesnium',
+        'elementium',
+        'cloggrum',
+        'froststeel',
+        'falsite',
+        'ventium',
+        'horizonite'
     ].forEach((mat) => {
         recipes.push(
             {
                 id: `${mat}_dust_from_raw`,
-                output: ChanceOrCountTag(`#forge:dusts/${mat}`, 2),
+                output: ChanceOrCountTag(`#create:crushed_raw_materials/${mat}`, 2),
                 input: parseIngredient(`#forge:raw_materials/${mat}`),
-            }
-        )
-    });
-
-    const OresToDusts = [
-        'desh',
-        'ostrum',
-        'calorite',
-        'nephryx'
-    ].forEach((mat) => {
-        recipes.push(
+            },
             {
                 id: `${mat}_dust_from_ore`,
-                output: ChanceOrCountTag(`#forge:dusts/${mat}`, 2),
+                output: ChanceOrCountTag(`#create:crushed_raw_materials/${mat}`, 2),
                 input: parseIngredient(`#forge:ores/${mat}`),
             }
         )

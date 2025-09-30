@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {
+          "tag": "forge:ingots/gold"
+        }
+      ],
+      "count": 4
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": 4
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:netherite_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 800
+}

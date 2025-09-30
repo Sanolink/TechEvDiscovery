@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.12        (_____)
 
 */
 
@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'alltheores:mek_processing/platinum/ore/from_dust'})
     event.remove({ id: 'alltheores:mek_processing/silver/ore/from_dust'})
     event.remove({ id: 'alltheores:mek_processing/zinc/ore/from_dust'})
+    event.remove({ id: 'alltheores:mek_processing/aluminum/ore/nether_from_raw'})
 
     //Ad Astra
     event.remove([{ output: 'ad_astra:hammer'}, { input: 'ad_astra:hammer'}])

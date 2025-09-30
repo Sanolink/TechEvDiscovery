@@ -1,7 +1,7 @@
 {
-    "primaryColor": "#161616",
-    "secondaryColor": "#6238757",
-    "particleColor": "#cc00fa",
+    "primaryColor": "#0a345c",
+    "secondaryColor": "#061b39",
+    "particleColor": "#0a345c",
     "particleType": "portal",
     "size": 0.8,
     "flowerTag": "productivebees:flowers/ender",

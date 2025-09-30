@@ -1,0 +1,15 @@
+{
+    "primaryColor": "#b05a3c",
+    "secondaryColor": "#792f44",
+    "particleColor": "#b05a3c",
+    "flowerTag": "forge:storage_blocks/desh",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:storage_blocks/desh"
+            }
+        }
+    ]
+}

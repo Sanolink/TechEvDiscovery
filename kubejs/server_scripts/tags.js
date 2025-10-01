@@ -35,7 +35,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:ores/silver', 'eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore', 'occultism:silver_ore', 'thermal:silver_ore')
     e.remove('forge:ores/tin', 'thermal:tin_ore', 'mekanism:tin_ore', 'ftbic:tin_ore')
     e.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium', 'mekanism:uranium_ore', 'ftbic:uranium_ore')
-    e.remove('forge:ores/zinc', 'create:zinc_ore', 'regen:zinc_ore')
+    e.remove('forge:ores/zinc', 'create:zinc_ore')
     
     //Deepslate Ores
     e.remove('forge:ores/aluminum', 'immersiveengineering:deepslate_ore_aluminum', 'ftbic:deepslate_aluminum_ore')
@@ -48,7 +48,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:ores/silver', 'eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore', 'occultism:silver_ore_deepslate', 'thermal:deepslate_silver_ore')
     e.remove('forge:ores/tin', 'thermal:deepslate_tin_ore', 'mekanism:deepslate_tin_ore', 'ftbic:deepslate_tin_ore')
     e.remove('forge:ores/uranium', 'immersiveengineering:deepslate_ore_uranium', 'mekanism:deepslate_uranium_ore', 'ftbic:deepslate_uranium_ore')
-    e.remove('forge:ores/zinc', 'create:deepslate_zinc_ore', 'regen:deepslate_zinc_ore')
+    e.remove('forge:ores/zinc', 'create:deepslate_zinc_ore')
 
     //Raw Materials
     e.remove('forge:raw_materials/aluminum', 'immersiveengineering:raw_aluminum', 'ftbic:aluminum_chunk')
@@ -90,7 +90,7 @@ ServerEvents.tags('item', e => {
     e.remove('forge:ingots/steel', 'immersiveengineering:ingot_steel', 'ad_astra:steel_ingot', 'mekanism:ingot_steel')
     e.remove('forge:ingots/tin', 'thermal:tin_ingot', 'mekanism:ingot_tin', 'chemlib:tin_ingot', 'ftbic:tin_ingot')
     e.remove('forge:ingots/uranium', 'immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium', 'chemlib:uranium_ingot', 'ftbic:uranium_ingot')
-    e.remove('forge:ingots/zinc', 'create:zinc_ingot', 'chemlib:zinc_ingot', 'regen:zinc')
+    e.remove('forge:ingots/zinc', 'create:zinc_ingot', 'chemlib:zinc_ingot')
 
     //Plates
     e.remove('forge:plates/aluminum', 'immersiveengineering:plate_aluminum', 'ftbic:aluminum_plate')

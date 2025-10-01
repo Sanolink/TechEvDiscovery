@@ -63,7 +63,7 @@ JEIEvents.hideItems(event => {
         /botanypotstiers:(elite|ultra|creative)_terracotta_botany_pot/,
 
         //Ores
-        'create:zinc_ore', 'regen:zinc_ore',
+        'create:zinc_ore',
         'eidolon:lead_ore', 'immersiveengineering:ore_lead', 'thermal:lead_ore', 'mekanism:lead_ore', 'ftbic:lead_ore',
         'eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore', 'occultism:silver_ore', 'thermal:silver_ore',
         'iceandfire:sapphire_ore',
@@ -75,7 +75,7 @@ JEIEvents.hideItems(event => {
         'ftbic:iridium_ore',
 
         //Deepslate Ores
-        'create:deepslate_zinc_ore', 'regen:deepslate_zinc_ore',
+        'create:deepslate_zinc_ore',
         'eidolon:deep_lead_ore', 'immersiveengineering:deepslate_ore_lead', 'thermal:deepslate_lead_ore', 'mekanism:deepslate_lead_ore', 'ftbic:deepslate_lead_ore',
         'eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore', 'occultism:silver_ore_deepslate', 'thermal:deepslate_silver_ore',
         'immersiveengineering:deepslate_ore_aluminum', 'ftbic:deepslate_aluminum_ore',
@@ -108,7 +108,7 @@ JEIEvents.hideItems(event => {
 
         //Ingots
         'create:brass_ingot',
-        'create:zinc_ingot', 'chemlib:zinc_ingot', 'regen:zinc',
+        'create:zinc_ingot', 'chemlib:zinc_ingot',
         'eidolon:lead_ingot', 'immersiveengineering:ingot_lead', 'thermal:lead_ingot', 'mekanism:ingot_lead', 'chemlib:lead_ingot', 'ftbic:lead_ingot',
         'eidolon:silver_ingot', 'immersiveengineering:ingot_silver', 'darkerdepths:silver_ingot', 'iceandfire:silver_ingot', 'occultism:silver_ingot', 'thermal:silver_ingot', 'chemlib:silver_ingot',
         'immersiveengineering:ingot_aluminum', 'chemlib:aluminum_ingot', 'ftbic:aluminum_ingot',

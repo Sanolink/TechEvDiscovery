@@ -50,7 +50,7 @@ LootJS.modifiers((event) => {
     replaceLT(['eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore', 'occultism:silver_ore', 'thermal:silver_ore'], 'alltheores:silver_ore')
     replaceLT(['thermal:tin_ore', 'mekanism:tin_ore', 'ftbic:tin_ore'], 'alltheores:tin_ore')
     replaceLT(['immersiveengineering:ore_uranium', 'mekanism:uranium_ore', 'ftbic:uranium_ore'], 'alltheores:uranium_ore')
-    replaceLT(['create:zinc_ore', 'regen:zinc_ore'], 'alltheores:zinc_ore')
+    replaceLT(['create:zinc_ore'], 'alltheores:zinc_ore')
     
     //Deepslate Ores
     replaceLT(['immersiveengineering:deepslate_ore_aluminum', 'ftbic:deepslate_aluminum_ore'], 'alltheores:deepslate_aluminum_ore')
@@ -61,7 +61,7 @@ LootJS.modifiers((event) => {
     replaceLT(['eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore', 'occultism:silver_ore_deepslate', 'thermal:deepslate_silver_ore'], 'alltheores:deepslate_silver_ore')
     replaceLT(['thermal:deepslate_tin_ore', 'mekanism:deepslate_tin_ore', 'ftbic:deepslate_tin_ore'], 'alltheores:deepslate_tin_ore')
     replaceLT(['immersiveengineering:deepslate_ore_uranium', 'mekanism:deepslate_uranium_ore', 'ftbic:deepslate_uranium_ore'], 'alltheores:deepslate_uranium_ore')
-    replaceLT(['create:deepslate_zinc_ore', 'regen:deepslate_zinc_ore'], 'alltheores:deepslate_zinc_ore')
+    replaceLT(['create:deepslate_zinc_ore'], 'alltheores:deepslate_zinc_ore')
 
     //Raw Materials
     replaceLT(['create:raw_zinc'], 'alltheores:raw_zinc')
@@ -103,7 +103,7 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:ingots/steel', 'immersiveengineering:ingot_steel', 'ad_astra:steel_ingot', 'mekanism:ingot_steel'], 'alltheores:steel_ingot')
     replaceLT(['#forge:ingots/tin', 'thermal:tin_ingot', 'mekanism:ingot_tin', 'chemlib:tin_ingot', 'ftbic:tin_ingot'], 'alltheores:tin_ingot')
     replaceLT(['#forge:ingots/uranium', 'immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium', 'chemlib:uranium_ingot', 'ftbic:uranium_ingot'], 'alltheores:uranium_ingot')
-    replaceLT(['#forge:ingots/zinc', 'create:zinc_ingot', 'chemlib:zinc_ingot', 'regen:zinc'], 'alltheores:zinc_ingot')
+    replaceLT(['#forge:ingots/zinc', 'create:zinc_ingot', 'chemlib:zinc_ingot'], 'alltheores:zinc_ingot')
 
     //Plates
     replaceLT(['#forge:plates/aluminum', 'immersiveengineering:plate_aluminum', 'ftbic:aluminum_plate'], 'alltheores:aluminum_plate')

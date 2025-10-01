@@ -39,7 +39,7 @@ ServerEvents.recipes(e => {
     ['eidolon:silver_ore', 'immersiveengineering:ore_silver', 'darkerdepths:limestone_silver_ore', 'darkerdepths:aridrock_silver_ore', 'darkerdepths:silver_ore', 'iceandfire:silver_ore', 'occultism:silver_ore', 'thermal:silver_ore'].forEach(I => {replaceIO(I, 'alltheores:silver_ore')});
     ['thermal:tin_ore', 'mekanism:tin_ore', 'ftbic:tin_ore'].forEach(I => {replaceIO(I, 'alltheores:tin_ore')});
     ['immersiveengineering:ore_uranium', 'mekanism:uranium_ore', 'ftbic:uranium_ore'].forEach(I => {replaceIO(I, 'alltheores:uranium_ore')});
-    ['create:zinc_ore', 'regen:zinc_ore'].forEach(I => {replaceIO(I, 'alltheores:zinc_ore')});
+    ['create:zinc_ore'].forEach(I => {replaceIO(I, 'alltheores:zinc_ore')});
     
     //Deepslate Ores
     ['immersiveengineering:deepslate_ore_aluminum', 'ftbic:deepslate_aluminum_ore'].forEach(I => {replaceIO(I, 'alltheores:deepslate_aluminum_ore')});
@@ -50,7 +50,7 @@ ServerEvents.recipes(e => {
     ['eidolon:deep_silver_ore', 'immersiveengineering:deepslate_ore_silver', 'iceandfire:deepslate_silver_ore', 'occultism:silver_ore_deepslate', 'thermal:deepslate_silver_ore'].forEach(I => {replaceIO(I, 'alltheores:deepslate_silver_ore')});
     ['thermal:deepslate_tin_ore', 'mekanism:deepslate_tin_ore', 'ftbic:deepslate_tin_ore'].forEach(I => {replaceIO(I, 'alltheores:deepslate_tin_ore')});
     ['immersiveengineering:deepslate_ore_uranium', 'mekanism:deepslate_uranium_ore', 'ftbic:deepslate_uranium_ore'].forEach(I => {replaceIO(I, 'alltheores:deepslate_uranium_ore')});
-    ['create:deepslate_zinc_ore', 'regen:deepslate_zinc_ore'].forEach(I => {replaceIO(I, 'alltheores:deepslate_zinc_ore')});
+    ['create:deepslate_zinc_ore'].forEach(I => {replaceIO(I, 'alltheores:deepslate_zinc_ore')});
 
     //Raw Materials
     ['immersiveengineering:raw_aluminum', 'ftbic:aluminum_chunk'].forEach(I => {replaceIO(I, 'alltheores:raw_aluminum')});
@@ -92,7 +92,7 @@ ServerEvents.recipes(e => {
     ['immersiveengineering:ingot_steel', 'ad_astra:steel_ingot', 'mekanism:ingot_steel'].forEach(I => {replaceIO(I, 'alltheores:steel_ingot')});
     ['thermal:tin_ingot', 'mekanism:ingot_tin', 'chemlib:tin_ingot', 'ftbic:tin_ingot'].forEach(I => {replaceIO(I, 'alltheores:tin_ingot')});
     ['immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium', 'chemlib:uranium_ingot', 'ftbic:uranium_ingot'].forEach(I => {replaceIO(I, 'alltheores:uranium_ingot')});
-    ['create:zinc_ingot', 'chemlib:zinc_ingot', 'regen:zinc'].forEach(I => {replaceIO(I, 'alltheores:zinc_ingot')});
+    ['create:zinc_ingot', 'chemlib:zinc_ingot'].forEach(I => {replaceIO(I, 'alltheores:zinc_ingot')});
         
     //Plates
     ['immersiveengineering:plate_aluminum', 'ftbic:aluminum_plate'].forEach(I => {replaceIO(I, 'alltheores:aluminum_plate')});

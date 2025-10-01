@@ -32,9 +32,5 @@ MoreJSEvents.playerStartTrading(event => {
             let count = o.getFirstInput().getCount()
             o.setFirstInput(Item.of("alltheores:silver_ingot", count))
         }
-        if (o.getSecondInput().getId() == "regen:zinc") {
-            let count = o.getSecondInput().getCount()
-            o.setSecondInput(Item.of("alltheores:zinc_ingot", count))
-        }
     })
 })

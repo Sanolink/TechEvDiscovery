@@ -574,6 +574,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
+			subtitle: "&4&l[In Beta-Test]"
 			tasks: [{
 				id: "180640BCE96DE62C"
 				type: "checkmark"

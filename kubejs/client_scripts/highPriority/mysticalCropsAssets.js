@@ -17,16 +17,13 @@
 
 */
 
-ServerEvents.highPriorityData(event => {
-    let cropTiers = CropRegistryInstance.getTiers()
-    for (const CropTier of cropTiers) {
-        
-        if (CropTier.getValue() == 7) {
-            CropTier.setSecondarySeedDrop(false)
-            CropTier.setBaseSecondaryChance(0)
-        } else {
-            CropTier.setSecondarySeedDrop(true)
-            CropTier.setBaseSecondaryChance(SecondarySeedChance)
-        }
-    }
+const $CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry')
+const CropRegistryInstance = $CropRegistry.getInstance()
+
+ClientEvents.highPriorityAssets(event => {
+    // Remove tint on retextured Seeds
+    const retexturedSeeds = ["aluminum", "zinc", "brass", "steel", "iridium"].forEach(seed => {
+        let crop = CropRegistryInstance.getCropByName(seed)
+        crop.setColor(-1)
+    })
 })

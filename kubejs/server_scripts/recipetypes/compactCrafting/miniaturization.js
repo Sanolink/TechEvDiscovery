@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.12b       (_____)
 
 */
 
@@ -25,37 +25,37 @@ ServerEvents.recipes(event => {
         miniaturization('industrialforegoing:machine_frame_supreme', 1, 'thermal:machine_frame', 1, [
             [
                 ['W', 'I', 'I', 'I', 'W'],
-                ['I', 'O', 'O', 'O', 'I'],
-                ['I', 'O', 'O', 'O', 'I'],
-                ['I', 'O', 'O', 'O', 'I'],
+                ['I', ' ', ' ', ' ', 'I'],
+                ['I', ' ', ' ', ' ', 'I'],
+                ['I', ' ', ' ', ' ', 'I'],
                 ['W', 'I', 'I', 'I', 'W']
             ],
             [
-                ['I', 'O', 'O', 'O', 'I'],
-                ['O', 'R', 'R', 'R', 'O'],
-                ['O', 'R', 'O', 'R', 'O'],
-                ['O', 'R', 'R', 'R', 'O'],
-                ['I', 'O', 'O', 'O', 'I']
+                ['I', ' ', ' ', ' ', 'I'],
+                [' ', 'R', 'R', 'R', ' '],
+                [' ', 'R', ' ', 'R', ' '],
+                [' ', 'R', 'R', 'R', ' '],
+                ['I', ' ', ' ', ' ', 'I']
             ],
             [
-                ['S', 'O', 'O', 'O', 'S'],
-                ['O', 'R', 'O', 'R', 'O'],
-                ['O', 'O', 'O', 'O', 'O'],
-                ['O', 'R', 'O', 'R', 'O'],
-                ['S', 'O', 'O', 'O', 'S']
+                ['S', ' ', ' ', ' ', 'S'],
+                [' ', 'R', ' ', 'R', ' '],
+                [' ', ' ', ' ', ' ', ' '],
+                [' ', 'R', ' ', 'R', ' '],
+                ['S', ' ', ' ', ' ', 'S']
             ],
             [
-                ['E', 'O', 'O', 'O', 'E'],
-                ['O', 'R', 'R', 'R', 'O'],
-                ['O', 'R', 'O', 'R', 'O'],
-                ['O', 'R', 'R', 'R', 'O'],
-                ['E', 'O', 'O', 'O', 'E']
+                ['E', ' ', ' ', ' ', 'E'],
+                [' ', 'R', 'R', 'R', ' '],
+                [' ', 'R', ' ', 'R', ' '],
+                [' ', 'R', 'R', 'R', ' '],
+                ['E', ' ', ' ', ' ', 'E']
             ],
             [
                 ['B', 'E', 'E', 'E', 'B'],
-                ['E', 'O', 'O', 'O', 'E'],
-                ['E', 'O', 'O', 'O', 'E'],
-                ['E', 'O', 'O', 'O', 'E'],
+                ['E', ' ', ' ', ' ', 'E'],
+                ['E', ' ', ' ', ' ', 'E'],
+                ['E', ' ', ' ', ' ', 'E'],
                 ['B', 'E', 'E', 'E', 'B']
             ]
         ], 
@@ -65,8 +65,7 @@ ServerEvents.recipes(event => {
             'W': 'thermal:white_rockwool',
             'B': 'thermal:black_rockwool',
             'R': 'compactmachines:wall',
-            'S': 'immersiveengineering:sheetmetal_steel',
-            'O': 'minecraft:air'   
+            'S': 'immersiveengineering:sheetmetal_steel'
         }, "machine_frame"),
 
         //Machine Tiny

@@ -756,7 +756,7 @@
 			rewards: [{
 				count: 2
 				id: "07C9CED92CB52855"
-				item: "quark:charcoal_block"
+				item: "thermal:charcoal_block"
 				random_bonus: 6
 				type: "item"
 			}]
@@ -781,7 +781,7 @@
 			rewards: [{
 				count: 2
 				id: "1EB8857F919FB081"
-				item: "quark:charcoal_block"
+				item: "thermal:charcoal_block"
 				random_bonus: 6
 				type: "item"
 			}]

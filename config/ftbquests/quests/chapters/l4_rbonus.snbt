@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "l4_rbonus"
 	group: "3818CF066B02A8FF"
+	icon: "computercraft:computer_normal"
 	id: "619C4E9C93BDBCF8"
 	order_index: 4
 	quest_links: [ ]
@@ -24,26 +25,111 @@
 				item: "computercraft:computer_normal"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
-			id: "4F0A225845544742"
+			id: "7685C099CCA223E9"
 			tasks: [{
-				id: "781688190C26C38A"
+				id: "6075A407FE71CC7A"
 				item: {
 					Count: 1b
-					id: "regen:fobwatch"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
-						is_gold: 1b
-						is_open: 0b
+						value: "xnet:cables"
 					}
 				}
+				title: "Any #xnet:cables"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "7A8917F7344EDFC2"
+			tasks: [{
+				id: "7AABD21FE5B54ADB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "xnet:connectors"
+					}
+				}
+				title: "Any #xnet:connectors"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "3679DF6EDBD94E7A"
+			tasks: [{
+				id: "3050B19278EF855A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "xnet:advanced_connectors"
+					}
+				}
+				title: "Any #xnet:advanced_connectors"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "297BA32BDC665A5C"
+			tasks: [{
+				id: "5D8C73F95FFD97EB"
+				item: "xnet:router"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "7E900AB13EAF314B"
+			tasks: [{
+				id: "290FA4DBF58948E4"
+				item: "xnet:facade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "352801F46B648791"
+			tasks: [{
+				id: "16B3FB1A15A27197"
+				item: "xnet:wireless_router"
 				type: "item"
 			}]
 			x: -1.0d
-			y: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "2CD019CA946EED93"
+			tasks: [
+				{
+					id: "5BEA00B6E608C375"
+					item: "xnet:netcable_routing"
+					type: "item"
+				}
+				{
+					id: "2CB109AA2A639254"
+					item: "xnet:connector_routing"
+					type: "item"
+				}
+				{
+					id: "54A2D67D6FB8F777"
+					item: "xnet:advanced_connector_routing"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.5d
 		}
 	]
 	title: " &l&4♦ &rBonus"

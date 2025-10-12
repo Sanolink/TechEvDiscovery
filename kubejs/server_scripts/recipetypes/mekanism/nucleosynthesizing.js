@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -32,6 +32,12 @@ ServerEvents.recipes(event => {
             gasInput: MekaGas("mekanism:antimatter", 1000),
             itemInput: parseIngredient('minecraft:quartz'),
             output: parseIngredient('create:antimatter_quartz')
+        },
+        {
+            id: "antimatter",
+            gasInput: MekaGas("mekanism:antimatter", 100),
+            itemInput: parseIngredient('ftbic:antimatter'),
+            output: ChanceOrCountItem('ftbic:antimatter', 2)
         }
     ]
 

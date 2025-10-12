@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -30,6 +30,11 @@ ServerEvents.recipes(event => {
             id: "essence_wasted_radioactive",
             input: parseIngredient("mysticalagriculture:wasted_radioactive_essence"),
             output: MekaGas("mekanism:nuclear_waste", 500)
+        },
+        {
+            id: "antimatter",
+            input: parseIngredient("ftbic:antimatter"),
+            output: MekaGas("mekanism:antimatter", 100)
         }
     ]
 

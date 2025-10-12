@@ -324,15 +324,26 @@ ServerEvents.recipes(e => {
     const BLOCKS_IE = ['alltheores:silver_block', 'alltheores:lead_block', 'alltheores:steel_block', 'alltheores:electrum_block', 'alltheores:constantan_block', 'alltheores:uranium_block', 'alltheores:nickel_block', 'alltheores:aluminum_block']
     const INGOTS_IE = ['alltheores:constantan_ingot', 'alltheores:steel_ingot', 'alltheores:electrum_ingot', 'alltheores:aluminum_ingot', 'alltheores:uranium_ingot', 'alltheores:nickel_ingot', 'alltheores:silver_ingot', 'alltheores:lead_ingot']
     const NUGGETS_IE = ['alltheores:constantan_nugget', 'alltheores:uranium_nugget', 'alltheores:nickel_nugget', 'alltheores:steel_nugget', 'alltheores:aluminum_nugget', 'alltheores:silver_nugget', 'alltheores:lead_nugget', 'alltheores:copper_nugget', 'alltheores:electrum_nugget']
+    
     const BLOCKS_EIDOLON = ['alltheores:lead_block', 'alltheores:silver_block']
+    
     const RAW_BLOCKS_THERMAL = ['alltheores:raw_lead_block', 'alltheores:raw_silver_block', 'alltheores:raw_nickel_block', 'alltheores:raw_tin_block']
     const BLOCKS_THERMAL = ['alltheores:signalum_block', 'alltheores:lumium_block', 'alltheores:enderium_block', 'alltheores:bronze_block', 'alltheores:tin_block', 'alltheores:invar_block', 'alltheores:electrum_block', 'alltheores:constantan_block', 'alltheores:nickel_block', 'alltheores:lead_block', 'alltheores:silver_block']
     const INGOTS_THERMAL = ['alltheores:bronze_ingot', 'alltheores:invar_ingot', 'alltheores:signalum_ingot', 'alltheores:lumium_ingot', 'alltheores:enderium_ingot', 'alltheores:tin_ingot', 'alltheores:electrum_ingot', 'alltheores:constantan_ingot', 'alltheores:nickel_ingot', 'alltheores:silver_ingot', 'alltheores:lead_ingot', 'minecraft:copper_ingot', 'minecraft:netherite_ingot']
     const NUGGETS_THERMAL = ['alltheores:bronze_nugget', 'alltheores:invar_nugget', 'alltheores:signalum_nugget', 'alltheores:lumium_nugget', 'alltheores:enderium_nugget', 'alltheores:tin_nugget', 'alltheores:electrum_nugget', 'alltheores:constantan_nugget', 'alltheores:nickel_nugget', 'alltheores:silver_nugget', 'alltheores:lead_nugget', 'alltheores:copper_nugget', 'createdeco:netherite_nugget']
+    
     const RAW_BLOCKS_MEKANISM = ['alltheores:raw_lead_block', 'alltheores:raw_osmium_block', 'alltheores:raw_uranium_block', 'alltheores:raw_tin_block']
     const BLOCKS_MEKANISM = ['alltheores:lead_block', 'alltheores:osmium_block', 'alltheores:uranium_block', 'alltheores:tin_block', 'alltheores:steel_block', 'alltheores:bronze_block']
     const INGOTS_MEKANISM = ['alltheores:lead_ingot', 'alltheores:osmium_ingot', 'alltheores:uranium_ingot', 'alltheores:tin_ingot', 'alltheores:steel_ingot', 'alltheores:bronze_ingot']
     const NUGGETS_MEKANISM = ['alltheores:lead_nugget', 'alltheores:osmium_nugget', 'alltheores:uranium_nugget', 'alltheores:tin_nugget', 'alltheores:steel_nugget', 'alltheores:bronze_nugget']
+
+    const BLOCKS_FTBIC = ['alltheores:lead_block', 'alltheores:uranium_block', 'alltheores:aluminum_block', 'alltheores:bronze_block', 'alltheores:enderium_block', 'alltheores:tin_block', 'alltheores:iridium_block']
+    const INGOTS_FTBIC = ['alltheores:lead_ingot', 'alltheores:uranium_ingot', 'alltheores:aluminum_ingot', 'alltheores:bronze_ingot', 'alltheores:enderium_ingot', 'alltheores:tin_ingot', 'alltheores:iridium_ingot']
+    const NUGGETS_FTBIC = ['alltheores:copper_nugget', 'alltheores:lead_nugget', 'alltheores:uranium_nugget', 'alltheores:aluminum_nugget', 'alltheores:bronze_nugget', 'alltheores:enderium_nugget', 'alltheores:tin_nugget', 'alltheores:iridium_nugget']
+
+    const BLOCKS_CHEMLIB = ['alltheores:lead_block', 'alltheores:silver_block', 'alltheores:nickel_block', 'alltheores:uranium_block', 'alltheores:aluminum_block', 'alltheores:zinc_block', 'alltheores:osmium_block', 'alltheores:tin_block', 'alltheores:iridium_block', 'alltheores:platinum_block']
+    const INGOTS_CHEMLIB = ['alltheores:lead_ingot', 'alltheores:silver_ingot', 'alltheores:nickel_ingot', 'alltheores:uranium_ingot', 'alltheores:aluminum_ingot', 'alltheores:zinc_ingot', 'alltheores:osmium_ingot', 'alltheores:tin_ingot', 'alltheores:iridium_ingot', 'alltheores:platinum_ingot']
+    const NUGGETS_CHEMLIB = ['alltheores:lead_nugget', 'alltheores:silver_nugget', 'alltheores:nickel_nugget', 'alltheores:uranium_nugget', 'alltheores:aluminum_nugget', 'alltheores:zinc_nugget', 'alltheores:osmium_nugget', 'alltheores:tin_nugget', 'alltheores:iridium_nugget', 'alltheores:platinum_nugget']
 
     RAW_BLOCKS_IE.forEach(I => {e.remove({ input: I, type: 'minecraft:crafting_shapeless', mod: "immersiveengineering" })
                                 e.remove({ output: I, type: 'minecraft:crafting_shaped', mod: "immersiveengineering" })})
@@ -358,6 +369,16 @@ ServerEvents.recipes(e => {
     INGOTS_MEKANISM.forEach(I => {e.remove({ output: I, type: 'minecraft:crafting_shaped', mod: "mekanism" })})
     NUGGETS_MEKANISM.forEach(I => {e.remove({ output: I, type: 'minecraft:crafting_shapeless', mod: "mekanism" })})
 
+    BLOCKS_FTBIC.forEach(I => {e.remove({ input: I, type: 'minecraft:crafting_shapeless', mod: "ftbic" })
+                                 e.remove({ output: I, type: 'minecraft:crafting_shaped', mod: "ftbic" })})
+    INGOTS_FTBIC.forEach(I => {e.remove({ output: I, type: 'minecraft:crafting_shaped', mod: "ftbic" })})
+    NUGGETS_FTBIC.forEach(I => {e.remove({ output: I, type: 'minecraft:crafting_shapeless', mod: "ftbic" })})
+
+    BLOCKS_CHEMLIB.forEach(I => {e.remove({ input: I, type: 'minecraft:crafting_shapeless', mod: "chemlib" })
+                                 e.remove({ output: I, type: 'minecraft:crafting_shaped', mod: "chemlib" })})
+    INGOTS_CHEMLIB.forEach(I => {e.remove({ output: I, type: 'minecraft:crafting_shaped', mod: "chemlib" })})
+    NUGGETS_CHEMLIB.forEach(I => {e.remove({ output: I, type: 'minecraft:crafting_shapeless', mod: "chemlib" })})
+
     //Remove SMELTING Repetitive Recipes
     const SMELT_ITEMS = [
         "aluminum", 
@@ -371,7 +392,6 @@ ServerEvents.recipes(e => {
         "invar",
         "iridium", 
         "iron",
-        "iron", 
         "lead", 
         "lumium",
         "netherite",
@@ -427,6 +447,16 @@ ServerEvents.recipes(e => {
             e.remove({ id: 'mekanism:processing/'+I+'/ingot/from_raw_smelting'})
             e.remove({ id: 'mekanism:processing/'+I+'/ingot/from_ore_blasting'})
             e.remove({ id: 'mekanism:processing/'+I+'/ingot/from_ore_smelting'})
+            e.remove({ id: 'ftbic:smelting/raw_materials/'+I+'_to_ingot'})
+            e.remove({ id: 'ftbic:blasting/raw_materials/'+I+'_to_ingot'})
+            e.remove({ id: 'ftbic:smelting/ores/'+I+'_to_ingot'})
+            e.remove({ id: 'ftbic:blasting/ores/'+I+'_to_ingot'})
+            e.remove({ id: 'ftbic:smelting/dusts/'+I+'_to_ingot'})
+            e.remove({ id: 'ftbic:blasting/dusts/'+I+'_to_ingot'})
+            e.remove({ id: 'ftbic:smelting/dusts/'+I+'_to_'+I+'_ingot'})
+            e.remove({ id: 'ftbic:blasting/dusts/'+I+'_to_'+I+'_ingot'})
+            e.remove({ id: 'chemlib:'+I+'_ingot_from_smelting_'+I+'_dust'})
+            e.remove({ id: 'chemlib:'+I+'_ingot_from_blasting_'+I+'_dust'})
         })
 
     e.remove({ id: 'minecraft:gold_ingot_from_smelting_nether_gold_ore'})

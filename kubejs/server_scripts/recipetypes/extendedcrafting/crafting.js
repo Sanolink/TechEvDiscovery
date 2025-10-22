@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -218,6 +218,49 @@ ServerEvents.recipes(event => {
                 "b": 'productivebees:honeycomb_ghostly',
                 "a": 'productivebees:honeycomb_powdery'
             }
+        },
+        {
+            result: 'extendedcrafting:ultimate_singularity',
+            pattern: [
+                "ABCBCBA",
+                "BDEFGHB",
+                "CIJKLMC",
+                "BNOPQRB",
+                "CSTUVWC",
+                "BXYZabB",
+                "ABCBCBA"
+            ],
+            key: {
+                "A": 'ftbic:antimatter_crystal',
+                "B": 'ftbic:singularity_ash',
+                "C": 'ftbic:antimatter',
+                "D": Singularity("iron"),
+                "E": Singularity("aluminum"),
+                "F": Singularity("silver"),
+                "G": Singularity("froststeel"),
+                "H": Singularity("iridium"),
+                "I": Singularity("desh"),
+                "J": Singularity("copper"),
+                "K": Singularity("horizonite"),
+                "L": Singularity("calorite"),
+                "M": Singularity("lead"),
+                "N": Singularity("gold"),
+                "O": Singularity("cloggrum"),
+                "P": "enigmaticlegacy:cosmic_heart",
+                "Q": Singularity("ventium"),
+                "R": Singularity("iesnium"),
+                "S": Singularity("nickel"),
+                "T": Singularity("falsite"),
+                "U": Singularity("elementium"),
+                "V": Singularity("ostrum"),
+                "W": Singularity("platinum"),
+                "X": Singularity("uranium"),
+                "Y": Singularity("nephryx"),
+                "Z": Singularity("zinc"),
+                "a": Singularity("tin"),
+                "b": Singularity("osmium")
+            }
+        },
         {
             result: 'techev_additions:complex_plate',
             pattern: [
@@ -502,6 +545,27 @@ ServerEvents.recipes(event => {
                 "2": "undergarden:cloggrum_dust"
             }
         },
+        {
+            result: 'techev_additions:tellurite',
+            pattern: [
+                "  ABA  ",
+                " CDEDC ",
+                "ADFGFDA",
+                "BEGHGEB",
+                "ADFGFDA",
+                " CDEDC ",
+                "  ABA  "
+            ],
+            key: {
+                "A": "extendedcrafting:flux_star",
+                "B": "techev_additions:complex_mechanism",
+                "C": "techev_additions:complex_gear",
+                "D": "chemlib:tellurium",
+                "E": "techev_additions:complex_dust",
+                "F": "techev_additions:complex_rod",
+                "G": "techev_additions:complex_plate",
+                "H": "extendedcrafting:ultimate_singularity"
+            }
         }
     ]
 

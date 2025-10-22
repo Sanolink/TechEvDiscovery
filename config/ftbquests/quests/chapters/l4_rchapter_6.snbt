@@ -24,8 +24,16 @@
 		{
 			id: "5FE984BBA0A02ABB"
 			linked_quest: "29F81B08C675C873"
-			x: 1.0d
-			y: -0.5d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "54226E845A22497A"
+			linked_quest: "7525DFA984F8FF58"
+			shape: "octagon"
+			size: 1.5d
+			x: 1.25d
+			y: 1.5d
 		}
 	]
 	quests: [
@@ -105,32 +113,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0EE9B6F78ACC5E0E"]
-			description: [
-				"&e&lTellurite&r is one of the components of &4&lTechevium&r."
-				""
-				"&7A mineral born from the depths of machine worlds, pulsing with logic and precision. It embodies the power of technology, automation, and progress. Tellurite fuels the heart of machines and unlocks the potential of complex systems."
-			]
-			id: "7525DFA984F8FF58"
-			rewards: [{
-				count: 3
-				id: "68597338E8253FFD"
-				item: "coinsje:diamond_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "&lTechevium [Part 2]"
-			tasks: [{
-				id: "0B4F0880BDFB65EC"
-				item: "techev_additions:tellurite"
-				type: "item"
-			}]
-			title: "&e&lThe Tellurite"
-			x: 1.25d
-			y: 1.5d
-		}
-		{
 			dependencies: ["0C42FDECFDC39560"]
 			id: "52EBD0A3D4F07BE6"
 			tasks: [{
@@ -140,6 +122,20 @@
 			}]
 			x: -1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["3DB8C6996F423F69"]
+			icon: "extendedcrafting:compressor"
+			id: "0C1725129FDB2EE0"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "499897B4E7DF8289"
+				type: "checkmark"
+			}]
+			title: "&lSingular Networks"
+			x: 1.25d
+			y: -0.5d
 		}
 	]
 	subtitle: ["&lPhilosophic Ascent"]

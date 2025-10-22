@@ -962,8 +962,11 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["4E7356179682035C"]
-			icon: "botania:cosmetic_questgiver_mark"
+			dependencies: [
+				"4E7356179682035C"
+				"6A7628B3B08CAFD2"
+			]
+			icon: "projecte:tome"
 			id: "074CFEB35F0546BC"
 			rewards: [{
 				id: "2F996CEC14751515"
@@ -982,8 +985,11 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["4E7356179682035C"]
-			icon: "botania:cosmetic_questgiver_mark"
+			dependencies: [
+				"4E7356179682035C"
+				"7525DFA984F8FF58"
+			]
+			icon: "techev_additions:tellurite"
 			id: "13066F53B22F865B"
 			rewards: [{
 				id: "0A0AFE447B3C36C4"
@@ -992,18 +998,18 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Ad Astra\"."
+			subtitle: "Finish the Main Quest of \"Singular Networks\"."
 			tasks: [{
 				id: "0B80D88F7DBFD0F4"
 				type: "checkmark"
 			}]
-			title: "&lAd Astra"
-			x: 23.25d
-			y: -9.75d
+			title: "&lSingular Networks"
+			x: 22.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["4E7356179682035C"]
-			icon: "botania:cosmetic_questgiver_mark"
+			icon: "chemlib:tellurium"
 			id: "1D98BCCFFB678BAC"
 			rewards: [{
 				id: "5071E7A946ECA014"
@@ -1058,8 +1064,8 @@
 				type: "checkmark"
 			}]
 			title: "&lFTB Industrial Contraptions"
-			x: 22.5d
-			y: -5.25d
+			x: 23.25d
+			y: -9.75d
 		}
 		{
 			dependencies: ["0F8C4C01C5E75A8B"]

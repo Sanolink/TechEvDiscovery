@@ -65,6 +65,7 @@ StartupEvents.postInit(event => {
         'ftbic:carbon_plate',
         'occultism:iesnium_plate',
         'pneumaticcraft:compressed_iron_plate',
+        'techev_additions:complex_plate',
         'undergarden:cloggrum_plate',
         'undergarden:froststeel_plate'
     ]

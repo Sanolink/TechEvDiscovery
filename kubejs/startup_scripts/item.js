@@ -208,6 +208,12 @@ StartupEvents.registry('item', e => {
     BasicItem('pneumaticcraft:compressed_iron_plate', "Compressed Steel Plate").tag("forge:plates").tag(`forge:plates/compressed_iron`)
     BasicItem('pneumaticcraft:compressed_iron_rod', "Compressed Steel Rod").tag("forge:rods").tag(`forge:rods/compressed_iron`)
 
+    BasicItem('techev_additions:complex_plate', "Complex Plate").rarity("uncommon")
+    BasicItem('techev_additions:complex_gear', "Complex Gear").rarity("uncommon")
+    BasicItem('techev_additions:complex_rod', "Complex Rod").rarity("uncommon")
+    BasicItem('techev_additions:complex_dust', "Complex Dust").rarity("uncommon")
+    BasicItem('techev_additions:complex_mechanism', "Complex Mechanism").rarity("uncommon")
+
     BasicItem('thermal:ender_servo', "Ender Servo")
     BasicItem('thermal:netherite_rod', "Netherite Rod").tag("forge:rods").tag(`forge:rods/netherite`)
     BasicItem('thermal:press_rod_die', "Rodworking Die")
@@ -250,8 +256,10 @@ StartupEvents.registry('item', e => {
     SequencedAssemblyItem('immersiveengineering:incomplete_wirecutter', "Incomplete Engineer's Wire Cutters")
 
     SequencedAssemblyItem('minecraft:fishing_rod_cast', "Fishing Rod Cast")
-
+    
     SequencedAssemblyItem('psi:incomplete_cad_assembly_psimetal', "Incomplete Psimetal CAD Assembly")
+    
+    SequencedAssemblyItem('techev_additions:incomplete_complex_mechanism', "Incomplete Complex Mechanism")
 
     //Sand Paper Items
     function SandPaperItem(id, displayName, durability) {

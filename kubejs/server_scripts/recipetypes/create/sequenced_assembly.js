@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.5         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -189,6 +189,20 @@ ServerEvents.recipes(event => {
                 Deploying("pneumaticcraft:transistor"),
                 Deploying("pneumaticcraft:capacitor"),
                 Energising(5000)
+            ])
+        },
+        // Complex Mechanism
+        {
+            id: "complex_mechanism",
+            input: [parseIngredient("create:precision_mechanism")],
+            output: [parseIngredient("techev_additions:complex_mechanism")],
+            transition: "techev_additions:incomplete_complex_mechanism",
+            sequence: makeSequence("techev_additions:incomplete_complex_mechanism", [
+                Deploying("immersiveengineering:component_electronic_adv"),
+                Deploying("pneumaticcraft:processing_printed_circuit_board"),
+                Deploying("thermalendergy:endergy_upgrade_3"),
+                Deploying("mekaevolution:infinite_control_circuit"),
+                Deploying("ftbic:iridium_circuit")
             ])
         }
     ]

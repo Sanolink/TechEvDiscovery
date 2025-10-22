@@ -169,3 +169,8 @@ function MekaPigment(type, amount) {
 function MekaSlurry(type, amount) {
     return { slurry: type, chemicalType: "slurry", amount: amount}
 }
+
+//Singularity 
+function Singularity(type) {
+    return NBTItem("extendedcrafting:singularity", {"Id": `extendedcrafting:${type}`})
+}

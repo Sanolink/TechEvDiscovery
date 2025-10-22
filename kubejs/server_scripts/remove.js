@@ -187,6 +187,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'forbidden_arcanus:arcane_crystal_dust'})
 
     //FTB Industrial Contraptions
+    event.remove({ id: 'ftbic:compressing/carbon_plate'})
     event.remove({ id: 'ftbic:smelting/rubber'})
     event.remove({ id: 'ftbic:smoking/rubber'})
     event.remove({ id: 'ftbic:shaped/bronze_dust'})

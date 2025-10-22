@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -62,30 +62,46 @@ ServerEvents.recipes(event => {
             id: "antimatter_quartz_sheet",
             input: [parseIngredient("create:polished_antimatter_quartz")],
             output: [parseIngredient("create_things_and_misc:antimatter_quartz_sheet")]
+        },
+        //Carbon Plate
+        {
+            id: "carbon_plate",
+            input: [parseIngredient("ftbic:carbon_fiber_mesh")],
+            output: [parseIngredient("ftbic:carbon_plate")]
         }
     ]
     
     // Ingots -> Plates
     const IngotsToPlates = [
         'aluminum',
+        'arcane_gold',
         'brass',
         'bronze', 
+        'calorite',
+        'cloggrum',
         'constantan',
         'copper',
+        'desh',
         'dragonsteel',
         'electrum',
         'elementium',
         'enderium', 
+        'falsite',
+        'froststeel',
         'gold',
+        'horizonite',
+        'iesnium',
         'invar', 
         'iridium',
         'iron',
         'lead',
         'lumium', 
         'melodium',
+        'nephryx',
         'netherite',
         'nickel',
         'osmium', 
+        'ostrum',
         'platinum', 
         'prismalium',
         'shellite',
@@ -94,15 +110,12 @@ ServerEvents.recipes(event => {
         'soul_infused',
         'steel',
         'stellarium',
-        'desh',
-        'ostrum',
-        'calorite',
-        'nephryx',
         'tin',
         'twinite',
         'uranium',
+        'ventium',
         'zinc',
-        'arcane_gold'
+        'compressed_iron'
     ].forEach(ingot => {
         recipes.push(
             {

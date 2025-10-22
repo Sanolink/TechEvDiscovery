@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -23,31 +23,31 @@ ServerEvents.recipes(event => {
     //Recipes
     let recipes = [
         {
-            id:  "coal_coke_dust",
+            id: "coal_coke_dust",
             output: parseIngredient("#forge:dusts/coal_coke"),
             input: parseIngredient("#forge:coal_coke"),
             ignore_crushing_multiplier: false
         },
         {
-            id:  "coal_coke_dust_from_block",
+            id: "coal_coke_dust_from_block",
             output: ChanceOrCountItem("immersiveengineering:dust_coke", 9),
             input: parseIngredient("#forge:storage_blocks/coal_coke"),
             ignore_crushing_multiplier: false
         },
         {
-            id:  "petcoke_dust",
+            id: "petcoke_dust",
             output: parseIngredient("#forge:dusts/coal_petcoke"),
             input: parseIngredient("#forge:coal_petcoke"),
             ignore_crushing_multiplier: false
         },
         {
-            id:  "petcoke_dust_from_block",
+            id: "petcoke_dust_from_block",
             output: ChanceOrCountItem("immersivepetroleum:petcoke_dust", 9),
             input: parseIngredient("#forge:storage_blocks/coal_petcoke"),
             ignore_crushing_multiplier: false
         },
         {
-            id:  "niter_dust",
+            id: "niter_dust",
             output: ChanceOrCountItem("thermal:niter_dust", 2),
             input: parseIngredient("#forge:ores/niter")
         },
@@ -67,6 +67,16 @@ ServerEvents.recipes(event => {
             output: parseIngredient("#forge:dusts/ender_pearl"),
             input: parseIngredient("#forge:ender_pearls"),
             ignore_crushing_multiplier: false
+        },
+        {
+            id: `experience_dust`,
+            output: parseIngredient('create_things_and_misc:experience_dust'),
+            input: parseIngredient('create:experience_nugget')
+        },
+        {
+            id: `carbon_dust`,
+            output: parseIngredient('ftbic:carbon_dust'),
+            input: parseIngredient('ftbic:carbon_fiber_mesh')
         }
     ]
 
@@ -88,13 +98,33 @@ ServerEvents.recipes(event => {
         'froststeel',
         'falsite',
         'ventium',
-        'horizonite'
+        'horizonite',
+        'cast_iron',
+        'overcharged_iron',
+        'overcharged_gold',
+        'compressed_iron'
     ].forEach((mat) => {
         recipes.push(
             {
                 id: `${mat}_dust_from_ingot`,
                 output: parseIngredient(`#forge:dusts/${mat}`),
-                input: parseIngredient(`#forge:ingots/${mat}`),
+                input: parseIngredient(`#forge:ingots/${mat}`)
+            }
+        )
+    });
+
+    const QuartzToDusts = [
+        'rose',
+        'blue',
+        'psi',
+        'source',
+        'antimatter'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_dust_from_quartz`,
+                output: parseIngredient(`#forge:dusts/${mat}_quartz`),
+                input: parseIngredient(`#forge:polished_quartz/${mat}`)
             }
         )
     });
@@ -116,12 +146,12 @@ ServerEvents.recipes(event => {
             {
                 id: `${mat}_dust_from_raw`,
                 output: ChanceOrCountTag(`#create:crushed_raw_materials/${mat}`, 2),
-                input: parseIngredient(`#forge:raw_materials/${mat}`),
+                input: parseIngredient(`#forge:raw_materials/${mat}`)
             },
             {
                 id: `${mat}_dust_from_ore`,
                 output: ChanceOrCountTag(`#create:crushed_raw_materials/${mat}`, 2),
-                input: parseIngredient(`#forge:ores/${mat}`),
+                input: parseIngredient(`#forge:ores/${mat}`)
             }
         )
     });
@@ -148,7 +178,7 @@ ServerEvents.recipes(event => {
         )
     });
 
-   //General Crushing Function
+    //General Crushing Function
     recipes.forEach(recipe => {
         let json = {
             type: 'occultism:crushing',

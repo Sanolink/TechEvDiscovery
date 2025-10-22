@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -25,6 +25,16 @@ ServerEvents.recipes(event => {
             id: "ender_pearl/to_dust",
             input: MekaParseIngredient("minecraft:ender_pearl"),
             output: parseIngredient("thermal:ender_pearl_dust")
+        },
+        {
+            id: `experience/to_dust`,
+            input: MekaParseIngredient('create:experience_nugget'),
+            output: parseIngredient('create_things_and_misc:experience_dust')
+        },
+        {
+            id: `carbon/to_dust`,
+            input: MekaParseIngredient('ftbic:carbon_fiber_mesh'),
+            output: parseIngredient('ftbic:carbon_dust')
         }
     ]
 
@@ -61,13 +71,35 @@ ServerEvents.recipes(event => {
         'froststeel',
         'falsite',
         'ventium',
-        'horizonite'
+        'horizonite',
+        'cast_iron',
+        'shellite',
+        'twinite',
+        'overcharged_iron',
+        'overcharged_gold',
+        'compressed_iron'
     ].forEach(mat => {
         recipes.push(
             {
                 id: `${mat}/to_dust`,
                 input: MekaParseIngredient(`#forge:ingots/${mat}`),
                 output: parseIngredient(TagToItem(`#forge:dusts/${mat}`))
+            }
+        )
+    })
+
+    const QuartzToDusts = [
+        'rose',
+        'blue',
+        'psi',
+        'source',
+        'antimatter'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `${mat}_quartz/to_dust`,
+                input: MekaParseIngredient(`#forge:polished_quartz/${mat}`),
+                output: parseIngredient(TagToItem(`#forge:dusts/${mat}_quartz`))
             }
         )
     })

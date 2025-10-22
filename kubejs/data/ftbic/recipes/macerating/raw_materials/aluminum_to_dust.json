@@ -10,11 +10,11 @@
   ],
   "outputItems": [
     {
-      "item": "alltheores:aluminum_dust"
+      "item": "create:crushed_raw_aluminum"
     },
     {
       "chance": 0.35,
-      "item": "alltheores:aluminum_dust"
+      "item": "create:crushed_raw_aluminum"
     }
   ]
 }

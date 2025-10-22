@@ -10,11 +10,11 @@
   ],
   "outputItems": [
     {
-      "item": "alltheores:iron_dust"
+      "item": "create:crushed_raw_iron"
     },
     {
       "chance": 0.35,
-      "item": "alltheores:iron_dust"
+      "item": "create:crushed_raw_iron"
     }
   ]
 }

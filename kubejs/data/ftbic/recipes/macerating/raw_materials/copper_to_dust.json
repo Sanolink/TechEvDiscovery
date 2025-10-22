@@ -10,11 +10,11 @@
   ],
   "outputItems": [
     {
-      "item": "alltheores:copper_dust"
+      "item": "create:crushed_raw_copper"
     },
     {
       "chance": 0.35,
-      "item": "alltheores:copper_dust"
+      "item": "create:crushed_raw_copper"
     }
   ]
 }

@@ -10,11 +10,11 @@
   ],
   "outputItems": [
     {
-      "item": "alltheores:iridium_dust"
+      "item": "create:crushed_raw_iridium"
     },
     {
       "chance": 0.35,
-      "item": "alltheores:iridium_dust"
+      "item": "create:crushed_raw_iridium"
     }
   ]
 }

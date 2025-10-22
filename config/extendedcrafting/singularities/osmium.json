@@ -1,0 +1,10 @@
+{
+  "name": "Osmium",
+  "colors": [
+    "93C7C7",
+    "567D9C"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/osmium"
+  }
+}

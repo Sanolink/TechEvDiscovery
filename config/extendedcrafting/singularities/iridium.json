@@ -1,0 +1,10 @@
+{
+  "name": "Iridium",
+  "colors": [
+    "DAF4F5",
+    "98B0C9"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/iridium"
+  }
+}

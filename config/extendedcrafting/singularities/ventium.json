@@ -1,0 +1,10 @@
+{
+  "name": "Ventium",
+  "colors": [
+    "CF2532",
+    "7B1F16"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/ventium"
+  }
+}

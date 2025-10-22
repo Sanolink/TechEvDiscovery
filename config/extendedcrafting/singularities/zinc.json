@@ -1,0 +1,10 @@
+{
+  "name": "Zinc",
+  "colors": [
+    "B7E6BF",
+    "4F6C62"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/zinc"
+  }
+}

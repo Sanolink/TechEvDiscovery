@@ -440,6 +440,8 @@ ServerEvents.tags('item', e => {
         e.add(`forge:raw_materials/${mat}`, `blue_skies:raw_${mat}`)
         e.add(`forge:storage_blocks/raw_${mat}`, `blue_skies:raw_${mat}_block`)
         e.add(`forge:ores/${mat}`, `#blue_skies:ores/${mat}`)})
+    e.add('ftbic:dense_plates', 'ftbic:dense_copper_plate')
+    e.add('ftbic:dense_plates/copper', 'ftbic:dense_copper_plate')
 
     // Mystical Farmlands
     let cropTiers = CropRegistryInstance.getTiers()

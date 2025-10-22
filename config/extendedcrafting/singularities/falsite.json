@@ -1,0 +1,10 @@
+{
+  "name": "Falsite",
+  "colors": [
+    "7561E2",
+    "5D17A4"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/falsite"
+  }
+}

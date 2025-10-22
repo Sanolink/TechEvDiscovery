@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -84,7 +84,6 @@ function ThermalChanceItem(item, chance, locked) {
     } else {
         return { item: item, chance: chance, locked: true }
     }
-
 }
 
 function MekaCountIngredient(str, count) {

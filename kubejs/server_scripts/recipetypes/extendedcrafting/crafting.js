@@ -262,6 +262,35 @@ ServerEvents.recipes(event => {
             }
         },
         {
+            result: 'projecte:philosophers_stone',
+            pattern: [
+                "  ABCBA  ",
+                " DEFGFED ",
+                "AEHIJIHEA",
+                "BFIKLKIFB",
+                "CGJLMLJGC",
+                "BFIKLKIFB",
+                "AEHIJIHEA",
+                " DEFGFED ",
+                "  ABCBA  "
+            ],
+            key: {
+                "A": "forbidden_arcanus:rune_block",
+                "B": "mysticalagradditions:insanium_block",
+                "C": "ae2:fluix_block",
+                "D": "ars_nouveau:source_gem_block",
+                "E": "extendedcrafting:luminessence",
+                "F": "mysticalagriculture:ultimate_essence",
+                "G": "extendedcrafting:ultimate_singularity",
+                "H": "twilightforest:carminite_block",
+                "I": "industrialforegoing:pink_slime",
+                "J": "ars_nouveau:abjuration_essence",
+                "K": "mekaevolution:alloy_spectrum",
+                "L": "techev_additions:chromatic",
+                "M": "techev_additions:tellurite"
+            }
+        },
+        {
             result: 'techev_additions:complex_plate',
             pattern: [
                 "    ABC  ",

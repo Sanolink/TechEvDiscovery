@@ -458,6 +458,10 @@ ServerEvents.recipes(event => {
     event.remove({ type: "productivebees:bee_fishing"})
     event.remove({ type: "productivebees:bee_spawning"})
 
+    //ProjectE
+    event.remove({ id: 'projecte:philosophers_stone'})
+    event.remove({ id: 'projecte:philosophers_stone_alt'})
+
     //Psi 
     event.remove({ id: 'psi:gold_to_psimetal_assembly_upgrade'})
     event.remove({ id: 'psi:cad_assembly_psimetal'})

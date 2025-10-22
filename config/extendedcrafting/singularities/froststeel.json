@@ -1,0 +1,10 @@
+{
+  "name": "Froststeel",
+  "colors": [
+    "B7D0E9",
+    "6886AE"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/froststeel"
+  }
+}

@@ -103,7 +103,9 @@ StartupEvents.registry('item', e => {
     BasicItem('eidolon:arcane_gold_dust', "Arcane Gold Dust")
 
     BasicItem('ftbic:singularity_ash', "Singularity Ash")
-    
+    const DensePlates = ['aluminum', 'calorite', 'cloggrum', 'desh', 'elementium', 'falsite', 'froststeel', 'gold', 'horizonite', 'iesnium', 'iridium', 'iron', 'lead', 'nephryx', 'nickel', 'osmium', 'ostrum', 'platinum', 'silver', 'tin', 'uranium', 'ventium', 'zinc'].forEach(mat => {
+      BasicItem(`ftbic:dense_${mat}_plate`, `Dense ${mat.charAt(0).toUpperCase() + mat.slice(1)} Plate`).tag("ftbic:dense_plates").tag(`ftbic:dense_plates/${mat}`)})
+
     BasicItem('hostilenetworks:blue_skies_prediction', "Generalized Blue Skies Prediction")
     BasicItem('hostilenetworks:inert_data_model', "Inert Model Framework")
     BasicItem('hostilenetworks:undergarden_prediction', "Generalized Undergarden Prediction")

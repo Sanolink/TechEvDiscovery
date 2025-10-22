@@ -1,0 +1,10 @@
+{
+  "name": "Iesnium",
+  "colors": [
+    "55A5B7",
+    "335E7B"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/iesnium"
+  }
+}

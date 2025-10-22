@@ -1,0 +1,10 @@
+{
+  "name": "Calorite",
+  "colors": [
+    "B63044",
+    "691533"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/calorite"
+  }
+}

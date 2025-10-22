@@ -1,0 +1,10 @@
+{
+  "name": "Elementium",
+  "colors": [
+    "DD82A3",
+    "C342A6"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/elementium"
+  }
+}

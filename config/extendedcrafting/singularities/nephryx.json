@@ -1,0 +1,10 @@
+{
+  "name": "Nephryx",
+  "colors": [
+    "507C64",
+    "3B6049"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/nephryx"
+  }
+}

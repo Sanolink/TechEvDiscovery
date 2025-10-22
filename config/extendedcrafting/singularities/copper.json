@@ -1,10 +1,10 @@
 {
   "name": "singularity.extendedcrafting.copper",
   "colors": [
-    "fa977c",
-    "bc5430"
+    "e78f61",
+    "964242"
   ],
   "ingredient": {
-    "item": "minecraft:copper_ingot"
+    "tag": "ftbic:dense_plates/copper"
   }
 }

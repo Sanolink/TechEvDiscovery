@@ -1,0 +1,10 @@
+{
+  "name": "Ostrum",
+  "colors": [
+    "A66B72",
+    "41303C"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/ostrum"
+  }
+}

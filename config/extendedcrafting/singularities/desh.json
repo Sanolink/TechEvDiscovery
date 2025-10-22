@@ -1,0 +1,10 @@
+{
+  "name": "Desh",
+  "colors": [
+    "D38B4C",
+    "9C4438"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/desh"
+  }
+}

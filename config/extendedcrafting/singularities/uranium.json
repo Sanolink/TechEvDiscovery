@@ -1,0 +1,10 @@
+{
+  "name": "Uranium",
+  "colors": [
+    "96B14F",
+    "42682E"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/uranium"
+  }
+}

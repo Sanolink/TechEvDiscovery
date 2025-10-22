@@ -10,11 +10,11 @@
   ],
   "outputItems": [
     {
-      "item": "alltheores:uranium_dust"
+      "item": "create:crushed_raw_uranium"
     },
     {
       "chance": 0.35,
-      "item": "alltheores:uranium_dust"
+      "item": "create:crushed_raw_uranium"
     }
   ]
 }

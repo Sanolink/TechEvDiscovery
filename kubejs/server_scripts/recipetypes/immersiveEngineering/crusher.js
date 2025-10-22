@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -83,6 +83,16 @@ ServerEvents.recipes(event => {
             id: 'sky_stone',
             input: parseIngredient('ae2:sky_stone_block'),
             output: parseIngredient('ae2:sky_dust')
+        },
+        {
+            id: `experience_dust`,
+            input: parseIngredient('create:experience_nugget'),
+            output: parseIngredient('create_things_and_misc:experience_dust')
+        },
+        {
+            id: `carbon_dust`,
+            input: parseIngredient('ftbic:carbon_fiber_mesh'),
+            output: parseIngredient('ftbic:carbon_dust')
         }
     ]
 
@@ -110,7 +120,18 @@ ServerEvents.recipes(event => {
         'froststeel',
         'falsite',
         'ventium',
-        'horizonite'
+        'horizonite',
+        'cast_iron',
+        'overcharged_iron',
+        'overcharged_gold',
+        'compressed_iron'
+    ]
+    const QuartzDusts = [
+        'rose',
+        'blue',
+        'psi',
+        'source',
+        'antimatter'
     ]
     const RawOresCrushed = [
         'desh',
@@ -148,6 +169,15 @@ ServerEvents.recipes(event => {
                 id: `${type}_dust`,
                 input: parseIngredient(`#forge:ingots/${type}`),
                 output: parseIngredient(`#forge:dusts/${type}`)
+            }
+        )
+    })
+    QuartzDusts.forEach(type => {
+        recipes.push(
+            {
+                id: `${type}_quartz_dust`,
+                input: parseIngredient(`#forge:polished_quartz/${type}`),
+                output: parseIngredient(`#forge:dusts/${type}_quartz`)
             }
         )
     })

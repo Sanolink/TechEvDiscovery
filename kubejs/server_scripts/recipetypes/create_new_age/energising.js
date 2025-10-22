@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.10        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -22,9 +22,45 @@ ServerEvents.recipes(event => {
     //Recipes
     const recipes = [
         {
-            id: "energizer",
+            id: "magnetite_block",
             input: [parseIngredient("createdeco:cast_iron_sheet_metal")],
             output: [parseIngredient("create_new_age:magnetite_block")]
+        },
+        {
+            id: "overcharged_iron_gear",
+            energy: 4000,
+            input: [parseIngredient("alltheores:iron_gear")],
+            output: [parseIngredient("create_new_age:overcharged_iron_gear")]
+        },
+        {
+            id: "overcharged_iron_rod",
+            energy: 500,
+            input: [parseIngredient("alltheores:iron_rod")],
+            output: [parseIngredient("create_new_age:overcharged_iron_rod")]
+        },
+        {
+            id: "overcharged_iron_dust",
+            energy: 1000,
+            input: [parseIngredient("alltheores:iron_dust")],
+            output: [parseIngredient("create_new_age:overcharged_iron_dust")]
+        },
+        {
+            id: "overcharged_golden_gear",
+            energy: 8000,
+            input: [parseIngredient("alltheores:gold_gear")],
+            output: [parseIngredient("create_new_age:overcharged_golden_gear")]
+        },
+        {
+            id: "overcharged_golden_rod",
+            energy: 1000,
+            input: [parseIngredient("alltheores:gold_rod")],
+            output: [parseIngredient("create_new_age:overcharged_golden_rod")]
+        },
+        {
+            id: "overcharged_golden_dust",
+            energy: 2000,
+            input: [parseIngredient("alltheores:gold_dust")],
+            output: [parseIngredient("create_new_age:overcharged_golden_dust")]
         }
     ]
 

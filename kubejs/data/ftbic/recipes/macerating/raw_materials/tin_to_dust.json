@@ -10,11 +10,11 @@
   ],
   "outputItems": [
     {
-      "item": "alltheores:tin_dust"
+      "item": "create:crushed_raw_tin"
     },
     {
       "chance": 0.35,
-      "item": "alltheores:tin_dust"
+      "item": "create:crushed_raw_tin"
     }
   ]
 }

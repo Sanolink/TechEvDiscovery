@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -22,44 +22,34 @@ ServerEvents.recipes(event => {
     //Recipes
     let recipes = [
         {
-            id: "overcharged_iron_to_plate",
-            output: parseIngredient(TagToItem('create_new_age:overcharged_iron_sheet')),
-            ingredients: parseIngredient('create_new_age:overcharged_iron')
-        },
-        {
-            id: "overcharged_golden_to_plate",
-            output: parseIngredient(TagToItem('create_new_age:overcharged_golden_sheet')),
-            ingredients: parseIngredient('create_new_age:overcharged_gold')
-        },
-        {
             id: "experience_to_plate",
-            output: parseIngredient(TagToItem('create_things_and_misc:experience_sheet')),
+            output: parseIngredient('create_things_and_misc:experience_sheet'),
             ingredients: parseIngredient('create:experience_nugget')
         },
         {
-            id: "rose_quartz_to_plate",
-            output: parseIngredient(TagToItem('create_things_and_misc:rose_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_rose_quartz')
+            id: "experience_to_gear",
+            output: parseIngredient('create_things_and_misc:experience_gear'),
+            ingredients: [ChanceOrCountItem('create:experience_nugget', 4), parseIngredient('thermal:press_gear_die')]
         },
         {
-            id: "blue_quartz_to_plate",
-            output: parseIngredient(TagToItem('create_things_and_misc:blue_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_blue_quartz')
+            id: `experience_to_rod`,
+            output: ChanceOrCountItem('create_things_and_misc:experience_rod', 2),
+            ingredients: [parseIngredient('create:experience_nugget'), parseIngredient('thermal:press_rod_die')]
         },
         {
-            id: "source_quartz_to_plate",
-            output: parseIngredient(TagToItem('create_things_and_misc:source_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_source_quartz')
+            id: "carbon_to_plate",
+            output: parseIngredient("ftbic:carbon_plate"),
+            ingredients: parseIngredient("ftbic:carbon_fiber_mesh")
         },
         {
-            id: "psi_quartz_to_plate",
-            output: parseIngredient(TagToItem('create_things_and_misc:psi_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_psi_quartz')
+            id: "carbon_to_gear",
+            output: parseIngredient("ftbic:carbon_gear"),
+            ingredients: [ChanceOrCountItem("ftbic:carbon_fiber_mesh", 4), parseIngredient('thermal:press_gear_die')]
         },
         {
-            id: "antimatter_quartz_to_plate",
-            output: parseIngredient(TagToItem('create_things_and_misc:antimatter_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_antimatter_quartz')
+            id: `carbon_to_rod`,
+            output: ChanceOrCountItem('ftbic:carbon_rod', 2),
+            ingredients:[parseIngredient('ftbic:carbon_fiber_mesh'), parseIngredient('thermal:press_rod_die')]
         },
         {
             id: "prismalium_nugget_packing",
@@ -261,7 +251,16 @@ ServerEvents.recipes(event => {
         "ostrum",
         "calorite",
         "nephryx",
-        "arcane_gold"
+        "arcane_gold",
+        "falsite",
+        "ventium",
+        "horizonite",
+        "cast_iron",
+        "iesnium",
+        "cloggrum",
+        "froststeel",
+        "overcharged_iron",
+        "overcharged_gold"
     ].forEach((ingot) => {
         recipes.push(
             {
@@ -285,7 +284,16 @@ ServerEvents.recipes(event => {
         "elementium",
         "cast_iron",
         "nephryx",
-        "arcane_gold"
+        "arcane_gold",
+        "ventium",
+        "falsite",
+        "horizonite",
+        "iesnium",
+        "cloggrum",
+        "froststeel",
+        "compressed_iron",
+        "overcharged_iron",
+        "overcharged_gold"
     ].forEach((ingot) => {
         recipes.push(
             {
@@ -323,7 +331,27 @@ ServerEvents.recipes(event => {
         'desh',
         'ostrum',
         'calorite',
-        'nephryx'
+        'nephryx',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'elementium',
+        'cast_iron',
+        'arcane_gold',
+        'iesnium',
+        'cloggrum',
+        'froststeel',
+        'prismalium',
+        'melodium',
+        'stellarium',
+        'netherite',
+        'soul_infused',
+        'shellite',
+        'twinite',
+        'dragonsteel',
+        'overcharged_iron',
+        'overcharged_gold',
+        'compressed_iron'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -374,7 +402,34 @@ ServerEvents.recipes(event => {
                 ingredients: [parseIngredient(`#forge:gems/${mat}`), parseIngredient('thermal:press_rod_die')]
             }
         )
-    });    
+    });
+
+    // Quartz -> Plates / Rods / Gears
+    const QuartzToPlatesRodsGears = [
+        'rose',
+        'blue',
+        'source',
+        'psi',
+        'antimatter'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_quartz_to_plate`,
+                output: parseIngredient(TagToItem(`#forge:plates/${mat}_quartz`)),
+                ingredients: parseIngredient(`#forge:polished_quartz/${mat}`)
+            },
+            {
+                id: `${mat}_quartz_to_rod`,
+                output: ChanceOrCountItem(TagToItem(`#forge:rods/${mat}_quartz`), 2),
+                ingredients: [parseIngredient(`#forge:polished_quartz/${mat}`), parseIngredient('thermal:press_rod_die')]
+            },
+            {
+                id: `${mat}_quartz_to_gear`,
+                output: parseIngredient(TagToItem(`#forge:gears/${mat}_quartz`)),
+                ingredients: [ChanceOrCountTag(`#forge:polished_quartz/${mat}`, 4), parseIngredient('thermal:press_gear_die')]
+            }
+        )
+    });
  
     //General Press Function
     recipes.forEach(recipe => {

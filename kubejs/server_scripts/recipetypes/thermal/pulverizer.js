@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -22,39 +22,63 @@ ServerEvents.recipes(event => {
     //Recipes
     let recipes = [
         {
-            id:  "coal_coke_to_dust",
+            id: "coal_coke_to_dust",
             output: parseIngredient(TagToItem("#forge:dusts/coal_coke")),
             ingredients: parseIngredient("#forge:coal_coke"),
             energy: 2000
         },
         {
-            id:  "coke_block_to_dust",
+            id: "coke_block_to_dust",
             output: ChanceOrCountItem("immersiveengineering:dust_coke", 9),
             ingredients: parseIngredient("#forge:storage_blocks/coal_coke"),
             energy: 2000
         },
         {
-            id:  "petcoke_to_dust",
+            id: "petcoke_to_dust",
             output: parseIngredient(TagToItem("#forge:dusts/coal_petcoke")),
             ingredients: parseIngredient("#forge:coal_petcoke"),
             energy: 2000
         },
         {
-            id:  "petcoke_block_to_dust",
+            id: "petcoke_block_to_dust",
             output: ChanceOrCountItem("immersivepetroleum:petcoke_dust", 9),
             ingredients: parseIngredient("#forge:storage_blocks/coal_petcoke"),
             energy: 2000
         },
         {
-            id:  "obsidian_to_dust",
+            id: "obsidian_to_dust",
             output: [parseIngredient(TagToItem("#forge:dusts/obsidian")), ThermalChanceItem("minecraft:obsidian", 0.75, true)],
             ingredients: parseIngredient("minecraft:obsidian"),
             energy: 2000
         },
         {
-            id:  "sky_stone_to_dust",
+            id: "sky_stone_to_dust",
             output: parseIngredient('ae2:sky_dust'),
             ingredients: parseIngredient("ae2:sky_stone_block"),
+            energy: 2000
+        },
+        {
+            id: `experience_to_dust`,
+            output: parseIngredient('create_things_and_misc:experience_dust'),
+            ingredients: parseIngredient('create:experience_nugget'),
+            energy: 2000
+        },
+        {
+            id: `experience_plate_to_dust`,
+            output: parseIngredient('create_things_and_misc:experience_dust'),
+            ingredients: parseIngredient('create_things_and_misc:experience_sheet'),
+            energy: 2000
+        },
+        {
+            id: `carbon_to_dust`,
+            output: parseIngredient('ftbic:carbon_dust'),
+            ingredients: parseIngredient('ftbic:carbon_fiber_mesh'),
+            energy: 2000
+        },
+        {
+            id: `carbon_plate_to_dust`,
+            output: parseIngredient('ftbic:carbon_dust'),
+            ingredients: parseIngredient('ftbic:carbon_plate'),
             energy: 2000
         }
     ]
@@ -76,7 +100,11 @@ ServerEvents.recipes(event => {
         'froststeel',
         'falsite',
         'ventium',
-        'horizonite'
+        'horizonite',
+        'cast_iron',
+        'overcharged_iron',
+        'overcharged_gold',
+        'compressed_iron'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -89,33 +117,33 @@ ServerEvents.recipes(event => {
     });
 
     const RawMat_OresToCrushed = [
-        {main: "aluminum", crushed: 'create:crushed_raw_aluminum', secCrushed: 'create:crushed_raw_osmium'},
-        {main: "osmium", crushed: 'create:crushed_raw_osmium', secCrushed: 'create:crushed_raw_aluminum'},
-        {main: "uranium", crushed: 'create:crushed_raw_uranium', secCrushed: 'create:crushed_raw_lead'},
-        {main: "iridium", crushed: 'create:crushed_raw_iridium', secCrushed: 'create:crushed_raw_uranium'},
-        {main: "zinc", crushed: 'create:crushed_raw_zinc', secCrushed: 'create:crushed_raw_copper', excludeore: true},
-        {main: "platinum", crushed: 'create:crushed_raw_platinum', secCrushed: 'create:crushed_raw_copper', excludeore: true},
-        {main: "desh", crushed: 'create:crushed_raw_desh'},
-        {main: "ostrum", crushed: 'create:crushed_raw_ostrum'},
-        {main: "calorite", crushed: 'create:crushed_raw_calorite'},
-        {main: "nephryx", crushed: 'create:crushed_raw_nephryx'},
-        {main: "iesnium", crushed: 'create:crushed_raw_iesnium'},
-        {main: "elementium", crushed: 'create:crushed_raw_elementium'},
-        {main: "cloggrum", crushed: 'create:crushed_raw_cloggrum'},
-        {main: "froststeel", crushed: 'create:crushed_raw_froststeel'},
-        {main: "falsite", crushed: 'create:crushed_raw_falsite'},
-        {main: "ventium", crushed: 'create:crushed_raw_ventium'},
-        {main: "horizonite", crushed: 'create:crushed_raw_horizonite'}
+        { main: "aluminum", crushed: 'create:crushed_raw_aluminum', secCrushed: 'create:crushed_raw_osmium' },
+        { main: "osmium", crushed: 'create:crushed_raw_osmium', secCrushed: 'create:crushed_raw_aluminum' },
+        { main: "uranium", crushed: 'create:crushed_raw_uranium', secCrushed: 'create:crushed_raw_lead' },
+        { main: "iridium", crushed: 'create:crushed_raw_iridium', secCrushed: 'create:crushed_raw_uranium' },
+        { main: "zinc", crushed: 'create:crushed_raw_zinc', secCrushed: 'create:crushed_raw_copper', excludeore: true },
+        { main: "platinum", crushed: 'create:crushed_raw_platinum', secCrushed: 'create:crushed_raw_copper', excludeore: true },
+        { main: "desh", crushed: 'create:crushed_raw_desh' },
+        { main: "ostrum", crushed: 'create:crushed_raw_ostrum' },
+        { main: "calorite", crushed: 'create:crushed_raw_calorite' },
+        { main: "nephryx", crushed: 'create:crushed_raw_nephryx' },
+        { main: "iesnium", crushed: 'create:crushed_raw_iesnium' },
+        { main: "elementium", crushed: 'create:crushed_raw_elementium' },
+        { main: "cloggrum", crushed: 'create:crushed_raw_cloggrum' },
+        { main: "froststeel", crushed: 'create:crushed_raw_froststeel' },
+        { main: "falsite", crushed: 'create:crushed_raw_falsite' },
+        { main: "ventium", crushed: 'create:crushed_raw_ventium' },
+        { main: "horizonite", crushed: 'create:crushed_raw_horizonite' }
     ].forEach((mat) => {
         recipes.push(
             {
-                id: `raw_${mat.main}` ,
+                id: `raw_${mat.main}`,
                 output: [ThermalChanceItem(mat.crushed, 1, false), ThermalChanceItem(mat.secCrushed || "minecraft:air", 0.05)],
                 ingredients: parseIngredient(`#forge:raw_materials/${mat.main}`),
                 energy: 2000
             }
         )
-        if (mat.excludeore == true) {return}
+        if (mat.excludeore == true) { return }
         recipes.push(
             {
                 id: `${mat.main}_ore`,
@@ -148,13 +176,46 @@ ServerEvents.recipes(event => {
         'nephryx',
         'arcane_gold',
         'elementium',
-        'platinum'
+        'platinum',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'iesnium',
+        'cloggrum',
+        'froststeel',
+        'cast_iron',
+        'overcharged_iron',
+        'overcharged_gold',
+        'compressed_iron'
     ].forEach((mat) => {
         recipes.push(
             {
                 id: `${mat}_plate_to_dust`,
                 output: parseIngredient(TagToItem(`#forge:dusts/${mat}`)),
                 ingredients: parseIngredient(`#forge:plates/${mat}`),
+                energy: 2000
+            }
+        )
+    });
+
+    const QuartzAndPlatesToDusts = [
+        'rose',
+        'blue',
+        'psi',
+        'source',
+        'antimatter'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_quartz_to_dust`,
+                output: parseIngredient(TagToItem(`#forge:dusts/${mat}_quartz`)),
+                ingredients: parseIngredient(`#forge:polished_quartz/${mat}`),
+                energy: 2000
+            },
+            {
+                id: `${mat}_quartz_plate_to_dust`,
+                output: parseIngredient(TagToItem(`#forge:dusts/${mat}_quartz`)),
+                ingredients: parseIngredient(`#forge:plates/${mat}_quartz`),
                 energy: 2000
             }
         )

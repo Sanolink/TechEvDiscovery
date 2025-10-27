@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -25,6 +25,21 @@ ServerEvents.recipes(event => {
             id: "ender_pearl/to_dust",
             input: MekaParseIngredient("minecraft:ender_pearl"),
             output: parseIngredient("thermal:ender_pearl_dust")
+        },
+        {
+            id: "petcoke/to_dust",
+            input: MekaParseIngredient("immersivepetroleum:petcoke"),
+            output: parseIngredient("immersivepetroleum:petcoke_dust")
+        },
+        {
+            id: "soul_sand/to_dust",
+            input: MekaParseIngredient("minecraft:soul_sand"),
+            output: parseIngredient("thermal_extra:soul_sand_dust")
+        },
+        {
+            id: "coal_coke/to_dust",
+            input: MekaParseIngredient("immersiveengineering:coal_coke"),
+            output: parseIngredient("immersiveengineering:dust_coke")
         }
     ]
 
@@ -61,7 +76,10 @@ ServerEvents.recipes(event => {
         'froststeel',
         'falsite',
         'ventium',
-        'horizonite'
+        'horizonite',
+        'shellite',
+        'twinite',
+        'hop_graphite'
     ].forEach(mat => {
         recipes.push(
             {
@@ -79,7 +97,8 @@ ServerEvents.recipes(event => {
         'apatite',
         'sulfur',
         'ruby',
-        'amethyst'
+        'amethyst',
+        'niter'
     ].forEach(mat => {
         recipes.push(
             {

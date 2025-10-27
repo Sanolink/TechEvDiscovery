@@ -1,0 +1,37 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "type": "forge:nbt",
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": {
+                "EntityTag": {
+                    "type": "productivebees:refined_glowstone"
+                }
+            }
+        }
+    ],
+    "results": [
+        {
+            "item": "mekanism:ingot_refined_glowstone"
+        },
+        {
+            "item": "productivebees:wax"
+        },
+        {
+            "fluid": "productivebees:honey",
+            "amount": 50
+        }
+    ],
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ]
+}

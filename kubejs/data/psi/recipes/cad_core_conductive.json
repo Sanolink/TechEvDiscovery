@@ -5,7 +5,7 @@
       "tag": "forge:dusts/lumium"
     },
     "I": {
-      "tag": "forge:ingots/psimetal"
+      "item": "create_things_and_misc:psi_quartz_sheet"
     },
     "C": {
       "item": "psi:cad_core_basic"

@@ -13,8 +13,7 @@
     ],
     "results": [
         {
-            "item": "alltheores:iridium_nugget",
-            "count": 2,
+            "item": "alltheores:raw_iridium",
             "chance": 0.7
         },
         {

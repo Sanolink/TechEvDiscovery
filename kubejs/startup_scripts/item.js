@@ -124,7 +124,7 @@ StartupEvents.registry('item', e => {
     BasicItem('mekaevolution:enriched_thermonuclear', "Enriched Thermonuclear")
     
     BasicItem('mekanism:pellet_hypermatter', "§3Hypermatter Pellet")
-    BasicItem('mekanism:dust_refined_glowstone', "Refined Glowstone Dust")
+    BasicItem('mekanism:dust_refined_glowstone', "Refined Glowstone Dust").tag('forge:dusts').tag('forge:dusts/refined_glowstone')
     BasicItem('mekanism:enriched_ionium', "Enriched Ionium")
     BasicItem('mekanism:enriched_iridium', "Enriched Iridium")
     BasicItem('mekanism:enriched_lapis_lazuli', "Enriched Lapis Lazuli")

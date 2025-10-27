@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -25,26 +25,22 @@ ServerEvents.recipes(event => {
         {
             id:  "coal_coke_dust",
             output: parseIngredient("#forge:dusts/coal_coke"),
-            input: parseIngredient("#forge:coal_coke"),
-            ignore_crushing_multiplier: false
+            input: parseIngredient("#forge:coal_coke")
         },
         {
             id:  "coal_coke_dust_from_block",
             output: ChanceOrCountItem("immersiveengineering:dust_coke", 9),
-            input: parseIngredient("#forge:storage_blocks/coal_coke"),
-            ignore_crushing_multiplier: false
+            input: parseIngredient("#forge:storage_blocks/coal_coke")
         },
         {
             id:  "petcoke_dust",
             output: parseIngredient("#forge:dusts/coal_petcoke"),
-            input: parseIngredient("#forge:coal_petcoke"),
-            ignore_crushing_multiplier: false
+            input: parseIngredient("#forge:coal_petcoke")
         },
         {
             id:  "petcoke_dust_from_block",
             output: ChanceOrCountItem("immersivepetroleum:petcoke_dust", 9),
-            input: parseIngredient("#forge:storage_blocks/coal_petcoke"),
-            ignore_crushing_multiplier: false
+            input: parseIngredient("#forge:storage_blocks/coal_petcoke")
         },
         {
             id:  "niter_dust",
@@ -54,8 +50,7 @@ ServerEvents.recipes(event => {
         {
             id: "soul_sand_dust",
             output: parseIngredient("#forge:dusts/soul_sand"),
-            input: parseIngredient("minecraft:soul_sand"),
-            ignore_crushing_multiplier: false
+            input: parseIngredient("minecraft:soul_sand")
         },
         {
             id: "sky_stone_dust",
@@ -65,8 +60,23 @@ ServerEvents.recipes(event => {
         {
             id: "ender_pearl_dust",
             output: parseIngredient("#forge:dusts/ender_pearl"),
-            input: parseIngredient("#forge:ender_pearls"),
+            input: parseIngredient("#forge:ender_pearls")
+        },
+        {
+            id: "coal_dust",
+            output: parseIngredient("mekanism:dust_coal"),
+            input: parseIngredient("minecraft:coal")
+        },
+        {
+            id: "coal_dust_from_ore",
+            output: ChanceOrCountItem("mekanism:dust_coal", 2),
+            input: parseIngredient("#forge:ores/coal"),
             ignore_crushing_multiplier: false
+        },
+        {
+            id: "charcoal_dust",
+            output: parseIngredient("mekanism:dust_charcoal"),
+            input: parseIngredient("minecraft:charcoal")
         }
     ]
 
@@ -88,7 +98,10 @@ ServerEvents.recipes(event => {
         'froststeel',
         'falsite',
         'ventium',
-        'horizonite'
+        'horizonite',
+        'refined_glowstone',
+        'refined_obsidian',
+        'hop_graphite'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -137,7 +150,8 @@ ServerEvents.recipes(event => {
         "apatite",
         "sulfur",
         "cinnabar",
-        "niter"
+        "niter",
+        "fluorite"
     ].forEach((mat) => {
         recipes.push(
             {
@@ -154,9 +168,9 @@ ServerEvents.recipes(event => {
             type: 'occultism:crushing',
             ingredient: recipe.input,
             result: recipe.output,
-            min_tier: recipe.tier || -1,
-            crushing_time: recipe.time || 200,
-            ignore_crushing_multiplier: recipe.ignore_crushing_multiplier || true
+            min_tier: recipe.tier | -1,
+            crushing_time: recipe.time | 200,
+            ignore_crushing_multiplier: recipe.ignore_crushing_multiplier | true
         }
         event.custom(json).id(`occultism:crushing/${recipe.id}`)
     })

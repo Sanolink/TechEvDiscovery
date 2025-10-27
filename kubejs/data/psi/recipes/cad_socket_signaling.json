@@ -5,7 +5,7 @@
       "tag": "forge:dusts/signalum"
     },
     "I": {
-      "tag": "forge:ingots/psimetal"
+      "item": "create_things_and_misc:psi_quartz_sheet"
     },
     "S": {
       "item": "psi:cad_socket_basic"

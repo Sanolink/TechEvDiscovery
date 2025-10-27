@@ -58,6 +58,18 @@ ServerEvents.recipes(event => {
             energy: 2000
         },
         {
+            id:  "coal_to_dust",
+            output: parseIngredient('mekanism:dust_coal'),
+            ingredients: parseIngredient("minecraft:coal"),
+            energy: 2000
+        },
+        {
+            id:  "charcoal_to_dust",
+            output: parseIngredient('mekanism:dust_charcoal'),
+            ingredients: parseIngredient("minecraft:charcoal"),
+            energy: 2000
+        },
+        {
             id: `experience_to_dust`,
             output: parseIngredient('create_things_and_misc:experience_dust'),
             ingredients: parseIngredient('create:experience_nugget'),
@@ -101,6 +113,9 @@ ServerEvents.recipes(event => {
         'falsite',
         'ventium',
         'horizonite',
+        'refined_glowstone',
+        'refined_obsidian',
+        'hop_graphite',
         'cast_iron',
         'overcharged_iron',
         'overcharged_gold',
@@ -226,7 +241,8 @@ ServerEvents.recipes(event => {
         "certus_quartz",
         "sapphire",
         "peridot",
-        "ruby"
+        "ruby",
+        "fluorite"
     ].forEach((mat) => {
         recipes.push(
             {

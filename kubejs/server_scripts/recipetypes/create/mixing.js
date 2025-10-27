@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.12        (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -21,21 +21,42 @@ ServerEvents.recipes(event => {
 
 
     //Replace
+    let excludedIds = [
+        "productivebees:create/mixing/spirit/honeycomb_spirit",
+        "productivebees:create/mixing/honeycomb_prismarine",
+        "productivebees:create/mixing/iceandfire/honeycomb_fire_dragonsteel",
+        "productivebees:create/mixing/iceandfire/honeycomb_ice_dragonsteel",
+        "productivebees:create/mixing/iceandfire/honeycomb_lightning_dragonsteel"
+    ]
     event.forEachRecipe({ type: "create:mixing" }, recipe => {
-        let results = recipe.json.get("results")
-        results.forEach((/** @type {Internal.JsonObject} */ result) => {
-            if (result.has("fluid") && result.get("fluid").getAsString() == "productivebees:honey") {
-                result.add("fluid", "create:honey");
-                if (recipe.getId() != "productivebees:create/mixing/honeycomb") {
-                    result.add("amount", 50);
+        if (recipe.getId().includes("productivebees:create/")) {
+            let foundWax = false
+            let parsedFluid = false
+            let newResults = []
+            let results = recipe.json.get("results")
+            results.forEach((/** @type {Internal.JsonObject} */ result) => {
+                newResults.push(result)
+                if (result.has("item") && result.get("item").getAsString() == "productivebees:wax") foundWax = true
+                if (result.has("fluid")) {
+                    parsedFluid = true
+                    if (result.get("fluid").getAsString() == "productivebees:honey") {
+                        result.add("fluid", "create:honey");
+                        if (recipe.getId() != "productivebees:create/mixing/honeycomb") {
+                            result.add("amount", 50);
+                        } else result.add("amount", 250)
+                    } else if (recipe.getId() != "productivebees:create/mixing/honeycomb_experience") result.add("amount", 250)
                 }
-            }
-            if (recipe.getId().includes("honeycomb")) {
-                result.remove("chance")
-            }
-        })
-        event.remove({ id: recipe.getId() });
-        event.custom(recipe.json).id(recipe.getId());
+                if (recipe.getId().includes("honeycomb")) {
+                    result.remove("chance")
+                }
+            })
+            if (!foundWax) newResults.push(parseIngredient("productivebees:wax"))
+            if (!parsedFluid && !excludedIds.includes(recipe.getId())) newResults.push(FluidWithCount("create:honey", 50))
+            if (!parsedFluid || !foundWax) recipe.json.add("results", newResults)
+
+            event.remove({ id: recipe.getId() });
+            event.custom(recipe.json).id(recipe.getId());
+        }
     })
 
     //Recipes 
@@ -223,10 +244,10 @@ ServerEvents.recipes(event => {
 
     basicComb("fluix", 'ae2:fluix_crystal')
     basicComb("peridot", 'alltheores:peridot')
-    basicComb("desh", 'ad_astra:desh_ingot')
-    basicComb("ostrum", 'ad_astra:ostrum_ingot')
-    basicComb("calorite", 'ad_astra:calorite_ingot')
-    basicComb("platinum", 'alltheores:platinum_ingot')
+    basicComb("desh", 'ad_astra:raw_desh')
+    basicComb("ostrum", 'ad_astra:raw_ostrum')
+    basicComb("calorite", 'ad_astra:raw_calorite')
+    basicComb("platinum", 'alltheores:raw_platinum')
     basicComb("fluorite", 'mekanism:fluorite_gem')
     basicComb("ametrine", 'byg:ametrine_gems')
     basicComb("aeric", 'botania:ender_air_bottle')
@@ -237,9 +258,9 @@ ServerEvents.recipes(event => {
     basicComb("gaia", 'botania:life_essence')
     basicComb("geotic", 'minecraft:clay_ball')
     basicComb("hop_graphite", 'immersiveengineering:ingot_hop_graphite')
-    basicComb("ironwood", 'twilightforest:ironwood_ingot')
+    basicComb("ironwood", 'twilightforest:raw_ironwood')
     basicComb("knightmetal", 'twilightforest:knightmetal_ingot')
-    basicComb("nephryx", 'ad_astra:nephryx_ingot')
+    basicComb("nephryx", 'ad_astra:raw_nephryx')
     basicComb("piggy", 'minecraft:porkchop')
     basicComb("rabbit", 'minecraft:rabbit_foot')
     basicComb("sheep", 'minecraft:mutton')

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -85,6 +85,11 @@ ServerEvents.recipes(event => {
             id: "polished_antimatter_quartz",
             input: MekaParseIngredient('create:antimatter_quartz'),
             output: parseIngredient('create:polished_antimatter_quartz'),
+        },
+        {
+            id: "enriched_osmium",
+            input: MekaParseIngredient('alltheores:osmium_ingot'),
+            output: parseIngredient('mekanism:enriched_osmium'),
         }
     ]
 

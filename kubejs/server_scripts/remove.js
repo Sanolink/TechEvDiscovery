@@ -371,6 +371,8 @@ ServerEvents.recipes(event => {
 
     //Occultism
     event.remove({ id: 'occultism:miner/ores/prosperity_ore'})
+    event.remove({ id: 'occultism:crushing/iesnium_dust'})
+    event.remove({ id: 'occultism:miner/debug_wand'})
     
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})
@@ -399,6 +401,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'productivebees:bottler/miners_tea'})
     event.remove({ id: 'productivebees:centrifuge/dusts/comb_blazing'})
     event.remove({ id: 'productivebees:centrifuge/honeycomb_frosty'})
+    event.remove({ id: 'productivebees:centrifuge/honeycomb_obsidian_dust'})
     event.remove({ id: 'productivebees:centrifuge/ingots/honeycomb_bismuth_dust'})
     event.remove({ id: 'productivebees:centrifuge/ingots/honeycomb_titanium_dust'})
     event.remove({ id: 'productivebees:centrifuge/ingots/honeycomb_tungsten_dust'})

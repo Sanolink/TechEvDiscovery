@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "D": {
-      "tag": "forge:ingots/psimetal"
+      "item": "create_things_and_misc:psi_quartz_sheet"
     },
     "B": {
       "item": "psi:cad_battery_basic"

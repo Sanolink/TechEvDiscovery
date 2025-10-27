@@ -94,6 +94,97 @@
 			x: -4.0d
 			y: 0.0d
 		}
+		{
+			click: ""
+			color: 16733558
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "forbidden_arcanus:block/dark_nether_star_block"
+			rotation: 45.0d
+			width: 8.0d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			color: 16733558
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "minecraft:textures/misc/powder_snow_outline.png"
+			rotation: 45.0d
+			width: 8.0d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "artifacts:item/night_vision_goggles"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "artifacts:item/universal_attractor"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "artifacts:item/eternal_steak"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "artifacts:item/running_shoes"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			color: 0
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 10.0d
+			y: 0.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -1155,8 +1246,8 @@
 				type: "checkmark"
 			}]
 			title: "&lArtifacts"
-			x: 0.0d
-			y: -8.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1172,8 +1263,8 @@
 				item: "artifacts:umbrella"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1197,8 +1288,8 @@
 				}
 			]
 			title: "Eternal Steak"
-			x: 0.0d
-			y: -12.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1214,8 +1305,8 @@
 				item: "artifacts:plastic_drinking_hat"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.0d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1231,8 +1322,8 @@
 				item: "artifacts:novelty_drinking_hat"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -8.5d
+			x: 12.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1248,8 +1339,8 @@
 				item: "artifacts:snorkel"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.5d
+			x: 12.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1265,8 +1356,8 @@
 				item: "artifacts:night_vision_goggles"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1282,8 +1373,8 @@
 				item: "artifacts:villager_hat"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.5d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1299,8 +1390,8 @@
 				item: "artifacts:superstitious_hat"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1316,8 +1407,8 @@
 				item: "artifacts:lucky_scarf"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -10.0d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1333,8 +1424,8 @@
 				item: "artifacts:scarf_of_invisibility"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -9.5d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1350,8 +1441,8 @@
 				item: "artifacts:cross_necklace"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -10.5d
+			x: 11.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1367,8 +1458,8 @@
 				item: "artifacts:panic_necklace"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -10.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1384,8 +1475,8 @@
 				item: "artifacts:shock_pendant"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -10.0d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1401,8 +1492,8 @@
 				item: "artifacts:flame_pendant"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -10.5d
+			x: 8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1418,8 +1509,8 @@
 				item: "artifacts:thorn_pendant"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -10.0d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1435,8 +1526,8 @@
 				item: "artifacts:charm_of_sinking"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -9.5d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1452,8 +1543,8 @@
 				item: "artifacts:cloud_in_a_bottle"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1469,8 +1560,8 @@
 				item: "artifacts:obsidian_skull"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.5d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1486,8 +1577,8 @@
 				item: "artifacts:antidote_vessel"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -7.0d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1503,8 +1594,8 @@
 				item: "artifacts:universal_attractor"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1520,8 +1611,8 @@
 				item: "artifacts:crystal_heart"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -8.5d
+			x: 7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1537,8 +1628,8 @@
 				item: "artifacts:helium_flamingo"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -9.0d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1554,8 +1645,8 @@
 				item: "artifacts:digging_claws"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
+			x: 8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1571,8 +1662,8 @@
 				item: "artifacts:feral_claws"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -6.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1588,8 +1679,8 @@
 				item: "artifacts:power_glove"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.5d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1605,8 +1696,8 @@
 				item: "artifacts:fire_gauntlet"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.5d
+			x: 10.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1622,8 +1713,8 @@
 				item: "artifacts:pocket_piston"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1639,8 +1730,8 @@
 				item: "artifacts:vampiric_glove"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1656,8 +1747,8 @@
 				item: "artifacts:golden_hook"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: 11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1673,8 +1764,8 @@
 				item: "artifacts:aqua_dashers"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -10.5d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1690,8 +1781,8 @@
 				item: "artifacts:bunny_hoppers"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1707,8 +1798,8 @@
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -10.5d
+			x: 10.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1724,8 +1815,8 @@
 				item: "artifacts:running_shoes"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -11.0d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1741,8 +1832,8 @@
 				item: "artifacts:steadfast_spikes"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -11.5d
+			x: 12.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1758,8 +1849,8 @@
 				item: "artifacts:flippers"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -11.5d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["18CE981944C7017B"]
@@ -1775,8 +1866,8 @@
 				item: "artifacts:whoopee_cushion"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.0d
+			x: 12.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["&lSecret Artifacts"]

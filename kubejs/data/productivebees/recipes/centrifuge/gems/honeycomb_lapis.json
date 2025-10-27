@@ -1,0 +1,33 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:lapis"
+            }
+        }
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:gems/lapis"
+            },
+            "min": 2,
+            "max": 2,
+            "chance": 50
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        },
+        {
+            "fluid": {
+                "fluid": "productivebees:honey"
+            },
+            "amount": 50
+        }
+    ]
+}

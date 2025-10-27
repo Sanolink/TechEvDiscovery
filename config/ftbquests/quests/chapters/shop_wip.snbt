@@ -207,7 +207,7 @@
 			image: "sushigocrafting:block/roller"
 			rotation: 90.0d
 			width: 3.0d
-			x: 0.0d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -219,7 +219,7 @@
 			image: "ftbquests:item/lootcrate/top_outline"
 			rotation: 0.0d
 			width: 3.0d
-			x: 0.0d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -352,7 +352,7 @@
 			image: "sushigocrafting:item/book"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -364,7 +364,7 @@
 			image: "sushigocrafting:item/cleaver_knife"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -376,7 +376,7 @@
 			image: "sushigocrafting:item/california/salmon_cucumber_california"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -388,7 +388,7 @@
 			image: "sushigocrafting:item/onigiri/onigiri"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
+			x: -4.0d
 			y: 3.0d
 		}
 		{
@@ -428,6 +428,80 @@
 			width: 3.5d
 			x: 16.0d
 			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "skilltree:textures/icons/miner_subclass_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "forbidden_arcanus:item/stellarite_piece"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/etherium_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/netherite_scrap"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "forbidden_arcanus:textures/block/arcane_darkstone_pedestal_top.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:item/lootcrate/top_outline"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 	order_index: 1
@@ -543,7 +617,7 @@
 				type: "item"
 			}]
 			title: "&lSushi"
-			x: 0.0d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -1442,6 +1516,30 @@
 			title: "&l&5Fluix"
 			x: 14.5d
 			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: "forbidden_arcanus:stella_arcanum"
+			id: "6F10C2AE304D5745"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "153DC4898B81177C"
+				table_id: 3638482613409623586L
+				team_reward: true
+				type: "choice"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7140C8FC3E04E181"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "&lOre"
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 	title: "&l&a[Market]"

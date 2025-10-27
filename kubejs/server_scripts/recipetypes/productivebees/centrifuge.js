@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -23,11 +23,15 @@ ServerEvents.recipes(event => {
     //Replace
     let excludedIds = [
         "productivebees:centrifuge/spirit/honeycomb_spirit",
-        "productivebees:centrifuge/honeycomb_prismarine"
+        "productivebees:centrifuge/honeycomb_prismarine",
+        "productivebees:centrifuge/iceandfire/honeycomb_fire_dragonsteel",
+        "productivebees:centrifuge/iceandfire/honeycomb_ice_dragonsteel",
+        "productivebees:centrifuge/iceandfire/honeycomb_lightning_dragonsteel"
     ]
     event.forEachRecipe({ type: "productivebees:centrifuge" }, recipe => {
         let outputs = recipe.json.get("outputs").getAsJsonArray()
         let newOutputs = []
+        let foundWax = false
         let parsedFluid = false
         outputs.forEach((/** @type {Internal.JsonObject} */ output) => {
             newOutputs.push(output)
@@ -35,6 +39,27 @@ ServerEvents.recipes(event => {
                 output.remove("chance")
                 if (output.has("min") && output.has("max")) {
                     output.add("min", output.get("max"))
+                }
+                let item = output.get("item")
+                if (item.has("tag")) {
+                    let tagStr = item.get("tag").getAsString()
+                    if (tagStr.startsWith("forge:dusts/")) {
+                        let material = tagStr.split("/")[1]
+                        let replacementTags = [
+                            `forge:raw_materials/${material}`,
+                            `forge:ingots/${material}`,
+                            `forge:gems/${material}`
+                        ]
+                        for (let tag of replacementTags) {
+                            let ingr = Ingredient.of(`#${tag}`)
+                            if (ingr.getItemIds() && ingr.getItemIds().length > 0) {
+                                item.add("tag", tag)
+                                break
+                            }
+                        }
+                    }
+
+                    if (item.get("tag").getAsString() == "forge:wax") foundWax = true
                 }
             }
             if (output.has("fluid")) {
@@ -44,16 +69,15 @@ ServerEvents.recipes(event => {
                     fluid.add("fluid", "create:honey");
                     if (recipe.getId() != "productivebees:centrifuge/honeycomb") {
                         output.add("amount", 50);
-                    }
-                }
+                    } else output.add("amount", 250)
+                } else if (recipe.getId() != "productivebees:centrifuge/honeycomb_experience_fluid") output.add("amount", 250)
             }
         })
 
-        if (!parsedFluid && !excludedIds.includes(recipe.getId())) {
-            newOutputs.push(BeeFluidWithCount("create:honey", 50))
-            recipe.json.add("outputs", newOutputs);
-        }
-
+        if (!foundWax) newOutputs.push(BeeParseIngredient("#forge:wax"))
+        if (!parsedFluid && !excludedIds.includes(recipe.getId())) newOutputs.push(BeeFluidWithCount("create:honey", 50))
+        if (!parsedFluid || !foundWax) recipe.json.add("outputs", newOutputs)
+            
         event.remove({ id: recipe.getId() });
         event.custom(recipe.json).id(recipe.getId());
     })
@@ -94,7 +118,7 @@ ServerEvents.recipes(event => {
         )
     }
 
-    //General Centrifuge Function (TO DO)
+    //General Centrifuge Function
     recipes.forEach(recipe => {
         let json = {
             type: 'productivebees:centrifuge',
@@ -104,43 +128,3 @@ ServerEvents.recipes(event => {
         event.custom(json).id(`productivebees:centrifuge/${recipe.id}`)
     })
 })
-
-/*
-{
-    "type": "productivebees:centrifuge",
-    "ingredient": {
-        "type": "forge:nbt",
-        "item": "productivebees:configurable_honeycomb",
-        "nbt": {
-            "EntityTag": {
-                "type": "productivebees:arcane"
-            }
-        }
-    },
-    "outputs": [
-        {
-            "item": {
-                "tag": "forge:gems/source"
-            },
-            "chance": 50
-        },
-        {
-            "item": {
-                "tag": "forge:wax"
-            }
-        },
-        {
-            "fluid": {
-                "fluid": "productivebees:honey"
-            },
-            "amount": 50
-        }
-    ],
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "ars_nouveau"
-        }
-    ]
-}
-*/

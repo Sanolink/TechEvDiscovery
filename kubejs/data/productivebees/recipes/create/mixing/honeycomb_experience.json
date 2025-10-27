@@ -6,22 +6,18 @@
             "item": "productivebees:configurable_honeycomb",
             "nbt": {
                 "EntityTag": {
-                    "type": "productivebees:tin"
+                    "type": "productivebees:experience"
                 }
             }
         }
     ],
     "results": [
         {
-            "item": "alltheores:raw_tin",
-            "chance": 0.4
+            "fluid": "create_enchantment_industry:experience",
+            "amount": 10
         },
         {
             "item": "productivebees:wax"
-        },
-        {
-            "fluid": "productivebees:honey",
-            "amount": 50
         }
     ],
     "heatRequirement": "heated",
@@ -29,10 +25,6 @@
         {
             "type": "forge:mod_loaded",
             "modid": "create"
-        },
-        {
-            "type": "forge:mod_loaded",
-            "modid": "thermal"
         }
     ]
 }

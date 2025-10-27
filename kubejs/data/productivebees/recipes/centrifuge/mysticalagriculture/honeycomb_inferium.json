@@ -1,0 +1,31 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:inferium"
+            }
+        }
+    },
+    "outputs": [
+        {
+            "fluid": {
+                "fluid": "mysticalagradditions:molten_inferium"
+            },
+            "amount": 250
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

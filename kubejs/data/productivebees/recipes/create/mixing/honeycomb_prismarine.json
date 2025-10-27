@@ -6,22 +6,19 @@
             "item": "productivebees:configurable_honeycomb",
             "nbt": {
                 "EntityTag": {
-                    "type": "productivebees:tin"
+                    "type": "productivebees:prismarine"
                 }
             }
         }
     ],
     "results": [
         {
-            "item": "alltheores:raw_tin",
-            "chance": 0.4
+            "item": "minecraft:prismarine_shard",
+            "chance": 0.2
         },
         {
-            "item": "productivebees:wax"
-        },
-        {
-            "fluid": "productivebees:honey",
-            "amount": 50
+            "item": "minecraft:prismarine_crystals",
+            "chance": 0.05
         }
     ],
     "heatRequirement": "heated",
@@ -29,10 +26,6 @@
         {
             "type": "forge:mod_loaded",
             "modid": "create"
-        },
-        {
-            "type": "forge:mod_loaded",
-            "modid": "thermal"
         }
     ]
 }

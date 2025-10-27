@@ -6,14 +6,14 @@
             "item": "productivebees:configurable_honeycomb",
             "nbt": {
                 "EntityTag": {
-                    "type": "productivebees:tin"
+                    "type": "productivebees:copper"
                 }
             }
         }
     ],
     "results": [
         {
-            "item": "alltheores:raw_tin",
+            "item": "minecraft:raw_copper",
             "chance": 0.4
         },
         {
@@ -29,10 +29,6 @@
         {
             "type": "forge:mod_loaded",
             "modid": "create"
-        },
-        {
-            "type": "forge:mod_loaded",
-            "modid": "thermal"
         }
     ]
 }

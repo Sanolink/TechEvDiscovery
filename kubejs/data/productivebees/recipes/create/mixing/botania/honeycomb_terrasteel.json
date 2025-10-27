@@ -6,15 +6,16 @@
             "item": "productivebees:configurable_honeycomb",
             "nbt": {
                 "EntityTag": {
-                    "type": "productivebees:tin"
+                    "type": "productivebees:terrasteel"
                 }
             }
         }
     ],
     "results": [
         {
-            "item": "alltheores:raw_tin",
-            "chance": 0.4
+            "item": "botania:terrasteel_nugget",
+            "count": 2,
+            "chance": 0.3
         },
         {
             "item": "productivebees:wax"
@@ -32,7 +33,7 @@
         },
         {
             "type": "forge:mod_loaded",
-            "modid": "thermal"
+            "modid": "botania"
         }
     ]
 }

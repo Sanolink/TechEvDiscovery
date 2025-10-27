@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -128,6 +128,7 @@ StartupEvents.registry('item', e => {
     BasicItem('mekanism:enriched_ionium', "Enriched Ionium")
     BasicItem('mekanism:enriched_iridium', "Enriched Iridium")
     BasicItem('mekanism:enriched_lapis_lazuli', "Enriched Lapis Lazuli")
+    BasicItem('mekanism:enriched_osmium', "Enriched Osmium")
     BasicItem('mekanism:enriched_psimetal', "Enriched Psimetal")
     BasicItem('mekanism:enriched_source', "Enriched Source")
     BasicItem('mekanism:crystal_hypernitro', "Hypernitro Crystal")

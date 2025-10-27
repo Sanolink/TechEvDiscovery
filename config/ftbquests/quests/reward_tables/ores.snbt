@@ -1,0 +1,44 @@
+{
+	icon: "forbidden_arcanus:stella_arcanum"
+	id: "327E7CA8CDB72E22"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 64, item: "minecraft:coal_ore", random_bonus: 32 }
+		{ count: 64, item: "minecraft:iron_ore", random_bonus: 32 }
+		{ count: 64, item: "minecraft:copper_ore", random_bonus: 32 }
+		{ count: 64, item: "minecraft:gold_ore", random_bonus: 32 }
+		{ count: 64, item: "minecraft:redstone_ore", random_bonus: 32 }
+		{ count: 64, item: "minecraft:emerald_ore", random_bonus: 32 }
+		{ count: 64, item: "minecraft:lapis_ore", random_bonus: 32 }
+		{ count: 64, item: "minecraft:diamond_ore", random_bonus: 32 }
+		{ count: 64, item: "minecraft:nether_quartz_ore", random_bonus: 32 }
+		{ count: 64, item: "powah:uraninite_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:aluminum_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:lead_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:nickel_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:osmium_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:platinum_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:silver_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:tin_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:uranium_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:zinc_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:iridium_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:ruby_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:peridot_ore", random_bonus: 32 }
+		{ count: 64, item: "alltheores:sapphire_ore", random_bonus: 32 }
+		{ count: 64, item: "thermal:cinnabar_ore", random_bonus: 32 }
+		{ count: 64, item: "thermal:niter_ore", random_bonus: 32 }
+		{ count: 64, item: "thermal:sulfur_ore", random_bonus: 32 }
+		{ count: 64, item: "byg:ametrine_ore", random_bonus: 32 }
+		{ count: 64, item: "byg:pendorite_ore", random_bonus: 32 }
+		{ count: 64, item: "byg:emeraldite_ore", random_bonus: 32 }
+		{ count: 64, item: "byg:anthracite_ore", random_bonus: 32 }
+		{ count: 64, item: "forbidden_arcanus:arcane_crystal_ore", random_bonus: 32 }
+		{ count: 64, item: "forbidden_arcanus:xpetrified_ore", random_bonus: 32 }
+		{ count: 64, item: "minecraft:ancient_debris", random_bonus: 32 }
+		{ count: 2, item: "forbidden_arcanus:stella_arcanum", random_bonus: 2 }
+		{ count: 64, item: "create_new_age:magnetite_block", random_bonus: 32 }
+	]
+	title: "Ores"
+}

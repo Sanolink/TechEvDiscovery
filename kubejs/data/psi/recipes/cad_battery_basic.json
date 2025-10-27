@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "D": {
-      "item": "create_things_and_misc:psi_quartz_sheet"
+      "item": "psi:psidust"
     },
     "G": {
       "tag": "forge:ingots/gold"

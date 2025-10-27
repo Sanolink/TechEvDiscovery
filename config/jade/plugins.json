@@ -165,6 +165,9 @@
   "lootr": {
     "info": true
   },
+  "functionalstorage": {
+    "armory": true
+  },
   "productivebees": {
     "solitary_nest": true,
     "jar": true,

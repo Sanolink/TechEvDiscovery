@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -172,7 +172,7 @@ ServerEvents.recipes(event => {
         {
             id: "spell_bullet",
             output: parseIngredient("psi:spell_bullet"),
-            input: parseIngredient("create_things_and_misc:psi_quartz_sheet"),
+            input: parseIngredient("psi:psidust"),
             mold: "immersiveengineering:mold_bullet_casing"
         }
     ]

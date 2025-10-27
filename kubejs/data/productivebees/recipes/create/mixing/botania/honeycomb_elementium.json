@@ -6,15 +6,15 @@
             "item": "productivebees:configurable_honeycomb",
             "nbt": {
                 "EntityTag": {
-                    "type": "productivebees:tin"
+                    "type": "productivebees:elementium"
                 }
             }
         }
     ],
     "results": [
         {
-            "item": "alltheores:raw_tin",
-            "chance": 0.4
+            "item": "mythicbotany:raw_elementium",
+            "chance": 0.20
         },
         {
             "item": "productivebees:wax"
@@ -32,7 +32,7 @@
         },
         {
             "type": "forge:mod_loaded",
-            "modid": "thermal"
+            "modid": "botania"
         }
     ]
 }

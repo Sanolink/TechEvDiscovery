@@ -6,22 +6,22 @@
             "item": "productivebees:configurable_honeycomb",
             "nbt": {
                 "EntityTag": {
-                    "type": "productivebees:tin"
+                    "type": "productivebees:crystalline"
                 }
             }
         }
     ],
     "results": [
         {
-            "item": "alltheores:raw_tin",
-            "chance": 0.4
+            "item": "minecraft:quartz",
+            "count": 3
         },
         {
             "item": "productivebees:wax"
         },
         {
             "fluid": "productivebees:honey",
-            "amount": 50
+            "amount": 100
         }
     ],
     "heatRequirement": "heated",
@@ -31,8 +31,8 @@
             "modid": "create"
         },
         {
-            "type": "forge:mod_loaded",
-            "modid": "thermal"
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:crystalline"
         }
     ]
 }

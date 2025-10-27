@@ -6,15 +6,14 @@
             "item": "productivebees:configurable_honeycomb",
             "nbt": {
                 "EntityTag": {
-                    "type": "productivebees:tin"
+                    "type": "productivebees:refined_glowstone"
                 }
             }
         }
     ],
     "results": [
         {
-            "item": "alltheores:raw_tin",
-            "chance": 0.4
+            "item": "mekanism:ingot_refined_glowstone"
         },
         {
             "item": "productivebees:wax"
@@ -32,7 +31,7 @@
         },
         {
             "type": "forge:mod_loaded",
-            "modid": "thermal"
+            "modid": "mekanism"
         }
     ]
 }

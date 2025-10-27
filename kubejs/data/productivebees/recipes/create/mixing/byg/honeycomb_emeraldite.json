@@ -6,18 +6,16 @@
             "item": "productivebees:configurable_honeycomb",
             "nbt": {
                 "EntityTag": {
-                    "type": "productivebees:tin"
+                    "type": "productivebees:emeraldite"
                 }
             }
         }
     ],
     "results": [
         {
-            "item": "alltheores:raw_tin",
-            "chance": 0.4
-        },
-        {
-            "item": "productivebees:wax"
+            "item": "byg:emeraldite_shards",
+            "count": 3,
+            "chance": 0.3
         },
         {
             "fluid": "productivebees:honey",
@@ -32,7 +30,11 @@
         },
         {
             "type": "forge:mod_loaded",
-            "modid": "thermal"
+            "modid": "byg"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:emeraldite"
         }
     ]
 }

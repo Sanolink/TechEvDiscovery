@@ -27,6 +27,21 @@ ServerEvents.recipes(event => {
             output: parseIngredient("thermal:ender_pearl_dust")
         },
         {
+            id: "petcoke/to_dust",
+            input: MekaParseIngredient("immersivepetroleum:petcoke"),
+            output: parseIngredient("immersivepetroleum:petcoke_dust")
+        },
+        {
+            id: "soul_sand/to_dust",
+            input: MekaParseIngredient("minecraft:soul_sand"),
+            output: parseIngredient("thermal_extra:soul_sand_dust")
+        },
+        {
+            id: "coal_coke/to_dust",
+            input: MekaParseIngredient("immersiveengineering:coal_coke"),
+            output: parseIngredient("immersiveengineering:dust_coke")
+        },
+        {
             id: `experience/to_dust`,
             input: MekaParseIngredient('create:experience_nugget'),
             output: parseIngredient('create_things_and_misc:experience_dust')
@@ -72,6 +87,9 @@ ServerEvents.recipes(event => {
         'falsite',
         'ventium',
         'horizonite',
+        'shellite',
+        'twinite',
+        'hop_graphite',
         'cast_iron',
         'shellite',
         'twinite',
@@ -111,7 +129,8 @@ ServerEvents.recipes(event => {
         'apatite',
         'sulfur',
         'ruby',
-        'amethyst'
+        'amethyst',
+        'niter'
     ].forEach(mat => {
         recipes.push(
             {

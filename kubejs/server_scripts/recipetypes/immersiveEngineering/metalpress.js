@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
         {
             id: "spell_bullet",
             output: parseIngredient("psi:spell_bullet"),
-            input: parseIngredient("create_things_and_misc:psi_quartz_sheet"),
+            input: parseIngredient("psi:psidust"),
             mold: "immersiveengineering:mold_bullet_casing"
         }
     ]

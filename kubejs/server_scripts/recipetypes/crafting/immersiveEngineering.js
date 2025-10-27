@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -27,10 +27,10 @@ ServerEvents.recipes(event => {
             output: '2x immersiveengineering:light_engineering',
             pattern: ["SPS", "CGC", "SPS"],
             key: {
-                S:'immersiveengineering:sheetmetal_iron',
-                P:'create:positron_tube',
-                C:'immersiveengineering:component_iron',
-                G:'immersiveengineering:generator'
+                S: 'immersiveengineering:sheetmetal_iron',
+                P: 'create:positron_tube',
+                C: 'immersiveengineering:component_iron',
+                G: 'immersiveengineering:generator'
             }
         },
         //Radiator
@@ -39,9 +39,9 @@ ServerEvents.recipes(event => {
             output: '4x immersiveengineering:radiator',
             pattern: ["SCS", "CHC", "SCS"],
             key: {
-                S:'immersiveengineering:sheetmetal_steel',
-                C:'immersiveengineering:coil_lv',
-                H:'create_sa:heat_engine'
+                S: 'immersiveengineering:sheetmetal_steel',
+                C: 'immersiveengineering:coil_lv',
+                H: 'create_sa:heat_engine'
             }
         },
         //Heavy Engineering 
@@ -50,10 +50,10 @@ ServerEvents.recipes(event => {
             output: '2x immersiveengineering:heavy_engineering',
             pattern: ["SPS", "CRC", "SPS"],
             key: {
-                S:'immersiveengineering:sheetmetal_steel',
-                P:'create:positron_tube',
-                C:'immersiveengineering:component_steel',
-                R:'immersiveengineering:radiator'
+                S: 'immersiveengineering:sheetmetal_steel',
+                P: 'create:positron_tube',
+                C: 'immersiveengineering:component_steel',
+                R: 'immersiveengineering:radiator'
             }
         },
         //Redstone Engineering
@@ -62,10 +62,10 @@ ServerEvents.recipes(event => {
             output: '2x immersiveengineering:rs_engineering',
             pattern: ["SES", "RCR", "SES"],
             key: {
-                S:'immersiveengineering:sheetmetal_iron',
-                R:'immersiveengineering:wirecoil_redstone',
-                E:'create:electron_tube',
-                C:'immersiveengineering:coil_hv',
+                S: 'immersiveengineering:sheetmetal_iron',
+                R: 'immersiveengineering:wirecoil_redstone',
+                E: 'create:electron_tube',
+                C: 'immersiveengineering:coil_hv',
             }
         },
         //Applied Components Blueprint
@@ -74,9 +74,9 @@ ServerEvents.recipes(event => {
             output: Item.of('immersiveengineering:blueprint', '{blueprint:"appliedComponents"}'),
             pattern: [" C ", "BBB", "PPP"],
             key: {
-                C:'ae2:charged_certus_quartz_crystal',
-                B:'minecraft:blue_dye',
-                P:'minecraft:paper',
+                C: 'ae2:charged_certus_quartz_crystal',
+                B: 'minecraft:blue_dye',
+                P: 'minecraft:paper',
             }
         },
         {
@@ -87,6 +87,17 @@ ServerEvents.recipes(event => {
                 I: 'immersiveengineering:ingot_hop_graphite'
             }
         },
+        {
+            id: "immersiveengineering:blueprint_special_bullets",
+            output: Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'),
+            pattern: ["GSG", "BBB", "PPP"],
+            key: {
+                G: 'minecraft:gunpowder',
+                S: 'immersiveengineering:empty_shell',
+                B: 'minecraft:blue_dye',
+                P: 'minecraft:paper',
+            }
+        }
     ]
 
     const shapeless = [

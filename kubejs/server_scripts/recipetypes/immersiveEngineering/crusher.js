@@ -85,6 +85,16 @@ ServerEvents.recipes(event => {
             output: parseIngredient('ae2:sky_dust')
         },
         {
+            id: 'charcoal',
+            input: parseIngredient('minecraft:charcoal'),
+            output: parseIngredient('mekanism:dust_charcoal')
+        },
+        {
+            id: 'charcoal_block',
+            input: parseIngredient('thermal:charcoal_block'),
+            output: IEChanceOrCountIngredient('mekanism:dust_charcoal', 9)
+        },
+        {
             id: `experience_dust`,
             input: parseIngredient('create:experience_nugget'),
             output: parseIngredient('create_things_and_misc:experience_dust')
@@ -121,6 +131,9 @@ ServerEvents.recipes(event => {
         'falsite',
         'ventium',
         'horizonite',
+        'refined_glowstone',
+        'refined_obsidian',
+        'hop_graphite',
         'cast_iron',
         'overcharged_iron',
         'overcharged_gold',
@@ -161,7 +174,8 @@ ServerEvents.recipes(event => {
         'quartz',
         'ruby',
         'sapphire',
-        'sulfur'
+        'sulfur',
+        'fluorite'
     ]
     ingotsDusts.forEach(type => {
         recipes.push(

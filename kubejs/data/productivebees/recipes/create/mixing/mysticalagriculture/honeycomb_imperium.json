@@ -1,0 +1,34 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "type": "forge:nbt",
+            "item": "productivebees:configurable_honeycomb",
+            "nbt": {
+                "EntityTag": {
+                    "type": "productivebees:imperium"
+                }
+            }
+        }
+    ],
+    "results": [
+        {
+            "fluid": "mysticalagradditions:molten_imperium",
+            "amount": 250
+        },
+        {
+            "item": "productivebees:wax"
+        }
+    ],
+    "heatRequirement": "heated",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mysticalagriculture"
+        }
+    ]
+}

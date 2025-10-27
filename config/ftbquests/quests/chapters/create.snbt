@@ -357,7 +357,7 @@
 		}
 		{
 			dependencies: ["52BBDA297A691EF4"]
-			description: ["Throw potatos on your friends with this potato cannon."]
+			description: ["Throw potatoes on your friends with this potato cannon."]
 			id: "2C7D7B53ABFAC0E8"
 			rewards: [{
 				count: 16

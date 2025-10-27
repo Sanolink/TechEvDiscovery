@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -30,6 +30,7 @@ ServerEvents.recipes(event => {
     compressing("psi_quartz_plate_from_compressing_polished_psi_quartz", "create:polished_psi_quartz", "create_things_and_misc:psi_quartz_sheet", 1)
     compressing("source_quartz_plate_from_compressing_polished_source_quartz", "create:polished_source_quartz", "create_things_and_misc:source_quartz_sheet", 1)
     compressing("antimatter_quartz_plate_from_compressing_polished_antimatter_quartz", "create:polished_antimatter_quartz", "create_things_and_misc:antimatter_quartz_sheet", 1)
+    compressing("flux_dust_from_compressing_redstone", "minecraft:redstone", "fluxnetworks:flux_dust", 1)
 
     var CompressingPlates = [
         'alltheores:aluminum_plate',

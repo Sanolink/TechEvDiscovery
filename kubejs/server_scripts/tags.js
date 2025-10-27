@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -361,6 +361,11 @@ ServerEvents.tags('item', e => {
             e.add(`forge:soil_tier/${tier}`, `#forge:soil_tier/${tierNext}`)
         } else if (!farmlandNext) { break }
     }
+
+    // Curios
+    const CuriosBody = ['create:netherite_backtank', 'creategoggles:chainmail_backtank', 'creategoggles:diamond_backtank', 'creategoggles:golden_backtank', 'creategoggles:iron_backtank', 'creategoggles:leather_backtank']
+    e.add('curios:body', CuriosBody)
+
 })
 
 ServerEvents.tags("block", e => {

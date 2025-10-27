@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -56,6 +56,18 @@ ServerEvents.recipes(event => {
             output: parseIngredient('ae2:sky_dust'),
             ingredients: parseIngredient("ae2:sky_stone_block"),
             energy: 2000
+        },
+        {
+            id:  "coal_to_dust",
+            output: parseIngredient('mekanism:dust_coal'),
+            ingredients: parseIngredient("minecraft:coal"),
+            energy: 2000
+        },
+        {
+            id:  "charcoal_to_dust",
+            output: parseIngredient('mekanism:dust_charcoal'),
+            ingredients: parseIngredient("minecraft:charcoal"),
+            energy: 2000
         }
     ]
 
@@ -76,7 +88,10 @@ ServerEvents.recipes(event => {
         'froststeel',
         'falsite',
         'ventium',
-        'horizonite'
+        'horizonite',
+        'refined_glowstone',
+        'refined_obsidian',
+        'hop_graphite'
     ].forEach((mat) => {
         recipes.push(
             {
@@ -165,7 +180,8 @@ ServerEvents.recipes(event => {
         "certus_quartz",
         "sapphire",
         "peridot",
-        "ruby"
+        "ruby",
+        "fluorite"
     ].forEach((mat) => {
         recipes.push(
             {

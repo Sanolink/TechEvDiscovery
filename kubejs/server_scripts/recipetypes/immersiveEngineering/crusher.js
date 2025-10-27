@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.13        (_____)
 
 */
 
@@ -83,6 +83,16 @@ ServerEvents.recipes(event => {
             id: 'sky_stone',
             input: parseIngredient('ae2:sky_stone_block'),
             output: parseIngredient('ae2:sky_dust')
+        },
+        {
+            id: 'charcoal',
+            input: parseIngredient('minecraft:charcoal'),
+            output: parseIngredient('mekanism:dust_charcoal')
+        },
+        {
+            id: 'charcoal_block',
+            input: parseIngredient('thermal:charcoal_block'),
+            output: IEChanceOrCountIngredient('mekanism:dust_charcoal', 9)
         }
     ]
 
@@ -110,7 +120,10 @@ ServerEvents.recipes(event => {
         'froststeel',
         'falsite',
         'ventium',
-        'horizonite'
+        'horizonite',
+        'refined_glowstone',
+        'refined_obsidian',
+        'hop_graphite'
     ]
     const RawOresCrushed = [
         'desh',
@@ -140,7 +153,8 @@ ServerEvents.recipes(event => {
         'quartz',
         'ruby',
         'sapphire',
-        'sulfur'
+        'sulfur',
+        'fluorite'
     ]
     ingotsDusts.forEach(type => {
         recipes.push(

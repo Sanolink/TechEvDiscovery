@@ -334,6 +334,8 @@ ServerEvents.recipes(event => {
 
     //Occultism
     event.remove({ id: 'occultism:miner/ores/prosperity_ore'})
+    event.remove({ id: 'occultism:crushing/iesnium_dust'})
+    event.remove({ id: 'occultism:miner/debug_wand'})
     
     //Pneumatic Craft
     event.remove({ id: 'pneumaticcraft:compressed_iron_gear'})

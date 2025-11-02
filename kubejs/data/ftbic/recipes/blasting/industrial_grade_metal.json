@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "ingredient": {
+    "tag": "forge:ingots/titanium"
+  },
+  "result": "ftbic:industrial_grade_metal"
+}

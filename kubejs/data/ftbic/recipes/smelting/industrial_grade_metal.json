@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 400,
+  "experience": 0.0,
+  "ingredient": {
+    "tag": "forge:ingots/titanium"
+  },
+  "result": "ftbic:industrial_grade_metal"
+}

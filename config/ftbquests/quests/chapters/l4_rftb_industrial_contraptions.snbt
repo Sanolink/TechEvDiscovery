@@ -5,118 +5,126 @@
 	group: "3818CF066B02A8FF"
 	icon: "ftbic:iridium_circuit"
 	id: "61E6211CFB2A5E68"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbic:textures/block/electric/dark/template/nuclear_reactor_top.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.535714285714285d
+			y: -5.875d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbic:item/singularity_ash"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -4.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["495D87F028AA6165"]
+			hide_dependency_lines: true
 			id: "3F35FFC023B6542A"
+			shape: "circle"
 			tasks: [{
 				id: "29F795555A06120D"
 				item: "ftbic:lv_cable"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3F35FFC023B6542A"]
 			id: "7EA3DCC778031059"
+			shape: "circle"
 			tasks: [{
 				id: "067AA473413BD98C"
 				item: "ftbic:mv_cable"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7EA3DCC778031059"]
 			id: "75C20396517F0E77"
+			shape: "circle"
 			tasks: [{
 				id: "0C584B5BDE0B92A3"
 				item: "ftbic:hv_cable"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["75C20396517F0E77"]
 			id: "09B0717CACB9E9F9"
+			shape: "circle"
 			tasks: [{
 				id: "1046E2839AE5AE29"
 				item: "ftbic:ev_cable"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 12.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["09B0717CACB9E9F9"]
 			id: "37B82D0FEDD018E9"
+			shape: "circle"
 			tasks: [{
 				id: "1D3B6CAC9F46EEF5"
 				item: "ftbic:iv_cable"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 12.0d
+			y: -7.0d
 		}
 		{
+			dependencies: ["0EE9B6F78ACC5E0E"]
 			id: "495D87F028AA6165"
+			size: 1.5d
 			tasks: [{
 				id: "59BC21FB9D084FA5"
 				item: "ftbic:machine_block"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			title: "&lFTB Industrial Contraptions"
+			x: 4.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["495D87F028AA6165"]
 			id: "1368C642EDAA80D6"
+			size: 1.5d
 			tasks: [{
 				id: "14334E640CF6A0D0"
 				item: "ftbic:advanced_machine_block"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
-			id: "48D1F8B6AEBECA28"
-			tasks: [{
-				id: "1C4538D9FEFB2970"
-				item: "ftbic:electronic_circuit"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["48D1F8B6AEBECA28"]
-			id: "7F60296A193669C0"
-			tasks: [{
-				id: "7007C3A598F9CD8B"
-				item: "ftbic:advanced_circuit"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["7F60296A193669C0"]
-			id: "7776DFCBA9582F78"
-			tasks: [{
-				id: "671DC06D37E781EB"
-				item: "ftbic:iridium_circuit"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -4.0d
-		}
-		{
+			dependencies: ["1368C642EDAA80D6"]
 			icon: "ftbic:quarry"
 			id: "3134F9D3CFA6FE0E"
+			shape: "square"
 			tasks: [
 				{
 					id: "43C5592AA174A32D"
@@ -130,12 +138,14 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -2.5d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["1368C642EDAA80D6"]
 			icon: "ftbic:pump"
 			id: "3B7042A0E15AF3CF"
+			shape: "square"
 			tasks: [
 				{
 					id: "653F3C410778B664"
@@ -149,8 +159,907 @@
 					type: "item"
 				}
 			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1368C642EDAA80D6"
+				"4A11A7B99E4AB4A0"
+			]
+			id: "24D05F0DFEFF72C2"
+			size: 1.5d
+			tasks: [{
+				id: "474313F8B8011171"
+				item: "ftbic:nuclear_reactor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E2910DB0764D2AA"]
+			id: "34F54D6D024B98A1"
+			shape: "square"
+			tasks: [{
+				id: "75EE7BB6DF933D04"
+				item: "ftbic:ev_solar_panel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3628711FE8622836"
+				"1368C642EDAA80D6"
+			]
+			id: "7E2910DB0764D2AA"
+			shape: "square"
+			tasks: [{
+				id: "2454C689AAE9D2AC"
+				item: "ftbic:hv_solar_panel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["059EDAE17576D675"]
+			id: "3628711FE8622836"
+			shape: "square"
+			tasks: [{
+				id: "2FC5D5870434618A"
+				item: "ftbic:mv_solar_panel"
+				type: "item"
+			}]
 			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CAC5BCC6030E9FF"]
+			id: "059EDAE17576D675"
+			shape: "square"
+			tasks: [{
+				id: "7165163E19197820"
+				item: "ftbic:lv_solar_panel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1368C642EDAA80D6"]
+			id: "0847F30874835C23"
+			shape: "square"
+			tasks: [{
+				id: "1BA2D0FF933DE851"
+				item: "ftbic:antimatter_constructor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["531ECA870CFBE784"]
+			id: "36CDF202034EC79C"
+			shape: "square"
+			tasks: [{
+				id: "24C0EF43E00C4894"
+				item: "ftbic:ev_battery_box"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4687FD41CD869C62"]
+			id: "531ECA870CFBE784"
+			shape: "square"
+			tasks: [{
+				id: "383DC709B5E5BD96"
+				item: "ftbic:hv_battery_box"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EA3DCC778031059"]
+			id: "4687FD41CD869C62"
+			shape: "square"
+			tasks: [{
+				id: "65C4A1A66B53B77E"
+				item: "ftbic:mv_battery_box"
+				type: "item"
+			}]
+			x: 13.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3F35FFC023B6542A"]
+			id: "02721F66A6D12659"
+			shape: "square"
+			tasks: [{
+				id: "5C7C92A1F9A8157C"
+				item: "ftbic:lv_battery_box"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0E22FEB6D7DCB0CD"
+				"09B0717CACB9E9F9"
+			]
+			id: "437F8E660735C152"
+			shape: "square"
+			tasks: [{
+				id: "509A00C8E6D6CE7C"
+				item: "ftbic:ev_transformer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6E85BDBE3C8AF5E3"
+				"75C20396517F0E77"
+			]
+			id: "0E22FEB6D7DCB0CD"
+			shape: "square"
+			tasks: [{
+				id: "24F5861DA6CCBA40"
+				item: "ftbic:hv_transformer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EA3DCC778031059"]
+			id: "6E85BDBE3C8AF5E3"
+			shape: "square"
+			tasks: [{
+				id: "54CAF2EE7A2646DC"
+				item: "ftbic:mv_transformer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F35FFC023B6542A"]
+			id: "51A028A59AC26909"
+			shape: "square"
+			tasks: [{
+				id: "45E029147D97F4FC"
+				item: "ftbic:lv_transformer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			id: "7FF381E6C339697C"
+			shape: "square"
+			tasks: [{
+				id: "7017EC6FA5838229"
+				item: "ftbic:extruder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			id: "488DEB3AA9A19C29"
+			shape: "square"
+			tasks: [{
+				id: "7DCA0B68F2CFE7B2"
+				item: "ftbic:roller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["493FBBF1AB38D844"]
+			id: "639D093688FD59CF"
+			shape: "square"
+			tasks: [{
+				id: "1BE9158E8029575B"
+				item: "ftbic:canning_machine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["493FBBF1AB38D844"]
+			id: "675246F9E3992AD8"
+			shape: "square"
+			tasks: [{
+				id: "573EA59589E3282B"
+				item: "ftbic:reprocessor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			id: "493FBBF1AB38D844"
+			shape: "square"
+			tasks: [{
+				id: "4F80599BCFFAD482"
+				item: "ftbic:compressor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			id: "7CE0F2CC9918E895"
+			shape: "square"
+			tasks: [{
+				id: "7E9F2EDEE24CC8A7"
+				item: "ftbic:centrifuge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			id: "1A9025DE3DCCC37B"
+			shape: "square"
+			tasks: [{
+				id: "6D339FFF3217C8A3"
+				item: "ftbic:macerator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CAC5BCC6030E9FF"]
+			id: "78F3ABB22EE6BF74"
+			shape: "square"
+			tasks: [{
+				id: "6F61483AEAEB3085"
+				item: "ftbic:wind_mill"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CAC5BCC6030E9FF"]
+			id: "47F596FEBFB8DA73"
+			shape: "square"
+			tasks: [{
+				id: "552920AD20D93968"
+				item: "ftbic:geothermal_generator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			id: "1CAC5BCC6030E9FF"
+			shape: "square"
+			tasks: [{
+				id: "22CFE56647A96550"
+				item: "ftbic:basic_generator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			icon: "custommachinery:singularity_extractor"
+			id: "67C84FDDFE29215D"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Use &c&l[Schematicannon] &rto build this Multiblock!"
+			tasks: [
+				{
+					id: "18C5168878D76837"
+					item: "custommachinery:singularity_extractor"
+					type: "item"
+				}
+				{
+					count: 76L
+					id: "2F5137D4C4732CB4"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					count: 73L
+					id: "7252B0DBB05C1A59"
+					item: "ftbic:reinforced_glass"
+					type: "item"
+				}
+				{
+					id: "41D67BC598AF3A43"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					id: "73CA04AAD89E5DA0"
+					item: "forbidden_arcanus:corrupti_dust"
+					type: "item"
+				}
+				{
+					id: "1E696A2A8F507EB2"
+					item: "forbidden_arcanus:dark_matter"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4A11A7B99E4AB4A0"]
+			id: "5210D433AABFACD3"
+			shape: "square"
+			tasks: [
+				{
+					id: "2FA988EADC28F48D"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BDEFDBD05EEA8F0"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19CF722799AE249B"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "159B6A5742295715"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			id: "018485EC67DDA472"
+			tasks: [{
+				id: "3EE23FF2836E1C3A"
+				item: "ftbic:advanced_alloy"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["018485EC67DDA472"]
+			id: "72D4C8E8D81730CA"
+			tasks: [{
+				id: "1419636AE25A3166"
+				item: "ftbic:iridium_alloy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["493FBBF1AB38D844"]
+			id: "4A11A7B99E4AB4A0"
+			tasks: [{
+				id: "1EE39BA2C4AA30D9"
+				item: "ftbic:iridium_circuit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0847F30874835C23"]
+			id: "6288F65DF99A29F8"
+			shape: "gear"
+			tasks: [{
+				id: "18B5B3A42F5E91E2"
+				item: "ftbic:antimatter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			id: "7556CB1C19CE32CF"
+			shape: "diamond"
+			tasks: [{
+				id: "5D95E1B5212E08E6"
+				item: {
+					Count: 1b
+					id: "ftbic:small_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7556CB1C19CE32CF"]
+			id: "4DE89336D2E249C0"
+			shape: "diamond"
+			tasks: [{
+				id: "7E108BA68F776602"
+				item: {
+					Count: 1b
+					id: "ftbic:medium_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4DE89336D2E249C0"]
+			id: "48B16CABEC3E73C5"
+			shape: "diamond"
+			tasks: [{
+				id: "570FC77F8A7DB30D"
+				item: {
+					Count: 1b
+					id: "ftbic:large_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			id: "263E86FA707F1089"
+			shape: "diamond"
+			tasks: [{
+				id: "2FDE73F1FC20667F"
+				item: {
+					Count: 1b
+					id: "ftbic:uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["17BEABCE7FE1FB15"]
+			id: "1E75C3F473C16559"
+			shape: "diamond"
+			tasks: [{
+				id: "207F39687201443A"
+				item: {
+					Count: 1b
+					id: "ftbic:quad_uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["263E86FA707F1089"]
+			id: "17BEABCE7FE1FB15"
+			shape: "diamond"
+			tasks: [{
+				id: "0498181A4B9407F9"
+				item: {
+					Count: 1b
+					id: "ftbic:dual_uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			id: "29DDDF0F10A48E77"
+			shape: "diamond"
+			tasks: [{
+				id: "111A25D60F13E179"
+				item: {
+					Count: 1b
+					id: "ftbic:heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29DDDF0F10A48E77"]
+			id: "5DEFC5CBA0739F74"
+			shape: "diamond"
+			tasks: [{
+				id: "0F1EF25F81F0EAB6"
+				item: {
+					Count: 1b
+					id: "ftbic:reactor_heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29DDDF0F10A48E77"]
+			id: "33962D93935E50FF"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "312E47C500D6F42E"
+					item: "ftbic:component_heat_vent"
+					type: "item"
+				}
+				{
+					id: "7C1811C704F63435"
+					item: {
+						Count: 1b
+						id: "ftbic:advanced_heat_vent"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5DEFC5CBA0739F74"]
+			id: "6B5256F5F7AC39F2"
+			shape: "diamond"
+			tasks: [{
+				id: "541C2FFFB714BE46"
+				item: {
+					Count: 1b
+					id: "ftbic:overclocked_heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			id: "0DAFCD54644F84FB"
+			shape: "diamond"
+			tasks: [{
+				id: "31004330508AE22D"
+				item: {
+					Count: 1b
+					id: "ftbic:heat_exchanger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0DAFCD54644F84FB"]
+			id: "0FA5542CE729B1A3"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "592C95DAAF85062D"
+					item: {
+						Count: 1b
+						id: "ftbic:advanced_heat_exchanger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07F69FD8952E5F52"
+					item: {
+						Count: 1b
+						id: "ftbic:reactor_heat_exchanger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24F5BEDD35AE4ACB"
+					item: {
+						Count: 1b
+						id: "ftbic:component_heat_exchanger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			id: "47A9014B42D5DDEA"
+			shape: "diamond"
+			tasks: [{
+				id: "1FCD32FDE0D8B37C"
+				item: "ftbic:reactor_plating"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			id: "7C9DEBD7CC5BAB13"
+			shape: "diamond"
+			tasks: [{
+				id: "207C8C95E1885928"
+				item: {
+					Count: 1b
+					id: "ftbic:neutron_reflector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C9DEBD7CC5BAB13"]
+			id: "029B90E5D14A4B02"
+			shape: "diamond"
+			tasks: [{
+				id: "563C8373DC30D8B5"
+				item: {
+					Count: 1b
+					id: "ftbic:thick_neutron_reflector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["029B90E5D14A4B02"]
+			id: "1CBDDF3843F6DA3A"
+			shape: "diamond"
+			tasks: [{
+				id: "3EC2B61729F17918"
+				item: "ftbic:iridium_neutron_reflector"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			hide_dependency_lines: true
+			id: "1FA505998BF99D84"
+			shape: "diamond"
+			tasks: [{
+				id: "28AF7327988B77F3"
+				item: "ftbic:overclocker_upgrade"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			hide_dependency_lines: true
+			id: "7562E8BDA0F856DD"
+			shape: "diamond"
+			tasks: [{
+				id: "75ABF98435AC2C96"
+				item: "ftbic:energy_storage_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			hide_dependency_lines: true
+			id: "7D2DF5787A939334"
+			shape: "diamond"
+			tasks: [{
+				id: "47FD5D20486C10BC"
+				item: "ftbic:transformer_upgrade"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			hide_dependency_lines: true
+			id: "1FFF19440003D3BB"
+			shape: "diamond"
+			tasks: [{
+				id: "22160A1576B129F2"
+				item: "ftbic:ejector_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["675246F9E3992AD8"]
+			id: "20CCFDC3B2A8C542"
+			shape: "gear"
+			tasks: [{
+				id: "5D86AB813F4B28CB"
+				item: "ftbic:scrap_box"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["639D093688FD59CF"]
+			id: "60358484F74C4872"
+			shape: "gear"
+			tasks: [
+				{
+					id: "2125B46075E6C8D8"
+					item: "ftbic:canned_food"
+					type: "item"
+				}
+				{
+					id: "4C59D5AF0E1366CE"
+					item: "ftbic:protein_bar"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F35FFC023B6542A"]
+			id: "22FBE96723F6323A"
+			shape: "square"
+			tasks: [{
+				id: "6EB2B1814A6ED0AD"
+				item: "ftbic:lv_battery"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22FBE96723F6323A"]
+			id: "54EBF719809AE669"
+			shape: "square"
+			tasks: [{
+				id: "50BA6036F2532FD0"
+				item: "ftbic:mv_battery"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54EBF719809AE669"]
+			id: "6787BEA8FA8F6528"
+			shape: "square"
+			tasks: [{
+				id: "09F778EA7004A184"
+				item: "ftbic:hv_battery"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6787BEA8FA8F6528"]
+			id: "1FCB97BB12095E91"
+			shape: "square"
+			tasks: [{
+				id: "10860B0E6453928D"
+				item: "ftbic:ev_battery"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["47A9014B42D5DDEA"]
+			id: "044B6BD1B26348E0"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "659ECEC0852ED444"
+					item: "ftbic:containment_reactor_plating"
+					type: "item"
+				}
+				{
+					id: "13ADB928F071BCDD"
+					item: "ftbic:heat_capacity_reactor_plating"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -7.0d
 		}
 	]
 	title: " &l&4♦ &rFTB Industrial Contraptions"

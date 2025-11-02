@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.12        (_____)
+(_____)         Last Modification : 1.4.13b       (_____)
 
 */
 
@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
     event.custom(
         {
             type: "forbidden_arcanus:combine_residues",
-            residue_amount: 0,
+            residue_amount: 1,
             residue_name: "nothing",
             result: {
                 item: "minecraft:string"

@@ -1048,8 +1048,11 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["4E7356179682035C"]
-			icon: "botania:cosmetic_questgiver_mark"
+			dependencies: [
+				"4E7356179682035C"
+				"67C84FDDFE29215D"
+			]
+			icon: "custommachinery:singularity_extractor"
 			id: "3FFF6AF1CA87837D"
 			rewards: [{
 				id: "524ADC64FC198234"

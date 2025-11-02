@@ -56,6 +56,16 @@ StartupEvents.registry('item', e => {
     BasicItem('ae2:printed_cosmic_processor', "Printed Cosmic Circuit")
     BasicItem('ae2:printed_elemental_processor', "Printed Elemental Circuit")
 
+    BasicItem('alchemistry:chromium_ingot', "Chromium Ingot").tag("forge:ingots").tag(`forge:ingots/chromium`)
+    BasicItem('alchemistry:chromium_nugget', "Chromium Nugget").tag("forge:nuggets").tag(`forge:nuggets/chromium`)
+    BasicItem('alchemistry:chromium_dust', "Chromium Dust").tag("forge:dusts").tag(`forge:dusts/chromium`)
+    BasicItem('alchemistry:titanium_ingot', "Titanium Ingot").tag("forge:ingots").tag(`forge:ingots/titanium`)
+    BasicItem('alchemistry:titanium_nugget', "Titanium Nugget").tag("forge:nuggets").tag(`forge:nuggets/titanium`)
+    BasicItem('alchemistry:titanium_dust', "Titanium Dust").tag("forge:dusts").tag(`forge:dusts/titanium`)
+    BasicItem('alchemistry:tungsten_ingot', "Tungsten Ingot").tag("forge:ingots").tag(`forge:ingots/tungsten`)
+    BasicItem('alchemistry:tungsten_nugget', "Tungsten Nugget").tag("forge:nuggets").tag(`forge:nuggets/tungsten`)
+    BasicItem('alchemistry:tungsten_dust', "Tungsten Dust").tag("forge:dusts").tag(`forge:dusts/tungsten`)
+
     BasicItem('blue_skies:falsite_dust', "Falsite Dust").tag("forge:dusts").tag(`forge:dusts/falsite`)
     BasicItem('blue_skies:falsite_plate', "Falsite Plate").tag("forge:plates").tag(`forge:plates/falsite`)
     BasicItem('blue_skies:falsite_gear', "Falsite Gear").tag("forge:gears").tag(`forge:gears/falsite`)

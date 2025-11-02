@@ -124,8 +124,11 @@ JEIEvents.hideItems(event => {
         'thermal:lumium_ingot',
         'thermal:signalum_ingot',
         'thermal:tin_ingot', 'mekanism:ingot_tin', 'chemlib:tin_ingot', 'ftbic:tin_ingot',
+        'chemlib:chromium_ingot',
         'chemlib:iridium_ingot', 'ftbic:iridium_ingot',
         'chemlib:platinum_ingot',
+        'chemlib:titanium_ingot',
+        'chemlib:tungsten_ingot',
 
         //Plates
         'create:brass_sheet',
@@ -205,8 +208,11 @@ JEIEvents.hideItems(event => {
         'thermal:netherite_nugget',
         'thermal:signalum_nugget',
         'thermal:tin_nugget', 'mekanism:nugget_tin', 'chemlib:tin_nugget', 'ftbic:tin_nugget',
+        'chemlib:chromium_nugget',
         'chemlib:iridium_nugget', 'ftbic:iridium_nugget',
         'chemlib:platinum_nugget',
+        'chemlib:titanium_nugget',
+        'chemlib:tungsten_nugget',
 
         //Dusts
         'ae2:ender_dust', 'ftbic:ender_dust',
@@ -236,10 +242,13 @@ JEIEvents.hideItems(event => {
         'thermal:netherite_dust', 'mekanism:dust_netherite',
         'thermal:signalum_dust',
         'thermal:tin_dust', 'mekanism:dust_tin', 'chemlib:tin_dust', 'ftbic:tin_dust',
+        'chemlib:chromium_dust',
         'chemlib:zinc_dust',
         'chemlib:iridium_dust', 'ftbic:iridium_dust',
         'chemlib:platinum_dust',
         'chemlib:lithium_dust',
+        'chemlib:titanium_dust',
+        'chemlib:tungsten_dust',
         'ftbic:charcoal_dust',
         'ftbic:coal_dust',
 
@@ -266,8 +275,11 @@ JEIEvents.hideItems(event => {
         'quark:charcoal_block', 'mekanism:block_charcoal',
         'quark:carrot_crate', 'thermal:carrot_block',
         'quark:gunpowder_sack',
+        'chemlib:chromium_metal_block',
         'chemlib:iridium_metal_block', 'ftbic:iridium_block',
         'chemlib:platinum_metal_block',
+        'chemlib:titanium_metal_block',
+        'chemlib:tungsten_metal_block',
 
         //Wires
         'ftbic:aluminum_wire',

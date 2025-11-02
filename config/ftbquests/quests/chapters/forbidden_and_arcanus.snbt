@@ -209,9 +209,12 @@
 		{
 			dependencies: ["1A239CC500328D26"]
 			description: [
-				"Put &e&lPedestals&r on &7&lArcane Chiseled Polished Darkstone&r, and the &e&lSmithing Table&r in the center."
+				"Build the base as shown in the screenshot, with the &e&lSmithing Table&r placed at the center."
 				""
-				"Right click the Smithing Table with a &4&lMundabitur Dust&r to create the &l&6Ephaestus Forge&r."
+				"Shift-right-click the Smithing Table with a &4&lMundabitur Dust&r to create the &6&lHephaestus Forge&r."
+				"&o&7*Make sure nothing is placed on top of the base before building the forge."
+				""
+				"Then, place the &e&lPedestals&r on top of the &7&lArcane Chiseled Polished Darkstone&r."
 				""
 				"{image:techev:textures/misc/quests/forbidden_arcanus/ephaestus_forge.png width:118 height:118 align:1}"
 			]
@@ -244,7 +247,7 @@
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 4L
 					id: "70F39B1C0C32C71B"
 					item: "forbidden_arcanus:darkstone_pedestal"
 					type: "item"
@@ -267,7 +270,7 @@
 					type: "item"
 				}
 			]
-			title: "&lEphaestus Forge"
+			title: "&lHephaestus Forge"
 			x: 5.5d
 			y: -3.0d
 		}

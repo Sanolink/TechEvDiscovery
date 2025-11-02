@@ -20,8 +20,9 @@
 ServerEvents.recipes(event => {
     let counter = 0
     event.recipes.custommachinery
-        .custom_machine("custommachinery:soul_harvester", 200)
+        .custom_machine("custommachinery:singularity_extractor", 200)
         .requireFunctionEachTick(ctx => {
+            
             let block = ctx.getBlock()
             let level = block.getLevel()
             let pos = block.getPos()

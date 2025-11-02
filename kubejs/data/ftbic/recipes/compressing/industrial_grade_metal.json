@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:compressing",
+  "inputItems": [
+    {
+      "count": 3,
+      "ingredient": {
+        "tag": "forge:ingots/titanium"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 3,
+      "item": "ftbic:industrial_grade_metal"
+    }
+  ]
+}

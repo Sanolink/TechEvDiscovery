@@ -1,0 +1,26 @@
+{
+  "loader": "thermal:reconfigurable",
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": {"texture": "#down", "cullface": "down"},
+        "up": {"texture": "#up", "cullface": "up"},
+        "north": {"texture": "#north", "cullface": "north"},
+        "south": {"texture": "#south", "cullface": "south"},
+        "west": {"texture": "#west", "cullface": "west"},
+        "east": {"texture": "#east", "cullface": "east"}
+      }
+    }
+  ],
+  "textures": {
+    "particle": "custommachinery:block/machine/singularity_extractor_idle",
+    "down": "ftbic:block/electric/light/advanced_bottom",
+    "north": "custommachinery:block/machine/singularity_extractor_side",
+    "east": "custommachinery:block/machine/singularity_extractor_side",
+    "west": "custommachinery:block/machine/singularity_extractor_side",
+    "south": "custommachinery:block/machine/singularity_extractor_side"
+  }
+}

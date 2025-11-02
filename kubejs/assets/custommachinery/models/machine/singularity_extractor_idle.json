@@ -1,0 +1,6 @@
+{
+  "parent": "custommachinery:machine/singularity_extractor_base",
+  "textures": {
+    "up": "custommachinery:block/machine/singularity_extractor_idle"
+  }
+}

@@ -218,6 +218,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ftbic:shaped/aluminum_wire'})
     event.remove({ id: 'ftbic:shaped/copper_wire'})
     event.remove({ id: 'ftbic:shaped/gold_wire'})
+    event.remove({ id: 'ftbic:shaped/mixed_metal_blend_1'})
+    event.remove({ id: 'ftbic:shaped/mixed_metal_blend_2'})
+    event.remove({ id: 'ftbic:shaped/mixed_metal_blend_3'})
 
     //Functional Storage 
     event.remove({ id: 'functionalstorage:oak_drawer_alternate_x1'})

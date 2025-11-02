@@ -25,6 +25,11 @@ StartupEvents.registry('block', e => {
       return e.create(id).displayName(displayName)
     }
 
+    function CustomMachine(id, displayName) {
+      global.TechEvBlocks.push(`custommachinery:${id}`)
+      return e.create(`custommachinery:${id}`, "custommachinery").displayName(displayName).renderType("solid")
+    }
+
     BasicBlock('ad_astra:mercury_nephryx_ore', "Mercury Nephryx Ore").soundType(SoundType.STONE).hardness(3).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_iron_tool").tagBoth("forge:ores").tagBoth("forge:ores/nephryx").requiresTool(true)
     BasicBlock('ad_astra:raw_nephryx_block', "Raw Nephryx Block").soundType(SoundType.STONE).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_iron_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/raw_nephryx").requiresTool(true)
     BasicBlock('ad_astra:nephryx_block', "Nephryx Block").soundType(SoundType.METAL).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/nephryx").requiresTool(true)
@@ -58,5 +63,13 @@ StartupEvents.registry('block', e => {
     BasicBlock('productivebees:comb_ultimate', "Ultimate Comb Block").soundType(SoundType.CORAL_BLOCK).hardness(0.6).tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/honeycombs")
     
     BasicBlock('thermal:resonant_machine_frame', "Resonant Machine Frame").soundType("lantern").hardness(2).tagBlock("mineable/pickaxe").notSolid()
+
+    CustomMachine('chiaroscuro_forge', "Chiaroscuro Forge")
+    CustomMachine('circuit_etcher', "Circuit Etcher")
+    CustomMachine('excavator_jei', "Excavator JEI")
+    CustomMachine('precision_assembler', "Precision Assembler")
+    CustomMachine('psi_infuser', "PSI Infuser")
+    CustomMachine('singularity_extractor', "Singularity Extractor")
+    CustomMachine('soul_harvester', "Soul Harvester")
 
   })

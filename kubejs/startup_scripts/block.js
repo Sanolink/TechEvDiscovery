@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -28,6 +28,10 @@ StartupEvents.registry('block', e => {
     BasicBlock('ad_astra:mercury_nephryx_ore', "Mercury Nephryx Ore").soundType(SoundType.STONE).hardness(3).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_iron_tool").tagBoth("forge:ores").tagBoth("forge:ores/nephryx").requiresTool(true)
     BasicBlock('ad_astra:raw_nephryx_block', "Raw Nephryx Block").soundType(SoundType.STONE).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_iron_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/raw_nephryx").requiresTool(true)
     BasicBlock('ad_astra:nephryx_block', "Nephryx Block").soundType(SoundType.METAL).hardness(5).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_stone_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/nephryx").requiresTool(true)
+    
+    BasicBlock('alchemistry:chromium_block', "Chromium Block").soundType(SoundType.METAL).hardness(7).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_diamond_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/chromium").requiresTool(true)
+    BasicBlock('alchemistry:titanium_block', "Titanium Block").soundType(SoundType.METAL).hardness(7).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_diamond_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/titanium").requiresTool(true)
+    BasicBlock('alchemistry:tungsten_block', "Tungsten Block").soundType(SoundType.METAL).hardness(7).tagBlock("mineable/pickaxe").tagBlock("minecraft:needs_diamond_tool").tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/tungsten").requiresTool(true)
     
     BasicBlock('blue_skies:everstone', "Everstone").soundType("deepslate").hardness(3).tagBlock("mineable/pickaxe").requiresTool(true)
     

@@ -87,8 +87,6 @@ ServerEvents.recipes(event => {
         'falsite',
         'ventium',
         'horizonite',
-        'shellite',
-        'twinite',
         'hop_graphite',
         'cast_iron',
         'shellite',

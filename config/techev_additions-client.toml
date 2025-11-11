@@ -1,0 +1,10 @@
+
+#Configuration for TechEv Additions
+[general]
+	#The amount of power the Dimension Card drains per tick
+	#Range: > 0
+	dimensionCardDrain = 100000
+	#The amount of power the Infinity Card drains per tick
+	#Range: > 0
+	infinityCardDrain = 25000
+

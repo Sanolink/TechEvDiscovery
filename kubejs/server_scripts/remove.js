@@ -486,6 +486,9 @@ ServerEvents.recipes(event => {
     //Quark
     event.remove({ id: 'quark:tweaks/smelting/bone_meal_utility' })
 
+    //RFTools 
+    event.remove({ id: 'rftoolsbase:dimensionalshard' })
+
     //Simple Storage
     event.remove({ output: 'storagenetwork:inventory_remote', type: 'minecraft:crafting_shaped' })
     event.remove({ output: 'storagenetwork:crafting_remote', type: 'minecraft:crafting_shaped' })

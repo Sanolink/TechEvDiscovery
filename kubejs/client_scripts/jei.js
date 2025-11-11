@@ -487,7 +487,8 @@ JEIEvents.addItems(event => {
         Item.of('immersiveengineering:blueprint', '{blueprint:"molds"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"bannerpatterns"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'),
-        Item.of('immersiveengineering:blueprint', '{blueprint:"appliedComponents"}')
+        Item.of('immersiveengineering:blueprint', '{blueprint:"appliedComponents"}'),
+        'dustydecorations:bucket_o_coins_bucket'
     ])
 
     global.TechEvBlockItems.forEach(entry => {

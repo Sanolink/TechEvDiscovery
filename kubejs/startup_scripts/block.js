@@ -1,3 +1,4 @@
+//priority: 9000
 /* 
  _____                                             _____ 
 ( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
@@ -18,6 +19,11 @@
 */
 
 StartupEvents.registry('block', e => {
+
+    //Java Class
+    const $ArcaneCrystalObeliskBlock = Java.loadClass('com.stal111.forbidden_arcanus.common.block.ArcaneCrystalObeliskBlock');
+    const $BlockProperties = Java.loadClass('net.minecraft.world.level.block.state.BlockBehaviour$Properties');
+    const $Material = Java.loadClass('net.minecraft.world.level.material.Material')
 
     //Basic Blocks
     function BasicBlock(id, displayName) {
@@ -71,5 +77,19 @@ StartupEvents.registry('block', e => {
     CustomMachine('psi_infuser', "PSI Infuser")
     CustomMachine('singularity_extractor', "Singularity Extractor")
     CustomMachine('soul_harvester', "Soul Harvester")
+    CustomMachine('dimensional_stabilizer', "Dimensional Stabilizer")
 
+
+    //Arcane Crystal Obelisk Blocks
+    function ArcaneCrystalObeliskBlock(id, displayName) {
+      global.TechEvBlockItems.push(
+        {
+          id: id,
+          block: e.createCustom(id, () => new $ArcaneCrystalObeliskBlock($BlockProperties.of($Material.STONE).strength(1.0, 10.0))).displayName(displayName)
+        }
+      )
+    }
+
+    ArcaneCrystalObeliskBlock("techev_additions:dimensional_stabilizer_obelisk", "Dimensional Stabilizer Obelisk")
+    
   })

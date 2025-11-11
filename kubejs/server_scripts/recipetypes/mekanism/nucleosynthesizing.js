@@ -38,6 +38,12 @@ ServerEvents.recipes(event => {
             gasInput: MekaGas("mekanism:antimatter", 100),
             itemInput: parseIngredient('ftbic:antimatter'),
             output: ChanceOrCountItem('ftbic:antimatter', 2)
+        },
+        {
+            id: "dimensional_stabilizer_obelisk",
+            gasInput: MekaGas("mekanism:antimatter", 2000),
+            itemInput: parseIngredient('forbidden_arcanus:arcane_crystal_obelisk'),
+            output: parseIngredient('techev_additions:dimensional_stabilizer_obelisk')
         }
     ]
 

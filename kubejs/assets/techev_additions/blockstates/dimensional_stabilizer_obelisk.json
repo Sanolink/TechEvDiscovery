@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "part=lower": {
+      "model": "techev_additions:block/dimensional_stabilizer_lower"
+    },
+    "part=middle": {
+      "model": "techev_additions:block/dimensional_stabilizer_middle"
+    },
+    "part=upper": {
+      "model": "techev_additions:block/dimensional_stabilizer_upper"
+    }
+  }
+}

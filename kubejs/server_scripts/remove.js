@@ -467,6 +467,7 @@ ServerEvents.recipes(event => {
     //ProjectE
     event.remove({ id: 'projecte:philosophers_stone'})
     event.remove({ id: 'projecte:philosophers_stone_alt'})
+    event.remove({ id: 'projecte:transmutation_table'})
 
     //Psi 
     event.remove({ id: 'psi:gold_to_psimetal_assembly_upgrade'})

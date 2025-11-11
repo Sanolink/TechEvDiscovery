@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.12        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -79,7 +79,9 @@ ServerEvents.recipes(event => {
         "hop_graphite",
         "prismalium",
         "melodium",
-        "stellarium"
+        "stellarium",
+        "chromium",
+        "titanium"
     ].forEach(mat => {
         recipes.push(
             {

@@ -115,7 +115,9 @@ ServerEvents.recipes(event => {
         'cast_iron',
         'overcharged_iron',
         'overcharged_gold',
-        'compressed_iron'
+        'compressed_iron',
+        'chromium',
+        'titanium'
     ].forEach((mat) => {
         recipes.push(
             {

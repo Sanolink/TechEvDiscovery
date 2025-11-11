@@ -166,7 +166,10 @@ ServerEvents.recipes(event => {
         'ender_ingot',
         'enhanced_redstone_ingot',
         'redstone_ingot',
-        'black_iron'
+        'black_iron',
+        'tungsten',
+        'chromium',
+        'titanium'
     ].forEach((mat) => {
         recipes.push(
             {

@@ -93,7 +93,10 @@ ServerEvents.recipes(event => {
         'twinite',
         'overcharged_iron',
         'overcharged_gold',
-        'compressed_iron'
+        'compressed_iron',
+        'tungsten',
+        'chromium',
+        'titanium'
     ].forEach(mat => {
         recipes.push(
             {

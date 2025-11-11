@@ -105,5 +105,5 @@ ServerEvents.recipes(event => {
                 "d": "forbidden_arcanus:black_hole",
             },
         )
-        .id(`custommachinery:soul_harvester/soul_shard2`)
+        .id(`custommachinery:singularity_extractor/singularity_ash`)
 })

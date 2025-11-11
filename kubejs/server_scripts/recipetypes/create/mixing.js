@@ -202,6 +202,18 @@ ServerEvents.recipes(event => {
             ],
             output: [ChanceOrCountItem("ftbic:mixed_metal_blend", 3)]
         },
+        {
+            id: "dimensional_matrix",
+            heat: 'heated',
+            input: [
+                parseIngredient("occultism:dimensional_matrix"),
+                parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'),
+                parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'),
+                parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'),
+                parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard')
+            ],
+            output: [FluidWithCount("rftoolsbase:dimensional_matrix", 1000)]
+        },
         //Superheated Recipes
         {
             id: "destabilized_redstone",

@@ -489,6 +489,10 @@ JEIEvents.addItems(event => {
         Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"appliedComponents"}')
     ])
+
+    global.TechEvBlockItems.forEach(entry => {
+        event.add(entry.id)
+    })
 })
 
 JEIEvents.information(event => {

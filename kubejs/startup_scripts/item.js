@@ -1,3 +1,4 @@
+//priority: 8000
 /* 
  _____                                             _____ 
 ( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
@@ -23,6 +24,7 @@ StartupEvents.registry('item', e => {
     const $SequencedAssemblyItem = Java.loadClass('com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem')
     const $SandPaperItem = Java.loadClass('com.simibubi.create.content.equipment.sandPaper.SandPaperItem')
     const $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties');
+    const $BlockItem = Java.loadClass('net.minecraft.world.item.BlockItem');
 
     //Basic Items
     function BasicItem(id, displayName) {
@@ -280,4 +282,8 @@ StartupEvents.registry('item', e => {
 
     SandPaperItem('create:netherite_sandpaper', "Netherite Sandpaper", 2048)
 
+    //Block Items 
+    global.TechEvBlockItems.forEach(entry => {
+      e.createCustom(entry.id, () => new $BlockItem(entry.block.get(), new $ItemProperties()))
+    })
   })

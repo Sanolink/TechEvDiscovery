@@ -1,5 +1,4 @@
-//priority:
-//10000
+//priority: 10000
 /* 
  _____                                             _____ 
 ( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
@@ -15,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.4         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -91,3 +90,5 @@ global.TechEvItems = [
     'mysticalagriculture:wasted_radioactive_seeds'
 ]
 global.TechEvBlocks = []
+
+global.TechEvBlockItems = []

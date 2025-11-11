@@ -1,0 +1,7 @@
+{
+  "parent": "custommachinery:machine/dimensional_stabilizer_base",
+  "textures": {
+    "up": "custommachinery:block/machine/dimensional_stabilizer_idle",
+    "down": "custommachinery:block/machine/dimensional_stabilizer_idle"
+  }
+}

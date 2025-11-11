@@ -1,0 +1,25 @@
+{
+  "loader": "thermal:reconfigurable",
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": {"texture": "#down", "cullface": "down"},
+        "up": {"texture": "#up", "cullface": "up"},
+        "north": {"texture": "#north", "cullface": "north"},
+        "south": {"texture": "#south", "cullface": "south"},
+        "west": {"texture": "#west", "cullface": "west"},
+        "east": {"texture": "#east", "cullface": "east"}
+      }
+    }
+  ],
+  "textures": {
+    "particle": "custommachinery:block/machine/dimensional_stabilizer_idle",
+    "north": "forbidden_arcanus:block/arcane_chiseled_polished_darkstone",
+    "east": "forbidden_arcanus:block/arcane_chiseled_polished_darkstone",
+    "west": "forbidden_arcanus:block/arcane_chiseled_polished_darkstone",
+    "south": "forbidden_arcanus:block/arcane_chiseled_polished_darkstone"
+  }
+}

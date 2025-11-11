@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -32,9 +32,23 @@ ServerEvents.recipes(event => {
                 "E": 'extendedcrafting:enhanced_ender_ingot',
                 "V": 'ars_nouveau:void_prism'
             }
+        },
+        {
+            result: 'custommachinery:dimensional_stabilizer',
+            pattern: [
+                "ADA",
+                "OSO",
+                "ACA"
+            ],
+            key: {
+                "A": 'forbidden_arcanus:arcane_chiseled_polished_darkstone',
+                "D": 'forbidden_arcanus:dark_nether_star',
+                "O": 'mekaevolution:cosmic_control_circuit',
+                "S": 'mekanism:dimensional_stabilizer',
+                "C": 'techev_additions:chromatic',
+            }
         }
     ]
-
     //General Shaped Ender Function
     recipes.forEach((recipe) => {
         for (let k in recipe.key) recipe.key[k] = parseIngredient(recipe.key[k])

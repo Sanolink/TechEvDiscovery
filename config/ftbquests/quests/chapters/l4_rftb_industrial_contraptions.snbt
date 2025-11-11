@@ -464,6 +464,7 @@
 		}
 		{
 			dependencies: ["24D05F0DFEFF72C2"]
+			description: ["{image:techev:textures/misc/quests/singularity_extractor.png width:150 height:134 align:1}"]
 			icon: "custommachinery:singularity_extractor"
 			id: "67C84FDDFE29215D"
 			shape: "octagon"

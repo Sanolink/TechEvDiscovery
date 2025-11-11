@@ -52,129 +52,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3667CE4E474D459A"
-			tasks: [{
-				id: "5B02F18785E304DC"
-				item: "xnet:controller"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -5.5d
-		}
-		{
-			id: "1B9F5E5B7D136C72"
-			tasks: [{
-				id: "30539A13723C721B"
-				item: "computercraft:computer_normal"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			id: "7685C099CCA223E9"
-			tasks: [{
-				id: "6075A407FE71CC7A"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "xnet:cables"
-					}
-				}
-				title: "Any #xnet:cables"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -5.0d
-		}
-		{
-			id: "7A8917F7344EDFC2"
-			tasks: [{
-				id: "7AABD21FE5B54ADB"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "xnet:connectors"
-					}
-				}
-				title: "Any #xnet:connectors"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -5.5d
-		}
-		{
-			id: "3679DF6EDBD94E7A"
-			tasks: [{
-				id: "3050B19278EF855A"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "xnet:advanced_connectors"
-					}
-				}
-				title: "Any #xnet:advanced_connectors"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -5.0d
-		}
-		{
-			id: "297BA32BDC665A5C"
-			tasks: [{
-				id: "5D8C73F95FFD97EB"
-				item: "xnet:router"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -4.5d
-		}
-		{
-			id: "7E900AB13EAF314B"
-			tasks: [{
-				id: "290FA4DBF58948E4"
-				item: "xnet:facade"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -4.5d
-		}
-		{
-			id: "352801F46B648791"
-			tasks: [{
-				id: "16B3FB1A15A27197"
-				item: "xnet:wireless_router"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -3.5d
-		}
-		{
-			id: "2CD019CA946EED93"
-			tasks: [
-				{
-					id: "5BEA00B6E608C375"
-					item: "xnet:netcable_routing"
-					type: "item"
-				}
-				{
-					id: "2CB109AA2A639254"
-					item: "xnet:connector_routing"
-					type: "item"
-				}
-				{
-					id: "54A2D67D6FB8F777"
-					item: "xnet:advanced_connector_routing"
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: -3.0d
-		}
-		{
 			dependencies: [
 				"3649035A6A30A8A3"
 				"22EFC369F393B817"
@@ -693,6 +570,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["0C1725129FDB2EE0"]
 			id: "7700D8EF5B73BA02"
 			shape: "square"
 			size: 1.5d
@@ -733,6 +611,149 @@
 			title: "&e&lThe Tellurite"
 			x: -2.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["0C1725129FDB2EE0"]
+			id: "3667CE4E474D459A"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "5B02F18785E304DC"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3667CE4E474D459A"]
+			id: "1B9F5E5B7D136C72"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "30539A13723C721B"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3667CE4E474D459A"]
+			id: "7685C099CCA223E9"
+			shape: "circle"
+			tasks: [{
+				id: "6075A407FE71CC7A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "xnet:cables"
+					}
+				}
+				title: "Any #xnet:cables"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3667CE4E474D459A"]
+			id: "7A8917F7344EDFC2"
+			shape: "circle"
+			tasks: [{
+				id: "7AABD21FE5B54ADB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "xnet:connectors"
+					}
+				}
+				title: "Any #xnet:connectors"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7A8917F7344EDFC2"]
+			id: "3679DF6EDBD94E7A"
+			shape: "circle"
+			tasks: [{
+				id: "3050B19278EF855A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "xnet:advanced_connectors"
+					}
+				}
+				title: "Any #xnet:advanced_connectors"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3667CE4E474D459A"]
+			id: "297BA32BDC665A5C"
+			shape: "rsquare"
+			tasks: [{
+				id: "5D8C73F95FFD97EB"
+				item: "xnet:router"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3667CE4E474D459A"]
+			id: "7E900AB13EAF314B"
+			shape: "gear"
+			tasks: [{
+				id: "290FA4DBF58948E4"
+				item: "xnet:facade"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["297BA32BDC665A5C"]
+			id: "352801F46B648791"
+			shape: "circle"
+			tasks: [{
+				id: "16B3FB1A15A27197"
+				item: "xnet:wireless_router"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["297BA32BDC665A5C"]
+			id: "2CD019CA946EED93"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5BEA00B6E608C375"
+					item: "xnet:netcable_routing"
+					type: "item"
+				}
+				{
+					id: "2CB109AA2A639254"
+					item: "xnet:connector_routing"
+					type: "item"
+				}
+				{
+					id: "54A2D67D6FB8F777"
+					item: "xnet:advanced_connector_routing"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -1.5d
 		}
 	]
 	title: " &l&4♦ &rSingular Networks"

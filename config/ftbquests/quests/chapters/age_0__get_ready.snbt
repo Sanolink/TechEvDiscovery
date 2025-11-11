@@ -593,13 +593,7 @@
 				"Their descriptions are in &nWork In Progress&r, future updates will add some texts and screenshots to improve their style."
 			]
 			disable_toast: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbquests:textures/item/book.png"
-				}
-			}
+			icon: "ftbquests:book"
 			id: "5605A2567A1A65A3"
 			rewards: [{
 				id: "440F293C101D0302"

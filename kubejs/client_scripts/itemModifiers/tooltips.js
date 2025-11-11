@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.9         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -87,15 +87,13 @@ ItemEvents.tooltip(event => {
         'custommachinery:precision_assembler',
         'custommachinery:chiaroscuro_forge',
         'custommachinery:circuit_etcher',
-        'custommachinery:soul_harvester'
-    ]
-
-    event.addAdvanced('custommachinery:custom_machine_item', (item, advanced, text) => {
-        if (!item.nbt) return
-        let machine = item.nbt.getString("machine")
-        if (multiblocks.includes(machine)) {
+        'custommachinery:soul_harvester',
+        'custommachinery:dimensional_stabilizer',
+        'custommachinery:singularity_extractor'
+    ].forEach(id => {
+        event.addAdvanced(id, (item, advanced, text) => {
             text.set(1, "§fUse §c§l[Schematicannon] §fto build this Multiblock!")
-        }
+        })
     })
 
 
@@ -109,6 +107,12 @@ ItemEvents.tooltip(event => {
     //TechEv Blocks
     global.TechEvBlocks.forEach(id => {
         event.addAdvanced(id, (item, advanced, text) => {
+            text.add(1, "§6✦ [TechEv Addition]")
+        })
+    })
+
+    global.TechEvBlockItems.forEach(entry => {
+        event.addAdvanced(entry.id, (item, advanced, text) => {
             text.add(1, "§6✦ [TechEv Addition]")
         })
     })

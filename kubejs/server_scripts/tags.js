@@ -303,6 +303,7 @@ ServerEvents.tags('item', e => {
     e.add('matc:imperium', ["matc:supremium_crystal"])
     e.add('industrialforegoing:basic_laser_lens', [laserLens.black, laserLens.blue, laserLens.brown, laserLens.cyan, laserLens.gray, laserLens.green, laserLens.light_blue, laserLens.light_gray, laserLens.lime, laserLens.magenta, laserLens.orange, laserLens.pink, laserLens.purple, laserLens.red, laserLens.white, laserLens.yellow])
     e.add('iceandfire:dragonsteels', ['iceandfire:dragonsteel_fire_ingot', 'iceandfire:dragonsteel_ice_ingot', 'iceandfire:dragonsteel_lightning_ingot'])
+    e.add('quark:revertable_chests', ['twilightforest:twilight_oak_chest', 'twilightforest:canopy_chest', 'twilightforest:mangrove_chest', 'twilightforest:darkwood_chest', 'twilightforest:time_chest', 'twilightforest:transformation_chest', 'twilightforest:mining_chest', 'twilightforest:sorting_chest', 'blue_skies:bluebright_chest', 'blue_skies:starlit_chest', 'blue_skies:frostbright_chest', 'blue_skies:lunar_chest', 'blue_skies:dusk_chest', 'blue_skies:maple_chest', 'blue_skies:cherry_chest'])
     
     // Common Tags
     e.add('forge:raw_materials', 'ad_astra:raw_nephryx')

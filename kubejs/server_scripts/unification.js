@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.12b       (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -210,8 +210,8 @@ ServerEvents.recipes(e => {
     ['create:zinc_block'].forEach(I => {replaceIO(I, 'alltheores:zinc_block')});
 
     //Wires
-    ['createaddition:copper_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_copper')});
-    ['createaddition:electrum_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_electrum')});
+    ['immersiveengineering:wire_copper'].forEach(I => {replaceIO(I, 'createaddition:copper_wire')});
+    ['immersiveengineering:wire_electrum'].forEach(I => {replaceIO(I, 'createaddition:electrum_wire')});
     
     //Gems
     ['iceandfire:sapphire_gem', 'thermal:sapphire'].forEach(I => {replaceIO(I, 'alltheores:sapphire')});

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -209,8 +209,8 @@ ServerEvents.tags('item', e => {
     e.remove('forge:storage_blocks/zinc', 'create:zinc_block')
 
     //Wires
-    e.remove('forge:wires/copper', 'createaddition:copper_wire')
-    e.remove('forge:wires/electrum', 'createaddition:electrum_wire')
+    e.remove('forge:wires/copper', 'immersiveengineering:wire_copper')
+    e.remove('forge:wires/electrum', 'immersiveengineering:wire_electrum')
     
     //Gems
     e.remove('forge:gems/sapphire', 'iceandfire:sapphire_gem', 'thermal:sapphire')

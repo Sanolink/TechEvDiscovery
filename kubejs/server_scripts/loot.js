@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -222,8 +222,8 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:storage_blocks/zinc', 'create:zinc_block'], 'alltheores:zinc_block')
 
     //Wires
-    replaceLT(['#forge:wires/copper', 'createaddition:copper_wire'], 'immersiveengineering:wire_copper')
-    replaceLT(['#forge:wires/electrum', 'createaddition:electrum_wire'], 'immersiveengineering:wire_electrum')
+    replaceLT(['#forge:wires/copper', 'immersiveengineering:wire_copper'], 'createaddition:copper_wire')
+    replaceLT(['#forge:wires/electrum', 'immersiveengineering:wire_electrum'], 'createaddition:electrum_wire')
     
     //Gems
     replaceLT(['#forge:gems/sapphire', 'thermal:sapphire', 'iceandfire:sapphire_gem'], 'alltheores:sapphire')

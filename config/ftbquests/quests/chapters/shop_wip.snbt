@@ -1509,6 +1509,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
 			icon: "forbidden_arcanus:stella_arcanum"
 			id: "6F10C2AE304D5745"
 			rewards: [{

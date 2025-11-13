@@ -328,13 +328,6 @@
 			}]
 			tasks: [
 				{
-					entity: "blue_skies:summoner"
-					icon: "blue_skies:summoner_spawn_egg"
-					id: "71594C557A459020"
-					type: "kill"
-					value: 1L
-				}
-				{
 					id: "1BFD36F7FFE1311E"
 					item: {
 						Count: 1b
@@ -360,6 +353,7 @@
 					type: "item"
 				}
 			]
+			title: "&lThe Summoner"
 			x: -1.0d
 			y: -0.5d
 		}
@@ -378,13 +372,6 @@
 				type: "item"
 			}]
 			tasks: [
-				{
-					entity: "blue_skies:alchemist"
-					icon: "blue_skies:alchemist_spawn_egg"
-					id: "44EBAAFFE1C9734A"
-					type: "kill"
-					value: 1L
-				}
 				{
 					id: "021B1DDCBC4B8AF8"
 					item: {
@@ -411,6 +398,7 @@
 					type: "item"
 				}
 			]
+			title: "&lThe Alchemist"
 			x: 1.0d
 			y: -0.5d
 		}
@@ -1301,13 +1289,6 @@
 			}]
 			tasks: [
 				{
-					entity: "blue_skies:arachnarch"
-					icon: "blue_skies:arachnarch_spawn_egg"
-					id: "2BADF10F16FE8ACC"
-					type: "kill"
-					value: 1L
-				}
-				{
 					id: "521F23EC30E5538A"
 					item: {
 						Count: 1b
@@ -1333,6 +1314,7 @@
 					type: "item"
 				}
 			]
+			title: "&lThe Arachnarch"
 			x: 2.0d
 			y: 1.5d
 		}
@@ -1348,13 +1330,6 @@
 				type: "item"
 			}]
 			tasks: [
-				{
-					entity: "blue_skies:starlit_crusher"
-					icon: "blue_skies:starlit_crusher_spawn_egg"
-					id: "366FC7D66AC12C81"
-					type: "kill"
-					value: 1L
-				}
 				{
 					id: "56D03AC86218371A"
 					item: {
@@ -1381,6 +1356,7 @@
 					type: "item"
 				}
 			]
+			title: "&lThe Starlit Crusher"
 			x: -2.0d
 			y: 1.5d
 		}

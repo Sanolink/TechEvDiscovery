@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.1         (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -245,8 +245,8 @@ JEIEvents.hideItems(event => {
         'quark:gunpowder_sack',
 
         //Wires
-        'createaddition:copper_wire',
-        'createaddition:electrum_wire',
+        'immersiveengineering:wire_copper',
+        'immersiveengineering:wire_electrum',
 
         //Gems
         'iceandfire:sapphire_gem',

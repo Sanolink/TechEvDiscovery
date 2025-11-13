@@ -1,0 +1,16 @@
+{
+  "type": "thermal:press",
+  "ingredient": [
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:netherite_plate"
+    }
+  ]
+}

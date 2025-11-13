@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/enderium"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/enderium"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:enderium_plate"

@@ -1,0 +1,22 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "thermal"
+		}
+	],
+	"type": "thermal:press",
+	"ingredient": [
+		{
+			"tag": "forge:ingots/ostrum"
+		},
+		{
+			"item": "thermal:press_plate_die"
+		}
+	],
+	"result": [
+		{
+			"item": "ad_astra:ostrum_plate"
+		}
+	]
+}

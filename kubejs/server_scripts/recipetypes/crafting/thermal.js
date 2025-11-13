@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.0         (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -33,7 +33,25 @@ ServerEvents.recipes(event => {
          pattern: [" I ", "IDI", " I "],
          key: {
              I: "alltheores:invar_plate",
-             D: "alltheores:diamond_rod"
+             D: "#forge:rods/metal"
+         }
+     },
+     //Plateworking Die
+     {
+         output: 'thermal:press_plate_die',
+         pattern: [" I ", "IDI", " I "],
+         key: {
+             I: "alltheores:invar_plate",
+             D: "#forge:plates"
+         }
+     },
+     //Wireworking Die
+     {
+         output: 'thermal:press_wire_die',
+         pattern: [" I ", "IDI", " I "],
+         key: {
+             I: "alltheores:invar_plate",
+             D: "#forge:wires"
          }
      },
      //Induction Smelter

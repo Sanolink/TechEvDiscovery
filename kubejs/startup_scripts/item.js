@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -32,19 +32,19 @@ StartupEvents.registry('item', e => {
 
     BasicItem('ad_astra:calorite_dust', "Calorite Dust")
     BasicItem('ad_astra:calorite_gear', "Calorite Gear")
-    BasicItem('ad_astra:calorite_rod', "Calorite Rod")
+    BasicItem('ad_astra:calorite_rod', "Calorite Rod").tag("forge:rods/metal")
     BasicItem('ad_astra:desh_dust', "Desh Dust")
     BasicItem('ad_astra:desh_gear', "Desh Gear")
-    BasicItem('ad_astra:desh_rod', "Desh Rod")
+    BasicItem('ad_astra:desh_rod', "Desh Rod").tag("forge:rods/metal")
     BasicItem('ad_astra:nephryx_dust', "Nephryx Dust")
     BasicItem('ad_astra:nephryx_gear', "Nephryx Gear")
     BasicItem('ad_astra:nephryx_ingot', "Nephryx Ingot")
     BasicItem('ad_astra:nephryx_nugget', "Nephryx Nugget")
     BasicItem('ad_astra:nephryx_plate', "Nephryx Plate")
-    BasicItem('ad_astra:nephryx_rod', "Nephryx Rod")
+    BasicItem('ad_astra:nephryx_rod', "Nephryx Rod").tag("forge:rods/metal")
     BasicItem('ad_astra:ostrum_dust', "Ostrum Dust")
     BasicItem('ad_astra:ostrum_gear', "Ostrum Gear")
-    BasicItem('ad_astra:ostrum_rod', "Ostrum Rod")
+    BasicItem('ad_astra:ostrum_rod', "Ostrum Rod").tag("forge:rods/metal")
     BasicItem('ad_astra:raw_nephryx', "Raw Nephryx")
     BasicItem('ad_astra:desh_rocket_nose_cone', "Desh Rocket Nose Cone")
     BasicItem('ad_astra:ostrum_rocket_nose_cone', "Ostrum Rocket Nose Cone")
@@ -155,7 +155,9 @@ StartupEvents.registry('item', e => {
     BasicItem('pneumaticcraft:processing_printed_circuit_board', "Processing PCB")
 
     BasicItem('thermal:ender_servo', "Ender Servo")
-    BasicItem('thermal:press_rod_die', "Rodworking Die")
+    BasicItem('thermal:press_plate_die', "Plateworking Die").unstackable()
+    BasicItem('thermal:press_rod_die', "Rodworking Die").unstackable()
+    BasicItem('thermal:press_wire_die', "Wireworking Die").unstackable()
     BasicItem('thermal:trizz_powder', "Trizz Powder")
 
     BasicItem('tiab:compressed_iron_bottle', "Compressed Bottle")

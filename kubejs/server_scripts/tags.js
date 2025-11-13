@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -209,8 +209,8 @@ ServerEvents.tags('item', e => {
     e.remove('forge:storage_blocks/zinc', 'create:zinc_block')
 
     //Wires
-    e.remove('forge:wires/copper', 'createaddition:copper_wire')
-    e.remove('forge:wires/electrum', 'createaddition:electrum_wire')
+    e.remove('forge:wires/copper', 'immersiveengineering:wire_copper')
+    e.remove('forge:wires/electrum', 'immersiveengineering:wire_electrum')
     
     //Gems
     e.remove('forge:gems/sapphire', 'iceandfire:sapphire_gem', 'thermal:sapphire')
@@ -292,7 +292,7 @@ ServerEvents.tags('item', e => {
     e.add('powah:solar_panel', ['powah:solar_panel_nitro', 'powah:solar_panel_spirited', 'powah:solar_panel_niotic', 'powah:solar_panel_blazing', 'powah:solar_panel_hardened', 'powah:solar_panel_basic', 'powah:solar_panel_starter'])
     e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
     e.add('ae2:inscriber_presses', 'ae2:elemental_processor_press')
-    e.add('thermal:crafting/dies', 'thermal:press_rod_die')
+    e.add('thermal:crafting/dies', 'thermal:press_rod_die', 'thermal:press_plate_die', 'thermal:press_wire_die')
     e.add('lychee:lightning_immune', 'powah:steel_energized')
     e.add('lychee:lightning_fire_immune', 'powah:steel_energized')
     e.add('psi:psimetal_assemblies', ['psi:cad_assembly_psimetal', 'psi:cad_assembly_ivory_psimetal', 'psi:cad_assembly_ebony_psimetal'])
@@ -303,6 +303,7 @@ ServerEvents.tags('item', e => {
     e.add('matc:imperium', ["matc:supremium_crystal"])
     e.add('industrialforegoing:basic_laser_lens', [laserLens.black, laserLens.blue, laserLens.brown, laserLens.cyan, laserLens.gray, laserLens.green, laserLens.light_blue, laserLens.light_gray, laserLens.lime, laserLens.magenta, laserLens.orange, laserLens.pink, laserLens.purple, laserLens.red, laserLens.white, laserLens.yellow])
     e.add('iceandfire:dragonsteels', ['iceandfire:dragonsteel_fire_ingot', 'iceandfire:dragonsteel_ice_ingot', 'iceandfire:dragonsteel_lightning_ingot'])
+    e.add('quark:revertable_chests', ['twilightforest:twilight_oak_chest', 'twilightforest:canopy_chest', 'twilightforest:mangrove_chest', 'twilightforest:darkwood_chest', 'twilightforest:time_chest', 'twilightforest:transformation_chest', 'twilightforest:mining_chest', 'twilightforest:sorting_chest', 'blue_skies:bluebright_chest', 'blue_skies:starlit_chest', 'blue_skies:frostbright_chest', 'blue_skies:lunar_chest', 'blue_skies:dusk_chest', 'blue_skies:maple_chest', 'blue_skies:cherry_chest'])
     
     // Common Tags
     e.add('forge:raw_materials', 'ad_astra:raw_nephryx')

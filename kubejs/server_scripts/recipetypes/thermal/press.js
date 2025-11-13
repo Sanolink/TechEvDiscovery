@@ -152,7 +152,7 @@ ServerEvents.recipes(event => {
             {
                 id: `raw_${mat}_unpacking`,
                 output: ChanceOrCountItem(TagToItem(`#forge:raw_materials/${mat}`), 9),
-                ingredients: [parseIngredient(`#forge:storage_blocks/raw_${mat}`), parseIngredient('thermal:press_packing_3x3_die')],
+                ingredients: [parseIngredient(`#forge:storage_blocks/raw_${mat}`), parseIngredient('thermal:press_unpacking_die')],
                 energy: 400
             },
         )

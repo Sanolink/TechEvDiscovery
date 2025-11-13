@@ -96,6 +96,28 @@ ServerEvents.recipes(event => {
             output: ChanceOrCountItem(TagToItem("#forge:nuggets/stellarium"), 9),
             ingredients: [parseIngredient("#forge:ingots/stellarium"), parseIngredient('thermal:press_unpacking_die')],
             energy: 400
+        },
+        {
+            id: "pumpkin_packing",
+            output: parseIngredient("minecraft:pumpkin"),
+            ingredients: [ChanceOrCountItem("farmersdelight:pumpkin_slice", 4), parseIngredient('thermal:press_packing_2x2_die')],
+            energy: 400
+        },
+        {
+            id: "pumpkin_unpacking",
+            output: ChanceOrCountItem("farmersdelight:pumpkin_slice", 4),
+            ingredients: [parseIngredient("minecraft:pumpkin"), parseIngredient('thermal:press_unpacking_die')],
+            energy: 400
+        },
+        {
+            id: "blaze_rod",
+            output: parseIngredient("minecraft:blaze_rod"),
+            ingredients: [ChanceOrCountItem("minecraft:blaze_powder", 10), parseIngredient('thermal:press_rod_die')],
+        },
+        {
+            id: "electrode",
+            output: parseIngredient("immersiveengineering:graphite_electrode"),
+            ingredients: [ChanceOrCountItem("immersiveengineering:ingot_hop_graphite", 4), parseIngredient('thermal:press_rod_die')],
         }
     ]
 

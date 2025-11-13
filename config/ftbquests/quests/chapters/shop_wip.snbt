@@ -1031,6 +1031,7 @@
 			}]
 			shape: "square"
 			tasks: [{
+				consume_items: true
 				id: "4A05B83F0A84AD90"
 				item: "coinsje:iron_coin_pile"
 				type: "item"
@@ -1054,6 +1055,7 @@
 			}]
 			shape: "square"
 			tasks: [{
+				consume_items: true
 				id: "4F0003CAE4AE879D"
 				item: "coinsje:iron_coin_pile"
 				type: "item"
@@ -1077,6 +1079,7 @@
 			}]
 			shape: "square"
 			tasks: [{
+				consume_items: true
 				id: "5FBA1DF50C5447D5"
 				item: "coinsje:iron_coin_pile"
 				type: "item"
@@ -1100,6 +1103,7 @@
 			}]
 			shape: "square"
 			tasks: [{
+				consume_items: true
 				id: "6E619C80B8850DCC"
 				item: "coinsje:iron_coin_pile"
 				type: "item"

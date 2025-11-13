@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -155,7 +155,7 @@ StartupEvents.registry('item', e => {
     BasicItem('pneumaticcraft:processing_printed_circuit_board', "Processing PCB")
 
     BasicItem('thermal:ender_servo', "Ender Servo")
-    BasicItem('thermal:press_rod_die', "Rodworking Die")
+    BasicItem('thermal:press_rod_die', "Rodworking Die").unstackable()
     BasicItem('thermal:trizz_powder', "Trizz Powder")
 
     BasicItem('tiab:compressed_iron_bottle', "Compressed Bottle")

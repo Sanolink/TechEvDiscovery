@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
          pattern: [" I ", "IDI", " I "],
          key: {
              I: "alltheores:invar_plate",
+             D: "#forge:rods/metal"
          }
      },
      //Plateworking Die

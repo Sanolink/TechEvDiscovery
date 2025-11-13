@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.11        (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -24,42 +24,42 @@ ServerEvents.recipes(event => {
         {
             id: "overcharged_iron_to_plate",
             output: parseIngredient(TagToItem('create_new_age:overcharged_iron_sheet')),
-            ingredients: parseIngredient('create_new_age:overcharged_iron')
+            ingredients: [parseIngredient('create_new_age:overcharged_iron'), parseIngredient('thermal:press_plate_die')]
         },
         {
             id: "overcharged_golden_to_plate",
             output: parseIngredient(TagToItem('create_new_age:overcharged_golden_sheet')),
-            ingredients: parseIngredient('create_new_age:overcharged_gold')
+            ingredients: [parseIngredient('create_new_age:overcharged_gold'), parseIngredient('thermal:press_plate_die')]
         },
         {
             id: "experience_to_plate",
             output: parseIngredient(TagToItem('create_things_and_misc:experience_sheet')),
-            ingredients: parseIngredient('create:experience_nugget')
+            ingredients: [parseIngredient('create:experience_nugget'), parseIngredient('thermal:press_plate_die')]
         },
         {
             id: "rose_quartz_to_plate",
             output: parseIngredient(TagToItem('create_things_and_misc:rose_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_rose_quartz')
+            ingredients: [parseIngredient('create:polished_rose_quartz'), parseIngredient('thermal:press_plate_die')]
         },
         {
             id: "blue_quartz_to_plate",
             output: parseIngredient(TagToItem('create_things_and_misc:blue_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_blue_quartz')
+            ingredients: [parseIngredient('create:polished_blue_quartz'), parseIngredient('thermal:press_plate_die')]
         },
         {
             id: "source_quartz_to_plate",
             output: parseIngredient(TagToItem('create_things_and_misc:source_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_source_quartz')
+            ingredients: [parseIngredient('create:polished_source_quartz'), parseIngredient('thermal:press_plate_die')]
         },
         {
             id: "psi_quartz_to_plate",
             output: parseIngredient(TagToItem('create_things_and_misc:psi_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_psi_quartz')
+            ingredients: [parseIngredient('create:polished_psi_quartz'), parseIngredient('thermal:press_plate_die')]
         },
         {
             id: "antimatter_quartz_to_plate",
             output: parseIngredient(TagToItem('create_things_and_misc:antimatter_quartz_sheet')),
-            ingredients: parseIngredient('create:polished_antimatter_quartz')
+            ingredients: [parseIngredient('create:polished_antimatter_quartz'), parseIngredient('thermal:press_plate_die')]
         },
         {
             id: "prismalium_nugget_packing",
@@ -291,7 +291,7 @@ ServerEvents.recipes(event => {
             {
                 id: `${ingot}_ingot_to_plate`,
                 output: parseIngredient(TagToItem(`#forge:plates/${ingot}`)),
-                ingredients: parseIngredient(`#forge:ingots/${ingot}`)
+                ingredients: [parseIngredient(`#forge:ingots/${ingot}`), parseIngredient('thermal:press_plate_die')]
             }
         )
     });
@@ -334,7 +334,26 @@ ServerEvents.recipes(event => {
         )
     });
 
-    // Gems -> Plates
+    // Ingots -> Wires
+    const IngotsToWires = [
+        'iron',
+        'gold',
+        'copper',
+        'electrum',
+        'aluminum',
+        'steel',
+        'lead'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: `${mat}_ingot_to_wire`,
+                output: ChanceOrCountItem(TagToItem(`#forge:wires/${mat}`), 2),
+                ingredients: [parseIngredient(`#forge:ingots/${mat}`), parseIngredient('thermal:press_wire_die')]
+            }
+        )
+    });
+
+    // Gems -> Gears
     const GemsToGears = [
         "quartz",
         "emerald",
@@ -358,7 +377,7 @@ ServerEvents.recipes(event => {
             {
                 id: `${gem}_gem_to_plate`,
                 output: parseIngredient(TagToItem(`#forge:plates/${gem}`)),
-                ingredients: parseIngredient(`#forge:gems/${gem}`)
+                ingredients: [parseIngredient(`#forge:gems/${gem}`), parseIngredient('thermal:press_plate_die')]
             }
         )
     });

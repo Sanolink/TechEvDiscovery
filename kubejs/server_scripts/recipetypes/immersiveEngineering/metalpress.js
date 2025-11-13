@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -174,6 +174,42 @@ ServerEvents.recipes(event => {
             output: parseIngredient("psi:spell_bullet"),
             input: parseIngredient("psi:psidust"),
             mold: "immersiveengineering:mold_bullet_casing"
+        },
+        {
+            id: "prismalium_nugget_packing",
+            output: parseIngredient("#forge:ingots/prismalium"),
+            input: IEChanceOrCountIngredient("#forge:nuggets/prismalium", 9),
+            mold: "immersiveengineering:mold_packing_9"
+        },
+        {
+            id: "prismalium_nugget_unpacking",
+            output: IEChanceOrCountIngredient("#forge:nuggets/prismalium", 9),
+            input: parseIngredient("#forge:ingots/prismalium"),
+            mold: "immersiveengineering:mold_unpacking"
+        },
+        {
+            id: "melodium_nugget_packing",
+            output: parseIngredient("#forge:ingots/melodium"),
+            input: IEChanceOrCountIngredient("#forge:nuggets/melodium", 9),
+            mold: "immersiveengineering:mold_packing_9"
+        },
+        {
+            id: "melodium_nugget_unpacking",
+            output: IEChanceOrCountIngredient("#forge:nuggets/melodium", 9),
+            input: parseIngredient("#forge:ingots/melodium"),
+            mold: "immersiveengineering:mold_unpacking"
+        },
+        {
+            id: "stellarium_nugget_packing",
+            output: parseIngredient("#forge:ingots/stellarium"),
+            input: IEChanceOrCountIngredient("#forge:nuggets/stellarium", 9),
+            mold: "immersiveengineering:mold_packing_9"
+        },
+        {
+            id: "stellarium_nugget_unpacking",
+            output: IEChanceOrCountIngredient("#forge:nuggets/stellarium", 9),
+            input: parseIngredient("#forge:ingots/stellarium"),
+            mold: "immersiveengineering:mold_unpacking"
         }
     ]
 
@@ -233,7 +269,212 @@ ServerEvents.recipes(event => {
         )
     })
 
-   //General Metal Press Function
+    const RawPackingUnpacking = [
+        'zinc',
+        'aluminum',
+        'osmium',
+        'uranium',
+        'platinum',
+        'iridium',
+        'aquite',
+        'charoite',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'elementium',
+        'cloggrum',
+        'froststeel',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx',
+        'iesnium',
+        'auricargentum',
+        'cuperzinate',
+        'leadosnite',
+        'uratinumal'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `raw_${mat}_packing`,
+                output: parseIngredient(`#forge:storage_blocks/raw_${mat}`),
+                input: IEChanceOrCountIngredient(`#forge:raw_materials/${mat}`, 9),
+                mold: "immersiveengineering:mold_packing_9"
+            },
+            {
+                id: `raw_${mat}_unpacking`,
+                output: IEChanceOrCountIngredient(`#forge:raw_materials/${mat}`, 9),
+                input: parseIngredient(`#forge:storage_blocks/raw_${mat}`),
+                mold: "immersiveengineering:mold_unpacking"
+            }
+        )
+    })
+
+    const IngotsPackingUnpacking = [
+        "aluminum",
+        'osmium',
+        'platinum',
+        'uranium',
+        'zinc',
+        'iridium',
+        'steel',
+        'brass',
+        'neptunium',
+        'pewter',
+        'cast_iron',
+        'cloggrum',
+        'froststeel',
+        'forgotten_metal',
+        'soul_infused',
+        'shellite',
+        'twinite',
+        'dragonsteel',
+        'arcane_gold',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'deorum',
+        'iesnium',
+        'manasteel',
+        'terrasteel',
+        'elementium',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx',
+        'refined_glowstone',
+        'refined_obsidian',
+        'the_ultimate',
+        'crystaltine',
+        'enhanced_ender_ingot',
+        'ender_ingot',
+        'enhanced_redstone_ingot',
+        'redstone_ingot',
+        'black_iron'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `${mat}_nugget_packing`,
+                output: parseIngredient(`#forge:nuggets/${mat}`),
+                input: IEChanceOrCountIngredient(`#forge:ingots/${mat}`, 9),
+                mold: "immersiveengineering:mold_packing_9"
+            },
+            {
+                id: `${mat}_packing`,
+                output: parseIngredient(`#forge:ingots/${mat}`),
+                input: IEChanceOrCountIngredient(`#forge:ingots/${mat}`, 9),
+                mold: "immersiveengineering:mold_packing_9"
+            },
+            {
+                id: `${mat}_unpacking`,
+                output: IEChanceOrCountIngredient(`#forge:ingots/${mat}`, 9),
+                input: parseIngredient(`#forge:storage_blocks/${mat}`),
+                mold: "immersiveengineering:mold_unpacking"
+            },
+            {
+                id: `${mat}_nugget_unpacking`,
+                output: IEChanceOrCountIngredient(`#forge:nuggets/${mat}`, 9),
+                input: parseIngredient(`#forge:ingots/${mat}`),
+                mold: "immersiveengineering:mold_unpacking"
+            }
+        )
+    })
+
+    const MysticalIngotsPackingUnpacking = [
+        'soulium',
+        'awakened_supremium',
+        'supremium',
+        'imperium',
+        'tertium',
+        'prudentium',
+        'inferium',
+        'prosperity',
+        'insanium'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `${mat}_nugget_packing`,
+                output: parseIngredient(`#forge:ingots/${mat}`),
+                input: IEChanceOrCountIngredient(`#forge:nuggets/${mat}`, 9),
+                mold: "immersiveengineering:mold_packing_9"
+            },
+            {
+                id: `${mat}_packing`,
+                output: parseIngredient(`#forge:storage_blocks/${mat}_ingot`),
+                input: IEChanceOrCountIngredient(`#forge:ingots/${mat}`, 9),
+                mold: "immersiveengineering:mold_packing_9"
+            },
+            {
+                id: `${mat}_unpacking`,
+                output: IEChanceOrCountIngredient(`#forge:ingots/${mat}`, 9),
+                input: parseIngredient(`#forge:storage_blocks/${mat}_ingot`),
+                mold: "immersiveengineering:mold_unpacking"
+            },
+            {
+                id: `${mat}_nugget_unpacking`,
+                output: IEChanceOrCountIngredient(`#forge:nuggets/${mat}`, 9),
+                input: parseIngredient(`#forge:ingots/${mat}`),
+                mold: "immersiveengineering:mold_unpacking"
+            }
+        )
+    })
+
+    const Dies = {
+        'thermal:press_packing_2x2_die': 'immersiveengineering:mold_packing_4',
+        'thermal:press_packing_3x3_die': 'immersiveengineering:mold_packing_9',
+        'thermal:press_unpacking_die': 'immersiveengineering:mold_unpacking'
+    }
+    event.forEachRecipe({ type: 'thermal:press' }, recipe => {
+        
+        let rawIngredients = recipe.json.get('ingredients');
+        if (rawIngredients == null) return;
+        let ingredients = [];
+        for (let i = 0; i < rawIngredients.size(); i++) ingredients.push(rawIngredients.get(i));
+
+        let foundDie = ingredients.find(ing => {
+            let item = ing.has('item') ? ing.get('item').getAsString() : null;
+            return item && Dies[item];
+        })
+        if (!foundDie) return;
+        let mold = Dies[foundDie.get('item').getAsString()];
+
+        let inputIng = ingredients.find(ing => {
+            let item = ing.has('item') ? ing.get('item').getAsString() : null;
+            return !item || !Dies[item];
+        });
+        if (!inputIng) return;
+        let inputItem = null;
+        let inputCount = 1;
+        if (inputIng.has('item')) {
+            inputItem = inputIng.get('item').getAsString();
+            inputCount = inputIng.has('count') ? inputIng.get('count').getAsInt() : 1;
+        } else if (inputIng.has('tag')) {
+            inputItem = `#${inputIng.get('tag').getAsString()}`;
+            inputCount = inputIng.has('count') ? inputIng.get('count').getAsInt() : 1;
+        } else return;
+
+        let rawResult = recipe.json.get('result')
+        if (rawResult == null) return;
+        let resultObj = rawResult.isJsonArray() ? rawResult.get(0) : rawResult;
+        let resultItem = null;
+        let resultCount = 1;
+        if (resultObj.has('item')) {
+            resultItem = resultObj.get('item').getAsString();
+            resultCount = resultObj.has('count') ? resultObj.get('count').getAsInt() : 1;
+        } else if (resultObj.has('tag')) {
+            resultItem = `#${resultObj.get('tag').getAsString()}`;
+            resultCount = resultObj.has('count') ? resultObj.get('count').getAsInt() : 1;
+        } else return;
+
+        recipes.push({
+            id: recipe.getId().split("press/")[1],
+            output: ChanceOrCountItem(resultItem, resultCount),
+            input: IEChanceOrCountIngredient(inputItem, inputCount),
+            mold: mold
+        })
+    })
+
+    //General Metal Press Function
     recipes.forEach(recipe => {
         let json = {
             type: 'immersiveengineering:metal_press',

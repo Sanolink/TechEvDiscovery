@@ -232,6 +232,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:sawmill/stripped_oak_log'})
     event.remove({ id: 'immersiveengineering:sawmill/stripped_spruce_log'})
     event.remove({ id: 'immersiveengineering:sawmill/stripped_warped_log'})
+    event.remove({ id: 'immersiveengineering:metalpress/melon'})
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:plates" })
     event.remove({ input: 'immersiveengineering:hammer', output: "#forge:dusts" })
     event.remove({ input: 'immersiveengineering:wirecutter', output: '#forge:wires', type: 'minecraft:crafting_shapeless' })

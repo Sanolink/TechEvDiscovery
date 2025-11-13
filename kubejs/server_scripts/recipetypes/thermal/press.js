@@ -140,7 +140,11 @@ ServerEvents.recipes(event => {
         'ostrum',
         'calorite',
         'nephryx',
-        'iesnium'
+        'iesnium',
+        'auricargentum',
+        'cuperzinate',
+        'leadosnite',
+        'uratinumal'
     ].forEach((mat) => {
         recipes.push(
             {

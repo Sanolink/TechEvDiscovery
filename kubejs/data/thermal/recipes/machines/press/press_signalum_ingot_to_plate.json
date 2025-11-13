@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/signalum"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:signalum_plate"

@@ -2,7 +2,7 @@
   "type": "thermal:press",
   "ingredient": [
     {
-      "tag": "forge:ingots/tin"
+      "tag": "forge:ingots/prismalium"
     },
     {
       "item": "thermal:press_plate_die"
@@ -10,7 +10,7 @@
   ],
   "result": [
     {
-      "item": "alltheores:tin_plate"
+      "item": "thermalendergy:prismalium_plate"
     }
   ]
 }

@@ -292,7 +292,7 @@ ServerEvents.tags('item', e => {
     e.add('powah:solar_panel', ['powah:solar_panel_nitro', 'powah:solar_panel_spirited', 'powah:solar_panel_niotic', 'powah:solar_panel_blazing', 'powah:solar_panel_hardened', 'powah:solar_panel_basic', 'powah:solar_panel_starter'])
     e.add('powah:thermo_generator', ['powah:thermo_generator_nitro', 'powah:thermo_generator_spirited', 'powah:thermo_generator_niotic', 'powah:thermo_generator_blazing', 'powah:thermo_generator_hardened', 'powah:thermo_generator_basic', 'powah:thermo_generator_starter'])
     e.add('ae2:inscriber_presses', 'ae2:elemental_processor_press')
-    e.add('thermal:crafting/dies', 'thermal:press_rod_die')
+    e.add('thermal:crafting/dies', 'thermal:press_rod_die', 'thermal:press_plate_die', 'thermal:press_wire_die')
     e.add('lychee:lightning_immune', 'powah:steel_energized')
     e.add('lychee:lightning_fire_immune', 'powah:steel_energized')
     e.add('psi:psimetal_assemblies', ['psi:cad_assembly_psimetal', 'psi:cad_assembly_ivory_psimetal', 'psi:cad_assembly_ebony_psimetal'])

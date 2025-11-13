@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/iron"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:iron_plate"

@@ -155,7 +155,9 @@ StartupEvents.registry('item', e => {
     BasicItem('pneumaticcraft:processing_printed_circuit_board', "Processing PCB")
 
     BasicItem('thermal:ender_servo', "Ender Servo")
+    BasicItem('thermal:press_plate_die', "Plateworking Die").unstackable()
     BasicItem('thermal:press_rod_die', "Rodworking Die").unstackable()
+    BasicItem('thermal:press_wire_die', "Wireworking Die").unstackable()
     BasicItem('thermal:trizz_powder', "Trizz Powder")
 
     BasicItem('tiab:compressed_iron_bottle', "Compressed Bottle")

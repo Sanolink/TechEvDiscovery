@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/constantan"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/constantan"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:constantan_plate"

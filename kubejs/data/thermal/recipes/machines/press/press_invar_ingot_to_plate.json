@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/invar"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/invar"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:invar_plate"

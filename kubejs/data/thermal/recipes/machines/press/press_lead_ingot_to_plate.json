@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/lead"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:lead_plate"

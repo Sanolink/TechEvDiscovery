@@ -210,6 +210,12 @@ ServerEvents.recipes(event => {
             output: IEChanceOrCountIngredient("#forge:nuggets/stellarium", 9),
             input: parseIngredient("#forge:ingots/stellarium"),
             mold: "immersiveengineering:mold_unpacking"
+        },
+        {
+            id: "pumpkin_packing",
+            output: parseIngredient("minecraft:pumpkin"),
+            input: IEChanceOrCountIngredient("farmersdelight:pumpkin_slice", 4),
+            mold: "immersiveengineering:mold_packing_4"
         }
     ]
 

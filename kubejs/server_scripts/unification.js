@@ -248,8 +248,8 @@ ServerEvents.recipes(e => {
 
     //Wires
     ['ftbic:aluminum_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_aluminum')});
-    ['createaddition:copper_wire', 'ftbic:copper_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_copper')});
-    ['createaddition:electrum_wire'].forEach(I => {replaceIO(I, 'immersiveengineering:wire_electrum')});
+    ['immersiveengineering:wire_copper', 'ftbic:copper_wire'].forEach(I => {replaceIO(I, 'createaddition:copper_wire')});
+    ['immersiveengineering:wire_electrum'].forEach(I => {replaceIO(I, 'createaddition:electrum_wire')});
     ['ftbic:gold_wire'].forEach(I => {replaceIO(I, 'createaddition:gold_wire')});
     
     //Gems

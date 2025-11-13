@@ -283,8 +283,8 @@ JEIEvents.hideItems(event => {
 
         //Wires
         'ftbic:aluminum_wire',
-        'createaddition:copper_wire', 'ftbic:copper_wire',
-        'createaddition:electrum_wire',
+        'immersiveengineering:wire_copper', 'ftbic:copper_wire',
+        'immersiveengineering:wire_electrum',
         'ftbic:gold_wire',
 
         //Gems

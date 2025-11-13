@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/lumium"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/lumium"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:lumium_plate"

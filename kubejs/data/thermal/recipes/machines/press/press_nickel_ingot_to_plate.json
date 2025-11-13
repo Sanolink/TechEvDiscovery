@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/nickel"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/nickel"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:nickel_plate"

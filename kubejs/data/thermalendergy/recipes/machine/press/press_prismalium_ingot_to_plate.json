@@ -1,0 +1,16 @@
+{
+  "type": "thermal:press",
+  "ingredient": [
+    {
+      "tag": "forge:ingots/prismalium"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermalendergy:prismalium_plate"
+    }
+  ]
+}

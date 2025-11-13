@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/electrum"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/electrum"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:electrum_plate"

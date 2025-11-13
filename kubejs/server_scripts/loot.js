@@ -260,8 +260,8 @@ LootJS.modifiers((event) => {
 
     //Wires
     replaceLT(['#forge:wires/aluminum', 'ftbic:aluminum_wire'], 'immersiveengineering:wire_aluminum')
-    replaceLT(['#forge:wires/copper', 'createaddition:copper_wire', 'ftbic:copper_wire'], 'immersiveengineering:wire_copper')
-    replaceLT(['#forge:wires/electrum', 'createaddition:electrum_wire'], 'immersiveengineering:wire_electrum')
+    replaceLT(['#forge:wires/copper', 'immersiveengineering:wire_copper', 'ftbic:copper_wire'], 'createaddition:copper_wire')
+    replaceLT(['#forge:wires/electrum', 'immersiveengineering:wire_electrum'], 'createaddition:electrum_wire')
     replaceLT(['#forge:wires/gold', 'ftbic:gold_wire'], 'createaddition:gold_wire')
     
     //Gems

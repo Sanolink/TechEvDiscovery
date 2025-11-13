@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.4.14        (_____)
 
 */
 
@@ -25,6 +25,12 @@ ServerEvents.recipes(event => {
             output: 'botania:fertilizer',
             input: 'minecraft:bone_meal',
             mana: 2500,
+            catalyst: 'botania:floral_catalyst'
+        },
+        {
+            output: 'botania:pure_daisy',
+            input: 'minecraft:oxeye_daisy',
+            mana: 5000,
             catalyst: 'botania:floral_catalyst'
         }
     ]

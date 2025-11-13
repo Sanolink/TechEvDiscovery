@@ -1,8 +1,13 @@
 {
   "type": "thermal:press",
-  "ingredient": {
-    "tag": "forge:ingots/bronze"
-  },
+  "ingredient": [
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "item": "thermal:press_plate_die"
+    }
+  ],
   "result": [
     {
       "item": "alltheores:bronze_plate"

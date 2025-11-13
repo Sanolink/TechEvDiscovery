@@ -1532,6 +1532,28 @@
 			x: 3.0d
 			y: 2.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["4628EDDBF7E3E2BE"]
+			id: "2AAB9A3DA12BC27E"
+			rewards: [{
+				id: "4C369F842077DBC6"
+				item: "coinsje:diamond_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "&l[TEMPORARY EXCHANGE]"
+			tasks: [{
+				consume_items: true
+				id: "7D1C43C46D82219B"
+				item: "techev_additions:techevium"
+				type: "item"
+			}]
+			title: "&lTechevium > Coins"
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 	title: "&l&a[Market]"
 }

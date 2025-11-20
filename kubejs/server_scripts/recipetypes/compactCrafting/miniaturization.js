@@ -320,6 +320,72 @@ ServerEvents.recipes(event => {
         }
     }
 
+    const powerFlower = [
+        'basic',
+        'dark',
+        'red',
+        'magenta',
+        'pink',
+        'purple',
+        'violet',
+        'blue',
+        'cyan',
+        'green',
+        'lime',
+        'yellow',
+        'orange',
+        'white',
+        'fading',
+        'final'
+    ]
+    for (let index = 0; index < powerFlower.length; index++) {
+        let curTier = powerFlower[index]
+        let catalyst = `projectexpansion:${powerFlower[index - 1]}_power_flower`
+        if (index == 0) catalyst = 'projecte:collector_mk1'
+        recipes.push(miniaturization(catalyst, 1, `projectexpansion:${curTier}_power_flower`, 1, [
+            [
+                [' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', 'C', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ']
+            ],
+            [
+                [' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', 'C', ' ', ' '],
+                [' ', 'C', 'R', 'C', ' '],
+                [' ', ' ', 'C', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ']
+            ],
+            [
+                [' ', ' ', 'C', ' ', ' '],
+                [' ', 'C', 'R', 'C', ' '],
+                ['C', 'R', 'L', 'R', 'C'],
+                [' ', 'C', 'R', 'C', ' '],
+                [' ', ' ', 'C', ' ', ' ']
+            ],
+            [
+                [' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', 'C', ' ', ' '],
+                [' ', 'C', 'R', 'C', ' '],
+                [' ', ' ', 'C', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ']
+            ],
+            [
+                [' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', 'C', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' '],
+                [' ', ' ', ' ', ' ', ' ']
+            ],
+        ],
+            {
+                "C": `projectexpansion:${curTier}_collector`,
+                "R": `projectexpansion:${curTier}_relay`,
+                "L": `projectexpansion:${curTier}_emc_link`,
+            }, `power_flower/${curTier}`))
+    }
+
     //General Miniaturization Function
     recipes.forEach(recipe => {
         event.custom(recipe.json).id('compactcrafting:miniaturization/' + recipe.id)

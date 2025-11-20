@@ -1,0 +1,10 @@
+{
+  "block.ftbic.compressor": "Bulk Compressor",
+  "block.ftbic.extruder": "Bulk Extruder",
+  "block.ftbic.macerator": "Bulk Macerator",
+  "block.ftbic.roller": "Bulk Roller",
+  "recipe.ftbic.compressing": "Bulk Compressing",
+  "recipe.ftbic.extruding": "Bulk Extruding",
+  "recipe.ftbic.macerating": "Bulk Macerating",
+  "recipe.ftbic.rolling": "Bulk Rolling"
+}

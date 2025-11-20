@@ -1008,7 +1008,10 @@
 			y: -5.25d
 		}
 		{
-			dependencies: ["4E7356179682035C"]
+			dependencies: [
+				"4E7356179682035C"
+				"0F6F5F11B35920B3"
+			]
 			icon: "chemlib:tellurium"
 			id: "1D98BCCFFB678BAC"
 			rewards: [{
@@ -1028,8 +1031,11 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["4E7356179682035C"]
-			icon: "botania:cosmetic_questgiver_mark"
+			dependencies: [
+				"4E7356179682035C"
+				"29F81B08C675C873"
+			]
+			icon: "immersiveengineering:material_component_quantum"
 			id: "0539B924F0517E3B"
 			rewards: [{
 				id: "4D26F6B213B0F4C3"

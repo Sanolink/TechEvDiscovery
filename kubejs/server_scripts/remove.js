@@ -492,6 +492,8 @@ ServerEvents.recipes(event => {
 
     //RFTools 
     event.remove({ id: 'rftoolsbase:dimensionalshard' })
+    event.remove({ id: 'rftoolsbase:infused_diamond' })
+    event.remove({ id: 'rftoolsbase:infused_enderpearl' })
 
     //Simple Storage
     event.remove({ output: 'storagenetwork:inventory_remote', type: 'minecraft:crafting_shaped' })

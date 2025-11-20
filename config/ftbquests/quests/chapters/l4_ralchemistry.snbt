@@ -21,6 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/hydrogen_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "639097DDB6C3E5E7"
 			rewards: [{
@@ -42,6 +43,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/lithium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "4E99A62AC2AC25A6"
 			rewards: [{
@@ -63,6 +65,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/beryllium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "60DD4C1F91DB4628"
 			rewards: [{
@@ -84,6 +87,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/sodium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "65FCB5EAC1EFBEA9"
 			rewards: [{
@@ -105,6 +109,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/magnesium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "65F323316D033277"
 			rewards: [{
@@ -126,6 +131,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/potassium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "25574DAF57A984B9"
 			rewards: [{
@@ -147,6 +153,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/calcium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "203D19AA0CE9112D"
 			rewards: [{
@@ -168,6 +175,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/rubidium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "41B42265BBA3E4F6"
 			rewards: [{
@@ -189,6 +197,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/strontium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2D5EED9F7247C7D5"
 			rewards: [{
@@ -210,6 +219,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/cesium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "0C3AC3537653741B"
 			rewards: [{
@@ -231,6 +241,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/barium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "1B781E18E2242D9E"
 			rewards: [{
@@ -252,6 +263,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/francium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "35366EC9D7769F53"
 			rewards: [{
@@ -273,6 +285,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/radium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "7A8B4A082A07F54C"
 			rewards: [{
@@ -294,6 +307,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/scandium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "25D7F1C90908607C"
 			rewards: [{
@@ -315,6 +329,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/yttrium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "0D97E54C4A3FE672"
 			rewards: [{
@@ -336,6 +351,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/zirconium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "3DE48CBC984631D9"
 			rewards: [{
@@ -379,6 +395,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/rutherfordium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "415DDFD75858F697"
 			rewards: [{
@@ -400,6 +417,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/hafnium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "7C447011B0EE2AC8"
 			rewards: [{
@@ -421,6 +439,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/lanthanum_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5A4DBECC34D56980"
 			rewards: [{
@@ -442,6 +461,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/actinium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "38C3C82F0E7FF53C"
 			rewards: [{
@@ -463,6 +483,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/vanadium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "09F6D404571687E6"
 			rewards: [{
@@ -484,6 +505,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/chromium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "1EBC4A2F4D2DAD90"
 			rewards: [{
@@ -505,6 +527,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/manganese_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2DAE149132C6606C"
 			rewards: [{
@@ -526,6 +549,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/iron_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5EFA19E084C5EB71"
 			rewards: [{
@@ -547,6 +571,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/cobalt_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "20E83B67A53A455C"
 			rewards: [{
@@ -568,6 +593,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/nickel_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "085C275905A15DB4"
 			rewards: [{
@@ -589,6 +615,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/copper_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "13B8B5E47D3A0404"
 			rewards: [{
@@ -610,6 +637,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/helium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "02B083BC9B830BC9"
 			rewards: [{
@@ -631,6 +659,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/zinc_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "1F8BC797961D39CD"
 			rewards: [{
@@ -652,6 +681,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/boron_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "13FEE8F6EDFE4520"
 			rewards: [{
@@ -673,6 +703,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/carbon_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "298E72DE7B2B64EB"
 			rewards: [{
@@ -694,6 +725,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/nitrogen_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2289464DFF6FCF22"
 			rewards: [{
@@ -715,6 +747,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/oxygen_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "0E3B82CCF090651C"
 			rewards: [{
@@ -736,6 +769,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/fluorine_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "70290B8BFD5D7A83"
 			rewards: [{
@@ -757,6 +791,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/neon_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "3E87AC284CC0F8F8"
 			rewards: [{
@@ -778,6 +813,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/aluminum_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "6F68E3183963BEFD"
 			rewards: [{
@@ -799,6 +835,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/silicon_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "37B09BBC95E6010B"
 			rewards: [{
@@ -820,6 +857,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/phosphorus_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "6E5D296C8B3B9148"
 			rewards: [{
@@ -841,6 +879,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/sulfur_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "7A66296C4206317E"
 			rewards: [{
@@ -862,6 +901,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/chlorine_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5E4CB178D5F04F53"
 			rewards: [{
@@ -883,6 +923,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/argon_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "00AAD84FA725192A"
 			rewards: [{
@@ -904,6 +945,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/gallium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "6D767FE4C14D3784"
 			rewards: [{
@@ -925,6 +967,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/germanium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "74311C71A7B63EB4"
 			rewards: [{
@@ -946,6 +989,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/arsenic_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5754740708A3046E"
 			rewards: [{
@@ -967,6 +1011,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/selenium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "4490E4553C2F4B89"
 			rewards: [{
@@ -988,6 +1033,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/bromine_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "59A23E02B253EC4D"
 			rewards: [{
@@ -1009,6 +1055,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/krypton_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "297E3EE5EA90F4A5"
 			rewards: [{
@@ -1030,6 +1077,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/niobium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "792843888D778356"
 			rewards: [{
@@ -1051,6 +1099,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/molybdenum_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "7A232F05B79D5907"
 			rewards: [{
@@ -1072,6 +1121,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/technetium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "393D17778952AB2F"
 			rewards: [{
@@ -1093,6 +1143,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/ruthenium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "1AD472C7AC68E9E3"
 			rewards: [{
@@ -1114,6 +1165,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/rhodium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5090F165F0168917"
 			rewards: [{
@@ -1135,6 +1187,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/palladium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "0D3FFB689967789B"
 			rewards: [{
@@ -1156,6 +1209,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/silver_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "65CE3A6B1FA7EF80"
 			rewards: [{
@@ -1177,6 +1231,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/cadmium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "6A9CE9179431D16E"
 			rewards: [{
@@ -1198,6 +1253,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/indium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "684B465B12D3AF70"
 			rewards: [{
@@ -1219,6 +1275,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/tin_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "55C3DE12C3D28A88"
 			rewards: [{
@@ -1240,6 +1297,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/antimony_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "28422F4C6EAD7F5D"
 			rewards: [{
@@ -1261,7 +1319,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1D98BCCFFB678BAC"]
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/tellurium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "0F6F5F11B35920B3"
 			rewards: [{
@@ -1284,6 +1342,7 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/iodine_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "26A437C214FEB739"
 			rewards: [{
@@ -1305,6 +1364,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/xenon_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2CD0CB7EDB821716"
 			rewards: [{
@@ -1326,6 +1386,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/cerium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "37D9D393CEAA36C2"
 			rewards: [{
@@ -1347,6 +1408,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/praseodymium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "3E76909CB3E07050"
 			rewards: [{
@@ -1368,6 +1430,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/neodymium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2F85396AA11BAC00"
 			rewards: [{
@@ -1389,6 +1452,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/promethium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "509CCA77F6DB97DA"
 			rewards: [{
@@ -1410,6 +1474,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/samarium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "7EAE57ED4D292736"
 			rewards: [{
@@ -1431,6 +1496,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/europium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "3D3DF49F6642E636"
 			rewards: [{
@@ -1452,6 +1518,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/gadolinium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5C03A9A4FC48CFC0"
 			rewards: [{
@@ -1473,6 +1540,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/terbium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "13FED9FA77E5EA57"
 			rewards: [{
@@ -1494,6 +1562,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/dysprosium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "74D75A321564C450"
 			rewards: [{
@@ -1515,6 +1584,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/holmium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "20DB47EED49F13EE"
 			rewards: [{
@@ -1536,6 +1606,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/erbium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "7EA23A5AA8658B33"
 			rewards: [{
@@ -1557,6 +1628,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/thulium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "0D2C028F192F8769"
 			rewards: [{
@@ -1578,6 +1650,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/ytterbium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "1C0ABF15FAD6C4EF"
 			rewards: [{
@@ -1599,6 +1672,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/lutetium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5F46D4DB1F28FC3C"
 			rewards: [{
@@ -1620,6 +1694,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/tantalum_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "14F2DA642F58172B"
 			rewards: [{
@@ -1641,6 +1716,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/tungsten_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "783A2BBB81602806"
 			rewards: [{
@@ -1662,6 +1738,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/rhenium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5DD743A5F035C302"
 			rewards: [{
@@ -1683,6 +1760,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: [
 				"{image:chemlib:textures/gui/elements/osmium_tooltip.png width:340 height:100 align:1 fit:true}"
 				"{@pagebreak}"
@@ -1707,6 +1785,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/iridium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "1C9C9AE64D1BC1E0"
 			rewards: [{
@@ -1728,6 +1807,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/platinum_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2B3CDDB8A7DE3599"
 			rewards: [{
@@ -1749,6 +1829,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/gold_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5476A374C02E8C5C"
 			rewards: [{
@@ -1770,6 +1851,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/mercury_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "6B88365DBD5DCEB5"
 			rewards: [{
@@ -1791,6 +1873,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/thallium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "403DA340DA95CC31"
 			rewards: [{
@@ -1812,6 +1895,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/lead_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "01261C7E0EF94A4E"
 			rewards: [{
@@ -1833,6 +1917,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/bismuth_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "21E009D66872F750"
 			rewards: [{
@@ -1854,6 +1939,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/polonium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "3118FDB206F4B5DA"
 			rewards: [{
@@ -1875,6 +1961,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/astatine_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "4611DD6E197AB0DF"
 			rewards: [{
@@ -1896,6 +1983,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/radon_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "1EA3283F98681EF1"
 			rewards: [{
@@ -1917,6 +2005,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/thorium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "35261B5564481F3F"
 			rewards: [{
@@ -1938,6 +2027,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/protactinium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "3BB17A002C92D79E"
 			rewards: [{
@@ -1959,6 +2049,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/uranium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "150BAEFA94B1B009"
 			rewards: [{
@@ -1980,6 +2071,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/neptunium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "6630A508C44EFA79"
 			rewards: [{
@@ -2001,6 +2093,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/plutonium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2A00AC0C5E8DC8CE"
 			rewards: [{
@@ -2022,6 +2115,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/americium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "56779B3495ADE08E"
 			rewards: [{
@@ -2043,6 +2137,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/curium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "415B0CD551C4A2F8"
 			rewards: [{
@@ -2064,6 +2159,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/berkelium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2281BD5AEA920421"
 			rewards: [{
@@ -2085,6 +2181,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/californium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "7518C85274622BE1"
 			rewards: [{
@@ -2106,6 +2203,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/einsteinium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "7A863A3B766181DF"
 			rewards: [{
@@ -2127,6 +2225,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/fermium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2A8ACB8691624858"
 			rewards: [{
@@ -2148,6 +2247,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/mendelevium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5E67AE1EFE0FE5F7"
 			rewards: [{
@@ -2169,6 +2269,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/nobelium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "390BC3C492E3DBFC"
 			rewards: [{
@@ -2190,6 +2291,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/lawrencium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "5721C95568F21733"
 			rewards: [{
@@ -2211,6 +2313,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/dubnium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "46DE1740BEC62529"
 			rewards: [{
@@ -2232,6 +2335,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/seaborgium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "70974E33EAF01E6C"
 			rewards: [{
@@ -2253,6 +2357,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/bohrium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "7B0FDD633A44C94C"
 			rewards: [{
@@ -2274,6 +2379,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/hassium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "19415D9BA8A63395"
 			rewards: [{
@@ -2295,6 +2401,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/meitnerium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2A38D80DBF01ABD4"
 			rewards: [{
@@ -2316,6 +2423,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/darmstadtium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "2673063DC2FFD214"
 			rewards: [{
@@ -2337,6 +2445,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/roentgenium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "562064F503A47F1D"
 			rewards: [{
@@ -2358,6 +2467,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/copernicium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "01AB49244FA47C39"
 			rewards: [{
@@ -2379,6 +2489,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/nihonium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "74EF2A2BBCE7D67E"
 			rewards: [{
@@ -2400,6 +2511,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/flerovium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "3AD02B3D4E6968FA"
 			rewards: [{
@@ -2421,6 +2533,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/moscovium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "60830F6CD4DD70C6"
 			rewards: [{
@@ -2442,6 +2555,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/livermorium_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "4F3F0C737F03F499"
 			rewards: [{
@@ -2463,6 +2577,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/tennessine_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "1A13BFE3B5788C49"
 			rewards: [{
@@ -2484,6 +2599,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
 			description: ["{image:chemlib:textures/gui/elements/oganesson_tooltip.png width:340 height:100 align:1 fit:true}"]
 			id: "24A68B2E2C347E23"
 			rewards: [{
@@ -2505,7 +2621,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
+			description: ["The &l&nAtomizer&r is used to convert fluids into their equivalent elements or compounds."]
 			id: "621D35EC9C1D6BD2"
+			rewards: [{
+				id: "6E6316CB26A95AD4"
+				item: "alchemistry:atomizer"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -2518,7 +2641,14 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
+			description: ["The &l&nCompactor&r is used to form simple items by compacting their components."]
 			id: "6B16A82F80A08B0F"
+			rewards: [{
+				id: "35B6588624475E74"
+				item: "alchemistry:compactor"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -2531,7 +2661,14 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
+			description: ["The &l&nDissolver&r is used to break down items into different chemical elements and compounds."]
 			id: "5675092DF5A54988"
+			rewards: [{
+				id: "3D954C9419F2FB7E"
+				item: "alchemistry:dissolver"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -2544,7 +2681,14 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
+			description: ["The &l&nCombiner&r is used to combine elements, compounds, and occasionally other items to form new items."]
 			id: "6937F837CA2A9628"
+			rewards: [{
+				id: "07755D8C72E941FB"
+				item: "alchemistry:combiner"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -2557,7 +2701,14 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4350F92D5D03FD5E"]
+			description: ["The &l&nLiquifier&r is used to convert elements and compounds into their fluid equivalents."]
 			id: "289EA0F367E01EBD"
+			rewards: [{
+				id: "5571AD157D01F09E"
+				item: "alchemistry:liquifier"
+				type: "item"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -2570,27 +2721,133 @@
 			y: -3.0d
 		}
 		{
+			dependencies: [
+				"7EEEFD85BFB06F1A"
+				"783A2BBB81602806"
+				"1EBC4A2F4D2DAD90"
+			]
+			description: [
+				"The &l&nFusion Reactor&r is used to fuse two elements together to create new elements."
+				""
+				"The output will be decided by the sum of the atomic number of the two inputs."
+				"{image:techev:textures/misc/quests/alchemistry/fusion.png width:100 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "alchemistry:fusion_chamber_controller"
 			id: "7A4F7B4210745A3B"
-			shape: "square"
-			size: 3.0d
-			tasks: [{
-				id: "5F34DC5691881464"
+			rewards: [{
+				id: "0E652A7B1230D761"
 				item: "alchemistry:fusion_chamber_controller"
 				type: "item"
 			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [
+				{
+					id: "5F34DC5691881464"
+					item: "alchemistry:fusion_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 62L
+					id: "61FFED691FC5D0E9"
+					item: "alchemistry:reactor_casing"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "1CE6FC8F94D57660"
+					item: "alchemistry:reactor_glass"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "715B0C1C3B0A3B18"
+					item: "alchemistry:fusion_core"
+					type: "item"
+				}
+				{
+					id: "370C2DB2013F0DF3"
+					item: "alchemistry:reactor_input"
+					type: "item"
+				}
+				{
+					id: "0AD7A9AEFA895307"
+					item: "alchemistry:reactor_energy"
+					type: "item"
+				}
+				{
+					id: "6EF78C0431B075DC"
+					item: "alchemistry:reactor_output"
+					type: "item"
+				}
+			]
 			title: "&lFusion Chamber"
 			x: 10.0d
 			y: -3.0d
 		}
 		{
+			dependencies: [
+				"7EEEFD85BFB06F1A"
+				"783A2BBB81602806"
+				"1EBC4A2F4D2DAD90"
+			]
+			description: [
+				"The &l&nFission Reactor&r is used to split apart the very fabric that holds elements together. "
+				""
+				"All elements except for Hydrogen can be split with the fission multiblock."
+				"{image:techev:textures/misc/quests/alchemistry/fission.png width:100 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "alchemistry:fission_chamber_controller"
 			id: "5FCA47929B395949"
-			shape: "square"
-			size: 3.0d
-			tasks: [{
-				id: "14E698A49BAC4137"
+			rewards: [{
+				id: "4DC7D0557C3F5352"
 				item: "alchemistry:fission_chamber_controller"
 				type: "item"
 			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [
+				{
+					id: "14E698A49BAC4137"
+					item: "alchemistry:fission_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 62L
+					id: "53F5F9A13DA4258D"
+					item: "alchemistry:reactor_casing"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "31A86531BE229586"
+					item: "alchemistry:reactor_glass"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "477B0B8C78E07011"
+					item: "alchemistry:fission_core"
+					type: "item"
+				}
+				{
+					id: "66DE69A0341EB9D0"
+					item: "alchemistry:reactor_input"
+					type: "item"
+				}
+				{
+					id: "7FD1B4EF405999C3"
+					item: "alchemistry:reactor_energy"
+					type: "item"
+				}
+				{
+					id: "3B1D38600125CFC0"
+					item: "alchemistry:reactor_output"
+					type: "item"
+				}
+			]
 			title: "&lFission Chamber"
 			x: 6.0d
 			y: -3.0d

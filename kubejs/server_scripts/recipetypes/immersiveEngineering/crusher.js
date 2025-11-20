@@ -172,10 +172,7 @@ ServerEvents.recipes(event => {
         'fluix',
         'lapis',
         'niter',
-        'peridot',
         'quartz',
-        'ruby',
-        'sapphire',
         'sulfur',
         'fluorite'
     ]

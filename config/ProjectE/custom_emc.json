@@ -3,6 +3,126 @@
     {
       "item": "minecraft:furnace",
       "emc": 8
+    },
+    {
+      "item": "projecte:klein_star_ein",
+      "emc": 24576
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 139264
+    },
+    {
+      "item": "#forge:ingots/iron",
+      "emc": 0
+    },
+    {
+      "item": "#forge:ingots/gold",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "emc": 0
+    },
+    {
+      "item": "#forge:ingots/uranium",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems/ruby",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems/peridot",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems/sapphire",
+      "emc": 0
+    },
+    {
+      "item": "#botania:special_flowers",
+      "emc": 0
+    },
+    {
+      "item": "#botania:special_floating_flowers",
+      "emc": 0
+    },
+    {
+      "item": "create:rose_quartz",
+      "emc": 0
+    },
+    {
+      "item": "create:blue_quartz",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems/diamond",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems/amethyst",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems/fluorite",
+      "emc": 0
+    },
+    {
+      "item": "spirit:soul_powder",
+      "emc": 0
+    },
+    {
+      "item": "#forge:dusts/charcoal",
+      "emc": 0
+    },
+    {
+      "item": "#forge:dusts/coal",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems/emerald",
+      "emc": 0
+    },
+    {
+      "item": "#forge:nether_stars",
+      "emc": 0
+    },
+    {
+      "item": "#forge:dusts/redstone",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems/lapis",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:hdpe_pellet",
+      "emc": 0
+    },
+    {
+      "item": "#forge:dusts/refined_glowstone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_breath",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_egg",
+      "emc": 0
+    },
+    {
+      "item": "thermal:cured_rubber",
+      "emc": 0
+    },
+    {
+      "item": "#forge:rods/treated_wood",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:enriched_carbon",
+      "emc": 0
     }
   ]
 }

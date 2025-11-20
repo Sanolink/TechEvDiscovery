@@ -464,6 +464,15 @@ JEIEvents.hideFluids(event => {
     event.hide('thermal:crude_oil')
     event.hide('thermal:creosote')
     event.hide('ad_astra:oil')
+    event.hide('immersivepetroleum:ethylene')
+    event.hide('chemlib:ethylene_fluid')
+    event.hide('chemlib:oxygen_fluid')
+    event.hide('chemlib:hydrogen_fluid')
+    event.hide('chemlib:chlorine_fluid')
+    event.hide('chemlib:sulfur_dioxide_fluid')
+    event.hide('chemlib:sulfur_trioxide_fluid')
+    event.hide('chemlib:sulfuric_acid_fluid')
+    event.hide('chemlib:hydrochloric_acid_fluid')
 })
 
 JEIEvents.addFluids(event => {

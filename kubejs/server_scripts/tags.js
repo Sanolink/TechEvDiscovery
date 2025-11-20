@@ -417,6 +417,7 @@ ServerEvents.tags('item', e => {
     e.add('forge:ingots', ['create_new_age:overcharged_gold', 'create_new_age:overcharged_iron'])
     e.add('forge:plates', ['ftbic:carbon_plate', 'create_things_and_misc:experience_sheet', 'create_things_and_misc:rose_quartz_sheet', 'create_new_age:overcharged_golden_sheet', 'create_new_age:overcharged_iron_sheet'])
     e.add('forge:polished_quartz', `create:polished_rose_quartz`)
+    e.add('forge:wires', 'ftbic:enderium_wire')
 
     e.add(`forge:polished_quartz/rose`, `create:polished_rose_quartz`)
     e.add('forge:ingots/overcharged_gold', 'create_new_age:overcharged_gold')
@@ -431,6 +432,7 @@ ServerEvents.tags('item', e => {
     e.add('forge:storage_blocks/insanium_ingot', "mysticalagradditions:insanium_ingot_block")
     e.add('forge:ores/elementium', "mythicbotany:elementium_ore")
     e.add('forge:dusts/netherite', 'alltheores:netherite_dust')
+    e.add('forge:wires/enderium', 'ftbic:enderium_wire')
     const CrushedRawMaterialsTags = ['desh', 'ostrum', 'calorite', 'nephryx', 'iron', 'gold', 'copper', 'zinc', 'osmium', 'platinum', 'silver', 'tin', 'lead', 'aluminum', 'uranium', 'nickel', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
         e.add(`create:crushed_raw_materials/${mat}`, `create:crushed_raw_${mat}`)})
     const BlueSkiesMissingTags = ['aquite', 'charoite', 'falsite', 'ventium', 'horizonite'].forEach(mat => {

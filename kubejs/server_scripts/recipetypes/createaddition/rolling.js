@@ -30,6 +30,11 @@ ServerEvents.recipes(event => {
             id: "carbon",
             input: Item.of('ftbic:carbon_fiber_mesh'),
             output: Item.of('ftbic:carbon_rod')
+        },
+        {
+            id: "enderium_plate",
+            input: Item.of('alltheores:enderium_plate'),
+            output: Item.of('ftbic:enderium_wire')
         }
     ]
 

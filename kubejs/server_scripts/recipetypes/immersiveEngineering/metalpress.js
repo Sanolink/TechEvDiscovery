@@ -174,6 +174,12 @@ ServerEvents.recipes(event => {
             output: parseIngredient("minecraft:pumpkin"),
             input: IEChanceOrCountIngredient("farmersdelight:pumpkin_slice", 4),
             mold: "immersiveengineering:mold_packing_4"
+        },
+        {
+            id: "wire_enderium",
+            output: IEChanceOrCountIngredient("ftbic:enderium_wire", 2),
+            input: parseIngredient("alltheores:enderium_ingot"),
+            mold: "immersiveengineering:mold_wire"
         }
     ]
 

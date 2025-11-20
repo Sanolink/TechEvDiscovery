@@ -399,7 +399,8 @@ ServerEvents.recipes(event => {
         'electrum',
         'aluminum',
         'steel',
-        'lead'
+        'lead',
+        'enderium'
     ].forEach((mat) => {
         recipes.push(
             {

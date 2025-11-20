@@ -46,13 +46,13 @@ ServerEvents.recipes(event => {
     let recipes = [
         {
             id: "infused_diamond",
-            input: [parseIngredient('minecraft:diamond')],
+            input: [parseIngredient('psi:psigem')],
             output: [parseIngredient('rftoolsbase:infused_diamond')],
             catalysts: DIMENSIONAL_MATRIX
         },
         {
             id: "infused_enderpearl",
-            input: [parseIngredient('minecraft:ender_pearl')],
+            input: [parseIngredient('ae2:fluix_pearl')],
             output: [parseIngredient('rftoolsbase:infused_enderpearl')],
             catalysts: DIMENSIONAL_MATRIX
         }

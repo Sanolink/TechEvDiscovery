@@ -3,13 +3,13 @@
   "group": "machines",
   "key": {
     "B": {
-      "item": "minecraft:blaze_powder"
+      "item": "create_new_age:reactor_casing"
     },
     "O": {
-      "item": "alltheores:osmium_ingot"
+      "item": "pneumaticcraft:ingot_iron_compressed"
     },
     "P": {
-      "item": "alltheores:platinum_ingot"
+      "item": "ftbic:iridium_alloy"
     }
   },
   "pattern": [

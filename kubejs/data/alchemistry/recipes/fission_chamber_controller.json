@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "machines",
+  "key": {
+    "C": {
+      "item": "alchemistry:reactor_casing"
+    },
+    "D": {
+      "item": "ftbic:advanced_circuit"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "mekanismgenerators:fission_reactor_casing"
+    },
+    "R": {
+      "item": "mekaevolution:supreme_control_circuit"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "GDR",
+    "ICI"
+  ],
+  "result": {
+    "item": "alchemistry:fission_chamber_controller"
+  }
+}

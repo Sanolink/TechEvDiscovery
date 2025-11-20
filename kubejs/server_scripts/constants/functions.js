@@ -53,6 +53,10 @@ function MekaParseIngredient(str) {
     return { ingredient: parseIngredient(str)}
 }
 
+function ChemParseIngredient(str) {
+    return { ingredient: parseIngredient(str)}
+}
+
 //Chance Or Count
 function ChanceOrCountItem(item, ChanceOrCount) {
     if (ChanceOrCount < 1) {
@@ -96,6 +100,14 @@ function BeeChanceIngredient(ingredient, chance) {
 
 function BotanyChanceIngredient(ingredient, chance) {
     return { output: parseIngredient(ingredient), chance: chance}
+}
+
+function ChemCountIngredient(str, count) {
+    return { count: count, ingredient: parseIngredient(str)}
+}
+
+function ChemProbableResult(probability, results) {
+    return { probability: probability, results: results}
 }
 
 //Chance And Count

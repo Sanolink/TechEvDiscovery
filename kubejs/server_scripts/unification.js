@@ -350,7 +350,7 @@ ServerEvents.recipes(e => {
     const NUGGETS_MEKANISM = ['alltheores:lead_nugget', 'alltheores:osmium_nugget', 'alltheores:uranium_nugget', 'alltheores:tin_nugget', 'alltheores:steel_nugget', 'alltheores:bronze_nugget']
 
     const BLOCKS_FTBIC = ['alltheores:lead_block', 'alltheores:uranium_block', 'alltheores:aluminum_block', 'alltheores:bronze_block', 'alltheores:enderium_block', 'alltheores:tin_block', 'alltheores:iridium_block']
-    const INGOTS_FTBIC = ['alltheores:lead_ingot', 'alltheores:uranium_ingot', 'alltheores:aluminum_ingot', 'alltheores:bronze_ingot', 'alltheores:enderium_ingot', 'alltheores:tin_ingot', 'alltheores:iridium_ingot']
+    const INGOTS_FTBIC = ['minecraft:copper_ingot', 'alltheores:lead_ingot', 'alltheores:uranium_ingot', 'alltheores:aluminum_ingot', 'alltheores:bronze_ingot', 'alltheores:enderium_ingot', 'alltheores:tin_ingot', 'alltheores:iridium_ingot']
     const NUGGETS_FTBIC = ['alltheores:copper_nugget', 'alltheores:lead_nugget', 'alltheores:uranium_nugget', 'alltheores:aluminum_nugget', 'alltheores:bronze_nugget', 'alltheores:enderium_nugget', 'alltheores:tin_nugget', 'alltheores:iridium_nugget']
 
     const BLOCKS_CHEMLIB = ['alltheores:lead_block', 'alltheores:silver_block', 'alltheores:nickel_block', 'alltheores:uranium_block', 'alltheores:aluminum_block', 'alltheores:zinc_block', 'alltheores:osmium_block', 'alltheores:tin_block', 'alltheores:iridium_block', 'alltheores:platinum_block']

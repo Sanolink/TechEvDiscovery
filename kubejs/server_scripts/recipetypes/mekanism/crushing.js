@@ -124,12 +124,9 @@ ServerEvents.recipes(event => {
     })
 
     const GemsToDusts = [
-        'peridot',
-        'sapphire',
         'cinnabar',
         'apatite',
         'sulfur',
-        'ruby',
         'amethyst',
         'niter'
     ].forEach(mat => {

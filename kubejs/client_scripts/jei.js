@@ -172,6 +172,9 @@ JEIEvents.hideItems(event => {
         'ftbic:iridium_gear',
         'ftbic:uranium_gear',
         'ftbic:aluminum_gear',
+        'alltheores:peridot_dust',
+        'alltheores:ruby_dust',
+        'alltheores:sapphire_dust',
 
         //Rods
         'createaddition:brass_rod',

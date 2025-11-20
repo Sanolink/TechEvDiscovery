@@ -242,9 +242,6 @@ ServerEvents.recipes(event => {
     const GemsToDusts = [
         "fluix",
         "certus_quartz",
-        "sapphire",
-        "peridot",
-        "ruby",
         "fluorite"
     ].forEach((mat) => {
         recipes.push(

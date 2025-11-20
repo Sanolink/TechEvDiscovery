@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -79,6 +79,7 @@ ServerEvents.recipes(event => {
                 P: 'minecraft:paper',
             }
         },
+        //HOP Graphite Block
         {
             id: "immersiveengineering:hop_graphite_block",
             output: 'immersiveengineering:hop_graphite_block',
@@ -87,6 +88,7 @@ ServerEvents.recipes(event => {
                 I: 'immersiveengineering:ingot_hop_graphite'
             }
         },
+        //Blueprint Special Bullets
         {
             id: "immersiveengineering:blueprint_special_bullets",
             output: Item.of('immersiveengineering:blueprint', '{blueprint:"specialBullet"}'),
@@ -97,10 +99,24 @@ ServerEvents.recipes(event => {
                 B: 'minecraft:blue_dye',
                 P: 'minecraft:paper',
             }
+        },
+        //Quantum Component
+        {
+            id: "immersiveengineering:material_component_quantum",
+            output: 'immersiveengineering:material_component_quantum',
+            pattern: ["DWE", "TCT", "EWD"],
+            key: {
+                D: 'rftoolsbase:infused_diamond',
+                W: 'ftbic:enderium_wire',
+                E: 'rftoolsbase:infused_enderpearl',
+                T: 'create:antiproton_tube',
+                C: 'immersiveengineering:component_electronic_adv'
+            }
         }
     ]
 
     const shapeless = [
+        //HOP Graphite from Block
         {
             output: '9x immersiveengineering:ingot_hop_graphite',
             input: 'immersiveengineering:hop_graphite_block'

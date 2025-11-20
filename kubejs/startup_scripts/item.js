@@ -167,6 +167,7 @@ StartupEvents.registry('item', e => {
     BasicItem('hostilenetworks:undergarden_prediction', "Generalized Undergarden Prediction")
 
     BasicItem('immersiveengineering:material_component_oscillating', "Oscillating Component")
+    BasicItem('immersiveengineering:material_component_quantum', "Quantum Component")
 
     BasicItem('industrialforegoing:sludge_bottle', "Sludge Bottle")
     BasicItem('industrialforegoing:laser_lens16', "Astral Laser Lens")

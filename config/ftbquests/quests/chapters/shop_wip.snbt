@@ -298,19 +298,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "pneumaticcraft:item/wip"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 12.0d
-			y: 9.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.5d
 			hover: ["&l&d>> &fAge 4 : Shop"]
 			image: "cataclysm:item/desert_eye"
@@ -1553,6 +1540,7 @@
 			rewards: [{
 				id: "4C369F842077DBC6"
 				item: "coinsje:diamond_coin"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1567,6 +1555,169 @@
 			title: "&lTechevium > Coins"
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4628EDDBF7E3E2BE"
+				"4E7356179682035C"
+			]
+			hide_dependent_lines: true
+			icon: "thermal:lock"
+			id: "4D97F876DCB538C7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4A9B0C9212A3A343"
+				title: "Unlock Age 4 Shop"
+				type: "checkmark"
+			}]
+			title: "&lFinish Age 5 to Unlock"
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D97F876DCB538C7"]
+			icon: "mekanism:pellet_antimatter"
+			id: "5CC918413D4E31AA"
+			rewards: [{
+				id: "22BB838F2AB39A96"
+				item: "mekanism:pellet_antimatter"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "1F9B90141367DF94"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&5Antimatter Pellet"
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D97F876DCB538C7"]
+			icon: "mekanism:pellet_hypermatter"
+			id: "0D0C88F3536897D2"
+			rewards: [{
+				id: "68B07FA8A44FDA8F"
+				item: "mekanism:pellet_hypermatter"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "48249B114C527C32"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&l&3Hypermatter Pellet"
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D97F876DCB538C7"]
+			icon: {
+				Count: 1b
+				id: "entangled:block"
+				tag: { }
+			}
+			id: "29DF368859851EF2"
+			rewards: [{
+				count: 4
+				id: "1B42E326AF8646B1"
+				item: {
+					Count: 1b
+					id: "entangled:block"
+					tag: { }
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "75C48BDF202E98D7"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&lEntangled Block"
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D97F876DCB538C7"]
+			icon: "cookingforblockheads:sink"
+			id: "4923412B9E3EB79B"
+			rewards: [{
+				id: "06D53530669F6C24"
+				item: "cookingforblockheads:sink"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "56345850CCBF69E2"
+				item: "coinsje:iron_coin_pile"
+				type: "item"
+			}]
+			title: "&lSink"
+			x: 11.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D97F876DCB538C7"]
+			icon: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+			id: "71B8EC7E17D757B0"
+			rewards: [{
+				id: "0A2969C4F9676D1B"
+				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "7255D495855B6A12"
+				item: "coinsje:gold_coin_pile"
+				type: "item"
+			}]
+			title: "&lUltra Hopper Botany Pot"
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D97F876DCB538C7"]
+			icon: "tardis_refined:root_plant"
+			id: "55C616C44AA0CCD8"
+			rewards: [{
+				id: "7B3A885C2E693D78"
+				item: "tardis_refined:root_plant"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4C958BD29CF18580"
+				item: "coinsje:diamond_coin"
+				type: "item"
+			}]
+			title: "&lRoot Plant"
+			x: 12.5d
+			y: 8.5d
 		}
 	]
 	title: "&l&a[Market]"

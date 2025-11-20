@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbic:extractor",
+  "key": {
+    "C": {
+      "item": "ftbic:electronic_circuit"
+    },
+    "M": {
+      "item": "ftbic:machine_block"
+    },
+    "T": {
+      "item": "thermal:device_tree_extractor"
+    },
+    "G": {
+      "item": "minecraft:grindstone"
+    }
+  },
+  "pattern": [
+    "TMT",
+    "GCG"
+  ],
+  "result": {
+    "item": "ftbic:centrifuge"
+  }
+}

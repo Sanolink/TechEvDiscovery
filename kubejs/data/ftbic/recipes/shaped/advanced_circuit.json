@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbic:advanced_circuit",
+  "key": {
+    "A": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "W": {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    "S": {
+      "item": "ae2:printed_silicon"
+    },
+    "C": {
+      "item": "ftbic:electronic_circuit"
+    }
+  },
+  "pattern": [
+    "AWA",
+    "SCS",
+    "AWA"
+  ],
+  "result": {
+    "item": "ftbic:advanced_circuit"
+  }
+}

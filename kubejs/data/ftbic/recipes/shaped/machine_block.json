@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbic:machine_block",
+  "key": {
+    "F": {
+      "item": "ftbic:fuse"
+    },
+    "I": {
+      "item": "ftbic:industrial_grade_metal"
+    },
+    "M": {
+      "item": "rftoolsbase:machine_frame"
+    }
+  },
+  "pattern": [
+    "III",
+    "FMF",
+    "III"
+  ],
+  "result": {
+    "item": "ftbic:machine_block"
+  }
+}

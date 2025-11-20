@@ -221,6 +221,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ftbic:shaped/mixed_metal_blend_1'})
     event.remove({ id: 'ftbic:shaped/mixed_metal_blend_2'})
     event.remove({ id: 'ftbic:shaped/mixed_metal_blend_3'})
+    event.remove({ id: 'ftbic:shapeless/lv_cable'})
+    event.remove({ id: 'ftbic:shaped/mv_cable'})
+    event.remove({ id: 'ftbic:shaped/hv_cable'})
+    event.remove({ id: 'ftbic:shaped/ev_cable'})
+    event.remove({ id: 'ftbic:shapeless/energy_crystal'})
+    event.remove({ id: 'ftbic:shapeless/electronic_circuit'})
+    event.remove({ id: 'ftbic:shapeless/advanced_circuit'})
+    event.remove({ id: 'ftbic:shapeless/iridium_circuit'})
 
     //Functional Storage 
     event.remove({ id: 'functionalstorage:oak_drawer_alternate_x1'})

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbic:electronic_circuit",
+  "key": {
+    "C": {
+      "item": "ftbic:lv_cable"
+    },
+    "W": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    "M": {
+      "item": "ftbic:industrial_grade_metal"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "WMW",
+    "CCC"
+  ],
+  "result": {
+    "item": "ftbic:electronic_circuit"
+  }
+}

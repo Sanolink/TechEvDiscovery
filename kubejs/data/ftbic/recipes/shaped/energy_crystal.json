@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbic:energy_crystal",
+  "key": {
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "G": {
+      "tag": "forge:ingots/refined_glowstone"
+    },
+    "S": {
+      "tag": "forge:silicon"
+    },
+    "U": {
+      "item": "undergarden:utherium_crystal"
+    }
+  },
+  "pattern": [
+    "RGR",
+    "SUS",
+    "RGR"
+  ],
+  "result": {
+    "item": "ftbic:energy_crystal"
+  }
+}

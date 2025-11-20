@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "g": {
+      "item": "rftoolsbase:dimensionalshard"
+    },
+    "i": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "l": {
+      "item": "mekaevolution:alloy_thermonuclear"
+    },
+    "c": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "ili",
+    "gcg",
+    "ili"
+  ],
+  "result": {
+    "item": "rftoolsbase:machine_frame"
+  }
+}

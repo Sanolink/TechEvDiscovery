@@ -222,10 +222,10 @@ StartupEvents.registry('item', e => {
     BasicItem('pneumaticcraft:compressed_iron_plate', "Compressed Steel Plate").tag("forge:plates").tag(`forge:plates/compressed_iron`)
     BasicItem('pneumaticcraft:compressed_iron_rod', "Compressed Steel Rod").tag("forge:rods").tag(`forge:rods/compressed_iron`).tag("forge:rods/metal")
 
-    BasicItem('techev_additions:complex_plate', "Complex Plate").rarity("uncommon")
-    BasicItem('techev_additions:complex_gear', "Complex Gear").rarity("uncommon")
-    BasicItem('techev_additions:complex_rod', "Complex Rod").rarity("uncommon")
-    BasicItem('techev_additions:complex_dust', "Complex Dust").rarity("uncommon")
+    BasicItem('techev_additions:complex_plate', "Complex Plate").rarity("uncommon").tag("forge:plates").tag("forge:plates/complex")
+    BasicItem('techev_additions:complex_gear', "Complex Gear").rarity("uncommon").tag("forge:gears").tag("forge:gears/complex")
+    BasicItem('techev_additions:complex_rod', "Complex Rod").rarity("uncommon").tag("forge:rods").tag("forge:rods/complex")
+    BasicItem('techev_additions:complex_dust', "Complex Dust").rarity("uncommon").tag("forge:dusts").tag("forge:dusts/complex")
     BasicItem('techev_additions:complex_mechanism', "Complex Mechanism").rarity("uncommon")
 
     BasicItem('thermal:ender_servo', "Ender Servo")

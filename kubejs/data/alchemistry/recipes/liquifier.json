@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "machines",
+  "key": {
+    "I": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "P": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "R": {
+      "item": "immersiveengineering:material_component_quantum"
+    },
+    "S": {
+      "item": "mekanism:energized_smelter"
+    }
+  },
+  "pattern": [
+    "IPI",
+    "SRS",
+    "IPI"
+  ],
+  "result": {
+    "item": "alchemistry:liquifier"
+  }
+}

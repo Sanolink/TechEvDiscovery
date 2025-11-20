@@ -13,5 +13,5 @@
 	#Show DM pedestal functions in item tooltips
 	pedestalToolTips = true
 	#The Philosopher's Stone overlay softly pulsates
-	pulsatingOverlay = false
+	pulsatingOverlay = true
 

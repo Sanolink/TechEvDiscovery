@@ -7,7 +7,7 @@
 	id: "619C4E9C93BDBCF8"
 	images: [
 		{
-			alpha: 50
+			alpha: 100
 			click: ""
 			color: 7748289
 			corner: false
@@ -21,7 +21,7 @@
 			y: -4.0d
 		}
 		{
-			alpha: 50
+			alpha: 100
 			click: ""
 			color: 0
 			corner: false
@@ -79,6 +79,11 @@
 				"5F02A138ABB0C754"
 			]
 			id: "27E6E83DC5EB57EC"
+			rewards: [{
+				id: "4BA4AD8D66F99E2D"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -86,6 +91,7 @@
 				item: "extendedcrafting:ultimate_singularity"
 				type: "item"
 			}]
+			title: "&lUltimate Singularity"
 			x: 4.0d
 			y: -4.0d
 		}
@@ -93,6 +99,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "4826F3D85D4C98E3"
+			rewards: [{
+				id: "53CDADF911A67DA8"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5939DEACAC129BAB"
@@ -133,6 +144,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "61A4711C3527A686"
+			rewards: [{
+				id: "7CE91E399CE37715"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5524D6A0E6A623F3"
@@ -153,6 +169,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "1B90882318A27395"
+			rewards: [{
+				id: "242B2B81EDE7F0BE"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "4CB3888EB4041021"
@@ -173,6 +194,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "3852276706928E3A"
+			rewards: [{
+				id: "4B3110813FD42C58"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "61106EB5AC9119C7"
@@ -193,6 +219,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "053FC5CEAF9F5840"
+			rewards: [{
+				id: "36F516A1A2277A42"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5A79CE873B0FC116"
@@ -213,6 +244,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "7FA4409A0CECE79B"
+			rewards: [{
+				id: "051214B1614EAC87"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "58A5B619BD1B1C2D"
@@ -233,6 +269,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "7C581BB010F0A520"
+			rewards: [{
+				id: "16174D5D7593CA36"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "293E1AAE00B607A4"
@@ -253,6 +294,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "60009599416B66F6"
+			rewards: [{
+				id: "41D80753A347C51E"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6B0FE9ABE0AD2341"
@@ -273,6 +319,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "59C9749779FB338E"
+			rewards: [{
+				id: "6DDDF2347386D11D"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "704F5BAB756100CD"
@@ -293,6 +344,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "07C3F5319B6CC030"
+			rewards: [{
+				id: "1240DE5C51C8D6FC"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "723A3AFC80E8DF57"
@@ -313,6 +369,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "09FC98E29AED96D6"
+			rewards: [{
+				id: "00D7AA2744912556"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "62F0F04E1BE23529"
@@ -333,6 +394,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "3649035A6A30A8A3"
+			rewards: [{
+				id: "144F361B04798611"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "0B9896266F9FC244"
@@ -353,6 +419,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "156A8CAE432D7D47"
+			rewards: [{
+				id: "53DF7D556A1BF8D1"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "42FBC893F10C7505"
@@ -373,6 +444,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "7DEABC1254894709"
+			rewards: [{
+				id: "5CE3F1A9FC59AA3A"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "166F1468F1DD556B"
@@ -393,6 +469,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "5F02A138ABB0C754"
+			rewards: [{
+				id: "13190F7601DB1C6C"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "726206C0318B57B1"
@@ -413,6 +494,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "4385E4F7F68FD10D"
+			rewards: [{
+				id: "63276ED9AB04836F"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "0CB8EB7400718534"
@@ -433,6 +519,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "22EFC369F393B817"
+			rewards: [{
+				id: "3F5AC15036CB3617"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "44086B84AFF90503"
@@ -453,6 +544,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "26E8F7005E28A793"
+			rewards: [{
+				id: "16E815106B7D1881"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "1686E2E8EB9F1A3C"
@@ -473,6 +569,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "223304DAD80EF729"
+			rewards: [{
+				id: "389B89B824C191F2"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "0D3AE633388EA53E"
@@ -493,6 +594,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "0730C087A5A95782"
+			rewards: [{
+				id: "782D45FB5847B0F6"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "7924F25B07A14678"
@@ -513,6 +619,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "354AB9D85901AA43"
+			rewards: [{
+				id: "258FCDB77CC3B85A"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "29114C35A9E38290"
@@ -533,6 +644,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "116E018F6EE91DA0"
+			rewards: [{
+				id: "6F64B1A03030E5AA"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "23DF9A8106B398CA"
@@ -553,6 +669,11 @@
 			dependencies: ["7700D8EF5B73BA02"]
 			hide_dependency_lines: true
 			id: "65A2309B7FA928F3"
+			rewards: [{
+				id: "04E44C0B5E6A16A7"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "041C7F6ACD21256C"
@@ -572,13 +693,20 @@
 		{
 			dependencies: ["0C1725129FDB2EE0"]
 			id: "7700D8EF5B73BA02"
+			rewards: [{
+				id: "69F8D8BED4FE6230"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
+			subtitle: "Singularity Crafter"
 			tasks: [{
 				id: "5617434FA5BF646B"
 				item: "extendedcrafting:compressor"
 				type: "item"
 			}]
+			title: "&lQuantum Compressor"
 			x: -2.0d
 			y: -4.0d
 		}
@@ -615,32 +743,52 @@
 		{
 			dependencies: ["0C1725129FDB2EE0"]
 			id: "3667CE4E474D459A"
+			rewards: [{
+				id: "7E388433DB71366F"
+				item: "xnet:controller"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
+			subtitle: "Brain of the network"
 			tasks: [{
 				id: "5B02F18785E304DC"
 				item: "xnet:controller"
 				type: "item"
 			}]
+			title: "&lXNet"
 			x: 10.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3667CE4E474D459A"]
 			id: "1B9F5E5B7D136C72"
+			rewards: [{
+				id: "2E54C5F644B534FA"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
+			subtitle: "Coding, in Minecraft"
 			tasks: [{
 				id: "30539A13723C721B"
 				item: "computercraft:computer_normal"
 				type: "item"
 			}]
+			title: "&lComputer Craft"
 			x: 12.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3667CE4E474D459A"]
 			id: "7685C099CCA223E9"
+			rewards: [{
+				count: 8
+				id: "49FD6F564160015C"
+				item: "xnet:netcable_red"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "6075A407FE71CC7A"
@@ -654,13 +802,20 @@
 				title: "Any #xnet:cables"
 				type: "item"
 			}]
+			title: "&lCables"
 			x: 10.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3667CE4E474D459A"]
 			id: "7A8917F7344EDFC2"
+			rewards: [{
+				id: "6C66A7F6BC139CF5"
+				item: "xnet:connector_red"
+				type: "item"
+			}]
 			shape: "circle"
+			subtitle: "Connects Blocks / Machines"
 			tasks: [{
 				id: "7AABD21FE5B54ADB"
 				item: {
@@ -673,13 +828,20 @@
 				title: "Any #xnet:connectors"
 				type: "item"
 			}]
+			title: "&lConnectors"
 			x: 9.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["7A8917F7344EDFC2"]
 			id: "3679DF6EDBD94E7A"
+			rewards: [{
+				id: "06105F16460B0B5C"
+				item: "xnet:advanced_connector_red"
+				type: "item"
+			}]
 			shape: "circle"
+			subtitle: "Allows access to different sides"
 			tasks: [{
 				id: "3050B19278EF855A"
 				item: {
@@ -692,48 +854,108 @@
 				title: "Any #xnet:advanced_connectors"
 				type: "item"
 			}]
+			title: "&lAdvanced Connectors"
 			x: 10.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3667CE4E474D459A"]
 			id: "297BA32BDC665A5C"
+			rewards: [{
+				id: "23A811F4FB3C73D5"
+				item: "xnet:router"
+				type: "item"
+			}]
 			shape: "rsquare"
+			subtitle: "Connects multiple channels (Controllers)"
 			tasks: [{
 				id: "5D8C73F95FFD97EB"
 				item: "xnet:router"
 				type: "item"
 			}]
+			title: "&lRouter"
 			x: 10.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3667CE4E474D459A"]
 			id: "7E900AB13EAF314B"
+			rewards: [{
+				count: 16
+				id: "5908D6B0CFCB6D0B"
+				item: "xnet:facade"
+				random_bonus: 16
+				type: "item"
+			}]
 			shape: "gear"
+			subtitle: "Mimics other blocks to cover XNet cables"
 			tasks: [{
 				id: "290FA4DBF58948E4"
 				item: "xnet:facade"
 				type: "item"
 			}]
+			title: "&lFacade"
 			x: 11.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["297BA32BDC665A5C"]
+			icon: "xnet:wireless_router"
 			id: "352801F46B648791"
-			shape: "circle"
-			tasks: [{
-				id: "16B3FB1A15A27197"
+			rewards: [{
+				id: "45056A5FF4A68B50"
 				item: "xnet:wireless_router"
 				type: "item"
 			}]
+			shape: "circle"
+			subtitle: "Connects multiple channels remotely"
+			tasks: [
+				{
+					id: "16B3FB1A15A27197"
+					item: "xnet:wireless_router"
+					type: "item"
+				}
+				{
+					id: "7064C2F079E2F7CD"
+					item: "xnet:antenna_base"
+					type: "item"
+				}
+				{
+					id: "3462B9DED99CE344"
+					item: "xnet:antenna"
+					type: "item"
+				}
+				{
+					id: "7BBB8CB5F860F3FC"
+					item: "xnet:antenna_dish"
+					type: "item"
+				}
+			]
+			title: "&lWireless Router"
 			x: 9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["297BA32BDC665A5C"]
 			id: "2CD019CA946EED93"
+			rewards: [
+				{
+					count: 8
+					id: "1DEECB07AB3BDD9B"
+					item: "xnet:netcable_routing"
+					type: "item"
+				}
+				{
+					id: "0A87FFBFEEC6E215"
+					item: "xnet:connector_routing"
+					type: "item"
+				}
+				{
+					id: "567B2950332ADEE0"
+					item: "xnet:advanced_connector_routing"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [
 				{
@@ -752,6 +974,7 @@
 					type: "item"
 				}
 			]
+			title: "&lRouting Cables"
 			x: 10.5d
 			y: -1.5d
 		}

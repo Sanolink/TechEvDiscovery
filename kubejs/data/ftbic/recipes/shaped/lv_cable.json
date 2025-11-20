@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbic:lv_cable",
+  "key": {
+    "M": {
+      "tag": "forge:wires/copper"
+    },
+    "R": {
+      "item": "ftbic:rubber"
+    },
+    "F": {
+      "item": "ftbic:fuse"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "MFM",
+    "RRR"
+  ],
+  "result": {
+    "count": 6,
+    "item": "ftbic:lv_cable"
+  }
+}

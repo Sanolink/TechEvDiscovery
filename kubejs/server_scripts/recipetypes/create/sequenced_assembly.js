@@ -198,10 +198,11 @@ ServerEvents.recipes(event => {
             output: [parseIngredient("techev_additions:complex_mechanism")],
             transition: "techev_additions:incomplete_complex_mechanism",
             sequence: makeSequence("techev_additions:incomplete_complex_mechanism", [
-                Deploying("immersiveengineering:component_electronic_adv"),
+                Deploying("immersiveengineering:material_component_oscillating"),
                 Deploying("pneumaticcraft:processing_printed_circuit_board"),
                 Deploying("thermalendergy:endergy_upgrade_3"),
                 Deploying("mekaevolution:infinite_control_circuit"),
+                Deploying("immersiveengineering:material_component_quantum"),
                 Deploying("ftbic:iridium_circuit")
             ])
         }

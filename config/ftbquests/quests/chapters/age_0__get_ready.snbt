@@ -440,6 +440,18 @@
 			x: 4.5d
 			y: -3.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "immersiveengineering:item/material_component_quantum"
+			rotation: 15.0d
+			width: 1.0d
+			x: -5.0d
+			y: 0.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

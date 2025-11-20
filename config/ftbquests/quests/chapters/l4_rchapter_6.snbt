@@ -35,18 +35,24 @@
 			x: 1.25d
 			y: 1.5d
 		}
+		{
+			id: "058650207064D102"
+			linked_quest: "12C1DC705AD8B5BB"
+			x: -1.0d
+			y: 3.0d
+		}
 	]
 	quests: [
 		{
-			dependencies: ["52EBD0A3D4F07BE6"]
+			dependencies: ["12C1DC705AD8B5BB"]
+			icon: "techev_additions:techevium"
 			id: "5A7EB6BEA837C5F0"
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "Soon, In 1.7.0 !"
 			tasks: [{
-				id: "328AE91E2A105F27"
-				item: "techev_additions:techevium"
-				type: "item"
+				id: "48699B97A2F76069"
+				type: "checkmark"
 			}]
 			title: "&lFinal Age : WIP"
 			x: 0.0d
@@ -113,17 +119,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0C42FDECFDC39560"]
-			id: "52EBD0A3D4F07BE6"
-			tasks: [{
-				id: "11DB2B2710A91D56"
-				item: "projecte:transmutation_table"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["3DB8C6996F423F69"]
 			icon: "extendedcrafting:compressor"
 			id: "0C1725129FDB2EE0"
@@ -139,9 +134,17 @@
 		}
 		{
 			dependencies: ["4E7356179682035C"]
-			description: ["{image:techev:textures/misc/quests/dimensional_stabilizer.png width:150 height:141 align:1}"]
+			description: [
+				"&l&6Dimensional Stabilizer&r is a multiblock used to transmute Ice Shards into Dimensional Shards."
+				"{image:techev:textures/misc/quests/dimensional_stabilizer.png width:150 height:141 align:1}"
+			]
 			icon: "custommachinery:dimensional_stabilizer"
 			id: "3FAD8B1084E4B07D"
+			rewards: [{
+				id: "6E56850AA5859C91"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
 			subtitle: "Use &c&l[Schematicannon] &rto build this Multiblock!"
 			tasks: [
 				{

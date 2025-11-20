@@ -135,7 +135,7 @@
 			}]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "Welcome To Age 1 !"
+			subtitle: "Welcome to Age 1 !"
 			tasks: [{
 				id: "0E619717F1B9964D"
 				type: "checkmark"
@@ -156,7 +156,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Welcome To Age 2 !"
+			subtitle: "Welcome to Age 2 !"
 			tasks: [{
 				id: "2E49F745454B4DCE"
 				title: "Checkmark"

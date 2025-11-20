@@ -240,7 +240,6 @@
 			subtitle: "Welcome to Age 4 !"
 			tasks: [{
 				id: "70451DEA0C4A7505"
-				title: "WIP : Age 4"
 				type: "checkmark"
 			}]
 			title: "&d&lPsychotic Innovation"

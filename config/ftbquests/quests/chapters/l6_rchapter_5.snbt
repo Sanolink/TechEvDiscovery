@@ -56,12 +56,17 @@
 			]
 			icon: "extendedcrafting:ultimate_singularity"
 			id: "4E7356179682035C"
+			rewards: [{
+				id: "513D6F0BB16785FC"
+				item: "coinsje:diamond_coin"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "Welcome to Age 6 !"
 			tasks: [{
 				id: "7CB895CC1AE88B28"
-				title: "WIP : Age 4"
 				type: "checkmark"
 			}]
 			title: "&l&4Philosophic Ascent"

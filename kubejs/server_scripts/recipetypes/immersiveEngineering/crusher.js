@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -93,6 +93,16 @@ ServerEvents.recipes(event => {
             id: 'charcoal_block',
             input: parseIngredient('thermal:charcoal_block'),
             output: IEChanceOrCountIngredient('mekanism:dust_charcoal', 9)
+        },
+        {
+            id: `experience_dust`,
+            input: parseIngredient('create:experience_nugget'),
+            output: parseIngredient('create_things_and_misc:experience_dust')
+        },
+        {
+            id: `carbon_dust`,
+            input: parseIngredient('ftbic:carbon_fiber_mesh'),
+            output: parseIngredient('ftbic:carbon_dust')
         }
     ]
 
@@ -123,7 +133,20 @@ ServerEvents.recipes(event => {
         'horizonite',
         'refined_glowstone',
         'refined_obsidian',
-        'hop_graphite'
+        'hop_graphite',
+        'cast_iron',
+        'overcharged_iron',
+        'overcharged_gold',
+        'compressed_iron',
+        'chromium',
+        'titanium'
+    ]
+    const QuartzDusts = [
+        'rose',
+        'blue',
+        'psi',
+        'source',
+        'antimatter'
     ]
     const RawOresCrushed = [
         'desh',
@@ -149,10 +172,7 @@ ServerEvents.recipes(event => {
         'fluix',
         'lapis',
         'niter',
-        'peridot',
         'quartz',
-        'ruby',
-        'sapphire',
         'sulfur',
         'fluorite'
     ]
@@ -162,6 +182,15 @@ ServerEvents.recipes(event => {
                 id: `${type}_dust`,
                 input: parseIngredient(`#forge:ingots/${type}`),
                 output: parseIngredient(`#forge:dusts/${type}`)
+            }
+        )
+    })
+    QuartzDusts.forEach(type => {
+        recipes.push(
+            {
+                id: `${type}_quartz_dust`,
+                input: parseIngredient(`#forge:polished_quartz/${type}`),
+                output: parseIngredient(`#forge:dusts/${type}_quartz`)
             }
         )
     })

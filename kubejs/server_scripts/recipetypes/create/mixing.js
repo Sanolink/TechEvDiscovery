@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -191,6 +191,28 @@ ServerEvents.recipes(event => {
             heat: 'heated',
             input: [parseIngredient("mysticalagradditions:insanium_essence")],
             output: [FluidWithCount("mysticalagradditions:molten_insanium", 250)]
+        },
+        {
+            id: "mixed_metal_blend",
+            heat: 'heated',
+            input: [
+                parseIngredient("alchemistry:titanium_dust"), parseIngredient("alchemistry:titanium_dust"), parseIngredient("alchemistry:titanium_dust"),
+                parseIngredient("alchemistry:tungsten_dust"), parseIngredient("alchemistry:tungsten_dust"), parseIngredient("alchemistry:tungsten_dust"),
+                parseIngredient("alchemistry:chromium_dust"), parseIngredient("alchemistry:chromium_dust"), parseIngredient("alchemistry:chromium_dust")
+            ],
+            output: [ChanceOrCountItem("ftbic:mixed_metal_blend", 3)]
+        },
+        {
+            id: "dimensional_matrix",
+            heat: 'heated',
+            input: [
+                parseIngredient("occultism:dimensional_matrix"),
+                parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'),
+                parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'),
+                parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'),
+                parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard'), parseIngredient('rftoolsbase:dimensionalshard')
+            ],
+            output: [FluidWithCount("rftoolsbase:dimensional_matrix", 1000)]
         },
         //Superheated Recipes
         {

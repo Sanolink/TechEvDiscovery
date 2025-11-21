@@ -1,0 +1,1959 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l4_rprojecte"
+	group: "3818CF066B02A8FF"
+	icon: {
+		Count: 1b
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "6A150C4C54400269"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "projecte:textures/entity/lightning.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "projecte:textures/entity/fireball.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "projecte:textures/entity/lava_orb.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "projecte:textures/entity/lens_explosive.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "projecte:textures/entity/randomizer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "projecte:textures/entity/water_orb.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -11.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C42FDECFDC39560"]
+			description: ["The &l&nPhilosopher's Stone&r is used to transmute blocks, and to craft EMC based elements."]
+			id: "5185EE4056AE835A"
+			rewards: [{
+				id: "43FB276B383C60CA"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "2FAA9AFB5CAF68FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lProjectE"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5185EE4056AE835A"
+				"0C42FDECFDC39560"
+			]
+			description: ["The &l&nTransmutation Table&r is the main storage of EMC energy, and a library of all discovered items."]
+			id: "12C1DC705AD8B5BB"
+			rewards: [{
+				id: "31695EC250A178B5"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "67316B859E57D68E"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			title: "&lTransmutation Table"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["12C1DC705AD8B5BB"]
+			id: "6273CFCBA105C044"
+			rewards: [{
+				id: "1B6B770140BAC754"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Portable Transmutation Table"
+			tasks: [{
+				id: "266234B20D6CA4DA"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3309A02373F4E2C0"]
+			icon: "projecte:white_alchemical_bag"
+			id: "2B6EDC958C5FD0B5"
+			rewards: [
+				{
+					id: "749617541094477D"
+					item: "projecte:white_alchemical_bag"
+					type: "item"
+				}
+				{
+					id: "162814F0768178D5"
+					item: "projectexpansion:white_advanced_alchemical_chest"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Like a large Ender Chest"
+			tasks: [
+				{
+					id: "464D9D3119F5307C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "projecte:alchemical_bags"
+						}
+					}
+					title: "Any #projecte:alchemical_bags"
+					type: "item"
+				}
+				{
+					id: "3D6BBE7345AAAAD7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "projectexpansion:advanced_alchemical_chest"
+						}
+					}
+					title: "Any #projectexpansion:advanced_alchemical_chest"
+					type: "item"
+				}
+			]
+			title: "&lAlchemical Ender Storage"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5185EE4056AE835A"]
+			hide_dependency_lines: true
+			id: "7CFF7E9C9FACF325"
+			rewards: [{
+				id: "4AE7E1C2682AE062"
+				item: "projecte:collector_mk1"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a4&r/s"
+			tasks: [{
+				id: "05FE2A60B44F5896"
+				item: "projecte:collector_mk1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7CFF7E9C9FACF325"]
+			id: "4E8E4DF1F754D80D"
+			rewards: [{
+				id: "03E418D02C931728"
+				item: "projecte:collector_mk2"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a12&r/s"
+			tasks: [{
+				id: "2546524D098F3C0A"
+				item: "projecte:collector_mk2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E8E4DF1F754D80D"]
+			id: "6F1B11F676DA5BD7"
+			rewards: [{
+				id: "3D8E110FB79B9BDE"
+				item: "projecte:collector_mk3"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a40&r/s"
+			tasks: [{
+				id: "2CBAEBFCE729C44C"
+				item: "projecte:collector_mk3"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5185EE4056AE835A"]
+			hide_dependency_lines: true
+			id: "3895F8C7A180F533"
+			rewards: [{
+				id: "7F6065B8B9D123AD"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "73A1AB883149FDBB"
+					item: "projecte:dm_helmet"
+					type: "item"
+				}
+				{
+					id: "458C81141CD77ACB"
+					item: "projecte:dm_chestplate"
+					type: "item"
+				}
+				{
+					id: "0470C2381EF22EA5"
+					item: "projecte:dm_leggings"
+					type: "item"
+				}
+				{
+					id: "71DF7EE9F8EA2A5D"
+					item: "projecte:dm_boots"
+					type: "item"
+				}
+			]
+			title: "&l&8Dark Matter Stuff"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3895F8C7A180F533"]
+			id: "4D1C3EDBCEFED8A9"
+			rewards: [{
+				id: "3466353045D46BE6"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "7CA200BDCC92368F"
+					item: "projecte:rm_helmet"
+					type: "item"
+				}
+				{
+					id: "45A4A0A1B4D48AED"
+					item: "projecte:rm_chestplate"
+					type: "item"
+				}
+				{
+					id: "08CEF37BAB0195BF"
+					item: "projecte:rm_leggings"
+					type: "item"
+				}
+				{
+					id: "0B9825DA93FCA930"
+					item: "projecte:rm_boots"
+					type: "item"
+				}
+			]
+			title: "&l&cRed Matter Stuff"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D1C3EDBCEFED8A9"]
+			id: "579722803AA436B3"
+			rewards: [{
+				id: "499FD501993C9CA6"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "2E7720E8CD44FE1A"
+					item: "projecte:gem_helmet"
+					type: "item"
+				}
+				{
+					id: "6B39E62B3EBD72B0"
+					item: "projecte:gem_chestplate"
+					type: "item"
+				}
+				{
+					id: "32A5E90F72DE5AA3"
+					item: "projecte:gem_leggings"
+					type: "item"
+				}
+				{
+					id: "578D9A1591368930"
+					item: "projecte:gem_boots"
+					type: "item"
+				}
+			]
+			title: "&l&4Gem Stuff"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"12C1DC705AD8B5BB"
+				"30A7EFE8AC4201A1"
+			]
+			id: "6A7628B3B08CAFD2"
+			rewards: [{
+				id: "0119AB8DEA2BF084"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Uncraftable, will be useful for the Final Age"
+			tasks: [{
+				id: "5F194C6DA8A6C435"
+				item: "projecte:tome"
+				type: "item"
+			}]
+			title: "&lTome of Knowledge"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5185EE4056AE835A"]
+			id: "694A572BA99FEE14"
+			rewards: [{
+				id: "101DFFA606238810"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&eEMC:&r 25.16 Million"
+			tasks: [{
+				id: "4DD09ABAC130E112"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			title: "&lKlein Star"
+			x: -3.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["694A572BA99FEE14"]
+			id: "17B452270ADBC2E4"
+			rewards: [{
+				id: "7F1DECF50A8838AB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_omega"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&eEMC:&r 103.07 Billion"
+			tasks: [{
+				id: "32A368ADB14A48BD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_omega"
+				}
+				type: "item"
+			}]
+			title: "&lMagnum Star"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["17B452270ADBC2E4"]
+			id: "75B18E8BEE3CD553"
+			rewards: [{
+				id: "365376B6E64B9700"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_omega"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&eEMC:&r 422.21 Trillion"
+			tasks: [{
+				id: "7B33E080D48362E2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_omega"
+				}
+				type: "item"
+			}]
+			title: "&lColossal Star"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["75B18E8BEE3CD553"]
+			id: "61B93D3C6486B300"
+			rewards: [{
+				id: "4A004ADCFF1138EA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_omega"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&eEMC:&r 1.72 Quintillion"
+			tasks: [{
+				id: "61FE0762EA989251"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_omega"
+				}
+				type: "item"
+			}]
+			title: "&lGargantuan Star"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["61B93D3C6486B300"]
+			id: "30A7EFE8AC4201A1"
+			rewards: [{
+				id: "17D406682EE10BD8"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0C9799C1AB864CA9"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			title: "&lFinal Star"
+			x: 3.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["5185EE4056AE835A"]
+			hide_dependency_lines: true
+			id: "5A7F8801E452074B"
+			rewards: [{
+				id: "4417472B5FE06F62"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Teleport for &a1000&r EMC/Block"
+			tasks: [{
+				id: "449F55BA350CA6A5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"projectexpansion:alchemical_book_locations": { }
+					}
+					id: "projectexpansion:basic_alchemical_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["5A7F8801E452074B"]
+			id: "3A3053B8FB404AD9"
+			rewards: [{
+				id: "70DA0664A1DEEE36"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Teleport for &a500&r EMC/Block"
+			tasks: [{
+				id: "4C3D7C2045573981"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"projectexpansion:alchemical_book_locations": { }
+					}
+					id: "projectexpansion:advanced_alchemical_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A3053B8FB404AD9"]
+			id: "2D4A98E306ED4793"
+			rewards: [{
+				id: "16CB64BE30675EC5"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Teleport for &a100&r EMC/Block"
+			tasks: [{
+				id: "35807506C37BD8C5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"projectexpansion:alchemical_book_locations": { }
+					}
+					id: "projectexpansion:master_alchemical_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D4A98E306ED4793"]
+			id: "30876A0E254D8071"
+			rewards: [{
+				id: "0E171DE0D0381911"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Teleport for Free"
+			tasks: [{
+				id: "0FB45B088BE2686A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"projectexpansion:alchemical_book_locations": { }
+					}
+					id: "projectexpansion:arcane_alchemical_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6273CFCBA105C044"]
+			hide_dependency_lines: true
+			id: "05ADD89BD0010114"
+			rewards: [{
+				id: "23C15E6659FEFECF"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "7D680E71E7607D7F"
+				item: "projectexpansion:infinite_fuel"
+				type: "item"
+			}]
+			title: "&lInfinite Fuel"
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6273CFCBA105C044"]
+			hide_dependency_lines: true
+			id: "070A360C0B9994E9"
+			rewards: [{
+				id: "2FB1E4B6DAEF2888"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "02847FF139572A8D"
+				item: "projectexpansion:infinite_steak"
+				type: "item"
+			}]
+			title: "&lInfinite Steak"
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3309A02373F4E2C0"]
+			description: ["The &l&nEnergy Condenser&r is used to convert EMC based elements into selected items."]
+			id: "62EC4B5E39F5FECF"
+			rewards: [{
+				id: "5F3170970DD64056"
+				item: "projecte:condenser_mk1"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7010D00C0F6360E6"
+				item: "projecte:condenser_mk1"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["62EC4B5E39F5FECF"]
+			description: ["The &l&nEnergy Condenser MK2&r is an improved version of the Energy Condenser."]
+			id: "6305534E46C608D9"
+			rewards: [{
+				id: "550428825A66F86F"
+				item: "projecte:condenser_mk2"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7C556ADFB1DDFC21"
+				item: "projecte:condenser_mk2"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6305534E46C608D9"]
+			id: "5941037F744F3016"
+			rewards: [{
+				id: "5D782BCB34087DF8"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Applied Energistics Linker"
+			tasks: [{
+				id: "1AA5E5A724EC415A"
+				item: "projectexpansion:transmutation_interface"
+				type: "item"
+			}]
+			title: "&lTransmutation Interface"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5185EE4056AE835A"]
+			hide_dependency_lines: true
+			id: "3309A02373F4E2C0"
+			rewards: [{
+				id: "024512C8A7958365"
+				item: "projecte:alchemical_chest"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "104 Slots Chest"
+			tasks: [{
+				id: "758123406CEE127C"
+				item: "projecte:alchemical_chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5185EE4056AE835A"]
+			hide_dependency_lines: true
+			id: "1D001F99B71E7BB6"
+			rewards: [{
+				id: "64793F78194C95E6"
+				item: "projecte:relay_mk1"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output EMC: &a64&r/s"
+			tasks: [{
+				id: "29A28A3B6A093EED"
+				item: "projecte:relay_mk1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1D001F99B71E7BB6"]
+			id: "38B2298D432C1AAC"
+			rewards: [{
+				id: "59807369D5BA0E6C"
+				item: "projecte:relay_mk2"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output EMC: &a192&r/s"
+			tasks: [{
+				id: "2423138E3808BCFB"
+				item: "projecte:relay_mk2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["38B2298D432C1AAC"]
+			id: "714F8A8ECDFED96F"
+			rewards: [{
+				id: "4EA534EFE49E06F9"
+				item: "projecte:relay_mk3"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output EMC: &a640&r/s"
+			tasks: [{
+				id: "472FD38B5AC2FA04"
+				item: "projecte:relay_mk3"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["25746368A561F60D"]
+			id: "135503A1EB1977F4"
+			rewards: [{
+				id: "770FBF9E467D1852"
+				item: "projectexpansion:white_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 280.16 Billion"
+			tasks: [{
+				id: "39E4C9C99C771B08"
+				item: "projectexpansion:white_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1A2813DAC36B493C"]
+			id: "739E3836645BF34D"
+			rewards: [{
+				id: "5B5385FBEAAB1778"
+				item: "projectexpansion:magenta_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 1.44 Million"
+			tasks: [{
+				id: "608284851C2F8F9D"
+				item: "projectexpansion:magenta_matter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1426A284EF3C9DDC"]
+			id: "6B2BC906D346556A"
+			rewards: [{
+				id: "49553BBD7BE2744D"
+				item: "projectexpansion:purple_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 14.42 Million"
+			tasks: [{
+				id: "5111D1E079B251C1"
+				item: "projectexpansion:purple_matter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7DC181761F3107A2"]
+			id: "0C4895CA6016C8C1"
+			rewards: [{
+				id: "4F526CF2E9B3485B"
+				item: "projectexpansion:blue_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 151.85 Million"
+			tasks: [{
+				id: "6123200B9B715308"
+				item: "projectexpansion:blue_matter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0C4895CA6016C8C1"]
+			id: "3F30F3094D857472"
+			rewards: [{
+				id: "2B379D2E7BC0DE39"
+				item: "projectexpansion:cyan_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 505.89 Million"
+			tasks: [{
+				id: "3CCC1693736EBF2C"
+				item: "projectexpansion:cyan_matter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3F30F3094D857472"]
+			id: "7E298B9B0367E613"
+			rewards: [{
+				id: "47D69962FE5AA750"
+				item: "projectexpansion:green_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 1.71 Billion"
+			tasks: [{
+				id: "147935A5726D7D27"
+				item: "projectexpansion:green_matter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7E298B9B0367E613"]
+			id: "36015DE66ADDCC38"
+			rewards: [{
+				id: "0578EF622BA76D0D"
+				item: "projectexpansion:lime_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 5.96 Billion"
+			tasks: [{
+				id: "6B8FC628465AFACD"
+				item: "projectexpansion:lime_matter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["36015DE66ADDCC38"]
+			id: "2A032F2B356CB23C"
+			rewards: [{
+				id: "3F218A596643CE26"
+				item: "projectexpansion:yellow_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 21.10 Billion"
+			tasks: [{
+				id: "1D398999F0C70391"
+				item: "projectexpansion:yellow_matter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2A032F2B356CB23C"]
+			id: "25746368A561F60D"
+			rewards: [{
+				id: "29F96EE576A6BCC3"
+				item: "projectexpansion:orange_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 76.20 Billion"
+			tasks: [{
+				id: "4D6E9719FAA34ADF"
+				item: "projectexpansion:orange_matter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D4DF7FC802E14A1"]
+			icon: "projectexpansion:basic_emc_link"
+			id: "690B031BAF3E8D23"
+			rewards: [{
+				id: "0A006AA88E99B23C"
+				item: "projecte:aeternalis_fuel_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3F96B5E2A8921F3E"
+					item: "projectexpansion:basic_collector"
+					type: "item"
+				}
+				{
+					id: "7A9E3BFB2FA31A91"
+					item: "projectexpansion:basic_relay"
+					type: "item"
+				}
+				{
+					id: "58BF504D7C1E794B"
+					item: "projectexpansion:basic_emc_link"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["690B031BAF3E8D23"]
+			id: "13F1944F8120C665"
+			rewards: [{
+				id: "63912E1D5C1341B7"
+				item: "projecte:aeternalis_fuel_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a102&r/s"
+			tasks: [{
+				id: "26981AEADA85464D"
+				item: "projectexpansion:basic_power_flower"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"5ED1673D69E1A39D"
+				"0B0250E6F4597813"
+			]
+			hide_dependency_lines: false
+			id: "422685EAD2AD3639"
+			rewards: [{
+				id: "1F062537918E0C43"
+				item: "projectexpansion:final_star_shard"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Produced EMC: &a47.95T&r/s"
+			tasks: [{
+				id: "3D463A427A81819E"
+				item: "projectexpansion:final_power_flower"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5185EE4056AE835A"]
+			hide_dependency_lines: true
+			id: "4D4DF7FC802E14A1"
+			rewards: [{
+				id: "2AE6E2EF9D04A137"
+				item: "projecte:aeternalis_fuel_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 8,192"
+			tasks: [{
+				id: "307D67BE6FA1F7AF"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D4DF7FC802E14A1"]
+			id: "2F4EF52141FD00E9"
+			rewards: [{
+				id: "61B34E452C0E85BC"
+				item: "projecte:dark_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 139,264"
+			tasks: [{
+				id: "17719AE3BC37EEC7"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2F4EF52141FD00E9"]
+			id: "1A2813DAC36B493C"
+			rewards: [{
+				id: "48C4CB4A643F0C95"
+				item: "projecte:red_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 466,944"
+			tasks: [{
+				id: "02ADD1958224A836"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["135503A1EB1977F4"]
+			id: "5DE9BB92F74C6BC4"
+			rewards: [{
+				id: "0771586A54210131"
+				item: "projectexpansion:fading_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 1.04 Trillion"
+			tasks: [{
+				id: "6183A8A961102991"
+				item: "projectexpansion:fading_matter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["466A21A3F41B4FF6"]
+			hide_dependency_lines: true
+			icon: "projectexpansion:final_emc_link"
+			id: "5ED1673D69E1A39D"
+			rewards: [{
+				id: "4548C7E1CB184D53"
+				item: "projectexpansion:final_star_shard"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4BB316AD51C55678"
+					item: "projectexpansion:final_collector"
+					type: "item"
+				}
+				{
+					id: "548BB5823F580A37"
+					item: "projectexpansion:final_relay"
+					type: "item"
+				}
+				{
+					id: "5A797A062F14A556"
+					item: "projectexpansion:final_emc_link"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"690B031BAF3E8D23"
+				"2F4EF52141FD00E9"
+			]
+			icon: "projectexpansion:dark_emc_link"
+			id: "145699364CF8D0B4"
+			rewards: [{
+				id: "2BD42DDEF1DE618C"
+				item: "projecte:dark_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1A01784810F5FA78"
+					item: "projectexpansion:dark_collector"
+					type: "item"
+				}
+				{
+					id: "41A0766AEEC19800"
+					item: "projectexpansion:dark_relay"
+					type: "item"
+				}
+				{
+					id: "37523D50E08D9393"
+					item: "projectexpansion:dark_emc_link"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"1A2813DAC36B493C"
+				"145699364CF8D0B4"
+			]
+			icon: "projectexpansion:red_emc_link"
+			id: "6F8A68208BDEBD39"
+			rewards: [{
+				id: "53F4C85BBD3421A3"
+				item: "projecte:red_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "101037A6813E2927"
+					item: "projectexpansion:red_collector"
+					type: "item"
+				}
+				{
+					id: "3F3D8DA552E2941B"
+					item: "projectexpansion:red_relay"
+					type: "item"
+				}
+				{
+					id: "559EB1B299353DA1"
+					item: "projectexpansion:red_emc_link"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"739E3836645BF34D"
+				"6F8A68208BDEBD39"
+			]
+			icon: "projectexpansion:magenta_emc_link"
+			id: "6B7CB0EB52A2E889"
+			rewards: [{
+				id: "722D29CB02741535"
+				item: "projectexpansion:magenta_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2E73C8FAC1463E95"
+					item: "projectexpansion:magenta_collector"
+					type: "item"
+				}
+				{
+					id: "284EA4C91CE57770"
+					item: "projectexpansion:magenta_relay"
+					type: "item"
+				}
+				{
+					id: "4910A3ED8E187347"
+					item: "projectexpansion:magenta_emc_link"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"1426A284EF3C9DDC"
+				"6B7CB0EB52A2E889"
+			]
+			icon: "projectexpansion:pink_emc_link"
+			id: "572881EF862B1E97"
+			rewards: [{
+				id: "3EDAC8666C6AC229"
+				item: "projectexpansion:pink_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4941DFA4CFAE16A7"
+					item: "projectexpansion:pink_collector"
+					type: "item"
+				}
+				{
+					id: "1E33E0C79B9022C9"
+					item: "projectexpansion:pink_relay"
+					type: "item"
+				}
+				{
+					id: "450877E3B14362BC"
+					item: "projectexpansion:pink_emc_link"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["739E3836645BF34D"]
+			id: "1426A284EF3C9DDC"
+			rewards: [{
+				id: "36CB53EF68795F1D"
+				item: "projectexpansion:pink_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 4.54 Million"
+			tasks: [{
+				id: "112021E7D7ED41E6"
+				item: "projectexpansion:pink_matter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6B2BC906D346556A"
+				"572881EF862B1E97"
+			]
+			icon: "projectexpansion:purple_emc_link"
+			id: "2843A08CCC85C62E"
+			rewards: [{
+				id: "2C00FC87E9DF89F5"
+				item: "projectexpansion:purple_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "09108FCF457C7CDE"
+					item: "projectexpansion:purple_collector"
+					type: "item"
+				}
+				{
+					id: "3789EC9BD9A35EB7"
+					item: "projectexpansion:purple_relay"
+					type: "item"
+				}
+				{
+					id: "51D192030E192901"
+					item: "projectexpansion:purple_emc_link"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"2843A08CCC85C62E"
+				"7DC181761F3107A2"
+			]
+			icon: "projectexpansion:violet_emc_link"
+			id: "4F09EE23161E155B"
+			rewards: [{
+				id: "2211EE7C60F00EA7"
+				item: "projectexpansion:violet_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1DAFC32680AFC7C7"
+					item: "projectexpansion:violet_collector"
+					type: "item"
+				}
+				{
+					id: "141E5686FA4611BE"
+					item: "projectexpansion:violet_relay"
+					type: "item"
+				}
+				{
+					id: "2EEC82C48DA4FA26"
+					item: "projectexpansion:violet_emc_link"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"0C4895CA6016C8C1"
+				"4F09EE23161E155B"
+			]
+			icon: "projectexpansion:blue_emc_link"
+			id: "335922DFDF2CEF9C"
+			rewards: [{
+				id: "3B394E6B85BA0B48"
+				item: "projectexpansion:blue_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6AE70089362B0C53"
+					item: "projectexpansion:blue_collector"
+					type: "item"
+				}
+				{
+					id: "442EFC9C705AC5CB"
+					item: "projectexpansion:blue_relay"
+					type: "item"
+				}
+				{
+					id: "19A47DEB6DF3AA60"
+					item: "projectexpansion:blue_emc_link"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6B2BC906D346556A"]
+			id: "7DC181761F3107A2"
+			rewards: [{
+				id: "1BBE4588EBB5A2B2"
+				item: "projectexpansion:violet_matter_block"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&eEMC:&r 46.42 Million"
+			tasks: [{
+				id: "05FFC94284F51C4F"
+				item: "projectexpansion:violet_matter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3F30F3094D857472"
+				"335922DFDF2CEF9C"
+			]
+			icon: "projectexpansion:cyan_emc_link"
+			id: "7BA76292AD670218"
+			rewards: [{
+				id: "0F1226D826ECFF53"
+				item: "projectexpansion:cyan_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "018297DAF628D7B7"
+					item: "projectexpansion:cyan_collector"
+					type: "item"
+				}
+				{
+					id: "104FD36E1A4DE393"
+					item: "projectexpansion:cyan_relay"
+					type: "item"
+				}
+				{
+					id: "1CC328611C72668B"
+					item: "projectexpansion:cyan_emc_link"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"7E298B9B0367E613"
+				"7BA76292AD670218"
+			]
+			icon: "projectexpansion:green_emc_link"
+			id: "4C6EC201C8C7C2AA"
+			rewards: [{
+				id: "078ECEDB517FD98A"
+				item: "projectexpansion:green_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "59F25024EF4B8B47"
+					item: "projectexpansion:green_collector"
+					type: "item"
+				}
+				{
+					id: "424BDC17304CB255"
+					item: "projectexpansion:green_relay"
+					type: "item"
+				}
+				{
+					id: "4DEAC1576C9D2B6B"
+					item: "projectexpansion:green_emc_link"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"36015DE66ADDCC38"
+				"4C6EC201C8C7C2AA"
+			]
+			icon: "projectexpansion:lime_emc_link"
+			id: "79C36215D15E6319"
+			rewards: [{
+				id: "442D06D3580AED25"
+				item: "projectexpansion:lime_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "29F9C30CFF28B5EE"
+					item: "projectexpansion:lime_collector"
+					type: "item"
+				}
+				{
+					id: "642292A5E43B2CB1"
+					item: "projectexpansion:lime_relay"
+					type: "item"
+				}
+				{
+					id: "5FAD4CF431535DED"
+					item: "projectexpansion:lime_emc_link"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"2A032F2B356CB23C"
+				"79C36215D15E6319"
+			]
+			icon: "projectexpansion:yellow_emc_link"
+			id: "6189913A1E68E9C8"
+			rewards: [{
+				id: "41594B3DE47C974A"
+				item: "projectexpansion:yellow_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "06B5C237ADB8BEB9"
+					item: "projectexpansion:yellow_collector"
+					type: "item"
+				}
+				{
+					id: "339C4A2B9FB0BFB3"
+					item: "projectexpansion:yellow_relay"
+					type: "item"
+				}
+				{
+					id: "7CA987BF43C568A7"
+					item: "projectexpansion:yellow_emc_link"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"25746368A561F60D"
+				"6189913A1E68E9C8"
+			]
+			icon: "projectexpansion:orange_emc_link"
+			id: "5C7B179C2410A8AC"
+			rewards: [{
+				id: "45F79F52A059908F"
+				item: "projectexpansion:orange_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2BBFFB4B5E6FEDDC"
+					item: "projectexpansion:orange_collector"
+					type: "item"
+				}
+				{
+					id: "704C048301902ECD"
+					item: "projectexpansion:orange_relay"
+					type: "item"
+				}
+				{
+					id: "1421197ED552705B"
+					item: "projectexpansion:orange_emc_link"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"135503A1EB1977F4"
+				"5C7B179C2410A8AC"
+			]
+			icon: "projectexpansion:white_emc_link"
+			id: "3E6BD3BAFA20415F"
+			rewards: [{
+				id: "1CE46E084361A3DE"
+				item: "projectexpansion:white_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1D1208FF748079CF"
+					item: "projectexpansion:white_collector"
+					type: "item"
+				}
+				{
+					id: "3E5EC5FB13372E31"
+					item: "projectexpansion:white_relay"
+					type: "item"
+				}
+				{
+					id: "2F8B98AB2595629F"
+					item: "projectexpansion:white_emc_link"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5DE9BB92F74C6BC4"
+				"3E6BD3BAFA20415F"
+			]
+			icon: "projectexpansion:fading_emc_link"
+			id: "466A21A3F41B4FF6"
+			rewards: [{
+				id: "59101AAF673030B7"
+				item: "projectexpansion:fading_matter_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2BB07FFEA2E42265"
+					item: "projectexpansion:fading_collector"
+					type: "item"
+				}
+				{
+					id: "0FCE5515E5BA138E"
+					item: "projectexpansion:fading_relay"
+					type: "item"
+				}
+				{
+					id: "54509C5A50D2ABD0"
+					item: "projectexpansion:fading_emc_link"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"145699364CF8D0B4"
+				"13F1944F8120C665"
+			]
+			id: "6E2112A61EA4F005"
+			rewards: [{
+				id: "4926A9E023197809"
+				item: "projecte:dark_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a612&r/s"
+			tasks: [{
+				id: "3B4A8048A9D9F153"
+				item: "projectexpansion:dark_power_flower"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"6F8A68208BDEBD39"
+				"6E2112A61EA4F005"
+			]
+			id: "1D45554FC41248DF"
+			rewards: [{
+				id: "41F88B22E1A090FE"
+				item: "projecte:red_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a3,672&r/s"
+			tasks: [{
+				id: "7D93B30FBE1066E5"
+				item: "projectexpansion:red_power_flower"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"6B7CB0EB52A2E889"
+				"1D45554FC41248DF"
+			]
+			id: "707B7C1422762836"
+			rewards: [{
+				id: "54B596372A19D902"
+				item: "projectexpansion:magenta_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a22,032&r/s"
+			tasks: [{
+				id: "386937C7A2AFE31C"
+				item: "projectexpansion:magenta_power_flower"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"572881EF862B1E97"
+				"707B7C1422762836"
+			]
+			id: "5ED893B8D41A8FCD"
+			rewards: [{
+				id: "3042381798729BA8"
+				item: "projectexpansion:pink_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a132,192&r/s"
+			tasks: [{
+				id: "4A6E9E0D3EE3E3C3"
+				item: "projectexpansion:pink_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"2843A08CCC85C62E"
+				"5ED893B8D41A8FCD"
+			]
+			id: "7DA707D95E438805"
+			rewards: [{
+				id: "5C63A9826C2F6A21"
+				item: "projectexpansion:purple_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a793,152&r/s"
+			tasks: [{
+				id: "296619C371718FC4"
+				item: "projectexpansion:purple_power_flower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4F09EE23161E155B"
+				"7DA707D95E438805"
+			]
+			id: "100E926734FEE719"
+			rewards: [{
+				id: "343FF56500D675F6"
+				item: "projectexpansion:violet_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a4.75M&r/s"
+			tasks: [{
+				id: "3395557CF9DB23B7"
+				item: "projectexpansion:violet_power_flower"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"335922DFDF2CEF9C"
+				"100E926734FEE719"
+			]
+			id: "24742C6C2858CD56"
+			rewards: [{
+				id: "0D25A2DA872306AD"
+				item: "projectexpansion:blue_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a28.55M&r/s"
+			tasks: [{
+				id: "26BA87218E7513BB"
+				item: "projectexpansion:blue_power_flower"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"7BA76292AD670218"
+				"24742C6C2858CD56"
+			]
+			id: "719237C9787015CA"
+			rewards: [{
+				id: "3A8E1182565CCA34"
+				item: "projectexpansion:cyan_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a171.32M&r/s"
+			tasks: [{
+				id: "3ED4553378350977"
+				item: "projectexpansion:cyan_power_flower"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"4C6EC201C8C7C2AA"
+				"719237C9787015CA"
+			]
+			id: "41C13F5420E1F1CF"
+			rewards: [{
+				id: "51FB15F805895510"
+				item: "projectexpansion:green_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a1.02B&r/s"
+			tasks: [{
+				id: "26F407F568FF8DC5"
+				item: "projectexpansion:green_power_flower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"79C36215D15E6319"
+				"41C13F5420E1F1CF"
+			]
+			id: "2A89016089CFB9C8"
+			rewards: [{
+				id: "791B3B59D5997F0F"
+				item: "projectexpansion:lime_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a6.16B&r/s"
+			tasks: [{
+				id: "2B6264CE0BB47F97"
+				item: "projectexpansion:lime_power_flower"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"6189913A1E68E9C8"
+				"2A89016089CFB9C8"
+			]
+			id: "4D6E2282F632F0F5"
+			rewards: [{
+				id: "2CB0AFEF0405DCE9"
+				item: "projectexpansion:yellow_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a37.00B&r/s"
+			tasks: [{
+				id: "49BC8BEE39BB957A"
+				item: "projectexpansion:yellow_power_flower"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5C7B179C2410A8AC"
+				"4D6E2282F632F0F5"
+			]
+			id: "62C781F78877DF1A"
+			rewards: [{
+				id: "5FCC3E1E95D7E4E9"
+				item: "projectexpansion:orange_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a222.03B&r/s"
+			tasks: [{
+				id: "767A3AE1581801C5"
+				item: "projectexpansion:orange_power_flower"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"3E6BD3BAFA20415F"
+				"62C781F78877DF1A"
+			]
+			id: "068582CC771D4587"
+			rewards: [{
+				id: "7671FDC5227DAECD"
+				item: "projectexpansion:white_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a1.33T&r/s"
+			tasks: [{
+				id: "3B1C3011AE806AC3"
+				item: "projectexpansion:white_power_flower"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"466A21A3F41B4FF6"
+				"068582CC771D4587"
+			]
+			hide_dependent_lines: true
+			id: "0B0250E6F4597813"
+			rewards: [{
+				id: "37F6647DDF4DD812"
+				item: "projectexpansion:fading_matter_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Produced EMC: &a7.99T&r/s"
+			tasks: [{
+				id: "4C172AB4B6B7009A"
+				item: "projectexpansion:fading_power_flower"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["12C1DC705AD8B5BB"]
+			description: ["A machine used to get a LOT of EMCs."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "pneumaticcraft:item/wip"
+				}
+			}
+			id: "106EA17F61326643"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Will be useful in future updates"
+			tasks: [{
+				id: "311C6535799A9A05"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "WIP Machine"
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: " &l&4♦ &rProjectE"
+}

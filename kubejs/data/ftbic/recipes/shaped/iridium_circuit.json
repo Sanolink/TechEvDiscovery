@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbic:iridium_circuit",
+  "key": {
+    "A": {
+      "item": "ftbic:advanced_alloy"
+    },
+    "G": {
+      "item": "ftbic:graphene"
+    },
+    "C": {
+      "item": "ftbic:advanced_circuit"
+    },
+    "I": {
+      "item": "ftbic:iridium_alloy"
+    }
+  },
+  "pattern": [
+    "AGA",
+    "CIC",
+    "AGA"
+  ],
+  "result": {
+    "count": 2,
+    "item": "ftbic:iridium_circuit"
+  }
+}

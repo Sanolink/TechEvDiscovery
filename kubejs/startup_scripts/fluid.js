@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.1         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -67,4 +67,6 @@ StartupEvents.registry('fluid', e => {
     FlowingFluid('industrialforegoing:echoplasm', 'Echoplasm',
       'industrialforegoing:blocks/fluids/echoplasm_still', 'industrialforegoing:blocks/fluids/echoplasm_flow')
 
+    FlowingFluid('rftoolsbase:dimensional_matrix', 'Dimensional Matrix',
+      'rftoolsbase:fluid/dimensional_matrix_still', 'rftoolsbase:fluid/dimensional_matrix_flow')
   })

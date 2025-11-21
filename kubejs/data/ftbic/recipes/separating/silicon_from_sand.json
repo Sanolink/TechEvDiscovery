@@ -1,0 +1,21 @@
+{
+  "type": "ftbic:separating",
+  "inputItems": [
+    {
+      "count": 1,
+      "ingredient": {
+        "tag": "minecraft:sand"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "chance": 0.2,
+      "item": "ae2:silicon"
+    },
+    {
+      "chance": 0.05,
+      "item": "ae2:silicon"
+    }
+  ]
+}

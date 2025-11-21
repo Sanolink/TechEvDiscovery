@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:extruding",
+  "inputItems": [
+    {
+      "count": 32,
+      "ingredient": {
+        "tag": "forge:ingots/uranium"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "alltheores:uranium_rod"
+    }
+  ]
+}

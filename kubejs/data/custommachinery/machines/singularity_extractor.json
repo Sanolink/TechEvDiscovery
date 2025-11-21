@@ -1,0 +1,98 @@
+{
+  "name": "Singularity Extractor",
+  "appearance": {
+    "block": "custommachinery:machine/singularity_extractor_idle",
+    "item": "custommachinery:machine/singularity_extractor_idle",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone",
+    "light": 0,
+    "color": 16777215,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": false,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "custommachinery:machine/singularity_extractor_running",
+      "ambient_sound": "mekanism:tile.machine.sps",
+      "light": 10
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 182,
+      "height": 240
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/singularity_extractor/gui.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/singularity_extractor/deco.png",
+      "x": 27,
+      "y": 14
+    },
+    {
+      "type": "custommachinery:text",
+      "text": {"text": "Singularity Extractor", "color": "#515151", "bold": true},
+      "height": 7,
+      "x": 6,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": "custommachinery:textures/gui/dark_player_inventory.png",
+      "x": 10,
+      "y": 157
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "custommachinery:textures/gui/singularity_extractor/ash_slot.png",
+      "id": "output",
+      "x": 82,
+      "y": 69
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/singularity_extractor/progress_empty.png",
+      "texture_filled": "custommachinery:textures/gui/singularity_extractor/progress_filled.png",
+      "x": 12,
+      "y": 143
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/singularity_extractor/deco.png",
+      "x": 27,
+      "y": 14,
+      "jei": true
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 82,
+      "y": 69
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/singularity_extractor/progress_empty.png",
+      "texture_filled": "custommachinery:textures/gui/singularity_extractor/progress_filled.png",
+      "x": 12,
+      "y": 143
+    }
+  ],
+  "catalysts": []
+}

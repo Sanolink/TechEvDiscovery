@@ -1,0 +1,66 @@
+{
+  "name": "Dimensional Stabilizer",
+  "appearance": {
+    "block": "custommachinery:machine/dimensional_stabilizer_idle",
+    "item": "custommachinery:machine/dimensional_stabilizer_running",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:stone",
+    "light": 0,
+    "color": 16777215,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": false,
+    "shape": [[0, 0, 0, 1, 1, 1]],
+    "running": {
+      "block": "custommachinery:machine/dimensional_stabilizer_running",
+      "ambient_sound": "custommachinery:block.dimensional_stabilizer",
+      "light": 10
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "texture": "custommachinery:textures/gui/invisible_slot.png",
+      "x": 2,
+      "y": 53
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "texture": "custommachinery:textures/gui/invisible_slot.png",
+      "x": 57,
+      "y": 53
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": "custommachinery:textures/gui/dimensional_stabilizer/progress_empty.png",
+      "texture_filled": "custommachinery:textures/gui/dimensional_stabilizer/progress_filled.png",
+      "x": 10,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": "custommachinery:textures/gui/dimensional_stabilizer/deco.png",
+      "jei": true,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "catalysts": []
+}

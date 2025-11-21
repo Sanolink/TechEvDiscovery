@@ -1,0 +1,10 @@
+{
+  "name": "Horizonite",
+  "colors": [
+    "FC8D39",
+    "C74527"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/horizonite"
+  }
+}

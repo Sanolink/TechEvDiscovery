@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:extruding",
+  "inputItems": [
+    {
+      "count": 32,
+      "ingredient": {
+        "tag": "forge:ingots/iron"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "alltheores:iron_rod"
+    }
+  ]
+}

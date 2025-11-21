@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "machines",
+  "key": {
+    "B": {
+      "item": "create_new_age:reactor_casing"
+    },
+    "O": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "P": {
+      "item": "ftbic:iridium_alloy"
+    }
+  },
+  "pattern": [
+    "OPO",
+    "PBP",
+    "OPO"
+  ],
+  "result": {
+    "count": 4,
+    "item": "alchemistry:reactor_casing"
+  }
+}

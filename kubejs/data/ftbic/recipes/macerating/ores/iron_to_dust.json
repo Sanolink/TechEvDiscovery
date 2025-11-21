@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 32,
+      "ingredient": {
+        "tag": "forge:ores/iron"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "create:crushed_raw_iron"
+    }
+  ]
+}

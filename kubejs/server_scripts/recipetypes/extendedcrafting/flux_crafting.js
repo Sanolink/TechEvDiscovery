@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -35,9 +35,24 @@ ServerEvents.recipes(event => {
                 "T": 'minecraft:terracotta',
                 "D": 'thermal:device_water_gen'
             }
+        },
+        {
+            result: 'custommachinery:singularity_extractor',
+            pattern: [
+                "AHA",
+                "SNS",
+                "AOA"
+            ],
+            key: {
+                "A": 'ftbic:antimatter_crystal',
+                "H": 'ftbic:advanced_heat_vent',
+                "S": 'ftbic:ev_solar_panel',
+                "N": 'ftbic:nuclear_reactor',
+                "O": 'immersiveengineering:material_component_oscillating'
+            },
+            power: 3200000
         }
     ]
-
     //General Shaped Flux Function
     recipes.forEach((recipe) => {
         for (let k in recipe.key) recipe.key[k] = parseIngredient(recipe.key[k])

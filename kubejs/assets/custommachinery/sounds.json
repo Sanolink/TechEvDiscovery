@@ -11,5 +11,12 @@
     "sounds": [
       "custommachinery:block/circuit_etcher"
     ]
+  },
+
+  "block.dimensional_stabilizer": {
+    "subtitle": "subtitles.custommachinery.block.dimensional_stabilizer",
+    "sounds": [
+      "custommachinery:block/dimensional_stabilizer"
+    ]
   }
 }

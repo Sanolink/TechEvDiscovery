@@ -1,0 +1,10 @@
+{
+  "name": "Cloggrum",
+  "colors": [
+    "947F67",
+    "564137"
+  ],
+  "ingredient": {
+    "tag": "ftbic:dense_plates/cloggrum"
+  }
+}

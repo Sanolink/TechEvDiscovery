@@ -89,7 +89,7 @@
     },
     {
       "type": "custommachinery:player_inventory",
-      "texture": "custommachinery:textures/gui/psi_infuser/player_inventory.png",
+      "texture": "custommachinery:textures/gui/dark_player_inventory.png",
       "x": 10,
       "y": 83
     },

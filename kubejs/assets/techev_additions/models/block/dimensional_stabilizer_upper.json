@@ -1,0 +1,7 @@
+{
+  "parent": "forbidden_arcanus:block/obelisk_upper",
+  "textures": {
+    "0": "techev_additions:block/dimensional_stabilizer_obelisk_top",
+    "upper": "techev_additions:block/dimensional_stabilizer_obelisk_upper"
+  }
+}

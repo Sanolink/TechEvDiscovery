@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -31,6 +31,7 @@ ServerEvents.recipes(event => {
     compressing("source_quartz_plate_from_compressing_polished_source_quartz", "create:polished_source_quartz", "create_things_and_misc:source_quartz_sheet", 1)
     compressing("antimatter_quartz_plate_from_compressing_polished_antimatter_quartz", "create:polished_antimatter_quartz", "create_things_and_misc:antimatter_quartz_sheet", 1)
     compressing("flux_dust_from_compressing_redstone", "minecraft:redstone", "fluxnetworks:flux_dust", 1)
+    compressing("carbon_plate_from_compressing_carbon_fiber_mesh", "ftbic:carbon_fiber_mesh", "ftbic:carbon_plate", 1)
 
     var CompressingPlates = [
         'alltheores:aluminum_plate',
@@ -63,7 +64,14 @@ ServerEvents.recipes(event => {
         'thermal_extra:dragonsteel_plate',
         'botania:elementium_plate',
         'ad_astra:nephryx_plate',
-        'eidolon:arcane_gold_plate'
+        'eidolon:arcane_gold_plate',
+        'blue_skies:ventium_plate',
+        'blue_skies:horizonite_plate',
+        'blue_skies:falsite_plate',
+        'undergarden:froststeel_plate',
+        'undergarden:cloggrum_plate',
+        'occultism:iesnium_plate',
+        'pneumaticcraft:compressed_iron_plate'
     ].forEach(plate => {
         let mat = plate.split(":")[1].replace("_plate", "")
         let id = mat + "_plate_from_compressing_" + mat + "_ingot"

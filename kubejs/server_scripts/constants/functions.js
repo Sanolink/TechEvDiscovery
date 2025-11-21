@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.10        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -53,6 +53,10 @@ function MekaParseIngredient(str) {
     return { ingredient: parseIngredient(str)}
 }
 
+function ChemParseIngredient(str) {
+    return { ingredient: parseIngredient(str)}
+}
+
 //Chance Or Count
 function ChanceOrCountItem(item, ChanceOrCount) {
     if (ChanceOrCount < 1) {
@@ -84,7 +88,6 @@ function ThermalChanceItem(item, chance, locked) {
     } else {
         return { item: item, chance: chance, locked: true }
     }
-
 }
 
 function MekaCountIngredient(str, count) {
@@ -97,6 +100,14 @@ function BeeChanceIngredient(ingredient, chance) {
 
 function BotanyChanceIngredient(ingredient, chance) {
     return { output: parseIngredient(ingredient), chance: chance}
+}
+
+function ChemCountIngredient(str, count) {
+    return { count: count, ingredient: parseIngredient(str)}
+}
+
+function ChemProbableResult(probability, results) {
+    return { probability: probability, results: results}
 }
 
 //Chance And Count
@@ -168,4 +179,9 @@ function MekaPigment(type, amount) {
 //Slurry
 function MekaSlurry(type, amount) {
     return { slurry: type, chemicalType: "slurry", amount: amount}
+}
+
+//Singularity 
+function Singularity(type) {
+    return NBTItem("extendedcrafting:singularity", {"Id": `extendedcrafting:${type}`})
 }

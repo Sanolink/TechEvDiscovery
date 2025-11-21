@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l4_rchapter_6"
+	group: "0EBC8803CE24B703"
+	icon: "extendedcrafting:ultimate_singularity"
+	id: "27C0D36F8721D37D"
+	order_index: 6
+	quest_links: [
+		{
+			id: "0D493521F40C01A8"
+			linked_quest: "4E7356179682035C"
+			shape: "pentagon"
+			size: 2.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "686E355C163ECAB0"
+			linked_quest: "7EEEFD85BFB06F1A"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "5FE984BBA0A02ABB"
+			linked_quest: "29F81B08C675C873"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "54226E845A22497A"
+			linked_quest: "7525DFA984F8FF58"
+			shape: "octagon"
+			size: 1.5d
+			x: 1.25d
+			y: 1.5d
+		}
+		{
+			id: "058650207064D102"
+			linked_quest: "12C1DC705AD8B5BB"
+			x: -1.0d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["12C1DC705AD8B5BB"]
+			icon: "techev_additions:techevium"
+			id: "5A7EB6BEA837C5F0"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Soon, In 1.7.0 !"
+			tasks: [{
+				id: "48699B97A2F76069"
+				type: "checkmark"
+			}]
+			title: "&lFinal Age : WIP"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EEEFD85BFB06F1A"]
+			icon: "ftbic:iridium_circuit"
+			id: "0EE9B6F78ACC5E0E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "57A1E00981647F0E"
+				type: "checkmark"
+			}]
+			title: "&lFTB Industrial Contraptions"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7525DFA984F8FF58"]
+			icon: {
+				Count: 1b
+				id: "projecte:philosophers_stone"
+				tag: { }
+			}
+			id: "0C42FDECFDC39560"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "09836C5D19AA3186"
+				type: "checkmark"
+			}]
+			title: "&lProjectE"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["29F81B08C675C873"]
+			icon: "alchemistry:dissolver"
+			id: "4350F92D5D03FD5E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "45EF3739CBCDD9D3"
+				type: "checkmark"
+			}]
+			title: "&lAlchemistry / ChemLib"
+			x: -1.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3FAD8B1084E4B07D"]
+			icon: "rftoolsbase:dimensionalshard"
+			id: "3DB8C6996F423F69"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7DCBB7E9F77D3994"
+				type: "checkmark"
+			}]
+			title: "&lRFTools"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DB8C6996F423F69"]
+			icon: "extendedcrafting:compressor"
+			id: "0C1725129FDB2EE0"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "499897B4E7DF8289"
+				type: "checkmark"
+			}]
+			title: "&lSingular Networks"
+			x: 1.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E7356179682035C"]
+			description: [
+				"&l&6Dimensional Stabilizer&r is a multiblock used to transmute Ice Shards into Dimensional Shards."
+				"{image:techev:textures/misc/quests/dimensional_stabilizer.png width:150 height:141 align:1}"
+			]
+			icon: "custommachinery:dimensional_stabilizer"
+			id: "3FAD8B1084E4B07D"
+			rewards: [{
+				id: "6E56850AA5859C91"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Use &c&l[Schematicannon] &rto build this Multiblock!"
+			tasks: [
+				{
+					id: "3C03F036970FBF42"
+					item: "custommachinery:dimensional_stabilizer"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0F73C73487D0B1E6"
+					item: "sons_of_sins:soul_steel_block"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "5A0D4DB7C2052D5D"
+					item: "sons_of_sins:soul_steel_slab"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "25D095665F794F88"
+					item: "sons_of_sins:soul_steel_tiles"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "3E9EC2F63A78CC0D"
+					item: "forbidden_arcanus:arcane_polished_darkstone_pillar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "525049F1BFA87BD9"
+					item: "forbidden_arcanus:arcane_polished_darkstone_rod"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C7348F73E3D2E21"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "19E9DA2D261CE826"
+					item: "techev_additions:dimensional_stabilizer_obelisk"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "39F683C6F465F75A"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+				{
+					id: "379F07C46098949A"
+					item: "forbidden_arcanus:magnetized_darkstone_pedestal"
+					type: "item"
+				}
+				{
+					id: "5507F656C3FF5E40"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
+			title: "&lDimensional Stabilizer"
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	subtitle: ["&lPhilosophic Ascent"]
+	title: " &l&4♦ &rChapter 6"
+}

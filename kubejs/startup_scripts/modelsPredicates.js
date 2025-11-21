@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -21,6 +21,10 @@ StartupEvents.postInit(event => {
     if (!Platform.isClientEnvironment()) return;
     const $ItemProperties = Java.loadClass('net.minecraft.client.renderer.item.ItemProperties')
     const Plates = [
+        'ad_astra:calorite_plate',
+        'ad_astra:desh_plate',
+        'ad_astra:nephryx_plate',
+        'ad_astra:ostrum_plate',
         'alltheores:aluminum_plate',
         'alltheores:brass_plate',
         'alltheores:bronze_plate', 
@@ -44,21 +48,26 @@ StartupEvents.postInit(event => {
         'alltheores:tin_plate',
         'alltheores:uranium_plate',
         'alltheores:zinc_plate',
+        'blue_skies:falsite_plate',
+        'blue_skies:horizonite_plate',
+        'blue_skies:ventium_plate',
         'botania:elementium_plate',
-        'create_things_and_misc:rose_quartz_sheet',
-        'create_things_and_misc:blue_quartz_sheet',
-        'create_things_and_misc:source_quartz_sheet',
-        'create_things_and_misc:psi_quartz_sheet',
-        'create_things_and_misc:antimatter_quartz_sheet',
-        'create_things_and_misc:experience_sheet',
-        'create_new_age:overcharged_iron_sheet',
         'create_new_age:overcharged_golden_sheet',
-        "createdeco:cast_iron_sheet",
-        'ad_astra:desh_plate',
-        'ad_astra:ostrum_plate',
-        'ad_astra:calorite_plate',
-        'ad_astra:nephryx_plate',
-        'eidolon:arcane_gold_plate'
+        'create_new_age:overcharged_iron_sheet',
+        'create_things_and_misc:antimatter_quartz_sheet',
+        'create_things_and_misc:blue_quartz_sheet',
+        'create_things_and_misc:experience_sheet',
+        'create_things_and_misc:psi_quartz_sheet',
+        'create_things_and_misc:rose_quartz_sheet',
+        'create_things_and_misc:source_quartz_sheet',
+        'createdeco:cast_iron_sheet',
+        'eidolon:arcane_gold_plate',
+        'ftbic:carbon_plate',
+        'occultism:iesnium_plate',
+        'pneumaticcraft:compressed_iron_plate',
+        'techev_additions:complex_plate',
+        'undergarden:cloggrum_plate',
+        'undergarden:froststeel_plate'
     ]
     //All Plates
     Plates.forEach(plate => {

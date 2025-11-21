@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13        (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
@@ -40,6 +40,16 @@ ServerEvents.recipes(event => {
             id: "coal_coke/to_dust",
             input: MekaParseIngredient("immersiveengineering:coal_coke"),
             output: parseIngredient("immersiveengineering:dust_coke")
+        },
+        {
+            id: `experience/to_dust`,
+            input: MekaParseIngredient('create:experience_nugget'),
+            output: parseIngredient('create_things_and_misc:experience_dust')
+        },
+        {
+            id: `carbon/to_dust`,
+            input: MekaParseIngredient('ftbic:carbon_fiber_mesh'),
+            output: parseIngredient('ftbic:carbon_dust')
         }
     ]
 
@@ -77,9 +87,16 @@ ServerEvents.recipes(event => {
         'falsite',
         'ventium',
         'horizonite',
+        'hop_graphite',
+        'cast_iron',
         'shellite',
         'twinite',
-        'hop_graphite'
+        'overcharged_iron',
+        'overcharged_gold',
+        'compressed_iron',
+        'tungsten',
+        'chromium',
+        'titanium'
     ].forEach(mat => {
         recipes.push(
             {
@@ -90,13 +107,26 @@ ServerEvents.recipes(event => {
         )
     })
 
+    const QuartzToDusts = [
+        'rose',
+        'blue',
+        'psi',
+        'source',
+        'antimatter'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `${mat}_quartz/to_dust`,
+                input: MekaParseIngredient(`#forge:polished_quartz/${mat}`),
+                output: parseIngredient(TagToItem(`#forge:dusts/${mat}_quartz`))
+            }
+        )
+    })
+
     const GemsToDusts = [
-        'peridot',
-        'sapphire',
         'cinnabar',
         'apatite',
         'sulfur',
-        'ruby',
         'amethyst',
         'niter'
     ].forEach(mat => {

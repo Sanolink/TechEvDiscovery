@@ -1,0 +1,1913 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l4_rftb_industrial_contraptions"
+	group: "3818CF066B02A8FF"
+	icon: "ftbic:iridium_circuit"
+	id: "61E6211CFB2A5E68"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbic:textures/block/electric/dark/template/nuclear_reactor_top.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.535714285714285d
+			y: -5.875d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbic:item/singularity_ash"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			alpha: 100
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "ftbquests:tasks/ic2_empty"
+			order: -1
+			rotation: 0.0d
+			width: 25.0d
+			x: 8.0d
+			y: -4.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["495D87F028AA6165"]
+			hide_dependency_lines: true
+			id: "3F35FFC023B6542A"
+			rewards: [{
+				count: 6
+				id: "1BB9BDCB190C731B"
+				item: "ftbic:lv_cable"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Transfer: 32 ⚡/t"
+			tasks: [{
+				id: "29F795555A06120D"
+				item: "ftbic:lv_cable"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F35FFC023B6542A"]
+			id: "7EA3DCC778031059"
+			rewards: [{
+				count: 6
+				id: "46307B08A89194E4"
+				item: "ftbic:mv_cable"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Transfer: 128 ⚡/t"
+			tasks: [{
+				id: "067AA473413BD98C"
+				item: "ftbic:mv_cable"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7EA3DCC778031059"]
+			id: "75C20396517F0E77"
+			rewards: [{
+				count: 6
+				id: "10B546D3714C08F7"
+				item: "ftbic:hv_cable"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Transfer: 512 ⚡/t"
+			tasks: [{
+				id: "0C584B5BDE0B92A3"
+				item: "ftbic:hv_cable"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75C20396517F0E77"]
+			id: "09B0717CACB9E9F9"
+			rewards: [{
+				count: 6
+				id: "66A31C515E7BA30D"
+				item: "ftbic:ev_cable"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Transfer: 2,048 ⚡/t"
+			tasks: [{
+				id: "1046E2839AE5AE29"
+				item: "ftbic:ev_cable"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09B0717CACB9E9F9"]
+			id: "37B82D0FEDD018E9"
+			rewards: [{
+				count: 6
+				id: "21F1DEA010BE8D4B"
+				item: "ftbic:iv_cable"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Transfer: 8,192 ⚡/t"
+			tasks: [{
+				id: "1D3B6CAC9F46EEF5"
+				item: "ftbic:iv_cable"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0EE9B6F78ACC5E0E"]
+			description: [
+				"&l&nFTB Industrial Contraptions&r does not use &cFE&r, but uses its own energy system:"
+				"● &nZaps&r (⚡)!"
+				""
+				"You &ccannot use FE&r on FTB:IC machines. However, you can convert Zaps to FE. One Zap is equal to 4 FE."
+				""
+				"Generators, Cables, and Battery Boxes will connect to FE-using blocks, and will automatically convert their Zaps to FE to power the block."
+				""
+				"Zaps have a Voltage tier system. The higher Voltage, the more ⚡/t can be transferred."
+				""
+				"There are 5 tiers:"
+				"● Low Voltage (LV) - 32⚡/t"
+				"● Medium Voltage (MV) - 128⚡/t"
+				"● High Voltage (HV)512⚡/t"
+				"● Extreme Voltage (EV) - 2,048⚡/t"
+				"● Insane Voltage (IV) - 8,192⚡/t$"
+				""
+				"Some machines cannot handle higher Voltage, but you can always use lower ones."
+			]
+			id: "495D87F028AA6165"
+			min_width: 260
+			rewards: [
+				{
+					id: "2E71F4E9D72563CA"
+					item: "ftbic:machine_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B8879FF9E80C377"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ftbic:ftbic_guide"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "59BC21FB9D084FA5"
+				item: "ftbic:machine_block"
+				type: "item"
+			}]
+			title: "&lFTB Industrial Contraptions"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			id: "1368C642EDAA80D6"
+			rewards: [{
+				id: "733830FB0B06227F"
+				item: "ftbic:advanced_machine_block"
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "14334E640CF6A0D0"
+				item: "ftbic:advanced_machine_block"
+				type: "item"
+			}]
+			title: "&lAdvanced Machine Block"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1368C642EDAA80D6"]
+			description: [
+				"The &l&nQuarry&r uses Zaps to mine an area."
+				""
+				"The Quarry mines all the way down to Bedrock."
+				"Mined items will be collected into the Quarry's inventory."
+				"To prevent lag, Ex-Fluids will be placed around fluids to prevent them from flowing."
+				""
+				"It costs a little over 150⚡ to mine each block."
+				""
+				"Without upgrades, it accepts only up to HV current."
+				""
+				"By default, the Quarry only mines a 7x7 area. You can increase this using Landmarks."
+				"Place up to 3 Landmarks to set the boundary, and place the Quarry so it's inline with all of them."
+			]
+			icon: "ftbic:quarry"
+			id: "3134F9D3CFA6FE0E"
+			rewards: [{
+				id: "4DD9B14B35B342D6"
+				item: "ftbic:quarry"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "43C5592AA174A32D"
+					item: "ftbic:quarry"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "22E77E46ABCC114E"
+					item: "ftbic:landmark"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1368C642EDAA80D6"]
+			description: [
+				"The &l&nPump&r uses Zaps to collect fluid in an area."
+				""
+				"Without upgrades, it accepts only up to HV current."
+				""
+				"By default, the Pump drains a 7x7 area, all the way down to the bottom of the pool. You can extend this area with Landmarks."
+				"Place up to 3 Landmarks to set the boundary, and place the Pump so it's inline with all of them."
+			]
+			icon: "ftbic:pump"
+			id: "3B7042A0E15AF3CF"
+			rewards: [{
+				id: "6CFFF2284CDB2190"
+				item: "ftbic:pump"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "653F3C410778B664"
+					item: "ftbic:pump"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0F3E0BEA894ACD20"
+					item: "ftbic:landmark"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1368C642EDAA80D6"
+				"4A11A7B99E4AB4A0"
+			]
+			description: [
+				"FTBIC's &l&nNuclear Reactor&r is used to generate a lot of energy."
+				""
+				"The Nuclear Reactor's GUI has 9x6 inventory slots, 2 gauges, and 2 buttons."
+				"The top gauge shows the ⚡/t being generated, and the bottom shows the Reactor's current &eheat&r."
+				""
+				"The first button allows you to simulate the Reactor, using the Reactor's contents. This tells you: "
+				"● How long the Reactor will run"
+				"● If the Reactor will explode, and the explosion radius"
+				"● The ⚡/t generated"
+				"● The total ⚡ generated"
+				"&4● &lNOTE : DON'T USE THIS BUTTON &r&4when using Eternal Fuel. It will crash your game !"
+				""
+				"The second button pauses/unpauses the Reactor."
+				"{@pagebreak}"
+				"If &l&eHeat&r reaches 10,000, the Reactor will explode. The faster it was heating (heat/s), the bigger the explosion."
+				""
+				"{image:techev:textures/misc/quests/ftbic/nuke.png width:150 height:131 align:1}"
+				"{@pagebreak}"
+				""
+				"Here's an example of a good setup of Nuclear Reactor :"
+				""
+				"{image:techev:textures/misc/quests/ftbic/reactor_setup_basic.png width:150 height:113 align:1}"
+				"{@pagebreak}"
+				""
+				"Here's an example of a good setup of Nuclear Reactor using Eternal Stellas :"
+				""
+				"{image:techev:textures/misc/quests/ftbic/reactor_setup_stella.png width:150 height:113 align:1}"
+				""
+				"Eternal Stellas will make Fuel Rods and Vents &eunbreakable&r, so basically the reactor will never stop,"
+			]
+			id: "24D05F0DFEFF72C2"
+			min_width: 300
+			rewards: [{
+				id: "052D35E8DB616C9C"
+				item: "ftbic:nuclear_reactor"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "474313F8B8011171"
+				item: "ftbic:nuclear_reactor"
+				type: "item"
+			}]
+			title: "&lNuclear Reactor"
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E2910DB0764D2AA"]
+			id: "34F54D6D024B98A1"
+			rewards: [{
+				id: "5BA9FAB092541730"
+				item: "ftbic:ev_solar_panel"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output: 512 ⚡/t"
+			tasks: [{
+				id: "75EE7BB6DF933D04"
+				item: "ftbic:ev_solar_panel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3628711FE8622836"
+				"1368C642EDAA80D6"
+			]
+			id: "7E2910DB0764D2AA"
+			rewards: [{
+				id: "4A80ACEF6D30084E"
+				item: "ftbic:hv_solar_panel"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output: 64 ⚡/t"
+			tasks: [{
+				id: "2454C689AAE9D2AC"
+				item: "ftbic:hv_solar_panel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["059EDAE17576D675"]
+			id: "3628711FE8622836"
+			rewards: [{
+				id: "517351A348531F4E"
+				item: "ftbic:mv_solar_panel"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output: 8 ⚡/t"
+			tasks: [{
+				id: "2FC5D5870434618A"
+				item: "ftbic:mv_solar_panel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CAC5BCC6030E9FF"]
+			description: ["&l&nSolar Panels&r passively produce Zaps when they have access to sunlight."]
+			id: "059EDAE17576D675"
+			rewards: [{
+				id: "741A38E3F173B6A6"
+				item: "ftbic:lv_solar_panel"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output: 1 ⚡/t"
+			tasks: [{
+				id: "7165163E19197820"
+				item: "ftbic:lv_solar_panel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1368C642EDAA80D6"]
+			description: [
+				"The &l&nAntimatter Constructor&r uses Zaps to conjure Antimatter."
+				"It costs 1,000,000⚡ to roll an item."
+				"It can accept up to IV current."
+				""
+				"You can put &eScrap and Scrap Boxes&r in the left slot to make Antimatter cheaper."
+			]
+			id: "0847F30874835C23"
+			rewards: [{
+				id: "14ECBD4306742C78"
+				item: "ftbic:antimatter_constructor"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1BA2D0FF933DE851"
+				item: "ftbic:antimatter_constructor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["531ECA870CFBE784"]
+			id: "36CDF202034EC79C"
+			rewards: [{
+				id: "4EDDA3E5F7D67B66"
+				item: "ftbic:ev_battery_box"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Storage: 40,000,000 ⚡"
+			tasks: [{
+				id: "24C0EF43E00C4894"
+				item: "ftbic:ev_battery_box"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4687FD41CD869C62"]
+			id: "531ECA870CFBE784"
+			rewards: [{
+				id: "7DC3842056CDFE1E"
+				item: "ftbic:hv_battery_box"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Storage: 4,000,000 ⚡"
+			tasks: [{
+				id: "383DC709B5E5BD96"
+				item: "ftbic:hv_battery_box"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EA3DCC778031059"]
+			id: "4687FD41CD869C62"
+			rewards: [{
+				id: "50F2014EDBA02E43"
+				item: "ftbic:mv_battery_box"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Storage: 400,000 ⚡"
+			tasks: [{
+				id: "65C4A1A66B53B77E"
+				item: "ftbic:mv_battery_box"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F35FFC023B6542A"]
+			description: [
+				"&l&nBattery Boxes&r store Zaps. Higher tier Battery Boxes store more Zaps, and input/output higher Voltage"
+				""
+				"Battery Boxes have 5 input faces and 1 output face."
+				""
+				"Battery Boxes can charge and discharge items like Batteries in their GUIs"
+			]
+			id: "02721F66A6D12659"
+			rewards: [{
+				id: "6EC9E2FAA0265315"
+				item: "ftbic:lv_battery_box"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Storage: 40,000 ⚡"
+			tasks: [{
+				id: "5C7C92A1F9A8157C"
+				item: "ftbic:lv_battery_box"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0E22FEB6D7DCB0CD"
+				"09B0717CACB9E9F9"
+			]
+			id: "437F8E660735C152"
+			rewards: [{
+				id: "3B1B325F66DA35E1"
+				item: "ftbic:ev_transformer"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Input: 8192 ⚡/t Output: 2048 ⚡/t"
+			tasks: [{
+				id: "509A00C8E6D6CE7C"
+				item: "ftbic:ev_transformer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6E85BDBE3C8AF5E3"
+				"75C20396517F0E77"
+			]
+			id: "0E22FEB6D7DCB0CD"
+			rewards: [{
+				id: "25C68C70496C43D0"
+				item: "ftbic:hv_transformer"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Input: 512 ⚡/t Output: 2048 ⚡/t"
+			tasks: [{
+				id: "24F5861DA6CCBA40"
+				item: "ftbic:hv_transformer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EA3DCC778031059"]
+			id: "6E85BDBE3C8AF5E3"
+			rewards: [{
+				id: "112F517331B753B3"
+				item: "ftbic:mv_transformer"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Input: 512 ⚡/t Output: 128 ⚡/t"
+			tasks: [{
+				id: "54CAF2EE7A2646DC"
+				item: "ftbic:mv_transformer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F35FFC023B6542A"]
+			description: [
+				"&l&nTransformers&r allow you to convert between different Voltages."
+				""
+				"Transformers have 1 input face and 5 outputs. "
+				""
+				"A Transformer will convert between its tier and the tier above."
+				""
+				"● Give the input LV, and the outputs will send MV."
+				"● Give the input MV, and the outputs will send LV."
+			]
+			id: "51A028A59AC26909"
+			rewards: [{
+				id: "79A5C86504A6EB76"
+				item: "ftbic:lv_transformer"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Input: 128 ⚡/t Output: 32 ⚡/t"
+			tasks: [{
+				id: "45E029147D97F4FC"
+				item: "ftbic:lv_transformer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"The &l&nBulk Extruder&r uses Zaps to shape Ingots and Plates into Gears, Rods, and Wires. &eThis is the most powerful extruder in this modpack."
+				""
+				"It costs 600⚡ to roll an item."
+				""
+				"Without upgrades, it accepts only LV current."
+			]
+			id: "7FF381E6C339697C"
+			rewards: [{
+				id: "51BB577F3EA877C2"
+				item: "ftbic:extruder"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7017EC6FA5838229"
+				item: "ftbic:extruder"
+				type: "item"
+			}]
+			title: "&lBulk Extruder"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"The &l&nBulk Roller&r uses Zaps to flatten Ingots into Plates. &eThis is the most powerful press in this modpack."
+				""
+				"It costs 600⚡ to roll an item."
+				""
+				"Without upgrades, it accepts only MV current."
+			]
+			id: "488DEB3AA9A19C29"
+			rewards: [{
+				id: "73745362800B82C7"
+				item: "ftbic:roller"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7DCA0B68F2CFE7B2"
+				item: "ftbic:roller"
+				type: "item"
+			}]
+			title: "&lBulk Roller"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["493FBBF1AB38D844"]
+			description: [
+				"The &l&nCanning Machine&r uses Zaps to fill Cans."
+				""
+				"It costs 200⚡ to fill a Can."
+				""
+				"Without upgrades, it accepts only LV current."
+			]
+			id: "639D093688FD59CF"
+			rewards: [{
+				id: "045EEFB80925E9CF"
+				item: "ftbic:canning_machine"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1BE9158E8029575B"
+				item: "ftbic:canning_machine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["493FBBF1AB38D844"]
+			description: [
+				"The &l&nReprocessor&r uses Zaps to make Scrap out of any other item."
+				""
+				"It costs 600⚡ to recycle an item into Scrap."
+				""
+				"Without upgrades, it accepts only up to MV current."
+			]
+			id: "675246F9E3992AD8"
+			rewards: [{
+				id: "19C63E91C1F4B475"
+				item: "ftbic:reprocessor"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "573EA59589E3282B"
+				item: "ftbic:reprocessor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"The &l&nBulk Compressor&r uses Zaps to compress items into other items. &eThis is the most powerful compressor in this modpack."
+				""
+				"It costs 400⚡ to compress an item."
+				""
+				"Without upgrades, it accepts only LV current."
+			]
+			id: "493FBBF1AB38D844"
+			rewards: [{
+				id: "03EB10629A1F8B79"
+				item: "ftbic:compressor"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4F80599BCFFAD482"
+				item: "ftbic:compressor"
+				type: "item"
+			}]
+			title: "&lBulk Compressor"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"The &l&nCentrifuge&r uses Zaps to separate items into their components, and has some other recipes."
+				""
+				"It costs 400⚡ to separate an item."
+				""
+				"Without upgrades, it accepts only LV current."
+			]
+			id: "7CE0F2CC9918E895"
+			rewards: [{
+				id: "04EE3547DBBD0AFF"
+				item: "ftbic:centrifuge"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7E9F2EDEE24CC8A7"
+				item: "ftbic:centrifuge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"The &l&nBulk Macerator&r uses Zaps to crush items. &eThis is the most powerful crusher in this modpack."
+				""
+				"It costs 400⚡ to crush an item."
+				""
+				"Without upgrades, it accepts only LV current."
+			]
+			id: "1A9025DE3DCCC37B"
+			rewards: [{
+				id: "4405E4917CBA61AF"
+				item: "ftbic:macerator"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6D339FFF3217C8A3"
+				item: "ftbic:macerator"
+				type: "item"
+			}]
+			title: "&lBulk Macerator"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CAC5BCC6030E9FF"]
+			description: ["The &l&nWind Mill&r generates Zaps based on the altitude and empty space around itself."]
+			id: "78F3ABB22EE6BF74"
+			rewards: [{
+				id: "788DC658436BDC3A"
+				item: "ftbic:wind_mill"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output: 6 ⚡/t"
+			tasks: [{
+				id: "6F61483AEAEB3085"
+				item: "ftbic:wind_mill"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CAC5BCC6030E9FF"]
+			description: [
+				"The &l&nGeothermal Generator&r generates Zaps using Lava."
+				""
+				"1,000mB of Lava generates 20,000⚡."
+				""
+				"As the Generator only outputs at 20⚡/t, it is LV."
+			]
+			id: "47F596FEBFB8DA73"
+			rewards: [{
+				id: "392816529B157D64"
+				item: "ftbic:geothermal_generator"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output: 20 ⚡/t"
+			tasks: [{
+				id: "552920AD20D93968"
+				item: "ftbic:geothermal_generator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"The &l&nBasic Generator&r generates Zaps using furnace fuel."
+				""
+				"The longer a fuel would burn, the more Zaps it makes."
+				""
+				"For every 1 item a fuel would smelt, it generates 2,000⚡."
+				""
+				"For example, Coal smelts 8 items and generates 16,000⚡."
+				""
+				"As the Generator only outputs at 10⚡/t, it is LV."
+			]
+			id: "1CAC5BCC6030E9FF"
+			rewards: [{
+				id: "5367506AD8BB0B0F"
+				item: "ftbic:basic_generator"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Output: 10 ⚡/t"
+			tasks: [{
+				id: "22CFE56647A96550"
+				item: "ftbic:basic_generator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			description: [
+				"&l&6Singularity Extractor&r is a multiblock used to obtain Singularity Ashes."
+				""
+				"&e&lHold Z to see how to build it !"
+				""
+				"{image:techev:textures/misc/quests/singularity_extractor.png width:150 height:134 align:1}"
+			]
+			icon: "custommachinery:singularity_extractor"
+			id: "67C84FDDFE29215D"
+			rewards: [{
+				id: "7F061459FBBE7A07"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Use &c&l[Schematicannon] &rto build this Multiblock!"
+			tasks: [
+				{
+					id: "18C5168878D76837"
+					item: "custommachinery:singularity_extractor"
+					type: "item"
+				}
+				{
+					count: 76L
+					id: "2F5137D4C4732CB4"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					count: 73L
+					id: "7252B0DBB05C1A59"
+					item: "ftbic:reinforced_glass"
+					type: "item"
+				}
+				{
+					id: "41D67BC598AF3A43"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					id: "73CA04AAD89E5DA0"
+					item: "forbidden_arcanus:corrupti_dust"
+					type: "item"
+				}
+				{
+					id: "1E696A2A8F507EB2"
+					item: "forbidden_arcanus:dark_matter"
+					type: "item"
+				}
+			]
+			title: "&lSingularity Extractor"
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4A11A7B99E4AB4A0"]
+			description: [
+				"&l&nQuantum Powerarmor&r is an upgrade to Carbon Powerarmor."
+				""
+				"With all pieces worn and charged, it has complete damage reduction from most sources"
+				""
+				"5,000⚡ are drained per point of damage taken; a single full charge &ecan absorb 3,000 points of damage&r."
+			]
+			id: "5210D433AABFACD3"
+			rewards: [{
+				id: "678368895C881A88"
+				item: "coinsje:iron_coin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "2FA988EADC28F48D"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BDEFDBD05EEA8F0"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19CF722799AE249B"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "159B6A5742295715"
+					item: {
+						Count: 1b
+						id: "ftbic:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&lQuantum Stuff"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			id: "018485EC67DDA472"
+			rewards: [{
+				id: "5450153964921E2F"
+				item: "ftbic:advanced_alloy"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EE23FF2836E1C3A"
+				item: "ftbic:advanced_alloy"
+				type: "item"
+			}]
+			title: "&lAdvanced Alloy"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["018485EC67DDA472"]
+			id: "72D4C8E8D81730CA"
+			rewards: [{
+				id: "69241CF5CD6BC202"
+				item: "ftbic:iridium_alloy"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1419636AE25A3166"
+				item: "ftbic:iridium_alloy"
+				type: "item"
+			}]
+			title: "&lIridium Alloy"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["493FBBF1AB38D844"]
+			id: "4A11A7B99E4AB4A0"
+			rewards: [{
+				id: "09352FD428017E86"
+				item: "ftbic:iridium_circuit"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EE39BA2C4AA30D9"
+				item: "ftbic:iridium_circuit"
+				type: "item"
+			}]
+			title: "&lIridium Circuit"
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0847F30874835C23"]
+			description: ["&l&nAntimatter&r is used in a handful of endgame recipes."]
+			id: "6288F65DF99A29F8"
+			rewards: [{
+				id: "0A7F5E8A1DA9B4EA"
+				item: "ftbic:antimatter"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "18B5B3A42F5E91E2"
+				item: "ftbic:antimatter"
+				type: "item"
+			}]
+			title: "&lAntimatter"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			description: [
+				"&l&nCoolant Cells&r are the most basic Reactor Component for absorbing Heat."
+				""
+				"Simply put, they just have a large amount of Coolant and nothing else."
+				""
+				"Place it next to a Heat source, and it will absorb it until its Coolant runs dry."
+			]
+			id: "7556CB1C19CE32CF"
+			rewards: [{
+				id: "69B0D13D0D5077A3"
+				item: {
+					Count: 1b
+					id: "ftbic:small_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "10,000 🔥"
+			tasks: [{
+				id: "5D95E1B5212E08E6"
+				item: {
+					Count: 1b
+					id: "ftbic:small_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7556CB1C19CE32CF"]
+			description: ["&l&nCoolant Cells&r are the most basic Reactor Component for absorbing Heat."]
+			id: "4DE89336D2E249C0"
+			rewards: [{
+				id: "55A2CDEEA932B091"
+				item: {
+					Count: 1b
+					id: "ftbic:medium_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "30,000 🔥"
+			tasks: [{
+				id: "7E108BA68F776602"
+				item: {
+					Count: 1b
+					id: "ftbic:medium_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4DE89336D2E249C0"]
+			description: ["&l&nCoolant Cells&r are the most basic Reactor Component for absorbing Heat."]
+			id: "48B16CABEC3E73C5"
+			rewards: [{
+				id: "341585AADA205648"
+				item: {
+					Count: 1b
+					id: "ftbic:large_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "60,000 🔥"
+			tasks: [{
+				id: "570FC77F8A7DB30D"
+				item: {
+					Count: 1b
+					id: "ftbic:large_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			description: [
+				"&l&nUranium Fuel Rods&r generate Zaps and Heat. Zaps are good, &eHeat&r is bad."
+				""
+				"Fuel Rods work much faster when they're next to other Fuel Rods. Fuel Rods gain 5⚡/t per adjacent Fuel Rod. Two adjacent Fuel Rods will go from 5⚡/t each to 10⚡/t each, for a total of 20⚡/t."
+				""
+				"However, &eHeat also raises dramatically&r. The equation is a bit more complex:"
+				""
+				"➥ n(n+1)*r"
+				""
+				"● n = amount of adjacent rods"
+				"● r = rod multiplier"
+				"  • r = 2 for normal Rods"
+				"  • r = 4 for Dual Rods"
+				"  • r = 8 for Quad Rods"
+			]
+			id: "263E86FA707F1089"
+			rewards: [{
+				id: "545CFF5112248C52"
+				item: {
+					Count: 1b
+					id: "ftbic:uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2FDE73F1FC20667F"
+				item: {
+					Count: 1b
+					id: "ftbic:uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["17BEABCE7FE1FB15"]
+			description: ["&l&nUranium Fuel Rods&r generate Zaps and Heat. Zaps are good, &eHeat&r is bad."]
+			id: "1E75C3F473C16559"
+			rewards: [{
+				id: "76E8EEDF268CACC6"
+				item: {
+					Count: 1b
+					id: "ftbic:quad_uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "207F39687201443A"
+				item: {
+					Count: 1b
+					id: "ftbic:quad_uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["263E86FA707F1089"]
+			description: ["&l&nUranium Fuel Rods&r generate Zaps and Heat. Zaps are good, &eHeat&r is bad."]
+			id: "17BEABCE7FE1FB15"
+			rewards: [{
+				id: "797EB0B1BB75AED2"
+				item: {
+					Count: 1b
+					id: "ftbic:dual_uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0498181A4B9407F9"
+				item: {
+					Count: 1b
+					id: "ftbic:dual_uranium_fuel_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			description: [
+				"&l&nHeat Vents&r are another Reactor Component for manipulating Heat. "
+				""
+				"Unlike &l&nCoolant Cells&r, Heat Vents will &erepair themselves over time&r."
+			]
+			id: "29DDDF0F10A48E77"
+			rewards: [{
+				id: "69ED1A83C27B94D1"
+				item: {
+					Count: 1b
+					id: "ftbic:heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "111A25D60F13E179"
+				item: {
+					Count: 1b
+					id: "ftbic:heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29DDDF0F10A48E77"]
+			description: [
+				"The &l&nReactor Heat Vent&r cools both itself and the Reactor at the same time, though at a slower rate. "
+				""
+				"These can be placed anywhere, if you only want it to cool the Reactor instead of absorbing Heat itself."
+			]
+			id: "5DEFC5CBA0739F74"
+			rewards: [{
+				id: "05120DE7BC9D02BC"
+				item: {
+					Count: 1b
+					id: "ftbic:reactor_heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0F1EF25F81F0EAB6"
+				item: {
+					Count: 1b
+					id: "ftbic:reactor_heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29DDDF0F10A48E77"]
+			description: [
+				"The &l&nComponent Heat Vent&r cannot absorb Heat, but instead cools all 4 adjacent Components. Best used with &l&nHeat Exchangers&r."
+				""
+				"The &l&nAdvanced Heat Vent&r is simply a superior version of the normal Vent. It cools itself twice as fast."
+			]
+			id: "33962D93935E50FF"
+			rewards: [
+				{
+					id: "7A80AA5446E40619"
+					item: "ftbic:component_heat_vent"
+					type: "item"
+				}
+				{
+					id: "01A7911C5F10168C"
+					item: {
+						Count: 1b
+						id: "ftbic:advanced_heat_vent"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "312E47C500D6F42E"
+					item: "ftbic:component_heat_vent"
+					type: "item"
+				}
+				{
+					id: "7C1811C704F63435"
+					item: {
+						Count: 1b
+						id: "ftbic:advanced_heat_vent"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5DEFC5CBA0739F74"]
+			description: ["The &l&nOverclocked Heat Vent&r is the upgraded form, working much faster."]
+			id: "6B5256F5F7AC39F2"
+			rewards: [{
+				id: "4371C52744CE69E4"
+				item: {
+					Count: 1b
+					id: "ftbic:overclocked_heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "541C2FFFB714BE46"
+				item: {
+					Count: 1b
+					id: "ftbic:overclocked_heat_vent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			description: [
+				"&l&nHeat Exchangers&r do not dissipate Heat, but move it."
+				""
+				"Heat Exchangers will try to move Heat so everything it interacts with is the same percentage cooled."
+				""
+				"If the Reactor has 6250 heat, the Exchanger will absorb 1250 heat, leaving 5000 heat in the Reactor. This results in both being at 50% heat capacity."
+			]
+			id: "0DAFCD54644F84FB"
+			rewards: [{
+				id: "59CF4A229AF142AB"
+				item: {
+					Count: 1b
+					id: "ftbic:heat_exchanger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "31004330508AE22D"
+				item: {
+					Count: 1b
+					id: "ftbic:heat_exchanger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0DAFCD54644F84FB"]
+			description: [
+				"The &l&nAdvanced Heat Exchanger&r works the same, but has a higher Coolant and moves heat faster."
+				""
+				"The &l&nReactor Heat Exchanger&r excels at exchanging Heat with the Reactor, but cannot exchange Heat with other Components on its own."
+				""
+				"The &l&nComponent Heat Exchanger&r excels at exchanging Heat with adjacent Components, but cannot exchange Heat with the Reactor."
+			]
+			id: "0FA5542CE729B1A3"
+			rewards: [
+				{
+					id: "083560E68140C093"
+					item: {
+						Count: 1b
+						id: "ftbic:advanced_heat_exchanger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CE805BB57CA5BED"
+					item: {
+						Count: 1b
+						id: "ftbic:reactor_heat_exchanger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71BBA253802F47C2"
+					item: {
+						Count: 1b
+						id: "ftbic:component_heat_exchanger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "592C95DAAF85062D"
+					item: {
+						Count: 1b
+						id: "ftbic:advanced_heat_exchanger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07F69FD8952E5F52"
+					item: {
+						Count: 1b
+						id: "ftbic:reactor_heat_exchanger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24F5BEDD35AE4ACB"
+					item: {
+						Count: 1b
+						id: "ftbic:component_heat_exchanger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			description: [
+				"&l&nReactor Plating&r increases a Reactor's Heat capacity, and lowers the meltdown explosion radius."
+				""
+				"Reactor Plating has no Coolant, and only serves to modify the Reactor itself."
+			]
+			id: "47A9014B42D5DDEA"
+			rewards: [{
+				id: "1BB5BD4A5993A793"
+				item: "ftbic:reactor_plating"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1FCD32FDE0D8B37C"
+				item: "ftbic:reactor_plating"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["24D05F0DFEFF72C2"]
+			description: [
+				"&l&nNeutron Reflectors&r reflect back &l&nNeutron Pulses&r back to the Fuel Rod that created them."
+				""
+				"A single Fuel Rod surrounded by 4 Neutron Reflectors will receive 4 Neutron Pulses."
+				""
+				"&l&nNeutron Reflectors&r have &edurability&r. They lose one durability per second."
+			]
+			id: "7C9DEBD7CC5BAB13"
+			rewards: [{
+				id: "16239EB09353FD3F"
+				item: {
+					Count: 1b
+					id: "ftbic:neutron_reflector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "207C8C95E1885928"
+				item: {
+					Count: 1b
+					id: "ftbic:neutron_reflector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C9DEBD7CC5BAB13"]
+			description: ["&l&nThick Neutron Reflectors&r last 4 times longer."]
+			id: "029B90E5D14A4B02"
+			rewards: [{
+				id: "68AC7442149E0D35"
+				item: {
+					Count: 1b
+					id: "ftbic:thick_neutron_reflector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "563C8373DC30D8B5"
+				item: {
+					Count: 1b
+					id: "ftbic:thick_neutron_reflector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["029B90E5D14A4B02"]
+			description: ["&l&nIridium Neutron Reflectors&r have unlimited durability."]
+			id: "1CBDDF3843F6DA3A"
+			rewards: [{
+				id: "7805D7A44713FF80"
+				item: "ftbic:iridium_neutron_reflector"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3EC2B61729F17918"
+				item: "ftbic:iridium_neutron_reflector"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"The &l&nOverclocker Upgrade&r makes machines work faster, but also makes them use more Zaps."
+				""
+				"You can have up to 4 in a slot, and you can fill as many upgrade slots as you want."
+			]
+			hide_dependency_lines: true
+			id: "1FA505998BF99D84"
+			rewards: [{
+				id: "07DAA1976A280C23"
+				item: "ftbic:overclocker_upgrade"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "28AF7327988B77F3"
+				item: "ftbic:overclocker_upgrade"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"The &l&nEnergy Storage Upgrade&r allows machines to store more energy. Each adds about 10,000 Zaps."
+				""
+				"You can have up to 4 in a slot, and you can fill as many upgrade slots as you want."
+			]
+			hide_dependency_lines: true
+			id: "7562E8BDA0F856DD"
+			rewards: [{
+				id: "70D3286B22F35579"
+				item: "ftbic:energy_storage_upgrade"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "75ABF98435AC2C96"
+				item: "ftbic:energy_storage_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: ["The &l&nTransformer Upgrade&r allows machines to accept higher voltage currents. Each increases the voltage tier by 1."]
+			hide_dependency_lines: true
+			id: "7D2DF5787A939334"
+			rewards: [{
+				id: "3F65281659845F3F"
+				item: "ftbic:transformer_upgrade"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "47FD5D20486C10BC"
+				item: "ftbic:transformer_upgrade"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"The &l&nEjector Upgrade&r will make machines eject their output to an adjacent inventory."
+				""
+				"In order of priority, it tries to push out the right face, then back, left, front, top, then bottom."
+			]
+			hide_dependency_lines: true
+			id: "1FFF19440003D3BB"
+			rewards: [{
+				id: "0CE3543B96860167"
+				item: "ftbic:ejector_upgrade"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "22160A1576B129F2"
+				item: "ftbic:ejector_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["675246F9E3992AD8"]
+			description: ["&l&nScrap and Scrap Boxes&r can be used in the Antimatter Constructor to make Antimatter cheaper."]
+			id: "20CCFDC3B2A8C542"
+			rewards: [{
+				count: 4
+				id: "686F98C96EC023EE"
+				item: "ftbic:scrap_box"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Used to improve Antimatter production"
+			tasks: [{
+				id: "5D86AB813F4B28CB"
+				item: "ftbic:scrap_box"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["639D093688FD59CF"]
+			description: ["&l&nCanned Food&r fills 4 points of hunger and saturation each. The empty Can is returned after eating."]
+			id: "60358484F74C4872"
+			rewards: [{
+				count: 8
+				id: "429FF3E770BB2B32"
+				item: "ftbic:protein_bar"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2125B46075E6C8D8"
+					item: "ftbic:canned_food"
+					type: "item"
+				}
+				{
+					id: "4C59D5AF0E1366CE"
+					item: "ftbic:protein_bar"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F35FFC023B6542A"]
+			description: [
+				"&l&nBatteries&r store Zaps."
+				""
+				"Higher tier Batteries store more Zaps."
+			]
+			id: "22FBE96723F6323A"
+			rewards: [{
+				id: "14362C71805AF612"
+				item: "ftbic:lv_battery"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Storage: 4,000 ⚡"
+			tasks: [{
+				id: "6EB2B1814A6ED0AD"
+				item: "ftbic:lv_battery"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22FBE96723F6323A"]
+			id: "54EBF719809AE669"
+			rewards: [{
+				id: "046F6BE9B32FC792"
+				item: "ftbic:mv_battery"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Storage: 40,000 ⚡"
+			tasks: [{
+				id: "50BA6036F2532FD0"
+				item: "ftbic:mv_battery"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54EBF719809AE669"]
+			id: "6787BEA8FA8F6528"
+			rewards: [{
+				id: "36223A676B3B6A2D"
+				item: "ftbic:hv_battery"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Storage: 400,000 ⚡"
+			tasks: [{
+				id: "09F778EA7004A184"
+				item: "ftbic:hv_battery"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6787BEA8FA8F6528"]
+			id: "1FCB97BB12095E91"
+			rewards: [{
+				id: "3B93D60780CB401B"
+				item: "ftbic:ev_battery"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Storage: 10,000,000 ⚡"
+			tasks: [{
+				id: "10860B0E6453928D"
+				item: "ftbic:ev_battery"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["47A9014B42D5DDEA"]
+			description: [
+				"There are two specialized upgrades:"
+				""
+				"● &l&nContainment Reactor Plating&r is much better at reducing the meltdown explosion, but adds less to the Heat Capacity."
+				""
+				"● &l&nHeat-Capacity Reactor Plating&r adds a lot more to the Heat Capacity, but reduces the meltdown explosion radius by a lot less."
+			]
+			id: "044B6BD1B26348E0"
+			rewards: [
+				{
+					id: "40D04F5236BF27A7"
+					item: "ftbic:containment_reactor_plating"
+					type: "item"
+				}
+				{
+					id: "37BB02BF90AFE090"
+					item: "ftbic:heat_capacity_reactor_plating"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "659ECEC0852ED444"
+					item: "ftbic:containment_reactor_plating"
+					type: "item"
+				}
+				{
+					id: "13ADB928F071BCDD"
+					item: "ftbic:heat_capacity_reactor_plating"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["495D87F028AA6165"]
+			description: [
+				"When you give a machine a Voltage higher than it can handle, it will &cstop working&r."
+				""
+				"To repair it, right-click it with a &l&nFuse&r."
+				""
+				"Mining a burnt machine will drop a Machine Block rather than the machine itself."
+				""
+				"Likewise, a lower-Voltage Cable will burn. Burnt Cables can be recycled into Scrap, but &ccannot carry a current&r."
+			]
+			id: "5950DCAD7217FD3C"
+			rewards: [{
+				count: 2
+				id: "5D28C908BD767CFB"
+				item: "ftbic:fuse"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Machine Fixer"
+			tasks: [{
+				id: "7A8278361416CCF4"
+				item: "ftbic:fuse"
+				type: "item"
+			}]
+			title: "&lFuse"
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	title: " &l&4♦ &rFTB Industrial Contraptions"
+}

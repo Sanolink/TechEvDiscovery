@@ -1,0 +1,11 @@
+{
+  "kubejs.ponder.singularity_extractor.header": "Singularity Extractor",
+  "kubejs.ponder.singularity_extractor.text_1": "First, build the main structure with the Schematicannon.",
+  "kubejs.ponder.singularity_extractor.text_2": "Place a temporary support block at the center.",
+  "kubejs.ponder.singularity_extractor.text_3": "Drop a Corrupti Dust and a Dark Matter to create a Black Hole.",
+  "kubejs.ponder.singularity_extractor.text_4": "Be careful - the Black Hole absorbs any nearby dropped items!",
+  "kubejs.ponder.singularity_extractor.text_5": "You can now remove the support block.",
+  "kubejs.ponder.singularity_extractor.text_6": "Place the Singularity Extractor on top of the structure.",
+  "kubejs.ponder.singularity_extractor.text_7": "Provide energy to activate the structure.",
+  "kubejs.ponder.singularity_extractor.text_8": "The Singularity Extractor is now fully operational."
+}

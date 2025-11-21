@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "machines",
+  "key": {
+    "I": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "M": {
+      "item": "mekanism:electrolytic_separator"
+    },
+    "P": {
+      "item": "mekaevolution:alloy_thermonuclear"
+    },
+    "R": {
+      "item": "immersiveengineering:material_component_quantum"
+    }
+  },
+  "pattern": [
+    "IPI",
+    "MRM",
+    "IPI"
+  ],
+  "result": {
+    "item": "alchemistry:dissolver"
+  }
+}

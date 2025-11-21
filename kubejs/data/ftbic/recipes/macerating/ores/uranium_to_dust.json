@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "count": 32,
+      "ingredient": {
+        "tag": "forge:ores/uranium"
+      }
+    }
+  ],
+  "outputItems": [
+    {
+      "count": 64,
+      "item": "create:crushed_raw_uranium"
+    }
+  ]
+}

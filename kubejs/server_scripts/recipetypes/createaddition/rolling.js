@@ -13,66 +13,119 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.0         (_____)
 
 */
 
 ServerEvents.recipes(event => {
 
     //Recipes
-    let recipes = []
-
- // Ingots -> Rods
- const IngotsToRods = [
-    'lead',
-    'nickel',
-    'osmium',
-    'platinum',
-    'silver',
-    'tin',
-    'uranium',
-    'zinc',
-    'invar',
-    'bronze',
-    'constantan',
-    'iridium',
-    'enderium',
-    'lumium',
-    'signalum',
-    'desh',
-    'ostrum',
-    'calorite',
-    'nephryx'
-].forEach((mat) => {
-    recipes.push(
+    let recipes = [
         {
-            id: mat + "_ingot",
-            input: Ingredient.of("#forge:ingots/" + mat),
-            output: Item.of("#forge:rods/" + mat)
-        }
-    )
-});
-
- // Gems -> Rods
- const GemsToRods = [
-    'diamond'
-].forEach((mat) => {
-    recipes.push(
+            id: "experience",
+            input: Item.of('create:experience_nugget'),
+            output: Item.of('create_things_and_misc:experience_rod')
+        },
         {
-            id: mat + "_gem",
-            input: Ingredient.of("#forge:gems/" + mat),
-            output: Item.of("#forge:rods/" + mat)
+            id: "carbon",
+            input: Item.of('ftbic:carbon_fiber_mesh'),
+            output: Item.of('ftbic:carbon_rod')
+        },
+        {
+            id: "enderium_plate",
+            input: Item.of('alltheores:enderium_plate'),
+            output: Item.of('ftbic:enderium_wire')
         }
-    )
-});
-   
+    ]
+
+    // Ingots -> Rods
+    const IngotsToRods = [
+        'lead',
+        'nickel',
+        'osmium',
+        'platinum',
+        'silver',
+        'tin',
+        'uranium',
+        'zinc',
+        'invar',
+        'bronze',
+        'constantan',
+        'iridium',
+        'enderium',
+        'lumium',
+        'signalum',
+        'desh',
+        'ostrum',
+        'calorite',
+        'nephryx',
+        'falsite',
+        'ventium',
+        'horizonite',
+        'elementium',
+        'cast_iron',
+        'arcane_gold',
+        'iesnium',
+        'cloggrum',
+        'froststeel',
+        'prismalium',
+        'melodium',
+        'stellarium',
+        'netherite',
+        'soul_infused',
+        'shellite',
+        'twinite',
+        'dragonsteel',
+        'overcharged_iron',
+        'overcharged_gold',
+        'compressed_iron'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: mat + "_ingot",
+                input: Ingredient.of("#forge:ingots/" + mat),
+                output: Item.of("#forge:rods/" + mat)
+            }
+        )
+    });
+
+    // Quartz -> Rods
+    const QuartzToRods = [
+        'rose',
+        'blue',
+        'source',
+        'psi',
+        'antimatter'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: mat + "_quartz",
+                input: Ingredient.of(`#forge:polished_quartz/${mat}`),
+                output: Item.of(`#forge:rods/${mat}_quartz`)
+            }
+        )
+    });
+
+    // Gems -> Rods
+    const GemsToRods = [
+        'diamond'
+    ].forEach((mat) => {
+        recipes.push(
+            {
+                id: mat + "_gem",
+                input: Ingredient.of("#forge:gems/" + mat),
+                output: Item.of("#forge:rods/" + mat)
+            }
+        )
+    });
+
     //General Splashing Function
     recipes.forEach(recipe => {
         event.custom(
             {
-              "type": "createaddition:rolling",
-              "input": recipe.input,
-              "result": recipe.output
+                "type": "createaddition:rolling",
+                "input": recipe.input,
+                "result": recipe.output
             }
         ).id("createaddition:rolling/" + recipe.id)
     })

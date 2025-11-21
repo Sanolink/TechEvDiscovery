@@ -338,8 +338,8 @@
 				type: "item"
 			}]
 			title: "&lIron"
-			x: 1.5d
-			y: 2.5d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]
@@ -360,8 +360,8 @@
 				type: "item"
 			}]
 			title: "&lCopper"
-			x: 2.5d
-			y: 2.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["201A9DEECD831DD0"]

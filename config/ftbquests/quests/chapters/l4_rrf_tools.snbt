@@ -1,0 +1,536 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l4_rrf_tools"
+	group: "3818CF066B02A8FF"
+	icon: "rftoolsbase:dimensionalshard"
+	id: "310158789998BC45"
+	images: [
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "rftoolspower:textures/block/endergenic/floatingsphere.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rftoolsutility:block/logic/machinesequencertop"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rftoolsutility:block/logic/machineoutput"
+			rotation: -180.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rftoolsutility:block/logic/machineoutput_6"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rftoolsutility:block/logic/machinewiretop"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rftoolsutility:block/logic/machineinvchecker"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rftoolsutility:block/logic/machineredstonereceiver"
+			rotation: 180.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rftoolsutility:block/logic/machineredstonetransmitter"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rftoolsutility:block/logic/machinewiretop"
+			rotation: -180.0d
+			width: 1.0d
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecolonies:textures/gui/chest.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "rftoolspower:textures/manual/endergenic.png"
+			rotation: 45.0d
+			width: 4.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "rftoolsbase:block/base/machinebottom"
+			order: -1
+			rotation: 45.0d
+			width: 4.0d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.7721261444557475d
+			hover: [ ]
+			image: "techev:textures/misc/quests/dimensional_stabilizer.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			order: -1
+			rotation: 5.0d
+			width: 8.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: [ ]
+			image: "minecolonies:items/magical_arrow"
+			order: -1
+			rotation: -175.0d
+			width: 8.0d
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3DB8C6996F423F69"]
+			id: "0BF8EE1B7D432339"
+			rewards: [{
+				count: 2
+				id: "36E37E1792E258CF"
+				item: "rftoolsbase:dimensionalshard"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "21470A14D6BCE512"
+				item: "rftoolsbase:dimensionalshard"
+				type: "item"
+			}]
+			title: "&lDimensional Shard"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3DB8C6996F423F69"
+				"2354172E9227C3CF"
+			]
+			id: "29F81B08C675C873"
+			rewards: [{
+				id: "7BD79A7F6F426AF5"
+				item: "immersiveengineering:material_component_quantum"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "60BB04B1FDE89C68"
+				item: "immersiveengineering:material_component_quantum"
+				type: "item"
+			}]
+			title: "&lQuantum Component"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BF8EE1B7D432339"]
+			description: ["The &l&nMachine Infuser&r is used to improve most other RFTools machines in various ways using &eDimensional Shards&r."]
+			id: "0E1F9C87F154854A"
+			rewards: [{
+				id: "389D9827A39A1996"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BAEB42A78EB0040"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["The &l&nSpawner&r can spawn mobs using RF power and matter."]
+			id: "73A932BF83909604"
+			rewards: [{
+				id: "6DD7AE177D12588B"
+				item: "rftoolsutility:spawner"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "38D7477C4FB0615C"
+					item: "rftoolsutility:spawner"
+					type: "item"
+				}
+				{
+					id: "248DC576099D2778"
+					item: "rftoolsutility:syringe"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["The &l&nCrafter&r can handle up to 8 recipes at once and allows recipes to use the crafting results of previous steps."]
+			id: "40154DF9336EADAB"
+			rewards: [{
+				id: "5D460292BB3BE7BD"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79202610A7B10B1D"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: [
+				"The &l&nDialing Device&r can \"dial-up\" any nearby matter transmitter to any matter receiver in the Minecraft universe."
+				""
+				"If a &l&nDestination Analyzer&r is adjacent to this block, you will also be able to check if the destination has enough power to be safe."
+			]
+			id: "54FE2140F88E747E"
+			rewards: [{
+				id: "0CE0DDE76A07E74F"
+				item: "rftoolsutility:dialing_device"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "72D51CE222621A4A"
+					item: "rftoolsutility:dialing_device"
+					type: "item"
+				}
+				{
+					id: "0FFEE1C7D68490F9"
+					item: "rftoolsutility:destination_analyzer"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["The &l&nScreen Controller&r is used to power Screens in an area."]
+			id: "48EC8EC38600435B"
+			rewards: [{
+				id: "79E3C3757BFBAAFA"
+				item: "rftoolsutility:screen_controller"
+				type: "item"
+			}]
+			tasks: [{
+				id: "091DD73ED69D26A6"
+				item: "rftoolsutility:screen_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BF8EE1B7D432339"]
+			id: "01D412427B24441D"
+			rewards: [
+				{
+					id: "709EFEA879DE7BC9"
+					item: "rftoolsbase:machine_frame"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5781D010A89C511A"
+					item: "rftoolsbase:manual"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "62495805F92D7001"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			title: "&lRFTools"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["The &l&nBuilder&r can quarry areas, pump liquids, move/copy/swap structures, collect item and XP, move entities, build structures, etc..."]
+			id: "713BB0D35EA31952"
+			rewards: [{
+				id: "53B31145DA119C5C"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09EB47D04631D1D4"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["The &l&nDimensional Cell&r is a multi-dimensional power storage. Similarly to the Powercell, they can store and transmit vast amounts of power. However, unlike powercells, they do not have to be next to one another to share their RF. Instead, Dimensional Cells are &elinked&r by a &l&nPowercell Card&r."]
+			icon: "rftoolspower:dimensionalcell_advanced"
+			id: "55C094347CEE3A81"
+			rewards: [{
+				id: "37F41F6D47C63EDC"
+				item: "rftoolspower:dimensionalcell_advanced"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1CE5593234BC751B"
+					item: "rftoolspower:dimensionalcell_advanced"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03C5BE6D3175621A"
+					item: "rftoolspower:powercell_card"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["&l&nPowercells&r can store power and can be combined with others cells to form a big multiblock."]
+			id: "35251AFB20819943"
+			rewards: [{
+				id: "0766F7A56A335F3F"
+				item: "rftoolspower:cell3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F3FB22EAED0270A"
+				item: "rftoolspower:cell3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BF8EE1B7D432339"]
+			id: "2354172E9227C3CF"
+			rewards: [
+				{
+					id: "6F6BEA2E728BE7DA"
+					item: "rftoolsbase:infused_diamond"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "317B4F1BF4D93D64"
+					item: "rftoolsbase:infused_enderpearl"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1B7CDEB89EE1AC65"
+					item: "rftoolsbase:dimensional_matrix_bucket"
+					type: "item"
+				}
+				{
+					id: "16DD977A12A9DF5D"
+					item: "rftoolsbase:infused_diamond"
+					type: "item"
+				}
+				{
+					id: "7D1D7BEEFC826A35"
+					item: "rftoolsbase:infused_enderpearl"
+					type: "item"
+				}
+			]
+			title: "&lInfused Ingredients"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["The &l&nModular Storage&r can store a lot of items and allows easy searching and filtering using a storage module in it."]
+			id: "7674CB0B4FB12FCD"
+			rewards: [{
+				id: "353066C208A6A431"
+				item: "rftoolsstorage:modular_storage"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28A09F8A900D49CD"
+				item: "rftoolsstorage:modular_storage"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["The &l&nMatter Transmitter&r is used to transport a player that have been dialed by the Dialing Device."]
+			id: "006AD3C74C61484E"
+			rewards: [{
+				id: "091C7487EBC1E380"
+				item: "rftoolsutility:matter_transmitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "547425088A34FCEB"
+				item: "rftoolsutility:matter_transmitter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["The &l&nMatter Receiver&r is used to receive a player that have been dialed by the Dialing Device."]
+			id: "2645404269A384EC"
+			rewards: [{
+				id: "0FE29DA2F202FB91"
+				item: "rftoolsutility:matter_receiver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FAED416B05B6976"
+				item: "rftoolsutility:matter_receiver"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01D412427B24441D"]
+			description: ["The &l&nEnvironmental Controller&r can be used to apply various effects to a large area."]
+			id: "11D1B2A7E752F885"
+			rewards: [{
+				id: "6743DD31666BD6D2"
+				item: "rftoolsutility:module_template"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "53E5324D61E32D7C"
+				item: "rftoolsutility:environmental_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: " &l&4♦ &rRFTools"
+}

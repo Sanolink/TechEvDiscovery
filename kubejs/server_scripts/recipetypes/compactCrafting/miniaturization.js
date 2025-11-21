@@ -340,46 +340,49 @@ ServerEvents.recipes(event => {
     ]
     for (let index = 0; index < powerFlower.length; index++) {
         let curTier = powerFlower[index]
-        let catalyst = `projectexpansion:${powerFlower[index - 1]}_power_flower`
+        let catalyst
         if (index == 0) catalyst = 'projecte:collector_mk1'
+        else catalyst = `projectexpansion:${powerFlower[index - 1]}_power_flower`
         recipes.push(miniaturization(catalyst, 1, `projectexpansion:${curTier}_power_flower`, 1, [
             [
-                [' ', ' ', ' ', ' ', ' '],
-                [' ', ' ', ' ', ' ', ' '],
-                [' ', ' ', 'C', ' ', ' '],
-                [' ', ' ', ' ', ' ', ' '],
-                [' ', ' ', ' ', ' ', ' ']
+                ['G', 'G', 'D', 'G', 'G'],
+                ['G', ' ', ' ', ' ', 'G'],
+                ['D', ' ', 'C', ' ', 'D'],
+                ['G', ' ', ' ', ' ', 'G'],
+                ['G', 'G', 'D', 'G', 'G']
             ],
             [
-                [' ', ' ', ' ', ' ', ' '],
+                ['G', ' ', ' ', ' ', 'G'],
                 [' ', ' ', 'C', ' ', ' '],
                 [' ', 'C', 'R', 'C', ' '],
                 [' ', ' ', 'C', ' ', ' '],
-                [' ', ' ', ' ', ' ', ' ']
+                ['G', ' ', ' ', ' ', 'G']
             ],
             [
-                [' ', ' ', 'C', ' ', ' '],
+                ['D', ' ', 'C', ' ', 'D'],
                 [' ', 'C', 'R', 'C', ' '],
                 ['C', 'R', 'L', 'R', 'C'],
                 [' ', 'C', 'R', 'C', ' '],
-                [' ', ' ', 'C', ' ', ' ']
+                ['D', ' ', 'C', ' ', 'D']
             ],
             [
-                [' ', ' ', ' ', ' ', ' '],
+                ['G', ' ', ' ', ' ', 'G'],
                 [' ', ' ', 'C', ' ', ' '],
                 [' ', 'C', 'R', 'C', ' '],
                 [' ', ' ', 'C', ' ', ' '],
-                [' ', ' ', ' ', ' ', ' ']
+                ['G', ' ', ' ', ' ', 'G']
             ],
             [
-                [' ', ' ', ' ', ' ', ' '],
-                [' ', ' ', ' ', ' ', ' '],
-                [' ', ' ', 'C', ' ', ' '],
-                [' ', ' ', ' ', ' ', ' '],
-                [' ', ' ', ' ', ' ', ' ']
-            ],
+                ['G', 'G', 'D', 'G', 'G'],
+                ['G', ' ', ' ', ' ', 'G'],
+                ['D', ' ', 'C', ' ', 'D'],
+                ['G', ' ', ' ', ' ', 'G'],
+                ['G', 'G', 'D', 'G', 'G']
+            ]
         ],
             {
+                "D": 'projecte:dark_matter_block',
+                "G": 'ftbic:reinforced_glass',
                 "C": `projectexpansion:${curTier}_collector`,
                 "R": `projectexpansion:${curTier}_relay`,
                 "L": `projectexpansion:${curTier}_emc_link`,

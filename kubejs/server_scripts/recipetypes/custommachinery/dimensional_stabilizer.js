@@ -59,22 +59,22 @@ ServerEvents.recipes(event => {
                     "   d   "
                 ],
                 [
-                    "   f   ",
+                    "   d   ",
                     "       ",
                     "       ",
-                    "f     f",
+                    "d     d",
                     "       ",
                     "       ",
-                    "   f   "
+                    "   d   "
                 ],
                 [
-                    "   g   ",
+                    "   d   ",
                     "       ",
                     "       ",
-                    "g     g",
+                    "d     d",
                     "       ",
                     "       ",
-                    "   g   "
+                    "   d   "
                 ],
                 [
                     "   h   ",
@@ -105,18 +105,16 @@ ServerEvents.recipes(event => {
                 ]
             ],
             {
-                "a": "sons_of_sins:soul_steel_slab[type=bottom]",
+                "a": "sons_of_sins:soul_steel_slab",
                 "b": "sons_of_sins:soul_steel_block",
                 "c": "sons_of_sins:soul_steel_tiles",
-                "d": "forbidden_arcanus:arcane_polished_darkstone_pillar[axis=y,type=bottom]",
+                "d": "forbidden_arcanus:arcane_polished_darkstone_pillar",
                 "e": "ars_nouveau:arcane_pedestal",
-                "f": "forbidden_arcanus:arcane_polished_darkstone_pillar[axis=y,type=middle]",
-                "g": "forbidden_arcanus:arcane_polished_darkstone_pillar[axis=y,type=top]",
                 "h": "forbidden_arcanus:arcane_chiseled_polished_darkstone",
                 "i": "forbidden_arcanus:arcane_polished_darkstone_rod",
-                "n": "techev_additions:dimensional_stabilizer_obelisk[part=lower,ritual=true]{id:\"forbidden_arcanus:arcane_crystal_obelisk\"}",
-                "o": "forbidden_arcanus:magnetized_darkstone_pedestal[ritual=false]{id:\"forbidden_arcanus:pedestal\"}",
-                "p": "botania:corporea_index[waterlogged=false]{id:\"botania:corporea_index\"}"
+                "n": "techev_additions:dimensional_stabilizer_obelisk",
+                "o": "forbidden_arcanus:magnetized_darkstone_pedestal",
+                "p": "botania:corporea_index"
             }
         )
         .requireFunctionToStart(ctx => { return Start(ctx) })

@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.6.0         (_____)
 
 */
 
@@ -469,6 +469,9 @@ ServerEvents.tags('item', e => {
 })
 
 ServerEvents.tags("block", e => {
+
+    /**********************ADD****************************/
+    e.add("minecraft:campfires", 'occultism:spirit_campfire')
 
     /********************DISABLE**************************/
     const DISABLED_BLOCKS = [

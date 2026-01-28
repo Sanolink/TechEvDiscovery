@@ -5,7 +5,7 @@
 	group: "0EBC8803CE24B703"
 	icon: "forbidden_arcanus:sanity_meter"
 	id: "11ECDCCB52C384EE"
-	order_index: 3
+	order_index: 4
 	quest_links: [
 		{
 			id: "518493AB015F83F4"

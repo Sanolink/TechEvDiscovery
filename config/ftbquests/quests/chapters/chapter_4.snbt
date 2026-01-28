@@ -5,7 +5,7 @@
 	group: "0EBC8803CE24B703"
 	icon: "cataclysm:desert_eye"
 	id: "179A396524ADC3F1"
-	order_index: 4
+	order_index: 5
 	quest_links: [
 		{
 			icon: {

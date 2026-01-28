@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l7_rtinkers_construct"
+	group: "4A4CCCA6A3D551B5"
+	icon: {
+		Count: 1b
+		id: "tconstruct:smeltery_controller"
+		tag: {
+			texture: "tconstruct:seared_bricks"
+		}
+	}
+	id: "24223CD06DE9067C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&7♦ &rTinker's Construct"
+}

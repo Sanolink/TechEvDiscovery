@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "farmers_life_part_2"
-	group: "12B18F44A38CD6E7"
+	group: "4BD38A083477ABD5"
 	icon: "create_confectionery:gingerbread_man"
 	id: "3D2EFC9F42FB7375"
 	images: [
@@ -43,7 +43,7 @@
 			y: -20.298809523809517d
 		}
 	]
-	order_index: 6
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

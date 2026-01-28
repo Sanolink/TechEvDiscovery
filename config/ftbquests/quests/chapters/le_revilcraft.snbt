@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "le_revilcraft"
+	group: "6E6EAE103F859B8D"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "evilcraft:blood_infuser"
+		tag: { }
+	}
+	id: "0A9F640F0628BF39"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&e♦ &rEvilCraft"
+}

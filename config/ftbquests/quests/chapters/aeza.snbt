@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aeza"
-	group: "6E6EAE103F859B8D"
+	group: "4A4CCCA6A3D551B5"
 	icon: "minecraft:ender_eye"
 	id: "65D4062281B5E14D"
 	images: [
@@ -3064,5 +3064,5 @@
 		}
 	]
 	subtitle: ["Tracks of sand! Lands of ice! Water that burns!"]
-	title: " &l&e♦ &rExploring World"
+	title: " &l&7♦ &rExploring World"
 }

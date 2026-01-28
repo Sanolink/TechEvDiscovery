@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l7_rtotemic"
+	group: "4A4CCCA6A3D551B5"
+	icon: "totemic:tipi"
+	id: "66921656283FA7BE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&7♦ &rTotemic"
+}

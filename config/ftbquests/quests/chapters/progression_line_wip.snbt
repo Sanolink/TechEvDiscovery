@@ -10,13 +10,13 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 3.0d
+			height: 4.0d
 			hover: [ ]
 			image: "techev:textures/misc/quests/progression.png"
 			rotation: -15.0d
-			width: 20.959044368600683d
-			x: 10.5d
-			y: -10.0d
+			width: 27.945392491467576d
+			x: 9.0d
+			y: -9.5d
 		}
 		{
 			click: ""
@@ -120,18 +120,6 @@
 			x: -2.2d
 			y: 0.8d
 		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "pneumaticcraft:item/wip"
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.5d
-			y: -0.5d
-		}
 	]
 	order_index: 0
 	quest_links: [
@@ -194,192 +182,370 @@
 			x: 27.0d
 			y: -9.0d
 		}
+		{
+			id: "1F2ACFF409D40BA6"
+			linked_quest: "3D74EFD924952F78"
+			shape: "octagon"
+			size: 3.0d
+			x: -4.5d
+			y: 1.5d
+		}
 	]
 	quests: [
 		{
-			dependencies: [
-				"74C9143F2AE3BB45"
-				"5567056360883434"
-			]
+			dependencies: ["3D74EFD924952F78"]
 			icon: {
 				Count: 1b
-				id: "minecraft:elytra"
+				id: "trofers:large_pillar"
 				tag: {
-					Damage: 0
+					BlockEntityTag: {
+						Trophy: "trofers:exploring_world"
+					}
 				}
 			}
-			id: "650779D3343EAEB0"
+			id: "59AA63EA565CF3C6"
 			rewards: [{
-				id: "09D82618D874570E"
-				item: "techev_additions:techevium"
+				id: "6ECB1C11AD9DF4A1"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:exploring_world"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Exploring World\"."
+			subtitle: "Complete the \"Exploring World\" quest page."
 			tasks: [{
-				id: "5AE68F6AC3DF77B7"
-				title: "Checkmark"
+				id: "78193B85337F1479"
 				type: "checkmark"
 			}]
 			title: "&lExploring World"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D74EFD924952F78"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:totemic"
+					}
+				}
+			}
+			id: "01AF09DC3353932E"
+			rewards: [{
+				id: "3687E0A85742E433"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:totemic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Totemic\" quest page."
+			tasks: [{
+				id: "074B69A2E88DA26F"
+				type: "checkmark"
+			}]
+			title: "&lTotemic"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D74EFD924952F78"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:tinker"
+					}
+				}
+			}
+			id: "19C0B8B2795EC8B1"
+			rewards: [{
+				id: "06D35BB8F491774E"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:tinker"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Tinker's Construct\" quest page."
+			tasks: [{
+				id: "6BCA8EB51D97E559"
+				type: "checkmark"
+			}]
+			title: "&lTinker's Construct"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D74EFD924952F78"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:roots"
+					}
+				}
+			}
+			id: "5803F95734E562BD"
+			rewards: [{
+				id: "7A66D6888523752F"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:roots"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Roots\" quest page."
+			tasks: [{
+				id: "43BF46D951BD15F4"
+				type: "checkmark"
+			}]
+			title: "&lRoots"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74C9143F2AE3BB45"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:create"
+					}
+				}
+			}
+			id: "5DF928BA8001A1C4"
+			rewards: [{
+				id: "072EB527D4FF99BD"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:create"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Create\" quest page."
+			tasks: [{
+				id: "5B396DA4364AC475"
+				type: "checkmark"
+			}]
+			title: "&lCreate"
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["74C9143F2AE3BB45"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:create_new_age"
+					}
+				}
+			}
+			id: "7DAA57EAB4528152"
+			rewards: [{
+				id: "3FAFF8EDF406C799"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:create_new_age"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Create [New Age]\" quest page."
+			tasks: [{
+				id: "53CB7D68429AC5E9"
+				type: "checkmark"
+			}]
+			title: "&lCreate [New Age]"
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["74C9143F2AE3BB45"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:spirit"
+					}
+				}
+			}
+			id: "21E5725AE062C549"
+			rewards: [{
+				id: "1409EC57F0BF0E81"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:spirit"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Spirit\" quest page."
+			tasks: [{
+				id: "7B3AB73DDD102163"
+				type: "checkmark"
+			}]
+			title: "&lSpirit"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"74C9143F2AE3BB45"
-				"62B743A30271DA26"
-			]
-			icon: "farmersdelight:rice_roll_medley_block"
-			id: "7960E8764050AA1E"
+			dependencies: ["74C9143F2AE3BB45"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:eidolon"
+					}
+				}
+			}
+			id: "6CE677597F0635DF"
 			rewards: [{
-				id: "435A608F4962BC56"
-				item: "techev_additions:techevium"
+				id: "09EF32B180A296FA"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:eidolon"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Farmer's Life\"."
+			subtitle: "Complete the \"Eidolon\" quest page."
 			tasks: [{
-				id: "097C581EE8928AA1"
-				title: "Checkmark"
+				id: "136A2B37615530BD"
 				type: "checkmark"
 			}]
-			title: "&lFarmer's Life"
+			title: "&lEidolon"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"74C9143F2AE3BB45"
-				"0B6C02F1BC7A7FFF"
-			]
-			icon: "create:mechanical_arm"
-			id: "7E3D43C44C52D9E9"
+			dependencies: ["74C9143F2AE3BB45"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:irons_spellbooks"
+					}
+				}
+			}
+			id: "00D14D81E9A7D67D"
 			rewards: [{
-				id: "34EF00F36754E023"
-				item: "techev_additions:techevium"
+				id: "574F0E19D6A98ABE"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:irons_spellbooks"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Create\"."
+			subtitle: "Complete the \"Iron's Spells 'n Spellbooks\" quest page."
 			tasks: [{
-				id: "391A0432D39381BC"
-				title: "Checkmark"
+				id: "591B45B4926EA111"
 				type: "checkmark"
 			}]
-			title: "&lCreate"
+			title: "&lIron's Spells 'n Spellbooks"
 			x: 0.0d
 			y: -2.25d
 		}
 		{
 			dependencies: ["509461C4B7CFE7C8"]
-			icon: "balancedflight:flight_anchor"
-			id: "0A43A2A87CBE5983"
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:twilightforest"
+					}
+				}
+			}
+			id: "55A061A900780547"
 			rewards: [{
-				id: "2408FD0CB3E08FA0"
-				item: "techev_additions:techevium"
+				id: "49A7BCAEC9C1C489"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:twilightforest"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Create [Addons]\"."
+			subtitle: "Complete the \"Twilight Forest\" quest page."
 			tasks: [{
-				id: "4D79485F9CD731CF"
-				type: "checkmark"
-			}]
-			title: "&lCreate [Addons]"
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"509461C4B7CFE7C8"
-				"0721C4E5BCE458F9"
-			]
-			icon: "immersiveengineering:diesel_generator"
-			id: "755B4D0F8227F379"
-			rewards: [{
-				id: "026BF528DDFDBBC7"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Immersive Engineering\"."
-			tasks: [{
-				id: "003657112C515986"
-				type: "checkmark"
-			}]
-			title: "&lImmersive Engineering"
-			x: 3.75d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"509461C4B7CFE7C8"
-				"643C692B62A1C6EB"
-			]
-			icon: "storagenetwork:request"
-			id: "277A5C4810D2671E"
-			rewards: [{
-				id: "4D8887188D4A6F1E"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Simple Storage\"."
-			tasks: [{
-				id: "699DEC85CD9007C2"
-				type: "checkmark"
-			}]
-			title: "&lSimple Storage"
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"509461C4B7CFE7C8"
-				"30C000FEDAEE3B24"
-			]
-			icon: "create_confectionery:gingerbread_man"
-			id: "1C4850214C2051E7"
-			rewards: [{
-				id: "3E0CEBE84D906C9C"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Farmer's Life | Part 2\"."
-			tasks: [{
-				id: "3897AC45A61FEE3D"
-				type: "checkmark"
-			}]
-			title: "&lFarmer's Life | Part 2"
-			x: 5.25d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"509461C4B7CFE7C8"
-				"1C121BF832F74302"
-			]
-			icon: "twilightforest:twilight_portal_miniature_structure"
-			id: "0E03A6DF5661AD92"
-			rewards: [{
-				id: "6C3E1E2F92930B7A"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Twilight Forest\"."
-			tasks: [{
-				id: "55272ECE75F73C61"
+				id: "053F22197097A606"
 				type: "checkmark"
 			}]
 			title: "&lTwilight Forest"
@@ -387,45 +553,71 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"509461C4B7CFE7C8"
-				"1CA17CD83DB274E5"
-			]
-			icon: "mob_grinding_utils:saw"
-			id: "1AA7F8E25CA2ADB7"
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:immersive_engineering"
+					}
+				}
+			}
+			id: "394C8C0581A0F780"
 			rewards: [{
-				id: "1D317A19B8791F3A"
-				item: "techev_additions:techevium"
+				id: "330717DB1FC02198"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:immersive_engineering"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Little Additions\"."
+			subtitle: "Complete the \"Immersive Engineering\" quest page."
 			tasks: [{
-				id: "79AC59726070678D"
+				id: "3CA8B9BA1DC87107"
 				type: "checkmark"
 			}]
-			title: "&lLittle Additions"
+			title: "&lImmersive Engineering"
 			x: 4.5d
-			y: 0.75d
+			y: -3.75d
 		}
 		{
-			dependencies: [
-				"509461C4B7CFE7C8"
-				"7D41E3E56871B3B8"
-			]
-			icon: "ars_nouveau:archmage_spell_book"
-			id: "4FDD7B306D39E759"
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:ars_nouveau"
+					}
+				}
+			}
+			id: "032F1BBDE5E86AF5"
 			rewards: [{
-				id: "1E12967BAD1CF488"
-				item: "techev_additions:techevium"
+				id: "2BC56C7267E126D2"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ars_nouveau"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Ars Nouveau\"."
+			subtitle: "Complete the \"Ars Nouveau\" quest page."
 			tasks: [{
-				id: "78C302D3DE263D61"
+				id: "640232310CC4EB80"
 				type: "checkmark"
 			}]
 			title: "&lArs Nouveau"
@@ -433,165 +625,143 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"74C9143F2AE3BB45"
-				"5365C881A174A223"
-			]
-			icon: "eidolon:unholy_effigy"
-			id: "75E9D92DA2303E2F"
-			rewards: [{
-				id: "5F734ADA40170A75"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Eidolon\"."
-			tasks: [{
-				id: "71B1FE463A561F16"
-				title: "Checkmark"
-				type: "checkmark"
-			}]
-			title: "&lEidolon"
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"6010F0FDE1BB66D2"
-				"0C68B66226466480"
-			]
-			icon: "pneumaticcraft:printed_circuit_board"
-			id: "5BE12E09C779B5DE"
-			rewards: [{
-				id: "019769E001646A27"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"PneumaticCraft\"."
-			tasks: [{
-				id: "131DBC2E91A5E0B6"
-				type: "checkmark"
-			}]
-			title: "&lPneumaticCraft"
-			x: 8.25d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"6010F0FDE1BB66D2"
-				"358EF7485AE5A835"
-			]
-			icon: "naturesaura:eye_improved"
-			id: "3408F9A7CC95DC52"
-			rewards: [{
-				id: "29628A0EC20587B4"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Nature's Aura\"."
-			tasks: [{
-				id: "07FCCC8758EC4376"
-				type: "checkmark"
-			}]
-			title: "&lNature's Aura"
-			x: 7.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"6010F0FDE1BB66D2"
-				"1A6D4E9873BEC0EF"
-			]
-			icon: "blue_skies:alchemy_table"
-			id: "2DF9E53AFCE91BF6"
-			rewards: [{
-				id: "4AE3E19DBE00D7B8"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Blue Skies\"."
-			tasks: [{
-				id: "48B327DADB5115ED"
-				type: "checkmark"
-			}]
-			title: "&lBlue Skies"
-			x: 10.5d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"6010F0FDE1BB66D2"
-				"1B002EF1BA364EA3"
-			]
-			icon: "industrialforegoing:mycelial_reactor"
-			id: "07D58D719A1ABC37"
-			rewards: [{
-				id: "2D6FE768DC0B2450"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Industrial Foregoing\"."
-			tasks: [{
-				id: "003252462074C6CE"
-				type: "checkmark"
-			}]
-			title: "&lIndustrial Foregoing"
-			x: 10.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"6010F0FDE1BB66D2"
-				"7FF1D6610A947394"
-			]
-			icon: "occultism:storage_controller"
-			id: "6CCA6E2A5E8A8A7D"
-			rewards: [{
-				id: "1EBEF95B0B034EC7"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Occultism\"."
-			tasks: [{
-				id: "75D5DFD2DC6D679A"
-				type: "checkmark"
-			}]
-			title: "&lOccultism"
-			x: 9.75d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"6010F0FDE1BB66D2"
-				"2F342EBE5B903991"
-			]
+			dependencies: ["509461C4B7CFE7C8"]
 			icon: {
 				Count: 1b
-				id: "forbidden_arcanus:eternal_stella"
-				tag: { }
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:create_addons"
+					}
+				}
 			}
-			id: "7EAC7C10DF276AB9"
+			id: "2653F348EEF863D8"
 			rewards: [{
-				id: "0EBA7222A1E84676"
-				item: "techev_additions:techevium"
+				id: "5E50943068BD6754"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:create_addons"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Forbidden And Arcanus\"."
+			subtitle: "Complete the \"Create [Addons]\" quest page."
 			tasks: [{
-				id: "5AF99B431439460E"
+				id: "5FDBE4B2FB0731E3"
+				type: "checkmark"
+			}]
+			title: "&lCreate [Addons]"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:little_additions"
+					}
+				}
+			}
+			id: "720DB1BEE425F98B"
+			rewards: [{
+				id: "6D727E6FA55DC987"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:little_additions"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Little Additions\" quest page."
+			tasks: [{
+				id: "462C8B44110235F2"
+				type: "checkmark"
+			}]
+			title: "&lLittle Additions"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["509461C4B7CFE7C8"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:simple_storage"
+					}
+				}
+			}
+			id: "186F8635C78DDCDC"
+			rewards: [{
+				id: "58AB0C79D50FD7D3"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:simple_storage"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Simple Storage\" quest page."
+			tasks: [{
+				id: "09BF07047AE7A16F"
+				type: "checkmark"
+			}]
+			title: "&lSimple Storage"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:forbidden_arcanus"
+					}
+				}
+			}
+			id: "7137EF8E54B8C99B"
+			rewards: [{
+				id: "7A61F2DF766E0B52"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:forbidden_arcanus"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Forbidden And Arcanus\" quest page."
+			tasks: [{
+				id: "7D75D83F24C49A7D"
 				type: "checkmark"
 			}]
 			title: "&lForbidden And Arcanus"
@@ -599,26 +769,35 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"6010F0FDE1BB66D2"
-				"341467386B7F8EFB"
-			]
+			dependencies: ["6010F0FDE1BB66D2"]
 			icon: {
 				Count: 1b
-				id: "tiab:time_in_a_bottle"
-				tag: { }
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:useful_tools"
+					}
+				}
 			}
-			id: "69C5CE8627813144"
+			id: "52F01A7A5B9C4348"
 			rewards: [{
-				id: "791F30B75BB6CFD4"
-				item: "techev_additions:techevium"
+				id: "76EA77091E5CD8C1"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:useful_tools"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Useful Tools\"."
+			subtitle: "Complete the \"Useful Tools\" quest page."
 			tasks: [{
-				id: "19F19EDA78FCCCAF"
+				id: "59ECDABDAAEBEFA6"
 				type: "checkmark"
 			}]
 			title: "&lUseful Tools"
@@ -626,28 +805,215 @@
 			y: -5.25d
 		}
 		{
-			dependencies: [
-				"63894331FBB6B6DA"
-				"25D4EB2EB09310E5"
-			]
+			dependencies: ["6010F0FDE1BB66D2"]
 			icon: {
 				Count: 1b
-				id: "ftbquests:custom_icon"
+				id: "trofers:large_pillar"
 				tag: {
-					Icon: "techev:textures/misc/quests/undergarden/forgotten_golem.png"
+					BlockEntityTag: {
+						Trophy: "trofers:blue_skies"
+					}
 				}
 			}
-			id: "16F99C9B9CB76C93"
+			id: "20BF93BD25E03A68"
 			rewards: [{
-				id: "6A5C1C7893F58528"
-				item: "techev_additions:techevium"
+				id: "61B99DE14A5B228E"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:blue_skies"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"The Undergarden\"."
+			subtitle: "Complete the \"Blue Skies\" quest page."
 			tasks: [{
-				id: "4CC67CF601E4A051"
+				id: "00DA82F998DB5D2D"
+				type: "checkmark"
+			}]
+			title: "&lBlue Skies"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:natures_aura"
+					}
+				}
+			}
+			id: "1F57EC8457180199"
+			rewards: [{
+				id: "201DFA0E129682A6"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:natures_aura"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Nature's Aura\" quest page."
+			tasks: [{
+				id: "4A010F10B6F43772"
+				type: "checkmark"
+			}]
+			title: "&lNature's Aura"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:pneumaticcraft"
+					}
+				}
+			}
+			id: "4E22120DE9CCC534"
+			rewards: [{
+				id: "28275FA92F6A51B5"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:pneumaticcraft"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"PneumaticCraft\" quest page."
+			tasks: [{
+				id: "3DA1F99D067FFBE6"
+				type: "checkmark"
+			}]
+			title: "&lPneumaticCraft"
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:occultism"
+					}
+				}
+			}
+			id: "317795EFA5DD7C67"
+			rewards: [{
+				id: "4C773BEF5DB50D1F"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:occultism"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Occultism\" quest page."
+			tasks: [{
+				id: "19E948660FE5A2FB"
+				type: "checkmark"
+			}]
+			title: "&lOccultism"
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6010F0FDE1BB66D2"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:industrialforegoing"
+					}
+				}
+			}
+			id: "647EDB843BD02265"
+			rewards: [{
+				id: "38A0377EDA1A153F"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:industrialforegoing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Industrial Foregoing\" quest page."
+			tasks: [{
+				id: "29E1D1F859B30AF9"
+				type: "checkmark"
+			}]
+			title: "&lIndustrial Foregoing"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63894331FBB6B6DA"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:undergarden"
+					}
+				}
+			}
+			id: "356511B8CB949493"
+			rewards: [{
+				id: "03C8E3D56F2645BD"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:undergarden"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"The Undergarden\" quest page."
+			tasks: [{
+				id: "512AEEFA14D23635"
 				type: "checkmark"
 			}]
 			title: "&lThe Undergarden"
@@ -655,22 +1021,35 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"63894331FBB6B6DA"
-				"28379A273B0C6897"
-			]
-			icon: "mythicbotany:mjoellnir"
-			id: "0A64807D71D67987"
+			dependencies: ["63894331FBB6B6DA"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:botania"
+					}
+				}
+			}
+			id: "5CD653DC88D62577"
 			rewards: [{
-				id: "182C0B681B348185"
-				item: "techev_additions:techevium"
+				id: "05D62BED837D8654"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:botania"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Botania\"."
+			subtitle: "Complete the \"Botania\" quest page."
 			tasks: [{
-				id: "5C8170346E17A2A4"
+				id: "182CDC40E1DBA69B"
 				type: "checkmark"
 			}]
 			title: "&lBotania"
@@ -678,97 +1057,35 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"63894331FBB6B6DA"
-				"63F36957EB3EEA0A"
-			]
-			icon: "thermalendergy:endergy_upgrade_3"
-			id: "346D3E8CFD2E96A4"
-			rewards: [{
-				id: "6C87CAB55CB66E90"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Thermal Series\"."
-			tasks: [{
-				id: "5A11AEA75EA9482A"
-				type: "checkmark"
-			}]
-			title: "&lThermal Series"
-			x: 15.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"63894331FBB6B6DA"
-				"6EB6FCF011F980A4"
-			]
-			icon: "aeinfinitybooster:dimension_card"
-			id: "4F77389499DF53BF"
-			rewards: [{
-				id: "52D07C991FA2FB96"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Applied Energistics 2\"."
-			tasks: [{
-				id: "2310E395C799B6B0"
-				type: "checkmark"
-			}]
-			title: "&lApplied Energistics 2"
-			x: 15.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"63894331FBB6B6DA"
-				"105FF1A34F0CC39C"
-			]
+			dependencies: ["63894331FBB6B6DA"]
 			icon: {
 				Count: 1b
-				id: "custommachinery:custom_machine_item"
+				id: "trofers:large_pillar"
 				tag: {
-					machine: "custommachinery:psi_infuser"
+					BlockEntityTag: {
+						Trophy: "trofers:powah"
+					}
 				}
 			}
-			id: "365D97E08264FEA4"
+			id: "057235D218262FDB"
 			rewards: [{
-				id: "4263023A29C9883F"
-				item: "techev_additions:techevium"
+				id: "1F073DBBA5937F6A"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:powah"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Psi\"."
+			subtitle: "Complete the \"Powah\" quest page."
 			tasks: [{
-				id: "46AD5AC28AD8FACB"
-				type: "checkmark"
-			}]
-			title: "&lPsi"
-			x: 12.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"63894331FBB6B6DA"
-				"790A2F3C4320D2F5"
-			]
-			icon: "powah:crystal_nitro"
-			id: "5B34FD4F6957423D"
-			rewards: [{
-				id: "36D8DF3FCEB11104"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Powah\"."
-			tasks: [{
-				id: "5781201F98D1E049"
+				id: "2D6B978AF02577ED"
 				type: "checkmark"
 			}]
 			title: "&lPowah"
@@ -776,22 +1093,143 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"63894331FBB6B6DA"
-				"2500B54F7CC55A93"
-			]
-			icon: "hostilenetworks:loot_fabricator"
-			id: "18F25119E45A6D46"
+			dependencies: ["63894331FBB6B6DA"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:thermal"
+					}
+				}
+			}
+			id: "36A3CBDF24C657FD"
 			rewards: [{
-				id: "7433C92F56B3E80C"
-				item: "techev_additions:techevium"
+				id: "280D7B2C721300D1"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:thermal"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Compact Addons\"."
+			subtitle: "Complete the \"Thermal Series\" quest page."
 			tasks: [{
-				id: "5692AFDEABD3460A"
+				id: "6350CAA1B31F917E"
+				type: "checkmark"
+			}]
+			title: "&lThermal Series"
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["63894331FBB6B6DA"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:psi"
+					}
+				}
+			}
+			id: "351E7B5C3AC7920F"
+			rewards: [{
+				id: "4AA262069C0C2E7B"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:psi"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Psi\" quest page."
+			tasks: [{
+				id: "58BE51BD86F0BB19"
+				type: "checkmark"
+			}]
+			title: "&lPsi"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63894331FBB6B6DA"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:ae2"
+					}
+				}
+			}
+			id: "2AA1DC8E50F3733E"
+			rewards: [{
+				id: "7E1D6030FF295782"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ae2"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Applied Energistics 2\" quest page."
+			tasks: [{
+				id: "539AFCF94CC02F4E"
+				type: "checkmark"
+			}]
+			title: "&lApplied Energistics 2"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63894331FBB6B6DA"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:compact_addons"
+					}
+				}
+			}
+			id: "17144110ED229801"
+			rewards: [{
+				id: "16A52C67C468CDEF"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:compact_addons"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Compact Addons\" quest page."
+			tasks: [{
+				id: "6C67A7B7711B76C0"
 				type: "checkmark"
 			}]
 			title: "&lCompact Addons"
@@ -799,70 +1237,35 @@
 			y: -2.25d
 		}
 		{
-			dependencies: [
-				"74C9143F2AE3BB45"
-				"106208AEC912D9E1"
-			]
-			icon: "spirit:soul_crystal"
-			id: "4AD507B94280F97E"
+			dependencies: ["6BF612431ADBCFF4"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:mekanism"
+					}
+				}
+			}
+			id: "2ADFC2C50B69B0B0"
 			rewards: [{
-				id: "3F39A702307FA38C"
-				item: "techev_additions:techevium"
+				id: "2C630A52B4D15673"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:mekanism"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Spirit\"."
+			subtitle: "Complete the \"Mekanism\" quest page."
 			tasks: [{
-				id: "405CFFC361C71804"
-				title: "Checkmark"
-				type: "checkmark"
-			}]
-			title: "&lSpirit"
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"2696B44AAD12D02A"
-				"74C9143F2AE3BB45"
-			]
-			icon: "create_new_age:reactor_rod"
-			id: "6957B0B6E890A661"
-			rewards: [{
-				id: "33CF5D7FD281F685"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Create [New Age]\"."
-			tasks: [{
-				id: "5BFD96AB3DA4D8E6"
-				title: "Checkmark"
-				type: "checkmark"
-			}]
-			title: "&lCreate [New Age]"
-			x: 0.0d
-			y: 2.25d
-		}
-		{
-			dependencies: [
-				"6BF612431ADBCFF4"
-				"579C643804E863A8"
-			]
-			icon: "mekaevolution:infinite_control_circuit"
-			id: "5FF4EA546D8B59FF"
-			rewards: [{
-				id: "689CA3DEF7021592"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Mekanism\"."
-			tasks: [{
-				id: "62C10DA4B76B72D1"
+				id: "4AB68725869540BB"
 				type: "checkmark"
 			}]
 			title: "&lMekanism"
@@ -870,91 +1273,71 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"6BF612431ADBCFF4"
-				"46F2452AC2187D3C"
-			]
-			icon: "productivebees:honeycomb_ultimate"
-			id: "6D057E3BDEF6CCFB"
+			dependencies: ["6BF612431ADBCFF4"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:quantum_utilities"
+					}
+				}
+			}
+			id: "1FFCD29047AC28A7"
 			rewards: [{
-				id: "371AAEBA137DDB29"
-				item: "techev_additions:techevium"
+				id: "4456BE060989E255"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:quantum_utilities"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Productive Bees\"."
+			subtitle: "Complete the \"Quantum Utilities\" quest page."
 			tasks: [{
-				id: "4D00F38A580D3AE0"
+				id: "74D730F47B864A41"
 				type: "checkmark"
 			}]
-			title: "&lProductive Bees"
-			x: 17.25d
-			y: -3.75d
-		}
-		{
-			dependencies: [
-				"6BF612431ADBCFF4"
-				"0F86755CE3BE2113"
-			]
-			icon: "techev_additions:chromatic"
-			id: "6C50363D14D24786"
-			rewards: [{
-				id: "44FE17787D891A57"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Applied Energistics 2\"."
-			tasks: [{
-				id: "185123BAD17CAE67"
-				type: "checkmark"
-			}]
-			title: "&lApplied Energistics 2"
+			title: "&lQuantum Utilities"
 			x: 18.0d
 			y: -8.25d
 		}
 		{
-			dependencies: [
-				"3DC73E5443307ED5"
-				"6BF612431ADBCFF4"
-			]
-			icon: "mysticalagriculture:ultimate_essence"
-			id: "4DB4C1C0F89D9057"
+			dependencies: ["6BF612431ADBCFF4"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:ad_astra"
+					}
+				}
+			}
+			id: "5A2748336ADD3E31"
 			rewards: [{
-				id: "2CB163BD403ED45C"
-				item: "techev_additions:techevium"
+				id: "385FF4EBBB57AFAA"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ad_astra"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Mystical Agriculture\"."
+			subtitle: "Complete the \"Ad Astra\" quest page."
 			tasks: [{
-				id: "6F527ED473AE9203"
-				type: "checkmark"
-			}]
-			title: "&lMystical Agriculture"
-			x: 18.75d
-			y: -3.75d
-		}
-		{
-			dependencies: [
-				"54D89EA890C7FE6C"
-				"6BF612431ADBCFF4"
-			]
-			icon: "ad_astra:glacio_globe"
-			id: "4211333364489533"
-			rewards: [{
-				id: "5C1FA0430A04AF13"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Ad Astra\"."
-			tasks: [{
-				id: "69D6C7B42C88416C"
+				id: "38E6E1311C50200E"
 				type: "checkmark"
 			}]
 			title: "&lAd Astra"
@@ -962,91 +1345,107 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"4E7356179682035C"
-				"6A7628B3B08CAFD2"
-			]
-			icon: "projecte:tome"
-			id: "074CFEB35F0546BC"
+			dependencies: ["6BF612431ADBCFF4"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:mystical_agriculture"
+					}
+				}
+			}
+			id: "23FC0E5193BD8982"
 			rewards: [{
-				id: "2F996CEC14751515"
-				item: "techev_additions:techevium"
+				id: "1A20EF8126FAC54B"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:mystical_agriculture"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"ProjectE\"."
+			subtitle: "Complete the \"Mystical Agriculture\" quest page."
 			tasks: [{
-				id: "78D3A147476C7DCC"
+				id: "782A4FF317544B0C"
 				type: "checkmark"
 			}]
-			title: "&lProjectE"
-			x: 21.0d
-			y: -6.0d
+			title: "&lMystical Agriculture"
+			x: 18.75d
+			y: -3.75d
 		}
 		{
-			dependencies: [
-				"4E7356179682035C"
-				"7525DFA984F8FF58"
-			]
-			icon: "techev_additions:tellurite"
-			id: "13066F53B22F865B"
+			dependencies: ["6BF612431ADBCFF4"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:productivebees"
+					}
+				}
+			}
+			id: "39C484C0C1B3812A"
 			rewards: [{
-				id: "0A0AFE447B3C36C4"
-				item: "techev_additions:techevium"
+				id: "385015D3C76DABAE"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:productivebees"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Singular Networks\"."
+			subtitle: "Complete the \"Productive Bees\" quest page."
 			tasks: [{
-				id: "0B80D88F7DBFD0F4"
+				id: "496E3076655ECA21"
 				type: "checkmark"
 			}]
-			title: "&lSingular Networks"
-			x: 22.5d
-			y: -5.25d
+			title: "&lProductive Bees"
+			x: 17.25d
+			y: -3.75d
 		}
 		{
-			dependencies: [
-				"4E7356179682035C"
-				"0F6F5F11B35920B3"
-			]
-			icon: "chemlib:tellurium"
-			id: "1D98BCCFFB678BAC"
+			dependencies: ["4E7356179682035C"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:rftools"
+					}
+				}
+			}
+			id: "72D12E3990BE250D"
 			rewards: [{
-				id: "5071E7A946ECA014"
-				item: "techev_additions:techevium"
+				id: "417D7F4ABBC13CE0"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:rftools"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Alchemistry / ChemLib\"."
+			subtitle: "Complete the \"RFTools\" quest page."
 			tasks: [{
-				id: "5146351E87B6095A"
-				type: "checkmark"
-			}]
-			title: "&lAlchemistry / ChemLib"
-			x: 24.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"4E7356179682035C"
-				"29F81B08C675C873"
-			]
-			icon: "immersiveengineering:material_component_quantum"
-			id: "0539B924F0517E3B"
-			rewards: [{
-				id: "4D26F6B213B0F4C3"
-				item: "techev_additions:techevium"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Finish the Main Quest of \"RFTools\"."
-			tasks: [{
-				id: "5835D301AE98545A"
+				id: "096C23039A22B377"
 				type: "checkmark"
 			}]
 			title: "&lRFTools"
@@ -1054,22 +1453,35 @@
 			y: -9.75d
 		}
 		{
-			dependencies: [
-				"4E7356179682035C"
-				"67C84FDDFE29215D"
-			]
-			icon: "custommachinery:singularity_extractor"
-			id: "3FFF6AF1CA87837D"
+			dependencies: ["4E7356179682035C"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:ftbic"
+					}
+				}
+			}
+			id: "2BBE2E4009A76AF7"
 			rewards: [{
-				id: "524ADC64FC198234"
-				item: "techev_additions:techevium"
+				id: "05B51956E56E0DAB"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ftbic"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"FTB Industrial Contraptions\"."
+			subtitle: "Complete the \"FTB Industrial Contraptions\" quest page."
 			tasks: [{
-				id: "103E6037C30D7181"
+				id: "1E05F3FF64C6215B"
 				type: "checkmark"
 			}]
 			title: "&lFTB Industrial Contraptions"
@@ -1077,22 +1489,113 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["0F8C4C01C5E75A8B"]
-			dependency_requirement: "all_started"
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "3D74EFD924952F78"
-			shape: "octagon"
-			size: 3.0d
-			subtitle: "Soon, In 1.6.0 !"
+			dependencies: ["4E7356179682035C"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:projecte"
+					}
+				}
+			}
+			id: "2B8B98213EA187B8"
+			rewards: [{
+				id: "0DD98D6EF235DE8D"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:projecte"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"ProjectE\" quest page."
 			tasks: [{
-				id: "1FCA93D83C7C93D3"
-				title: "Checkmark"
+				id: "65BDD04B474C7A72"
 				type: "checkmark"
 			}]
-			title: "&lPre-Age : WIP"
-			x: -4.5d
-			y: 1.5d
+			title: "&lProjectE"
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E7356179682035C"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:singular_networks"
+					}
+				}
+			}
+			id: "456ADEF16F910EFB"
+			rewards: [{
+				id: "5595BBB4F59DB210"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:singular_networks"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Singular Networks\" quest page."
+			tasks: [{
+				id: "0CE014376B1C9FE7"
+				type: "checkmark"
+			}]
+			title: "&lSingular Networks"
+			x: 22.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["4E7356179682035C"]
+			icon: {
+				Count: 1b
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:alchemistry"
+					}
+				}
+			}
+			id: "12855C08389C7EE1"
+			rewards: [{
+				id: "5C2ECBCC85E78645"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:alchemistry"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Complete the \"Alchemistry / ChemLib\" quest page."
+			tasks: [{
+				id: "17E8605AB2ACC421"
+				type: "checkmark"
+			}]
+			title: "&lAlchemistry / ChemLib"
+			x: 24.0d
+			y: -6.0d
 		}
 	]
-	title: " &l♠ &r&lAchievements"
+	title: " &l♠ &r&lAchievements / Trophies"
 }

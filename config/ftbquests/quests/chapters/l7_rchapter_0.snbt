@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l7_rchapter_0"
+	group: "0EBC8803CE24B703"
+	icon: "forbidden_arcanus:edelwood_stick"
+	id: "5125659F543B0235"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["030EEE21D5C04AD9"]
+			hide_text_until_complete: true
+			icon: "minecraft:spyglass"
+			id: "74C9143F2AE3BB45"
+			rewards: [{
+				id: "7FFB15AC6D99E5BE"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Welcome to Age 1 !"
+			tasks: [{
+				id: "0E619717F1B9964D"
+				type: "checkmark"
+			}]
+			title: "&e&lFirst Discovery"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F8C4C01C5E75A8B"]
+			dependency_requirement: "all_started"
+			icon: "forbidden_arcanus:edelwood_stick"
+			id: "3D74EFD924952F78"
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Welcome to Pre-Age !"
+			tasks: [{
+				id: "1FCA93D83C7C93D3"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "&l&7Ancestral Awakening"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D74EFD924952F78"]
+			icon: "minecraft:ender_eye"
+			id: "35798B290A1A4F7F"
+			shape: "gear"
+			tasks: [{
+				id: "0CF6288BA6E41B36"
+				title: "Exploring World"
+				type: "checkmark"
+			}]
+			title: "&lExploring World"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D74EFD924952F78"]
+			hide_text_until_complete: true
+			icon: "totemic:tipi"
+			id: "39E48E836816F3E2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2BFB013331D3FE09"
+				title: "Create"
+				type: "checkmark"
+			}]
+			title: "&lTotemic"
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["48F3903B5E7D53F3"]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:smeltery_controller"
+				tag: {
+					texture: "tconstruct:seared_bricks"
+				}
+			}
+			id: "030EEE21D5C04AD9"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "38D3C7272402A44E"
+				title: "Create"
+				type: "checkmark"
+			}]
+			title: "&lTinker's Construct"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["39E48E836816F3E2"]
+			hide_text_until_complete: true
+			icon: "rootsclassic:crystal_staff"
+			id: "48F3903B5E7D53F3"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3A01E7CCA5BB41B7"
+				title: "Create"
+				type: "checkmark"
+			}]
+			title: "&lRoots"
+			x: 0.75d
+			y: 3.0d
+		}
+	]
+	subtitle: ["&lAncestral Awakening"]
+	title: " &l&7♦ &rChapter 0"
+}

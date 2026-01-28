@@ -5,37 +5,21 @@
 	group: "0EBC8803CE24B703"
 	icon: "minecraft:spyglass"
 	id: "548588151EFDC8D5"
-	order_index: 1
+	order_index: 2
 	quest_links: [
-		{
-			id: "2BAD82E5B83D6897"
-			linked_quest: "51FFFF2CF850F4FF"
-			x: -1.0d
-			y: 4.0d
-		}
-		{
-			id: "71A199D43F52D39C"
-			linked_quest: "437330C57BA2C14D"
-			x: -0.5d
-			y: 5.0d
-		}
-		{
-			id: "2685FB594BACC59C"
-			linked_quest: "273F4EE658C5BEFD"
-			x: 0.5d
-			y: 1.5d
-		}
-		{
-			id: "128B902F1062A7AA"
-			linked_quest: "174335DFD4E91CD6"
-			x: 0.0d
-			y: 2.5d
-		}
 		{
 			id: "3087BFF9E674ADA5"
 			linked_quest: "6036A88041F3C3E2"
-			x: 0.5d
+			x: 1.0d
 			y: 5.5d
+		}
+		{
+			id: "43B5D93E44F540B2"
+			linked_quest: "74C9143F2AE3BB45"
+			shape: "pentagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -66,25 +50,11 @@
 				type: "checkmark"
 			}]
 			title: "&lCreate"
-			x: 0.75d
+			x: 1.5d
 			y: 3.75d
 		}
 		{
-			dependencies: ["74C9143F2AE3BB45"]
-			icon: "minecraft:ender_eye"
-			id: "35798B290A1A4F7F"
-			shape: "gear"
-			tasks: [{
-				id: "0CF6288BA6E41B36"
-				title: "Exploring World"
-				type: "checkmark"
-			}]
-			title: "&lExploring World"
-			x: 1.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["74C9143F2AE3BB45"]
+			dependencies: ["0C959AB8F266A514"]
 			hide_text_until_complete: true
 			icon: "eidolon:codex"
 			id: "0326C4B7791590BE"
@@ -96,14 +66,11 @@
 				type: "checkmark"
 			}]
 			title: "&lEidolon"
-			x: -0.75d
-			y: 1.5d
+			x: -1.5d
+			y: 3.75d
 		}
 		{
-			dependencies: [
-				"273F4EE658C5BEFD"
-				"174335DFD4E91CD6"
-			]
+			dependencies: ["0326C4B7791590BE"]
 			dependency_requirement: "one_completed"
 			id: "124F9088D80253D2"
 			rewards: [{
@@ -120,29 +87,8 @@
 				type: "item"
 			}]
 			title: "&lRaw Andesite Alloy"
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["0F8C4C01C5E75A8B"]
-			hide_text_until_complete: true
-			icon: "minecraft:spyglass"
-			id: "74C9143F2AE3BB45"
-			rewards: [{
-				id: "7FFB15AC6D99E5BE"
-				item: "minecraft:cake"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			subtitle: "Welcome to Age 1 !"
-			tasks: [{
-				id: "0E619717F1B9964D"
-				type: "checkmark"
-			}]
-			title: "&e&lFirst Discovery"
 			x: 0.0d
-			y: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6036A88041F3C3E2"]
@@ -178,7 +124,7 @@
 			}]
 			title: "&lSpirit"
 			x: 1.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6036A88041F3C3E2"]
@@ -191,8 +137,47 @@
 				type: "checkmark"
 			}]
 			title: "&lCreate [New Age]"
-			x: 1.5d
-			y: 5.0d
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4F00AA2F16F74B3C"]
+			hide_text_until_complete: true
+			icon: "irons_spellbooks:arcane_essence"
+			id: "0C959AB8F266A514"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0A7EDB380253CDDF"
+				title: "Create"
+				type: "checkmark"
+			}]
+			title: "&lIron's Spells 'n Spellbooks"
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["74C9143F2AE3BB45"]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "evilcraft:blood_infuser"
+				tag: { }
+			}
+			id: "4F00AA2F16F74B3C"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "06500A2713C0C6DB"
+				title: "Create"
+				type: "checkmark"
+			}]
+			title: "&lEvilCraft"
+			x: 0.75d
+			y: 1.5d
 		}
 	]
 	subtitle: ["&lFirst Discovery"]

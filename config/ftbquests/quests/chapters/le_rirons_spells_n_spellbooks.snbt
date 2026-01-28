@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "le_rirons_spells_n_spellbooks"
+	group: "6E6EAE103F859B8D"
+	icon: "irons_spellbooks:arcane_essence"
+	id: "689A7D623D7C2D1E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&e♦ &rIron's Spells 'n Spellbooks"
+}

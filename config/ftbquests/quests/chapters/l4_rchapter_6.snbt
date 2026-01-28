@@ -5,7 +5,7 @@
 	group: "0EBC8803CE24B703"
 	icon: "extendedcrafting:ultimate_singularity"
 	id: "27C0D36F8721D37D"
-	order_index: 6
+	order_index: 7
 	quest_links: [
 		{
 			id: "0D493521F40C01A8"

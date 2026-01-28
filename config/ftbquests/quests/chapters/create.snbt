@@ -283,7 +283,7 @@
 			y: -8.30357142857143d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -859,7 +859,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["437330C57BA2C14D"]
+			dependencies: [
+				"437330C57BA2C14D"
+				"7D466195384C2BB1"
+			]
 			id: "6036A88041F3C3E2"
 			rewards: [{
 				count: 8

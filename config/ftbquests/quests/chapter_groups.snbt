@@ -1,6 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "0EBC8803CE24B703", title: "&l&6Progression Line" }
+		{ id: "4BD38A083477ABD5", title: "&2&l[Farmer's Life]" }
+		{ id: "0EBC8803CE24B703", title: "&l&6[Progression Line]" }
+		{ id: "4A4CCCA6A3D551B5", title: "&l&7>> &fAge 0 : Ancestral Awakening" }
 		{ id: "6E6EAE103F859B8D", title: "&l&e>> &fAge 1 : First Discovery" }
 		{ id: "12B18F44A38CD6E7", title: "&l&a>> &fAge 2 : Shock Therapy" }
 		{ id: "2F512FC162451D63", title: "&l&b>> &fAge 3 : Atomic Pressure" }

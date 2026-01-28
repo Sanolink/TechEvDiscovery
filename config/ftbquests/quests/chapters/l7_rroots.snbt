@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l7_rroots"
+	group: "4A4CCCA6A3D551B5"
+	icon: "rootsclassic:crystal_staff"
+	id: "0F28C7551497A6ED"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: " &l&7♦ &rRoots"
+}

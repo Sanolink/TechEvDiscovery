@@ -1,0 +1,94 @@
+
+["Furnace & Ignition"]
+	#Enable or disable vanilla furnace item ignition.
+	#Turning this off may affect mods that use vanilla logic for their custom furnace blocks.
+	#
+	Main_Executor_Event = true
+	#Fire Aspect can ignite supported blocks.
+	Fire_Aspect_Ignition = true
+	#Furnaces above blocks present within 'Furnace_Executor_Block_List' config value, will keep vanilla smelting logic.
+	Hot_Block_Ignition = true
+	#Newly placed campfires start unlit.
+	Place_Campfires_Unlit = true
+	#Allows to ignite the furnace with double flint (one in each hand).
+	Double_Flint_Ignition = false
+	#Chance for the double flint ignition.
+	#Range: 0.0 ~ 1.0
+	Double_Flint_Base_Chance = 0.15
+	#List of items that can ignite furnace blocks. Items only.
+	Furnace_Executor_Item_List = ["minecraft:flint_and_steel", "lititup:sparkling_flint", "lititup:golden_lighter", "notreepunching:fire_starter"]
+	#Blocks that can ignite a furnace when placed below. Format: 'modid:blockid[:true|false]'
+	#The true/false value refers only to the 'lit' state property if present.
+	#
+	#Examples:
+	# - 'minecraft:campfire:true' (treat as lit)
+	# - 'minecraft:campfire:false' (treat as unlit)
+	# - 'minecraft:magma_block' (no lit flag)
+	#
+	Furnace_Executor_Block_List = ["minecraft:fire", "minecraft:campfire:true", "minecraft:soul_campfire:true", "minecraft:magma_block", "minecraft:lava"]
+	#Items that are allowed to light UNLIT campfires (by registry id).
+	#Example: "minecraft:flint_and_steel", "lititup:sparkling_flint"
+	#
+	Campfire_Ignitor_Item_List = ["minecraft:flint_and_steel", "lititup:sparkling_flint", "lititup:golden_lighter"]
+
+["Sparkling Flint Settings"]
+	#Item consumed when using Sparkling Flint.
+	#Use an empty string ("") to consume nothing. Within Bookling Gear settings, just remove the value.
+	#
+	Sparkling_flint_consumption_item = "lititup:switchgrass_fiber"
+	#Sparkling Flint success chance. (0.6 = 60%)
+	#Range: 0.0 ~ 1.0
+	Sparkling_Flint_Jam_Chance = 0.6
+	#Cooldown after a jam (ticks).
+	#Range: > 2
+	Sparkling_Flint_Cooldown = 40
+	#Total durability for Sparkling Flint.
+	#Range: > 1
+	Sparkling_Flint_Durability = 5
+
+["World Settings"]
+	#Spawn Switchgrass in newly generated chunks.
+	Switchgrass_Spawn = true
+	#Average rarity for natural switchgrass patches spawn.
+	#1 = try every chunk, 32 = once every 32 tries on average, higher = rarer.
+	#
+	#Range: 1 ~ 4096
+	Switchgrass_Spawn_Rarity = 32
+	#Allow the bone meal item to spawn switchgrass once in a while.
+	Switchgrass_Bone_Meal = true
+	#Add the Golden Lighter to selected loots (mineshafts, village toolsmith, buried treasure, desert pyramid).
+	Golden_Lighter_Loot = true
+	#Chance for the Golden Lighter to appear in its designated loot spots (0.0 = never, 1.0 = always).
+	#Range: 0.0 ~ 1.0
+	Golden_Lighter_Loot_Chance = 0.3
+	#Block IDs that switchgrass is allowed to grow on.
+	Switchgrass_Soil = ["minecraft:grass_block", "minecraft:dirt", "minecraft:rooted_dirt"]
+
+["Compatibility Handler"]
+	#Compatibility with Brick Furnace.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/brick-furnace
+	Brick_Furnace_Mod_Compatibility = true
+	#Compatibility with Iron Furnaces.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/iron-furnaces
+	Iron_Furnaces_Mod_Compatibility = true
+	#Compatibility with Furnace Mk2.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/furnace-mk2
+	Furnace_Mk2_Mod_Compatibility = true
+	#Compatibility with Better Furnace Reforged.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/better-furnaces-reforged
+	Better_Furnaces_Reforged_Mod_Compatibility = true
+	#Compatibility with Farmer's Delight.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/farmers-delight
+	Farmers_Delight_Mod_Compatibility = true
+	#Compatibility with Let's Do Candlelight.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/lets-do-candlelight
+	Let_Do_Candlelight_Compatibility = true
+	#Compatibility with Tough As Nails.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/tough-as-nails
+	Tough_As_Nails_Mod_Compatibility = true
+	#Compatibility with the Aether mod.
+	#False by default: flint and steel cannot be used in the Aether dimension.
+	#Link: https://www.curseforge.com/minecraft/mc-mods/aether
+	#
+	Aether_Mod_Compatibility = false
+

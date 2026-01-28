@@ -153,6 +153,10 @@
     "info": true,
     "showcustomname": true
   },
+  "evilcraft": {
+    "box_of_eternal_closure": true,
+    "broom": true
+  },
   "tombstone": {
     "graves": true
   },

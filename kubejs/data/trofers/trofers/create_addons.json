@@ -1,0 +1,19 @@
+{
+  "name": {
+    "color": "#e1e1e1",
+    "text": "Create [Addons] Trophy"
+  },
+  "display": {
+    "offset": {
+      "y": -3.6
+    },
+    "scale": 1.4
+  },
+  "item": {
+    "item": "balancedflight:flight_anchor"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#e1e1e1"
+  }
+}

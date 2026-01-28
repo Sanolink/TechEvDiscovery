@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.6.0         (_____)
 
 */
 
@@ -473,7 +473,8 @@ JEIEvents.hideItems(event => {
         'chemlib:sulfur_dioxide_bucket',
         'chemlib:sulfur_trioxide_bucket',
         'chemlib:sulfuric_acid_bucket',
-        'chemlib:hydrochloric_acid_bucket'
+        'chemlib:hydrochloric_acid_bucket',
+        'trofers:ae2'
     ])
 })
 

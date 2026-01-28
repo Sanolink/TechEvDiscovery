@@ -1,0 +1,23 @@
+{
+  "name": {
+    "color": "#e1e1e1",
+    "text": "Create Trophy"
+  },
+  "display": {
+    "offset": {
+      "y": 5.3,
+      "z": -1
+    },
+    "rotation": {
+      "y": 180
+    },
+    "scale": 1.6
+  },
+  "item": {
+    "item": "create:mechanical_arm"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#e1e1e1"
+  }
+}

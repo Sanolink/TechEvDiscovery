@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.6.0         (_____)
 
 */
 
@@ -69,7 +69,9 @@ StartupEvents.registry('block', e => {
     BasicBlock('productivebees:comb_ultimate', "Ultimate Comb Block").soundType(SoundType.CORAL_BLOCK).hardness(0.6).tagBoth("forge:storage_blocks").tagBoth("forge:storage_blocks/honeycombs")
     
     BasicBlock('thermal:resonant_machine_frame', "Resonant Machine Frame").soundType("lantern").hardness(2).tagBlock("mineable/pickaxe").notSolid()
-
+    
+    BasicBlock('trofers:ae2', "Controller")
+    
     CustomMachine('chiaroscuro_forge', "Chiaroscuro Forge")
     CustomMachine('circuit_etcher', "Circuit Etcher")
     CustomMachine('excavator_jei', "Excavator JEI")

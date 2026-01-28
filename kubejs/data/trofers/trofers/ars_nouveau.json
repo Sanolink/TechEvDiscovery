@@ -1,0 +1,19 @@
+{
+  "name": {
+    "color": "#e1e1e1",
+    "text": "Ars Nouveau Trophy"
+  },
+  "display": {
+    "offset": {
+      "y": 2.8
+    },
+    "scale": 0.7
+  },
+  "item": {
+    "item": "ars_nouveau:enchanting_apparatus"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#e1e1e1"
+  }
+}

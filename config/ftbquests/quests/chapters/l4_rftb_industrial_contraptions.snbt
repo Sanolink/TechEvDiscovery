@@ -1909,5 +1909,6 @@
 			y: -2.0d
 		}
 	]
+	subtitle: ["Maximum output, Minimum delay"]
 	title: " &l&4♦ &rFTB Industrial Contraptions"
 }

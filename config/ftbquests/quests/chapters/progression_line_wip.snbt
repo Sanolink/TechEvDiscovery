@@ -906,12 +906,12 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Finish the Main Quest of \"Applied Energistics 2\"."
+			subtitle: "Finish the Main Quest of \"Quantum Utilities\"."
 			tasks: [{
 				id: "185123BAD17CAE67"
 				type: "checkmark"
 			}]
-			title: "&lApplied Energistics 2"
+			title: "&lQuantum Utilities"
 			x: 18.0d
 			y: -8.25d
 		}

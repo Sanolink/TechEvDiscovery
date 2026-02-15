@@ -3890,7 +3890,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&lDISABLED FOR NOW"
+			title: "&lApotheosis Spawners"
 			x: -30.0d
 			y: 0.5d
 		}

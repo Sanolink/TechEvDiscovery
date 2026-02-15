@@ -2,7 +2,7 @@
   "type": "spirit:soul_engulfing",
   "input": {
     "ingredient": {
-      "item": "alltheores:steel_block"
+      "item": "minecraft:iron_block"
     },
     "multiblock": {
       "pattern": [

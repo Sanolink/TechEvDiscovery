@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.5.1         (_____)
 
 */
 
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
             'psi:ebony_psimetal_block', 'thermalendergy:melodium_gear', 'psi:ebony_psimetal_block'
         ],
         fluid : IndustrialFluidWithCount('psi:destabilized_psimetal', 1000),
-        output : NBTItem('custommachinery:custom_machine_item', "{machine:\"custommachinery:psi_infuser\"}")
+        output : parseIngredient('custommachinery:psi_infuser')
     }
 ]
 

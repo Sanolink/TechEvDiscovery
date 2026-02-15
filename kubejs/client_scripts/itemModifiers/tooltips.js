@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.1         (_____)
 
 */
 
@@ -75,13 +75,16 @@ ItemEvents.tooltip(event => {
     })
 
     //Blue Skies
-    event.add('blue_skies:blue_journal', "§l§fThe §bGatekeeper §fis §CDISABLED")
-    event.add('blue_skies:zeal_lighter', "§l§fThe §bGatekeeper §fis §CDISABLED")
-    event.add('blue_skies:gatekeeper_spawn_egg', "§l§fThe §bGatekeeper §fis §CDISABLED")
+    event.add('blue_skies:blue_journal', "§f✦ §f§lThe §b§lGatekeeper§f §lis§c §lDISABLED")
+    event.add('blue_skies:zeal_lighter', "§f✦ §f§lThe §b§lGatekeeper§f §lis§c §lDISABLED")
+    event.add('blue_skies:gatekeeper_spawn_egg', "§f✦ §f§lThe §b§lGatekeeper§f §lis§c §lDISABLED")
 
     //Lost Soul
-    event.add('forbidden_arcanus:soul', "§l§fRight-click on a block to summon a §bLost Soul")
-
+    event.add('forbidden_arcanus:soul', "§f✦ §lRight-click§f on a block to summon a §b§lLost Soul")
+    
+    //Astral Dust
+    event.add('enigmaticlegacy:astral_dust', "§a✦ §lAstral Dust§a can only be obtained with §6§lLaser Drill")
+    
     //Custom Machinery Multiblocks
     let multiblocks = [
         'custommachinery:precision_assembler',

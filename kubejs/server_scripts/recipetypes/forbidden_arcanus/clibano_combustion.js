@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.13b       (_____)
+(_____)         Last Modification : 1.5.1         (_____)
 
 */
 
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
             cooking_time: 150,
             experience: 1.0,
             fire_type: "soul_fire",
-            ingredient: parseIngredient("alltheores:steel_ingot"),
+            ingredient: parseIngredient("minecraft:iron_ingot"),
             result: "spirit:soul_steel_ingot"
         },
         {
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
             cooking_time: 150,
             experience: 1.0,
             fire_type: "soul_fire",
-            ingredient: parseIngredient("alltheores:steel_block"),
+            ingredient: parseIngredient("minecraft:iron_block"),
             result: "spirit:soul_steel_block"
         },
         {

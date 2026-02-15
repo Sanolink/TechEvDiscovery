@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.8         (_____)
+(_____)         Last Modification : 1.5.1         (_____)
 
 */
 
@@ -22,8 +22,7 @@ ServerEvents.recipes(event => {
     //Recipes
     let recipes = [
         {
-            id: "custommachinery:precision_assembler",
-            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:precision_assembler"}'),
+            output: 'custommachinery:precision_assembler',
             pattern: ["ABA", "DPD", "ABA"],
             key: {
                 A: "create:andesite_casing",
@@ -33,8 +32,7 @@ ServerEvents.recipes(event => {
             },
         },
         {
-            id: "custommachinery:chiaroscuro_forge",
-            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:chiaroscuro_forge"}'),
+            output: 'custommachinery:chiaroscuro_forge',
             pattern: ["SRS", "HAH", "SRS"],
             key: {
                 S: "create:shadow_steel_casing",
@@ -44,8 +42,7 @@ ServerEvents.recipes(event => {
             },
         },
         {
-            id: "custommachinery:circuit_etcher",
-            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:circuit_etcher"}'),
+            output: 'custommachinery:circuit_etcher',
             pattern: ["WGW", "ECE", "WPW"],
             key: {
                 W: "pneumaticcraft:pressure_chamber_wall",
@@ -56,8 +53,7 @@ ServerEvents.recipes(event => {
             },
         },
         {
-            id: "custommachinery:soul_harvester",
-            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:soul_harvester"}'),
+            output: 'custommachinery:soul_harvester',
             pattern: ["WRW", "CSC", "FPF"],
             key: {
                 W: "eidolon:warped_sprouts",
@@ -71,6 +67,6 @@ ServerEvents.recipes(event => {
     ]
 
     recipes.forEach((recipe) => {
-        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id)
+        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.output)
     })
 })

@@ -80,8 +80,10 @@ ItemEvents.tooltip(event => {
     event.add('blue_skies:gatekeeper_spawn_egg', "§l§fThe §bGatekeeper §fis §CDISABLED")
 
     //Lost Soul
-    event.add('forbidden_arcanus:soul', "§l§fRight-click on a block to summon a §bLost Soul")
-
+    
+    //Astral Dust
+    event.add('enigmaticlegacy:astral_dust', "§a✦ §lAstral Dust§a can only be obtained with §6§lLaser Drill")
+    
     //Custom Machinery Multiblocks
     let multiblocks = [
         'custommachinery:precision_assembler',

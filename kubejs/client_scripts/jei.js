@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.1         (_____)
 
 */
 
@@ -538,4 +538,6 @@ JEIEvents.addItems(event => {
 JEIEvents.information(event => {
 
     event.addItem('ae2:elemental_processor_press', Component.translatable("gui.ae2.inWorldCraftingPresses"))
+    event.addItem('eidolon:merammer_root', "Merammer Roots are obtained by breaking White Flowers with Athame.")
+    event.addItem('eidolon:oanna_bloom', "Flowering Oannas are obtained by breaking Lily Pads with Athame.")
 })

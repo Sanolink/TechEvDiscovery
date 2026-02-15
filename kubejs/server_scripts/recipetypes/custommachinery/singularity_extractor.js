@@ -13,42 +13,14 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.1         (_____)
 
 */
 
 ServerEvents.recipes(event => {
-    let counter = 0
     event.recipes.custommachinery
         .custom_machine("custommachinery:singularity_extractor", 200)
-        .requireFunctionEachTick(ctx => {
-            
-            let block = ctx.getBlock()
-            let level = block.getLevel()
-            let pos = block.getPos()
-
-            let centerX = pos.x + 0.5
-            let centerY = pos.y - 1.5
-            let centerZ = pos.z + 0.5
-
-            let coils = [
-                { x: centerX + 2, z: centerZ },     
-                { x: centerX - 2, z: centerZ },     
-                { x: centerX, z: centerZ + 2 },     
-                { x: centerX, z: centerZ - 2 }      
-            ]
-            for (let coil of coils) {
-                let t = counter / 10 
-                let x = coil.x + (centerX - coil.x) * t
-                let z = coil.z + (centerZ - coil.z) * t
-
-                level.spawnParticles("aquamirae:electric", true, x, centerY, z, 0, 0, 0, 1, 0.5)
-                if (t == 1) level.spawnParticles("supplementaries:bomb_explosion", true, x, centerY, z, 0, 0, 0, 1, 1)
-            }
-            counter++
-            if (counter > 10) counter = 0
-            return ctx.success()
-        })
+        .requireFunctionEachTick(ctx => { return Tick(ctx) })
         .produceItem('ftbic:singularity_ash')
         .requireStructure(
             [
@@ -106,4 +78,39 @@ ServerEvents.recipes(event => {
             },
         )
         .id(`custommachinery:singularity_extractor/singularity_ash`)
+
+    function Tick(/** @type {fr.frinn.custommachinery.common.integration.kubejs.function_.Context} */ ctx) {
+        let block = ctx.getBlock()
+        let level = block.getLevel()
+        let pos = block.getPos()
+
+        let totalTime = 200
+        let progress = totalTime - ctx.getRemainingTime()
+        let counter = progress % 10
+        let t = counter / 10
+
+        let centerX = pos.x + 0.5
+        let centerY = pos.y - 1.5
+        let centerZ = pos.z + 0.5
+
+        let coils = [
+            { x: centerX + 2, z: centerZ },
+            { x: centerX - 2, z: centerZ },
+            { x: centerX, z: centerZ + 2 },
+            { x: centerX, z: centerZ - 2 }
+        ]
+
+        for (let coil of coils) {
+            let x = coil.x + (centerX - coil.x) * t
+            let z = coil.z + (centerZ - coil.z) * t
+
+            level.spawnParticles("aquamirae:electric", true, x, centerY, z, 0, 0, 0, 1, 0.5)
+
+            if (counter == 9) {
+                level.spawnParticles("supplementaries:bomb_explosion", true, x, centerY, z, 0, 0, 0, 1, 1)
+            }
+        }
+
+        return ctx.success()
+    }
 })

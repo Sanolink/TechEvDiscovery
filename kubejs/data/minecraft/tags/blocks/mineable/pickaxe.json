@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create_new_age:energiser_t3",
+    "compactcrafting:field_projector",
+    "compactcrafting:rescan_proxy",
+    "compactcrafting:match_proxy"
+  ]
+}

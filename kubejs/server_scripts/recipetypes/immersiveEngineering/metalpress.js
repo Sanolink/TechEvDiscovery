@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.1         (_____)
 
 */
 
@@ -389,13 +389,13 @@ ServerEvents.recipes(event => {
         recipes.push(
             {
                 id: `${mat}_nugget_packing`,
-                output: parseIngredient(`#forge:nuggets/${mat}`),
-                input: IEChanceOrCountIngredient(`#forge:ingots/${mat}`, 9),
+                output: parseIngredient(`#forge:ingots/${mat}`),
+                input: IEChanceOrCountIngredient(`#forge:nuggets/${mat}`, 9),
                 mold: "immersiveengineering:mold_packing_9"
             },
             {
                 id: `${mat}_packing`,
-                output: parseIngredient(`#forge:ingots/${mat}`),
+                output: parseIngredient(`#forge:storage_blocks/${mat}`),
                 input: IEChanceOrCountIngredient(`#forge:ingots/${mat}`, 9),
                 mold: "immersiveengineering:mold_packing_9"
             },

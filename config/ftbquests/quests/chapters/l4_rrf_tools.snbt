@@ -532,5 +532,6 @@
 			y: 1.0d
 		}
 	]
+	subtitle: ["Channel energy into dimensional matter"]
 	title: " &l&4♦ &rRFTools"
 }

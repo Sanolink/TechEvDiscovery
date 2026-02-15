@@ -498,8 +498,8 @@
 			dependencies: ["2DDEA539A003F102"]
 			description: [
 				"With the &b&lAthame&r, you can get :"
-				"&lMerammer Roots&r with White Flowers"
-				"&lOanna&r with Lilly Pads."
+				"-&lMerammer Roots&r with White Flowers"
+				"-&lOanna&r with Lily Pads."
 			]
 			hide_dependency_lines: true
 			icon: {

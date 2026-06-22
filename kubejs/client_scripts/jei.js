@@ -528,7 +528,8 @@ JEIEvents.addItems(event => {
         Item.of('immersiveengineering:blueprint', '{blueprint:"bannerpatterns"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'),
         Item.of('immersiveengineering:blueprint', '{blueprint:"appliedComponents"}'),
-        'dustydecorations:bucket_o_coins_bucket'
+        'dustydecorations:bucket_o_coins_bucket',
+        'mekanism:creative_fluid_tank',
     ])
 
     global.TechEvBlockItems.forEach(entry => {

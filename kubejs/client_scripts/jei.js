@@ -474,7 +474,12 @@ JEIEvents.hideItems(event => {
         'chemlib:sulfur_trioxide_bucket',
         'chemlib:sulfuric_acid_bucket',
         'chemlib:hydrochloric_acid_bucket',
-        'trofers:ae2'
+        'trofers:ae2',
+        'tconstruct:dragon_scale',
+        'mekanism:creative_fluid_tank',
+        'ftbic:fluid_cell',
+        'evilcraft:dark_tank',
+        'mekanism:creative_chemical_tank'
     ])
 })
 
@@ -530,6 +535,9 @@ JEIEvents.addItems(event => {
         Item.of('immersiveengineering:blueprint', '{blueprint:"appliedComponents"}'),
         'dustydecorations:bucket_o_coins_bucket',
         'mekanism:creative_fluid_tank',
+        'ftbic:fluid_cell',
+        'evilcraft:dark_tank',
+        'mekanism:creative_chemical_tank'
     ])
 
     global.TechEvBlockItems.forEach(entry => {

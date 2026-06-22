@@ -11,8 +11,131 @@
 		}
 	}
 	id: "24223CD06DE9067C"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "techev:textures/misc/quests/tconstruct/tconstruct_title.png"
+			rotation: 0.0d
+			width: 7.614147909967846d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tconstruct:block/geode/ender/cluster"
+			rotation: 30.0d
+			width: 1.0d
+			x: -0.7999999999999972d
+			y: -2.778571428571432d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "0E19EE5FD7A0AF9E"
+			tasks: [{
+				id: "14BBA4C08C18D187"
+				item: {
+					Count: 1b
+					id: "tconstruct:smeltery_controller"
+					tag: {
+						texture: "tconstruct:seared_bricks"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "25BA879B13D06B22"
+			tasks: [{
+				id: "2C1D30369EC0B44C"
+				item: "tconstruct:cobalt_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "3B1E789E63C3F2FB"
+			tasks: [{
+				id: "02E06759906192BC"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "55A91F19B90785DF"
+			tasks: [{
+				id: "3FF744A7C6901B7E"
+				item: "tconstruct:pig_iron_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "5079319E92E24A06"
+			tasks: [{
+				id: "210E449FEF1D252F"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "7735D266B1492733"
+			tasks: [{
+				id: "5EB54C7AB50C3DE6"
+				item: "tconstruct:amethyst_bronze_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "69B9154A91E39F1D"
+			tasks: [{
+				id: "77D841EAA5A1E6D6"
+				item: "tconstruct:rose_gold_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "08E0C8CB1DB2D80B"
+			tasks: [{
+				id: "20A125D9088F342B"
+				item: "tconstruct:queens_slime_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "224772CD6F4CC3B6"
+			tasks: [{
+				id: "3F2127E76C9795A8"
+				item: "tconstruct:hepatizon_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+	]
 	title: " &l&7♦ &rTinker's Construct"
 }

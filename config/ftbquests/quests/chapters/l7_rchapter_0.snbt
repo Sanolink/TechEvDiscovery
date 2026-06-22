@@ -50,7 +50,7 @@
 			dependencies: ["3D74EFD924952F78"]
 			icon: "minecraft:ender_eye"
 			id: "35798B290A1A4F7F"
-			shape: "gear"
+			shape: "rhexagon"
 			tasks: [{
 				id: "0CF6288BA6E41B36"
 				title: "Exploring World"

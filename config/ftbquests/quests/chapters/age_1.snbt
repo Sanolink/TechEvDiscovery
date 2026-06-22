@@ -51,7 +51,7 @@
 			}]
 			title: "&lCreate"
 			x: 1.5d
-			y: 3.75d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0C959AB8F266A514"]
@@ -157,13 +157,10 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["74C9143F2AE3BB45"]
+			dependencies: ["3881F148E7F4F185"]
 			hide_text_until_complete: true
 			icon: {
 				Count: 1b
-				ForgeCaps: {
-					Parent: { }
-				}
 				id: "evilcraft:blood_infuser"
 				tag: { }
 			}
@@ -177,6 +174,17 @@
 			}]
 			title: "&lEvilCraft"
 			x: 0.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74C9143F2AE3BB45"]
+			id: "3881F148E7F4F185"
+			tasks: [{
+				id: "6C5A7EDA060F40EE"
+				item: "evilcraft:bucket_blood"
+				type: "item"
+			}]
+			x: 1.0d
 			y: 1.5d
 		}
 	]

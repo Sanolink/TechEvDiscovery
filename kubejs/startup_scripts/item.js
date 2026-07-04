@@ -168,6 +168,7 @@ StartupEvents.registry('item', e => {
 
     BasicItem('immersiveengineering:material_component_oscillating', "Oscillating Component")
     BasicItem('immersiveengineering:material_component_quantum', "Quantum Component")
+    BasicItem('immersiveengineering:mold_coin', "Metal Press Mold: Coin").unstackable()
 
     BasicItem('industrialforegoing:sludge_bottle', "Sludge Bottle")
     BasicItem('industrialforegoing:laser_lens16', "Astral Laser Lens")

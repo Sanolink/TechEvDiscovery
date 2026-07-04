@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.3.7         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -81,6 +81,15 @@ ServerEvents.recipes(event => {
                 parseIngredient('immersiveengineering:wire_lead')
             ],
             blueprint: "components"
+        },
+        {
+            id: "mold_coin",
+            output: parseIngredient('immersiveengineering:mold_coin'),
+            inputs: [
+                IEChanceOrCountIngredient('#forge:plates/steel', 3),
+                parseIngredient('immersiveengineering:wirecutter')
+            ],
+            blueprint: "molds"
         }
     ]
 

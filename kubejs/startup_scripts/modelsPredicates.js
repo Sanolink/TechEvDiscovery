@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,13 +13,14 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
 StartupEvents.postInit(event => {
     if (!Platform.isClientEnvironment()) return;
     const $ItemProperties = Java.loadClass('net.minecraft.client.renderer.item.ItemProperties')
+
     const Plates = [
         'ad_astra:calorite_plate',
         'ad_astra:desh_plate',
@@ -27,8 +28,8 @@ StartupEvents.postInit(event => {
         'ad_astra:ostrum_plate',
         'alltheores:aluminum_plate',
         'alltheores:brass_plate',
-        'alltheores:bronze_plate', 
-        'alltheores:constantan_plate', 
+        'alltheores:bronze_plate',
+        'alltheores:constantan_plate',
         'alltheores:copper_plate',
         'alltheores:diamond_plate',
         'alltheores:electrum_plate',
@@ -69,9 +70,13 @@ StartupEvents.postInit(event => {
         'undergarden:cloggrum_plate',
         'undergarden:froststeel_plate'
     ]
-    //All Plates
-    Plates.forEach(plate => {
-        $ItemProperties.register(Item.of(plate), new ResourceLocation('count'), (stack, world, living, seed) => {
+
+    const Coins = [];
+    ['platinum', 'osmium', 'aluminum', 'uranium', 'zinc', 'iridium', 'steel', 'cast_iron', 'brass'].forEach(mat => Coins.push(`thermal:${mat}_coin`))
+
+    //All Plates & Coins
+    Plates.concat(Coins).forEach(item => {
+        $ItemProperties.register(Item.of(item), new ResourceLocation('count'), (stack, world, living, seed) => {
             return stack.getCount() / stack.getMaxStackSize()
         })
     })
@@ -79,8 +84,8 @@ StartupEvents.postInit(event => {
     //Immmersive Engineering Blueprint Types
     $ItemProperties.register(Item.of('immersiveengineering:blueprint'), new ResourceLocation('blueprint_type'), (stack, world, living, seed) => {
         const nbt = stack.getNbt();
-        if (nbt && nbt.contains("blueprint")) {  
-            const blueprintType = nbt.getString("blueprint");  
+        if (nbt && nbt.contains("blueprint")) {
+            const blueprintType = nbt.getString("blueprint");
             switch (blueprintType) {
                 case "bannerpatterns":
                     return 1.0;
@@ -96,7 +101,8 @@ StartupEvents.postInit(event => {
                     return 6.0;
                 default:
                     return 0.0;
-            }}
+            }
+        }
         return 0.0
-    }) 
+    })
 })

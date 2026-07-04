@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.1         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -475,6 +475,9 @@ JEIEvents.hideItems(event => {
         'chemlib:sulfuric_acid_bucket',
         'chemlib:hydrochloric_acid_bucket'
     ])
+
+    global.TechEvCreateDecoCoinsMat.forEach(mat => event.hide(`createdeco:${mat}_coin`))
+    
 })
 
 JEIEvents.hideFluids(event => {

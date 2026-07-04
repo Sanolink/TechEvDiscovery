@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.1         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -81,9 +81,13 @@ ItemEvents.tooltip(event => {
 
     //Lost Soul
     event.add('forbidden_arcanus:soul', "§f✦ §lRight-click§f on a block to summon a §b§lLost Soul")
-    
+
     //Astral Dust
     event.add('enigmaticlegacy:astral_dust', "§a✦ §lAstral Dust§a can only be obtained with §6§lLaser Drill")
+    
+    //AE Cards 
+    event.add('aeinfinitybooster:infinity_card', "§7✦ Power usage: §f50,000 RF/t")
+    event.add('aeinfinitybooster:dimension_card', "§7✦ Power usage: §f200,000 RF/t")
     
     //Custom Machinery Multiblocks
     let multiblocks = [

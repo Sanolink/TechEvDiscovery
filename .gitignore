@@ -10,9 +10,6 @@
 /downloads
 /ESM
 /hotbar.nbt
-/hs_err_pid13392.log
-/hs_err_pid18540.log
-/hs_err_pid19628.log
 /imgui.ini
 /immersive_paintings
 /immersive_paintings_cache
@@ -23,8 +20,6 @@
 /localconfigs
 /logs
 /modernfix
-/mods/morediscs-1.19.2-31-forge.jar
-/music_sheets
 /options.txt
 /patchouli_books
 /patchouli_data.json
@@ -40,8 +35,6 @@
 /TrashSlotSaveState.json
 /usercache.json
 /usernamecache.json
-config/jei/world/local/Age_2_Experimentale/bookmarks.ini
-config/jei/world/server/Minecraft_Server_25ce26f6/bookmarks.ini
 config/worldstripper/settings.toml
 config/worldstripper/stripper.json
 resourcepacks/Quark Programmer Art.zip
@@ -53,3 +46,4 @@ kubejs/jsconfig.json
 user-prefs.json
 o_prof
 enigmatic_persistence.dat
+mods/*

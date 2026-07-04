@@ -1,7 +1,7 @@
 //priority: 10000
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -255,7 +255,16 @@ ServerEvents.recipes(e => {
     //Gems
     ['iceandfire:sapphire_gem', 'thermal:sapphire'].forEach(I => {replaceIO(I, 'alltheores:sapphire')});
     ['thermal:ruby'].forEach(I => {replaceIO(I, 'alltheores:ruby')});
-    
+
+    //Coins
+    ['createdeco:zinc_coin'].forEach(I => {replaceIO(I, 'thermal:zinc_coin')});
+    ['createdeco:copper_coin'].forEach(I => {replaceIO(I, 'thermal:copper_coin')});
+    ['createdeco:brass_coin'].forEach(I => {replaceIO(I, 'thermal:brass_coin')});
+    ['createdeco:iron_coin'].forEach(I => {replaceIO(I, 'thermal:iron_coin')});
+    ['createdeco:gold_coin'].forEach(I => {replaceIO(I, 'thermal:gold_coin')});
+    ['createdeco:netherite_coin'].forEach(I => {replaceIO(I, 'thermal:netherite_coin')});
+    ['createdeco:cast_iron_coin'].forEach(I => {replaceIO(I, 'thermal:cast_iron_coin')});
+
     //Others
     ['sushigocrafting:rice'].forEach(I => {replaceIO(I, 'farmersdelight:rice')});
     ['bhc:wither_bone'].forEach(I => {replaceIO(I, 'iceandfire:witherbone')});

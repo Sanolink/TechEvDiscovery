@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -293,6 +293,15 @@ JEIEvents.hideItems(event => {
         //Gems
         'iceandfire:sapphire_gem',
 
+        //Coins
+        'createdeco:zinc_coin',
+        'createdeco:copper_coin',
+        'createdeco:brass_coin',
+        'createdeco:iron_coin',
+        'createdeco:gold_coin',
+        'createdeco:netherite_coin',
+        'createdeco:cast_iron_coin',
+        
         //Dirty Materials
         'alltheores:dirty_uranium_dust', 'alltheores:uranium_shard', 'alltheores:uranium_crystal', 'alltheores:uranium_clump',
         'alltheores:dirty_tin_dust', 'alltheores:tin_shard', 'alltheores:tin_crystal', 'alltheores:tin_clump',
@@ -481,6 +490,9 @@ JEIEvents.hideItems(event => {
         'evilcraft:dark_tank',
         'mekanism:creative_chemical_tank'
     ])
+
+    global.TechEvCreateDecoCoinsMat.forEach(mat => event.hide(`createdeco:${mat}_coin`))
+    
 })
 
 JEIEvents.hideFluids(event => {

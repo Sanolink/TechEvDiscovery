@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.1         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -180,6 +180,12 @@ ServerEvents.recipes(event => {
             output: IEChanceOrCountIngredient("ftbic:enderium_wire", 2),
             input: parseIngredient("alltheores:enderium_ingot"),
             mold: "immersiveengineering:mold_wire"
+        },
+        {
+            id: `press_netherite_nugget_to_coin`,
+            output: parseIngredient(`#forge:coins/netherite`),
+            input: IEChanceOrCountIngredient(`#forge:nuggets/netherite`, 3),
+            mold: "immersiveengineering:mold_coin"
         }
     ]
 
@@ -300,7 +306,7 @@ ServerEvents.recipes(event => {
         )
     });
 
-     const RawPackingUnpacking = [
+    const RawPackingUnpacking = [
         'zinc',
         'aluminum',
         'osmium',
@@ -453,13 +459,42 @@ ServerEvents.recipes(event => {
         )
     })
 
+    // Ingots / Nuggets -> Coins
+    const IngotsNuggetsToCoins = [
+        'brass',
+        'cast_iron',
+        'steel',
+        'iridium',
+        'zinc',
+        'uranium',
+        'aluminum',
+        'osmium',
+        'platinum'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `press_${mat}_ingot_to_coin`,
+                output: IEChanceOrCountIngredient(`#forge:coins/${mat}`, 3),
+                input: parseIngredient(`#forge:ingots/${mat}`),
+                mold: "immersiveengineering:mold_coin"
+            },
+            {
+                id: `press_${mat}_nugget_to_coin`,
+                output: parseIngredient(`#forge:coins/${mat}`),
+                input: IEChanceOrCountIngredient(`#forge:nuggets/${mat}`, 3),
+                mold: "immersiveengineering:mold_coin"
+            }
+        )
+    });
+
     const Dies = {
         'thermal:press_packing_2x2_die': 'immersiveengineering:mold_packing_4',
         'thermal:press_packing_3x3_die': 'immersiveengineering:mold_packing_9',
-        'thermal:press_unpacking_die': 'immersiveengineering:mold_unpacking'
+        'thermal:press_unpacking_die': 'immersiveengineering:mold_unpacking',
+        'thermal:press_coin_die': 'immersiveengineering:mold_coin'
     }
     event.forEachRecipe({ type: 'thermal:press' }, recipe => {
-        
+
         let rawIngredients = recipe.json.get('ingredients');
         if (rawIngredients == null) return;
         let ingredients = [];

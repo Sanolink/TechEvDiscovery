@@ -1,7 +1,7 @@
 //priority: 8000
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -168,6 +168,7 @@ StartupEvents.registry('item', e => {
 
     BasicItem('immersiveengineering:material_component_oscillating', "Oscillating Component")
     BasicItem('immersiveengineering:material_component_quantum', "Quantum Component")
+    BasicItem('immersiveengineering:mold_coin', "Metal Press Mold: Coin").unstackable()
 
     BasicItem('industrialforegoing:sludge_bottle', "Sludge Bottle")
     BasicItem('industrialforegoing:laser_lens16', "Astral Laser Lens")
@@ -234,6 +235,9 @@ StartupEvents.registry('item', e => {
     BasicItem('thermal:press_rod_die', "Rodworking Die").unstackable()
     BasicItem('thermal:press_wire_die', "Wireworking Die").unstackable()
     BasicItem('thermal:trizz_powder', "Trizz Powder")
+    const Coins = ['platinum', 'osmium', 'aluminum', 'uranium', 'zinc', 'iridium', 'steel', 'brass'].forEach(mat => {
+      BasicItem(`thermal:${mat}_coin`, `${mat.charAt(0).toUpperCase() + mat.slice(1)} Coin`).tag("forge:coins").tag(`forge:coins/${mat}`)})
+    BasicItem('thermal:cast_iron_coin', "Cast Iron Coin").tag("forge:coins").tag("forge:coins/cast_iron")
 
     BasicItem('thermalendergy:prismalium_rod', "Prismalium Rod").tag("forge:rods").tag(`forge:rods/prismalium`).tag("forge:rods/metal")
     BasicItem('thermalendergy:melodium_rod', "Melodium Rod").tag("forge:rods").tag(`forge:rods/melodium`).tag("forge:rods/metal")

@@ -1,7 +1,7 @@
 //priority: 10000
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -14,10 +14,12 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
+const $JsonIO = Java.loadClass('dev.latvian.mods.kubejs.util.JsonIO')
+const $Platform = Java.loadClass('dev.architectury.platform.Platform')
 
 global.TechEvItems = [
     'custommachinery:custom_machine_item',
@@ -92,3 +94,10 @@ global.TechEvItems = [
 global.TechEvBlocks = []
 
 global.TechEvBlockItems = []
+
+const $Config = $Platform.getConfigFolder()
+global.TechEvCreateDecoCoinsMat = JSON.parse(
+    String($JsonIO.readString($Config.getFileSystem().getPath($Config.toString(), 'techev_additions-coins.json')))
+).map(name => name.toLowerCase().replace(/ /g, '_'))
+
+global.TechEvCreateDecoCoinsMat.forEach(mat => global.TechEvItems.push(`createdeco:${mat}_coinstack`))

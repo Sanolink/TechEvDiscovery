@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -256,6 +256,15 @@ ServerEvents.tags('item', e => {
     e.remove('forge:gems/sapphire', 'iceandfire:sapphire_gem', 'thermal:sapphire')
     e.remove('forge:gems/ruby', 'thermal:ruby')
    
+    //Coins
+    e.remove('forge:coins/zinc', 'createdeco:zinc_coin')
+    e.remove('forge:coins/copper', 'createdeco:copper_coin')
+    e.remove('forge:coins/brass', 'createdeco:brass_coin')
+    e.remove('forge:coins/iron', 'createdeco:iron_coin')
+    e.remove('forge:coins/gold', 'createdeco:gold_coin')
+    e.remove('forge:coins/netherite', 'createdeco:netherite_coin')
+    e.remove('forge:coins/cast_iron', 'createdeco:cast_iron_coin')
+
     //Others
     e.remove('forge:crops/rice', 'sushigocrafting:rice')
     e.remove('forge:plastic', 'industrialforegoing:plastic')

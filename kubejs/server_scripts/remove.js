@@ -1,7 +1,7 @@
 //priority: 9000
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -137,6 +137,13 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:mixing/andesite_alloy_from_zinc'})
     event.remove({ id: 'create:pressing/desh_ingot'})
     event.remove({ id: 'create:pressing/ostrum_ingot'})
+    event.remove({ id: 'minecraft:pressing/zinc_coin'})
+    event.remove({ id: 'minecraft:pressing/copper_coin'})
+    event.remove({ id: 'minecraft:pressing/brass_coin'})
+    event.remove({ id: 'minecraft:pressing/iron_coin'})
+    event.remove({ id: 'minecraft:pressing/gold_coin'})
+    event.remove({ id: 'minecraft:pressing/netherite_coin'})
+    event.remove({ id: 'minecraft:pressing/cast_iron_coin'})
     event.remove({ id: 'create:pressing/calorite_ingot'})
     event.remove({ id: 'createaddition:pressing/steel_ingot'})
     event.remove({ id: 'create:compat/byg/crushing/lignite_ore'})

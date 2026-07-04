@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         },
         {
             id: `experience_gear`,
-            ingredients: ChanceOrCountItem('create:experience_nugget', 64),
+            ingredients: ChanceOrCountTag('#forge:plates/experience', 64),
             output: ChanceOrCountItem('create_things_and_misc:experience_gear', 16)
         },
         {
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
         },
         {
             id: `diamond_gear`,
-            ingredients: ChanceOrCountItem('minecraft:diamond', 64),
+            ingredients: ChanceOrCountTag('#forge:plates/diamond', 64),
             output: ChanceOrCountItem('alltheores:diamond_gear', 16)
         },
         {
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
         },
         {
             id: `carbon_gear`,
-            ingredients: ChanceOrCountItem('ftbic:carbon_fiber_mesh', 64),
+            ingredients: ChanceOrCountTag('#forge:plates/carbon', 64),
             output: ChanceOrCountItem('ftbic:carbon_gear', 16)
         }
     ]
@@ -161,8 +161,8 @@ ServerEvents.recipes(event => {
                 output: ChanceOrCountItem(TagToItem(`#forge:rods/${mat}_quartz`), 64)
             },
             {
-                id: `quartz/${mat}_to_${mat}_gear`,
-                ingredients: ChanceOrCountTag(`#forge:polished_quartz/${mat}`, 64),
+                id: `plates/${mat}_to_${mat}_gear`,
+                ingredients: ChanceOrCountTag(`#forge:plates/${mat}_quartz`, 64),
                 output: ChanceOrCountItem(TagToItem(`#forge:gears/${mat}_quartz`), 16)
             }
         )

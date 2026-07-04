@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
         {
             id: `carbon_to_rod`,
             output: ChanceOrCountItem('ftbic:carbon_rod', 2),
-            ingredients:[parseIngredient('ftbic:carbon_fiber_mesh'), parseIngredient('thermal:press_rod_die')]
+            ingredients: [parseIngredient('ftbic:carbon_fiber_mesh'), parseIngredient('thermal:press_rod_die')]
         },
         {
             id: "prismalium_nugget_packing",
@@ -108,6 +108,11 @@ ServerEvents.recipes(event => {
             id: "electrode",
             output: parseIngredient("immersiveengineering:graphite_electrode"),
             ingredients: [ChanceOrCountItem("immersiveengineering:ingot_hop_graphite", 4), parseIngredient('thermal:press_rod_die')],
+        },
+        {
+            id: `netherite_nugget_to_coin`,
+            output: parseIngredient(TagToItem(`#forge:coins/netherite`)),
+            ingredients: [ChanceOrCountTag(`#forge:nuggets/netherite`, 3), parseIngredient('thermal:press_coin_die')]
         }
     ]
 
@@ -224,7 +229,7 @@ ServerEvents.recipes(event => {
             }
         )
     });
-    
+
     const MysticalIngotsPackingUnpacking = [
         'soulium',
         'awakened_supremium',
@@ -479,7 +484,34 @@ ServerEvents.recipes(event => {
             }
         )
     });
- 
+
+
+    // Ingots / Nuggets -> Coins
+    const IngotsNuggetsToCoins = [
+        'brass',
+        'cast_iron',
+        'steel',
+        'iridium',
+        'zinc',
+        'uranium',
+        'aluminum',
+        'osmium',
+        'platinum'
+    ].forEach(mat => {
+        recipes.push(
+            {
+                id: `${mat}_ingot_to_coin`,
+                output: ChanceOrCountItem(TagToItem(`#forge:coins/${mat}`), 3),
+                ingredients: [parseIngredient(`#forge:ingots/${mat}`), parseIngredient('thermal:press_coin_die')]
+            },
+            {
+                id: `${mat}_nugget_to_coin`,
+                output: parseIngredient(TagToItem(`#forge:coins/${mat}`)),
+                ingredients: [ChanceOrCountTag(`#forge:nuggets/${mat}`, 3), parseIngredient('thermal:press_coin_die')]
+            }
+        )
+    });
+
     //General Press Function
     recipes.forEach(recipe => {
         let json = {

@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
         recipes.push(
             {
                 id: `quartz/${mat}_to_${mat}_plate`,
-                ingredients: ChanceOrCountTag(`#forge:polished_quartz/${mat}`, 32),
+                ingredients: ChanceOrCountTag(`#forge:polished_quartz/${mat}`, 64),
                 output: ChanceOrCountItem(TagToItem(`#forge:plates/${mat}_quartz`), 64)
             }
         )

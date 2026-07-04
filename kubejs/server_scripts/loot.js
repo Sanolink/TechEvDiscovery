@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -268,6 +268,15 @@ LootJS.modifiers((event) => {
     replaceLT(['#forge:gems/sapphire', 'thermal:sapphire', 'iceandfire:sapphire_gem'], 'alltheores:sapphire')
     replaceLT(['#forge:gems/ruby', 'thermal:ruby'], 'alltheores:ruby')
     
+    //Coins
+     replaceLT(['#forge:coins/zinc', 'createdeco:zinc_coin'], 'thermal:zinc_coin')
+     replaceLT(['#forge:coins/copper', 'createdeco:copper_coin'], 'thermal:copper_coin')
+     replaceLT(['#forge:coins/brass', 'createdeco:brass_coin'], 'thermal:brass_coin')
+     replaceLT(['#forge:coins/iron', 'createdeco:iron_coin'], 'thermal:iron_coin')
+     replaceLT(['#forge:coins/gold', 'createdeco:gold_coin'], 'thermal:gold_coin')
+     replaceLT(['#forge:coins/netherite', 'createdeco:netherite_coin'], 'thermal:netherite_coin')
+     replaceLT(['#forge:coins/cast_iron', 'createdeco:cast_iron_coin'], 'thermal:cast_iron_coin')
+
     //Others
     replaceLT(['#forge:crops/rice', 'sushigocrafting:rice', 'sushigocrafting:rice_seeds'], 'farmersdelight:rice')
     replaceLT(['#forge:plastic', 'industrialforegoing:plastic'], 'pneumaticcraft:plastic')

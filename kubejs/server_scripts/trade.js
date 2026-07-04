@@ -1,6 +1,6 @@
 /* 
  _____                                             _____ 
-( ___ ) © SanoLink 2024/2025. All rights reserved.( ___ )
+( ___ ) © SanoLink 2024/2026. All rights reserved.( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
  |   |  _____         _     _____        ______    |   | 
  |   | |_   _|__  ___| |__ | ____|_   __ \ \ \ \   |   | 
@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.2         (_____)
 
 */
 
@@ -22,7 +22,7 @@ MoreJSEvents.villagerTrades(event => {
     event.removeModdedTrades("immersiveengineering:electrician", 1)
     event.removeModdedTrades("immersiveengineering:machinist", 1)
     event.removeModdedTrades("pneumaticcraft:mechanic", 1)
-    event.removeModdedTrades("ae2:fluix_researcher", 1)
+    event.removeVanillaTrades("ae2:fluix_researcher", 1)
 
 })
 

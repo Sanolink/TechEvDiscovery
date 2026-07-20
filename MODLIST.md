@@ -1,6 +1,6 @@
 ﻿# TechEv - Discovery
 
-**Minecraft :** 1.19.2 | **Forge :** 43.5.0 | **Mods :** 396
+**Minecraft :** 1.19.2 | **Forge :** 43.5.0 | **Mods :** 396 (396 CurseForge + 0 local)
 
 | Mod |  File  | Author |
 |-----|--------|--------|

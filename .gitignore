@@ -47,3 +47,5 @@ user-prefs.json
 o_prof
 enigmatic_persistence.dat
 mods/*
+minecraftinstance.json
+setup/.mci.backup

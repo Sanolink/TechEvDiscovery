@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.2         (_____)
+(_____)         Last Modification : 1.6.0         (_____)
 
 */
 
@@ -314,7 +314,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'minecraft:beehive'})
     event.remove({ id: 'minecraft:bread' })
     event.remove({ id: 'minecraft:cookie' })
-    event.remove({ id: 'minecraft:decorations/decorated_pot_simple' })
 
     //Myrtrees 
     event.remove({ id: 'myrtrees:wooden_bucket'})

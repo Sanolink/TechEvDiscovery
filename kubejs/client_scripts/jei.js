@@ -353,7 +353,6 @@ JEIEvents.hideItems(event => {
         'pneumaticcraft:wheat_flour',
         'create:dough',
         'immersiveengineering:slag',
-        'minecraft:decorated_pot',
         'ad_astra:oil_bucket',
         'ad_astra:hammer',
         'mysticalagradditions:nether_prosperity_ore',

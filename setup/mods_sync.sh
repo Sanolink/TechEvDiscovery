@@ -1,10 +1,16 @@
-echo "#!/bin/sh" > .git/hooks/post-merge
-echo "java -jar InstanceSync.jar" >> .git/hooks/post-merge
+#!/bin/sh
+cat > .git/hooks/post-merge <<'EOF'
+#!/bin/sh
+sh "$(git rev-parse --show-toplevel)/setup/sync.sh"
+EOF
 
-echo "#!/bin/sh" > .git/hooks/post-checkout
-echo "java -jar InstanceSync.jar" >> .git/hooks/post-checkout
+cat > .git/hooks/post-checkout <<'EOF'
+#!/bin/sh
+[ "$3" = "1" ] || exit 0
+sh "$(git rev-parse --show-toplevel)/setup/sync.sh"
+EOF
 
-echo "Done setting up hooks"
-echo "Running InstanceSync"
+chmod +x .git/hooks/post-merge .git/hooks/post-checkout
 
-java -jar InstanceSync.jar
+echo "Hooks installed"
+sh setup/sync.sh

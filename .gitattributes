@@ -1,0 +1,3 @@
+setup/mods.lock.json text eol=lf
+setup/extra-mods.json text eol=lf
+setup/local-mods/*.jar binary

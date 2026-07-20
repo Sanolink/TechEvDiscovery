@@ -1,6 +1,6 @@
 ﻿# TechEv - Discovery
 
-**Minecraft :** 1.19.2 | **Forge :** 43.5.0 | **Mods :** 416
+**Minecraft :** 1.19.2 | **Forge :** 43.5.0 | **Mods :** 418 (417 CurseForge + 1 local)
 
 | Mod |  File  | Author |
 |-----|--------|--------|
@@ -56,7 +56,7 @@
 | [Borderless Window](https://www.curseforge.com/minecraft/mc-mods/borderless) | `BorderlessWindow-1.19.1-1.5.2` | nimueller |
 | [Born in Chaos](https://www.curseforge.com/minecraft/mc-mods/born-in-chaos) | `born_in_chaos_[Forge]1.19.2_1.10.1` | mongoose_artist |
 | [Botania](https://www.curseforge.com/minecraft/mc-mods/botania) | `Botania-1.19.2-440.2-FORGE` | Vazkii |
-| [Botania Editor](https://www.curseforge.com/minecraft/mc-mods/botania-editor) | `BotaniaEditor-1.19.2-1.0.9` | MtChloe05 |
+| [Botania Editor](https://www.curseforge.com/minecraft/mc-mods/botania-editor) | `BotaniaEditor-1.19.2-1.0.9` | MtcLuna05 |
 | [Botany Pots](https://www.curseforge.com/minecraft/mc-mods/botany-pots) | `BotanyPots-Forge-1.19.2-9.0.43` | DarkhaxDev |
 | [Botany Pots Tiers](https://www.curseforge.com/minecraft/mc-mods/botany-pots-tiers) | `BotanyPotsTiers-Forge-1.19.2-3.3.2` | Ultramegaaa |
 | [Botany Trees](https://www.curseforge.com/minecraft/mc-mods/botany-trees) | `BotanyTrees-Forge-1.19.2-5.0.12` | DarkhaxDev |
@@ -72,6 +72,7 @@
 | [ChoiceTheorem's Overhauled Village](https://www.curseforge.com/minecraft/mc-mods/choicetheorems-overhauled-village) | `ctov-3.2.6c` | ChoiceTheorem |
 | [Chunky (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator-forge) | `Chunky-1.3.38` | pop4959 |
 | [Citadel](https://www.curseforge.com/minecraft/mc-mods/citadel) | `citadel-2.1.4-1.19` | sbom_xela |
+| [Clayworks](https://www.curseforge.com/minecraft/mc-mods/clayworks) | `clayworks-1.19.2-2.1.0` | TeamAbnormals |
 | [Clickable advancements](https://www.curseforge.com/minecraft/mc-mods/clickable-advancements) | `clickadv-1.19.2-3.6` | someaddon |
 | [Cloth Config API (Fabric/Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config) | `cloth-config-8.3.134-forge` | shedaniel |
 | [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) | `Clumps-forge-1.19.2-9.0.0+14` | Jaredlll08 |
@@ -197,7 +198,7 @@
 | [Iron Furnaces](https://www.curseforge.com/minecraft/mc-mods/iron-furnaces) | `ironfurnaces-1.19.2-3.6.5` | XenoMustache |
 | [Iron's Spells 'n Spellbooks](https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks) | `irons_spellbooks-1.19.2-3.4.0` | Iron431 |
 | [Item Collectors](https://www.curseforge.com/minecraft/mc-mods/item-collectors) | `itemcollectors-1.1.12-forge-mc1.19.2` | SuperMartijn642 |
-| [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters) | `item-filters-forge-1902.2.9-build.51` | LatvianModder |
+| [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters) | `item-filters-forge-1902.2.9-build.51` | Lat |
 | [Item Highlighter [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/item-highlighter) | `Highlighter-1.19.1-1.1.4` | Grend_G |
 | [Item Production Lib](https://www.curseforge.com/minecraft/mc-mods/item-production-lib) | `ItemProductionLib-1.19.2-1.0.2a-all` | Daripher |
 | [Jade Addons (Neo/Forge)](https://www.curseforge.com/minecraft/mc-mods/jade-addons) | `JadeAddons-1.19.2-forge-3.6.0` | Snownee |
@@ -215,7 +216,7 @@
 | [KleeSlabs](https://www.curseforge.com/minecraft/mc-mods/kleeslabs) | `kleeslabs-forge-1.19.2-12.3.0` | BlayTheNinth |
 | [Konkrete](https://www.curseforge.com/minecraft/mc-mods/konkrete) | `konkrete_forge_1.8.0_MC_1.19-1.19.2` | Keksuccino |
 | [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge) | `kotlinforforge-3.12.0-all` | thedarkcolour |
-| [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) | `kubejs-forge-1902.6.2-build.73` | LatvianModder |
+| [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) | `kubejs-forge-1902.6.2-build.73` | Lat |
 | [L_Ender 's Cataclysm](https://www.curseforge.com/minecraft/mc-mods/lendercataclysm) | `L_Enders_Cataclysm-2.46-1.19.2` | mcl_ender |
 | [Lazy DataFixerUpper(LazyDFU) [FORGE]](https://www.curseforge.com/minecraft/mc-mods/lazy-dfu-forge) | `lazydfu-1.19-1.0.2` | corgi_taco_archive |
 | [Legendary Tooltips [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips) | `LegendaryTooltips-1.19.2-forge-1.4.0` | Grend_G |
@@ -223,7 +224,7 @@
 | [LibX](https://www.curseforge.com/minecraft/mc-mods/libx) | `LibX-1.19.2-4.2.8` | noeppi_noeppi |
 | [Lightspeed - Launch optimizations](https://www.curseforge.com/minecraft/mc-mods/lightspeedmod) | `lightspeed-1.19.2-1.0.5` | ccr4ft3r |
 | [Lionfish API](https://www.curseforge.com/minecraft/mc-mods/lionfish-api) | `lionfishapi-1.8` | mcl_ender |
-| [Lit it Up](https://www.curseforge.com/minecraft/mc-mods/lit-it-up) | `lititup-1.19.2-1.27.1` | Eruannie_9 |
+| [Lit it Up](https://www.curseforge.com/minecraft/mc-mods/lit-it-up) | `lititup-1.19.2-1.28` | Eruannie_9 |
 | [Lodestone](https://www.curseforge.com/minecraft/mc-mods/lodestone) | `lodestone-1.19.2-1.4.2.90` | sammysemicolon |
 | [Log Begone](https://www.curseforge.com/minecraft/mc-mods/log-begone) | `Log-Begone-Forge-1.19-1.0.6` | AzureDoomC |
 | [Login Protection](https://www.curseforge.com/minecraft/mc-mods/login-protection) | `logprot-1.19.2-1.9` | someaddon |
@@ -282,6 +283,7 @@
 | [NetherPortalFix](https://www.curseforge.com/minecraft/mc-mods/netherportalfix) | `netherportalfix-forge-1.19-10.0.1` | BlayTheNinth |
 | [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight) | `NethersDelight-1.19-3.1` | lumpazl |
 | [No Chat Reports](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports) | `NoChatReports-FORGE-1.19.2-v1.5.1` | Aizistral |
+| [No Tree Punching](https://www.curseforge.com/minecraft/mc-mods/no-tree-punching) | `notreepunching-forge-1.19.2-6.0.0` | AlcatrazEscapee |
 | [NoMoWanderer](https://www.curseforge.com/minecraft/mc-mods/nomowanderer) | `nomowanderer-1.19.2_1.3.15` | TheJDill |
 | [Not Enough Animations](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) | `notenoughanimations-forge-1.12.4-mc1.19.2` | tr7zw |
 | [Not Enough Crashes (Forge)](https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes-forge) | `notenoughcrashes-5.0.0+1.19.2-forge` | NatanFudge |
@@ -330,7 +332,7 @@
 | [RFTools Power](https://www.curseforge.com/minecraft/mc-mods/rftools-power) | `rftoolspower-1.19-5.1.2` | McJty |
 | [RFTools Storage](https://www.curseforge.com/minecraft/mc-mods/rftools-storage) | `rftoolsstorage-1.19-4.1.3` | McJty |
 | [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility) | `rftoolsutility-1.19-5.1.10` | McJty |
-| [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino) | `rhino-forge-1902.2.3-build.284` | LatvianModder |
+| [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino) | `rhino-forge-1902.2.3-build.284` | Lat |
 | [Roots Classic](https://www.curseforge.com/minecraft/mc-mods/roots-classic) | `RootsClassic-1.19.2-1.1.35` | Lothrazar |
 | [Sand Box](https://www.curseforge.com/minecraft/mc-mods/sand_box) | `SandBox-1.19.2-1.0.1` | noeppi_noeppi |
 | [Saturn](https://www.curseforge.com/minecraft/mc-mods/saturn) | `saturn-mc1.19.2-0.1.4` | AbdElAziz333 |
@@ -368,7 +370,7 @@
 | [TARDIS Refined](https://www.curseforge.com/minecraft/mc-mods/tardis-refined) | `TARDIS Refined-1.19.2-1.0.1-forge` | commandrmooselive |
 | [Tardis Refined: ExtraShells](https://www.curseforge.com/minecraft/mc-mods/extrashells) | `forge-extra_shells-1.0.1` | Jeryn |
 | [Team ProjectE](https://www.curseforge.com/minecraft/mc-mods/team-projecte) | `teamprojecte-1.19.2-1.1.2` | 6LeoY |
-| [TechEv \|\| Additions](https://www.curseforge.com/minecraft/mc-mods/techevadditions) | `techev_additions-1.19.2-1.3.1` | SanoLink |
+| TechEv Additions 🔧 | `techev_additions-1.19.2-1.4.0` | SanoLink |
 | [TerraBlender (Forge)](https://www.curseforge.com/minecraft/mc-mods/terrablender) | `TerraBlender-forge-1.19.2-2.0.1.136` | TheAdubbz |
 | [TexTrue's Embeddium Options](https://www.curseforge.com/minecraft/mc-mods/textrues-embeddium-options) | `textrues_embeddium_options-0.1.1+mc1.19.2` | TexTrue |
 | [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest) | `twilightforest-1.19.2-4.2.1518-universal` | Benimatic |

@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.5.2         (_____)
+(_____)         Last Modification : 1.5.3         (_____)
 
 */
 
@@ -129,7 +129,7 @@ StartupEvents.registry('item', e => {
     BasicItem('create:brass_alloy', "Brass Alloy")
     BasicItem('create:copper_alloy', "Copper Alloy")
     const CrushedOres = ['desh', 'ostrum', 'calorite', 'nephryx', 'iridium', 'iesnium', 'elementium', 'cloggrum', 'froststeel', 'falsite', 'ventium', 'horizonite'].forEach(mat => {
-      BasicItem(`create:crushed_raw_${mat}`, `Crushed ${mat.charAt(0).toUpperCase() + mat.slice(1)} Ore`)})
+      BasicItem(`create:crushed_raw_${mat}`, `Crushed ${mat.charAt(0).toUpperCase() + mat.slice(1)} Ore`).tag('create:crushed_raw_materials')})
     BasicItem('create:electron_shell', "Electron Shell")
     BasicItem('create:blue_quartz', "Blue Quartz")
     BasicItem('create:polished_blue_quartz', "Polished Blue Quartz").tag('forge:polished_quartz').tag('forge:polished_quartz/blue')

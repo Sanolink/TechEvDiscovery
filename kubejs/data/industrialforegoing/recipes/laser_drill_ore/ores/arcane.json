@@ -30,7 +30,15 @@
                 "minecraft:small_end_islands",
                 "minecraft:end_barrens",
                 "minecraft:end_highlands",
-                "minecraft:end_midlands"
+                "minecraft:end_midlands",
+                "byg:bulbis_gardens",
+                "byg:cryptic_wastes",
+                "byg:ethereal_islands",
+                "byg:imparius_grove",
+                "byg:ivis_fields",
+                "byg:nightshade_forest",
+                "byg:shulkren_forest",
+                "byg:viscal_isles"
               ]
             },
             "depth_max": 60,
@@ -47,7 +55,15 @@
                 "minecraft:small_end_islands",
                 "minecraft:end_barrens",
                 "minecraft:end_highlands",
-                "minecraft:end_midlands"
+                "minecraft:end_midlands",
+                "byg:bulbis_gardens",
+                "byg:cryptic_wastes",
+                "byg:ethereal_islands",
+                "byg:imparius_grove",
+                "byg:ivis_fields",
+                "byg:nightshade_forest",
+                "byg:shulkren_forest",
+                "byg:viscal_isles"
               ]
             },
             "depth_max": 255,

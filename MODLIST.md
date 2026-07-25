@@ -6,7 +6,7 @@
 |-----|--------|--------|
 | [Ad Astra](https://www.curseforge.com/minecraft/mc-mods/ad-astra) | `ad_astra-forge-1.19.2-1.12.7` | AlexNijjar |
 | [Ad Astra: Giselle Addon](https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon) | `Ad-Astra-Giselle-Addon-forge-1.19.2-1.29` | gisellevonbingen |
-| [AddonsLib](https://www.curseforge.com/minecraft/mc-mods/addonslib) | `addonslib-forge-1.19-1.9` | Samlegamer_ |
+| [AddonsLib](https://www.curseforge.com/minecraft/mc-mods/addonslib) | `addonslib-forge-1.19-1.10` | Samlegamer_ |
 | [Advanced Peripherals](https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals) | `AdvancedPeripherals-1.19.2-0.7.37r` | srrendi |
 | [Advanced Shulkerboxes](https://www.curseforge.com/minecraft/mc-mods/advanced-shulkerboxes) | `shulkerbox-1.19.2-1.0.0` | henkelmax |
 | [Advancement Plaques [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques) | `AdvancementPlaques-1.19.2-1.4.7` | Grend_G |
@@ -41,7 +41,7 @@
 | [Better chunk loading](https://www.curseforge.com/minecraft/mc-mods/better-chunk-loading-forge-fabric) | `betterchunkloading-1.19.2-4.2` | someaddon |
 | [Better Combat [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus) | `bettercombat-forge-1.7.1+1.19` | daedelus_dev |
 | [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) | `BetterCompatibilityChecker-1.0.10-build.50+mc1.19.2` | Gaz_ |
-| [Better Fps - Render Distance[Forge/Neoforge]](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance) | `betterfpsdist-1.19.2-4.1` | someaddon |
+| [Better Fps - Render Distance](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance) | `betterfpsdist-1.19.2-4.1` | someaddon |
 | [Better Jukeboxes](https://www.curseforge.com/minecraft/mc-mods/better-jukeboxes) | `betterjukebox-1.19.2-1.4` | MehVahdJukaar |
 | [Better Muffling](https://www.curseforge.com/minecraft/mc-mods/better-muffling) | `Better Muffling-1.19.2-1.1.1` | Korti11 |
 | [Better Statistics Screen](https://www.curseforge.com/minecraft/mc-mods/betterstats) | `betterstats-2.2.2+1.19.2` | TheCSDev |
@@ -112,7 +112,7 @@
 | [Cucumber Library](https://www.curseforge.com/minecraft/mc-mods/cucumber) | `Cucumber-1.19.2-6.0.11` | BlakeBr0 |
 | [Culinary Construct (Forge/Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/culinary-construct) | `culinaryconstruct-forge-5.0.1+1.19.2` | TheIllusiveC4 |
 | [Cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard) | `cupboard-1.19.2-2.6` | someaddon |
-| [Curios API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/curios) | `curios-forge-1.19.2-5.1.6.4` | TheIllusiveC4 |
+| [Curios API](https://www.curseforge.com/minecraft/mc-mods/curios) | `curios-forge-1.19.2-5.1.6.4` | TheIllusiveC4 |
 | [Custom Machinery](https://www.curseforge.com/minecraft/mc-mods/custom-machinery) | `CustomMachinery-forge-1.19.2-0.9.23` | frinn38 |
 | [Cyclops Core](https://www.curseforge.com/minecraft/mc-mods/cyclops-core) | `CyclopsCore-1.19.2-1.21.0` | kroeser |
 | [Darker Depths](https://www.curseforge.com/minecraft/mc-mods/darker-depths) | `DarkerDepths-1.19.2-1.0.0` | naterbobber |
@@ -173,7 +173,7 @@
 | [FTB Ultimine (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge) | `ftb-ultimine-forge-1902.4.2-build.14` | FTB |
 | [FTB XMod Compat](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat) | `ftb-xmod-compat-forge-1.2.4` | FTB |
 | [Functional Storage](https://www.curseforge.com/minecraft/mc-mods/functional-storage) | `functionalstorage-1.19.2-1.1.12` | Buuz135 |
-| [Fusion (Connected Textures)](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures) | `fusion-1.2.12-forge-mc1.19.2` | SuperMartijn642 |
+| [Fusion (Connected Textures)](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures) | `fusion-1.3.9-forge-mc1.19.2` | SuperMartijn642 |
 | [Gateways to Eternity](https://www.curseforge.com/minecraft/mc-mods/gateways-to-eternity) | `GatewaysToEternity-1.19.2-3.2.3` | Shadows_of_Fire |
 | [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib) | `geckolib-forge-1.19-3.1.40` | Gecko |
 | [Glassential](https://www.curseforge.com/minecraft/mc-mods/glassential) | `glassential-forge-1.19-1.2.4` | Lykrast |
@@ -209,7 +209,7 @@
 | [Just Another Void Dimension](https://www.curseforge.com/minecraft/mc-mods/javd) | `javd-forge-4.0.1-build.2+mc1.19.2` | UnRealDinnerbone |
 | [Just Enough Breeding (JEBr)](https://www.curseforge.com/minecraft/mc-mods/justenoughbreeding) | `justenoughbreeding-forge-1.19.2-1.4.0` | Christofmeg |
 | [Just Enough Immersive Multiblocks](https://www.curseforge.com/minecraft/mc-mods/just-enough-immersive-multiblocks) | `jeimultiblocks-1.19.2-0.0.3` | aronson_1 |
-| [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei) | `jei-1.19.2-forge-11.8.1.1034` | mezz |
+| [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei) | `jei-1.19.2-forge-11.8.1.1035` | mezz |
 | [Just Enough Mekanism Multiblocks](https://www.curseforge.com/minecraft/mc-mods/just-enough-mekanism-multiblocks) | `JustEnoughMekanismMultiblocks-1.19.2-3.13` | gisellevonbingen |
 | [Just Enough Professions (JEP)](https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep) | `JustEnoughProfessions-forge-1.19.2-2.0.2` | Mrbysco |
 | [Just Enough Resources (JER)](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer) | `JustEnoughResources-1.19.2-1.2.3.243` | way2muchnoise |
@@ -345,7 +345,7 @@
 | [Showcase Item](https://www.curseforge.com/minecraft/mc-mods/showcase-item) | `showcaseitem-1.19.2-1.1` | Ultramegaaa |
 | [Shrink.](https://www.curseforge.com/minecraft/mc-mods/shrink_) | `Shrink-1.19-1.3.5` | Gigabit101 |
 | [Shutup Experimental Settings!](https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings) | `shutupexperimentalsettings-1.0.5` | corgi_taco_archive |
-| [Simple Discord RPC](https://www.curseforge.com/minecraft/mc-mods/simple-discord-rpc) | `SimpleRPC-4.1.2` | HypherionSA |
+| [Simple Discord RPC](https://www.curseforge.com/minecraft/mc-mods/simple-discord-rpc) | `SimpleRPC-4.1.4` | HypherionSA |
 | [Simple Storage Network](https://www.curseforge.com/minecraft/mc-mods/simple-storage-network) | `SimpleStorageNetwork-1.19.2-1.7.1` | Lothrazar |
 | [Simply Light](https://www.curseforge.com/minecraft/mc-mods/simply-light) | `simplylight-1.19.2-1.4.5-build.42` | Flanks255 |
 | [Simply Swords [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/simply-swords) | `simplyswords-forge-1.47.0-1.19.2` | sweenuss |

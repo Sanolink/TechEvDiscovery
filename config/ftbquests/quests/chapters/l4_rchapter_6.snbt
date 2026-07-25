@@ -136,6 +136,9 @@
 			dependencies: ["4E7356179682035C"]
 			description: [
 				"&l&6Dimensional Stabilizer&r is a multiblock used to transmute Ice Shards into Dimensional Shards."
+				""
+				"&e&lHold Z to see how to build it !"
+				""
 				"{image:techev:textures/misc/quests/dimensional_stabilizer.png width:150 height:141 align:1}"
 			]
 			icon: "custommachinery:dimensional_stabilizer"

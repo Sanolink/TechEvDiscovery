@@ -3257,6 +3257,8 @@
 			description: [
 				"&l&6Precision Assembler&r is a multiblock used for meticulous crafts."
 				""
+				"&e&lHold Z to see how to build it !"
+				""
 				"{image:techev:textures/misc/quests/create/precision_assembler.png width:68 height:66 align:1 fit:true}"
 			]
 			icon: {
@@ -3278,13 +3280,7 @@
 			tasks: [
 				{
 					id: "6E619D97734F335B"
-					item: {
-						Count: 1b
-						id: "custommachinery:custom_machine_item"
-						tag: {
-							machine: "custommachinery:precision_assembler"
-						}
-					}
+					item: "custommachinery:precision_assembler"
 					type: "item"
 				}
 				{

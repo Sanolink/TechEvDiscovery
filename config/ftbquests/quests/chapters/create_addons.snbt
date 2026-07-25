@@ -684,6 +684,9 @@
 			dependencies: ["5A60D63770DF2D2F"]
 			description: [
 				"&l&6Chiaroscuro Forge&r is a multiblock used to automate the production of &l&5Shadow Steel&r and &l&eRefined Radiance&r."
+				""
+				"&e&lHold Z to see how to build it !"
+				""
 				"{image:techev:textures/misc/quests/create/chiaroscuro_forge.png width:150 height:150 align:1}"
 			]
 			id: "031EF3BE7F5450DA"

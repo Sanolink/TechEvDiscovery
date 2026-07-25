@@ -1255,13 +1255,7 @@
 			tasks: [
 				{
 					id: "66B9230CB81B49B6"
-					item: {
-						Count: 1b
-						id: "custommachinery:custom_machine_item"
-						tag: {
-							machine: "custommachinery:circuit_etcher"
-						}
-					}
+					item: "custommachinery:circuit_etcher"
 					type: "item"
 				}
 				{

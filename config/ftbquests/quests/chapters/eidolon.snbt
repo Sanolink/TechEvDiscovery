@@ -851,13 +851,7 @@
 			tasks: [
 				{
 					id: "4FAD4A24B384C886"
-					item: {
-						Count: 1b
-						id: "custommachinery:custom_machine_item"
-						tag: {
-							machine: "custommachinery:soul_harvester"
-						}
-					}
+					item: "custommachinery:soul_harvester"
 					type: "item"
 				}
 				{

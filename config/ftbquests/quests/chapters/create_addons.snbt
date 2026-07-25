@@ -698,13 +698,7 @@
 			tasks: [
 				{
 					id: "118BFC8F546DC04F"
-					item: {
-						Count: 1b
-						id: "custommachinery:custom_machine_item"
-						tag: {
-							machine: "custommachinery:chiaroscuro_forge"
-						}
-					}
+					item: "custommachinery:chiaroscuro_forge"
 					type: "item"
 				}
 				{

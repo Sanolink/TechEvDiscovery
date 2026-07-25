@@ -3275,13 +3275,7 @@
 			tasks: [
 				{
 					id: "6E619D97734F335B"
-					item: {
-						Count: 1b
-						id: "custommachinery:custom_machine_item"
-						tag: {
-							machine: "custommachinery:precision_assembler"
-						}
-					}
+					item: "custommachinery:precision_assembler"
 					type: "item"
 				}
 				{

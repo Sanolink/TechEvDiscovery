@@ -7,17 +7,17 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ores/arcane_crystal"
+            "tag": "forge:ores/niter"
           }
         }
       ],
       "recipe": {
         "type": "industrialforegoing:laser_drill_ore",
         "catalyst": {
-          "item": "industrialforegoing:laser_lens3"
+          "item": "industrialforegoing:laser_lens4"
         },
         "output": {
-          "tag": "forge:ores/arcane_crystal"
+          "tag": "forge:ores/niter"
         },
         "pointer": 0,
         "rarity": [
@@ -41,9 +41,9 @@
                 "byg:viscal_isles"
               ]
             },
-            "depth_max": 60,
-            "depth_min": 45,
-            "weight": 3,
+            "depth_max": 20,
+            "depth_min": 5,
+            "weight": 2,
             "whitelist": {}
           },
           {

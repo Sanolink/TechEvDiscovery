@@ -7,17 +7,17 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ores/arcane_crystal"
+            "tag": "forge:raw_materials/lead"
           }
         }
       ],
       "recipe": {
         "type": "industrialforegoing:laser_drill_ore",
         "catalyst": {
-          "item": "industrialforegoing:laser_lens3"
+          "item": "industrialforegoing:laser_lens11"
         },
         "output": {
-          "tag": "forge:ores/arcane_crystal"
+          "tag": "forge:raw_materials/lead"
         },
         "pointer": 0,
         "rarity": [
@@ -41,9 +41,9 @@
                 "byg:viscal_isles"
               ]
             },
-            "depth_max": 60,
-            "depth_min": 45,
-            "weight": 3,
+            "depth_max": 40,
+            "depth_min": 10,
+            "weight": 6,
             "whitelist": {}
           },
           {

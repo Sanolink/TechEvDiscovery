@@ -59,6 +59,11 @@ ServerEvents.recipes(event => {
         values: biomes.ad_astra.glacio
     }
 
+    const mercuryBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.ad_astra.mercury
+    }
+
     const moonGlacioMarsBiomes = {
         type: 'minecraft:worldgen/biome',
         values: biomes.ad_astra.moon.concat(biomes.ad_astra.glacio).concat(biomes.ad_astra.mars)
@@ -413,7 +418,7 @@ ServerEvents.recipes(event => {
                     depth_max: 80,
                     depth_min: 0,
                     weight: 10,
-                    whitelist: glacioBiomes
+                    whitelist: mercuryBiomes
                 }
             ]
         },

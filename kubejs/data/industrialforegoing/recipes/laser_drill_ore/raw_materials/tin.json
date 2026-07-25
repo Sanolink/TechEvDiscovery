@@ -7,17 +7,17 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:ores/arcane_crystal"
+            "tag": "forge:raw_materials/tin"
           }
         }
       ],
       "recipe": {
         "type": "industrialforegoing:laser_drill_ore",
         "catalyst": {
-          "item": "industrialforegoing:laser_lens3"
+          "item": "industrialforegoing:laser_lens9"
         },
         "output": {
-          "tag": "forge:ores/arcane_crystal"
+          "tag": "forge:raw_materials/tin"
         },
         "pointer": 0,
         "rarity": [
@@ -41,9 +41,9 @@
                 "byg:viscal_isles"
               ]
             },
-            "depth_max": 60,
-            "depth_min": 45,
-            "weight": 3,
+            "depth_max": 96,
+            "depth_min": 64,
+            "weight": 8,
             "whitelist": {}
           },
           {
@@ -68,7 +68,7 @@
             },
             "depth_max": 255,
             "depth_min": 0,
-            "weight": 1,
+            "weight": 2,
             "whitelist": {}
           }
         ]

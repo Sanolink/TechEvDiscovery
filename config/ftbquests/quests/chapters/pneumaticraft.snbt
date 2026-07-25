@@ -1234,6 +1234,9 @@
 			dependencies: ["1480F78E6B58A186"]
 			description: [
 				"&l&6Circuit Etcher&r is a multiblock used to craft &l&2Printed Circuits&r."
+				""
+				"&e&lHold Z to see how to build it !"
+				""
 				"{image:techev:textures/misc/quests/pneumaticcraft/circuit_etcher.png width:132 height:133 align:1}"
 			]
 			icon: {
@@ -1255,13 +1258,7 @@
 			tasks: [
 				{
 					id: "66B9230CB81B49B6"
-					item: {
-						Count: 1b
-						id: "custommachinery:custom_machine_item"
-						tag: {
-							machine: "custommachinery:circuit_etcher"
-						}
-					}
+					item: "custommachinery:circuit_etcher"
 					type: "item"
 				}
 				{

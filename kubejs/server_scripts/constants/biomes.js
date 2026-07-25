@@ -14,7 +14,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.3         (_____)
 
 */
 
@@ -115,6 +115,17 @@ const biomes = {
         glacio: [
             'ad_astra:glacio_ice_peaks',
             'ad_astra:glacio_snowy_barrens'
+        ],
+        mercury: [
+            'ad_astra:mercury_deltas'
+        ],
+        mars: [
+            'ad_astra:martian_wastelands',
+            'ad_astra:martian_canyon_creek',
+            'ad_astra:martian_polar_caps'
+        ],
+        moon: [
+            'ad_astra:lunar_wastelands'
         ]
     }
 }

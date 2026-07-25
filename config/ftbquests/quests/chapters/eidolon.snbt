@@ -830,6 +830,9 @@
 			dependencies: ["42AD9FF048D3E4B7"]
 			description: [
 				"&l&6Soul Harvester&r is a multiblock used to automate the production of &l&5Soul Shards&r."
+				""
+				"&e&lHold Z to see how to build it !"
+				""
 				"{image:techev:textures/misc/quests/eidolon/soul_harvester.png width:134 height:128 align:1}"
 			]
 			icon: {
@@ -851,13 +854,7 @@
 			tasks: [
 				{
 					id: "4FAD4A24B384C886"
-					item: {
-						Count: 1b
-						id: "custommachinery:custom_machine_item"
-						tag: {
-							machine: "custommachinery:soul_harvester"
-						}
-					}
+					item: "custommachinery:soul_harvester"
 					type: "item"
 				}
 				{

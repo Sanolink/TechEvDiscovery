@@ -13,7 +13,7 @@
  |   | |____/|_|___/\___\___/ \_/ \___|_|   \__, | |   | 
  |   |                                      |___/  |   | 
  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| 
-(_____)         Last Modification : 1.4.0         (_____)
+(_____)         Last Modification : 1.5.3         (_____)
 
 */
 
@@ -57,6 +57,16 @@ ServerEvents.recipes(event => {
     const glacioBiomes = {
         type:'minecraft:worldgen/biome',
         values: biomes.ad_astra.glacio
+    }
+
+    const mercuryBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.ad_astra.mercury
+    }
+
+    const moonGlacioMarsBiomes = {
+        type: 'minecraft:worldgen/biome',
+        values: biomes.ad_astra.moon.concat(biomes.ad_astra.glacio).concat(biomes.ad_astra.mars)
     }
 
     const orbitBiomes = {
@@ -408,7 +418,7 @@ ServerEvents.recipes(event => {
                     depth_max: 80,
                     depth_min: 0,
                     weight: 10,
-                    whitelist: glacioBiomes
+                    whitelist: mercuryBiomes
                 }
             ]
         },
@@ -512,6 +522,109 @@ ServerEvents.recipes(event => {
                     depth_min: 0,
                     weight: 1,
                     whitelist: netherBiomes
+                }
+            ]
+        },
+        //Ice Shard
+        {
+            id: "ice_shard",
+            catalyst: laserLens.light_blue,
+            output: "ad_astra:deepslate_ice_shard_ore",
+            rarity: [
+                {
+                    blacklist: {},
+                    depth_max: 32,
+                    depth_min: -35,
+                    weight: 8,
+                    whitelist: moonGlacioMarsBiomes
+                },
+                {
+                    blacklist: {},
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: moonGlacioMarsBiomes
+                }
+            ]
+        },
+        //Thorium
+        {
+            id: "thorium",
+            catalyst: laserLens.orange,
+            output: "create_new_age:thorium",
+            rarity: [
+                {
+                    blacklist: endBiomes,
+                    depth_max: 63,
+                    depth_min: 19,
+                    weight: 8,
+                    whitelist: {}
+                },
+                {
+                    blacklist: endBiomes,
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: {}
+                }
+            ]
+        },
+        //Xpetrified Ore
+        {
+            id: "xpetrified_ore",
+            catalyst: laserLens.lime,
+            output: "forbidden_arcanus:xpetrified_ore",
+            rarity: [
+                {
+                    blacklist: endBiomes,
+                    depth_max: 35,
+                    depth_min: -7,
+                    weight: 8,
+                    whitelist: {}
+                },
+                {
+                    blacklist: endBiomes,
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: {}
+                }
+            ]
+        },
+        //Stellarite
+        {
+            id: "stellarite",
+            catalyst: laserLens.astral,
+            output: "forbidden_arcanus:stellarite_piece",
+            rarity: [
+                {
+                    blacklist: orbitBiomes,
+                    depth_max: -34,
+                    depth_min: -41,
+                    weight: 1,
+                    whitelist: {}
+                }
+            ]
+        },
+        //Uraninite
+        {
+            id: "uraninite",
+            catalyst: laserLens.green,
+            output: "#forge:ores/uraninite",
+            rarity: [
+                {
+                    blacklist: endBiomes,
+                    depth_max: 56,
+                    depth_min: -32,
+                    weight: 8,
+                    whitelist: {}
+                },
+                {
+                    blacklist: endBiomes,
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1,
+                    whitelist: {}
                 }
             ]
         },
